@@ -1,0 +1,483 @@
+
+175 = { #Catherny
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+176 = { #WestWolfDwarf
+	religion = guthix
+	culture = dwarf
+	holding = castle_holding
+}
+
+177 = { #BeeForest
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+178 = { #KeepLeFaye
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+179 = { #Camelot
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+180 = { #SeersVil
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+181 = { #McWoods
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+182 = { #Sinclair
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+183 = { #NorthSeersForest
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+195 = { #CoalTruck
+	religion = guthix
+	culture = dwarf
+	holding = castle_holding
+}
+
+196 = { #Hemenster
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+197 = { #FishGuild
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+198 = { #RangeGuild
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+199 = { #FireForest
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+200 = { #Sorcerers
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+201 = { #Ikov
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+202 = { #PlainMud
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
+203 = { #ardyFarm
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+204 = { #AncientForest
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+205 = { #Legends
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+206 = { #LegendsMine
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+207 = { #Witchaven
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+208 = { #Ardy
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+209 = { #WestArdy
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+224 = { #BaxInfo
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+225 = { #Goblin Outpost
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
+226 = { #Almera
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+227 = { #Barbass
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+228 = { #Otto
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+229 = { #ChaosTower
+	religion = zamorak
+	culture = kandarin
+	holding = castle_holding
+}
+
+230 = { #Combat
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+231 = { #ArdyOutpost
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+232 = { #TreeGnomeStornghold
+	religion = guthix
+	culture = gnome
+	holding = castle_holding
+}
+
+233 = { #ArdyMonastery
+	religion = saradomin
+	culture = kandarin
+	holding = church_holding
+}
+
+234 = { #ClockTower
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+235 = { #FortKhaz
+	religion = zamorak
+	culture = kandarin
+	holding = castle_holding
+}
+
+236 = { #ZMI
+	religion = zamorak
+	culture = kandarin
+	holding = castle_holding
+}
+
+237 = { #GnomeVil
+	religion = guthix
+	culture = gnome
+	holding = castle_holding
+}
+
+238 = { #FightArena
+	religion = zamorak
+	culture = kandarin
+	holding = castle_holding
+}
+
+239 = { #ArdyOutpost
+	religion = zamorak
+	culture = kandarin
+	holding = castle_holding
+}
+
+240 = { #Observe
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
+241 = { #Yanille
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+242 = { #Feldip
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+243 = { #CaslteWars
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+244 = { #Hazelmere
+	religion = guthix
+	culture = gnome
+	holding = castle_holding
+}
+
+245 = { #Myths
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+246 = { #Poison
+	religion = guthix
+	culture = elf
+	holding = castle_holding
+}
+
+247 = { #Tyras
+	religion = saradomin
+	culture = elf
+	holding = castle_holding
+}
+
+248 = { #Tiranwinn
+	religion = guthix
+	culture = elf
+	holding = castle_holding
+}
+
+249 = { #Lleyta
+	religion = guthix
+	culture = elf
+	holding = castle_holding
+}
+
+250 = { #Priffdinas
+	religion = guthix
+	culture = elf
+	holding = castle_holding
+	5500.1.1 = {
+		special_building = generic_university
+	}
+}
+
+251 = { #Gwinth
+	religion = guthix
+	culture = elf
+	holding = castle_holding
+}
+
+252 = { #Arandar
+	religion = zamorak
+	culture = elf
+	holding = castle_holding
+}
+
+253 = { #Eagles
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+254 = { #FalconHunt
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+255 = { #Pisc
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+279 = { #NorthOgre
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+280 = { #SouthOgre
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+281 = { #Jigg
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+282 = { #OgreIsle
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+283 = { #WestFelSwamp
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+284 = { #EastFeldipS
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+285 = { #Rantz
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+286 = { #FeldipHunt
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+287 = { #FeldipResource
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+288 = { #Ogress
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+289 = { #CorsairCove
+	religion = saradomin
+	culture = asgarnia
+	holding = tribal_holding
+}
+
+290 = { #CastleWarsSwamp
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+291 = { #MythIsle
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+292 = { #WrathAltar
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+293 = { #MythCoast
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+294 = { #UpperJig
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+295 = { #OgreCoffins
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+296 = { #SmokeDevDungeon
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+297 = { #Ogress Jungle
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+298 = { #Corsair Coast
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+299 = { #OgreIsle Capital
+	religion = bandos
+	culture = ogre
+	holding = tribal_holding
+}
+
+300 = { #RantzCoast
+	religion = bandos
+	culture = ogre
+	holding = none
+}
+
+301 = { #JungleCoast
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+302 = { #JungleMountians
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}

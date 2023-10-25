@@ -1,0 +1,245 @@
+21 = {		#AlK
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+22 = {		#Giant
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+23 = {		#Citharade
+	culture = misthalin
+	religion = saradomin
+	holding = church_holding
+}
+
+24 = {		#Shantay
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+25 = {		#ScorpMine
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+26 = {		#MageArena
+	culture = misthalin
+	holding = castle_holding
+}
+
+27 = {		#DuelArena
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+108 = {  #North Desert
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+109 = {  #Khalphite
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+110 = {  #MineCamp
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+111 = {  #West Desert
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+112 = {  #Bedabin
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+113 = {  #BanditCamp
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+114 = {  #Quarry
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+115 = {  #AncientP
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+116 = {  #Port D
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+117 = {  #Sophanem
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+118 = {  #SouthOasis
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+119 = {  #AgilityP
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+120 = {  #South Des
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+121 = {  #Nardah
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+122 = {  #East Desert
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+123 = {  #Uzer
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+124 = {  #DesertEagle
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+126 = {  #Pollinviech
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+127 = { #unkahMine
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+128 = {  #Unkah
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+129 = {  #UnkahDes
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+130 = {  #Dunes
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+131 = {  #NecroMine
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+132 = {  #Necropolis
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+133 = {  #UllekMine
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+134 = {  #UllekCoast
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+135 = {  #Ullek
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+136 = {  #Vault
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+137 = {  #UzerMastaba
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+138 = {  #Uzer Oasis
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
+
+139 = {  #Worker D
+	culture = kharidian
+	religion = menaph
+	holding = city_holding
+}
+
+140 = {  #Merchant D
+	culture = kharidian
+	religion = menaph
+	holding = city_holding
+}
+
+141 = {  #Imperial D
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+	9500.1.1 = {
+		special_building = generic_university
+	}
+}
+
+
+
+

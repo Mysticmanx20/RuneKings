@@ -1,0 +1,1091 @@
+﻿
+kand001 = {
+	name = "Phantuwti"
+	#dynasty Farsight
+	culture = kandarin
+	religion = saradomin
+	trait = calm
+	trait = humble
+	trait = patient
+	trait = education_learning_2
+	disallow_random_traits = yes
+	11585.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand002 = {
+	name = "Vestri"
+	religion = guthix
+	culture = dwarf
+	11581.1.1 = {
+		birth = yes
+	}
+}
+
+
+kand004 = {
+	name = "Arthur"
+	religion = saradomin
+	culture = welsh
+	trait = just
+	trait = brave
+	trait = patient
+	trait = education_martial_1
+	disallow_random_traits = yes
+	11584.1.1 = {
+		birth = yes
+	}
+}
+
+kand005 = {
+	name = "Sinclair"
+	#dynasty Sinclair
+	religion = saradomin
+	culture = kandarin
+	trait = generous
+	11579.1.1 = {
+		birth = yes
+	}
+}
+
+kand006 = {
+	name = "Morgan"
+	#dynasty Le Faye
+	female = yes
+	religion = zamorak
+	culture = welsh
+	trait = deceitful
+	trait = stubborn
+	trait = vengeful
+	trait = education_intrigue_1
+	11584.1.1 = {
+		birth = yes
+	}
+}
+
+kand007 = {
+	name = "Arhein"
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_1
+	11597.1.1 = {
+		birth = yes
+	}
+}
+
+kand008 = {
+	name = "Dantaera"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = lifestyle_gardener
+	trait = education_diplomacy_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11617.1.1 = {
+		employer = kand007
+	}
+}
+
+kand009 = {
+	name = "Hickton"
+	religion = saradomin
+	culture = kandarin
+	trait = patient
+	trait = education_learning_3
+	11586.1.1 = {
+		birth = yes
+	}
+	11617.1.1 = {
+		employer = kand007
+	}
+}
+
+kand010 = {
+	name = "Harry"
+	religion = saradomin
+	culture = kandarin
+	trait = compassionate
+	trait = education_learning_1
+	11595.1.1 = {
+		birth = yes
+	}
+	11617.1.1 = {
+		employer = kand007
+	}
+}
+
+kand011 = {
+	name = "Caleb"
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_1
+	11597.1.1 = {
+		birth = yes
+	}
+	11617.1.1 ={
+		employer = kand007
+	}
+}
+
+kand012 = {
+	name = "Peter"
+	#dynasty Potter
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_2
+	11597.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand001
+	}
+}
+
+kand013 = {
+	name = "Geoffrey" #Flax
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_1
+	11597.1.1 = {
+		birth = yes
+	}
+}
+
+kand014 = {
+	name = "Morris"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+kand015 = {
+	name = "Kylie"
+	#dynasty Minnow
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_2
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand016 = {
+	name = "Kragen"
+	religion = saradomin
+	culture = kandarin
+	trait = lifestyle_gardener
+	trait = education_diplomacy_1
+	11592.1.1 = {
+		birth = yes
+	}
+}	
+
+kand017 = {
+	name = "Lathas"
+	dynasty = 100912
+	religion = saradomin #zamorak
+	culture = kandarin
+	trait = arbitrary
+	trait = greedy
+	trait = deceitful
+	trait = education_intrigue_2
+	disallow_random_traits = yes
+	father = kand019
+	11578.1.1 = {
+		birth = yes
+	}
+}
+
+kand018 = {
+	name = "Tyras"
+	dynasty = 100912
+	religion = saradomin
+	culture = kandarin
+	trait = brave
+	trait = stubborn
+	trait = paranoid
+	trait = education_martial_2
+	disallow_random_traits = yes
+	father = kand019
+	11582.1.1 = {
+		birth = yes
+	}
+}
+
+kand019 = {
+	name = "Ulthas"
+	dynasty = 100912
+	religion = saradomin
+	culture = kandarin
+	trait = generous
+	trait = education_stewardship_3
+	father = kand020
+	11547.1.1 = {
+		birth = yes
+	}
+	11588.1.1 = {
+		death = yes
+	}
+}
+
+kand020 = {
+	name = "Narras"
+	dynasty = 100912
+	religion = saradomin
+	culture = kandarin
+	trait = lunatic_1
+	trait = education_intrigue_4
+	11524.1.1 = {
+		birth = yes
+	}
+	11585.1.1 = {
+		death = yes
+	}
+}
+
+kand021 = {
+	name = "Thoros"
+	dynasty = 100912
+	religion = saradomin
+	culture = kandarin
+	11580.1.1 = {
+		birth = yes
+	}
+}
+
+kand022 = {
+	name = "Bravek"
+	religion = saradomin
+	culture = kandarin
+	trait = education_martial_1
+	11578.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand023 = {
+	name = "Chadwell"
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_1
+	11583.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand024 = {
+	name = "Sarah"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_1
+	11592.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand025 = {
+	name = "Carla"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_1
+	11587.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand026 = {
+	name = "Jethick"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11576.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand027 = {
+	name = "Koftik"
+	religion = saradomin
+	culture = kandarin
+	trait = education_martial_1
+	11594.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand028 = {
+	name = "Kilron"
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_1
+	11596.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand018
+	}
+}
+
+kand029 = {
+	name = "Ted"
+	#Rehnison
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11583.1.1 = {
+		birth = yes
+	}
+	11588.1.1 = {
+		employer = kand018
+	}
+}
+
+kand030 = {
+	name = "Martha"
+	#Rehnison
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11581.1.1 = {
+		birth = yes
+	}
+	11597.1.1 = {
+		add_spouse = kand029
+	}
+}
+
+kand031 = {
+	name = "Billy"
+	#Rehnison
+	religion = saradomin
+	culture = kandarin
+	father = kand029
+	mother = kand030
+	11611.1.1 = {
+		birth = yes
+	}
+}
+
+kand032 = {
+	name = "Milli"
+	#Rehnison
+	religion = saradomin
+	culture = kandarin
+	father = kand029
+	mother = kand030
+	11610.1.1 = {
+		birth = yes
+	}
+}
+
+kand033 = {
+	name = "Halgrive"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_2
+	11590.1.1 = {
+		birth = yes #chancillor
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand034 = {
+	name = "Orbon"
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11599.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand035 = {
+	name = "Brumty"
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_1
+	11596.1.1 = {
+		birth = yes
+	}
+}
+
+kand036 = {
+	name = "Edmond"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11575.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand037 = {
+	name = "Alrena"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_1
+	11596.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand038 = {
+	name = "Elena"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	mother = kand030
+	father = kand029
+	trait = education_intrigue_2
+	11596.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand39 = {
+	name = "Cromperty"
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11580.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand40 = {
+	name = "Francis"
+	#Handelmort
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_3
+	11581.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand041 = {
+	name = "Charlie"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand042 = {
+	name = "Larry"
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_2
+	11592.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand043 = {
+	name = "Ceril"
+	#Carnillean
+	religion = saradomin
+	culture = kandarin
+	trait = arrogant
+	trait = education_diplomacy_2
+	11588.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand044 = {
+	name = "Henryeta"
+	#Carnillean
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_2
+	11588.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand045 = {
+	name = "Philipe"
+	#Carnillean
+	religion = saradomin
+	culture = kandarin
+	mother = kand044
+	father = kand043
+	11609.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+ 
+
+kand046 = {
+	name = "Sarsaparilla"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	11606.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand047 = {
+	name = "Lottie" #twopints
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = drunkard
+	11601.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
+kand048 = {
+	name = "Matthias"
+	#Redwall
+	religion = saradomin
+	culture = kandarin
+	trait = lifestyle_hunter
+	11588.1.1 = {
+		birth = yes
+	}
+}
+
+kand049 = {
+	name = "Mattimeo"
+	#Redwall
+	religion = saradomin
+	culture = kandarin
+	father = kand048
+	trait = lifestyle_hunter
+	11611.1.1 = {
+		birth = yes
+	}
+	
+}
+
+kand050 = {
+	name = "Nickolaus"
+	#Ferrick
+	religion = saradomin
+	culture = kandarin
+	trait = arrogant
+	trait = lifestyle_hunter
+	11590.1.1 = {
+		birth = yes
+	}
+}
+
+kand051 = {
+	name = "Jorral"
+	religion = saradomin
+	culture = kandarin
+	trait = humble
+	trait = education_learning_2
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+kand052 = {
+	name = "Almera"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+kand053 = {
+	name = "Hudon"
+	religion = saradomin
+	culture = kandarin
+	trait = curious
+	mother = kand052
+	11613.1.1 = {
+		birth = yes
+	}
+}
+
+kand054 = {
+	name = "Hadley"
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_1
+	#overweight
+	11589.1.1 = {
+		birth = yes
+	}
+}
+
+kand055 = {
+	name = "Herman"
+	#Caranos
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_1
+	11581.1.1 = {
+		birth = yes
+	}
+}
+
+kand056 = {
+	name = "Arnold"
+	#Lydspor
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_1
+	11580.1.1 = {
+		birth = yes
+	}
+	11616.1.1 = {
+		employer = kand055
+		give_council_position = councillor_steward
+	}
+}
+
+kand057 = {
+	name = "Aaron"
+	religion = saradomin
+	culture = kandarin
+	trait = education_martial_4
+	11594.1.1 = {
+		birth = yes
+	}
+}
+
+kand058 = {
+	name = "Ignatius"
+	#Vulcan
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_4
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+kand071 = {
+	name = "Thormac"
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+kand059 = {
+	name = "Armacus"
+	religion = saradomin #armadyl
+	culture = kandarin
+	trait = education_martial_2
+	11593.1.1 = {
+		birth = yes
+	}
+}
+
+kand060 = {
+	name = "Eustace"
+	#Hobb
+	religion = saradomin #slug
+	culture = kandarin
+	trait = education_diplomacy_1
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+kand061 = {
+	name = "Radimus"
+	#Erkle
+	religion = saradomin
+	culture = kandarin
+	trait = brave
+	trait = education_martial_4
+	11579.1.1 = {
+		birth = yes
+	} 
+	11600.1.1 = {
+		add_spouse = kand062
+	}
+}
+
+kand062 = {
+	name = "Fionella"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11584.1.1 = {
+		birth = yes
+	}
+}
+
+kand063 = {
+	name = "Omad"
+	religion = saradomin
+	culture = kandarin
+	trait = devoted
+	trait = education_learning_1
+	11593.1.1 = {
+		birth = yes
+	}
+}
+
+kand064 = {
+	name = "Murphy"
+	religion = zamorak
+	culture = kandarin
+	trait = patient
+	trait = education_learning_2
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+kand065 = {
+	name = "Khazard"
+	religion = zamorak
+	culture = kandarin #mahjarrat
+	trait = wrathful
+	trait = deceitful
+	trait = callous
+	trait = education_martial_3
+	disallow_random_traits = yes
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+kand066 = {
+	name = "Kojo"
+	religion = saradomin
+	culture = kandarin
+	trait = devoted
+	trait = education_diplomacy_1
+	11588.1.1 = {
+		birth = yes
+	}
+}
+
+kand067 = {
+	name = "Effigy"
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11580.1.1 = {
+		birth = yes
+	}
+}
+
+kand068 = {
+	name = "Invrigar"
+	religion = zamorak
+	culture = kandarin
+	trait = education_learning_3
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
+kand069 = {
+	name = "Irwin"
+	#Feaselbaum
+	religion = zamorak
+	culture = kandarin
+	trait = education_learning_2
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand070 = {
+	name = "Lanthus"
+	religion = guthix
+	culture = kandarin
+	trait = education_diplomacy_3
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
+kand072 = {
+	name = "Angor"
+	religion = zamorak
+	culture = kandarin
+	trait = temperate
+	trait = greedy
+	trait = content
+	trait = education_stewardship_1
+	disallow_random_traits = yes
+	11592.1.1 = {
+		birth = yes
+	}
+	11615.1.1 = {
+		employer = kand065
+		give_council_position = councillor_steward
+	}
+}
+
+kand073 = {
+	name = "Gerald"
+	religion = zamorak
+	culture = kandarin
+	trait = lazy
+	trait = gluttonous
+	trait = callous
+	trait = education_intrigue_1
+	disallow_random_traits = yes
+	11588.1.1 = {
+		birth = yes
+	}
+	11615.1.1 = {
+		employer = kand065
+	}
+}
+
+kand074 = {
+	name = "Franklin"
+	#Caranos
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_2
+	11583.1.1 = {
+		birth = yes
+	}
+	11616.1.1 = {
+		employer = kand055
+	}
+}
+
+kand075 = {
+	name = "Tock"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_diplomacy_3
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+kand076 = {
+	name = "Colin"
+	religion = saradomin
+	culture = asgarnia
+	11608.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand077 = {
+	name = "Arsen"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_intrigue_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand078 = {
+	name = "Francois"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_stewardship_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand079 = {
+	name = "Yusuf"
+	religion = menahpite
+	culture = kharidian
+	trait = education_stewardship_2 #steward
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand080 = {
+	name = "Ithoi"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_intrigue_2 #chancellor?
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand081 = {
+	name = "Gnocci"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_learning_2 
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+
+kand082 = {
+	name = "Soleil"
+	female = yes
+	religion = saradomin
+	culture = asgarnia
+	trait = education_stewardship_3
+	11590.1.1 = {
+		birth = yes
+	}
+	11620.1.1 ={
+		employer = kand075
+	}
+}
+
+kand083 = {
+	name = "Haris"
+	religion = menaph
+	culture = kharidian
+	trait = education_martial_2
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand084 = {
+	name = "Hunter"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_intrigue_4
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand085 = {
+	name = "Alec"
+	#dynasty Kincade
+	religion = saradomin
+	culture = kandarin
+	trait = education_learning_4
+	11589.1.1 = {
+		birth = yes
+	}
+}
+
+kand086 = {
+	name = "Radick"
+	religion = saradomin
+	culture = kandarin
+	trait = education_martial_1
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+kand087 = {
+	name = "Hagus"
+	religion = zamorak
+	culture = kandarin
+	trait = education_learning_3
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+
+

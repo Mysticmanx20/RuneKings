@@ -1,0 +1,269 @@
+
+8 = {  #Entrana
+	religion = saradomin
+	culture = asgarnia
+	holding = church_holding
+}
+
+28 = {  #Fally
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+29 = {  #Gob
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	11621.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
+}
+
+30 = {  #Chaos
+	religion = saradomin
+	culture = asgarnia
+	holding = church_holding
+}
+
+31 = {  #Dori
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+32 = {  #Dmine
+	religion = guthix
+	culture = dwarf
+	holding = castle_holding
+}
+
+33 = {  #blkfort
+	religion = zamorak
+	culture = asgarnia
+	holding = castle_holding
+}
+
+34 = {  #Monastery
+	religion = saradomin
+	culture = asgarnia
+	holding = church_holding
+}
+
+35 = { #Camdozaal 
+	religion = saradomin
+	culture = dwarf
+	holding = castle_holding
+}
+
+36 = {  #Mind
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+37 = { #MizTower
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+38 = {  #Body
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+39 = { #PSarim
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+	11621.1.1 = {
+		buildings = {
+			common_tradeport_03
+		}
+	}
+}
+
+40 = { #Mudskip
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+41 = { #FalFarm
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+42 = { #Rimm
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+43 = { #Craft
+	religion = saradomin
+	culture = asgarnia
+	holding = city_holding
+}
+
+
+48 = {  #Crandor 
+	religion = zamorak
+	culture = asgarnia
+	holding = castle_holding
+}
+
+65 = { #North Fal
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+66 = { #Party Room
+	religion = saradomin
+	culture = asgarnia
+	holding = city_holding
+}
+
+67 = { #Mine Guild
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+68 = {  #South Fal
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+162 = { #DarkWiz
+	religion = zamorak
+	culture = asgarnia
+	holding = castle_holding
+}
+
+163 = { #TavDungeon
+	religion = zamorak
+	culture = asgarnia
+	holding = castle_holding
+}
+
+164 = { #Tav
+	religion = guthix
+	culture = asgarnia
+	holding = castle_holding
+}
+
+165 = { #WitchHouse
+	religion = zamorak
+	culture = asgarnia
+	holding = city_holding
+}
+
+166 = { #DCircle
+	religion = guthix
+	culture = asgarnia
+	holding = church_holding
+}
+
+167 = { #Eastwolf
+	religion = guthix
+	culture = dwarf
+	holding = castle_holding
+}
+
+168 = { #Heroes
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+169 = { #Burth
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+170= { #Burth Store
+	religion = saradomin
+	culture = asgarnia
+	holding = city_holding
+}
+
+171 = { #Warriors
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+172 = { #DeathP
+	religion = bandos
+	culture = troll
+	holding = tribal_holding
+}
+
+173 = { #Rogues
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+264 = { #RMelzar
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+265 = { #Chemsit
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+266 = { #RimMine
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+267 = { #SarimChurch
+	religion = saradomin
+	culture = asgarnia
+	holding = church_holding
+
+	11621.1.1 = {
+		culture = goblin
+		religion = bandos
+		
+	}
+}
+
+268 = { #SarimGobs
+	culture = goblin
+	religion = bandos
+	holding = tribal_holding
+	11619.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
+
+}
+
+269 = { #HobGobs
+	religion = bandos
+	culture = goblin
+	holding = castle_holding
+}
+
+270 = { #Makeover
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
