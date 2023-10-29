@@ -1,0 +1,165 @@
+﻿
+### RuneKings
+
+language_common = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_common
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_common }
+			multiply = 10
+		}
+	}
+	
+	color = frankish
+}
+
+language_bandos = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bandos
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bandos }
+			multiply = 10
+		}
+	}
+	
+	color = turkish
+}
+
+language_dwarf = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dwarf
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dwarf }
+			multiply = 10
+		}
+	}
+	
+	color = georgian
+}
+
+language_karamja = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_karamja
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_karamja }
+			multiply = 10
+		}
+	}
+	
+	color = kru
+}
+
+language_monkey = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_monkey
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_monkey }
+			multiply = 10
+		}
+	}
+	
+	color = kru
+}
+
+language_vampyre = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vampyre
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vampyre }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_kharidian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kharidian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kharidian }
+			multiply = 10
+		}
+	}
+	
+	color = bedouin
+}
+
+language_ghost = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ghost
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ghost }
+			multiply = 10
+		}
+	}
+	
+	color = welsh
+}
+
+language_elf = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_elf
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_elf }
+			multiply = 10
+		}
+	}
+	
+	color = burmese
+}
+

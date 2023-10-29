@@ -1,0 +1,40 @@
+﻿heritage_human = {
+	type = heritage
+}
+
+heritage_bandos = {
+	type = heritage
+}
+
+heritage_dwarf = {
+	type = heritage
+}
+
+heritage_vampyre = {
+	type = heritage
+}
+
+heritage_undead = {
+	type = heritage
+}
+
+heritage_various2 = {
+	type = heritage
+}
+
+heritage_gnome = {
+	type = heritage
+}
+
+heritage_troll = {
+	type = heritage
+}
+
+heritage_elf = {
+	type = heritage
+}
+
+heritage_monkey = {
+	type = heritage
+}
+
