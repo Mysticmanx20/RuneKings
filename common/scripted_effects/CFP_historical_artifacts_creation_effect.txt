@@ -1,0 +1,210 @@
+﻿create_artifact_joyeuse_effect = { #overwrite vanilla one to set CFP model (1066 start)
+	
+	$OWNER$ = { save_scope_as = owner } # Get the character the artifact is being made for.
+	set_artifact_rarity_illustrious = yes # Not really used, but if we don't set the scopes we get errors in the feature selection
+	
+	# Create the artifact
+	create_artifact = {
+		name = artifact_cfp_joyeuse_name
+		description = artifact_joyeuse_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_sword_joyeuse
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 800.12.25
+			recipient = character:6392 #Karl I the Great
+			location = province:2092 #Aachen
+		}
+		modifier = joyeuse_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = joyeuse
+		add_artifact_history = {
+			type = inherited
+			date = 814.1.2
+			recipient = character:90095 #Louis I
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 840.6.20
+			recipient = character:30227 #Lothair I
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 855.9.20
+			recipient = character:144998 #Lothair II
+		}
+		add_artifact_title_history = {
+			target = title:k_france
+			date = 855.9.20
+		}
+		save_scope_as = epic
+	}
+	
+}
+
+create_artifact_cfp_bayeux_tapestry_effect = { 
+	
+	$OWNER$ = { save_scope_as = owner }
+	$MAKER$ = { save_scope_as = maker }
+	
+	hidden_effect = {
+		set_artifact_rarity_illustrious = yes
+		
+		scope:owner = {
+			create_artifact = {
+				name = artifact_cfp_bayeux_tapestry_name
+				description = placeholder # Will be regenerated in the post-creation effects
+				template = cfp_bayeux_tapestry_template
+				type = book
+				visuals = cfp_bayeux_tapestry
+				wealth = scope:wealth
+				quality = scope:quality
+				creator = scope:maker
+				modifier = cfp_bayeux_tapestry_modifier
+				save_scope_as = newly_created_artifact
+				decaying = no
+			}
+		}
+		
+		scope:newly_created_artifact = {
+			set_artifact_description = artifact_cfp_bayeux_tapestry_description
+			set_variable = { name = historical_unique_artifact value = yes }
+			save_scope_as = epic
+		}
+	}
+}
+
+create_artifact_cfp_krum_skull_cup_effect = { 
+	
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	$DESKULLED$ = { save_scope_as = killed }
+	$LOCATION$ = { save_scope_as = location }
+	
+	set_artifact_rarity_famed = yes
+	
+	create_artifact = {
+		name = artifact_cfp_krum_skull_cup_name
+		description = artifact_cfp_krum_skull_cup_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_trophy_skull_cup_01
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 750.1.1
+			recipient = character:70497 # Nikephoros I
+			location = province:760 #Tyana, c_cappadocia
+		}
+		modifier = cfp_krum_skull_cup_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		# set_variable = joyeuse
+		add_artifact_title_history = {
+			target = title:k_bulgaria
+			date = 812.1.1
+		}
+		add_artifact_history = {
+			type = conquest
+			date = 811.7.26
+			actor = character:70497 # Nikephoros I
+			recipient = character:159123 # Krum of Bulgaria
+			location = province:3689 #Preslav
+		}
+		
+		save_scope_as = epic
+	}
+	
+}
+
+create_artifact_cfp_kure_skull_cup_effect = { 
+	
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	$DESKULLED$ = { save_scope_as = killed }
+	$LOCATION$ = { save_scope_as = location }
+	
+	set_artifact_rarity_famed = yes
+	
+	create_artifact = {
+		name = artifact_cfp_kure_skull_cup_name
+		description = artifact_cfp_kure_skull_cup_description
+		template = general_unique_template
+		type = pedestal
+		visuals = cfp_trophy_skull_cup_01
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 942.1.2
+			recipient = character:602 # Sviatoslav of Ruthenia
+			location = province:547 #Kiev
+		}
+		modifier = cfp_kure_skull_cup_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		# set_variable = joyeuse
+		add_artifact_title_history = {
+			target = title:k_pechenegs
+			date = 973.1.1
+		}
+		add_artifact_history = {
+			type = conquest
+			date = 972.1.2
+			actor = character:602 # Sviatoslav of Ruthenia
+			recipient = character:pecheneg000001 # Küre of Pechenegs
+			location = province:1071 #river_dnieper
+		}
+		
+		save_scope_as = epic
+	}
+	
+}
+
+create_artifact_rk_ghostspeak_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = ghostspeak_name
+		description = ghostspeak_desc
+		template = rk_ghostspeak_template
+		type = miscellaneous
+		visuals = necklace
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 11620.10.29
+			recipient = character:900101 #Urhney 
+			location = province:3 #Lum Swamp
+		}
+		modifier = rk_ghostspeak
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
