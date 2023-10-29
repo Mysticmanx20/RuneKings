@@ -1,0 +1,643 @@
+﻿namespace = cfp_artifact
+
+# A Burmese traveler might forget his Kris Dagger if you invite him
+cfp_artifact.0001 = {
+	type = character_event
+	title = cfp_artifact.0001.t
+	desc = cfp_artifact.0001.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:traveler
+		animation = beg
+	}
+	
+	cooldown = { days = 7300 }
+	
+	trigger = {
+		NOR = {
+			has_culture = culture:burmese
+			has_culture = culture:mon
+			location = { geographical_region = world_europe_north }
+			location = { geographical_region = world_africa }
+			has_game_rule = never_cfp_artifacts # Disable if rule is OFF
+		}
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = -0.95
+			OR = {
+				location = { geographical_region = world_europe }
+				location = { geographical_region = world_steppe }
+				location = { geographical_region = world_asia_minor }
+				location = { geographical_region = world_middle_east }
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			gender = male
+			age = { 35 50 }
+			learning = { 8 12 }
+			intrigue = { 6 8 }
+			trait = education_intrigue_3
+			faith = faith:theravada
+			culture = culture:burmese
+			location = root.capital_province
+			save_scope_as = traveler
+			dynasty = none
+		}
+	}
+	
+	## Go away!
+	option = {
+		name = cfp_artifact.0001.a
+		debug_log = "CFP_Debug: traveler was denied entry in cfp_artifact.0001"
+		
+		stress_impact = {
+			compassionate = medium_stress_impact_gain
+			generous = medium_stress_impact_gain
+			gregarious = minor_stress_impact_gain
+		}
+		
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_compassion = -1
+				ai_honor = -1
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_astray_level
+				}
+			}
+			add = 50
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_hostile_level
+				}
+			}
+			add = 100
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_evil_level
+				}
+			}
+			add = 200
+			}
+		}
+		
+	}
+	
+	## Jail
+	option = {
+		name = cfp_artifact.0001.b
+		debug_log = "CFP_Debug: traveler was imprisoned in cfp_artifact.0001"
+		
+		add_dread = minor_dread_gain
+		
+		stress_impact = {
+			sadistic = major_stress_impact_loss
+			wrathful = minor_stress_impact_loss
+			lunatic_1 = minor_stress_impact_loss
+			lunatic_genetic = minor_stress_impact_loss
+			paranoid = medium_stress_impact_loss
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_compassion = -1
+				ai_zeal = 1
+			}
+			# modifier = {
+				# OR = {
+					# has_trait = zealous
+				# }
+				# add = 100
+			# }
+			modifier = {
+				OR = {
+					has_trait = sadistic
+					has_trait = wrathful
+					has_trait = callous
+				}
+				add = 200
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:traveler
+			IMPRISONER = root
+		}
+	}
+	
+	## Sleep in the stables
+	option = {
+		name = cfp_artifact.0001.c
+		
+		remove_short_term_gold = tiny_gold_value
+		
+		stress_impact = {
+			paranoid = medium_stress_impact_gain
+			callous = minor_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+			zealous = major_stress_impact_gain
+			greedy = minor_stress_impact_gain
+		}
+				
+		ai_chance = {
+			base = 50
+
+			ai_value_modifier = {
+				ai_compassion = 1
+				ai_honor = 1
+				ai_zeal = -2
+				ai_greed = -1
+				min = -45
+			}
+			modifier = {
+				OR = {
+					has_trait = greedy
+				}
+				add = -100
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_hostile_level
+				}
+			}
+			add = -50
+			}
+			modifier = {
+				faith = {
+				faith_hostility_level = {
+					target = scope:traveler.faith
+					value = faith_evil_level
+				}
+			}
+			add = -100
+			}
+		}
+		
+		hidden_effect = {
+			random_list = {
+				60 = {
+					debug_log = "CFP_Debug: traveler forgot his dagger in the stables cfp_artifact.0001"
+					if = { 
+						limit = { NOT = { any_character_artifact = { has_variable = cfp_kris_dagger_var } } } 
+						trigger_event = {
+							id = cfp_artifact.0002
+							days = 1
+						}
+					}
+					else = {
+						debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
+						trigger_event = {
+							id = cfp_artifact.0003
+							days = 1
+						}
+					}
+				}
+				40 = {
+					debug_log = "CFP_Debug: traveler slept in the stables in cfp_artifact.0001"
+					trigger_event = {
+						id = cfp_artifact.0003
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+cfp_artifact.0002 = { # Don't forget
+	type = character_event
+	title = cfp_artifact.0002.t
+	desc = cfp_artifact.0002.desc
+	theme = court
+	override_background = { reference = courtyard }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_kris_dagger_effect = { 
+			OWNER = root
+		}
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0002.a
+		show_as_tooltip = {
+			scope:newly_created_artifact = {
+				set_owner = {
+					target = root
+				}
+			}
+		}
+	}
+}
+cfp_artifact.0003 = { # Forget
+	type = character_event
+	title = cfp_artifact.0002.t
+	desc = cfp_artifact.0003.desc
+	theme = court
+	override_background = { reference = courtyard }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+	immediate = {
+		hidden_effect = {
+			scope:traveler = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0003.a
+	}
+}
+
+# A local sculptor asks you to kickstart him so he can prove his talent
+cfp_artifact.0005 = {
+	type = character_event
+	title = cfp_artifact.0005.t
+	desc = cfp_artifact.0005.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = beg
+	}
+	
+	cooldown = { days = 7300 }
+	
+	trigger = {
+		faith = { religion_tag = christianity_religion }
+		NOT = {	has_game_rule = never_cfp_artifacts } # Disable if rule is OFF
+	}
+	
+	immediate = {
+		create_character = {
+			gender = male
+			age = { 20 60 }
+			trait = arrogant
+			trait = beauty_bad_2
+			location = root.capital_province
+			culture = root.culture
+			faith = root.faith
+			save_scope_as = sculptor
+			dynasty = none
+		}
+	}
+	
+	## Go away!
+	option = {
+		name = cfp_artifact.0005.a
+		debug_log = "CFP_Debug: a ruler refused to be the benefactor of a local sculptor in cfp_artifact.0005"
+		
+		stress_impact = {
+			zealous = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+			trusting = minor_stress_impact_gain
+		}
+		
+		ai_chance = {
+			base = 40
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+			modifier = {
+				gold < 40
+				add = -40
+			}
+			modifier = {
+				OR = {
+					has_trait = cynical
+					has_trait = greedy
+				}
+				add = 100
+			}
+			modifier = {
+				any_character_artifact = { 
+					OR = {
+						has_variable = cfp_potato_jesus_var
+						has_variable = cfp_saint_statue_var
+						has_variable = cfp_mary_statue_var
+					}
+				}
+				add = 20
+			}
+		}
+		
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	
+	## Ok
+	option = {
+		name = cfp_artifact.0005.b
+		
+		remove_short_term_gold = { 30 40 }
+		
+		if = {
+			limit = { exists = scope:sculptor }
+			add_visiting_courtier = scope:sculptor
+		}
+		
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+			cynical = medium_stress_impact_gain
+		}
+		
+		ai_chance = {
+			base = 10
+			ai_value_modifier = {
+				ai_zeal = 1
+			}
+			modifier = {
+				has_trait = zealous
+				add = 150
+			}
+		}
+		
+		hidden_effect = {
+		
+			random_list = {
+				20 = {
+					debug_log = "CFP_Debug: sculptor disapeared in cfp_artifact.0006"
+					trigger_event = {
+						id = cfp_artifact.0006
+						days = { 5 10 }
+					}
+				}
+				20 = {
+					if = { 
+						limit = { NOT = { any_character_artifact = { has_variable = cfp_potato_jesus_var } } } 
+						trigger_event = {
+							id = cfp_artifact.0007
+							days = { 15 30 }
+						}
+					}
+					else = {
+						debug_log = "CFP_Debug: sculptor disapeared in cfp_artifact.0006"
+						trigger_event = {
+							id = cfp_artifact.0006
+							days = { 5 10 }
+						}
+					}
+				}
+				20 = {
+					if = {
+						limit = { NOT = { any_character_artifact = { has_variable = cfp_saint_statue_var } } } 
+						debug_log = "CFP_Debug: sculptor made a masterwork artifact in cfp_artifact.0008"
+						trigger_event = {
+							id = cfp_artifact.0008
+							days = { 30 60 }
+						}
+					}
+					else = {
+						debug_log = "CFP_Debug: sculptor disapeared in cfp_artifact.0006"
+						trigger_event = {
+							id = cfp_artifact.0006
+							days = { 5 10 }
+						}
+					}
+				}
+				20 = {
+					if = {
+						limit = { NOT = { any_character_artifact = { has_variable = cfp_mary_statue_var } } } 
+						debug_log = "CFP_Debug: sculptor made a famed artifact in cfp_artifact.0009"
+						trigger_event = {
+							id = cfp_artifact.0009
+							days = { 90 180 }
+						}
+					}
+					else = {
+						debug_log = "CFP_Debug: sculptor disapeared in cfp_artifact.0006"
+						trigger_event = {
+							id = cfp_artifact.0006
+							days = { 5 10 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+cfp_artifact.0006 = { # Riped off
+	type = character_event
+	title = cfp_artifact.0006.t
+	desc = cfp_artifact.0006.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = boredom
+	}
+	option = {
+		name = cfp_artifact.0006.a
+		
+		add_prestige = -20
+		
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			trusting = minor_stress_impact_gain
+		}
+		
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+}
+cfp_artifact.0007 = { # Potato Jesus
+	type = character_event
+	title = cfp_artifact.0007.t
+	desc = cfp_artifact.0007.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = dismissal
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = shame
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_potato_jesus_effect = { 
+			OWNER = root
+			MAKER = scope:sculptor
+		}
+	}
+	option = {
+		name = cfp_artifact.0007.a
+		debug_log = "CFP_Debug: sculptor was dismissed in cfp_artifact.0007"
+		show_as_tooltip = { scope:newly_created_artifact = { set_owner = { target = root } } }
+		if = {
+			limit = { exists = scope:sculptor }
+			remove_courtier_or_guest = scope:sculptor
+		}
+		ai_chance = {
+			base = 150
+			ai_value_modifier = {
+				ai_compassion = 1
+				ai_greed = -1
+			}
+		}
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+	option = {
+		name = cfp_artifact.0007.b
+		debug_log = "CFP_Debug: sculptor was imprisoned in cfp_artifact.0007"		
+		add_dread = minor_dread_gain
+		show_as_tooltip = { scope:newly_created_artifact = { set_owner = { target = root } } }
+		
+		stress_impact = {
+			sadistic = major_stress_impact_loss
+			wrathful = minor_stress_impact_loss
+			lunatic_1 = minor_stress_impact_loss
+			lunatic_genetic = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_zeal = 1
+			}
+			modifier = {
+				OR = {
+					has_trait = sadistic
+					has_trait = wrathful
+					has_trait = callous
+				}
+				add = 200
+			}
+		}
+		
+		imprison_character_effect = {
+			TARGET = scope:sculptor
+			IMPRISONER = root
+		}
+		
+	}
+}
+cfp_artifact.0008 = { # A saint
+	type = character_event
+	title = cfp_artifact.0008.t
+	desc = cfp_artifact.0008.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = throne_room_bow_1
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_saint_statue_effect = { 
+			OWNER = root
+			MAKER = scope:sculptor
+		}
+	}
+	option = {
+		name = cfp_artifact.0008.a
+		add_prestige = minor_prestige_gain
+		show_as_tooltip = { scope:newly_created_artifact = { set_owner = { target = root } } }
+		if = {
+			limit = { exists = scope:sculptor }
+			remove_courtier_or_guest = scope:sculptor
+		}
+		hidden_effect = {
+			scope:sculptor = {
+				death = { death_reason = death_vanished	}
+			}
+		}
+	}
+}
+cfp_artifact.0009 = { # Mary
+	type = character_event
+	title = cfp_artifact.0009.t
+	desc = cfp_artifact.0009.desc
+	theme = court
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = scope:sculptor
+		animation = personality_zealous
+	}
+	artifact = {
+	    target = scope:newly_created_artifact
+	    position = lower_center_portrait
+	}
+	immediate = {
+		create_artifact_cfp_mary_statue_effect = { 
+			OWNER = root
+			MAKER = scope:sculptor
+		}
+	}
+	option = {
+		name = cfp_artifact.0009.a
+		add_prestige = medium_prestige_gain
+		show_as_tooltip = { 
+			scope:newly_created_artifact = { set_owner = { target = root } }
+		}
+	}
+}
+
+# Your marshal thinks that a chess set would help, and you can prove yourself worthy
+# Removed when FP2 added chess sets
+# cfp_artifact.0011
+# cfp_artifact.0012
+# cfp_artifact.0013
