@@ -1,0 +1,3 @@
+﻿l_english:
+  ghostspeak_name:0 "Ghostspeak Amulet"
+  ghostspeak_desc:0 "This magical amulet allows the wearer to fully understand any spoken words from a ghost."
