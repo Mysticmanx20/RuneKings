@@ -1,0 +1,250 @@
+﻿900500 = {
+	name = "Lowerniel"
+	dynasty = 100903
+	religion = zamorak
+	culture = vampyre
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+900501 = {
+	name = "Necrovarus"
+	religion = zamorak
+	culture = ghost
+	11570.1.1 = {
+		birth = yes
+	}
+}
+
+900502 = {
+	name = "Damien"
+	religion = zamorak
+	culture = vampyre
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+900503 = {
+	name = "Razmire"
+	religion = zamorak
+	culture = morytania
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+900504 = {
+	name = "Elisabeta"
+	female = yes
+	religion = saradomin
+	culture = morytania
+	11594.1.1 = {
+		birth = yes
+	}
+}
+
+900505 = {
+	name = "Roavar"
+	religion = zamorak
+	culture = vampyre
+	11590.1.1 = {
+		birth = yes
+	}
+}
+
+900506 = {
+	name = "Fenkenstrain"
+	religion = saradomin
+	culture = morytania
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+900507 = {
+	name = "Gabrielle"
+	dna = gabi_dna
+	dynasty = 100906
+	female = yes
+	sexuality = bisexual
+	religion = guthix
+	culture = vampyre
+	trait = compassionate
+	trait = diligent
+	trait = infertile
+	trait = lifestyle_herbalist
+	trait = education_diplomacy_3
+	diplomacy = 10
+	martial = 10
+	stewardship = 7
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	disallow_random_traits = yes
+	11593.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	11600.1.1 = {
+		employer = 900506
+	}
+	11620.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:900147 }
+		}
+	}
+
+}
+
+900508 = {
+	name = "Treus" 
+	#dynasty Dayth
+	culture = ghost
+	religion = zamorak
+	trait = zealous
+	trait = stubborn
+	trait = arbitrary 
+	trait = education_martial_1
+	disallow_random_traits = yes
+	11580.1.1 = {
+		birth = yes
+	}
+}
+
+900509 = {
+	name= "Tarn"
+	#dynasty Razolor
+	culture = morytania
+	religion = saradomin
+	trait = ambitious
+	trait = patient
+	trait = wrathful
+	trait = lunatic_1
+	disallow_random_traits = yes
+	11589.1.1 = {
+		birth = yes
+	}
+}
+
+
+
+900510 = {
+	name = "Filliman" 
+	#dynasty Tarlock
+	culture = ghost
+	religion = guthix
+	trait = humble 
+	trait = compassionate
+	trait = patient
+	trait = education_learning_3
+	disallow_random_traits = yes
+	11589.1.1 = {
+		birth = yes
+	}
+
+}
+
+
+900511 = {
+	name = "Velorina"
+	female = yes
+	culture = ghost
+	religion = saradomin
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+
+
+900512 = {
+	name = "Verzik"
+	female = yes
+	#dynasty Vitur
+	culture = vampyre
+	religion = zamorak
+	trait = greedy
+	trait = gluttonous
+	trait = wrathful
+	trait = education_martial_3
+	disallow_random_traits = yes
+	11578.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		effect = {
+			change_current_weight = 90
+			change_target_weight = 75
+		}
+	}
+	
+}
+
+
+
+900513 = {
+	name = "Alice"
+	female = yes
+	culture = morytania
+	religion = saradomin
+	trait = craven
+	trait = stubborn 
+	trait = just
+	disallow_random_traits = yes
+	11575.1.1 = {
+		birth = yes
+	}
+	11591.1.1 = {
+		add_spouse = 900514
+	}
+}
+
+
+900514 = {
+	name = "Malcolm"
+	culture = ghost
+	religion = saradomin
+	trait = humble
+	trait = just
+	trait = greedy
+	disallow_random_traits = yes
+	11575.1.1 = {
+		birth = yes
+	}
+}
+
+900515 = {
+	name = "Lyra"
+	female = yes
+	culture = morytania
+	religion = saradomin
+	trait = deceitful
+	trait = stubborn
+	trait = arbitrary
+	trait = education_intrigue_1
+	disallow_random_traits = yes
+	mother = 900513
+	11601.1.1 = {
+		birth = yes
+	}
+}
+
+900516 = {
+	name = "Veliaf"
+	#dynasty Hurtz
+	culture = morytania
+	religion = saradomin
+	trait = ambitious
+	trait = zealous
+	trait = patient
+	trait = peasant_leader
+	trait = education_intrigue_2
+	disallow_random_traits = yes
+	11592.1.1 = {
+		birth = yes
+	}
+}

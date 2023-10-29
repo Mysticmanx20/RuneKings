@@ -1,0 +1,1974 @@
+﻿900100 = {
+	name = "Horatio"
+	religion = saradomin	
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	trait = generous
+	11591.1.1 = {
+		birth = yes
+	}
+	11596.1.1 = {
+		add_spouse = 900102
+	}
+}
+
+900101 = {
+	name = "Urhney"
+	religion = saradomin	
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	11558.1.1 = {
+		birth = yes
+	}
+}
+
+900102 = {
+	name = "Oriana"
+	female = yes
+	religion = saradomin	
+	culture = misthalin
+	11591.1.1 = {
+		birth = yes
+	}
+	11619.1.1 = {
+		death = yes
+	}
+
+}
+
+900103 = {
+	name = "Aereck"
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = saradomin	
+	culture = misthalin
+	11593.1.1 = {
+		birth = yes
+	}
+	11611.1.2 = {
+		employer = 900100
+	}
+	11620.6.1 = {
+		give_council_position = councillor_court_chaplain
+	}
+
+}
+
+900104 = {
+	name = "Ysondria"
+	female = yes
+	religion = guthix
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	trait = education_martial_1
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.6.2 = {
+		employer = 900101
+	}
+	11620.6.3 = {
+		give_council_position = councillor_marshal
+	}
+
+}
+
+900105 = {
+	name = "Millicent"
+	dynasty = 100900
+	female = yes
+	religion = saradomin
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	trait = education_stewardship_2
+	11601.1.1 = {
+		birth = yes
+	}
+}
+
+
+900106 = {
+	name = "Roald" #The Third - current
+	dynasty = 100901
+	religion = saradomin
+	culture = misthalin
+	father = 900108
+	11592.1.1 = {
+		birth = yes
+	}
+	11610.1.1 = {
+		add_spouse = 900107
+	}
+}
+
+900107 = {
+	name = "Ellamaria"
+	female = yes
+	religion = saradomin
+	culture = misthalin
+	11594.1.1 = {
+		birth = yes
+	}
+}
+
+900108 = {
+	name = "Roald" #The 2nd
+	dynasty = 100901
+	religion = saradomin
+	culture = misthalin
+	father = 900109
+	11533.1.1 = {
+		birth = yes
+	}
+	11612.1.1 = {
+		death = yes
+	}
+}
+
+900109 = {
+	name = "Roald" #The 1st
+	dynasty = 100901
+	religion = saradomin
+	culture = misthalin
+	11486.1.1 = {
+		birth = yes
+	}
+	11555.1.1 = {
+		death = yes
+	}
+}
+
+900110 = {
+	name = "Botolph"
+	dynasty = 100901
+	religion = saradomin
+	culture = misthalin
+	11442.1.1 = {
+		birth = yes
+	}
+	11504.1.1 = {
+		death = yes
+	}
+
+}
+
+900111 = {
+	name = "Polonius"
+	religion = saradomin
+	culture = misthalin
+	11412.1.1 = {
+		birth = yes
+	}
+	11483.1.1 = {
+		death = yes
+	}
+}
+
+900112 = {
+	name = "Claudius"
+	dynasty = 100901
+	religion = saradomin
+	culture = misthalin
+	11396.1.1 = {
+		birth = yes
+	}
+	11472.1.1 = {
+		death = yes
+	}
+
+}
+
+900113 = {
+	name = "Gunthor"
+	dynasty = 100904
+	culture = fremennik
+	religion = v
+	martial = 12
+	prowess = 12
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 6
+	learning = 7
+	trait = brave
+    trait = ambitious
+    trait = fickle
+	trait = education_martial_1
+	disallow_random_traits = yes
+	father = 900121
+	mother = 900138
+	11575.1.1 = {
+		birth = yes
+	
+	}
+	11589.1.1 = {
+		add_spouse = 900139
+	}
+	11620.1.1 = {
+		add_visiting_courtier = character:900125
+	}
+}
+
+900114 = {
+	name = "Cole"
+	dynasty = 100902
+	religion = saradomin
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	11594.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		effect = {
+			imprison = {
+				target = character:900169
+				type = dungeon
+			}
+		}
+	}
+}
+
+900115 = {
+	name = "Draynor"
+	culture = vampyre
+	religion = zamorak
+	dynasty = 100903
+	martial = 9
+	prowess = 11
+	diplomacy = 7
+	intrigue = 10
+	stewardship = 8
+	learning = 9
+	trait = callous
+    trait = gluttonous
+    trait = craven
+    trait = education_intrigue_1
+	trait = disinherited
+	disallow_random_traits = yes
+	11590.1.1 = {
+		birth = yes
+	}
+}
+
+900116 = {
+	name = "Drezel"
+	religion = saradomin
+	culture = misthalin
+	martial = 7
+	prowess = 6
+	diplomacy = 9
+	intrigue = 7
+	stewardship = 8
+	learning = 10
+	trait = humble
+    trait = just
+    trait = zealous
+	trait = education_learning_2
+	disallow_random_traits = yes
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+900117 = {
+	name = "Seth"
+	religion = saradomin
+	culture = misthalin
+	martial = 10
+	prowess = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	11572.1.1 = {
+		birth = yes
+	}
+}
+
+900118 = {
+	name = "Sedridor"
+	religion = saradomin
+	culture = misthalin
+	learning = 12
+	trait = just
+    trait = diligent
+	trait = humble
+    trait = education_learning_3
+	disallow_random_traits = yes
+	11565.1.1 = {
+		birth = yes
+	}
+}
+
+900119 = {
+	name = "Paul"
+	dynasty = 100932
+	religion = saradomin
+	culture = misthalin
+	11596.1.1 = {
+		birth = yes
+	}
+}
+
+900120 = {
+	name = "Gudrun"
+	dynasty = 100904
+	female = yes
+	culture = fremennik
+	religion = v
+	learning = 13
+	trait = content
+    trait = compassionate
+    trait = lustful
+	trait = education_diplomacy_1
+	disallow_random_traits = yes
+	father = 900113
+	mother = 900139
+	11603.1.1 = {
+		birth = yes
+	}
+}
+
+900121 = {
+	name = "Gunther"
+	dynasty = 100904
+	culture = fremennik
+	religion = v
+	father = 900122
+	mother = 900137
+	11524.1.1 = {
+		birth = yes
+	}
+	11542.1.1 = {
+		add_spouse = 900138
+	}
+	11595.1.1 = {
+		death = yes
+	}
+}
+
+900122 = {
+	name = "Gunnar"
+	dynasty = 100904
+	culture = fremennik
+	religion = v
+	martial = 20
+	11483.1.1 = {
+		birth = yes
+	}
+	11500.1.1 = {
+		add_spouse = 900137
+	}
+	11558.1.1 = {
+		death = yes
+	}
+}
+
+900123 = {
+	name = "Bill"
+	culture = misthalin
+	religion = saradomin
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+900124 = {
+	name = "Lloyd"
+	culture = misthalin
+	religion = saradomin
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+900125 = {
+	name = "Dororan"
+	religion = guthix
+	culture = dwarf
+	trait = compassionate
+	trait = lustful
+	trait = generous
+	11601.1.1 = {
+		birth = yes
+	}
+}
+
+900126 = {
+	name = "Haig"
+	dynasty = 100934
+	culture = misthalin
+	religion = saradomin
+	learning = 13
+	11578.1.1 = {
+		birth = yes
+	}
+}
+
+900127 = {
+	name = "Aris"
+	dynasty = 100933
+	female = yes
+	culture = misthalin
+	religion = guthix
+	learning = 15
+	11565.1.1 = {
+		birth = yes
+	}
+}
+
+900128 = {
+	name = "Randulf"
+	dynasty = 100935
+	culture = misthalin
+	religion = saradomin
+	martial = 13
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+900129 = {
+	name = "Lawrence"
+	dynasty = 100936
+	culture = misthalin
+	religion = saradomin
+	learning = 13
+	11591.1.1 = {
+		birth = yes
+		employer = 900108
+	}
+	11612.1.1 = {
+		employer = 900106
+	}
+	11620.1.1 = {
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+900130 = {
+	name = "Dimintheis"
+	dynasty = 100937
+	culture = misthalin
+	religion = saradomin
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
+900131 = {
+	name = "Brugsen"
+	dynasty = 100938
+	stewardship = 13
+	culture = misthalin
+	religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		give_council_position = councillor_steward
+	}
+}
+
+900132 = {
+	name = "Andrew"
+	dynasty = 100932 
+	culture = misthalin
+	religion = saradomin
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
+900133 = {
+	name = "Gertrude"
+	female = yes
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	11587.1.1 = {
+		birth = yes
+	}
+}
+
+900134 = {
+	name = "Draul"
+	dynasty = 100908
+	culture = misthalin
+	religion = saradomin
+	11585.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_courtier = character:900136
+	}
+}
+
+900135 = {
+	name = "Juliet"
+	female = yes
+	dynasty = 100908
+	father = 900134
+	culture = misthalin
+	religion = saradomin
+	11605.1.1 = {
+		birth = yes
+	}
+}
+
+900136 = {
+	name = "Phillipa"
+	female = yes
+	dynasty = 100910
+	culture = misthalin
+	religion = saradomin
+	11601.1.1 = {
+		birth = yes
+	}
+}
+
+900137 = {
+    name = "Brünnhilde"
+    female = yes
+    religion = v
+    culture = fremennik
+    11485.1.1 = {
+        birth = yes
+    }
+	
+    11549.1.1 = {
+        death = yes
+    }
+}
+
+900138 = {
+    name = "Svanhild"
+    female = yes
+    religion = v
+    culture = fremennik
+    11527.1.1 = {
+        birth = yes
+    }
+    11591.1.1 = {
+        death = yes
+    }
+}
+
+
+900139 = {
+    name = "Grímhildr"
+    female = yes
+    religion = v
+    culture = fremennik
+    11578.1.1 = {
+        birth = yes
+    }
+}
+
+900140 = {
+    name = "Haakon"
+    religion = v
+    culture = fremennik
+    trait = wrathful
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+	11595.1.1 = {
+		employer = 900113
+	}
+	11610.1.1 = {
+		give_council_position = councillor_marshal
+	}
+}
+
+900141 = {
+    name = "Litara"
+    female = yes
+    religion = v
+    culture = fremennik
+    11599.1.1 = {
+        birth = yes
+		employer = 900113
+    }
+}
+
+900142 = {
+    name = "Sigurd"
+    religion = v
+    culture = fremennik
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+}
+
+900143 = {
+    name = "Hunding"
+    religion = v
+    culture = fremennik
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+}
+
+900144 = {
+    name = "Kjell"
+    religion = v
+    culture = fremennik
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+}
+
+900145 = {
+    name = "Peksa"
+    religion = v
+    culture = fremennik
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+}
+
+900146 = {
+    name = "Tassie"
+	dynasty = 100931
+    female = yes
+    religion = saradomin
+    culture = asgarnia
+    11594.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+}
+
+900147 = {
+	name = "Æric"
+	dynasty = 100907
+	dna = eric_dna
+	religion = guthix
+	culture = misthalin
+	sexuality = heterosexual
+	trait = lazy
+	trait = content
+	trait = gregarious
+	trait = loyal
+	trait = education_diplomacy_3
+	disallow_random_traits = yes
+	martial = 8
+	prowess = 7
+	diplomacy = 5
+	intrigue = 10
+	stewardship = 10
+	learning = 9
+	11593.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	11612.1.1 = {
+		employer = 900106
+	}
+
+}
+
+900148 = {
+	name= "Orla"
+	female = yes
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	11587.1.1 = {
+		birth = yes
+		effect = {
+			set_mother = dummy_female
+		}
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+
+}
+
+900149 = {
+	name= "Walter"
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	11587.1.1 = {
+		birth = yes
+	}
+	11603.1.1 = {
+		add_spouse = 900133
+	}
+
+}
+
+900150 = {
+	name = "Wilough"
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	mother = 900133
+	father = 900149
+	11612.1.1 = {
+		birth = yes
+	}
+}
+
+900151 = {
+	name = "Shilop"
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	mother = 900133
+	father = 900149
+	11614.1.1 = {
+		birth = yes
+	}
+}
+
+900152 = {
+	name = "Philop"
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	mother = 900133
+	father = 900149
+	11614.1.1 = {
+		birth = yes
+	}
+}
+
+
+900153 = {
+	name = "Kanel"
+	dynasty = 100911
+	culture = misthalin
+	religion = saradomin
+	mother = 900133
+	father = 900149
+	11619.1.1 = {
+		birth = yes
+	}
+}
+
+
+900154 = {
+    name = "Solztun" #brother of Litara
+    religion = v
+    culture = fremennik
+    11596.1.1 = {
+        birth = yes
+
+    }
+    116116.1.1 = {
+        death = yes #disappeared
+    }
+
+}
+
+900155 = {
+    name = "Arisha"
+    female = yes
+    mother = 900157
+    religion = guthix
+    culture = fremennik
+    #prisoner of Blk Fort at game start?
+    11600.1.1 = {
+        birth = yes
+		employer = 900113
+    }
+	11617.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_friend_to_lover target = character:900158 }
+		}
+	}
+}
+
+900156 = {
+    name = "Kuhn"
+    religion = v
+    culture = fremennik
+    trait = lustful
+    trait = wrathful
+    trait = arrogant
+    trait = drunkard
+    11580.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+    11611.1.1 = {
+		add_trait = murderer
+		employer = 900114
+        #murdered Haba's husband
+        #exiled to Edgeville
+    }
+}
+
+900157 = {
+    name = "Haba"
+    female = yes
+    religion = guthix
+    culture = fremennik
+    11580.1.1 = {
+        birth = yes
+		employer = 900121
+    }
+
+}
+
+
+900158 = {
+    name = "Castimir"
+    religion = saradomin
+    culture = asgarnia
+    11600.1.1 = {
+        birth = yes
+        #Rimmington
+    }
+	11616.1.1 = {
+		employer = 900118
+	}
+
+}
+
+900159 = {
+	name = "Maggie"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    trait = witch
+    11596.1.1 = {
+        birth = yes
+		employer = 900115
+    }
+}
+
+900160 = {
+    name = "Wendy"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    trait = witch
+    11599.1.1 = {
+        birth = yes
+		employer = 900115
+    }
+}
+
+900161 = {
+    name = "Aggie"  #Draynor Village
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    trait = witch
+    11580.1.1 = {
+        birth = yes
+    }
+	11620.1.2 = {
+		employer = 900163
+	}
+}
+
+900162 = {
+    name = "Helda"  #DraynorMAnor
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    trait = witch
+    11585.1.1 = {
+        birth = yes
+    }
+	11600.1.1 = {
+		employer = 900115
+	}
+}
+
+900163 = {
+	name = "Morgan"
+	culture = misthalin
+	religion = saradomin
+	trait = zealous
+	trait = craven
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		add_spouse = 900164
+	}
+	11620.1.1 = {
+		add_visiting_courtier = character:900806
+	}
+}
+
+900164 = {
+	name = "Maris"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	11596.1.1 = {
+		birth = yes
+	}
+
+}
+
+900165 = {
+    name = "Evil Dave"
+    dynasty = 100939
+    mother = 900166
+    culture = misthalin
+    religion = zamorak
+	trait = arbitrary
+	11601.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900166 = {
+    name = "Doris"
+    dynasty = 100939
+    female = yes
+    culture = misthalin
+    religion = saradomin
+	11579.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900167 = {
+    name = "Oziach"
+    culture = misthalin
+    religion = saradomin
+    11579.1.1 = {
+        birth = yes
+    }
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900168 = {
+    name = "Vala"
+    female = yes
+    culture= misthalin
+    religion = zamorak
+	11593.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900169 = {
+    name = "Krystilia"
+    female = yes
+    culture = misthalin
+    religion = zamorak
+    #imprisoned 
+	11596.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900170 = {
+    name = "Hari"
+    culture = misthalin
+    religion = saradomin
+	11596.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900171 = {
+    name = "Annette"
+    dynasty = 100941
+	sexuality = homosexual
+    female = yes
+	father = misth002
+    culture = misthalin
+    religion = saradomin
+	11603.1.1 = {
+		birth = yes
+		employer = 900108
+	}
+	11612.1.1 = {
+		employer = 900106
+	}
+	11619.1.1 = {
+		employer = 900114
+	}
+}
+
+900172 = {
+    name = "Caelyn"
+    dynasty = 100940
+	sexuality = homosexual
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11599.1.1 = {
+		birth = yes
+		employer = 900108
+	}
+	11612.1.1 = {
+		employer = 900106
+	}
+	11619.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:900171 }
+		}
+		employer = 900114
+	}
+}
+
+900173 = {
+    name = "Gjalp"
+    female = yes
+    culture = fremennik
+    religion = v
+	11598.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900174 = {
+    name = "Moldark"
+    culture = misthalin
+    religion = zamorak
+    trait = zealous
+	11594.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900114
+	}
+}
+
+900175 = {
+    name = "Lucien"
+    culture = misthalin #mahajjarat
+    religion = zamorak
+	11571.1.1 = {
+		birth = yes
+	}
+}
+
+900176 = {
+    name = "Moia"
+    female = yes
+    father = 900175
+    culture = misthalin
+    religion = zamorak
+    11605.1.1 = {
+		birth = yes
+	}
+}
+
+
+900177 = {
+    name = "Bill"
+    #nickname = 'Barfy'
+    culture = misthalin
+    religion = saradomin
+	11593.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900178 = {
+    name = "Sigmund"
+    trait = wrathful
+    trait = deceitful 
+    trait = zealous
+    disallow_random_traits = yes
+    culture = misthalin
+    religion = hamcult
+    #set as council member of Lumbridge
+	11592.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+		give_council_position = councillor_chancellor
+	}
+}
+
+900179 = {
+    name = "Hans"
+    trait = craven
+    trait = honest
+    trait = patient
+    disallow_random_traits = yes
+    culture = misthalin
+    religion = saradomin
+    #council? court position?
+	11599.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900180 = {
+    name = "Bob"
+    trait = diligent
+    culture = misthalin
+    religion = saradomin
+	11589.1.1 = {
+		birth = yes
+	}
+}
+
+900181 = {
+    name = "Cook"
+    #dynasty Van Lumbcook
+    trait = humble
+    culture = misthalin
+    religion = saradomin
+    #court position?
+	11592.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900182 = {
+    name = "Count Check"
+    culture = vampyre
+    religion = zamorak
+	11581.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900183 = {
+    name = "Donie"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900184 = {
+    name = "Gee"
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900185 = {
+    name = "Hatius"
+    #dynasty Cosaintus
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900186 = {
+    name = "Phileas"
+    dynasty = 100930 
+    culture = misthalin
+    religion = saradomin
+	11590.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900187 = {
+    name = "Gelin"
+    female = yes
+    culture = egyptian
+    religion = menaph
+	11593.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900188 = {
+    name = "Nigel"
+    dynasty = 100930
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900189 = {
+    name = "Harlan"
+    trait = brave
+    trait = compassionate
+    trait = just
+    dynasty = 100930
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+		give_council_position = councillor_marshal
+	}
+}
+
+900190 = {
+    name = "Mikasi"
+    female = yes
+    dynasty = 100930
+    trait = generous
+    trait = compassionate
+    trait = humble
+    disallow_random_traits = yes
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900191 = {
+    name = "Nemarti"
+    female = yes
+    dynasty = 100930
+    trait = generous
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+
+}
+
+900192 = {
+    name = "Yauchomi"
+    female = yes
+    dynasty = 100930
+    trait = humble
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11611.1.1 = {
+		employer = 900100
+	}
+}
+
+900193 = {
+    name = "Finlay"
+    dynasty = 100930
+    culture = misthalin
+    religion = saradomin
+	11596.1.1 = {
+		birth = yes
+	}
+	11620.6.1 = {
+		employer = 900101
+	}
+}
+
+900194 = {
+    name = "Monlum"
+    dynasty = 100930
+    culture = misthalin
+    religion = saradomin
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.6.1 = {
+		employer = 900101
+	}
+}
+
+900195 = {
+    name = "Rick"
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900196 = {
+    name = "Melville"
+    dynasty = 100929
+    culture = misthalin
+    religion = saradomin
+    11573.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900197 = {
+    name = "Jalarast"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11594.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900198 = {
+    name = "Mizgog"
+    culture = misthalin
+    religion = saradomin
+    11582.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900199 = {
+    name = "Traiborn"
+    culture = misthalin
+    religion = saradomin
+    11571.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900200 = {
+    name = "Ellaron"
+    culture = misthalin
+    religion = zamorak
+    11588.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900201 = {
+    name = "Isidor"
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900202 = {
+    name = "Cordelia"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900203 = {
+    name = "Felix"
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900204 = {
+    name = "Tamara"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900205 = {
+    name = "Persten"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900206 = {
+    name = "Valina"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11589.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900207 = {
+    name = "Borann"
+    culture = misthalin
+    religion = saradomin
+    11582.1.1 = {
+        birth = yes
+    }
+	11613.1.1 = {
+		employer = 900118
+	}
+}
+
+900208 = {
+    name = "Ilona"
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11596.1.1 = {
+        birth = yes
+    }
+	11620.1.1 = {
+		employer = 900100
+	}
+    #captured by Reese's cult
+}
+
+900209 = {
+    name = "Caitlin"
+    female = yes
+    culture = misthalin
+    religion = zamorak
+	trait = callous
+    11596.1.1 = {
+        birth = yes
+    }
+	11620.1.1 = {
+		employer = 900210
+	}
+}
+
+900210 = {
+    name = "Reese"
+    #peasant leader? witch?
+	trait = zealous
+	trait = brave
+	trait = humble
+    culture = misthalin
+    religion = zamorak
+    11594.1.1 = {
+        birth = yes
+    }
+	11620.1.1 = {
+		effect = {
+			imprison = {
+				target = character:900208
+				type = dungeon
+			}
+		}
+	}
+}
+
+900211 = {
+    name = "Kayle"
+    culture = misthalin
+    religion = zamorak
+    11597.1.1 = {
+        birth = yes
+    }
+	11620.1.1 = {
+		employer = 900210
+	}
+}
+
+900212 = {
+    name = "Xenia"
+    female = yes
+    trait = deceitful
+    trait = ambitious
+    trait = arbitrary
+    disallow_random_traits = yes
+    culture = misthalin
+    religion = guthix
+    11571.1.1 = {
+        birth = yes
+    }
+
+}
+
+900213 = {
+    name = "Fred"
+    culture = misthalin
+    religion = saradomin
+    11593.1.1 = {
+        birth = yes
+    }
+}
+
+900214 = {
+    name = "Seth"
+    dynasty = 100928
+    culture = misthalin
+    religion = saradomin
+    11580.1.1 = {
+        birth = yes
+    }
+
+}
+
+900215 = {
+    name = "Gillie"
+    dynasty = 100928
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    father = 900214
+    11601.1.1 = {
+        birth = yes
+    }
+}
+
+900216 = {
+    name = "Fayeth"
+    female = yes
+	trait = lifestyle_gardener
+	trait = humble
+	trait = content
+	trait = compassionate
+	disallow_random_traits = yes
+    culture = misthalin
+    religion = saradomin
+    11603.1.1 = {
+        birth = yes
+    }
+	11615.1.1 = {
+		employer = ham001
+	}
+    #Lumbridge Pass
+}
+
+ham001 = {
+	name = "Johanhus"
+	dynasty = 100927
+	culture = misthalin
+	religion = hamcult
+	trait = zealous
+	trait = humble
+	trait = just
+	trait = education_learning_1
+	11592.1.1 = {
+		birth = yes
+	}
+}
+
+900217 = {
+    name = "Ehntor"
+    dynasty = 100926
+    culture = misthalin
+    religion = saradomin
+    11595.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+    #set as Knight
+}
+
+900218 = {
+    name = "Milo"
+    dynasty = 100925
+    culture = misthalin
+    religion = saradomin
+    11593.1.1 ={
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+    11620.1.1 = {
+		give_council_position = councillor_marshal
+	}
+}
+
+900219 = {
+    name = "Denath"
+    culture = misthalin
+    religion = zamorak
+    11588.1.1 ={
+        birth = yes
+    }
+}
+
+900220 = {
+    name = "Reldo"
+    dynasty = 100924
+    culture = misthalin
+    religion = saradomin
+    11593.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+
+}
+
+900221 = {
+    name = "Baraek"
+    dynasty = 100923
+    culture = misthalin
+    religion = zamorak
+    11591.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900222 = {
+    name = "Straven"
+    dynasty = 100922
+    culture = misthalin
+    religion = saradomin
+    11592.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900223 = {
+    name = "Katrine"
+    dynasty = 100921
+	female = yes
+    culture = misthalin
+    religion = saradomin
+    11592.1.1  = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900224 = {
+    name = "Jonny"
+    #nickname The Beard
+    dynasty = 100920
+    culture = misthalin
+    religion = saradomin
+    11591.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900225 = {
+    name = "Surok"
+    dynasty = 100919
+    culture = misthalin
+    religion = zamorak
+    11586.1.1 ={
+        birth =yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900226 = {
+    name = "Louisiana"
+    dynasty = 100918
+    female = yes
+    culture = misthalin
+    religion = saradomin
+    11594.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11611.1.1 = {
+		employer = 900123
+	}
+}
+
+9009227 = {
+    name = "Rat"
+    dynasty = 100917
+	intrigue = 13
+    culture = misthalin
+    religion = saradomin
+    11590.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+	11620.1.1 = {
+		give_council_position = councillor_spymaster
+	}
+}
+
+900228 = {
+    name = "Zaff"
+    culture = misthalin
+    religion = saradomin
+    11589.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900229 = {
+    name = "Ingald"
+    dynasty = 100916
+    trait = lifestyle_herbalist
+    culture = misthalin
+    religion = saradomin
+    11591.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900230 = {
+    name = "Treznor"
+    trait = lifestyle_gardener
+    culture = misthalin
+    religion = saradomin
+    11594.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+900231 = {
+    name = "Aeonisig"
+    dynasty = 100915
+    culture = misthalin
+    religion = saradomin
+	trait = zealous
+    11590.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+    11620.1.1 = {
+		give_council_position = councillor_chancellor
+	}
+}
+
+900232 = {
+    name = "Hartwin"
+    dynasty = 100914
+    culture = misthalin
+    religion = saradomin
+    11594.1.1 = {
+        birth = yes
+		employer = 900108
+    }
+	11612.1.1 = {
+		employer = 900106
+	}
+}
+
+
+ani001 = {
+	name = "Aqua"
+	dynasty = 100913
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	diplomacy = 11
+	martial = 3
+	stewardship = 11
+	intrigue = 9
+	learning = 13
+	prowess = 5
+	trait = drunkard
+	trait = gluttonous
+	trait = lazy
+	trait = arrogant
+	trait = beauty_good_2
+	trait = education_learning_2
+	trait = divine_blood
+	11603.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = no_drunkard_visual
+		}
+	}
+	11620.1.1 = {
+		employer = 900163
+	}
+}
+
+misth001 = {
+	name = "Adam"
+	dynasty = 100932
+	religion = saradomin
+	culture = misthalin
+	11596.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900100
+	}
+}
+
+misth002 = {
+	name = "Reinhard"
+	dynasty = 100941
+	religion = saradomin
+	culture = misthalin
+	11583.1.1 = {
+		birth = yes
+	}
+	11614.1.1 = {
+		employer = 900106
+	}
+}
+
+misth003 = {
+	name = "Archibald"
+	#Paldock
+	religion = saradomin
+	culture = misthalin
+	11573.1.1 = {
+		birth = yes
+	}
+}

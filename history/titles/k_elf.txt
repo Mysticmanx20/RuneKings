@@ -1,0 +1,42 @@
+
+c_prif = {
+	11620.1.1 = {
+		liege = 0 
+		holder = elf001
+		change_development_level = 5
+	}
+}
+
+c_lletya = {
+	11620.1.1 = {
+		liege = 0
+		holder = elf002
+		change_development_level = 10
+	}
+}
+
+c_gwen = {
+	11620.1.1 = {
+		liege = 0
+		holder = elf004
+		change_development_level = 7
+	}
+}
+
+c_poison = {
+	11620.1.1 = {
+		liege = 0
+		holder = gnome002
+		change_development_level = 5
+	}
+}
+
+c_tyras = {
+	11620.1.1 = {
+		holder = kand018
+		change_development_level = 7
+	}
+}
+
+
+

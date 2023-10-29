@@ -1,0 +1,206 @@
+﻿
+ogre001 = {
+	name = "Grunsh"
+	religion = bandos
+	culture = ogre
+	trait = wrathful
+	trait = stubborn
+	11593.1.1 = {
+		birth = yes
+	}
+}
+
+ogre002 = {
+	name = "Grish"
+	religion = bandos
+	culture = ogre
+	trait = education_learning_3
+	11591.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre003 = {
+	name = "Og"
+	religion = bandos
+	culture = ogre
+	trait = education_diplomacy_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre004 = {
+	name = "Grew"
+	religion = bandos
+	culture = ogre
+	trait = education_martial_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre005 = {
+	name = "Toban"
+	religion = bandos
+	culture = ogre
+	trait = education_intrigue_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre006 = {
+	name = "Gorad"
+	religion = bandos
+	culture = ogre
+	trait = education_martial_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = ogre005
+	}
+}
+
+ogre007 = {
+	name = "Uglug"
+	#dynasty Nar
+	religion = bandos
+	culture = ogre
+	trait = education_stewardship_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = ogre002
+	}
+}
+
+ogre008 = {
+	name = "Keef"
+	#marshal of GUtanoth
+	religion = bandos
+	culture = ogre
+	trait = education_martial_3
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = ogre016
+	}
+}
+
+ogre009 = {
+	name = "Rantz"
+	religion = bandos
+	culture = ogre
+	trait = education_diplomacy_2
+	11584.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre010 = {
+	name = "Bugs"
+	religion = bandos
+	culture = ogre
+	father = ogre009
+	11609.1.1 = {
+		birth = yes
+	}
+}
+
+ogre011 = {
+	name = "Fycie"
+	female = yes
+	religion = bandos
+	culture = ogre
+	father = ogre009
+	11609.1.1 = {
+		birth = yes
+	}
+}
+
+ogre012 = {
+	name = "Tess"
+	female = yes
+	religion = bandos
+	culture = ogre
+	trait = education_stewardship_3
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = female_only_law
+	}
+}
+
+ogre013 = {
+	name = "Gruh"
+	religion = bandos
+	culture = ogre
+	trait = education_martial_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre014 = {
+	name = "Scarg"
+	religion = bandos
+	culture = ogre
+	trait = education_martial_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre015 = {
+	name = "Gargh"
+	religion = bandos
+	culture = ogre
+	trait = education_martial_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_realm_law = male_only_law
+	}
+}
+
+ogre016 = {
+	name = "Skrach"
+	#Uglogwee
+	religion = bandos
+	culture = ogre
+	trait = education_diplomacy_3
+	11592.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		add_visiting_courtier = character:ogre001
+		add_realm_law = male_only_law
+	}
+}

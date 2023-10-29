@@ -1,0 +1,116 @@
+﻿
+k_morytania = {
+	11506.1.1 = {
+	holder = 900500
+	government = feudal_government
+	}
+}
+
+d_sang ={
+	11506.1.1 = {
+		holder = 900500
+	}
+}
+
+c_darkmeyer = {
+	11506.1.1 = {
+		holder = 900500
+		change_development_level = 10
+	}
+}
+
+
+c_portphas = {
+	11590.1.1 ={ 
+		liege = 0
+		holder = 900501
+		change_development_level = 6
+	}
+}
+
+b_portphas = {
+	11601.1.1 = {
+		holder = 900511
+	}
+}
+
+c_slepe = {
+	1000.1.1 = {
+		liege = k_morytania
+	}
+
+	11506.1.1 = {
+		holder = 900502
+		change_development_level = 8
+	}
+}
+
+c_mortton = {
+	11506.1.1 = {
+		holder = 900503
+		change_development_level = 1
+	}
+}
+
+c_mortmyre = {
+	11608.1.1 = {
+		holder = 900516
+	}
+}
+
+b_nature = {
+	11600.1.1 = {
+		liege = c_mortmyre
+	}
+	11605.1.1 = {
+		holder = 900510
+	}
+}
+
+c_burgderot ={
+	1000.1.1 = {
+		liege = 0
+	}
+	11506.1.1 = {
+		holder = 900504
+		change_development_level = 3
+	}
+}
+
+b_hmine = {
+	11596.1.1 = {
+		holder = 900508
+	}
+}
+
+c_canifis = {
+	11615.1.1 = {
+		holder = 900505
+		change_development_level = 7
+	}
+}
+
+c_mditch = {
+	1000.1.1 = {
+		liege = k_morytania
+	}
+	11594.1.1 = {
+		holder = 900512
+	}
+}
+
+
+c_fenk = {
+	11600.1.1 = {
+		holder = 900506
+		change_development_level = 2
+	}
+}
+
+b_deadfarm = {
+	11591.1.1 = {
+		holder = 900513
+	}
+}
+
+

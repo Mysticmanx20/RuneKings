@@ -1,0 +1,81 @@
+
+44 = {  #Musa
+	religion = junglegods
+	culture = karamja
+	holding = castle_holding	
+}
+
+45 = {  #KaramjaGenStore
+	religion = junglegods
+	culture = karamja
+	holding = city_holding
+}
+
+46 = {  #ZamboPub
+	religion = junglegods
+	culture = karamja
+	holding = city_holding
+}
+
+47 = {  #KaramVolcano 
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+159 = { #Brimhaven 	
+	religion = junglegods
+	culture = karamja
+	holding = castle_holding
+
+}
+
+161 = { #BrimhavenMine 	
+	religion = junglegods
+	culture = karamja
+	holding = none
+
+}
+
+160 = { #BrimhavenDungeon
+	religion = junglegods
+	culture = karamja
+	holding = none
+
+}
+
+256 = { #VoidOut
+	religion = guthix
+	culture = asgarnia
+	holding = castle_holding
+}
+
+257 = { #Marimbo
+	religion = guthix
+	culture = asgarnia
+	holding = tribal_holding
+}
+
+258 = { #CrashIsle
+	religion = guthix
+	culture = gnome
+	holding = castle_holding
+}
+
+259 = { #Shilo
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+260 = { #Shipyard
+	religion = guthix
+	culture = gnome
+	holding = castle_holding
+}
+
+261 = { #TaiBwo
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}

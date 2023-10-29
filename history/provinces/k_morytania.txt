@@ -1,0 +1,210 @@
+﻿69 = {		#Darkmeye
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+70 = {  #Burg
+	culture = morytania
+	religion = saradomin
+	holding = castle_holding
+}
+
+71 = {  #Morton
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+72 = {  #Slepe
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+73 = {  #PortPhas
+	culture = ghost
+	religion = zamorak
+	holding = castle_holding
+}
+
+74 = {  #MortMyre
+	culture = ghost
+	religion = zamorak
+	holding = none
+}
+
+75 = {  #Canifis
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+76 = {  #Fenk
+	culture = morytania
+	religion = zamorak
+	holding = castle_holding
+}
+
+81 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+82 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+83 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+84 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+85 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+86 = {  
+	culture = ghost
+	religion = zamorak
+	holding = castle_holding
+}
+
+87 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+88 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+89 = {  
+	culture = morytania
+	religion = saradomin
+	holding = castle_holding
+}
+
+90 = {  
+	culture = ghost
+	religion = guthix
+	holding = castle_holding
+}
+
+91 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+92 = {  
+	culture = ghost
+	religion = zamorak
+	holding = castle_holding
+}
+
+93 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+94 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+95 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+96 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+97 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+98 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+99 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+100 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+101 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+102 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+103 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+104 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = city_holding
+}
+
+105 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+106 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+107 = {  
+	culture = morytania
+	religion = saradomin
+	holding = castle_holding
+}
+

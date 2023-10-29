@@ -1,0 +1,25 @@
+﻿
+troll001 = {
+    name ="Rock"
+    culture = troll
+    religion = bandos
+    trait = wrathful
+    11591.1.1 = {
+        birth = yes
+    }
+}
+
+troll002 = {
+	name = "Lalli"
+	religion = bandos
+	culture = troll
+	trait = education_stewardship_1
+	trait = paranoid
+	11586.1.1 = {
+		birth = yes
+	}
+}
+
+
+
+
