@@ -1,0 +1,460 @@
+﻿
+misthalin = {   #misthalian
+	color = { 0.75 0.37 0.85 }
+	created = 1.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_agrarian
+		tradition_culinary_art
+		tradition_castle_keepers
+	}
+	
+	name_list = name_list_norman
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
+asgarnia = {  #asgarnian
+	color = { 0.94 0.94 0.94 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_artisans
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+kandarin = {  #kandarin
+	color = { 0.85 0.18 0.18 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_adaptive_skirmishing
+		tradition_city_keepers
+		tradition_ep2_avid_falconers
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+
+fremennik = {   #fremmenik
+	color = { 1.0 0.66 0.07}
+	created = 1.1.1 
+	
+	ethos = ethos_bellicose
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp1_coastal_warriors
+		tradition_fp1_performative_honour
+		tradition_isolationist
+		tradition_staunch_traditionalists
+	}
+	
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+kharidian = {  #kharidian
+	color = { 0.93 0.79 0.69 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_human
+	language = language_kharidian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_dryland_dwellers
+		tradition_zealous_people
+		tradition_desert_nomads
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+karamja = {   # Karamjan
+	color = { 0.16 0.67 0.53 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_karamja
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_warriors
+		tradition_jungle_dwellers
+		tradition_fishermen
+		tradition_hunters
+	}
+	
+	name_list = name_list_igbo
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+goblin = {     # Goblin
+	color = { 0.26 0.57 0.17 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bandos
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_by_the_sword
+		tradition_quarrelsome
+		tradition_strength_in_numbers
+	}
+	
+	name_list = name_list_goblin
+
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}
+
+ogre = {     # Ogre
+	color = { 0.49 0.36 0.23 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bandos
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_quarrelsome
+		tradition_highland_warriors
+	}
+	
+	name_list = name_list_goblin
+
+	coa_gfx = { oghuz_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		100 = ogre_ethnicity
+	}
+}
+
+troll = {     # Troll
+	color = { 0.3 0.36 0.38 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_troll
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_isolationist
+		tradition_warrior_culture
+		tradition_mountaineers
+	}
+	
+	name_list = name_list_goblin
+
+	coa_gfx = { turkic_group_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}
+
+
+dwarf = {     # Dwarven
+	color = georgian
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_dwarf
+	language = language_dwarf
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes
+		tradition_metal_craftsmanship
+		tradition_hard_working
+	}
+	
+	name_list = name_list_dwarf 
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = dwarven_ethnicity
+	}
+}
+
+imcando = {     # Imcando Dwarf
+	color = mongol
+	
+	ethos = ethos_courtly
+	heritage = heritage_dwarf
+	language = language_dwarf
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes
+		tradition_metal_craftsmanship
+		tradition_sorcerous_metallurgy
+	}
+	
+	name_list = name_list_dwarf 
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = dwarven_ethnicity
+	}
+}
+
+gnome = {     # Gnome
+	color = { 0.5 0.19 0.99 }
+	
+	ethos = ethos_communal
+	heritage = heritage_gnome
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_groves
+		tradition_philosopher_culture
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_zhangzhung 
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = gnome_ethnicity
+	}
+}
+
+
+vampyre = {    # Vampyre
+	color = { 0.44 0.11 0.11 }
+	created = 1.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_vampyre
+	language = language_vampyre
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_ruling_caste
+		tradition_family_entrepreneurship
+		tradition_staunch_traditionalists
+		tradition_strong_kinship
+	}
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+morytania = {   #Morytanian
+	color = { 0.0 0.66 0.47}
+	created = 1.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_wetlanders
+		tradition_collective_lands
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_norman
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
+ghost = {     #ghost
+	color = { 0.46 1.0 0.44 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_undead
+	language = language_ghost
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_diasporic
+		tradition_mendicant_mystics
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_frankish
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+wild = {     #wilderness
+	color = { 0.21 0.27 0.31}
+	
+	ethos = ethos_bellicose
+	heritage = heritage_various2
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp2_state_ransoming
+		tradition_battlefield_looters
+		tradition_fp1_trials_by_combat
+	}
+	
+	name_list = name_list_frankish
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+elf = {   #Elf
+	color = burmese
+	created = 1.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_elf
+	language = language_elf
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_wardens
+		tradition_isolationist
+	}
+	
+	name_list = name_list_elf
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = high_elven
+	}	
+}
+
+
+
+
