@@ -1,0 +1,117 @@
+﻿
+d_kinshra = {
+	color={ 100 0 0 }
+	capital = c_tavdun
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+
+	c_blkfort = {
+		color = { 43 36 0 }
+
+		b_blkfort = {
+			color = { 43 36 0 }
+			province = 33
+		}
+	}
+}
+
+d_ham = {
+	color={ 212 0 127 }
+	capital = c_lumpass
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+}
+
+d_khazard2 = {
+	color = {102 0 26}
+	capital = c_khazard
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+}
+
+k_camelot = {
+	color = {173 165 134 }
+	capital = c_camelot
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+	
+}
+
+e_gnome = {
+	color = {104 227 27 }
+	capital = c_gnomestrong
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+
+	k_gnome1 = {
+		color = {104 227 27}
+		capital  = c_gnomestrong
+		definite_form = yes
+		no_automatic_claims = yes
+		can_be_named_after_dynasty = no
+
+		d_gnome1 = {
+			color = {104 227 27}
+			capital  = c_gnomestrong
+			definite_form = yes
+			no_automatic_claims = yes
+			can_be_named_after_dynasty = no
+
+			c_gnomestrong = {
+				color = {104 227 27 }
+
+				b_gnomestrong = {
+					color = {104 227 27}
+					province = 232
+				}
+			}
+
+		}
+
+	}
+
+	k_gnome2 = {
+		color = {104 227 27}
+		capital  = c_gnomevil
+		definite_form = yes
+		no_automatic_claims = yes
+		can_be_named_after_dynasty = no
+
+		d_gnome2 = {
+			color = {104 227 27}
+			capital  = c_gnomevil
+			definite_form = yes
+			no_automatic_claims = yes
+			can_be_named_after_dynasty = no
+
+			c_gnomevil = {
+				color ={73 129 104}
+
+				b_gnomevil = {
+					color = { 73 129 104}
+					province = 237
+				}
+			}
+
+		}
+
+	}
+}
+
+k_dwarf = {
+	color = {141 109 68 }
+	capital = c_keldagrim
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+
+
+}
+
+
+
