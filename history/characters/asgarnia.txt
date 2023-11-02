@@ -140,6 +140,7 @@
     name = "Elstan"
     religion = saradomin
     culture = asgarnia
+    trait = lifestyle_gardener
     11595.1.1 = {
         birth = yes
     }
@@ -619,6 +620,7 @@
     female = yes
     religion = saradomin
     culture = asgarnia
+    trait = lifestyle_gardener
     11594.1.1 = {
         birth = yes
     }

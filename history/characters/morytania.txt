@@ -226,6 +226,7 @@
 	trait = stubborn
 	trait = arbitrary
 	trait = education_intrigue_1
+	trait = lifestyle_gardener
 	disallow_random_traits = yes
 	mother = 900513
 	11601.1.1 = {

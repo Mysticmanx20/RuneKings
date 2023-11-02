@@ -1641,13 +1641,12 @@
 900216 = {
     name = "Fayeth"
     female = yes
-	trait = lifestyle_gardener
-	trait = humble
-	trait = content
-	trait = compassionate
-	disallow_random_traits = yes
     culture = misthalin
     religion = saradomin
+	trait = compassionate
+	trait = content
+	trait = humble
+	trait = lifestyle_gardener
     11603.1.1 = {
         birth = yes
     }
