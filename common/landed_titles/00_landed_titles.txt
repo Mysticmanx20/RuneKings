@@ -113,6 +113,7 @@ e_zaros = {
 				}
 
 			}
+		}
 
 		d_jollyb = {
 			color = {}
@@ -487,7 +488,7 @@ e_zaros = {
 
 		}
     }
-}
+
 
 
 
@@ -1091,6 +1092,75 @@ e_zaros = {
 		
 	}
 
+	k_alkharid = {
+		color = { 187 197 108 }
+		capital = c_alkharid
+
+
+	 	d_southkharid = {
+			color = { 187 197 108 }
+			capital = c_alkharid
+
+		 	c_alkharid = {
+				color = { 187 197 108 }
+
+				b_alkharid = {
+					color = { 187 197 108 }
+					province = 21
+					}
+
+
+				b_giants = {
+					color = { 104 54 44 }
+					province = 22
+					}
+
+				b_shantay = {
+					color = { 227 114 0 }
+					province = 24
+					}
+
+		    }
+
+			c_citharade = {
+				color = { 66 0 140 }
+
+				b_citharade = {
+					color = { 66 0 140 }
+					province = 23
+					}
+
+			}
+
+		}
+
+		d_northkharid = {
+			color = { 245 215 77 }
+			capital = c_northkharid
+
+			c_northkharid = {
+				color = { 245 215 77 }
+				
+
+				b_duelarena = {
+					color = { 245 215 77 }
+					province = 27
+					}
+
+				b_scorpmine = {
+					color = { 142 52 0 }
+					province = 25
+					}
+
+				b_magetrain = {
+					color = { 140 238 255 }
+					province = 26
+					}
+			}
+					
+		}
+
+	}
 
 }
 
@@ -1891,76 +1961,6 @@ e_kharid = {
 			}
 			add = @correct_culture_primary_score
 		}
-	}
-
-	k_alkharid = {
-		color = { 187 197 108 }
-		capital = c_alkharid
-
-
-	 	d_southkharid = {
-			color = { 187 197 108 }
-			capital = c_alkharid
-
-		 	c_alkharid = {
-				color = { 187 197 108 }
-
-				b_alkharid = {
-					color = { 187 197 108 }
-					province = 21
-					}
-
-
-				b_giants = {
-					color = { 104 54 44 }
-					province = 22
-					}
-
-				b_shantay = {
-					color = { 227 114 0 }
-					province = 24
-					}
-
-		    }
-
-			c_citharade = {
-				color = { 66 0 140 }
-
-				b_citharade = {
-					color = { 66 0 140 }
-					province = 23
-					}
-
-			}
-
-		}
-
-		d_northkharid = {
-			color = { 245 215 77 }
-			capital = c_northkharid
-
-			c_northkharid = {
-				color = { 245 215 77 }
-				
-
-				b_duelarena = {
-					color = { 245 215 77 }
-					province = 27
-					}
-
-				b_scorpmine = {
-					color = { 142 52 0 }
-					province = 25
-					}
-
-				b_magetrain = {
-					color = { 140 238 255 }
-					province = 26
-					}
-			}
-					
-		}
-
 	}
 
 	k_menaphos = {

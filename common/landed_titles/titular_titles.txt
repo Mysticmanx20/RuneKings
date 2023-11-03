@@ -41,67 +41,25 @@ k_camelot = {
 	
 }
 
-e_gnome = {
-	color = {104 227 27 }
-	capital = c_gnomestrong
+
+k_gnome1 = {
+	color = {104 227 27}
+	capital  = c_gnomestrong
 	definite_form = yes
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = no
 
-	k_gnome1 = {
-		color = {104 227 27}
-		capital  = c_gnomestrong
-		definite_form = yes
-		no_automatic_claims = yes
-		can_be_named_after_dynasty = no
-
-		d_gnome1 = {
-			color = {104 227 27}
-			capital  = c_gnomestrong
-			definite_form = yes
-			no_automatic_claims = yes
-			can_be_named_after_dynasty = no
-
-			c_gnomestrong = {
-				color = {104 227 27 }
-
-				b_gnomestrong = {
-					color = {104 227 27}
-					province = 232
-				}
-			}
-
-		}
-
-	}
-
-	k_gnome2 = {
-		color = {104 227 27}
-		capital  = c_gnomevil
-		definite_form = yes
-		no_automatic_claims = yes
-		can_be_named_after_dynasty = no
-
-		d_gnome2 = {
-			color = {104 227 27}
-			capital  = c_gnomevil
-			definite_form = yes
-			no_automatic_claims = yes
-			can_be_named_after_dynasty = no
-
-			c_gnomevil = {
-				color ={73 129 104}
-
-				b_gnomevil = {
-					color = { 73 129 104}
-					province = 237
-				}
-			}
-
-		}
-
-	}
 }
+
+k_gnome2 = {
+	color = {27 227 104}
+	capital  = c_gnomevil
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+
+}
+
 
 k_dwarf = {
 	color = {141 109 68 }
