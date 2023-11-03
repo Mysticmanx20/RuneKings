@@ -15,15 +15,6 @@ kand001 = {
 
 }
 
-kand002 = {
-	name = "Vestri"
-	religion = guthix
-	culture = dwarf
-	11581.1.1 = {
-		birth = yes
-	}
-}
-
 
 kand004 = {
 	name = "Arthur"
@@ -1082,6 +1073,26 @@ kand087 = {
 	religion = zamorak
 	culture = kandarin
 	trait = education_learning_3
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand088 = {
+	name = "Justin"
+	religion = saradomin
+	culture = kandarin
+	trait = education_martial_3
+	11595.1.1 = {
+		birth = yes
+	}
+}
+
+kand089 = {
+	name = "Gaius"
+	religion = zamorak
+	culture = kandarin
+	trait = education_martial_2
 	11595.1.1 = {
 		birth = yes
 	}

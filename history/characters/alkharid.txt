@@ -299,7 +299,7 @@
 
 900822 = {
 	name = "Eblis"
-	religion = menaph #Zarosian
+	religion = zaros
 	culture = kharidian
 	11583.1.1 = {
 		birth = yes

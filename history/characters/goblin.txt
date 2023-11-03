@@ -143,3 +143,12 @@ gob011 = {
 		birth = yes
 	}
 }
+
+gob012 = {
+	name = "Danknuck"
+	culture = goblin
+	religion = bandos
+	11596.1.1 = {
+		birth = yes
+	}
+}

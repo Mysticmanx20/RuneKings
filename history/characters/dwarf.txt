@@ -12,3 +12,33 @@ dwarf001 = {
 		birth = yes
 	}
 }
+
+dwarf002 = {
+	name = "Lawgof"
+	religion = guthix
+	culture = dwarf
+	trait = stubborn
+	trait = education_martial_2
+	11578.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand002 = {
+	name = "Vestri"
+	religion = guthix
+	culture = dwarf
+	11581.1.1 = {
+		birth = yes
+	}
+}
+
+900374 = {
+    name ="Austri"
+    culture = dwarf
+    religion = guthix
+    11590.1.1 = {
+        birth = yes
+    }
+}

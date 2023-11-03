@@ -761,15 +761,6 @@
     }
 }
 
-900374 = {
-    name ="Austri"
-    culture = dwarf
-    religion = guthix
-    11590.1.1 = {
-        birth = yes
-    }
-}
-
 
 900376 = {
     name ="Achietties"
