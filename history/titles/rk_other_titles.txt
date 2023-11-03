@@ -44,11 +44,6 @@ k_dwarf = {
 	}
 }
 
-e_gnome = {
-	11600.1.1 = {
-		holder = gnome001
-	}
-}
 
 k_gnome1 = {
 	11600.1.1 = {
@@ -56,7 +51,7 @@ k_gnome1 = {
 	}
 }
 
-d_gnome1 = {
+d_gnomestrong = {
 	11600.1.1 = {
 		holder = gnome001
 	}
@@ -69,7 +64,7 @@ k_gnome2 = {
 	}
 }
 
-d_gnome2 = {
+d_gnomevil = {
 	2120.1.1 = {
 		holder = gnome003
 	}

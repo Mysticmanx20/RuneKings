@@ -83,6 +83,22 @@ c_westardy = {
 	}
 }
 
+c_combat = {
+	11620.1.1 = {
+		liege = d_ardy
+		holder = kand088
+		change_development_level = 7
+	}
+}
+
+c_chaostower = {
+	11620.1.1 = {
+		liege = 0
+		holder = kand089
+		change_development_level = 8
+	}
+}
+
 c_fishguild = {
 	11620.1.1 = {
 		liege = 0
@@ -98,6 +114,22 @@ c_hemenster = {
 		change_development_level = 9
 	}
 	
+}
+
+c_coaltruck = {
+	11620.1.1 = {
+		liege = k_dwarf
+		holder = dwarf002
+		change_development_level = 6
+	}
+}
+
+c_goboutpost = {
+	11620.1.1 = {
+		liege = 0
+		holder = gob012
+		change_development_level = 5
+	}
 }
 
 c_catherby = {
