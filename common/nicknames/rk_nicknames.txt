@@ -1,0 +1,2 @@
+nick_the_crowd_pleaser = {}
+nick_wizard = { is_prefix = yes }
