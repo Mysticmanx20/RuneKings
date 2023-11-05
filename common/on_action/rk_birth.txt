@@ -1,0 +1,32 @@
+﻿# On actions for child birth and pregnancy notification events, triggered automatically by the game
+
+
+on_birth_child = {
+	events = {
+		middle_east_decisions.0012 #Saoshyant Descendants.
+		major_decisions.0101 #Divine/Consecrated Blood Descendants.
+		birth.8001 #Reincarnation
+		birth.8011 #Born in the Purple
+		trait_specific.0500 #To handle genetic traits not expressed until later in life
+		debug.0010 # Disease data tracking
+	}
+	effect = {
+		#pass down cannibalism for vampyre children
+		if = {
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = culture:vampyre
+						has_trait = cannibal
+					}
+				
+					scope:mother = {
+						culture = culture:vampyre
+						has_trait = cannibal
+					}	
+				}
+			}
+			add_trait = cannibal	
+		}
+	}
+}
