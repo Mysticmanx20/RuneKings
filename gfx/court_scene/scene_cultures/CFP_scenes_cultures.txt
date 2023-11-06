@@ -1,0 +1,164 @@
+﻿## CFP
+papal = {
+	trigger = {
+		has_graphical_papal_culture_group_trigger = yes
+	}
+}
+
+hre = {
+	trigger = {
+		has_graphical_hre_culture_group_trigger = yes
+	}
+}
+
+byzantine = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+		religion = religion:christianity_religion
+		NOT = { faith = faith:iconoclast }
+	}
+}
+
+byzantine_mena = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+		religion = religion:islam_religion
+	}
+}
+
+byzantine_pagan = {
+	trigger = {
+		has_graphical_byzantine_culture_group_trigger = yes
+		OR = { 
+			NOR = {
+				AND = {
+					religion = religion:christianity_religion
+					NOT = { faith = faith:iconoclast }
+				}
+				religion = religion:islam_religion
+			}
+			AND = {
+				religion = religion:christianity_religion
+				faith = faith:iconoclast
+			}
+		}
+	}
+}
+
+norse = {
+	trigger = {
+		has_graphical_norse_culture_group_trigger = yes
+	}
+}
+
+norman = {
+	trigger = {
+		has_graphical_norman_culture_group_trigger = yes
+	}
+}
+
+goidelic = {
+	trigger = {
+		has_graphical_goidelic_culture_group_trigger = yes
+	}
+}
+
+iberian = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_iberian_culture_group_trigger  = yes
+			OR = {
+				prev.religion = religion:christianity_religion
+				prev.religion = religion:basque_religion
+			}
+		}
+	}
+}
+
+andalusian = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_iberian_culture_group_trigger  = yes
+			prev.religion = religion:islam_religion
+		}
+	}
+}
+
+west_african = {
+	trigger = {
+		has_graphical_west_african_culture_group_trigger = yes
+	}
+}
+
+east_african = {
+	trigger = {
+		has_graphical_east_african_culture_group_trigger = yes
+	}
+}
+
+## Redefine western to exclude normans and goidelics from it
+western = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_western_culture_group_trigger = yes
+				has_graphical_norse_culture_group_trigger = yes
+			}
+		}
+		NOR = {
+			has_graphical_hre_culture_group_trigger = yes
+			has_graphical_norman_culture_group_trigger = yes
+			has_graphical_goidelic_culture_group_trigger = yes
+			AND = {
+				government_has_flag = government_is_tribal
+				exists = capital_province
+				capital_province = { geographical_region = world_europe_north }
+			}
+		}
+	}
+}
+
+## Redefine mediterranean to exclude andalusians from it
+mediterranean = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mediterranean_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					NOR = {
+						prev.religion = religion:christianity_religion
+						prev.religion = religion:islam_religion
+						prev.religion = religion:basque_religion
+					}
+				}
+			}
+		}
+		NOR = {
+			has_graphical_papal_culture_group_trigger = yes
+			has_graphical_byzantine_culture_group_trigger = yes
+		}
+	}
+}
+
+## Redefine MENA to exclude Africans from it
+mena = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mena_culture_group_trigger = yes
+				has_graphical_african_culture_group_trigger = yes
+				has_graphical_steppe_culture_group_trigger = yes
+			}
+		}
+		NOR = {
+			has_graphical_west_african_culture_group_trigger = yes
+			has_graphical_east_african_culture_group_trigger = yes
+		}
+	}
+}
