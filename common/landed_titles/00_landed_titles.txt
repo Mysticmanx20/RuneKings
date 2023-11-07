@@ -116,7 +116,7 @@ e_zaros = {
 		}
 
 		d_jollyb = {
-			color = {}
+			color = { 70 45 51 }
 			capital = c_lumberyard
 
 			c_lumberyard = {
@@ -175,7 +175,7 @@ e_zaros = {
 				definite_form = yes
 				
 				b_examcen = {
-					color = {}
+					color = { 112 25 30 }
 					province = 309
 				}
 	
@@ -301,7 +301,7 @@ e_zaros = {
     	}
 
 		d_lumford = {
-			color = {}
+			color = { 10 175 107 }
 			capital = c_eastlum
 
 			c_eastlum = {  #Northern Farmlands
