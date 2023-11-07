@@ -1,6 +1,6 @@
 name="RuneKings"
 version="0.1"
-picture = "thumbnail.png"
+picture="thumbnail.png"
 tags={
 	"Total Conversion"
 }
