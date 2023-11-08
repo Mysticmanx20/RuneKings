@@ -237,16 +237,16 @@
 	}
 	
 	male_names = {
-		 Abelard Adam Adelard Ademar Alexander Alfons Amaury Anfroi Anquetil Anselm Armand Arnald Asclettin Aubrey Baldwin
-		 Bernard Berold Bertran Beuves Blayve Bohemond Botolf Clemence Drogo Errand Eustache Faramond Ferant Filbert
-		 Fulk Fraunk Frery Gaillard Gaufrid Geoffroy Gerald Gerard GE_rard Geraud Gerbert Gervas Giffard Gilbert
-		Godfrey Goubert Guntard Guy Haimo Hamelin Henry Herbert Herman Hubert Hugh Humbert Humphrey Ildebrando Jordan Joscelin
-		Lambert Lancelin Mauger Nigel Norman Odo Orderic Osbern Osmond Oswulf Oswyn Radolf Radulf Randolf Ranulf Raymond Rayner
-		Richard  Robert Roger Rolland Roscelin Sayer Serlo Serril Sewal Silvester Simon Stefen Tancred Torf Turold Turquetil Turstin
-		Tybalt Walter William Wymund
+		 Adam Alexander Alfons Anselm Armand Arnald Ames Aubrey Baldwin
+		 Bernard Brian Bertran Bohemond Botolf Clemence Errand Eustache Faramond Ferant Filbert
+		 Fulk Frank Geoffroy Gerald Gerard Gilbert
+		Godfrey Guy Henry Herbert Herman Hubert Hugh Humbert Humphrey Jordan 
+		Lambert Nigel Norman Osmond Radolf Randolf Raymond Rayner
+		Richard Robert Roger Rolland Serlo Silvester Simon Stefen 
+		Tybalt Walter William 
 	}
 	female_names = {
-		Adelaide Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Amburga Aubrey Aveis Avelina Berengaria
+		Adelaide Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Aubrey Aveis Avelina Berengaria
 		Busilla Clarimond Clemenza Constance Cundo Egelina Eleanor Elise Elysande Emelenine Emma Emonie Eremberga Ermyntrude
 		Felicia Flandina Fredesende Fressenda Fressende Geva Giselle Gohilde Griselda Gundred Hadwis Helewisa Heria Herleve Hermessent Hermine Hugolina
 		Ida  Judit Lesceline Mabel Marie Matheode Matilda Maud Mautild Maysant Millicent Muriella Oriel Richenda
