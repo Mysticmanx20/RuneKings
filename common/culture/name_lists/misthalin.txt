@@ -237,20 +237,20 @@
 	}
 	
 	male_names = {
-		 Adam Alexander Alfons Anselm Armand Arnald Ames Aubrey Baldwin
-		 Bernard Brian Bertran Bohemond Botolf Clemence Errand Eustache Faramond Ferant Filbert
+		 Adam Alexander Alfons Anselm Abram Arrav Ames Aubrey Baldwin
+		 Bernard Bran Brian Bertran Bohemond Botolf Charles Christopher Claudius Daniel Errand Eustache Faramond Ferant Filbert
 		 Fulk Frank Geoffroy Gerald Gerard Gilbert
-		Godfrey Guy Henry Herbert Herman Hubert Hugh Humbert Humphrey Jordan 
-		Lambert Nigel Norman Osmond Radolf Randolf Raymond Rayner
-		Richard Robert Roger Rolland Serlo Silvester Simon Stefen 
-		Tybalt Walter William 
+		Godfrey Guy Henry Herbert Herman Hubert Hugh Humbert Humphrey Hywell Jordan 
+		Lambert Nigel Norman Osmond Radolf Randolf Raymond Rodney
+		Richard Robert Roger Rolland Sam Serlo Silvester Simon Stefen 
+		Tarrlo Tybalt Walton William 
 	}
 	female_names = {
-		Adelaide Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Aubrey Aveis Avelina Berengaria
+		Abigail Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Anne Aubrey Aster Avelina Berengaria
 		Busilla Clarimond Clemenza Constance Cundo Egelina Eleanor Elise Elysande Emelenine Emma Emonie Eremberga Ermyntrude
 		Felicia Flandina Fredesende Fressenda Fressende Geva Giselle Gohilde Griselda Gundred Hadwis Helewisa Heria Herleve Hermessent Hermine Hugolina
 		Ida  Judit Lesceline Mabel Marie Matheode Matilda Maud Mautild Maysant Millicent Muriella Oriel Richenda
-		Rosalind Selova Stephanie Sibyl Sibylla Umfreda Valdrade Wilmot Yolanda Yvon
+		Rosalind Selova Stephanie Sibyl Sibylla Umfreda Valdrade Wilmot Yolanda Yvon Xenia
 	}
 	dynasty_of_location_prefix = ""
 	
