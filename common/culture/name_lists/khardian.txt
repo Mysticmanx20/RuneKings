@@ -61,20 +61,20 @@
 	}
 
 	male_names = {
-		Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+		Aaron Apep Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Ali-Abdula Abdullah
 		Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
 		Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
-		Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
-		Ezra Farhan Firuz Gabri_el Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
-		Hussayn Ibrahim Ilyas Is_mail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
+		Athanasios Badir Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
+		Ezra Farhan Firuz Gabri_el Georgios Habil Hakam Hammud Hanri Heru Hisham
+		Hassan Ibrahim Ilyas Is_mail Izzaddin Jalal Jaraah Kemaladdin Khalil Khnum
 		Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
-		Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
-		Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+		Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Ozan Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
+		Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Zeke Youssef Zeid Zakariyah
 	}
 	female_names = {
-		Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
-		Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
-		Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+		Acenith Ali Alia Amunet Andali Asanet Asenath Asenet Azenet Ayesha Badiat Cena Fatima Halima
+		Jamila Khadija Majida Maysa Nabila Nura Radiya Rana Sacmis Safiya
+		Samira Suhaila Tawaret Tafani Titi Thuriya Zara Zahra
 	}
 	dynasty_of_location_prefix = ""
 	
