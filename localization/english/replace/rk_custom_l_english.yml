@@ -3,6 +3,15 @@
   diligent_development_focus_decision_desc:0 "I dream that [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] will one day be the envy of every ruler under the sky. I must endeavor to be the champion who turns it into the jewel of Gielinor. All that is needed is for me to put in some more work...\n\nWho needs to sleep, anyway?"
  theocracy_government_desc:1 "$game_concept_theocracy_desc$\n\n#F In a theocratic government, all authority belongs to a religious institution. It is ruled by a priest or priestess who carries out the will of the divine on Gielinor.#!"
 
+ holy_order_temple_knights:0 "Temple Knights"
+ holy_order_white_knights:0 "White Knights of Falador"
+ mercenary_company_varrock_guard:0 "Varrock Guard"
+ mercenary_company_varrock_guard_article:0 "the "
+ mercenary_company_wizards:0 "Wizards of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_wizards_article:0 "the "
+ mercenary_company_lumbridge:0 "Lumbridge Guardsmen"
+ mercenary_company_lumbridge_article:0 "the "
+
  CHARACTER_FULL_NAME_NICKNAMED_PREFIX:2 "$NICK$ $TIER$ $NAME$ of $TITLE$"
  nick_the_crowd_pleaser:0 "The Crowd Pleaser"
  nick_wizard:0 "Wizard"
