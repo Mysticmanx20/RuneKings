@@ -15,11 +15,13 @@ RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic 
 
 ## Installation Instructions
 
-1. To get the latest version, click the green button that says "Code" and click "Download ZIP"
+1. Click the link under the Releases section and download the .zip file.
 2. Go to the mod folder in your Crusader Kings III install directory.
   * Located at C:/Program Files (x86)/Paradox Interactive/Crusader Kings III/mod
-3. Delete the old versions of the mods, if you have any.
-4. Move everything from the .zip into the mod folder.
+3. Delete the old version of the mod, if you have one.
+4. Extract everything from the .zip then move the files into the mod folder.
 5. Open the launcher and add the RuneKings mod to a playset.
 6. Start the game.
 
+Installing the latest code from GitHub will include any recent changes but those edits could be untested and cause issues. It is best to install the latest Release version for a stable experience. 
+* To get the latest changes, click the green button that says "Code" and click "Download ZIP". Repeat the same steps as above.
