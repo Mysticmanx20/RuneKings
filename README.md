@@ -1,5 +1,5 @@
 # RuneKings
-RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic locations, characters, and elements from RuneScape
+RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic locations, characters, and fantasy elements from RuneScape
 
 ## Features
 
