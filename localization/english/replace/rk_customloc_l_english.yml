@@ -2,3 +2,16 @@
 
  game_concept_gold:0 "gp"
  game_concept_gold_desc:0 "Gold pieces or 'gp' really represents all liquid assets of a Character; their wealth. It can be spent on many things, most notably constructing [buildings|E], paying for [regiments|E], and creating [titles|E]."
+
+ #GAME_DATE_STRING:0 "$DAY$ $MONTH$, $YEAR$"
+ #GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $YEAR$"
+ GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH$"
+ #GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $YEAR$ AD"
+ GAME_DATE_STRING:0 "$DAY|O$ of $MONTH$, $INGAME_YEAR$ $INGAME_AGE_NUMBER$"
+ GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $INGAME_YEAR$ $INGAME_AGE_NUMBER$" # EK Era System
+ GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $INGAME_YEAR$ $INGAME_AGE_NUMBER$"
+
+
+ INGAME_YEAR:0 "[Select_int32(LessThan_int32('(int32)$YEAR$','(int32)3500'),Subtract_int32('(int32)$YEAR$','(int32)0'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR$', '(int32)3500'), LessThan_int32('(int32)$YEAR$','(int32)5500')),Subtract_int32('(int32)$YEAR$','(int32)3500'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR$', '(int32)5500'), LessThan_int32('(int32)$YEAR$','(int32)9500')),Subtract_int32('(int32)$YEAR$','(int32)5500'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR$', '(int32)9500'), LessThan_int32('(int32)$YEAR$','(int32)11452')),Subtract_int32('(int32)$YEAR$','(int32)9500'), Select_int32(And(GreaterThanOrEqualTo_int32('(int32)$YEAR$', '(int32)11452'), LessThan_int32('(int32)$YEAR$','(int32)99999')),Subtract_int32('(int32)$YEAR$','(int32)11452'), Subtract_int32('(int32)$YEAR$','(int32)11452'))))))]"
+
+ INGAME_AGE_NUMBER:0 "[AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)0'), LessThan_int32( '(int32)$YEAR$', '(int32)3500') ), 'I')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR$','(int32)3500'), LessThan_int32( '(int32)$YEAR$', '(int32)5500') ), 'II')][AddTextIf(And( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)5500'), LessThan_int32( '(int32)$YEAR$', '(int32)9500') ), 'III')][AddTextIf(And(GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)9500'), LessThan_int32( '(int32)$YEAR$', '(int32)11452') ), 'IV')][AddTextIf(And(GreaterThanOrEqualTo_int32( '(int32)$YEAR$', '(int32)11452'), LessThan_int32( '(int32)$YEAR$', '(int32)12009') ), 'V')]"

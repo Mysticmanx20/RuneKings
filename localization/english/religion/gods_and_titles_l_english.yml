@@ -1,0 +1,250 @@
+﻿
+l_english: 
+
+ #Saradomin
+ sara_religion:0 "Saradomin"
+ sara_religion_adj:1 "Saradominist"
+ sara_religion_adherent:1 "Saradominist"
+ sara_religion_adherent_plural:1 "Saradominists"
+ sara_religion_desc:0 "Saradomin is the god of order and wisdom and one of the three major gods in Gielinor, alongside Zamorak and Guthix. Little is known about his past, but he has a great many followers; there are far more churches dedicated to Saradomin than any other god."
+
+ saradomin:0 "Church of Saradomin"
+ saradomin_adj:0 "Saradominist"
+ saradomin_adherent:0 "Saradominist"
+ saradomin_adherent_plural:0 "Saradominists"
+ saradomin_desc:0 "The Church of Saradomin worship the god of order and wisdom, Saradomin. Arriving to Gielinor in the Second Age, Saradomin gained widespread influence and became a major participant in the God Wars of the Third Age before being banished by Guthix. The Saradominist faith remains as one of the most prominent religions."
+
+	SARA_NAME:0 "Saradomin"
+	SARA_POSSESSIVE:0 "Saradomin's"
+	SARA_NAME2:0 "the God of Light"
+	SARA_POSSESSIVE2:0 "the God of Light's"
+
+	SARA_Head_Title:0 "High Priest"
+	SARA_SCRIPTURES_NAME:0 "Book of Wisdom"
+	SARA_CREST_NAME:0 "Star of Saradomin"
+
+ hamcult:0 "Humans Against Monsters"
+ hamcult_adj:0 "H.A.M."
+ hamcult_adherent:0 "H.A.M. member"
+ hamcult_adherent_plural:0 "H.A.M. members"
+ hamcult_desc:0 "Humans Against Monsters, abbreviated as H.A.M., is a human-supremacist cult who believe that humans are the most pure of Gielinor's creatures, and aim to rid Gielinor of all races that they perceive as monsters, such as goblins and ogres. They pursue their objective by recruiting members and lobbying the human authorities of Gielinor to take action, believing large-scale slaughters are necessary."
+
+###############################
+ # Zammy
+ zam_religion:1 "Zamorak"
+ zam_religion_adj:1 "Zamorakian"
+ zam_religion_adherent:1 "Zamorakian"
+ zam_religion_adherent_plural:1 "Zamorakians"
+ zam_religion_desc:0 "Zamorak is the destructive god of chaos. Brought to Gielinor from the realm of Freneskae, he became the highest-ranking general in the Zarosian Empire, before ascending into godhood after usurping Zaros - a historic event that ended the Second Age and ushered in the God Wars. Throughout the Third Age, he and the other gods battled over Gielinor until he was banished following the Edicts of Guthix."
+
+ zamorak:0 "Zamorakianism"
+ zamorak_adj:0 "Zamorakian"
+ zamorak_adherent:0 "Zamorakian"
+ zamorak_adherent_plural:0 "Zamorakians"
+
+
+	ZAM_NAME:0 "Zamorak"
+	ZAM_POSSESSIVE:0 "Zamorak's"
+	ZAM_NAME2:0 "the Dark Lord"
+	ZAM_POSSESSIVE2:0 "the Dark Lord's"
+
+  ZAM_SCRIPTURES_NAME:0 "Book of Chaos"
+	ZAM_CREST_NAME:0 "Mark of Zamorak"
+
+#################################
+#Zaros
+ zaros_religion:1 "Zaros"
+ zaros_religion_adj:1 "Zarosian"
+ zaros_religion_adherent:1 "Zarosian"
+ zaros_religion_adherent_plural:1 "Zarosians"
+ zaros_religion_desc:0 "Zaros is the divine aspect of darkness, an ancient and today mostly forgotten god of Gielinor, and counterpart of the elven goddess of light, Seren. The few who know about him still fear him immensely, with many refusing to even speak his name out of fear for invoking his power. The handful of Zarosians still in existence are mostly hiding, with some silently plotting the return of their master."
+
+ zaros:0 "Church of Zaros"
+ zaros_adj:0 "Zarosian"
+ zaros_adherent:0 "Zarosian"
+ zaros_adherent_plural:0 "Zarosians"
+
+  ZAROS_NAME:0 "Zaros"
+	ZAROS_POSSESSIVE:0 "Zaros's"
+	ZAROS_NAME2:0 "the Empty Lord"
+	ZAROS_POSSESSIVE2:0 "the Empty Lord's"
+
+  ZAROS_SCRIPTURES_NAME:0 "Book of Darkness"
+	ZAROS_CREST_NAME:0 "Ancient Sigil"
+
+###############################
+ #Guthix
+
+ guthix_religion:0 "Guthixianism"
+ guthix_religion_adj:0 "Guthixian"
+ guthix_religion_adherent:0 "Guthixians"
+ guthix_religion_adherent_plural:0 "Guthixians"
+ guthix_religion_desc:0 "Commonly defined by a reverence for nature, ancestor worship, and a belief in spirits, many native faiths are considered to be various forms of Guthix worship."
+
+  guthix:0 "Guthixianism"
+  guthix_adj:0 "Guthixian"
+  guthix_adherent:0 "Guthixian"
+  guthix_adherent_plural:0 "Guthixians"
+
+	GUTHIX_NAME:0 "Guthix"
+	GUTHIX_POSSESSIVE:0 "Guthix's"
+	GUTHIX_NAME2:0 "the Lord of Balance"
+	GUTHIX_POSSESSIVE2:0 "the Lord of Balance's"
+
+	GUTHIX_HEAD:0 "High Druid"
+	GUTHIX_DEVOTEE:0 "Druid"
+	GUTHIX_FEMALE:0 "Druidess"
+	GUTHIX_DEVOTEE_POS:0 "Druids"
+	GUTHIX_FEM_POS:0 "Druidesses"
+
+
+  GUTHIX_SCRIPTURES_NAME:0 "Book of Balance"
+	GUTHIX_CREST_NAME:0 "Symbol of Guthix"
+
+	GUTHIX_AFTERLIFE_BAD:0 "Limbo"
+
+	GUTHIX_DEATH:0 "Death"
+	GUTHIX_DEATH2:0 "The Grim Reaper's"
+
+
+	UNDERWORLD:0 "the Underworld"
+	AFTERLIFE:0 "the afterlife"
+
+	holy_site_grandtree_name:0 "The Grand Tree"
+	holy_site_tavcircle_name:0 "Taverley Stone Circle"
+	holy_site_keldagrim_name:0 "Keldagrim"
+	holy_site_varcircle_name:0 "Varrock Stone Circle"
+	holy_site_tears_name:0 "Tears of Guthix"
+
+############################
+
+ bandos_religion:0 "Bandosianism"
+ bandos_religion_adj:0 "Bandosian"
+ bandos_religion_adherent:0 "Servant of Bandos"
+ bandos_religion_adherent_plural:0 "Servants of Bandos"
+ bandos_religion_desc:0 "Servants of Bandos worship an aggresive deity named Bandos - also known as 'The Big High War God'. Many of his followers seem to obey him out of a sense of awe, respect, and unquestioning loyalty; others were compelled to follow him out of fear. He is lesser-known by the humans of Gielinor, although he has many followers of various other races such as goblins and ogres."
+
+ bandos:0 "Bandosianism"
+ bandos_adj:0 "Bandosian"
+ bandos_adherent:0 "Servant of Bandos"
+ bandos_adherent_plural:0 "Servants of Bandos"
+ bandos_desc:0 "Servants of Bandos worship an aggresive deity named Bandos - also known as 'The Big High War God'. Many of his followers seem to obey him out of a sense of awe, respect, and unquestioning loyalty; others were compelled to follow him out of fear. He is lesser-known by the humans of Gielinor, although he has many followers of various other races such as goblins and ogres."
+
+
+	BANDOS_NAME:0 "Bandos"
+	BANDOS_POSSESSIVE:0 "Bandos'"
+	BANDOS_NAME2:0 "The Big High War God"
+	BANDOS_POSSESSIVE2:0 "The Big High War God's"
+
+	BANDOS_SCRIPTURES_NAME:0 "Book of War"
+	BANDOS_CREST_NAME:0 "Bandos' Insignia"
+
+	BANDOS_DIVINE:0 "Yu'biusk"
+	BANDOS_TITLE:0 "Temple"
+
+	BANDOS_EVIL:0 "God of Shiny Light"
+	BANDOS_EVIL2:0 "God of Dark Fire"
+	BANDOS_EVIL3:0 "Big High Chicken God"
+
+	holy_site_gobvil_name:0 "Goblin Village"
+  holy_site_gobtemple_name:0 "Goblin Temple"
+	holy_site_dorgshun_name:0 "Dorgesh-Kaan"
+	holy_site_ogre_name:0 "Gu'Tanoth"
+
+##################
+
+ fremennik_religion:0 "V-------"
+ fremennik_religion_adj:1 "Fremennik"
+ fremennik_religion_adherent:1 "Follower of V"
+ fremennik_religion_adherent_plural:1 "Followers of V"
+ fremennik_religion_desc:0 "The veneration of nature and a profound respect for one's ancestors and their traditions are what define Finno-Ugric paganism. Held in high regard amongst adherents is "sisu," a Finnish concept of stoic determination, grit, bravery, and resilience."
+
+ v:1 "Disciples of V"
+ v_adj:1 "Fremennik"
+ v_adherent:1 "Follower of V"
+ v_adherent_plural:1 "Followers of V"
+
+	V_NAME:0 "V"
+	V_POSSESSIVE:0 "V's"
+	V_NAME2:0 "The God-Hero"
+	V_POSSESSIVE2:0 "The God-Hero's"
+	V_Devotee:0 "Fremennik"
+	V_priest:0 "Seer"
+	V_priestplural:0 "Seers"
+
+	V_SCRIPTURES_NAME:0 "legendary sagas"
+	V_CREST_NAME:0 "V's Crest"
+
+
+	V_AFTERLIFE:0 "the Spirit Realm"
+	V_UNDERWORLD:0 "Niflheim"
+
+######################################
+
+ desert_religion:0 "Menaphite Pantheon"
+ desert_religion_adj:1 "Menaphite"
+ desert_religion_adherent:1 "Follower of the Menaphite Pantheon"
+ desert_religion_adherent_plural:1 "Followers of the Menaphite Pantheon"
+ desert_religion_desc:0 "The Menaphite Pantheon consists of an octet of deities who rule the Kharidian lands. It consists of Tumeken, god of light, his wife Elidinis, goddess of fertility, their children Icthlarin, god of the Underworld, and Amascut, goddess of rebirth, as well as four demi-gods - Apmeken, Crondis, Het, and Scabaras."
+
+ menaph:0 "Menaphite Pantheon"
+ menaph_adj:0 "Menaphite Pantheon"
+ menaph_adherent:0 "Follower of the Menaphite Pantheon"
+ menaph_adherent_plural:0 "Followers of the Menaphite Pantheon"
+ menaph_desc:0 "The Menaphite Pantheon consists of an octet of deities who rule the Kharidian lands. It consists of Tumeken, god of light, his wife Elidinis, goddess of fertility, their children Icthlarin, god of the Underworld, and Amascut, goddess of rebirth, as well as four demi-gods - Apmeken, Crondis, Het, and Scabaras."
+
+ MENA_HIGHGOD:0 "Tumeken"
+ MENA_HIGHGODPOS:0 "Tumeken's"
+ MENA_HIGHGOD2:0 "The God of the Sun"
+ MENA_ALT:0 "the Sun God"
+ MENA_ALT2:0 "the Sun God's"
+ MENA_GROUP:0 "The Gods"
+
+ MENA_ELID:0 "Elidinis"
+ MENA_ELID2:0 "Elidinis'"
+ MENA_APK:0 "Apmeken"
+ MENA_APK2:0 "Apmeken's"
+ MENA_HET:0 "Het"
+ MENA_HET2:0 "Het's"
+ MENA_SCAB:0 "Scabaras"
+ MENA_SCAB2:0 "Scabaras'"
+ MENA_AMAS:0 "Amascut"
+ MENA_AMAS2:0 "Amascut's"
+ MENA_AMAS3:0 "The Devourer"
+ MENA_AMAS32:0 "The Devourer's"
+ MENA_ITCH:0 "Icthlarin"
+ MENA_ITCH2:0 "Icthlarin's"
+ MENA_CROC:0 "Crondis"
+ MENA_CROC2:0 "Crondis'"
+
+ MENA_BOOK:0 "Book of Light and Day"
+ MENA_BOOK2:0 "Tumeken's Four Great Dreams"
+
+##################################
+
+#Karamjan Gods
+
+ karamja_religion:0 "Karamjan"
+ karamja_religion_adj:1 "Karamjan"
+ karamja_religion_adherent:1 "Karamjan"
+ karamja_religion_adherent_plural:1 "Karamjans"
+ karamja_religion_desc:0 "The Karamjan gods are a pantheon of deities worshipped by the tribal people of Karamja. It consists of the three demigods; Kharazi, his wife Shaika and their daughter Raharni, who all ascended by being gifted the power of the god-beast Gara-Dul. The people of Karamja tell little of their gods to outsiders, making their origins and nature a closely guarded secret."
+
+ junglegods:0 "Karamjan Gods"
+ junglegods_adj:0 "Karamjan"
+ junglegods_adherent:0 "Karamjans"
+ junglegods_adherent_plural:0 "Karamjans"
+ junglegods_desc:0 "The Karamjan gods are a pantheon of deities worshipped by the tribal people of Karamja. It consists of the three demigods; Kharazi, his wife Shaika, and their daughter Raharni, who all ascended by being gifted the power of the god-beast Gara-Dul. The people of Karamja tell little of their gods to outsiders, making their origins and nature a closely guarded secret."
+
+ JUNGLEGODS:0 "the gods"
+ JUNGLEGOD1:0 "the spirits"
+ JUNGLEGOD1_POS:0 "the spirits'"
+
+ 
+
+ junglegods_old:0 "Old Karamjan Gods"
+ junglegods_old_adj:0 "Old Karamjan"
+ junglegods_old_adherent:0 "Old Karamjans"
+ junglegods_old_adherent_plural:0 "Old Karamjans"
+	
+
