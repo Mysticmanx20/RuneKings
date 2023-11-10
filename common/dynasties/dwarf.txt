@@ -1,0 +1,2185 @@
+﻿
+4000 = {
+	name = "dynn_Thunderpike"
+	culture=dwarf
+}
+4001 = {
+	name = "dynn_Craggrip"
+	culture=dwarf
+}
+4002 = {
+	name = "dynn_Stoneflayer"
+	culture=dwarf
+}
+4003 = {
+	name = "dynn_Hammerbrow"
+	culture=dwarf
+}
+4004 = {
+	name = "dynn_Barleyrock"
+	culture=dwarf
+}
+4005 = {
+	name = "dynn_Bonehelm"
+	culture=dwarf
+}
+4006 = {
+	name = "dynn_Blackriver"
+	culture=dwarf
+}
+4007 = {
+	name = "dynn_Caskgrip"
+	culture=dwarf
+}
+4008 = {
+	name = "dynn_Slatehand" 
+	culture=dwarf
+}
+4009 = {
+	name = "dynn_Goldcrag"
+	culture=dwarf
+}
+4010 = { 
+	name = "dynn_Thaurissan"
+	culture=dwarf
+}
+4011 = {
+	name = "dynn_Frostbrow" 
+	culture=dwarf
+}
+4012 = {
+	name = "dynn_Steelbreaker"
+	culture=dwarf
+}
+4013 = {
+	name = "dynn_Marblestone"
+	culture=dwarf
+}
+4014 = {
+	name = "dynn_Darkaxe" 
+	culture=dwarf
+}
+4015 = {
+	name = "dynn_Goldforge" 
+	culture=dwarf
+}
+4016 = {
+	name = "dynn_Cliffgrip" 
+	culture=dwarf
+}
+4017 = {
+	name = "dynn_Cragmane" 
+	culture=dwarf
+}
+4018 = {
+	name = "dynn_Blackbeard"
+	culture=dwarf
+}
+4019 = {
+	name = "dynn_Barleyrock"
+	culture=dwarf
+}
+4020 = {
+	name = "dynn_Coldbrew" 
+	culture=dwarf
+}
+4021 = {
+	name = "dynn_Caskhand"
+	culture=dwarf
+}
+4022 = {
+	name = "dynn_Redrock"
+	culture=dwarf
+}
+4023 = {
+	name = "dynn_Steelforge"
+	culture=dwarf
+}
+ 4024 = {
+ 	name = "dynn_Doomstone"
+ 	culture=dwarf
+ }
+ 4025 = {
+ 	name = "dynn_Darkshout"
+ 	culture=dwarf
+ }
+ 4026 = {
+ 	name = "dynn_Coldhand"
+ 	culture=dwarf
+ }
+ 4027 = {
+ 	name = "dynn_Steelmantle"
+ 	culture=dwarf
+ }
+ 4028 = {
+ 	name = "dynn_Mountainbeard"
+ 	culture=dwarf
+ }
+ 4029 = {
+ 	name = "dynn_Slateaxe"
+ 	culture=dwarf
+ }
+ 4030 = {
+ 	name = "dynn_Fireore"
+ 	culture=dwarf
+ }
+ 4031 = {
+ 	name = "dynn_Moltengrip"
+ 	culture=dwarf
+ }
+ 4032 = {
+ 	name = "dynn_Stormmantle"
+ 	culture=dwarf
+ }
+ 4033 = {
+ 	name = "dynn_Darkaxe"
+ 	culture=dwarf
+ }
+ 4034 = {
+ 	name = "dynn_Snowbrew"
+ 	culture=dwarf
+ }
+ 4035 = {
+ 	name = "dynn_Brightstone"
+ 	culture=dwarf
+ }
+ 4036 = {
+ 	name = "dynn_Doomsteel" 
+ 	culture=dwarf
+ }
+ 4037 = {
+ 	name = "dynn_Bonestone" 
+ 	culture=dwarf
+ }
+ 4038 = {
+ 	name = "dynn_Goldbrow"
+ 	culture=dwarf
+ }
+ 4039 = {
+ 	name = "dynn_Longshaper" 
+ 	culture=dwarf
+ }
+ 4040 = {
+ 	name = "dynn_Flintgrip"
+ 	culture=dwarf
+ }
+ 4041 = {
+ 	name = "dynn_Goldblade" 
+ 	culture=dwarf
+ }
+ 4042 = {
+ 	name = "dynn_Steelrock" 
+ 	culture=dwarf
+ }
+ 4043 = {
+ 	name = "dynn_Boulderriver"
+ 	culture=dwarf
+ }
+ 4044 = {
+ 	name = "dynn_Brightore"
+ 	culture=dwarf
+ }
+ 4045 = {
+ 	name = "dynn_Fusebrow"
+ 	culture=dwarf
+ }
+ 4046 = {
+ 	name = "dynn_Bronzeriver"
+ 	culture=dwarf
+ }
+ 4047 = {
+ 	name = "dynn_Firefall" 
+ 	culture=dwarf
+ }
+ 4048 = {
+ 	name = "dynn_Caskore"
+ 	culture=dwarf
+ }
+ 4049 = {
+ 	name = "dynn_Stormhand"
+ 	culture=dwarf
+ }
+ 4050 = {
+ 	name = "dynn_Flintmane"
+ 	culture=dwarf
+ }
+ 4051 = {
+ 	name = "dynn_Stoutgem"
+ 	culture=dwarf
+ }
+ 4052 = {
+ 	name = "dynn_Sternshout"
+ 	culture=dwarf
+ }
+ 4053 = {
+ 	name = "dynn_Doomhand"
+ 	culture=dwarf
+ }
+ 4054 = {
+ 	name = "dynn_Barleymantle" 
+ 	culture=dwarf
+ }
+ 4055 = {
+ 	name = "dynn_Moltenfist"
+ 	culture=dwarf
+ }
+ 4056 = {
+ 	name = "dynn_Steelmane"
+ 	culture=dwarf
+ }
+ 4057 = {
+ 	name = "dynn_Bonefall" 
+ 	culture=dwarf
+ }
+ 4058 = {
+ 	name = "dynn_Bouldergrip" 
+ 	culture=dwarf
+ }
+ 4059 = {
+ 	name = "dynn_Palehammer"
+ 	culture=dwarf
+ }
+ 4060 = {
+ 	name = "dynn_Battleaxe"
+ 	culture=dwarf
+ }
+ 4061 = {
+ 	name = "dynn_Battleflayer"
+ 	culture=dwarf
+ }
+ 4062 = {
+ 	name = "dynn_Coldhand"
+ 	culture=dwarf
+ }
+ 4063 = {
+ 	name = "dynn_Cliffall" 
+ 	culture=dwarf
+ }
+ 4064 = {
+ 	name = "dynn_Redmane"
+ 	culture=dwarf
+ }
+ 4065 = {
+ 	name = "dynn_Mountainmantle" 
+ 	culture=dwarf
+ }
+ 4066 = {
+ 	name = "dynn_Deepmantle" 
+ 	culture=dwarf
+ }
+ 4067 = {
+ 	name = "dynn_Cragbraid" 
+ 	culture=dwarf
+ }
+ 4068 = {
+ 	name = "dynn_Longbrand"
+ 	culture=dwarf
+ }
+ 4069 = {
+ 	name = "dynn_Steelfall" 
+ 	culture=dwarf
+ }
+ 4070 = {
+ 	name = "dynn_Cliffcrag"
+ 	culture=dwarf
+ }
+ 4071 = {
+ 	name = "dynn_Cliffbrew"
+ 	culture=dwarf
+ }
+4072 = {
+	name = "dynn_Caskgem" 
+	culture=dwarf
+}
+4073 = {
+	name = "dynn_Eldenhold"
+	culture=dwarf
+}
+ 4074 = {
+ 	name = "dynn_Sternshout" 
+ 	culture=dwarf
+ }
+ 4075 = {
+ 	name = "dynn_Stormfist"
+ 	culture=dwarf
+ }
+ 4076 = {
+ 	name = "dynn_Deepsteel"
+ 	culture=dwarf
+ }
+ 4077 = {
+ 	name = "dynn_Goldriver"
+ 	culture=dwarf
+ }
+ 4078 = {
+ 	name = "dynn_Cliffcrag" 
+ 	culture=dwarf
+ }
+ 4079 = {
+ 	name = "dynn_Deepmane" 
+ 	culture=dwarf
+ }
+ 4080 = {
+ 	name = "dynn_Blackbrand"
+ 	culture=dwarf
+ }
+4081 = {
+	name = "dynn_Firehammer"
+	culture=dwarf
+}
+ 4082 = {
+ 	name = "dynn_Steelflayer"
+ 	culture=dwarf
+ }
+ 4083 = {
+ 	name = "dynn_Ironhand"
+ 	culture=dwarf
+ }
+4084 = {
+	name = "dynn_Flintbranch"
+	culture=dwarf
+}
+ 4085 = {
+ 	name = "dynn_Steelshield"
+ 	culture=dwarf
+ }
+ 4086 = {
+ 	name = "dynn_Stormtoe"
+ 	culture=dwarf
+ }
+ 4087 = {
+ 	name = "dynn_Bronzemantle"
+ 	culture=dwarf
+ }
+ 4088 = {
+ 	name = "dynn_Barleybelly"
+ 	culture=dwarf
+ }
+ 4089 = {
+ 	name = "dynn_Dirgebrew"
+ 	culture=dwarf
+ }
+ 4090 = {
+ 	name = "dynn_Brightbrew"
+ 	culture=dwarf
+ }
+ 4091 = {
+ 	name = "dynn_Bronzegem"
+ 	culture=dwarf
+ }
+ 4092 = {
+ 	name = "dynn_Bronzefury" 
+ 	culture=dwarf
+ }
+ 4093 = {
+ 	name = "dynn_Goldforge"
+ 	culture=dwarf
+ }
+ 4094 = {
+ 	name = "dynn_Cragriver"
+ 	culture=dwarf
+ }
+ 4095 = {
+ 	name = "dynn_Slateriver"
+ 	culture=dwarf
+ }
+ 4096 = {
+ 	name = "dynn_Darkfury"
+ 	culture=dwarf
+ }
+ 4097 = {
+ 	name = "dynn_Sternore"
+ 	culture=dwarf
+ }
+ 4098 = {
+ 	name = "dynn_Deeppike" 
+ 	culture=dwarf
+ }
+ 4099 = {
+ 	name = "dynn_Hammerstone"
+ 	culture=dwarf
+ }
+ 4100 = {
+ 	name = "dynn_Stonehelm"
+ 	culture=dwarf
+ }
+ 4101 = {
+ 	name = "dynn_Moltenhand"
+ 	culture=dwarf
+ }
+ 4102 = {
+ 	name = "dynn_Stormbranch"
+ 	culture=dwarf
+ }
+ 4103 = {
+ 	name = "dynn_Flinthand"
+ 	culture=dwarf
+ }
+ 4104 = {
+ 	name = "dynn_Deepbrand"
+ 	culture=dwarf
+ }
+ 4105 = {
+ 	name = "dynn_Marblebrew"
+ 	culture=dwarf
+ }
+ 4106 = {
+ 	name = "dynn_Highdust" 
+ 	culture=dwarf
+ }
+ 4107 = {
+ 	name = "dynn_Doommantle"
+ 	culture=dwarf
+ }
+ 4108 = {
+ 	name = "dynn_Boneroar" 
+ 	culture=dwarf
+ }
+ 4109 = {
+ 	name = "dynn_Snowshout" 
+ 	culture=dwarf
+ }
+ 4110 = {
+ 	name = "dynn_Brightbelly"
+ 	culture=dwarf
+ }
+ 4111 = {
+ 	name = "dynn_Hammerpike"
+ 	 culture=dwarf
+ }
+ 4112 = {
+ 	name = "dynn_Darkaxe" 
+ 	culture=dwarf
+ }
+ 4113 = {
+ 	name = "dynn_Mountainbrow"
+ 	culture=dwarf
+ }
+ 4114 = {
+ 	name = "dynn_Fusebrew"
+     culture=dwarf
+ }
+ 4115 = {
+ 	name = "dynn_Battlerock" 
+ 	culture=dwarf
+ }
+ 4116 = {
+ 	name = "dynn_Steelhelm" 
+ 	culture=dwarf
+ }
+ 4117 = {
+ 	name = "dynn_Ironflayer" 
+ 	culture=dwarf
+ }
+ 4118 = {
+ 	name = "dynn_Battleforge" 
+ 	culture=dwarf
+ }
+ 4119 = {
+ 	name = "dynn_Redgem" 
+ 	culture=dwarf
+ }
+ 4120 = {
+ 	name = "dynn_Boulderbelly"
+ 	culture=dwarf
+ }
+ 4121 = {
+ 	name = "dynn_Frostroar" 
+ 	culture=dwarf
+ }
+ 4122 = {
+ 	name = "dynn_Flintbeard" 
+ 	culture=dwarf
+ }
+ 4123 = {
+ 	name = "dynn_Fusehand" 
+ 	culture=dwarf
+ }
+ 4124 = {
+ 	name = "dynn_Steelflayer"
+ 	culture=dwarf
+ }
+ 4125 = {
+ 	name = "dynn_Stoutore" 
+ 	culture=dwarf
+ }
+ 4126 = {
+ 	name = "dynn_Blackgem" 
+ 	culture=dwarf
+ }
+ 4127 = {
+ 	name = "dynn_Frostbreaker"
+ 	culture=dwarf
+ }
+ 4128 = {
+ 	name = "dynn_Marblebranch" 
+ 	culture=dwarf
+ }
+ 4129 = {
+ 	name = "dynn_Steelrock" 
+ 	culture=dwarf
+ }
+ 4130 = {
+ 	name = "dynn_Highgem" 
+ 	culture=dwarf
+ }
+ 4131 = {
+ 	name = "dynn_Forester" 
+ 	culture=dwarf
+ }
+ 4132 = {
+ 	name = "dynn_Boneshout" 
+ 	culture=dwarf
+ }
+ 4133 = {
+ 	name = "dynn_Boulderbreaker"
+ 	culture=dwarf
+ }
+ 4134 = {
+ 	name = "dynn_Barleybraid"
+ 	culture=dwarf
+ }
+ 4135 = {
+ 	name = "dynn_Firebrand" 
+ 	culture=dwarf
+ }
+ 4136 = {
+ 	name = "dynn_Cliffbreaker" 
+ 	culture=dwarf
+ }
+ 4137 = {
+ 	name = "dynn_Goldbrow" 
+ 	culture=dwarf
+ }
+ 4138 = {
+ 	name = "dynn_Thundermane"
+     culture=dwarf
+ }
+ 4139 = {
+ 	name = "dynn_Stormgem" 
+ 	culture=dwarf
+ }
+4140 = {
+	name = "dynn_Redfall" 
+	culture=dwarf
+}
+4141 = {
+	name = "dynn_Bronzehammer" 
+	culture=dwarf
+}
+ 4142 = {
+ 	name = "dynn_Boulderrock" 
+ 	culture=dwarf
+ }
+ 4143 = {
+ 	name = "dynn_Barleyshaper" 
+ 	culture=dwarf
+ }
+ 4144 = {
+ 	name = "dynn_Darkfist"
+ 	culture=dwarf
+ }
+ 4145 = {
+ 	name = "dynn_Longgem" 
+ 	culture=dwarf
+ }
+ 4146 = {
+ 	name = "dynn_Stonemantle" 
+ 	culture=dwarf
+ }
+ 4147 = {
+ 	name = "dynn_Slatepike" 
+ 	culture=dwarf
+ }
+ 4148 = {
+ 	name = "dynn_Longhelm"
+ 	culture=dwarf
+ }
+ 4149 = {
+ 	name = "dynn_Marblebrow" 
+ 	culture=dwarf
+ }
+ 4150 = {
+ 	name = "dynn_Slatepike"
+ 	culture=dwarf
+ }
+ 4151 = {
+ 	name = "dynn_Boneore" 
+ 	culture=dwarf
+ }
+ 4152 = {
+ 	name = "dynn_Dirgeshaper" 
+ 	culture=dwarf
+ }
+ 4153 = {
+ 	name = "dynn_Palerock"
+ 	culture=dwarf
+ }
+ 4154 = {
+ 	name = "dynn_Cliffshout" 
+ 	culture=dwarf
+ }
+ 4155 = {
+ 	name = "dynn_Coldriver" 
+ 	culture=dwarf
+ }
+ 4156 = {
+ 	name = "dynn_Stonefall" 
+ 	culture=dwarf
+ }
+ 4157 = {
+ 	name = "dynn_Palebrow" 
+ 	culture=dwarf
+ }
+ 4158 = {
+ 	name = "dynn_Hammerstone" 
+ 	culture=dwarf
+ }
+ 4159 = {
+ 	name = "dynn_Barleyfist" 
+ 	culture=dwarf
+ }
+ 4160 = {
+ 	name = "dynn_Moltenore" 
+ 	culture=dwarf
+ }
+ 4161 = {
+ 	name = "dynn_Darkhelm" 
+ 	culture=dwarf
+ }
+ 4162 = {
+ 	name = "dynn_Boulderbraid" 
+ 	culture=dwarf
+ }
+ 4163 = {
+ 	name = "dynn_Steelshaper" 
+ 	culture=dwarf
+ }
+ 4164 = {
+ 	name = "dynn_Mountainmantle" 
+ 	culture=dwarf
+ }
+ 4165 = {
+ 	name = "dynn_Marblebraid" 
+ 	culture=dwarf
+ }
+ 4166 = {
+ 	name = "dynn_Bonearm" 
+ 	culture=dwarf
+ }
+ 4167 = {
+ 	name = "dynn_Longgrip" 
+ 	culture=dwarf
+ }
+ 4168 = {
+ 	name = "dynn_Caskbrew" 
+ 	culture=dwarf
+ }
+ 4169 = {
+ 	name = "dynn_Coldforge" 
+ 	culture=dwarf
+ }
+ 4170 = {
+ 	name = "dynn_Snowbranch" 
+ 	culture=dwarf
+ }
+ 4171 = {
+ 	name = "dynn_Highore" 
+ 	culture=dwarf
+ }
+ 4172 = {
+ 	name = "dynn_Thunderblade" 
+ 	culture=dwarf
+ }
+ 4173 = {
+ 	name = "dynn_Frostbraid" 
+ 	culture=dwarf
+ }
+ 4174 = {
+ 	name = "dynn_Bonepike"
+ 	culture=dwarf
+ }
+ 4175 = {
+ 	name = "dynn_Steelhammer"
+ 	culture=dwarf
+ }
+ 4176 = {
+ 	name = "dynn_Doomhelm" 
+ 	culture=dwarf
+ }
+ 4177 = {
+ 	name = "dynn_Battleflayer" 
+ 	culture=dwarf
+ }
+ 4178 = {
+ 	name = "dynn_Cliffhand" 
+ 	culture=dwarf
+ }
+ 4179 = {
+ 	name = "dynn_Firecrag"
+ 	culture=dwarf
+ }
+ 4180 = {
+ 	name = "dynn_Snowmantle" 
+ 	culture=dwarf
+ }
+ 4181 = {
+ 	name = "dynn_Redmane" 
+ 	culture=dwarf
+ }
+ 4182 = {
+ 	name = "dynn_Blackore" 
+ 	culture=dwarf
+ }
+ 4183 = {
+ 	name = "dynn_Blackforge" 
+ 	culture=dwarf
+ }
+ 4184 = {
+ 	name = "dynn_Mountainshaper" 
+ 	culture=dwarf
+ }
+ 4185 = {
+ 	name = "dynn_Stoutflayer" 
+ 	culture=dwarf
+ }
+ 4186 = {
+ 	name = "dynn_Doomshield" 
+ 	culture=dwarf
+ }
+ 4187 = {
+ 	name = "dynn_Firefury" 
+ 	culture=dwarf
+ }
+ 4188 = {
+ 	name = "dynn_Steelbeard" 
+ 	culture=dwarf
+ }
+ 4189 = {
+ 	name = "dynn_Dirgeshield" 
+ 	culture=dwarf
+ }
+ 4190 = {
+ 	name = "dynn_Blackbeard" 
+ 	culture=dwarf
+ }
+ 4191 = {
+ 	name = "dynn_Doomhammer" 
+ 	culture=dwarf
+ }
+ 4192 = {
+ 	name = "dynn_Bronzeforge" 
+ 	culture=dwarf
+ }
+ 4193 = {
+ 	name = "dynn_Goldhand"
+ 	culture=dwarf
+ }
+ 4194 = {
+ 	name = "dynn_Goldriver" 
+ 	culture=dwarf
+ }
+ 4195 = {
+ 	name = "dynn_Stonefury" 
+ 	culture=dwarf
+ }
+ 4196 = {
+ 	name = "dynn_Longroar" 
+ 	culture=dwarf
+ }
+ 4197 = {
+ 	name = "dynn_Darkbraid" 
+ 	culture=dwarf
+ }
+ 4198 = {
+ 	name = "dynn_Steeltoe" 
+ 	culture=dwarf
+ }
+ 4199 = {
+ 	name = "dynn_Battleforge"
+ 	culture=dwarf
+ }
+
+4200 = {
+	name = "dynn_dwarf"
+	culture=dwarf
+}
+4201 = {
+	name = "dynn_Steelfist" 
+	culture=dwarf
+}
+4202 = {
+	name = "dynn_Slatebranch" 
+	culture=dwarf
+}
+4203 = {
+	name = "dynn_Brightbrew" 
+	culture=dwarf
+}
+4204 = {
+	name = "dynn_Palebraid" 
+	culture=dwarf
+}
+4205 = {
+	name = "dynn_Barleygrip" 
+	culture=dwarf
+}
+4206 = {
+	name = "dynn_Palepike" 
+	culture=dwarf
+}
+4207 = {
+	name = "dynn_Mountainbrand" 
+	culture=dwarf
+}
+4208 = {
+	name = "dynn_Snowaxe" 
+	culture=dwarf
+}
+4209 = {
+	name = "dynn_Caskfury" 
+	culture=dwarf
+}
+4210 = {
+	name = "dynn_Boulderhammer" 
+	culture=dwarf
+}
+4211 = {
+	name = "dynn_Doomaxe" 
+	culture=dwarf
+}
+4212 = {
+	name = "dynn_Fireflayer" 
+	culture=dwarf
+}
+4213 = {
+	name = "dynn_Casksteel" 
+	culture=dwarf
+}
+4214 = {
+	name = "dynn_Ironshield" 
+	culture=dwarf
+}
+4215 = {
+	name = "dynn_Redbrew" 
+	culture=dwarf
+}
+4216 = {
+	name = "dynn_Moltenflayer" 
+	culture=dwarf
+}
+4217 = {
+	name = "dynn_Palegrip" 
+	culture=dwarf
+}
+4218 = {
+	name = "dynn_Mountaindust" 
+	culture=dwarf
+}
+4219 = {
+	name = "dynn_Steelrock" 
+	culture=dwarf
+}
+4220 = {
+	name = "dynn_Steelbraid" 
+	culture=dwarf
+}
+4221 = {
+	name = "dynn_Doomhelm" 
+	culture=dwarf
+}
+4222 = {
+	name = "dynn_Dirgeaxe" 
+	culture=dwarf
+}
+4223 = {
+	name = "dynn_Marblebrand" 
+	culture=dwarf
+}
+4224 = {
+	name = "dynn_Irontoe" 
+	culture=dwarf
+}
+4225 = {
+	name = "dynn_Frostbranch" 
+	culture=dwarf
+}
+4226 = {
+	name = "dynn_Froststeel" 
+	culture=dwarf
+}
+4227 = {
+	name = "dynn_Deepbranch" 
+	culture=dwarf
+}
+
+4228 = { 
+	name = "dynn_Flamebeard" 
+	culture=dwarf
+}
+
+4229 = {
+	name = "dynn_Deepflayer" 
+	culture=dwarf
+}
+4230 = {
+	name = "dynn_Fireriver" 
+	culture=dwarf
+}
+4231 = {
+	name = "dynn_Cliffbrow" 
+	culture=dwarf
+}
+4232 = {
+	name = "dynn_Longbraid" 
+	culture=dwarf
+}
+4233 = {
+	name = "dynn_Hammerblade" 
+	culture=dwarf
+}
+4234 = {
+	name = "dynn_Cragbreaker" 
+	culture=dwarf
+}
+
+4235 = { 
+	name = "dynn_Stormpike" 
+	culture=dwarf
+}
+
+4236 = {
+	name = "dynn_Longflayer" 
+	culture=dwarf
+}
+4237 = {
+	name = "dynn_Slatedust" 
+	culture=dwarf
+}
+4238 = {
+	name = "dynn_Mountainflayer" 
+	culture=dwarf
+}
+
+4239 = { 
+	name = "dynn_Farson" 
+	culture=dwarf
+}
+4240 = { 
+	name = "dynn_Deepdust" 
+	culture=dwarf
+}
+4241 = { 
+	name = "dynn_Goldcrag" 
+	culture=dwarf
+}
+4242 = { 
+	name = "dynn_Cragmane" 
+	culture=dwarf
+}
+ 4243 = {
+ 	name = "dynn_Dirgebrew" 
+ 	culture=dwarf
+ }
+ 4244 = {
+ 	name = "dynn_Mountainbreaker" 
+ 	culture=dwarf
+ }
+ 4245 = {
+ 	name = "dynn_Redcrag" 
+ 	culture=dwarf
+ }
+ 4246 = {
+ 	name = "dynn_Stonehammer" 
+ 	culture=dwarf
+ }
+ 4247 = {
+ 	name = "dynn_Bronzeshaper" 
+ 	culture=dwarf
+ }
+ 4248 = {
+ 	name = "dynn_Steeltoe" 
+ 	culture=dwarf
+ }
+ 4249 = {
+ 	name = "dynn_Goldore" 
+ 	culture=dwarf
+ }
+ 4250 = {
+ 	name = "dynn_Deepdust" 
+ 	culture=dwarf
+ }
+ 4251 = {
+ 	name = "dynn_Slateaxe" 
+ 	culture=dwarf
+ }
+ 4252 = {
+ 	name = "dynn_Deepblade"
+ 	culture=dwarf
+ }
+ 4253 = {
+ 	name = "dynn_Highpike" 
+ 	culture=dwarf
+ }
+ 4254 = {
+ 	name = "dynn_Fusebranch" 
+ 	culture=dwarf
+ }
+ 4255 = {
+ 	name = "dynn_Cragblade" 
+ 	culture=dwarf
+ }
+ 4256 = {
+ 	name = "dynn_Stoutbeard" 
+ 	culture=dwarf
+ }
+ 4257 = {
+ 	name = "dynn_Sternbranch" 
+ 	culture=dwarf
+ }
+ 4258 = {
+ 	name = "dynn_Golddust" 
+ 	culture=dwarf
+ }
+ 4259 = {
+ 	name = "dynn_Ironrock" 
+ 	culture=dwarf
+ }
+ 4260 = {
+ 	name = "dynn_Stonegrip" 
+ 	culture=dwarf
+ }
+ 4261 = {
+ 	name = "dynn_Stoutaxe" 
+ 	culture=dwarf
+ }
+ 4262 = {
+ 	name = "dynn_Moltenfist" 
+ 	culture=dwarf
+ }
+ 4263 = {
+ 	name = "dynn_Palebreaker" 
+ 	culture=dwarf
+ }
+ 4264 = {
+ 	name = "dynn_Steelbraid" 
+ 	culture=dwarf
+ }
+ 4265 = {
+ 	name = "dynn_Thunderbrow" 
+ 	culture=dwarf
+ }
+ 4266 = {
+ 	name = "dynn_Frostbreaker" 
+ 	culture=dwarf
+ }
+ 4267 = {
+ 	name = "dynn_Coldbranch" 
+ 	culture=dwarf
+ }
+ 4268 = {
+ 	name = "dynn_Stoutbranch" 
+ 	culture=dwarf
+ }
+ 4269 = {
+ 	name = "dynn_Darkcrag" 
+ 	culture=dwarf
+ }
+ 4270 = {
+ 	name = "dynn_Bouldershaper"
+ 	culture=dwarf
+ }
+ 4271 = {
+ 	name = "dynn_Sternfall" 
+ 	culture=dwarf
+ }
+ 4272 = {
+ 	name = "dynn_Brighthammer" 
+ 	culture=dwarf
+ }
+ 4273 = {
+ 	name = "dynn_Highpike" 
+ 	culture=dwarf
+ }
+ 4274 = {
+ 	name = "dynn_Moltenhand" 
+ 	culture=dwarf
+ }
+ 4275 = {
+ 	name = "dynn_Darkore" 
+ 	culture=dwarf
+ }
+ 4276 = {
+ 	name = "dynn_Cragshaper" 
+ 	culture=dwarf
+ }
+ 4277 = {
+ 	name = "dynn_Longcrag" 
+ 	culture=dwarf
+ }
+ 4278 = {
+ 	name = "dynn_Slatefury" 
+ 	culture=dwarf
+ }
+ 4279 = {
+ 	name = "dynn_Ironbreaker" 
+ 	culture=dwarf
+ }
+ 4280 = {
+ 	name = "dynn_Longflayer" 
+ 	culture=dwarf
+ }
+ 4281 = {
+ 	name = "dynn_Highfury" 
+ 	culture=dwarf
+ }
+ 4282 = {
+ 	name = "dynn_Darkriver" 
+ 	culture=dwarf
+ }
+ 4283 = {
+ 	name = "dynn_Deepstone" 
+ 	culture=dwarf
+ }
+ 4284 = {
+ 	name = "dynn_Coldroar" 
+ 	culture=dwarf
+ }
+ 4285 = {
+ 	name = "dynn_Boulderpike" 
+ 	culture=dwarf
+ }
+ 4286 = {
+ 	name = "dynn_Marbleriver" 
+ 	culture=dwarf
+ }
+ 4287 = {
+ 	name = "dynn_Steeldust" 
+ 	culture=dwarf
+ }
+ 4288 = {
+ 	name = "dynn_Craghand" 
+ 	culture=dwarf
+ }
+ 4289 = {
+ 	name = "dynn_Slatebrand" 
+ 	culture=dwarf
+ }
+ 4290 = {
+ 	name = "dynn_Coldarm" 
+ 	culture=dwarf
+ }
+ 4291 = {
+ 	name = "dynn_Darkgem" 
+ 	culture=dwarf
+ }
+ 4292 = {
+ 	name = "dynn_Hammerfist" 
+ 	culture=dwarf
+ }
+ 4293 = {
+ 	name = "dynn_Palebraid" 
+ 	culture=dwarf
+ }
+ 4294 = {
+ 	name = "dynn_Hammerhelm" 
+ 	culture=dwarf
+ }
+ 4295 = {
+ 	name = "dynn_Hammerbrew" 
+ 	culture=dwarf
+ }
+ 4296 = {
+ 	name = "dynn_Marblebeard" 
+ 	culture=dwarf
+ }
+ 4297 = {
+ 	name = "dynn_Stoneaxe" 
+ 	culture=dwarf
+ }
+ 4298 = {
+ 	name = "dynn_Fusemantle" 
+ 	culture=dwarf
+ }
+ 4299 = {
+ 	name = "dynn_Redbelly" 
+ 	culture=dwarf
+ }
+ 4300 = {
+ 	name = "dynn_Stoutshaper" 
+ 	culture=dwarf
+ }
+ 4301 = {
+ 	name = "dynn_Moltenmane" 
+ 	culture=dwarf
+ }
+ 4302 = {
+ 	name = "dynn_Fusehelm" 
+ 	culture=dwarf
+ }
+ 4303 = {
+ 	name = "dynn_Frostbreaker" 
+ 	culture=dwarf
+ }
+ 4304 = {
+ 	name = "dynn_Stonehammer" 
+ 	culture=dwarf
+ }
+ 4305 = {
+ 	name = "dynn_Stormhand" 
+ 	culture=dwarf
+ }
+ 4306 = {
+ 	name = "dynn_Cragblade" 
+ 	culture=dwarf
+ }
+ 4307 = {
+ 	name = "dynn_Sternfury" 
+ 	culture=dwarf
+ }
+ 4308 = {
+ 	name = "dynn_Blackbrow" 
+ 	culture=dwarf
+ }
+ 4309 = {
+ 	name = "dynn_Steelstone"
+ 	culture=dwarf
+ }
+ 4310 = {
+ 	name = "dynn_Steelore" 
+ 	culture=dwarf
+ }
+ 4311 = {
+ 	name = "dynn_Doomshaper" 
+ 	culture=dwarf
+ }
+ 4312 = {
+ 	name = "dynn_Caskarm"
+ 	culture=dwarf
+ }
+ 4313 = {
+ 	name = "dynn_Deeprock" 
+ 	culture=dwarf
+ }
+ 4314 = {
+ 	name = "dynn_Flintaxe" 
+ 	culture=dwarf
+ }
+ 4315 = {
+ 	name = "dynn_Sternflayer" 
+ 	culture=dwarf
+ }
+ 4316 = {
+ 	name = "dynn_Caskbrow" 
+ 	culture=dwarf
+ }
+ 4317 = {
+ 	name = "dynn_Firebrand" 
+ 	culture=dwarf
+ }
+ 4318 = {
+ 	name = "dynn_Goldore" 
+ 	culture=dwarf
+ }
+ 4319 = {
+ 	name = "dynn_Battlemantle" 
+ 	culture=dwarf
+ }
+ 4320 = {
+ 	name = "dynn_Snowriver" 
+ 	culture=dwarf
+ }
+ 4321 = {
+ 	name = "dynn_Cliffbrand" 
+ 	culture=dwarf
+ }
+ 4322 = {
+ 	name = "dynn_Boneshield" 
+ 	culture=dwarf
+ }
+ 4323 = {
+ 	name = "dynn_Frostmantle" 
+ 	culture=dwarf
+ }
+ 4324 = {
+ 	name = "dynn_Frostbrow" 
+ 	culture=dwarf
+ }
+ 4325 = {
+ 	name = "dynn_Barleyflayer" 
+ 	culture=dwarf
+ }
+ 4326 = {
+ 	name = "dynn_Slatebraid" 
+ 	culture=dwarf
+ }
+ 4327 = {
+ 	name = "dynn_Bonebreaker" 
+ 	culture=dwarf
+ }
+ 4328 = {
+ 	name = "dynn_Stouthelm" 
+ 	culture=dwarf
+ }
+ 4329 = {
+ 	name = "dynn_Snowtoe" 
+ 	culture=dwarf
+ }
+ 4330 = {
+ 	name = "dynn_Ironmantle" 
+ 	culture=dwarf
+ }
+ 4331 = {
+ 	name = "dynn_Hammerfall" 
+ 	culture=dwarf
+ }
+ 4332 = {
+ 	name = "dynn_Thunderriver" 
+ 	culture=dwarf
+ }
+ 4333 = {
+ 	name = "dynn_Boneblade" 
+ 	culture=dwarf
+ }
+ 4334 = {
+ 	name = "dynn_Stormflayer" 
+ 	culture=dwarf
+ }
+ 4335 = {
+ 	name = "dynn_Deepmane" 
+ 	culture=dwarf
+ }
+ 4336 = {
+ 	name = "dynn_Stoutcrag" 
+ 	culture=dwarf
+ }
+4337 = {
+	name = "dynn_Nesingwary" 
+	culture=dwarf
+}
+ 4338 = {
+ 	name = "dynn_Barleytoe" 
+ 	culture=dwarf
+ }
+ 4339 = {
+ 	name = "dynn_Doomtoe" 
+ 	culture=dwarf
+ }
+ 4340 = {
+ 	name = "dynn_Flinthelm" 
+ 	culture=dwarf
+ }
+ 4341 = {
+ 	name = "dynn_Cragflayer" 
+ 	culture=dwarf
+ }
+ 4342 = {
+ 	name = "dynn_Cragcrag" 
+ 	culture=dwarf
+ }
+ 4343 = {
+ 	name = "dynn_Bronzebrow" 
+ 	culture=dwarf
+ }
+ 4344 = {
+ 	name = "dynn_Hammerbraid" 
+ 	culture=dwarf
+ }
+ 4345 = {
+ 	name = "dynn_Paleshield" 
+ 	culture=dwarf
+ }
+ 4346 = {
+ 	name = "dynn_Coldbeard" 
+ 	culture=dwarf
+ }
+ 4347 = {
+ 	name = "dynn_Redshield" 
+ 	culture=dwarf
+ }
+ 4348 = {
+ 	name = "dynn_Thundershaper" 
+ 	culture=dwarf
+ }
+ 4349 = {
+ 	name = "dynn_Barleyaxe" 
+ 	culture=dwarf
+ }
+ 4350 = {
+ 	name = "dynn_Firegrip" 
+ 	culture=dwarf
+ }
+ 4351 = {
+ 	name = "dynn_Fusemantle" 
+ 	culture=dwarf
+ }
+ 4352 = {
+ 	name = "dynn_Longriver" 
+ 	culture=dwarf
+ }
+ 4353 = {
+ 	name = "dynn_Barleyriver" 
+ 	culture=dwarf
+ }
+ 4354 = {
+ 	name = "dynn_Fuseshield" 
+ 	culture=dwarf
+ }
+ 4355 = {
+ 	name = "dynn_Fusebrand" 
+ 	culture=dwarf
+ }
+ 4356 = {
+ 	name = "dynn_Frostbrow" 
+ 	culture=dwarf
+ }
+ 4357 = {
+ 	name = "dynn_Longbrow" 
+ 	culture=dwarf
+ }
+ 4358 = {
+ 	name = "dynn_Flintshield" 
+ 	culture=dwarf
+ }
+ 4359 = {
+ 	name = "dynn_Stoutshaper" 
+ 	culture=dwarf
+ }
+ 4360 = {
+ 	name = "dynn_Slatetoe" 
+ 	culture=dwarf
+ }
+ 4361 = {
+ 	name = "dynn_Cliffblade" 
+ 	culture=dwarf
+ }
+ 4362 = {
+ 	name = "dynn_Marbleflayer" 
+ 	culture=dwarf
+ }
+ 4363 = {
+ 	name = "dynn_Flintbeard" 
+ 	culture=dwarf
+ }
+ 4364 = {
+ 	name = "dynn_Caskmantle" 
+ 	culture=dwarf
+ }
+ 4365 = {
+ 	name = "dynn_Doomshield" 
+ 	culture=dwarf
+ }
+ 4366 = {
+ 	name = "dynn_Stormfall" 
+ 	culture=dwarf
+ }
+ 4367 = {
+ 	name = "dynn_Steelflayer"
+ 	culture=dwarf
+ }
+ 4368 = {
+ 	name = "dynn_Palefall" 
+ 	culture=dwarf
+ }
+ 4369 = {
+ 	name = "dynn_Firebreaker" 
+ 	culture=dwarf
+ }
+ 4370 = {
+ 	name = "dynn_Bonegrip" 
+ 	culture=dwarf
+ }
+ 4371 = {
+ 	name = "dynn_Palearm" 
+ 	culture=dwarf
+ }
+ 4372 = {
+ 	name = "dynn_Frosthammer" 
+ 	culture=dwarf
+ }
+ 4373 = {
+ 	name = "dynn_Stoneriver"
+ 	culture=dwarf
+ }
+ 4374 = {
+ 	name = "dynn_Caskshield" 
+ 	culture=dwarf
+ }
+ 4375 = {
+ 	name = "dynn_Goldfall" 
+ 	culture=dwarf
+ }
+ 4376 = {
+ 	name = "dynn_Coldfall" 
+ 	culture=dwarf
+ }
+ 4377 = {
+ 	name = "dynn_Dirgegem" 
+ 	culture=dwarf
+ }
+ 4378 = {
+ 	name = "dynn_Cragbrew" 
+ 	culture=dwarf
+ }
+ 4379 = {
+ 	name = "dynn_Moltenbelly" 
+ 	culture=dwarf
+ }
+ 4380 = {
+ 	name = "dynn_Coldblade" 
+ 	culture=dwarf
+ }
+ 4381 = {
+ 	name = "dynn_Cliffbranch" 
+ 	culture=dwarf
+ }
+ 4382 = {
+ 	name = "dynn_Marbleore" 
+ 	culture=dwarf
+ }
+ 4383 = {
+ 	name = "dynn_Steelstone" 
+ 	culture=dwarf
+ }
+ 4384 = {
+ 	name = "dynn_Battlehand" 
+ 	culture=dwarf
+ }
+ 4385 = {
+ 	name = "dynn_Frostblade" 
+ 	culture=dwarf
+ }
+ 4386 = {
+ 	name = "dynn_Dirgearm" 
+ 	culture=dwarf
+ }
+ 4387 = {
+ 	name = "dynn_Stormblade"
+ 	culture=dwarf
+ }
+ 4388 = {
+ 	name = "dynn_Stormbrew" 
+ 	culture=dwarf
+ }
+ 4389 = {
+ 	name = "dynn_Fusebeard" 
+ 	culture=dwarf
+ }
+ 4390 = {
+ 	name = "dynn_Doommantle" 
+ 	culture=dwarf
+ }
+ 4391 = {
+ 	name = "dynn_Blackbelly" 
+ 	culture=dwarf
+ }
+ 4392 = {
+ 	name = "dynn_Fusecrag" 
+ 	culture=dwarf
+ }
+ 4393 = {
+ 	name = "dynn_Sterndust" 
+ 	culture=dwarf
+ }
+ 4394 = {
+ 	name = "dynn_Bonemane" 
+ 	culture=dwarf
+ }
+ 4395 = {
+ 	name = "dynn_Caskbrow" 
+ 	culture=dwarf
+ }
+ 4396 = {
+ 	name = "dynn_Sternpike" 
+ 	culture=dwarf
+ }
+ 4397 = {
+ 	name = "dynn_Cragdust" 
+ 	culture=dwarf
+ }
+ 4398 = {
+ 	name = "dynn_Bouldermane" 
+ 	culture=dwarf
+ }
+ 4399 = {
+ 	name = "dynn_Dirgeblade"
+ 	culture=dwarf
+ }
+
+4400 = {
+	name = "dynn_dwarf"
+	culture=dwarf
+}
+4401 = {
+	name = "dynn_Thunderhand" 
+	culture=dwarf
+}
+ 4402 = {
+ 	name = "dynn_Fusebrand" 
+ 	culture=dwarf
+ }
+ 4403 = {
+ 	name = "dynn_Blackbraid" 
+ 	culture=dwarf
+ }
+ 4404 = {
+ 	name = "dynn_Snowbraid" 
+ 	culture=dwarf
+ }
+4405 = {
+	name = "dynn_Stormbrand" 
+	culture=dwarf
+}
+4406 = {
+	name = "dynn_Palehammer" 
+	culture=dwarf
+}
+4407 = {
+	name = "dynn_Cliffhelm" 
+	culture=dwarf
+}
+4408 = {
+	name = "dynn_Deepbraid" 
+	culture=dwarf
+}
+4409 = {
+	name = "dynn_Steelflayer" 
+	culture=dwarf
+}
+4410 = {
+	name = "dynn_Cragtoe" 
+	culture=dwarf
+}
+4411 = {
+	name = "dynn_Flintbraid" 
+	culture=dwarf
+}
+4412 = {
+	name = "dynn_Darkbranch" 
+	culture=dwarf
+}
+4413 = {
+	name = "dynn_Coldbrew" 
+	culture=dwarf
+}
+4414 = {
+	name = "dynn_Deepbelly" 
+	culture=dwarf
+}
+4415 = {
+	name = "dynn_Cragmantle" 
+	culture=dwarf
+}
+4416 = {
+	name = "dynn_Goldbelly" 
+	culture=dwarf
+}
+4417 = {
+	name = "dynn_Firecrag" 
+	culture=dwarf
+}
+4418 = {
+	name = "dynn_Blackrock" 
+	culture=dwarf
+}
+4419 = {
+	name = "dynn_Thrant" 
+	culture=dwarf
+}
+4420 = {
+	name = "dynn_Bouldergem" 
+	culture=dwarf
+}
+4421 = {
+	name = "dynn_Blackbrew" 
+	culture=dwarf
+}
+4422 = {
+	name = "dynn_Stoneshaper" 
+	culture=dwarf
+}
+4423 = {
+	name = "dynn_Redfall" 
+	culture=dwarf
+}
+4424 = {
+	name = "dynn_Slateflayer" 
+	culture=dwarf
+}
+4425 = {
+	name = "dynn_Highaxe" 
+	culture=dwarf
+}
+4426 = {
+	name = "dynn_Bouldertoe" 
+	culture=dwarf
+}
+4427 = {
+	name = "dynn_Fusehammer" 
+	culture=dwarf
+}
+4428 = {
+	name = "dynn_Dirgefury" 
+	culture=dwarf
+}
+4429 = {
+	name = "dynn_Sternbrow" 
+	culture=dwarf
+}
+4430 = {
+	name = "dynn_Stonehand" 
+	culture=dwarf
+}
+4431 = {
+	name = "dynn_Battleroar" 
+	culture=dwarf
+}
+ 4432 = {
+ 	name = "dynn_Stormbraid" 
+ 	culture=dwarf
+ }
+ 4433 = {
+ 	name = "dynn_Redbranch" 
+ 	culture=dwarf
+ }
+ 4434 = {
+ 	name = "dynn_Cliffroar" 
+ 	culture=dwarf
+ }
+ 4435 = {
+ 	name = "dynn_Cragbreaker" 
+ 	culture=dwarf
+ }
+ 4436 = {
+ 	name = "dynn_Fuseshout" 
+ 	culture=dwarf
+ }
+ 4437 = {
+ 	name = "dynn_Darkore" 
+ 	culture=dwarf
+ }
+ 4438 = {
+ 	name = "dynn_Cliffriver" 
+ 	culture=dwarf
+ }
+ 4439 = {
+ 	name = "dynn_Blackbelly" 
+ 	culture=dwarf
+ }
+ 4440 = {
+ 	name = "dynn_Cragarm" 
+ 	culture=dwarf
+ }
+ 4441 = {
+ 	name = "dynn_Coldshout" 
+ 	culture=dwarf
+ }
+ 4442 = {
+ 	name = "dynn_Snowmane" 
+ 	culture=dwarf
+ }
+ 4443 = {
+ 	name = "dynn_Fusemantle" 
+ 	culture=dwarf
+ }
+ 4444 = {
+ 	name = "dynn_Redore" 
+ 	culture=dwarf
+ }
+ 4445 = {
+ 	name = "dynn_Dirgeshout"
+ 	culture=dwarf
+ }
+ 4446 = {
+ 	name = "dynn_Mountainore" 
+ 	culture=dwarf
+ }
+ 4447 = {
+ 	name = "dynn_Barleybranch" 
+ 	culture=dwarf
+ }
+ 4448 = {
+ 	name = "dynn_Longhand" 
+ 	culture=dwarf
+ }
+ 4449 = {
+ 	name = "dynn_Flintmantle" 
+ 	culture=dwarf
+ }
+ 4450 = {
+ 	name = "dynn_Bouldershield" 
+ 	culture=dwarf
+ }
+ 4451 = {
+ 	name = "dynn_Sternhand" 
+ 	culture=dwarf
+ }
+ 4452 = {
+ 	name = "dynn_Marblerock" 
+ 	culture=dwarf
+ }
+ 4453 = {
+ 	name = "dynn_Darkbelly" 
+ 	culture=dwarf
+ }
+ 4454 = {
+ 	name = "dynn_Ironflayer" 
+ 	culture=dwarf
+ }
+ 4455 = {
+ 	name = "dynn_Deepblade" 
+ 	culture=dwarf
+ }
+ 4456 = {
+ 	name = "dynn_Paleaxe" 
+ 	culture=dwarf
+ }
+ 4457 = {
+ 	name = "dynn_Paleforge" 
+ 	culture=dwarf
+ }
+ 4458 = {
+ 	name = "dynn_Hammershaper" 
+ 	culture=dwarf
+ }
+ 4459 = {
+ 	name = "dynn_Brighttoe" 
+ 	culture=dwarf
+ }
+ 4460 = {
+ 	name = "dynn_Fuseroar" 
+ 	culture=dwarf
+ }
+ 4461 = {
+ 	name = "dynn_Blackbrand" 
+ 	culture=dwarf
+ }
+ 4462 = {
+ 	name = "dynn_Ironsteel" 
+ 	culture=dwarf
+ }
+ 4463 = {
+ 	name = "dynn_Fireriver" 
+ 	culture=dwarf
+ }
+ 4464 = {
+ 	name = "dynn_Doomforge" 
+ 	culture=dwarf
+ }
+ 4465 = {
+ 	name = "dynn_Brighthand" 
+ 	culture=dwarf
+ }
+ 4466 = {
+ 	name = "dynn_Colddust" 
+ 	culture=dwarf
+ }
+ 4467 = {
+ 	name = "dynn_Redmantled" 
+ 	culture=dwarf
+ }
+ 4468 = {
+ 	name = "dynn_Longmane" 
+ 	culture=dwarf
+ }
+ 4469 = {
+ 	name = "dynn_Livard" 
+ 	culture=dwarf
+ }
+ 4470 = {
+ 	name = "dynn_Marbleaxe" 
+ 	culture=dwarf
+ }
+ 4471 = {
+ 	name = "dynn_Darkshield" 
+ 	culture=dwarf
+ }
+ 4472 = {
+ 	name = "dynn_Bonefall" 
+ 	culture=dwarf
+ }
+ 4473 = {
+ 	name = "dynn_Goldblade" 
+ 	culture=dwarf
+ }
+ 4474 = {
+ 	name = "dynn_Sternbelly" 
+ 	culture=dwarf
+ }
+ 4475 = {
+ 	name = "dynn_Caskgrip" 
+ 	culture=dwarf
+ }
+ 4476 = {
+ 	name = "dynn_Barleyforge" 
+ 	culture=dwarf
+ }
+ 4477 = {
+ 	name = "dynn_Longgrip"
+ 	culture=dwarf
+ }
+ 4478 = {
+ 	name = "dynn_Goldhand" 
+ 	culture=dwarf
+ }
+ 4479 = {
+ 	name = "dynn_Bonebrow" 
+ 	culture=dwarf
+ }
+ 4480 = {
+ 	name = "dynn_Blacktoe" 
+ 	culture=dwarf
+ }
+ 4481 = {
+ 	name = "dynn_Frostdust"
+ 	culture=dwarf
+ }
+ 4482 = {
+ 	name = "dynn_Paleshield" 
+ 	culture=dwarf
+ }
+ 4483 = {
+ 	name = "dynn_Doomaxe" 
+ 	culture=dwarf
+ }
+ 4484 = {
+ 	name = "dynn_Steelcrag" 
+ 	culture=dwarf
+ }
+ 4485 = {
+ 	name = "dynn_Dirgeshaper" 
+ 	culture=dwarf
+ }
+ 4486 = {
+ 	name = "dynn_Hammerbeard" 
+ 	culture=dwarf
+ }
+ 4487 = {
+ 	name = "dynn_Moltendust" 
+ 	culture=dwarf
+ }
+ 4488 = {
+ 	name = "dynn_Steeldust" 
+ 	culture=dwarf
+ }
+ 4489 = {
+ 	name = "dynn_Stonefall" 
+ 	culture=dwarf
+ }
+ 4490 = {
+ 	name = "dynn_Barleyshield" 
+ 	culture=dwarf
+ }
+ 4491 = {
+ 	name = "dynn_Ironfury" 
+ 	culture=dwarf
+ }
+ 4492 = {
+ 	name = "dynn_Boulderpike" 
+ 	culture=dwarf
+ }
+ 4493 = {
+ 	name = "dynn_Caskbranch" 
+ 	culture=dwarf
+ }
+ 4494 = {
+ 	name = "dynn_Firefall" 
+ 	culture=dwarf
+ }
+ 4495 = {
+ 	name = "dynn_Caskbreaker"
+ 	culture=dwarf
+ }
+ 4496 = {
+ 	name = "dynn_Flinthammer" 
+ 	culture=dwarf
+ }
+ 4497 = {
+ 	name = "dynn_Flintdust" 
+ 	culture=dwarf
+ }
+ 4498 = {
+ 	name = "dynn_Marblefist" 
+ 	culture=dwarf
+ }
+ 4499 = {
+ 	name = "dynn_Mountainshield" 
+ 	culture=dwarf
+ }
+ 4500 = {
+ 	name = "dynn_Palestone" 
+ 	culture=dwarf
+ }
+ 4501 = {
+ 	name = "dynn_Battlebelly" 
+ 	culture=dwarf
+ }
+ 4502 = {
+ 	name = "dynn_Moltenroar" 
+ 	culture=dwarf
+ }
+ 4503 = {
+ 	name = "dynn_Caskbelly" 
+ 	culture=dwarf
+ }
+ 4504 = {
+ 	name = "dynn_Thunderstone" 
+ 	culture=dwarf
+ }
+ 4505 = {
+ 	name = "dynn_Mountainshaper" 
+ 	culture=dwarf
+ }
+ 4506 = {
+ 	name = "dynn_Darksteel" 
+ 	culture=dwarf
+ }
+ 4507 = {
+ 	name = "dynn_Boulderbrand" 
+ 	culture=dwarf
+ }
+ 4508 = {
+ 	name = "dynn_Bronzehelm" 
+ 	culture=dwarf
+ }
+ 4509 = {
+ 	name = "dynn_Cliffury" 
+ 	culture=dwarf
+ }
+ 4510 = {
+ 	name = "dynn_Coldforge" 
+ 	culture=dwarf
+ }
+ 4511 = {
+ 	name = "dynn_Slateblade" 
+ 	culture=dwarf
+ }
+ 4512 = {
+ 	name = "dynn_Cliffall" 
+ 	culture=dwarf
+ }
+ 4513 = {
+ 	name = "dynn_Paleforge" 
+ 	culture=dwarf
+ }
+ 4514 = {
+ 	name = "dynn_Doomsteel" 
+ 	culture=dwarf
+ }
+ 4515 = {
+ 	name = "dynn_Froststeel" 
+ 	culture=dwarf
+ }
+ 4516 = {
+ 	name = "dynn_Marblebeard" 
+ 	culture=dwarf
+ }
+ 4517 = {
+ 	name = "dynn_Stonedust" 
+ 	culture=dwarf
+ }
+ 4518 = {
+ 	name = "dynn_Thunderflayer" 
+ 	culture=dwarf
+ }
+ 4519 = {
+ 	name = "dynn_Dirgeaxe" 
+ 	culture=dwarf
+ }
+ 4520 = {
+ 	name = "dynn_Cragbrand" 
+ 	culture=dwarf
+ }
+ 4521 = {
+ 	name = "dynn_Sternshield" 
+ 	culture=dwarf
+ }
+ 4522 = {
+ 	name = "dynn_Stoneaxe" 
+ 	culture=dwarf
+ }
+ 4523 = {
+ 	name = "dynn_Frostmane"
+ 	culture=dwarf
+ }
+ 4524 = {
+ 	name = "dynn_Stoutcrag" 
+ 	culture=dwarf
+ }
+ 4525 = {
+ 	name = "dynn_Battlehammer" 
+ 	culture=dwarf
+ }
+ 4526 = {
+ 	name = "dynn_Steelarm" 
+ 	culture=dwarf
+ }
+ 4527 = {
+ 	name = "dynn_Barleyhand" 
+ 	culture=dwarf
+ }
+ 4528 = {
+ 	name = "dynn_Fusegem" 
+ 	culture=dwarf
+ }
+ 4529 = {
+ 	name = "dynn_Stonearm" 
+ 	culture=dwarf
+ }
+ 4530 = {
+ 	name = "dynn_Thunderbraid" 
+ 	culture=dwarf
+ }
+ 4531 = {
+ 	name = "dynn_Sternforge" 
+ 	culture=dwarf
+ }
+ 4532 = {
+ 	name = "dynn_Thunderhelm" 
+ 	culture=dwarf
+ }
+ 4533 = {
+ 	name = "dynn_Battlebreaker" 
+ 	culture=dwarf
+ }
+ 4534 = {
+ 	name = "dynn_Mountainmane" 
+ 	culture=dwarf
+ }
+ 4535 = {
+ 	name = "dynn_Boulderfury" 
+ 	culture=dwarf
+ }
+ 4536 = {
+ 	name = "dynn_Stormsteel" 
+ 	culture=dwarf
+ }
+ 4537 = {
+ 	name = "dynn_Marbleshaper" 
+ 	culture=dwarf
+ }
+ 4538 = {
+ 	name = "dynn_Redbrand" 
+ 	culture=dwarf
+ }
+ 4539 = {
+ 	name = "dynn_Darkbranch" 
+ 	culture=dwarf
+ }
+ 4540 = {
+ 	name = "dynn_Sternhand" 
+ 	culture=dwarf
+ }
+
+4541 = {
+	name = "dynn_Anvilmar" 
+	culture=dwarf
+}
+ 4542 = {
+ 	name = "dynn_Rockshaper" 
+ 	culture=dwarf
+ }
+ 4543 = {
+ 	name = "dynn_Stormborn" 
+ 	culture=dwarf
+ }
