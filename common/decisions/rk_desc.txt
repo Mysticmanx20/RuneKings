@@ -1,0 +1,74 @@
+﻿tranquil_garden_decision = {
+	picture = "gfx/interface/illustrations/event_scenes/garden.dds"
+	
+	desc = tranquil_garden_decision_desc
+	selection_tooltip = tranquil_garden_decision_tooltip
+	major = yes
+	sort_order = 1
+
+	ai_check_interval = 120
+
+	is_shown = {
+
+		# Put conditions for the decision to show up here.
+		culture:misthalin = {
+		NOT = { has_cultural_tradition = tradition_gardening }
+		}
+
+		is_ruler = yes
+		is_landed = yes
+		culture = culture:misthalin
+		OR = {
+			AND = {
+				top_liege = { culture = culture:misthalin  }
+				top_liege = { has_title = title:k_misthalin }
+			}
+			has_title = title:k_misthalin
+		}
+
+	}
+
+	is_valid_showing_failures_only = {
+        is_available_adult = yes
+        is_at_war = no
+		is_imprisoned = no
+	}
+
+	is_valid = {
+		has_trait = lifestyle_gardener
+		has_trait = lifestyle_traveler
+		has_trait_xp = {
+			trait = lifestyle_traveler
+			track = travel
+			value >= 35
+		}
+	}
+
+	cost = {
+		gold = 150
+	}
+
+
+	effect = {
+
+		# Add effects of the decision here.
+		culture:misthalin = {
+			add_culture_tradition = tradition_gardening
+		}
+		add_prestige = major_prestige_gain
+
+		province:11 = {
+			add_building = royal_garden_01
+		}
+		
+
+	}
+
+	ai_check_interval = 0 # Change this value if you want the AI to consider this decision.
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
