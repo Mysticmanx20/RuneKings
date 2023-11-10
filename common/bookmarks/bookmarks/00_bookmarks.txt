@@ -1,0 +1,24 @@
+﻿bm_1066_canarias = {
+	start_date = 11621.1.1
+	is_playable = yes
+	group = bm_group_1066
+
+	weight = { value = 100 }
+
+	# Horatio
+	character = {
+		name = "Duke Horatio"
+		dynasty_splendor_level = 1
+		type = male
+		birth = 11591.1.1
+		title = d_lumbridge
+		government = feudal_government
+		culture = french
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 20842
+		position = { 250 750 }
+
+		animation = happiness
+	}
+}
