@@ -5,7 +5,7 @@ RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic 
 
 * Nearly complete recreation of RuneScape world map
 * Custom titles based on recognizable RuneScape areas 
-* Unique cultures + religions based on RuneScape history
+* Unique cultures + religions based on RuneScape lore
 * RuneScape NPCs as historical characters
 * Customized in-game calendar reflecting RuneScape timeline
 * Modified GUI elements representing various RuneScape icons & interfaces
