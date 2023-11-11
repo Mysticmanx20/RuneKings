@@ -1,0 +1,179 @@
+﻿dna_change_example_modifier = {
+    usage = game
+	selection_behavior = max
+    priority = 9
+    dna_change_example_modifier = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = indian_commoner_clothes
+				type = female
+                value = 0.62
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10005
+		        is_female = yes
+                portrait_ogre_trigger = yes
+            }
+        }
+    }
+
+    dna_ogre_male = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = no_clothes
+		        type = male
+                value = 0.01
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0.1
+            }
+
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                portrait_ogre_trigger = yes
+            }
+        }
+    }
+
+    head_monk = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = special_accessories_necklace
+                template = cfp_religious_catholic_cross
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_jewish_high_clothes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = catholic_devoted_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                is_landed = yes
+                portrait_has_trait_trigger = { TRAIT = devoted }
+                portrait_religious_catholic_trigger = yes
+            }
+       }
+    }
+
+    monk_clothes = { # MOnk Robes
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_jewish_high_clothes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = catholic_devoted_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+        }
+        
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                is_female = no
+                portrait_has_trait_trigger = { TRAIT = devoted }
+                portrait_religious_catholic_trigger = yes
+            }
+        }
+    }
+
+
+    monk_fem_clothes = { # Female Monk Robes
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_catholic_devoted_clothes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = catholic_devoted_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+        }
+        
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                is_female = yes
+                portrait_has_trait_trigger = { TRAIT = devoted }
+                portrait_religious_catholic_trigger = yes
+            }
+        }
+    }
+}
