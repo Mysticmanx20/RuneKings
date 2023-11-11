@@ -20,14 +20,14 @@ custom_hair = {
 			modifier = {
                 add = 200
                 exists = this
-                exists = character:easteregg_joe_parkin
-                this = character:easteregg_joe_parkin
+                exists = character:ogre009
+                this = character:ogre009
             }
             modifier = {
                 add = 200
                 exists = this
-                exists = character:easteregg_alessandro_bragalini
-                this = character:easteregg_alessandro_bragalini
+                exists = character:ogre016
+                this = character:ogre016
             }
 		}
 	}

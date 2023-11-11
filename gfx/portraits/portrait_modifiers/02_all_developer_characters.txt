@@ -1,0 +1,89 @@
+﻿developer_characters_accessories = {
+  
+    usage = game
+    selection_behavior = max
+    priority = 9
+
+    gabi = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                value = 0.99
+            }
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp1_commoner_clothes
+                type = female
+                value = 0.9
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = mena_common_legwear
+                value = 0.1
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 0
+            }
+
+        
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+				exists = this
+				exists = character:900507
+				this = character:900507
+            }
+        }
+    }
+
+    eric = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = western_hairstyles_wavy
+                value = 0.45
+            }
+            accessory = {
+                mode = add
+                gene = clothes
+                template = western_commoner_clothes
+                value = 0.99
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = mena_common_legwear
+                value = 0.1
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0.1
+            }
+        
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+				exists = this
+				exists = character:900147
+				this = character:900147
+            }
+        }
+    }
+
+
+
+}
