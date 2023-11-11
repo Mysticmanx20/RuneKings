@@ -47,7 +47,9 @@ byzantine_pagan = {
 
 norse = {
 	trigger = {
-		has_graphical_norse_culture_group_trigger = yes
+		government_has_flag = government_is_tribal
+		exists = capital_province
+		capital_province = { geographical_region = world_europe_north }
 	}
 }
 
@@ -152,6 +154,7 @@ mena = {
 		capital_county.culture = {
 			OR = {
 				has_graphical_mena_culture_group_trigger = yes
+				has_graphical_iranian_culture_group_trigger = yes
 				has_graphical_african_culture_group_trigger = yes
 				has_graphical_steppe_culture_group_trigger = yes
 			}
