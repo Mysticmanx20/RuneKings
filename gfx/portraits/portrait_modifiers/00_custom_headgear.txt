@@ -7,6 +7,66 @@
 		template = no_headgear
 	}
 
+	### FP3 ###
+	### Iranian ###
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_imperial
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_royalty
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_low_nobility
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_nobility
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_iranian_war
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	### Turkic ###
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_turkic_low_nobility
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp3_turkic_nobility
+		is_valid_custom = {
+			has_fp3_dlc_trigger = yes
+		}
+	}
+
 	add_accessory_modifiers = {
 		gene = headgear
 		template = reward_western_royalty
@@ -1178,28 +1238,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = cfp_fantasy_witches
-		is_valid_custom = {
-			OR = {
-				has_game_rule = barbershop_cfp_fantasy
-				has_game_rule = ai_cfp_fantasy
-			}
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = rk_darkwiz
-		is_valid_custom = {
-			OR = {
-				has_game_rule = barbershop_cfp_fantasy
-				has_game_rule = ai_cfp_fantasy
-			}
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = rk_witch
 		is_valid_custom = {
 			OR = {
 				has_game_rule = barbershop_cfp_fantasy
