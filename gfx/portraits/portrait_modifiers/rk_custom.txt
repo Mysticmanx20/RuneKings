@@ -16,8 +16,8 @@
             base = 0
             modifier = {
                 add = 10005
-		        is_female = yes
-                portrait_ogre_trigger = yes
+		is_female = yes
+                culture = culture:ogre
             }
         }
     }
@@ -49,7 +49,7 @@
             base = 0
             modifier = {
                 add = 10000
-                portrait_ogre_trigger = yes
+                culture = culture:ogre
             }
         }
     }
