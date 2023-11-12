@@ -196,6 +196,29 @@ on_join_court = {
 				}
 			}
 			give_nickname = nick_wizard
+			on_join_court = {
+	events = {
+		court_maintenance.0005 # Add 'Order member' trait to courtiers who join holy order court
+	}
+	effect = {
+		if = {
+			limit = {
+				is_adult = yes
+				scope:new_employer = {
+					NOT = {is_spouse_of = root }
+					OR = {
+						has_primary_title = title:c_wizard
+						has_primary_title = title:d_wizard
+					}
+				}
+			}
+			give_nickname = nick_wizard
+			add_character_flag = {
+				flag = wizard
+			}
+		}
+	}
+}
 		}
 	}
 }
