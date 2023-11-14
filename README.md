@@ -16,13 +16,14 @@ RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic 
 ## Installation Instructions
 
 1. Click the link under the Releases section and download the .zip file.
-2. Go to the mod folder in your Crusader Kings III local directory.
+2. Download .tga files from [https://tinyurl.com/runekings1] and [https://tinyurl.com/runekings2].
+3. Go to the mod folder in your Crusader Kings III local directory.
   * Located at C:/Documents/Paradox Interactive/Crusader Kings III/mod
-3. Delete the old version of the mod, if you have one.
-4. Extract everything from the .zip then move the files into the mod folder.
-5. Download the 2 .tga files from [https://drive.google.com/file/d/1DMEjQyDTuFzRz3QbkPvpR-nO9YtpCKRz/view?usp=sharing] [https://tinyurl.com/runekings1] and [https://tinyurl.com/runekings2] [https://drive.google.com/file/d/17UunZgKxPy2w2QnG_DPP_meSPAeefSMW/view?usp=sharing]
-5. Open the launcher and add the RuneKings mod to a playset.
-6. Start the game.
+4. Delete all files from old version of the mod, if you have any.
+5. Extract everything from the .zip into the mod folder.
+6. Make sure the folder is named 'RuneKings'.
+7. Move the RuneKings.mod file out into the mod folder.
+8. Drop the 2 .tga files in the RuneKings folder under gfx/map/terrain.
+9. Open the launcher and add the RuneKings mod to a playset.
+10. Start the game.
 
-Installing the latest code from GitHub will include any recent changes but those edits could be untested and cause issues. It is best to install the latest Release version for a stable experience. 
-* To get the latest changes, click the green button that says "Code" and click "Download ZIP". Repeat the same steps as above.
