@@ -12,6 +12,10 @@
  mercenary_company_lumbridge:0 "Lumbridge Guardsmen"
  mercenary_company_lumbridge_article:0 "the "
 
+ PICK_ANY_CHARACTER:4 "Play as any Ruler in #light_background;bold 169 V#!, or #bold create your own!#!"
+ bm_group_1066:0 "169 V"
+ bm_1000_test:0 "Breadbasket of Misthalin"
+
  CHARACTER_FULL_NAME_NICKNAMED_PREFIX:2 "$NICK$ $TIER$ $NAME$ of $TITLE$"
  nick_the_crowd_pleaser:0 "The Crowd Pleaser"
  nick_wizard:0 "Wizard"

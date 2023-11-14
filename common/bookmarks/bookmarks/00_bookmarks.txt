@@ -1,6 +1,9 @@
 ﻿bm_1000_test = {
 	start_date = 11621.1.1
 	is_playable = yes
+	group = bm_group_1066 
+
+	weight = { value = 100 }
 
 
 	# Horatio
@@ -15,7 +18,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 20842
-		position = { 565 490 }
+		position = { 565 485 }
 
 		animation = happiness
 	}
@@ -32,7 +35,7 @@
 		religion = zamorak
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 20843
-		position = { 305 390 }
+		position = { 305 395 }
 
 		animation = personality_zealous
 	}
