@@ -33,7 +33,7 @@
 		government = feudal_government
 		culture = vampyre
 		religion = zamorak
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 20843
 		position = { 305 395 }
 
