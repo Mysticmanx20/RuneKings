@@ -23,7 +23,7 @@ RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic 
 5. Extract everything from the .zip into the mod folder.
 6. Make sure the folder is named 'RuneKings'.
 7. Move the RuneKings.mod file out into the mod folder.
-8. Drop the 2 .tga files in the RuneKings folder under gfx/map/terrain.
+8. Drop the 2 .tga files in the RuneKings folder under RuneKings/gfx/map/terrain.
 9. Open the launcher and add the RuneKings mod to a playset.
 10. Start the game.
 
