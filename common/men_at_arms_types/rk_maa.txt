@@ -1,7 +1,7 @@
 ﻿
 throwtroll = {
 	type = siege_weapon
-	icon = onager_icon
+	icon = onager
 	fights_in_main_phase = no
 	can_recruit = { culture = culture:troll }
 	
