@@ -308,18 +308,18 @@
 307;112;58;0;Tolna;x;
 308;75;87;0;GoblinDig;x;
 309;138;119;0;ExamCen;x;
-310;x;x;x;sea_smokedevil;x;
-311;x;x;x;sea_jiggig;x;
-312;x;x;x;sea_westfeldip;x;
-313;x;x;x;sea_myths;x;
-314;x;x;x;sea_southfeldip;x;
-315;x;x;x;sea_corsair;x;
-316;x;x;x;sea_eastfeldip;x;
-317;x;x;x;sea_rantz;x;
-318;x;x;x;sea_ogreisle;x;
-319;x;x;x;sea_hazelmere;x;
-320;x;x;x;sea_southkhazard;x;
-321;x;x;x;sea_northkhazard;x;
+310;158;57;20;sea_smokedevil;x;
+311;189;181;125;sea_jiggig;x;
+312;53;181;125;sea_westfeldip;x;
+313;57;66;37;sea_myths;x;
+314;180;168;41;sea_southfeldip;x;
+315;180;107;111;sea_corsair;x;
+316;148;66;134;sea_eastfeldip;x;
+317;109;66;134;sea_rantz;x;
+318;109;117;134;sea_ogreisle;x;
+319;75;185;61;sea_hazelmere;x;
+320;75;112;61;sea_southkhazard;x;
+321;187;112;61;sea_northkhazard;x;
 
 
 
