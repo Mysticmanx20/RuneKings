@@ -52,6 +52,7 @@ heritage_human_name:0 "Human"
  mercenary_company_shantay:0 "Guardians of Shantay Pass"
  mercenary_company_elf_guard:0 "Prifddinas Death Guard"
  mercenary_company_elf2:0 "Elven Warriors of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_goblin:0 "Goblin Raiders of [TITLE.GetNameNoTierNoTooltip]"
  
  PICK_ANY_CHARACTER:4 "Play as any Ruler in #light_background;bold 169 V#!, or #bold create your own!#!"
  bm_group_1066:0 "169 V"
