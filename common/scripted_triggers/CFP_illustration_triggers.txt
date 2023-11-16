@@ -51,6 +51,9 @@ has_graphical_west_african_culture_group_trigger = {
 	culture = {
 		OR = {
 			has_culture = culture:karamja
+			culture = {
+				any_parent_culture_or_above = { this = culture:karamja }
+			}
 		}
 	}
 }
