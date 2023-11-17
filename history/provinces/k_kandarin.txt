@@ -206,7 +206,7 @@
 234 = { #ClockTower
 	religion = saradomin
 	culture = kandarin
-	holding = none
+	holding = castle_holding
 }
 
 235 = { #FortKhaz

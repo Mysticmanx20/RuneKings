@@ -974,7 +974,7 @@ kand078 = {
 
 kand079 = {
 	name = "Yusuf"
-	religion = menahpite
+	religion = menaphite
 	culture = kharidian
 	trait = education_stewardship_2 #steward
 	11593.1.1 = {

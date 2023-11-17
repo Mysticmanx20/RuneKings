@@ -348,7 +348,7 @@
 306= { #limestone q
 	religion = saradomin
 	culture = misthalin
-	holding = none
+	holding = castle_holding
 }
 
 307= { #tolna
