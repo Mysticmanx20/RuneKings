@@ -1570,7 +1570,9 @@ bandos_religion = {
 
 	holy_order_names = {
 		{ name = "holy_order_bandos" }
+		{ name = "holy_order_kyz" }
 		{ name = "holy_order_warband" }
+		{ name = "holy_order_bandos2" }
 	}
 
 	holy_order_maa = { cataphract }
