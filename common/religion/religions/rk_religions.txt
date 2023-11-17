@@ -1309,9 +1309,10 @@ guthix_religion = {
 	}
 
 	holy_order_names = {
+		{ name = holy_order_void }
 		{ name = holy_order_crux_eqal }
-		{ name = holy_order_guardians_of_divinerealm }
-		{ name = holy_order_faithful_of_highgod }
+		{ name = holy_order_guthix }
+		{ name = holy_order_asc }
 	}
 
 	holy_order_maa = { horse_archers }
