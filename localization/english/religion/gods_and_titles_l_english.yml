@@ -50,6 +50,7 @@ l_english:
 
   ZAM_SCRIPTURES_NAME:0 "Book of Chaos"
 	ZAM_CREST_NAME:0 "Mark of Zamorak"
+ 	ZAM_ABYSS:0 "the Abyss"
 
 #################################
 #Zaros
@@ -71,6 +72,9 @@ l_english:
 
   ZAROS_SCRIPTURES_NAME:0 "Book of Darkness"
 	ZAROS_CREST_NAME:0 "Ancient Sigil"
+
+ 	ZAROS_AFTERLIFE:0 "Erebus"
+  	ZAROS_DIVINE:0 "the Shadow Realm"
 
 ###############################
  #Guthix
