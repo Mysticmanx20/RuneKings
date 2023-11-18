@@ -126,7 +126,7 @@ c_gobvil = {
 }
 
 c_chaostemple = {
-	11618.1.1 = {
+	11618.1.2 = {
 		liege = 0
 		holder = 900322
 		change_development_level = 5
