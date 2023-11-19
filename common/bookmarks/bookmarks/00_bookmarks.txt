@@ -18,7 +18,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 20842
-		position = { 565 485 }
+		position = { 1250 821 }
 
 		animation = happiness
 	}
@@ -26,6 +26,7 @@
 
 	character = {
 		name = "Count Draynor"
+		dynasty = 100903
 		dynasty_splendor_level = 1
 		type = male
 		birth = 11590.1.1
@@ -35,7 +36,7 @@
 		religion = zamorak
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 20843
-		position = { 305 395 }
+		position = { 847 419 }
 
 		animation = personality_zealous
 	}
@@ -52,9 +53,25 @@
 		religion = menaph
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 8000008
-		position = { 900 690 }
+		position = { 1553 999 }
 
 		animation = worry
+	}
+
+	character = {
+		name = "Archmage Sedridor"
+		dynasty_splendor_level = 1
+		type = male
+		birth = 11565.1.1 
+		title = c_wiztow
+		government = feudal_government
+		culture = misthalin
+		religion = saradomin
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 8000009
+		position = { 760 1025 }
+
+		animation = personality_zealous
 	}
 
 	character = {
@@ -69,7 +86,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 6000002
-		position = { 600 90 }
+		position = { 1314 158 }
 
 		animation = boredom
 	}
