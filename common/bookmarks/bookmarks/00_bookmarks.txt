@@ -63,7 +63,7 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 11565.1.1 
-		title = c_wiztow
+		title = c_wizard
 		government = feudal_government
 		culture = misthalin
 		religion = saradomin
