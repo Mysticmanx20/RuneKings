@@ -9,10 +9,7 @@ cfp_historical_artifacts.0001 = {
 	immediate = {
 		#RuneKing Artifacts
 		if = {
-			limit = {
-				has_dlc_feature = royal_court # DON'T FORGET THIS!
-				
-			}
+			
 			character:900101 = { #other ways to determine a char are possible - this is just an example to do this by an existing (as checked before) title
 				create_artifact_rk_ghostspeak_effect = { OWNER = this }
 			}
