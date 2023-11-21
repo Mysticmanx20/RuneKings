@@ -2431,6 +2431,10 @@ e_morytania = {
 		color = { 173 61 0 }
 		capital = c_darkmeyer
 
+		cultural_names = {
+			icyene = cn_hallow
+		}
+
 		ai_primary_priority = {
 			if = {
 				limit = {
@@ -2642,6 +2646,10 @@ e_morytania = {
 
 			c_mortmyre = {
 				color = {58 87 49}
+
+				cultural_names = {
+					icyene = cn_humble
+				}
 
 				b_myreque = {
 					color = {255 197 12 }
