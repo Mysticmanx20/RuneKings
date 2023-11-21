@@ -20,6 +20,17 @@
  NEUSTRIA:0 "Neustria"
  NEUSTRIA_adj:0 "Neustrian"
 
+ cn_avarrocka:0 "Avarrocka"
+ cn_sent:0 "Senntisten"
+ cn_pade:0 "Paddewwa"
+ cn_kharid:0 "Kharid-Et"
+ cn_anna:0 "Annakarl"
+ cn_carl:0 "Carrallanger"
+ cn_dare:0 "Dareeyak"
+ cn_ghor:0 "Ghorrock"
+ cn_lassar:0 "Lassar"
+ cn_khar:0 "Kharyrll"
+
 # Default title names
 c_lumswamp:0 "Lumbridge Swamp"
 c_lumbridge:0 "Lumbridge"
