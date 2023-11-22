@@ -24,14 +24,14 @@ e_zaros = {
 			capital = c_varrock
 
 			cultural_names = { 
-				fremennik = cn_avarrocka
+				name_list_norse = cn_avarrocka
 			}
 
 			c_varrock = {
 				color = { 170 175 10 }
 
 				cultural_names = { 
-					fremennik = cn_avarrocka
+					name_list_norse = cn_avarrocka
 				}
 
 				
@@ -180,7 +180,7 @@ e_zaros = {
 			capital = c_digsite
 
 			cultural_names = {
-				mahjarrat = cn_sent
+				name_list_mahjarrat = cn_sent
 			}
 
 			c_digsite = {
@@ -219,14 +219,14 @@ e_zaros = {
 			capital = c_edgeville
 
 			cultural_names = {
-				mahjarrat=  cn_pade
+				name_list_mahjarrat=  cn_pade
 			}
 
 			c_edgeville = {
 				color = { 173 61 0 }
 
 				cultural_names = {
-					mahjarrat=  cn_pade
+					name_list_mahjarrat=  cn_pade
 				}
 
 				b_edgeville = {
@@ -753,7 +753,7 @@ e_zaros = {
 				color = { 185 58 95 }
 
 				cultural_names = {
-					mahjarrat = cn_lassar
+					name_list_mahjarrat = cn_lassar
 				}
 
 				b_camdozaal = {
@@ -920,7 +920,7 @@ e_zaros = {
 				color = { 165 205 213 }
 
 				cultural_names = {
-					mahjarrat = cn_ghor
+					name_list_mahjarrat = cn_ghor
 				}
 				
 	
@@ -1006,7 +1006,7 @@ e_zaros = {
 				color = { 99 89 89 }
 
 				cultural_names = {
-					mahjarrat = cn_carl
+					name_list_mahjarrat = cn_carl
 				}
 				
 				b_gshadow = {
@@ -1129,7 +1129,7 @@ e_zaros = {
 		capital = c_alkharid
 
 		cultural_names = {
-			mahjarrat = cn_kharid
+			name_list_mahjarrat = cn_kharid
 		}
 
 
@@ -1138,14 +1138,14 @@ e_zaros = {
 			capital = c_alkharid
 
 			cultural_names = {
-				mahjarrat = cn_kharid
+				name_list_mahjarrat = cn_kharid
 			}
 
 		 	c_alkharid = {
 				color = { 187 197 108 }
 
 				cultural_names = {
-					mahjarrat = cn_kharid
+					name_list_mahjarrat = cn_kharid
 				}
 
 				b_alkharid = {
@@ -2432,7 +2432,7 @@ e_morytania = {
 		capital = c_darkmeyer
 
 		cultural_names = {
-			icyene = cn_hallow
+			name_list_icyene = cn_hallow
 		}
 
 		ai_primary_priority = {
@@ -2608,14 +2608,14 @@ e_morytania = {
 			capital = c_canifis
 
 			cultural_names = {
-				mahjarrat = cn_khar
+				name_list_mahjarrat = cn_khar
 			}
 
 			c_canifis = {
 				color = {151 102 46}
 
 				cultural_names = {
-					mahjarrat = cn_khar
+					name_list_mahjarrat = cn_khar
 				}
 
 				b_canifis = {
@@ -2648,7 +2648,7 @@ e_morytania = {
 				color = {58 87 49}
 
 				cultural_names = {
-					icyene = cn_humble
+					name_list_icyene = cn_humble
 				}
 
 				b_myreque = {
