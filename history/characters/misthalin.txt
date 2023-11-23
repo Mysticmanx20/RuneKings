@@ -262,6 +262,7 @@
 	religion = zamorak
 	dynasty = 100903
 	mother = vamp001
+	father = vamp004
 	martial = 9
 	prowess = 11
 	diplomacy = 7
