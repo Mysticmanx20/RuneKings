@@ -80,6 +80,32 @@ kandarin = {  #kandarin
 	}
 }
 
+khazard = {  
+	color = { 0.55 0.57 0.67 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp1_trials_by_combat
+		tradition_warriors_by_merit
+		tradition_swords_for_hire
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
 piratecul = {  
 	color = { 1.0 0.94 0.0 }
 	
