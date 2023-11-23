@@ -270,6 +270,9 @@ vamp001 = {
 	11512.1.1 = {
 		birth = yes
 	}
+	11537.1.1 = {
+		add_spouse = vamp001
+	}
 	11596.1.1 = {
 		death = yes
 	}
@@ -316,7 +319,7 @@ vamp003 = {
 
 vamp004 = {
 	name = "Vlad"
-	dynasty = 100903
+	dynasty = 100942
 	religion = zaros
 	culture = vampyre
 	trait = sadistic
@@ -324,11 +327,8 @@ vamp004 = {
 	trait = diligent
 	trait = education_martial_5
 	disallow_random_traits = yes
-	11508.1.1 = {
+	11500.1.1 = {
 		birth = yes
-	}
-	11528.1.1 = {
-		add_spouse = vamp001
 	}
 	11585.6.6 = {
 		death = yes

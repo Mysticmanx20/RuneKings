@@ -205,3 +205,8 @@
 	name = "dynn_Despaard"
 	culture = misthalin
 }
+
+100942 = {
+	name = "dynn_Verd"
+	culture = vampyre
+}
