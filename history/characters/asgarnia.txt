@@ -34,6 +34,9 @@
 	11587.1.1 = {
 		birth = yes
 	}
+    11616.1.1 = {
+        add_pressed_claim = title:k_asgarnia
+    }
 }
 
 900304 = {
