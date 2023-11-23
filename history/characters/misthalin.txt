@@ -2010,7 +2010,7 @@ misth004 = {
 		effect = {
 			imprison = {
 				target = character:900801
-				type = dungeon
+				type = house_arrest
 			}
 		}
 	}
