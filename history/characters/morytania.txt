@@ -267,7 +267,7 @@ vamp001 = {
 	trait = education_diplomacy_5
 	trait = family_first
 	disallow_random_traits = yes
-	11512.1.1 = {
+	11508.1.1 = {
 		birth = yes
 	}
 	11537.1.1 = {
