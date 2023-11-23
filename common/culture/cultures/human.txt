@@ -80,7 +80,7 @@ kandarin = {  #kandarin
 	}
 }
 
-pirate = {  
+piratecul = {  
 	color = { 1.0 0.94 0.0 }
 	
 	ethos = ethos_communal
