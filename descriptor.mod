@@ -15,4 +15,4 @@ replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
 
-supported_version="1.11.0.1"
+supported_version="1.11.1"
