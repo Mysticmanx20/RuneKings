@@ -163,6 +163,38 @@ language_elf = {
 	color = burmese
 }
 
+language_mah = { #Mahjarrat / Zarosian
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mah
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mah }
+			multiply = 10
+		}
+	}
+	
+	color = tamil
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 language_anglic = {
 	type = language
 	is_shown = {
