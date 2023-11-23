@@ -1133,7 +1133,7 @@
 900177 = {
     name = "Bill"
     #nickname = 'Barfy'
-    culture = misthalin
+    culture = pirate
     religion = saradomin
 	11593.1.1 = {
 		birth = yes
