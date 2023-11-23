@@ -271,7 +271,7 @@ vamp001 = {
 		birth = yes
 	}
 	11537.1.1 = {
-		add_spouse = vamp001
+		add_spouse = vamp004
 	}
 	11596.1.1 = {
 		death = yes
