@@ -1122,7 +1122,7 @@
 	trait = deceitful
 	trait = brave
 	trait = patient
-    culture = misthalin
+    culture = mahjarrat
     religion = zamorak
     11605.1.1 = {
 		birth = yes
