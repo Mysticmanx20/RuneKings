@@ -261,6 +261,7 @@
 	culture = vampyre
 	religion = zamorak
 	dynasty = 100903
+	mother = vamp001
 	martial = 9
 	prowess = 11
 	diplomacy = 7
@@ -273,7 +274,7 @@
     trait = education_intrigue_1
 	trait = disinherited
 	disallow_random_traits = yes
-	11590.1.1 = {
+	11592.1.1 = {
 		birth = yes
 	}
 }
