@@ -250,7 +250,7 @@
 		effect = {
 			imprison = {
 				target = character:900169
-				type = dungeon
+				type = house_arrest
 			}
 		}
 	}
