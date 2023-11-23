@@ -1105,8 +1105,11 @@
 
 900175 = {
     name = "Lucien"
-    culture = misthalin #mahajjarat
+    culture = mahjarrat
     religion = zamorak
+	trait = arrogant
+	trait = wrathful
+	trait = deceitful
 	11571.1.1 = {
 		birth = yes
 	}
@@ -1116,6 +1119,9 @@
     name = "Moia"
     female = yes
     father = 900175
+	trait = deceitful
+	trait = brave
+	trait = patient
     culture = misthalin
     religion = zamorak
     11605.1.1 = {

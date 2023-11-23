@@ -234,6 +234,11 @@ e_zaros = {
 					province = 14
 				}
 
+			}
+
+			c_lucien = {
+				color = { 177 189 203 }
+
 				b_lucien = {
 					color = { 177 189 203 }
 					province = 59

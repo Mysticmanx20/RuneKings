@@ -186,7 +186,7 @@
 }
 
 59 = {    #Lucien
-	religion = zamorak
+	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
 }
