@@ -2,6 +2,10 @@
 	type = heritage
 }
 
+heritage_fren = {
+	type = heritage
+}
+
 heritage_bandos = {
 	type = heritage
 }
