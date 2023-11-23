@@ -208,3 +208,40 @@ create_artifact_rk_ghostspeak_effect = {
 		
 	}
 }
+
+create_artifact_rk_kharidib_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = kharidib_name
+		description = kharidib_desc
+		template = rk_kharidib_template
+		type = pedestal
+		visuals = reliquary
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 11620.10.29
+			recipient = character:900800 #Emir Shah
+			location = province:21 #Alkarid
+		}
+		modifier = artifact_monthly_piety_3_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_scaled_artifact_modifier_piety_effect = yes
+		add_scaled_artifact_modifier_devotion_effect = yes
+		add_scaled_artifact_modifier_grandeur_small_effect = yes
+		set_variable = {
+			name = relic
+			value = flag:menaphite
+		}
+	}
+}

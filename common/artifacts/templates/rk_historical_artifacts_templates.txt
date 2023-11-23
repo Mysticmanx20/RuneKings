@@ -12,3 +12,17 @@
 		monthly_piety = 0.1
 	}
 }
+
+rk_kharidib_template = {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		culture = culture:kharidian
+	}
+
+	fallback - {
+		monthly_piety = 0.1
+	}
+}

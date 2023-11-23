@@ -15,6 +15,12 @@ cfp_historical_artifacts.0001 = {
 			}
 		}
 
+		if = {
+			character:900800 = {
+				create_artifact_rk_kharidib_effect = { OWNER = this }
+			}
+		}
+
 
 
 
