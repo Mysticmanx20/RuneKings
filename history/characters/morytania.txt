@@ -253,6 +253,7 @@
 
 vamp001 = {
 	name = "Nitara"
+	female = yes
 	dynasty = 100903
 	religion = zaros
 	culture = vampyre
