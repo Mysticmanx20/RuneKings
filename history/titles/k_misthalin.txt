@@ -334,6 +334,12 @@ c_draynor = {
 	}
 }
 
+b_drayjail = {
+	11620.1.2 = {
+		holder = misth004
+	}
+}
+
 
 d_tutor = {
 	11437.1.1 = {
