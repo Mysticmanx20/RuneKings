@@ -246,11 +246,11 @@ create_artifact_rk_kharidib_effect = {
 	}
 }
 
-create_artifact_rk_vbear_effect = {
+create_artifact_vbear_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	$HUNTER$ = { save_scope_as = hunter }
-	set_artifact_rarity_common = yes
+	save_scope_value_as = { name = legendary value = $LEGENDARY$ }
 	scope:owner = {
 		set_variable = { name = animal_type value = $ANIMAL$ days = 5 }
 		if = {
@@ -280,6 +280,8 @@ create_artifact_rk_vbear_effect = {
 	hidden_effect_new_object = {
 		# Get artifact quality, wealth, and materials
 		animal_artifact_wealth_quality_effect = yes
+		get_animal_hunt_location_effect = yes
+		scope:location = { add_to_list = artifact_material_sources }
 		if = {
 			limit = {
 				OR = {
@@ -304,13 +306,7 @@ create_artifact_rk_vbear_effect = {
 				type = animal_hide_big
 				modifier = artifact_placeholder_modifier
 				wealth = scope:wealth
-				quality = scope:quality
-				history = {
-					type = created
-					date = 11619.1.1
-					recipient = character:900106 #King Roald
-					location = province:50 #Varrock Farmland
-				}
+				quality = 15
 				save_scope_as = newly_created_artifact
 			}
 			scope:newly_created_artifact = {
@@ -319,6 +315,113 @@ create_artifact_rk_vbear_effect = {
 				# Set prestige
 				add_scaled_artifact_modifier_prestige_effect = yes
 			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOT = { exists = scope:animal_hide_size }
+				}
+				save_scope_value_as = { name = animal_hide_size value = flag:small }
+			}
+			create_artifact = {
+				name = artifact_small_hide_name
+				creator = scope:creator
+				description = placeholder
+				visuals = small_animal_hide
+				type = animal_hide
+				modifier = artifact_placeholder_modifier
+				wealth = scope:wealth
+				quality = scope:quality
+				save_scope_as = newly_created_artifact
+			}
+			scope:newly_created_artifact = {
+				if = {
+					limit = {
+						has_artifact_feature = animal_hide_type_cat
+						exists = scope:owner.var:story_cycle_cat_name
+					}
+					set_variable = {
+						name = pet_name
+						value = scope:owner.var:story_cycle_cat_name
+					}
+				}
+				else_if = {
+					limit = {
+						has_artifact_feature = animal_hide_type_dog
+						exists = scope:owner.var:story_cycle_dog_name
+					}
+					set_variable = {
+						name = pet_name
+						value = scope:owner.var:story_cycle_dog_name
+					}
+				}
+				# Set grandeur
+				add_scaled_artifact_modifier_grandeur_small_effect = yes
+				# Set prestige
+				add_scaled_artifact_modifier_minor_prestige_effect = yes
+			}
+		}
+		scope:newly_created_artifact = {
+			set_max_durability = 60
+			set_variable = {
+				name = adventure_artifact_location
+				value = scope:owner.var:adventure_artifact_location
+			}
+			set_variable = {
+				name = adventure_artifact_hunter
+				value = scope:owner.var:adventure_artifact_hunter
+			}
+			if = {
+				limit = {
+					OR = {
+						rarity = famed
+						rarity = illustrious
+					}
+				}
+				add_scaled_artifact_modifier_dynasty_prestige_effect = yes
+			}
+			remove_artifact_modifier = artifact_placeholder_modifier
+			set_variable = {
+				name = animal_type
+				value = scope:owner.var:animal_type
+			}
+			set_variable = {
+				name = quality
+				value = scope:quality
+			}
+			set_variable = {
+				name = wealth
+				value = scope:wealth
+			}
+			hunt_animal_artifact_modifier_selection_effect = yes
+			if = {
+				limit = { scope:legendary = yes }
+				set_artifact_name = artifact_animal_hide_name_legendary
+				set_variable = { name = legendary }
+				add_scaled_artifact_modifier_majesty_effect = yes
+				add_scaled_artifact_modifier_combat_effect = yes
+			}
+			else_if = {
+				limit = { exists = scope:adventurer }
+				set_artifact_name = artifact_animal_hide_name_adventurer
+			}
+			else_if = {
+				limit = { exists = var:pet_name }
+				if = {
+					limit = { has_artifact_feature = animal_hide_type_cat }
+					set_artifact_name = artifact_animal_hide_name_cat
+				}
+				else_if = {
+					limit = { has_artifact_feature = animal_hide_type_dog }
+					set_artifact_name = artifact_animal_hide_name_dog
+				}
+			}
+			else_if = {
+				limit = { artifact_type = animal_hide_big }
+				set_artifact_name = artifact_animal_hide_big_name
+			}
+			else = { set_artifact_name = artifact_small_hide_name }
+			set_artifact_description = artifact_small_hide_description
 		}
 		scope:owner = {
 			remove_variable = adventure_artifact_location
