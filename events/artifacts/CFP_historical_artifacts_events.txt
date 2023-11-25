@@ -21,13 +21,13 @@ cfp_historical_artifacts.0001 = {
 			}
 		}
 
-		#NOT WORKING
+		
 		random_ruler = {
 			limit = {
 				has_dlc_feature = royal_court
 				has_title = title:k_misthalin
 			}
-			create_artifact_rk_vbear_effect = {
+			create_artifact_animal_hide_effect = {
 				OWNER = this
 				HUNTER = this
 				LEGENDARY = no
