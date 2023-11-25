@@ -248,6 +248,7 @@ create_artifact_rk_kharidib_effect = {
 
 create_artifact_vbear_effect = {
 	# Get the character the artifact is being made for.
+	set_artifact_rarity_common = yes
 	$OWNER$ = { save_scope_as = owner }
 	$HUNTER$ = { save_scope_as = hunter }
 	save_scope_value_as = { name = legendary value = $LEGENDARY$ }
@@ -279,9 +280,8 @@ create_artifact_vbear_effect = {
 	}
 	hidden_effect_new_object = {
 		# Get artifact quality, wealth, and materials
-		animal_artifact_wealth_quality_effect = yes
-		get_animal_hunt_location_effect = yes
-		scope:location = { add_to_list = artifact_material_sources }
+		
+		scope:location = { province = province:50 }
 		if = {
 			limit = {
 				OR = {
@@ -301,12 +301,12 @@ create_artifact_vbear_effect = {
 			create_artifact = {	
 				name = artifact_animal_hide_big_name
 				creator = scope:creator
-				description = placeholder
+				description = rk_vbear_desc
 				visuals = large_animal_hide
 				type = animal_hide_big
 				modifier = artifact_placeholder_modifier
 				wealth = scope:wealth
-				quality = 15
+				quality = scope:quality
 				save_scope_as = newly_created_artifact
 			}
 			scope:newly_created_artifact = {
@@ -421,7 +421,7 @@ create_artifact_vbear_effect = {
 				set_artifact_name = artifact_animal_hide_big_name
 			}
 			else = { set_artifact_name = artifact_small_hide_name }
-			set_artifact_description = artifact_small_hide_description
+			
 		}
 		scope:owner = {
 			remove_variable = adventure_artifact_location

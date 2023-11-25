@@ -28,8 +28,8 @@ cfp_historical_artifacts.0001 = {
 				has_title = title:k_misthalin
 			}
 			create_artifact_vbear_effect = {
-				OWNER = this
-				HUNTER = this
+				OWNER = character:900106
+				HUNTER = character:900106
 				LEGENDARY = no
 				ANIMAL = flag:bear
 			}
