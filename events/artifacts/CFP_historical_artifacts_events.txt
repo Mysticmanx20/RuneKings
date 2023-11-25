@@ -27,7 +27,7 @@ cfp_historical_artifacts.0001 = {
 				has_dlc_feature = royal_court
 				has_title = title:k_misthalin
 			}
-			create_artifact_animal_hide_effect = {
+			create_artifact_vbear_effect = {
 				OWNER = this
 				HUNTER = this
 				LEGENDARY = no
