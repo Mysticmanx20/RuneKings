@@ -76,6 +76,16 @@ lord_female = {
 	faiths = { zamorak }
 }
 
+vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	titles = { e_vamp }
+	top_liege = no
+}
+
 leader_male = {
 	type = character
 	gender = male

@@ -17,6 +17,15 @@ d_kinshra = {
     }
 }
 
+e_vamp = {
+	11595.1.1 = {
+		holder = vamp001
+	}
+	11599.1.1 = {
+		holder = 0
+	}
+}
+
 d_ham = {
 	11615.1.1 = {
 		holder = ham001

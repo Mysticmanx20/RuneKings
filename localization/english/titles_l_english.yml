@@ -33,6 +33,9 @@
  cn_hallow:0 "Hallowvale"
  cn_humble:0 "Humblethorn"
 
+#titular
+e_vamp:0 "Vampyrium"
+
 # Default title names
 c_lumswamp:0 "Lumbridge Swamp"
 c_lumbridge:0 "Lumbridge"

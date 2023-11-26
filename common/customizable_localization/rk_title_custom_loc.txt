@@ -1,0 +1,25 @@
+﻿
+MyCustomLocalization = {
+	# allowed types are: 
+		# artifact
+		# character
+		# landed_title
+		# province
+		# activity
+		# secret
+		# scheme
+		# combat
+		# combat_side
+		# title_and_vassal_change
+		# faith
+		# dynasty
+	type = character 
+
+	text = { # possibility 1
+		trigger = {  
+			has_title = title:e_vamp # my_trigger1 should be defined in a scripted_triggers file.
+		}
+		localization_key = my_loc_1 # my_loc_1 should be defined in a localization file. 
+	}
+	
+}
