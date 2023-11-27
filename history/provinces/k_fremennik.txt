@@ -60,6 +60,11 @@
 	9500.1.1 = {
 		special_building = generic_university
 	}
+	11621.1.1 = {
+		buildings = {
+			quarries_03
+		}
+	}
 }
 
 
