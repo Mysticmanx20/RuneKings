@@ -38,6 +38,11 @@
 	religion = guthix
 	culture = dwarf
 	holding = castle_holding
+	11621.1.1 = {
+		buildings = {
+			quarries_02
+		}
+	}
 }
 
 33 = {  #blkfort
