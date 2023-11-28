@@ -128,6 +128,165 @@ d_ham={
 
 }
 
+d_ardy={
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.000000 0.920000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_mascle.dds"
+		instance={
+			position={ 0.500000 0.130000 }
+			scale={ 0.260000 0.250000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_chevron_in_chief.dds"
+		instance={
+			position={ 0.500000 0.330000 }
+			scale={ 0.400000 -0.320000 }
+			depth=2.010000
+		}
+
+		instance={
+			scale={ 0.570000 -0.400000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+
+c_bandit={
+	pattern="pattern__solid_designer.dds"
+	color1=purple
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=black
+		texture="ce_solar_cross.dds"
+		instance={
+			position={ 0.520000 0.450000 }
+			scale={ 0.400000 0.400000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_ordinary_pile_01.dds"
+		instance={
+			position={ 0.510000 0.280000 }
+			scale={ -0.780000 -0.780000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_pagan_wotan_cross.dds"
+		instance={
+			position={ 0.520000 0.450000 }
+			scale={ 0.410000 0.410000 }
+			rotation=44
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.520000 0.450000 }
+			scale={ 0.350000 0.350000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+
+
+
+c_seers={
+	pattern="pattern_vertical_split_01.dds"
+	color1=black
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=blue
+		texture="ce_ordinary_pile_01.dds"
+		instance={
+			position={ 0.500000 0.240000 }
+			scale={ 0.780000 -0.780000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_ordinary_pile_01.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			scale={ 0.560000 -0.560000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_african_koh.dds"
+		instance={
+			position={ 0.580000 0.430000 }
+			scale={ 0.390000 0.330000 }
+			depth=1.010000
+			rotation=91
+		}
+
+		instance={
+			position={ 0.420000 0.430000 }
+			scale={ 0.390000 0.330000 }
+			depth=2.010000
+			rotation=270
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.160000 0.180000 }
+		}
+
+	}
+
+}
+
+
 d_kinshra={
 	pattern="pattern__solid_designer.dds"
 	color1=red
