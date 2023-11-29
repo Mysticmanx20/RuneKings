@@ -742,7 +742,7 @@ kand071 = {
 
 kand059 = {
 	name = "Armacus"
-	religion = saradomin #armadyl
+	religion = armadyl
 	culture = kandarin
 	trait = education_martial_2
 	11593.1.1 = {
