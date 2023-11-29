@@ -47,6 +47,8 @@ heritage_human_name:0 "Human"
  holy_order_warband:0 "Warband of [TITLE.GetNameNoTierNoTooltip]"
  holy_order_kyz:0 "Champions of Kyzaj"
  holy_order_bandos2:0 "Bandosian Gladiators"
+ holy_order_champsofj:0 "Champions of Justice"
+ holy_order_guardians:0 "Guardians of Armadyl"
  
  mercenary_company_varrock_guard:0 "Varrock Guard"
  mercenary_company_varrock_guard_article:0 "the "
