@@ -32,24 +32,24 @@ l_english:
 ###############################
 # Armadyl
 
-arm_religion:1 "Armadyl"
-arm_religion_adj:1 "Armadylean"
-arm_religion_adherent:1 "Armadylean"
-arm_religion_adherent_plural:1 "Armadyleans"
-arm_religion_desc:0 "Armadyl is the avian god of justice, liberty, law and the sky. He is the patron god of the aviansie, a race of birdlike creatures to which he also belongs, although some members of other races, such as humans are known to worship him as well. It is rumoured that Armadyl ruled the skies of Gielinor, and possibly parts of Kandarin, during the Second Age. During the God Wars, he lost almost all of his influence and followers, and today is almost forgotten, but there are still many items dedicated to him that can be found." 
+ arm_religion:1 "Armadyl"
+ arm_religion_adj:1 "Armadylean"
+ arm_religion_adherent:1 "Armadylean"
+ arm_religion_adherent_plural:1 "Armadyleans"
+ arm_religion_desc:0 "Armadyl is the avian god of justice, liberty, law and the sky. He is the patron god of the aviansie, a race of birdlike creatures to which he also belongs, although some members of other races, such as humans are known to worship him as well. It is rumoured that Armadyl ruled the skies of Gielinor, and possibly parts of Kandarin, during the Second Age. During the God Wars, he lost almost all of his influence and followers, and today is almost forgotten, but there are still many items dedicated to him that can be found." 
 
-armadyl:0 "Armadyleanism"
-armadyl_adj:0 "Armadylean"
-armadyl_adherent:0 "Armadylean"
-armadyl_adherent_plural:0 "Armadyleans"
+ armadyl:0 "Armadyleanism"
+ armadyl_adj:0 "Armadylean"
+ armadyl_adherent:0 "Armadylean"
+ armadyl_adherent_plural:0 "Armadyleans"
 
-ARM_NAME:0 "Armadyl"
-ARM_NAME2:0 "Lord of Justice"
-ARM_POSSESIVE:0 "Armadyl's"
-ARM_POSSESIVE2:0 "Lord of Justice's"
+	ARM_NAME:0 "Armadyl"
+	ARM_NAME2:0 "Lord of Justice"
+	ARM_POSSESIVE:0 "Armadyl's"
+	ARM_POSSESIVE2:0 "Lord of Justice's"
 
-ARM_CREST_NAME:0 "Symbol of Armadyl"
-ARM_SCRIPTURES_NAME:0 "Book of Law"
+	ARM_CREST_NAME:0 "Symbol of Armadyl"
+	ARM_SCRIPTURES_NAME:0 "Book of Law"
 
 ###############################
  # Zammy
