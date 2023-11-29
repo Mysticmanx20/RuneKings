@@ -90,7 +90,7 @@
 }
 
 201 = { #Ikov
-	religion = saradomin
+	religion = armadyl
 	culture = kandarin
 	holding = castle_holding
 }
