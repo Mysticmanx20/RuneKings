@@ -1823,9 +1823,8 @@ arm_religion = {    #Armadyl
 	}
 
 	holy_order_names = {
-		{ name = "holy_order_guardians_of_divinerealm" }
-		{ name = "holy_order_faithful_of_highgod" }
-		{ name = "holy_order_warriors_of_the_symbol" }
+		{ name = "holy_order_guardians" }
+		{ name = "holy_order_champsofj" }
 	}
 
 	holy_order_maa = { horn_warrior }
