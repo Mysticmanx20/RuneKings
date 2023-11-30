@@ -20,6 +20,122 @@ troll002 = {
 	}
 }
 
+troll003 = {
+	name = "Dad"
+	culture = troll
+	religion = bandos
+	trait = wrathful
+	trait = education_martial_3
+	11583.1.1 = {
+		birth = yes
+	}
+}
 
+troll004 = {
+	name = "Kob"
+	culture = troll
+	religion = bandos
+	trait = wrathful
+	trait = education_martial_4
+	11596.1.1 = {
+		birth = yes
+	}
+}
+
+troll005 = {
+	name = "My Arm"
+	culture = troll
+	religion = bandos
+	trait = diligent
+	trait = gregarious
+	trait = patient
+	trait = education_learning_3
+	11605.1.1 = {
+		birth = yes
+	}
+}
+
+troll006 = {
+	name = "Burntmeat"
+	culture = troll
+	religion = bandos
+	trait = arrogant
+	trait = gluttonous
+	trait = content
+	trait = education_learning_2
+	disallow_random_traits = yes
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+troll007 = {
+	name = "Twig"
+	culture = troll
+	religion = bandos
+	trait = lazy
+	trait = education_martial_1
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+troll008 = {
+	name = "Berry"
+	culture = troll
+	religion = bandos
+	trait = lazy
+	trait = education_martial_1
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+troll009 = {
+	name = "Mushroom"
+	culture = troll
+	religion = bandos
+	trait = calm
+	trait = lazy
+	trait = gluttonous
+	trait = education_martial_2
+	11597.1.1 = {
+		birth = yes
+	}
+}
+
+troll010 = {
+	name = "Aga"
+	female = yes
+	culture = troll
+	religion = bandos
+	trait = education_intrigue_1
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+troll011 = {
+	name = "Ug"
+	culture = troll
+	religion = bandos
+	trait = compassionate
+	trait = education_diplomacy_1
+	11598.1.1 = {
+		birth = yes
+	}
+}
+
+troll012 = {
+	name = "Arrg"
+	culture = troll
+	religion = bandos
+	trait = brave
+	trait = wrathful
+	trait = education_martial_3
+	11598.1.1 = {
+		birth = yes
+	}
+}
 
 
