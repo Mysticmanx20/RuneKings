@@ -320,7 +320,27 @@
 319;75;185;61;sea_hazelmere;x;
 320;75;112;61;sea_southkhazard;x;
 321;187;112;61;sea_northkhazard;x;
-
+322;86;89;70;TrollStornghold;x;
+323;75;58;50;TrollMarket;x;
+324;75;80;50;InnerTroll;x;
+325;48;62;32;OuterTroll;x;
+326;68;89;70;TrollFarm;x;
+327;129;89;70;Roc;x;
+328;90;104;87;LowerD;x;
+329;104;104;87;UpperD;x;
+330;81;44;16;Dad;x;
+331;119;44;16;Dadcave;x;
+332;81;61;16;TrollExit;x;
+333;111;87;37;Dadpass;x;
+334;138;112;61;WestPass;x;
+335;158;255;233;Weiss;x;
+336;152;96;134;gohrrk;x;
+337;152;87;97;ritual;x;
+338;158;161;233;icepath;x;
+339;158;126;233;gwd;x;
+340;178;255;202;lowtrollw;x;
+341;119;141;16;edgar;x;
+342;119;102;16;trollhiem;x;
 
 
 

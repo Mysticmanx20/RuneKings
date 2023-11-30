@@ -653,14 +653,6 @@ e_zaros = {
 				}
 			}
 
-			c_deathpla = {
-				color = {70 83 67}
-
-				b_deathpla = {
-					color = {70 83 67}
-					province = 172
-				}
-			}
 		}
 
 		d_gobvil = {
@@ -1211,6 +1203,233 @@ e_zaros = {
 
 	}
 
+}
+
+e_trollheim = {
+	color = { 90 104 87 }
+	capital = c_trollstrong
+	
+	k_trollheim = {
+		color =  { 86 89 70 }
+		capital = c_trollstrong
+	
+		d_trollstong = {
+			color = {86 89 70 }
+			capital = c_trollstrong
+	
+			c_trollstong = {
+				color = { 86 89 70 }
+	
+				b_trollstrong  = {
+					color = { 86 89 70 }
+					province = 322
+				}
+	
+				b_trollmarket = {
+					color = { 75 58 50 }
+					province = 323
+	
+				}
+	
+				b_troll1 = { 
+					color = { 75 80 50 }
+					province = 324
+				}
+	
+				b_troll2 = {
+					color = { 48 62 32 }
+					province = 325
+				}
+			}
+	
+			c_trollfarm = {
+				color = { 68 89 70 }
+	
+				b_trollfarm = {
+					color = { 68 89 70 }
+					province = 326
+				}
+	
+				b_roc = {
+					color = { 129 89 70 }
+					province = 327
+				}
+			}
+	
+		}
+	
+		d_trollheim = {
+			color = { 119 102 16 }
+			capital = c_edgar
+	
+			c_edgar = {
+				color = { 119 141 16 }
+	
+				b_edgar = { 
+					color = { 119 141 16}
+					province = 341
+				}
+	
+			}
+	
+			c_trollheim = {
+				color = { 119 102 16 }
+	
+				b_trollheim = {
+					color = { 119 102 16 }
+					province = 342
+				}
+	
+			}
+	
+		}
+	
+		d_deathplat = {
+			color = { 70 83 67 }
+			capital = c_deathpla
+	
+			c_deathpla = {
+				color = {70 83 67}
+
+				b_deathpla = {
+					color = {70 83 67}
+					province = 172
+				}
+			
+				b_death1 = {
+					color = { 90 104 87 }
+					province = 328
+				}
+				b_death2 = {
+					color = { 104 104 87 }
+					province = 329
+				}
+	
+			}
+	
+			c_dad = {
+				color = { 81 44 16 }
+	
+				b_dad = {
+					color = { 81 44 16 }
+					province = 330
+				}
+				b_dadcave = {
+					color = { 119 44 16 }
+					province = 331
+				}
+	
+			}
+	
+			c_mountpass = {
+				color = { 81 61 16 }
+	
+				b_trollexit = {
+					color = { 81 61 16 }
+					province = 332
+				}
+				
+				b_dadpass = {
+					color = { 111 87 37 }
+					province = 333
+				}
+	
+				b_trollfrem = {
+					color = { 138 112 61 }
+					province = 326
+				}
+			}
+	
+		}
+	}
+	
+	k_trollweiss = {
+		color = { 158 255 233 }
+		capital = c_weiss
+	
+		d_weiss = {
+			color = { 158 255 233}
+			capital = c_weiss
+			
+			c_weiss = {
+				color = { 158 255 233 }
+	
+				b_weiss = {
+					color = { 158 255 233 }
+					province = 335
+				}
+			}
+	
+			c_ghorrock = {
+				color = { 152 96 134 }
+	
+				b_ghorrock = {
+					color = { 152 96 134 }
+					province = 336
+				}
+			}
+	
+			c_ritual = {
+				color = { 152 87 97 }
+	
+				b_ritual = {
+					color = { 152 87 97 }
+					province = 337
+				}
+			}
+	
+		}
+	
+	
+		d_icepath = {
+			color = { 158 161 233 }
+			capital = c_icepath
+	
+			c_icepath = {
+				color = { 158 161 233 }
+	
+				b_icepath = {
+					color = { 158 161 233 }
+					province = 338
+				}
+			}
+	
+			c_gwd = {
+				color = { 158 126 233  }
+	
+				b_gwd = {
+					color = { 158 126 233 }
+					province = 339
+				}
+			}
+	
+	
+		}
+	
+		d_trollweiss = {
+			color = { }
+			capital = c_trollweiss
+	
+			c_trollweiss = {
+				color = {37 187 138 }
+
+				b_trollweiss = {
+					color = { 87 187 138 }
+					province = 192
+				}
+			}
+	
+			c_lowertw = {
+				color = { 178 255 202 }
+				
+				b_lowertw = {
+					color = { 178 255 202 }
+					province = 340
+				}
+			}
+	
+		}
+	}
 }
 
 e_kandarin = {
@@ -2803,15 +3022,6 @@ e_fremennik = {
 				b_fremcave = {
 					color = {182 54 41 }
 					province = 187
-				}
-			}
-
-			c_trollweiss = {
-				color = {37 187 138 }
-
-				b_trollweiss = {
-					color = { 87 187 138 }
-					province = 192
 				}
 			}
 

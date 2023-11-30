@@ -1,0 +1,125 @@
+﻿322 = {		#Stronhold
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+323 = {		#TMarket
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+324 = {		#InnerT
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+325 = {		#OuterT
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+326 = {		#TFarm
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+327 = {		#Roc
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+328 = {		#LowerD
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+329 = {		#Upper D
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+330 = {		#Dad
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+331 = {		#Dadcave
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+332 = {		#Trlllexit
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+333 = {		#Dadpass
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+334 = {		#WestPass
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+335 = {		#Weiss
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+336 = {		#Ghork
+	culture = troll
+	religion = bandos
+	holding = castle_holding
+}
+
+337 = {		#ritual
+	culture = troll
+	religion = bandos
+	holding = none
+}
+
+338 = {		#icep
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+339 = {		#gwd
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+340 = {		#lowtrollw
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+341 = {		#edgar
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
+
+342 = {		#Trollhiem
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}
