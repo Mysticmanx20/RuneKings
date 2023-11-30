@@ -1336,7 +1336,7 @@ e_trollheim = {
 	
 				b_trollfrem = {
 					color = { 138 112 61 }
-					province = 326
+					province = 334
 				}
 			}
 	
