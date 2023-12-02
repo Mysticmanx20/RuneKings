@@ -53,6 +53,9 @@ troll005 = {
 	11605.1.1 = {
 		birth = yes
 	}
+	11615.1.1 = {
+		employer = troll004
+	}
 }
 
 troll006 = {
@@ -67,6 +70,9 @@ troll006 = {
 	11591.1.1 = {
 		birth = yes
 	}
+	11615.1.1 = {
+		employer = troll004
+	}
 }
 
 troll007 = {
@@ -78,6 +84,9 @@ troll007 = {
 	11598.1.1 = {
 		birth = yes
 	}
+	11615.1.1 = {
+		employer = troll004
+	}
 }
 
 troll008 = {
@@ -88,6 +97,9 @@ troll008 = {
 	trait = education_martial_1
 	11598.1.1 = {
 		birth = yes
+	}
+	11615.1.1 = {
+		employer = troll004
 	}
 }
 
@@ -113,6 +125,9 @@ troll010 = {
 	11598.1.1 = {
 		birth = yes
 	}
+	11615.1.1 = {
+		employer = troll004
+	}
 }
 
 troll011 = {
@@ -123,6 +138,9 @@ troll011 = {
 	trait = education_diplomacy_1
 	11598.1.1 = {
 		birth = yes
+	}
+	11615.1.1 = {
+		employer = troll004
 	}
 }
 
@@ -135,6 +153,9 @@ troll012 = {
 	trait = education_martial_3
 	11598.1.1 = {
 		birth = yes
+	}
+	11615.1.1 = {
+		employer = troll004
 	}
 }
 

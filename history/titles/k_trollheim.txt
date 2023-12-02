@@ -21,6 +21,12 @@ c_trollheim = {
 	}
 }
 
+b_trollmarket = {
+	11615.1.1 = {
+		holder = troll009
+	}
+}
+
 c_dad = {
 	11615.1.1 = {
 		liege = 0
