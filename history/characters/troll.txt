@@ -154,6 +154,7 @@ troll013 = {
 
 troll014 = {
 	name = "Snowflake"
+	female = yes
 	father = troll013
 	culture = troll
 	religion = bandos
