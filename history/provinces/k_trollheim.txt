@@ -77,37 +77,37 @@
 }
 
 335 = {		#Weiss
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = tribal_holding
 }
 
 336 = {		#Ghork
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = castle_holding
 }
 
 337 = {		#ritual
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = none
 }
 
 338 = {		#icep
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = tribal_holding
 }
 
 339 = {		#gwd
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = tribal_holding
 }
 
 340 = {		#lowtrollw
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	holding = tribal_holding
 }

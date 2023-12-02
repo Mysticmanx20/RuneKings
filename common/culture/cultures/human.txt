@@ -292,6 +292,32 @@ troll = {     # Troll
 	}
 }
 
+icetroll = {     # Troll
+	color = { 0.94 0.97 1.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_troll
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_isolationist
+		tradition_winter_warriors
+		tradition_himalayan_settlers
+	}
+	
+	name_list = name_list_goblin
+
+	coa_gfx = { turkic_group_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}
+
 
 dwarf = {     # Dwarven
 	color = georgian

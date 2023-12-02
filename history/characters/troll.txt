@@ -161,7 +161,7 @@ troll012 = {
 
 troll013 = {
 	name = "Mother"
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	trait = wrathful
 	trait = brave
@@ -177,7 +177,7 @@ troll014 = {
 	name = "Snowflake"
 	female = yes
 	father = troll013
-	culture = troll
+	culture = icetroll
 	religion = bandos
 	trait = compassionate
 	trait = education_diplomacy_3

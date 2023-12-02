@@ -49,7 +49,7 @@
 
 192 = {  #trollweiss
 	religion = bandos
-	culture = troll
+	culture = icetroll
 	holding = tribal_holding
 }
 
