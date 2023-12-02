@@ -128,6 +128,203 @@ d_ham={
 
 }
 
+d_entrana={
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=yellow
+	color3=orange
+	colored_emblem={
+		color1=white
+		texture="ce_pagan_star_04.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.820000 0.820000 }
+		}
+
+	}
+
+}
+
+c_entrana={
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=yellow
+	color3=orange
+	colored_emblem={
+		color1=white
+		texture="ce_pagan_star_04.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.820000 0.820000 }
+		}
+
+	}
+
+}
+
+
+
+d_taverley={
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=yellow
+	color3=orange
+	colored_emblem={
+		color1=blue
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.670000 }
+			scale={ -0.600000 0.640000 }
+			rotation=258
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_pagan_laima.dds"
+		instance={
+			position={ 0.820000 0.280000 }
+			scale={ 0.480000 0.550000 }
+			depth=3.010000
+			rotation=341
+		}
+
+		instance={
+			position={ 0.170000 0.280000 }
+			scale={ 0.480000 0.560000 }
+			depth=4.010000
+			rotation=17
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_column.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.660000 0.340000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_square_kaaba.dds"
+		instance={
+			position={ 0.500000 0.350000 }
+			scale={ 0.340000 0.080000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+
+c_taverley={
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=yellow
+	color3=orange
+	colored_emblem={
+		color1=blue
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.670000 }
+			scale={ -0.600000 0.640000 }
+			rotation=258
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_pagan_laima.dds"
+		instance={
+			position={ 0.820000 0.280000 }
+			scale={ 0.480000 0.550000 }
+			depth=3.010000
+			rotation=341
+		}
+
+		instance={
+			position={ 0.170000 0.280000 }
+			scale={ 0.480000 0.560000 }
+			depth=4.010000
+			rotation=17
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_column.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.660000 0.340000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_square_kaaba.dds"
+		instance={
+			position={ 0.500000 0.350000 }
+			scale={ 0.340000 0.080000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+
+d_burthorpe={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=purple
+	colored_emblem={
+		color1=white
+		texture="ce_hand.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.620000 0.510000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_polish_radwan.dds"
+		instance={
+			position={ 0.490000 0.280000 }
+			scale={ 0.330000 0.580000 }
+			depth=2.010000
+			rotation=180
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_crown_random.dds"
+		instance={
+			position={ 0.500000 0.730000 }
+			scale={ 0.740000 0.550000 }
+		}
+
+	}
+
+}
+
+
 d_ardy={
 	pattern="pattern__solid_designer.dds"
 	color1=red
@@ -520,6 +717,70 @@ c_varrock = {
 
 	}
 }
+
+k_menaphos={
+	pattern="pattern__solid_designer.dds"
+	color1=blue_light
+	color2=yellow
+	color3=orange
+	colored_emblem={
+		color1=yellow
+		texture="ce_spearhead.dds"
+		instance={
+			position={ 0.620000 0.250000 }
+			scale={ 0.240000 0.240000 }
+			rotation=25
+		}
+
+		instance={
+			position={ 0.740000 0.370000 }
+			scale={ 0.250000 0.250000 }
+			depth=1.010000
+			rotation=58
+		}
+
+		instance={
+			position={ 0.770000 0.560000 }
+			scale={ 0.250000 0.250000 }
+			depth=2.010000
+			rotation=95
+		}
+
+		instance={
+			position={ 0.410000 0.240000 }
+			scale={ 0.260000 0.260000 }
+			depth=3.010000
+			rotation=339
+		}
+
+		instance={
+			position={ 0.280000 0.360000 }
+			scale={ 0.280000 0.280000 }
+			depth=4.010000
+			rotation=299
+		}
+
+		instance={
+			position={ 0.230000 0.560000 }
+			scale={ 0.250000 0.250000 }
+			depth=5.010000
+			rotation=264
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_african_koh.dds"
+		instance={
+			scale={ 0.670000 0.630000 }
+			depth=6.010000
+		}
+
+	}
+
+}
+
 
 d_varrock = {
 	pattern="pattern__solid_designer.dds"
