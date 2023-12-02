@@ -1,4 +1,4 @@
-# Ice Troll
+﻿# Ice Troll
 
 9500.1.1 = {
 	discover_innovation = innovation_bannus
