@@ -1213,11 +1213,11 @@ e_trollheim = {
 		color =  { 86 89 70 }
 		capital = c_trollstrong
 	
-		d_trollstong = {
+		d_trollstrong = {
 			color = {86 89 70 }
 			capital = c_trollstrong
 	
-			c_trollstong = {
+			c_trollstrong = {
 				color = { 86 89 70 }
 	
 				b_trollstrong  = {

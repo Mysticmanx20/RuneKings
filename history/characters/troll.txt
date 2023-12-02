@@ -138,4 +138,30 @@ troll012 = {
 	}
 }
 
+troll013 = {
+	name = "Mother"
+	culture = troll
+	religion = bandos
+	trait = wrathful
+	trait = brave
+	trait = callous
+	trait = education_martial_3
+	disallow_random_traits = yes
+	11581.1.1 = {
+		birth = yes
+	}
+}
+
+troll014 = {
+	name = "Snowflake"
+	father = troll013
+	culture = troll
+	religion = bandos
+	trait = compassionate
+	trait = education_diplomacy_3
+	11605.1.1 = {
+		birth = yes
+	}
+}
+
 

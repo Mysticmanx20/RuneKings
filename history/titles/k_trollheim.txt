@@ -1,0 +1,46 @@
+﻿
+d_trollstrong = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll004
+	}
+}
+
+c_edgar = {
+	11618.1.1 = {
+		liege = 0
+		holder = asgarn013
+		change_development_level = 3
+	}
+}
+
+c_trollheim = {
+	11615.1.1 = {
+		holder = troll004
+		change_development_level = 3
+	}
+}
+
+c_dad = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll003
+		change_development_level = 3
+	}
+}
+
+c_mountpass = {
+	11615.1.1 = {
+		holder = troll003
+		change_development_level = 3
+	}
+}
+
+c_weiss = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll013
+		change_development_level = 4
+	}
+}
+
