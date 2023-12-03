@@ -1,0 +1,6 @@
+﻿hgw_portrait = {
+	#scope = character
+	is_shown = {
+		hgw_protrait_trigger = yes
+	}
+}

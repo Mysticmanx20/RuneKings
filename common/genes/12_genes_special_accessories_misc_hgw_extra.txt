@@ -1,0 +1,14 @@
+﻿special_genes = {
+	accessory_genes = {
+		extraprops = {
+			hgw_prophet_rin = {
+				index = 1
+				male = { 1 = hgw_prophet_rin }
+				female = { 1 = hgw_prophet_rin }
+				boy = male
+				girl = female
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,3 @@
+﻿hgw_prophet_rin = {
+	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "hgw_prophet_rin_entity" }
+}

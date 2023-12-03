@@ -1,0 +1,106 @@
+﻿
+hm_no_portrait = {
+	priority = 199
+	wsg_no_protrait = {
+		dna_modifiers = {
+			morph = {
+				mode = replace				
+				gene = hm_portrait
+				template = hm_no_portrait
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = complexion
+				template = complexion_no_face
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = gene_age
+				template = no_aging
+				value = 1.0
+			}
+			
+			accessory = {
+				mode = add				
+				gene = beards
+				template = no_beard
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = hairstyles
+				template = no_hairstyles
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eyelashes_accessory
+				template = no_eyelashes
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_shape
+				template = no_eyebrows
+				value = 0.5
+			}
+			morph = {
+				mode = modify				
+				gene = gene_eyebrows_fullness
+				template = no_eyebrows
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = legwear
+				template = no_legwear
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = clothes
+				template = no_clothes
+				value = 0.5
+			}
+			accessory = {
+				mode = add				
+				gene = headgear
+				template = no_headgear
+				value = 0.5
+			}
+			accessory = {
+                mode = add
+                gene = cloaks
+                template = no_cloak
+                range = { 0 1 } # For the randomness to work correctly
+            }
+			accessory = {
+                mode = add
+                gene = cloaks
+                template = no_cloak
+                range = { 0 1 } # For the randomness to work correctly
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				waifu_protrait_trigger = yes
+			}
+		}
+	}
+}
