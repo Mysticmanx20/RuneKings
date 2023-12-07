@@ -8,6 +8,14 @@
 				boy = male
 				girl = female
 			}
+
+			hgw_prophet_femtroll = {
+				index = 2
+				male = { 1 = hgw_prophet_femtroll }
+				female = { 1 = hgw_prophet_femtroll }
+				boy = male
+				girl = female
+			}
 			
 		}
 	}

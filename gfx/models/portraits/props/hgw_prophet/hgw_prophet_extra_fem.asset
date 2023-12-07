@@ -1,0 +1,17 @@
+﻿pdxmesh = {
+	name = "hgw_prophet_femtroll_mesh"
+	file = "hgw_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "femtroll.dds"
+		texture_specular = "femtroll.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hgwportrait.shader"
+	}
+}
+entity = {
+	name = "hgw_prophet_femtroll_entity"
+	pdxmesh = "hgw_prophet_femtroll_mesh"
+}
