@@ -3027,6 +3027,211 @@ e_fremennik = {
 
 		}
 	}
+
+	k_isles = {
+		color = {216 172 86 }
+		capital = c_nietz
+		
+		d_neitz = {
+			color = { 216 172 86 }
+			capital = c_nietz
+		
+			c_neitz = {
+				color = {216 172 86 }
+		
+				b_neitz = {
+					color = { 216 172 86 }
+					province = 343
+				}
+			}
+		}
+		
+		d_jat = {
+			color = { 118 100 64}
+			capital = c_jat
+		
+			c_jat = {
+		
+				b_jat = {
+					color = { 118 100 64 }
+					province = 344
+				}
+			}
+		}
+		
+		d_icetroll = {
+			color = { 190 170 130 }
+			capital = c_icetroll
+		
+			c_icetroll = {
+				color = { 190 170 130 }
+		
+				b_icelair = {
+					color = { 190 170 130 }
+					province = 345
+				}
+			}
+		}
+	}
+		
+	k_misc = {
+		color = { 151 172 86 }
+		capital = c_misc
+		
+		d_misc = {
+			color = { 151 172 86 }
+			capital = c_misc
+		
+			c_misc = {
+				color = { 151 172 86 }
+		
+				b_misc = {
+					color = { 151 172 86 }
+					province = 346
+				}
+			}
+		
+			c_misccoast = {
+				color = { 151 172 119}
+		
+				b_misccoast = {
+					color = { 151 172 119 }
+					province = 347
+				}
+			}
+		
+			c_miscforest = {
+				color = { 204 172 119 }
+		
+				b_miscforest = {
+					color = { 204 172 119 }
+					province = 348
+				}
+			}
+		
+			c_miscmine = {
+				color = { 107 172 119 }
+		
+				b_miscmine = {
+					color = { 107 172 119 }
+					province = 349
+				}
+			}
+		}
+	}
+		
+	k_ect = {
+		color = { 175 138 39 }
+		capital = c_ect
+		
+		d_ect = {
+			color = { 175 138 39 }
+			capital = c_ect
+		
+			c_ect = {
+				color = { 175 138 39 }
+		
+				b_ect = {
+					color = { 175 138 39 }
+					province = 350
+				}
+			}
+		
+			c_ectwoods = {
+				color = { 134 138 39 }
+		
+				b_ectwoods = {
+					color = { 134 138 39 }
+					province = 351
+				}
+			}
+		
+			c_ectcoast = {
+				color = { 134 138 102}
+		
+				b_ectcoast = {
+					color = { 134 138 102 }
+					province = 352
+				}
+			}
+		
+			c_ectfarm = {
+				color = { 134 158 102 }
+		
+				b_ectfarm = {
+					color = { 134 158 102 }
+					province = 353
+				}
+			}
+		}
+	}
+		
+	k_lunar = {
+		color = { 107 170 130 }
+		capital = c_lunar
+		
+		d_lunar = {
+			color = { 107 170 130 }
+			capital = c_lunar 
+		
+			c_lunar = {
+				color = { 107 170 130 }
+		
+				b_lunar = {
+					color = { 107 170 130 }
+					province = 354
+				}
+			}
+		
+			c_lunarmine = {
+				color = { 100 155 130 }
+		
+				b_lunarmine = {
+					color = { 100 155 130 }
+					province = 355
+				}
+			}
+		
+			c_lunaraltar = {
+				color = { 138 214 130 }
+		
+				b_lunaraltar = {
+					color = { 138 214 130 }
+					province = 356
+				}
+			}
+		}
+		
+		d_piratecove = {
+			color = { 146 170 130 }
+			capital = c_piratecove
+		
+			c_piratecove = {
+				color = { 146 170 130}
+		
+				b_piratecove = {
+					color= { 146 170 130 }
+					province = 357
+				}
+			}
+		}
+		
+		
+		d_waterb = {
+			color = { 104 115 39 }
+			capital = c_waterb 
+		
+			c_waterb = {
+				color = { 104 115 39 }
+		
+				b_waterb = {
+					color = { 104 115 39 }
+					province = 358
+				}
+			}
+		}
+
+	}
 }
 
 
