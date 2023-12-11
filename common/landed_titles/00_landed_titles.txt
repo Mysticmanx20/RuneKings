@@ -3026,6 +3026,20 @@ e_fremennik = {
 			}
 
 		}
+
+		d_waterb = {
+			color = { 104 115 39 }
+			capital = c_waterb 
+		
+			c_waterb = {
+				color = { 104 115 39 }
+		
+				b_waterb = {
+					color = { 104 115 39 }
+					province = 358
+				}
+			}
+		}
 	}
 
 	k_isles = {
@@ -3212,21 +3226,6 @@ e_fremennik = {
 				b_piratecove = {
 					color= { 146 170 130 }
 					province = 357
-				}
-			}
-		}
-		
-		
-		d_waterb = {
-			color = { 104 115 39 }
-			capital = c_waterb 
-		
-			c_waterb = {
-				color = { 104 115 39 }
-		
-				b_waterb = {
-					color = { 104 115 39 }
-					province = 358
 				}
 			}
 		}
