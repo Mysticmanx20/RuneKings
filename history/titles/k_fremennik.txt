@@ -54,3 +54,41 @@ c_lighthouse = {
 		change_development_level = 8
 	}
 }
+
+d_neitz = {
+	11615.1.1 = {
+		holder = frem017
+
+	}
+}
+
+d_jat = {
+	11615.1.1 = {
+		holder = frem016
+	}
+}
+
+k_misc = {
+	11615.1.1 = {
+		holder = frem019
+	}
+}
+
+k_ect = {
+	11615.1.1 = {
+		holder = frem018
+	}
+}
+
+d_lunar = {
+	11615.1.1 = {
+		holder = frem020
+	}
+}
+
+c_piratecove = {
+	11615.1.1 = {
+		holder = frem021
+		change_development_level = 4
+	}
+}

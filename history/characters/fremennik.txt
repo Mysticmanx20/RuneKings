@@ -204,3 +204,70 @@ frem015 = {
 
 }
 
+frem016 = {
+	name = "Gjuki"
+	#sorvott
+	religion = v
+	culture = fremennik
+	trait = education_stewardship_1
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+frem017 = {
+	name = "Mawnis"
+	#Burowgar
+	religion = v
+	culture = fremennik
+	trait = education_diplomacy_1
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+frem018 = {
+	name = "Sigrid"
+	female = yes
+	religion = v
+	culture = fremennik
+	trait = education_diplomacy_2
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+frem019 = {
+	name = "Vargas"
+	religion = v
+	culture = fremennik
+	trait = education_stewardship_3
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+frem020 = {
+	name = "Luna"
+	female = yes
+	religion = v
+	culture = fremennik
+	trait = education_learning_4
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+frem021 = {
+	name = "James"
+	#Bentley
+	religion = saradomin
+	culture = pirate
+	trait = education_stewardship_2
+	11591.1.1 = {
+		birth = yes
+	}
+}
+
+
+
