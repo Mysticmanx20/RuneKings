@@ -68,4 +68,103 @@
 }
 
 
+343 = { #Netiz 
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+344 = { #Jatz
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+345 = { #IceTrolls
+	religion = bandos
+	culture = icetroll
+	holding = tribal_holding
+}
+
+346 = { #Misc
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+347 = { #MiscCoast
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+348 = { #MiscForest
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+349 = { #MiscMine
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+350 = { #Ect
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+351 = { #EctWoods
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+352 = { #EctCoast
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+353 = { #EctFarm
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+354 = { #Lunar
+	religion = v
+	culture = fremennik
+	holding = tribal_holding
+}
+
+355 = { #Luanrmine
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+356 = { #LunarAltar
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+357 = { #PirateCove
+	religion = saradomin
+	culture = pirate
+	holding = tribal_holding
+}
+
+358 = { #Waterbirth
+	religion = bandos
+	culture = troll
+	holding = tribal_holding
+}
+
+
+
+
 
