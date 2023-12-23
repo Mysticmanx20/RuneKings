@@ -353,10 +353,10 @@ default_coastal_sea=coastal_sea
 350=plains
 351=forest
 352=floodplains
-353=farmland
+353=farmlands
 354=plains
 355=mountains
 356=hills
 357=hills
-358=mountians
+358=mountains
 
