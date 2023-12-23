@@ -3,8 +3,16 @@
 # scope:title = the title that changes hands
 # scope:previous_holder = previous holder. Might be dead
 on_title_gain = {
-	events = {
-		delay = { months = { 2 4 } }
-		cfp_title_event.0001			# Give Bayeux Tapestry to William if he conquers England
+	
+	effect = {
+		if = {
+			limit = {
+				scope:title = d_digsite
+				has_faith = faith:saradomin
+			}
+			set_title_name = d_saranthium 
+			
+		}
+
 	}
 }
