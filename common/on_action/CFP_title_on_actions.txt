@@ -7,7 +7,7 @@ on_title_gain = {
 	effect = {
 		if = {
 			limit = {
-				scope:title = d_digsite
+				scope:title = title:d_digsite
 				root.faith = faith:saradomin
 			}
 			title:d_digsite = {
