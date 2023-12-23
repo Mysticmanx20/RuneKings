@@ -10,9 +10,7 @@ on_title_gain = {
 				scope:title = title:d_digsite
 				root.faith = faith:saradomin
 			}
-			title:d_digsite = {
-				set_title_name = d_saranthium
-			}
+			title:d_digsite = { set_title_name = d_saranthium }
 			
 		}
 
