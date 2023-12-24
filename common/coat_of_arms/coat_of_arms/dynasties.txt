@@ -1,38 +1,44 @@
 ﻿
+
 100903={
 	pattern="pattern__solid_designer.dds"
-	color1=red
+	color1=rgb { 88 10 0 }
 	color2=yellow
 	color3=green
 	colored_emblem={
-		color1=yellow_light
-		texture="ce_diamond_01.dds"
+		color1=black
+		color2=grey
+		texture="ce_frame_circle_borre_double_knots_03.dds"
 		instance={
-			position={ 0.490000 0.240000 }
-			scale={ 0.200000 0.550000 }
+			position={ 0.500000 0.460000 }
 		}
 
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_circle_mask.dds"
 		instance={
-			position={ 0.490000 0.740000 }
-			scale={ 0.200000 0.310000 }
+			position={ 0.510000 0.560000 }
+			scale={ 0.340000 0.310000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_diamond_01.dds"
+		instance={
+			position={ 0.510000 0.460000 }
+			scale={ 0.540000 -0.540000 }
 			depth=2.010000
 		}
 
 	}
 
-	colored_emblem={
-		color1=yellow_light
-		texture="ce_african_koh.dds"
-		instance={
-			position={ 0.500000 0.490000 }
-			scale={ -0.850000 0.790000 }
-			depth=1.010000
-			rotation=199
-		}
-
-	}
-
 }
+
 
 house_drakan={
 	pattern="pattern__solid_designer.dds"
