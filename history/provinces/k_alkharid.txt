@@ -66,13 +66,13 @@
 112 = {  #Bedabin
 	culture = bedabin
 	religion = menaph
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 113 = {  #BanditCamp
 	culture = kharidian
 	religion = menaph
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 114 = {  #Quarry
