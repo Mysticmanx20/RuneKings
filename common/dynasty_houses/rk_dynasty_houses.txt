@@ -1,0 +1,34 @@
+﻿# Vampyre Houses
+house_drakan = {
+	name = "dynn_Drakan"
+	dynasty = 100903
+}
+house_vitur = {
+	name = "dynn_Vitur"
+	dynasty = 100903
+}
+house_alz = {
+	name = "dynn_Alzeph"
+	dynasty = 100903
+}
+house_ghrazi = {
+	name = "dynn_Ghrazi"
+	dynasty = 100903
+}
+house_jovkai = {
+	name = "dynn_Jovkai"
+	dynasty = 100903
+}
+house_myrmel= {
+	name = "dynn_Myrmel"
+	dynasty = 100903
+}
+house_pyrah = {
+	name = "dynn_Pyrah"
+	dynasty = 100903
+}
+house_shadum = {
+	name = "dynn_Shadum"
+	dynasty = 100903
+}
+

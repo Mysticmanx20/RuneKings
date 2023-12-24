@@ -1,6 +1,6 @@
 ﻿900500 = {
 	name = "Lowerniel"
-	dynasty = 100903
+	dynasty_house = house_drakan
 	religion = zamorak
 	culture = vampyre
 	mother = vamp001
@@ -169,7 +169,7 @@
 900512 = {
 	name = "Verzik"
 	female = yes
-	#dynasty Vitur
+	dynasty_house = house_vitur
 	culture = vampyre
 	religion = zamorak
 	trait = greedy
@@ -281,7 +281,7 @@ vamp001 = {
 vamp002 = {
 	name = "Vanescula"
 	female = yes
-	dynasty = 100903
+	dynasty_house = house_drakan
 	mother = vamp001
 	father = vamp004
 	religion = zamorak
@@ -300,7 +300,7 @@ vamp002 = {
 
 vamp003 = {
 	name = "Ranis"
-	dynasty = 100903
+	dynasty_house = house_drakan
 	mother = vamp001
 	father = vamp004
 	religion = zamorak

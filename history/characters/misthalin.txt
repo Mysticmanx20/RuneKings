@@ -260,7 +260,7 @@
 	name = "Draynor"
 	culture = vampyre
 	religion = zamorak
-	dynasty = 100903
+	dynasty_house = house_drakan
 	mother = vamp001
 	father = vamp004
 	martial = 9

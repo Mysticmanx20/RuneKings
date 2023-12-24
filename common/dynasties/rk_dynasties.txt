@@ -15,7 +15,7 @@
 }
 
 100903 = {
-	name = "dynn_Drakan"
+	name = "dynn_Vamp"
 	culture = vampyre
 }
 
