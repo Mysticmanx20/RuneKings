@@ -8,10 +8,11 @@ on_title_gain = {
 		if = {
 			limit = {
 				scope:title = title:d_digsite
-				root.religion = religion:sara_religion
 				scope:transfer_type = flag:created
 			}
-			title:d_digsite = { set_title_name = d_saranthium }
+			
+
+			set_title_name = d_saranthium
 			
 		}
 
