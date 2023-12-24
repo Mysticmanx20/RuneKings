@@ -335,3 +335,84 @@ vamp004 = {
 	}
 
 }
+
+vamp005 = {
+	name = "Nadezhda"
+	female = yes
+	dynasty_house = house_shadum
+	religion = zamorak
+	culture = vampyre
+	trait = arrogant
+	trait = callous
+	trait = lustful
+	trait = education_diplomacy_4
+	disallow_random_traits = yes
+	11595.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
+
+vamp006 = {
+	name = "Alexei"
+	dynasty_house = house_jovkai
+	religion = zamorak
+	culture = vampyre
+	trait = compassionate
+	trait = deceitful
+	trait = humble
+	trait = education_diplomacy_3
+	disallow_random_traits = yes
+	11595.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
+
+vamp007 = {
+	name = "Nakasa"
+	female = yes
+	dynasty_house = house_jovkai
+	religion = zamorak
+	culture = vampyre
+	11597.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
+
+vamp008 = {
+	name = "Mischa"
+	dynasty_house = house_myrmel
+	religion = zamorak
+	culture = vampyre
+	trait = patient
+	trait = temperate
+	11595.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
+
+vamp009 = {
+	name = "Misdrievus"
+	dynasty_house = house_shadum
+	religion = zamorak
+	culture = vampyre
+	11597.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
+
+vamp010 = {
+	name = "Natalidae"
+	female = yes
+	dynasty_house = house_shadum
+	religion = zamorak
+	culture = vampyre
+	11597.1.1 = {
+		birth = yes
+		employer = 900500
+	}
+}
