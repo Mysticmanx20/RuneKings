@@ -2,7 +2,7 @@
 k_morytania = {
 	11506.1.1 = {
 	holder = 900500
-	government = feudal_government
+	government = clan_government
 	}
 }
 

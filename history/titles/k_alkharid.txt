@@ -129,7 +129,6 @@ c_bedabin = {
 	11605.1.1 = {
 		holder = 900821
 		liege = 0
-		government= clan_government
 		change_development_level = 4
 	}
 }
@@ -138,7 +137,6 @@ c_bandit = {
 	11599.1.1 = {
 		holder = 900822
 		liege = 0
-		government= clan_government
 		change_development_level = 4
 	}
 }
