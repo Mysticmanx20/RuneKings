@@ -462,7 +462,7 @@ vampyre = {    # Vampyre
 		tradition_strong_kinship
 	}
 	
-	name_list = name_list_vlach
+	name_list = name_list_vampyre
 
 	always_use_patronym = no
 	
