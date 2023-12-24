@@ -41,6 +41,7 @@ c_slepe = {
 
 	11506.1.1 = {
 		holder = 900502
+		government = clan_government
 		change_development_level = 8
 	}
 }
@@ -96,6 +97,8 @@ c_mditch = {
 	}
 	11594.1.1 = {
 		holder = 900512
+		government = clan_government
+		change_development_level = 5
 	}
 }
 
