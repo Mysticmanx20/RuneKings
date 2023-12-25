@@ -59,6 +59,7 @@
     }
     11616.1.1 = {
         give_council_position = councillor_chancellor
+        set_knight_status = force
     }
 }
 
