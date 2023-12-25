@@ -137,7 +137,10 @@ on_game_start = {
 			limit = { game_start_date = 11621.1.1 }
 			# Designate some regents.
 			
-			character:900301 = { designate_diarch = character:900305 }
+			character:900301 = { 
+				designate_diarch = character:900305 
+				set_diarchy_type = regency
+			}
 			
 			
 			# character:3040 = {
