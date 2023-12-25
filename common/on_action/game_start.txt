@@ -129,6 +129,28 @@ on_game_start = {
 			}
 		}
 
+		### REGENCIES ###
+		# Pre-defined historic regencies setup.
+		## NOTE: we do these first to avoid feed messages getting weird due to regents being replaced immediately after getting their position.
+		
+		if = {
+			limit = { game_start_date = 11621.1.1 }
+			# Designate some regents.
+			
+			character:900301 = { designate_diarch = character:900305 }
+			
+			
+			# character:3040 = {
+			# 	designate_diarch = character:3050
+			# 	# This is a vizierate as well, so start the diarchy manually.
+			# 	start_diarchy = vizierate
+			# 	# Tell Alp that he appointed Hassan so he remembers not to dismiss him.
+			# 	set_variable = {
+			# 		name = my_vizier
+			# 		value = character:3050
+			# 	}
+			# }
+
 
 	}
 }
