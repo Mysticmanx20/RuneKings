@@ -222,10 +222,18 @@ whiteknights = {
 			}
 			every_knight = {
 				limit = { 
+					is_female = no
 					has_faith = faith:saradomin
 				}
 				give_nickname = nick_sir
+			}
+			every_knight = {
+				limit = { 
+					is_female = yes
+					has_faith = faith:saradomin
 				}
+				give_nickname = nick_lady
+			}
 		}
 	}
 }
