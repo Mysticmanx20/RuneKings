@@ -6,6 +6,7 @@ on_game_start = {
 		vamps
 		start_religion
 		wizards
+		whiteknights
 	}
 
 
@@ -207,7 +208,11 @@ wizards = {
 				}
 			}
 		}
+	}
+}
 
+whiteknights = {
+	effect = {
 		every_ruler = {
 			limit = {
 				OR = {
@@ -219,13 +224,19 @@ wizards = {
 				limit = { 
 					has_faith = faith:saradomin
 				}
-					give_nickname = nick_sir
+				give_nickname = nick_sir
 				}
-			}
 		}
+	}
 }
 
+
 on_join_court = {
+
+	on_actions = {
+		whiteknights
+	}
+
 	events = {
 		court_maintenance.0005 # Add 'Order member' trait to courtiers who join holy order court
 	}
