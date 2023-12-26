@@ -140,6 +140,7 @@ on_game_start = {
 			character:900301 = { 
 				designate_diarch = character:900305 
 				start_diarchy = regency
+				set_diarchy_swing = 25
 			}
 			
 			
