@@ -229,6 +229,7 @@
 	}
 	11620.1.1 = {
 		add_visiting_courtier = character:900125
+		add_visiting_courtier = character:900146
 	}
 }
 
@@ -671,7 +672,6 @@
     culture = asgarnia
     11594.1.1 = {
         birth = yes
-		employer = 900121
     }
 }
 
