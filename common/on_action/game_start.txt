@@ -223,6 +223,7 @@ whiteknights = {
 			every_knight = {
 				limit = { 
 					is_female = no
+					highest_held_title_tier < tier_county
 					has_faith = faith:saradomin
 				}
 				give_nickname = nick_sir
@@ -230,6 +231,7 @@ whiteknights = {
 			every_knight = {
 				limit = { 
 					is_female = yes
+					highest_held_title_tier < tier_county
 					has_faith = faith:saradomin
 				}
 				give_nickname = nick_lady
