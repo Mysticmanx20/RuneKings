@@ -207,7 +207,22 @@ wizards = {
 				}
 			}
 		}
-	}
+
+		every_ruler = {
+			limit = {
+				OR = {
+					has_primary_title = title:k_asgarnia
+					has_primary_title = title:d_falador
+				}
+			}
+			every_knight = {
+				limit = { 
+					has_faith = faith:saradomin
+				}
+					give_nickname = nick_sir
+				}
+			}
+		}
 }
 
 on_join_court = {
