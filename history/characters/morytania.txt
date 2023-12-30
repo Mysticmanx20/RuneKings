@@ -8,6 +8,10 @@
 	trait = brave
 	trait = callous
 	trait = diligent
+	trait = lifestyle_hunter
+	trait = faith_warrior
+	trait = education_martial_4
+	disallow_random_traits = yes
 	11586.1.1 = {
 		birth = yes
 	}
@@ -17,6 +21,11 @@
 	name = "Necrovarus"
 	religion = zamorak
 	culture = ghost
+	trait = greedy
+	trait = callous
+	trait = deceitful
+	trait = education_learning_2
+	disallow_random_traits = yes
 	11570.1.1 = {
 		birth = yes
 	}
@@ -63,6 +72,10 @@
 	name = "Fenkenstrain"
 	religion = saradomin
 	culture = morytania
+	trait = deceitful
+	trait = craven
+	trait = eccentric
+	trait = education_learning_1
 	11585.1.1 = {
 		birth = yes
 	}
