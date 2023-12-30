@@ -296,7 +296,7 @@ abbey_female = {
 	gender = male
 	special = holder
 	tier = barony
-	priority = 6
+	priority = 7
 	name_lists = name_list_vampyre
 }
 baron_clan_female_vamp = {
@@ -304,13 +304,13 @@ baron_clan_female_vamp = {
 	gender = female
 	special = holder
 	tier = barony
-	priority = 6
+	priority = 7
 	name_lists = name_list_vampyre
 }
 barony_clan_vamp = {
 	type = title
 	tier = barony
-	priority = 6
+	priority = 7
 	name_lists = name_list_vampyre
 }
 count_clan_male_vamp = {
@@ -318,7 +318,7 @@ count_clan_male_vamp = {
 	gender = male
 	special = holder
 	tier = county
-	priority = 16
+	priority = 18
 	name_lists = name_list_vampyre
 }
 count_clan_female_vamp = {
@@ -326,13 +326,13 @@ count_clan_female_vamp = {
 	gender = female
 	special = holder
 	tier = county
-	priority = 16
+	priority = 18
 	name_lists = name_list_vampyre
 }
 county_clan_vamp = {
 	type = title
 	tier = county
-	priority = 16
+	priority = 18
 	name_lists = name_list_vampyre
 }
 duke_clan_male_vamp = {
@@ -340,7 +340,7 @@ duke_clan_male_vamp = {
 	gender = male
 	special = holder
 	tier = duchy
-	priority = 26
+	priority = 27
 	name_lists = name_list_vampyre
 }
 duke_clan_female_vamp = {
@@ -348,13 +348,13 @@ duke_clan_female_vamp = {
 	gender = female
 	special = holder
 	tier = duchy
-	priority = 26
+	priority = 27
 	name_lists = name_list_vampyre
 }
 duchy_clan_vamp = {
 	type = title
 	tier = duchy
-	priority = 26
+	priority = 27
 	name_lists = name_list_vampyre
 }
 king_clan_male_vamp = {
@@ -362,7 +362,7 @@ king_clan_male_vamp = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 46
+	priority = 47
 	name_lists = name_list_vampyre
 }
 king_clan_female_vamp = {
@@ -370,13 +370,13 @@ king_clan_female_vamp = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 46
+	priority = 47
 	name_lists = name_list_vampyre
 }
 kingdom_clan_vamp = {
 	type = title
 	tier = kingdom
-	priority = 46
+	priority = 47
 	name_lists = name_list_vampyre
 }
 emperor_clan_male_vamp = {
@@ -384,7 +384,7 @@ emperor_clan_male_vamp = {
 	gender = male
 	special = holder
 	tier = empire
-	priority = 101
+	priority = 102
 	name_lists = name_list_vampyre
 }
 emperor_clan_female_vamp = {
@@ -392,13 +392,13 @@ emperor_clan_female_vamp = {
 	gender = female
 	special = holder
 	tier = empire
-	priority = 101
+	priority = 102
 	name_lists = name_list_vampyre
 }
 empire_clan_vamp = {
 	type = title
 	tier = empire
-	priority = 101
+	priority = 102
 	name_lists = name_list_vampyre
 }
 
