@@ -133,31 +133,31 @@
 95 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 96 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 97 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 98 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = city_holding
 }
 
 99 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 100 = {  
@@ -169,7 +169,7 @@
 101 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 102 = {  
