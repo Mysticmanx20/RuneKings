@@ -2,7 +2,7 @@
 d_kinshra = {
 	11456.1.1 = {
 		holder = 900377 #Sanafin
-		succession_laws = { male_only_law succession_faith }
+		succession_laws = { male_only_law same_faith_only_law }
 	}
 	11582.1.1 = {
 		holder = 900378 #Shadwell
