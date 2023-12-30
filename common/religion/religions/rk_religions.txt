@@ -6,7 +6,7 @@ zam_religion = {    #Zamorak
 
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_lay_clergy
@@ -214,8 +214,6 @@ zam_religion = {    #Zamorak
 		zamorak = {
 			color = { 0.8 0 0 }
 			icon = zamorak
-
-			religious_head = d_sang
 			
 
 			doctrine = tenet_pursuit_of_power
