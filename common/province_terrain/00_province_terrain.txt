@@ -382,4 +382,4 @@ default_coastal_sea=coastal_sea
 379=sea
 380=sea
 381=sea
-
+382=plains

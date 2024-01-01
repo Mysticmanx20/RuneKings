@@ -272,3 +272,9 @@
 	culture = asgarnia
 	holding = castle_holding
 }
+
+382 = {  #Whiteknights
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}

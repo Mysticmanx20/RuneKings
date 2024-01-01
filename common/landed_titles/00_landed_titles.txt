@@ -543,6 +543,11 @@ e_zaros = {
 					province = 28
 				}
 
+				b_whiteknight = {
+					color = { 66 221 199}
+					province = 382
+				}
+
 				b_northfal = {
 					color = { 255 136 33 }
 					province = 65
