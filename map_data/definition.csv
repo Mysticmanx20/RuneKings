@@ -366,5 +366,19 @@
 365;180;155;117;northtb;x;
 366;131;155;66;eastjung;x;
 367;131;199;138;mosisles;x;
+368;160;175;109;sea_menacoast;x;
+369;107;175;131;sea_soph;x;
+370;175;175;185;sea_tombs;x;
+371;134;165;102;sea_ullek;x;
+372;34;165;102;sea_nardah;x;
+373;155;202;216;sea_uzer;x;
+374;155;202;182;sea_rotting;x;
+375;175;177;204;sea_decay;x;
+376;85;34;204;sea_southpirate;x;
+377;85;90;204;sea_northpirate;x;
+378;119;126;204;sea_blood;x;
+379;34;131;141;sea_eastern;x;
+380;85;155;141;sea_slepebay;x;
+381;34;165;141;sea_slepecoast;x;
 
 
