@@ -1,0 +1,53 @@
+﻿359 = {		#Mosleharm
+	culture = piratecul
+	religion = saradomin
+	holding = castle_holding
+}
+
+360 = {		#Mosle Port
+	culture = piratecul
+	religion = saradomin
+	holding = none
+}
+
+361 = {		#west jung
+	culture = piratecul
+	religion = saradomin
+	holding = tribal_holding
+}
+
+362 = {		#Mos swamp
+	culture = piratecul
+	religion = saradomin
+	holding = none
+}
+
+363 = {		#Mos cave
+	culture = piratecul
+	religion = saradomin
+	holding = tribal_holding
+}
+
+364 = {		#south trouble
+	culture = piratecul
+	religion = saradomin
+	holding = castle_holding
+}
+
+365 = {		#north trouble
+	culture = piratecul
+	religion = saradomin
+	holding = castle_holding
+}
+
+366 = {		#east jung
+	culture = piratecul
+	religion = saradomin
+	holding = tribal_holding
+}
+
+367 = {		#Mosleharm
+	culture = piratecul
+	religion = saradomin
+	holding = none
+}
