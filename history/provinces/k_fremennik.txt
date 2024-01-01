@@ -154,7 +154,7 @@
 
 357 = { #PirateCove
 	religion = saradomin
-	culture = pirate
+	culture = piratecul
 	holding = tribal_holding
 }
 
