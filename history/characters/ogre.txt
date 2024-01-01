@@ -147,7 +147,9 @@ ogre012 = {
 		birth = yes
 	}
 	11620.1.1 = {
-		add_realm_law = female_only_law
+		effect = { 
+			add_realm_law = female_only_law
+		}
 	}
 }
 
