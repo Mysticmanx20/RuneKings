@@ -359,4 +359,13 @@ default_coastal_sea=coastal_sea
 356=hills
 357=hills
 358=mountains
+359=plains
+360=floodplains
+361=jungle
+362=wetlands
+363=plains
+364=plains
+365=plains
+366=jungle
+367=jungle
 

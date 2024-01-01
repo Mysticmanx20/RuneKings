@@ -2921,9 +2921,87 @@ e_morytania = {
 				}
 			}
 		}
-
-
 	}
+
+	k_harmless = {
+		color = { 194 181 0}
+		capital = c_harmless
+		
+		d_harmless = {
+			color = { 194 181 0}
+			capital = c_harmless
+		
+			c_harmless = {
+				color = { 194 181 0}
+		
+				b_harmless = {
+					color = { 194 181 0}
+					province = 359
+				}
+		
+				b_mosport = {
+					color = { 194 181 107}
+					province = 360
+				}
+			}
+			c_westjungle = {
+				color = { 148 181 107}
+		
+				b_westjungle = {
+					color = { 148 181 107}
+					province = 361
+				}
+		
+				b_mosswamp = {
+					color = { 148 181 163}
+					province = 362
+				}
+			}
+		
+			c_moscave = {
+				color = { 148 155 163 }
+		
+				b_moscave = {
+					color = { 148 155 163 }
+					province = 363
+				}
+		
+			}
+		}
+		
+		d_trouble = {
+			color = {180 155 117 }
+			capital = c_trouble
+		
+			c_trouble = {
+				color = { 180 155 117}
+		
+				b_northtrouble = {
+					color= { 180 155 117 }
+					province =365
+				}
+
+				b_southtrouble = {
+					color = { 180 168 68 }
+					province = 364
+				}
+		
+			}
+		
+			c_eastjungle = {
+				color = { 131 155 66}
+		
+				b_eastjungle = {
+					color = { 131 155 66}
+					province = 366
+				}
+		
+				b_mosisles = {
+					color= {131 199 138 }
+					province = 367
+				}
+			}
+		}
 
 }
 
