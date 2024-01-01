@@ -540,12 +540,12 @@ e_zaros = {
 
 				b_falador = {
 					color = {173 243 255 }
-					province = 28
+					province = 382
 				}
 
 				b_whiteknight = {
 					color = { 66 221 199}
-					province = 382
+					province = 28
 				}
 
 				b_northfal = {
