@@ -3002,7 +3002,7 @@ e_morytania = {
 				}
 			}
 		}
-
+	}
 }
 
 e_fremennik = {

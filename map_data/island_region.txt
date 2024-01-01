@@ -8,11 +8,76 @@
 #	counties = { }, takes county title names declared in landed_titles.txt
 #	provinces = { }, takes province id numbers declared in /history/provinces
 
-island_region_islands = {
-	counties = {
-		c_entrana
-		c_crandor
-		c_tutor
-		c_musa
+
+island_region_crandor = {
+	duchies = {
+		d_crandor
+	}
+}
+
+island_region_entrana = {
+	duchies = {
+		d_entrana
+	}
+}
+
+island_region_tutorial = {
+	duchies = {
+		d_tutor
+	}
+}
+
+island_region_karamja = {
+	duchies = {
+		d_brimhaven
+		d_shilo
+		d_shipyard
+		d_taibwo
+	}
+}
+
+island_region_marim = {
+	duchies = {
+		d_marim
+	}
+}
+
+island_region_waterbirth = {
+	duchies = {
+		d_waterb
+	}
+}
+
+island_region_fremisles = {
+	duchies = {
+		d_neitz
+		d_jat
+		d_icetroll
+	}
+}
+
+island_region_misc = {
+	duchies = {
+		d_misc
+		d_ect
+	}
+}
+
+island_region_lunar = {
+	duchies = {
+		d_lunar
+	}
+}
+
+island_region_pirate = {
+	duchies = {
+		d_piratecove
+	}
+}
+
+island_region_mos = {
+	duchies = {
+		d_harmless
+		d_trouble
 	}
 }
