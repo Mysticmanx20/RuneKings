@@ -20,6 +20,12 @@ k_asgarnia = {
 	}
 }
 
+b_whiteknight = {
+	11570.1.1 = {
+		holder = 900301
+	}
+}
+
 d_falador = {
 	11470.1.1 = {
 		liege = k_asgarnia

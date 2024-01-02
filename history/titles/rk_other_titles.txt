@@ -21,6 +21,13 @@ d_kinshra = {
     }
 }
 
+d_whiteknights = {
+	11456.1.1 = {
+		liege = k_asgarnia
+		holder = asgarn014
+	}
+}
+
 e_vamp = {
 	11595.1.1 = {
 		holder = vamp001

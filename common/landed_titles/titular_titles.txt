@@ -25,6 +25,13 @@ d_kinshra = {
 	}
 }
 
+d_whiteknights = {
+	color = { 66 221 199 }
+	capital = c_faladorwest
+	landless = yes
+	definite_form = yes
+}
+
 d_ham = {
 	color={ 212 0 127 }
 	capital = c_lumpass
