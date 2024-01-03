@@ -206,3 +206,14 @@ ogre016 = {
 		add_realm_law = male_only_law
 	}
 }
+
+ogre017 = {
+	name = "Nung"
+	religion = bandos
+	culture = mogre
+	trait = arrogant
+	trait = education_diplomacy_1
+	11593.1.1 = {
+		birth = yes
+	}
+}
