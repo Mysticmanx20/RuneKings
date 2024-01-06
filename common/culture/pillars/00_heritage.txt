@@ -42,6 +42,17 @@ heritage_monkey = {
 	type = heritage
 }
 
+heritage_werewolf = {
+	type = heritage
+}
+
+
+
+
+
+
+#############vanilla
+
 heritage_arabic = {
 	type = heritage
 }

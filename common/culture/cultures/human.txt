@@ -503,6 +503,35 @@ vampyre = {    # Vampyre
 	}
 }
 
+werewolf = {    # Werewolf
+	color = { 0.43 0.21 0.1 }
+	created = 1.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_werewolf
+	language = language_werewolf
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hunters
+		tradition_forest_folk
+		tradition_sacred_hunts
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_vlach
+
+	always_use_patronym = no
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
 morytania = {   #Morytanian
 	color = { 0.0 0.66 0.47}
 	created = 11277.1.1

@@ -111,6 +111,18 @@ on_game_start = {
 		}
 
 		
+		#starting cultural acceptance
+		culture:vampyre = {
+			change_cultural_acceptance = {
+				target = culture:werewolf
+				value = 30
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:misthalin
+				value = -30
+				desc = cultural_acceptance_historical_relations
+			}
 
 
 		

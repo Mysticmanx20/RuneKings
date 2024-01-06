@@ -35,7 +35,7 @@
 }
 
 75 = {  #Canifis
-	culture = vampyre
+	culture = werewolf
 	religion = zamorak
 	holding = castle_holding
 }
