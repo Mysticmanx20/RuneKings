@@ -320,6 +320,7 @@ ogre = {     # Ogre
 
 mogre = {     # Mogre
 	color = { 0.5 1.0 0.0 }
+	created = 11621.1.1
 	parents = { ogre }
 	
 	ethos = ethos_bellicose
@@ -504,7 +505,8 @@ vampyre = {    # Vampyre
 
 morytania = {   #Morytanian
 	color = { 0.0 0.66 0.47}
-	created = 1.1.1
+	created = 11119.1.1
+	parents = { misthalin }
 	
 	ethos = ethos_stoic
 	heritage = heritage_human
