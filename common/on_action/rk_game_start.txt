@@ -115,12 +115,17 @@ on_game_start = {
 		culture:vampyre = {
 			change_cultural_acceptance = {
 				target = culture:werewolf
-				value = 30
+				value = 60
 				desc = cultural_acceptance_historical_relations
 			}
 			change_cultural_acceptance = {
 				target = culture:misthalin
-				value = -30
+				value = -60
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:morytania
+				value = -60
 				desc = cultural_acceptance_historical_relations
 			}
 
