@@ -1554,8 +1554,8 @@ bandos_religion = {
 	doctrine = special_doctrine_is_islamic_faith
 
 	traits = {
-		virtues = { temperate generous just }
-		sins = { gluttonous greedy arbitrary drunkard }
+		virtues = { gluttonous wrathful brave }
+		sins = { temperate content calm  }
 	}
 
 	reserved_male_names = {
