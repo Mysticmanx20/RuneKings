@@ -86,7 +86,7 @@ b_hmine = {
 
 c_canifis = {
 	11615.1.1 = {
-		liege = 900500
+		liege = k_morytania
 		holder = 900505
 		change_development_level = 7
 	}
