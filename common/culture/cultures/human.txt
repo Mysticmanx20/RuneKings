@@ -320,6 +320,7 @@ ogre = {     # Ogre
 
 mogre = {     # Mogre
 	color = { 0.5 1.0 0.0 }
+	parents = { ogre }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_bandos
