@@ -518,7 +518,7 @@ werewolf = {    # Werewolf
 		tradition_staunch_traditionalists
 	}
 	
-	name_list = name_list_vlach
+	name_list = name_list_werewolf
 
 	always_use_patronym = no
 	
