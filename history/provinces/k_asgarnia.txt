@@ -292,7 +292,7 @@
 }
 
 385 = {  #Mogres
-	religion = saradomin
+	religion = bandos
 	culture = mogre
 	holding = tribal_holding
 }
