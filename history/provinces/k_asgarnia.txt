@@ -92,10 +92,10 @@
 	}
 }
 
-40 = { #Mudskip
+40 = { #Thurgo
 	religion = saradomin
 	culture = asgarnia
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 41 = { #FalFarm
@@ -277,4 +277,22 @@
 	religion = saradomin
 	culture = asgarnia
 	holding = castle_holding
+}
+
+383 = {  #Asgarn Ice
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+384 = {  #Mudskipper
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+385 = {  #Mogres
+	religion = saradomin
+	culture = mogre
+	holding = tribal_holding
 }

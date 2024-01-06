@@ -797,15 +797,36 @@ e_zaros = {
 				}
 			}
 
-			c_mudskip = {
+			c_asgarnice = {
 				color = { 141 255 60 }
 				definite_form = yes
 
-				b_mudskip = {
+				b_thurgo = {
 					color = { 141 255 60 }
-					definite_form = yes
 					province = 40
 				}
+
+				b_asgarnice = {
+					color = { 141 255 180 }
+					province = 383
+				}
+			}
+
+			c_mudskip = {
+				color = { 141 194 119 }
+				definite_form = yes
+
+				b_mogre = {
+					color = { 141 194 146 }
+					province = 385
+				}
+				
+				b_mudskip = {
+					color = { 141 194 119 }
+					definite_form = yes
+					province = 384
+				}
+
 			}
 
 			c_sarimchurch = {
