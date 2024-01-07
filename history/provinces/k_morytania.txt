@@ -24,7 +24,7 @@
 
 73 = {  #PortPhas
 	culture = ghost
-	religion = zamorak
+	religion = saradomin
 	holding = castle_holding
 }
 

@@ -137,7 +137,7 @@
 	name= "Tarn"
 	#dynasty Razolor
 	culture = morytania
-	religion = saradomin
+	religion = zamorak
 	trait = ambitious
 	trait = patient
 	trait = wrathful
