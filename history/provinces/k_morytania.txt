@@ -78,7 +78,7 @@
 
 86 = {  
 	culture = ghost
-	religion = zamorak
+	religion = saradomin
 	holding = castle_holding
 }
 
