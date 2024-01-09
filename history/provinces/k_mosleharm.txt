@@ -1,7 +1,7 @@
 ﻿359 = {		#Mosleharm
 	culture = piratecul
 	religion = saradomin
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 360 = {		#Mosle Port
@@ -31,13 +31,13 @@
 364 = {		#south trouble
 	culture = piratecul
 	religion = saradomin
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 365 = {		#north trouble
 	culture = piratecul
 	religion = saradomin
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 366 = {		#east jung

@@ -119,7 +119,7 @@ piratecul = {
 		tradition_practiced_pirates
 	}
 	
-	name_list = name_list_roman
+	name_list = name_list_pirate
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 

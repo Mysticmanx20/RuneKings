@@ -20,6 +20,8 @@
  archmage_female_count:0 "Archmage"
  archmage_male:0 "Archmage"
  archmage_female:0 "Archmage"
+ pirate_male:0 "Captain"
+ pirate_female:0 "Captain"
  emir_male:0 "Emir"
  emir_female:0 "Emira"
  mageking:0 "Mage-King"

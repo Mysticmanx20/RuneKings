@@ -1,0 +1,113 @@
+﻿pirate001 = {
+	name = "Bill"
+	dynasty = 100943
+	culture = piratecul
+	religion = saradomin
+	trait = education_diplomacy_3
+	trait = brave
+	trait = ambitious
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+pirate002 = {
+	name = "Mama"
+	female = yes
+	dynasty = 100944
+	culture = piratecul
+	religion = saradomin
+	trait = education_stewardship_3
+	trait = temperate
+	11585.1.1 = {
+		birth = yes
+	}
+	11592.1.1 = {
+		employer = pirate001
+	}
+
+}
+
+pirate003 = {
+	name = "Joe"
+	culture = piratecul
+	religion = saradomin
+	trait = education_stewardship_1
+	11585.1.1 = {
+		birth = yes
+	}
+	11592.1.1 = {
+		employer = pirate001
+	}
+
+}
+
+pirate004 = {
+	name = "Mike"
+	culture = piratecul
+	religion = saradomin
+	trait = education_intrigue_1
+	11585.1.1 = {
+		birth = yes
+		
+	}
+	11592.1.1 = {
+		employer = pirate001
+	}
+}
+
+pirate005 = {
+	name = "Charley"
+	culture = piratecul
+	religion = saradomin
+	trait = education_martial_1
+	11585.1.1 = {
+		birth = yes
+	}
+	11592.1.1 = {
+		employer = pirate001
+	}
+}
+
+pirate006 = {
+	name = "Davey"
+	culture = piratecul
+	religion = saradomin
+	trait = education_learning_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+pirate007 = {
+	name = "Jimmy"
+	culture = piratecul
+	religion = saradomin
+	trait = education_stewardship_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+pirate008 = {
+	name = "Dan"
+	culture = piratecul
+	religion = saradomin
+	trait = education_learning_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+pirate009 = {
+	name = "San Fan"
+	female = yes
+	culture = piratecul
+	religion = saradomin
+	trait = education_learning_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+

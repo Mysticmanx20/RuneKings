@@ -52,6 +52,26 @@ emir_female = {
 	name_lists = { name_list_egyptian }
 }
 
+pirate_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 36
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+pirate_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 36
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
 lord_male = {
 	type = character
 	gender = male

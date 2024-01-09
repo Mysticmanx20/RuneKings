@@ -3001,17 +3001,25 @@ e_morytania = {
 		
 			c_trouble = {
 				color = { 180 155 117}
+				definite_form = yes
 		
 				b_northtrouble = {
 					color= { 180 155 117 }
 					province =365
+					definite_form = yes
 				}
+		
+			}
+
+			c_southtrouble = {
+				color = { 180 168 68 }
+				definite_form = yes
 
 				b_southtrouble = {
 					color = { 180 168 68 }
 					province = 364
+					definite_form = yes
 				}
-		
 			}
 		
 			c_eastjungle = {

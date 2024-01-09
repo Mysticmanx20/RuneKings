@@ -210,3 +210,13 @@
 	name = "dynn_Verd"
 	culture = vampyre
 }
+
+100943 = {
+	name = "dynn_Teach"
+	culture = piratecul
+}
+
+100944 = {
+	name = "dynn_Laf"
+	culture = piratecul
+}

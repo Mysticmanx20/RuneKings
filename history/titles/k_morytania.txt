@@ -125,4 +125,46 @@ b_deadfarm = {
 	}
 }
 
+c_harmless = {
+	11591.1.1 = {
+		holder = pirate001
+		change_development_level = 6
+	}
+}
+
+c_westjungle = {
+	11591.1.1 = {
+		holder = pirate001
+		change_development_level = 3
+	}
+}
+
+c_moscave = {
+	11591.1.1 = {
+		holder = pirate006
+		change_development_level = 2
+	}
+}
+
+c_eastjungle = {
+	11591.1.1 = {
+		holder = pirate007
+		change_development_level = 3
+	}
+}
+
+c_trouble = {
+	11591.1.1 = {
+		holder = pirate008
+		change_development_level = 4
+	}
+}
+
+c_southtrouble = {
+	11591.1.1 = {
+		holder = pirate009
+		change_development_level = 4
+	}
+}
+
 
