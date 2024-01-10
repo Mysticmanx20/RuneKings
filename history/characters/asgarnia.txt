@@ -1093,6 +1093,7 @@ asgarn014 = {
     trait = education_martial_5
     11431.1.1 = {
         birth = yes
+	give_nickname = nick_the_crowd_pleaser
     }
     11492.1.1 = {
         death = yes
