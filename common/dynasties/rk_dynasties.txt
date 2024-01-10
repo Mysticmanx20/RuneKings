@@ -220,3 +220,8 @@
 	name = "dynn_Laf"
 	culture = piratecul
 }
+
+100945 = {
+	name = "dynn_Donblas"
+	culture = asgarnia
+}

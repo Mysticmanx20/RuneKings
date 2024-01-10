@@ -15,6 +15,9 @@ c_entrana = {
 }
 
 k_asgarnia = {
+	11460.1.1 = {
+		holder = asgarn016
+	}
 	11570.1.1 = {
 		holder = 900301
 	}

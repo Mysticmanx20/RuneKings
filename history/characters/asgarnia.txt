@@ -1099,3 +1099,33 @@ asgarn014 = {
     }
 }
 
+asgarn015 = {
+    name = "Julienne"
+    female = yes
+    religion = saradomin
+    culture = asgarnia
+    trait = education_learning_3
+    trait = humble
+    11595.1.1 = {
+        birth = yes
+        employer = 900301
+    }
+    11615.1.1 = {
+        give_council_position = councillor_court_chaplain
+    }
+}
+
+asgarn016 = {
+    name = "Raddallin"
+    dynasty = 100945
+    religion = saradomin
+    culture = asgarnia
+    trait = education_diplomacy_5
+    11422.1.1 = {
+        birth = yes
+    }
+    11482.1.1 = {
+        death = yes
+    }
+}
+
