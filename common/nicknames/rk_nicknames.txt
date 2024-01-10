@@ -2,3 +2,4 @@
 nick_wizard = { is_prefix = yes }
 nick_sir = { is_prefix = yes }
 nick_lady = { is_prefix = yes }
+nick_falador = {}
