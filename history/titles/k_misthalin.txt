@@ -355,6 +355,9 @@ c_tutor = {
 }
 
 c_wizard = {
+	11522.1.1 = {
+		holder = misth006
+	}
 	11613.1.1 = {
 		holder = 900118
 		change_development_level = 10

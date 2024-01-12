@@ -28,7 +28,7 @@ gob002 = {
 	trait = arbitrary
 	trait = wrathful
 	trait = fickle
-	trait = education_diplomacy_1
+	trait = education_diplomacy_2
 	disallow_random_traits = yes
 	11585.1.1 = {
 		birth = yes
@@ -150,5 +150,19 @@ gob012 = {
 	religion = bandos
 	11596.1.1 = {
 		birth = yes
+	}
+}
+
+gob013 = {
+	name = "Murknose"
+	culture = goblin
+	religion = bandos
+	trait = education_learning_3
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900302
+		give_council_position = councillor_court_chaplain
 	}
 }

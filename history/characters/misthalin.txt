@@ -2015,3 +2015,32 @@ misth004 = {
 		}
 	}
 }
+
+misth005 = {
+	name = "Ruantun"
+	culture = vampyre
+	religion = zamorak
+	trait = shy
+	trait = loyal
+	trait = education_learning_1
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900115
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+misth006 = {
+	name = "Perien"
+	culture = misthalin
+	religion = saradomin
+	trait = education_learning_4
+	11494.1.1 = {
+		birth = yes
+	}
+	11556.1.1 = {
+		death = yes
+	}
+}
