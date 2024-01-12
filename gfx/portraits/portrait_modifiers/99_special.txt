@@ -284,12 +284,6 @@ special_prophet = {
 				value = 0.5
 			}
 			accessory = {
-				mode = add
-				gene = extraprops
-				template = hgw_prophet_rin
-				value = 0.5
-			}
-			accessory = {
 				mode = modify
 				gene = eye_accessory
 				template = no_eyes

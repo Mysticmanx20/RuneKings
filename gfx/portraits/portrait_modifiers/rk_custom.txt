@@ -176,4 +176,43 @@
             }
         }
     }
+
+    hgw_portrait_rin = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = extraprops
+                template = hgw_prophet_rin
+                value = 0.5
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                culture = culture:troll
+                #hgw_costume_trigger = no
+            }
+        }
+    }
+
+    hgw_portrait_femtroll = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = extraprops
+                template = hgw_prophet_femtroll
+                value = 0.5
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 201
+                is_female = yes
+                culture = culture:troll
+                #hgw_costume_trigger = no
+            }
+        }
+    }
 }
