@@ -1,8 +1,0 @@
-﻿hgw_protrait_trigger = {
-	custom_description = {
-		text = "is_hgw_protrait_trigger"
-		
-		culture = culture:troll
-		
-	}
-}
