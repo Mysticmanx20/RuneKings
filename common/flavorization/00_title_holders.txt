@@ -52,12 +52,32 @@ emir_female = {
 	name_lists = { name_list_egyptian }
 }
 
+sailor_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 7
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+sailor_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 7
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
 pirate_male = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
-	priority = 36
+	priority = 18
 	top_liege = no
 	name_lists = { name_list_pirate }
 }
@@ -67,7 +87,47 @@ pirate_female = {
 	gender = female
 	special = holder
 	tier = county
+	priority = 18
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+pirate_duchy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
 	priority = 36
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+pirate_duchy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+pirate_king_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	name_lists = { name_list_pirate }
+}
+
+pirate_king_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
 	top_liege = no
 	name_lists = { name_list_pirate }
 }
