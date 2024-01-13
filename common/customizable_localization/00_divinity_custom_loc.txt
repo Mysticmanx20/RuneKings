@@ -609,6 +609,7 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_kingdom
 			faith.religion = faith:bandos.religion
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
 		}
 		localization_key = councillor_court_chaplain_paganism_religion_kingdom
 	}
@@ -616,6 +617,7 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_duchy
 			faith.religion = faith:bandos.religion
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
 		}
 		localization_key = councillor_court_chaplain_paganism_religion_duchy
 	}
@@ -623,6 +625,7 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier < tier_duchy
 			faith.religion = faith:bandos.religion
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
 		}
 		localization_key = councillor_court_chaplain_paganism_religion_county
 	}
@@ -657,15 +660,15 @@ GetActualBishopTitlePossessive = {
 	# Religion-By-Religion Titles for Bishops based on Liege's Tier.
 	#Bandos
 	text = {
-		trigger = { liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:bandos.religion }
+		trigger = { liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:bandos.religion faith = { has_doctrine = doctrine_theocracy_lay_clergy } }
 		localization_key = councillor_court_chaplain_paganism_religion_kingdom_possessive
 	}
 	text = {
-		trigger = { liege.highest_held_title_tier >= tier_duchy faith.religion = faith:bandos.religion }
+		trigger = { liege.highest_held_title_tier >= tier_duchy faith.religion = faith:bandos.religion faith = { has_doctrine = doctrine_theocracy_lay_clergy } }
 		localization_key = councillor_court_chaplain_paganism_religion_duchy_possessive
 	}
 	text = {
-		trigger = { liege.highest_held_title_tier < tier_duchy faith.religion = faith:bandos.religion }
+		trigger = { liege.highest_held_title_tier < tier_duchy faith.religion = faith:bandos.religion faith = { has_doctrine = doctrine_theocracy_lay_clergy } }
 		localization_key = councillor_court_chaplain_paganism_religion_county_possessive
 	}
 
