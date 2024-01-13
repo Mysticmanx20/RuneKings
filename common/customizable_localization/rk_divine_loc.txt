@@ -1,0 +1,109 @@
+﻿# GetActualBishopTitlePossessive should be updated synchronously with this
+GetActualBishopTitle = {
+	type = character
+
+	# 'Early Out' keys for Head of Faith/Landed Rulers.
+	text = {
+		trigger = {
+			exists = faith.religious_head
+			this = faith.religious_head
+		}
+		localization_key = religious_head_name
+	}
+	text = {
+		trigger = {
+			is_landed = yes
+		}
+		localization_key = ruler_title_name
+	}
+
+	# Religion-By-Religion Titles for Bishops based on Liege's Tier.
+
+	#Bandos
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_kingdom
+			faith.religion = faith:bandos.religion
+		}
+		localization_key = councillor_court_chaplain_paganism_religion_kingdom
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_duchy
+			faith.religion = faith:bandos.religion
+		}
+		localization_key = councillor_court_chaplain_paganism_religion_duchy
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier < tier_duchy
+			faith.religion = faith:bandos.religion
+		}
+		localization_key = councillor_court_chaplain_paganism_religion_county
+	}
+
+	#Fallback
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = no }
+		localization_key = councillor_court_chaplain_theocrat_empire
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = yes }
+		localization_key = councillor_court_chaplain_theocrat_empire_female
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_kingdom }
+		localization_key = councillor_court_chaplain_theocrat_kingdom
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_duchy
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier < tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_county
+	}
+
+}
+
+GetActualBishopTitlePossessive = {
+	type = character
+
+	# Religion-By-Religion Titles for Bishops based on Liege's Tier.
+	#Bandos
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:bandos.religion }
+		localization_key = councillor_court_chaplain_paganism_religion_kingdom_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_duchy faith.religion = faith:bandos.religion }
+		localization_key = councillor_court_chaplain_paganism_religion_duchy_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier < tier_duchy faith.religion = faith:bandos.religion }
+		localization_key = councillor_court_chaplain_paganism_religion_county_possessive
+	}
+
+	#Fallback
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = no }
+		localization_key = councillor_court_chaplain_theocrat_empire_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = yes }
+		localization_key = councillor_court_chaplain_theocrat_empire_female_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_kingdom }
+		localization_key = councillor_court_chaplain_theocrat_kingdom_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_duchy_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier < tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_county_possessive
+	}
+
+}

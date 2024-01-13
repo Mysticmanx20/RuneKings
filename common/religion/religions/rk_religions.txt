@@ -1175,16 +1175,16 @@ fremennik_religion = {
 			ZAM_NAME
 			BANDOS_NAME
 		 }
-		HouseOfWorship = paganism_house_of_worship
-		HouseOfWorship2 = paganism_house_of_worship_2
-		HouseOfWorship3 = paganism_house_of_worship_3
-		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = finno_ugric_religious_symbol
-		ReligiousSymbol2 = finno_ugric_religious_symbol_2
-		ReligiousSymbol3 = finno_ugric_religious_symbol_3
-		ReligiousText = paganism_religious_text
-		ReligiousText2 = paganism_religious_text_2
-		ReligiousText3 = paganism_religious_text_3
+		HouseOfWorship = west_african_roog_house_of_worship
+		HouseOfWorship2 = west_african_roog_house_of_worship
+		HouseOfWorship3 = west_african_roog_house_of_worship
+		HouseOfWorshipPlural = west_african_roog_house_of_worship_plural
+		ReligiousSymbol = V_CREST_NAME
+		ReligiousSymbol2 = V_CREST_NAME
+		ReligiousSymbol3 = V_CREST_NAME
+		ReligiousText = V_SCRIPTURES_NAME
+		ReligiousText2 = V_SCRIPTURES_NAME
+		ReligiousText3 = V_SCRIPTURES_NAME
 		ReligiousHeadName = paganism_religious_head_title
 		ReligiousHeadTitleName = paganism_religious_head_title_name
 		DevoteeMale = V_devotee
@@ -1408,16 +1408,19 @@ guthix_religion = {
 			GUTHIX_NAME
 			GUTHIX_NAME2
 		 }
-		DevilName = paganism_devil_name
-		DevilNamePossessive = paganism_devil_name_possessive
-		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERHIS_ITS
-		DevilHerselfHimself = paganism_devil_herselfhimself
-		EvilGodNames = { paganism_devil_name paganism_evil_god_decay }
-		HouseOfWorship = paganism_house_of_worship
-		HouseOfWorship2 = paganism_house_of_worship_2
-		HouseOfWorship3 = paganism_house_of_worship_3
-		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		DevilName = ZAM_NAME
+		DevilNamePossessive = ZAM_POSSESSIVE
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { 
+			ZAM_NAME
+			BANDOS_NAME
+		}
+		HouseOfWorship = west_african_roog_house_of_worship
+		HouseOfWorship2 = west_african_roog_house_of_worship
+		HouseOfWorship3 = west_african_roog_house_of_worship
+		HouseOfWorshipPlural = west_african_roog_house_of_worship_plural
 		ReligiousSymbol = GUTHIX_CREST_NAME
 		ReligiousSymbol2 = GUTHIX_CREST_NAME
 		ReligiousSymbol3 = GUTHIX_CREST_NAME
@@ -1700,19 +1703,19 @@ bandos_religion = {
 		DevoteeFemalePlural = islam_devotee_plural
 		DevoteeNeuter = islam_devotee
 		DevoteeNeuterPlural = islam_devotee_plural
-		PriestMale = islam_priest
-		PriestMalePlural = islam_priest_plural
-		PriestFemale = islam_priest
-		PriestFemalePlural = islam_priest_plural
-		PriestNeuter = islam_priest
-		PriestNeuterPlural = islam_priest_plural
-		AltPriestTermPlural = islam_priest_alternate_plural
-		BishopMale = islam_bishop
-		BishopMalePlural = islam_bishop_plural
-		BishopFemale = islam_bishop
-		BishopFemalePlural = islam_bishop_plural
-		BishopNeuter = islam_bishop
-		BishopNeuterPlural = islam_bishop_plural
+		PriestMale = paganism_priest
+		PriestMalePlural = paganism_priest_plural
+		PriestFemale = paganism_priest
+		PriestFemalePlural = paganism_priest_plural
+		PriestNeuter = paganism_priest
+		PriestNeuterPlural = paganism_priest_plural
+		AltPriestTermPlural = paganism_priest_plural
+		BishopMale = paganism_priest
+		BishopMalePlural = paganism_priest_plural
+		BishopFemale = paganism_priest
+		BishopFemalePlural = paganism_priest_plural
+		BishopNeuter = paganism_priest
+		BishopNeuterPlural = paganism_priest_plural
 		DivineRealm = BANDOS_DIVINE
 		DivineRealm2 = BANDOS_DIVINE
 		DivineRealm3 = BANDOS_DIVINE
