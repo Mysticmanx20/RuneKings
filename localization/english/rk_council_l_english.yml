@@ -9,3 +9,13 @@
  councillor_court_chaplain_bandos_religion_kingdom_possessive:0 "High Shaman's"
  councillor_court_chaplain_bandos_religion_empire:0 "Grand Shaman"
  councillor_court_chaplain_bandos_religion_empire_possessive:0 "Grand Shaman's"
+
+ #Pirate Group
+ councillor_court_chaplain_pirate:0 "Bard"
+ councillor_court_chaplain_pirate_possessive:0 "Bard's"
+ councillor_steward_pirate:0 "Quartermaster"
+ councillor_steward_pirate_possessive:0 "Quartermaster's"
+ councillor_chancellor_pirate:0 "First Mate"
+ councillor_chancellor_pirate_possessive:0 "First Mate's"
+ councillor_marshal_pirate:0 "Master-at-Arms"
+ councillor_marshal_pirate_possessive:0 "Master-at-Arms's"

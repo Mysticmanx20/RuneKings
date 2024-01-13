@@ -1,7 +1,20 @@
 ﻿councillor_chancellor = {
 	skill = diplomacy
 	
-	name = councillor_chancellor
+	name = {
+		first_valid = {
+
+			#Pirate
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:piratecul
+				}
+				desc = councillor_chancellor_pirate
+			}
+	
+			desc = councillor_chancellor
+		}
+	}
 
 	tooltip = game_concept_chancellor_desc
 
@@ -54,7 +67,20 @@
 councillor_steward = {
 	skill = stewardship
 	
-	name = councillor_steward
+	name = {
+		first_valid = {
+
+			#Pirate
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:piratecul
+				}
+				desc = councillor_steward_pirate
+			}
+	
+			desc = councillor_steward
+		}
+	}
 	tooltip = game_concept_steward_desc
 	
 	modifier = {
@@ -107,7 +133,20 @@ councillor_steward = {
 councillor_marshal = {
 	skill = martial
 	
-	name = councillor_marshal
+	name = {
+		first_valid = {
+
+			#Pirate
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:piratecul
+				}
+				desc = councillor_marshal_pirate
+			}
+	
+			desc = councillor_marshal
+		}
+	}
 	tooltip = game_concept_marshal_desc
 
 	modifier = {
@@ -238,6 +277,32 @@ councillor_court_chaplain = {
 	
 	name = {
 		first_valid = {
+
+			#Bandosian Chaplains
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith.religion = faith:bandos.religion }
+				desc = councillor_court_chaplain_bandos_religion_empire
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:bandos.religion }
+				desc = councillor_court_chaplain_bandos_religion_kingdom
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith.religion = faith:bandos.religion }
+				desc = councillor_court_chaplain_bandos_religion_duchy
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier < tier_duchy faith.religion = faith:bandos.religion }
+				desc = councillor_court_chaplain_bandos_religion_county
+			}
+
+			#Pirate
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = culture:piratecul
+				}
+				desc = councillor_court_chaplain_pirate
+			}
 			triggered_desc = {
 				trigger = {
 					scope:councillor_liege.faith = {
@@ -248,39 +313,6 @@ councillor_court_chaplain = {
 					}
 				}
 				desc = actual_bishop_title
-			}
-			triggered_desc = {
-				trigger = {
-					scope:councillor_liege.faith = {
-						NOR = {
-							has_doctrine = doctrine_theocracy_temporal
-							religion = { is_in_family = rf_pagan }
-						}
-					}
-				}
-				desc = {
-					first_valid = {
-						#Bandos
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith.religion = faith:bandos.religion }
-							desc = councillor_court_chaplain_bandos_religion_empire
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:bandos.religion }
-							desc = councillor_court_chaplain_bandos_religion_kingdom
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith.religion = faith:bandos.religion }
-							desc = councillor_court_chaplain_bandos_religion_duchy
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier < tier_duchy faith.religion = faith:bandos.religion }
-							desc = councillor_court_chaplain_bandos_religion_county
-						}
-						desc = councillor_court_chaplain
-					}
-
-				}
 			}
 			desc = councillor_court_chaplain
 		}
