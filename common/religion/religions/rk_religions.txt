@@ -1503,6 +1503,45 @@ guthix_religion = {
 		}
 
 
+		oldfrem = {                       # old fremennik religion (mountain tribe)
+			color = { 0.62 0.51 0.44 }
+			icon = oldfrem
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_pastoral_isolation
+
+
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_theocracy_lay_clergy
+
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_no_legitimization
+			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+			#Crimes
+			doctrine = doctrine_homosexuality_shunned
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_kinslaying_close_kin_crime
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_witchcraft_crime
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_alms/pacification
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_appointment
+
+			doctrine = unreformed_faith_doctrine
+
+		}
+
+
 	}
 }
 

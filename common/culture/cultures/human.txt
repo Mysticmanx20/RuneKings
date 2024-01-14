@@ -164,6 +164,37 @@ fremennik = {   #fremmenik
 	}
 }
 
+oldfremennik = {   #old fremmenik (mountain tribe)
+	color = { 0.62 0.51 0.44 }
+	created = 1.1.1 
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_isolationist
+		tradition_staunch_traditionalists
+		tradition_pastoralists
+	}
+	
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
 kharidian = {  #kharidian
 	color = { 0.93 0.79 0.69 }
 	

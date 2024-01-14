@@ -6,8 +6,8 @@
 }
 
 185 = {  #MountainCamp
-	religion = guthix
-	culture = fremennik
+	religion = oldfrem
+	culture = oldfremennik
 	holding = tribal_holding
 }
 
@@ -24,8 +24,8 @@
 }
 
 188 = {  #FremForest
-	religion = v
-	culture = fremennik
+	religion = oldfrem
+	culture = oldfremennik
 	holding = tribal_holding
 }
 

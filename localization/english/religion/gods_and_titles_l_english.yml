@@ -206,6 +206,13 @@ l_english:
 	V_AFTERLIFE:0 "the Spirit Realm"
 	V_UNDERWORLD:0 "Niflheim"
 
+### Old fremennik (mountain tribe) (guthixian)
+
+ oldfrem:1 "Old Fremennik"
+ oldfrem_adj:1 "Old Fremennik"
+ oldfrem_adherent:1 "Old Fremennik"
+ oldfrem_adherent_plural:1 "Old Fremenniks"
+
 ######################################
 
  desert_religion:0 "Menaphite Pantheon"
