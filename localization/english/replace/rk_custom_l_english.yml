@@ -74,6 +74,7 @@
  mercenary_company_mah:0 "Children of Mah"
  mercenary_company_judges:0 "Stern Judges of [TITLE.GetNameNoTierNoTooltip]"
  mercenary_company_faceless:0 "Faceless Ones"
+ mercenary_company_pirates:0 "Pirates of [TITLE.GetNameNoTierNoTooltip]"
  
  PICK_ANY_CHARACTER:4 "Play as any Ruler in #light_background;bold 169 V#!, or #bold create your own!#!"
  bm_group_1066:0 "169 V"
