@@ -139,7 +139,7 @@ fremennik = {   #fremmenik
 	
 	ethos = ethos_bellicose
 	heritage = heritage_human
-	language = language_common
+	language = language_frem
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_fp1_coastal_warriors
@@ -170,7 +170,7 @@ oldfremennik = {   #old fremmenik (mountain tribe)
 	
 	ethos = ethos_spiritual
 	heritage = heritage_human
-	language = language_common
+	language = language_frem
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caravaneers
@@ -194,6 +194,38 @@ oldfremennik = {   #old fremmenik (mountain tribe)
 		5 = caucasian_northern_dark_hair
 	}
 }
+
+moonclan = {   #Moon clan fremenniks
+	color = { 0.0 0.87 0.87 }
+	created = 1.1.1 
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_frem
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_philosopher_culture
+		tradition_isolationist
+		tradition_fp1_northern_stories
+	}
+	
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+
 
 kharidian = {  #kharidian
 	color = { 0.93 0.79 0.69 }

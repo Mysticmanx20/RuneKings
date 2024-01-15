@@ -135,20 +135,20 @@
 }
 
 354 = { #Lunar
-	religion = v
-	culture = fremennik
+	religion = guthix
+	culture = moonclan
 	holding = tribal_holding
 }
 
 355 = { #Luanrmine
-	religion = v
-	culture = fremennik
+	religion = guthix
+	culture = moonclan
 	holding = none
 }
 
 356 = { #LunarAltar
-	religion = v
-	culture = fremennik
+	religion = guthix
+	culture = moonclan
 	holding = none
 }
 
