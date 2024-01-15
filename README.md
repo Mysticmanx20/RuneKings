@@ -15,7 +15,7 @@ RuneKings is a WIP total conversion mod for Crusader Kings III featuring iconic 
 
 ## Installation Instructions
 
-1. Click the link under the Releases section and download the .zip file.
+1. Click the Code button on the top right and download the .zip file.
 2. Download .tga files from [http://tinyurl.com/3n3etnx9](http://tinyurl.com/3n3etnx9) and [http://tinyurl.com/9cvu2s6h](http://tinyurl.com/9cvu2s6h)
 3. Go to the mod folder in your Crusader Kings III local directory.
   * Located at C:/Documents/Paradox Interactive/Crusader Kings III/mod
