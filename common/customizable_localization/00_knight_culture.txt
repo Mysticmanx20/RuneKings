@@ -17,16 +17,27 @@
 
 	text = {
 		trigger = {
-			culture = { has_cultural_pillar = language_frem }
+			OR = {
+				culture = { has_cultural_pillar = language_frem }
+				culture = { has_cultural_pillar = langauge_karamja }
+				culture = culture:ogre
+			}
 		}
-		localization_key = knight_champion
+		localization_key = knight_warrior
 	}
 
 	text = {
 		trigger = {
-			faith = faith:bandos
+			culture = culture:goblin
 		}
 		localization_key = knight_bandos
+	}
+
+	text = {
+		trigger = {
+			government_has_flag = government_is_tribal
+		}
+		localization_key = knight_champion
 	}
 
 	text = {

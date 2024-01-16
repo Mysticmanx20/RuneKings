@@ -2,103 +2,103 @@
 142 = { #WestDitch
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 143 = { #eastDitch
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 144 = { #DarkWar
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 145 = { #Ferox
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 146 = { #LoweastW
 	religion = zamorak
 	culture = ghost
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 147 = { #MiddleEastW
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 148 = { #UpperEastWild
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 149 = { #RuneFount
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 150 = { #HighWildy
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 151 = { #lavaIsle
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 152 = { #MiddleWild
 	religion = zamorak
 	culture = ghost
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 153 = { #GraveyardShadows
 	religion = zamorak
 	culture = ghost
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 154 = { #BanditWild
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 155 = { #WestRuins
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 156 = { #Cemetary
 	religion = zamorak
 	culture = ghost
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 157 = { #lavaMaze
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 158 = { #FrozenWaste
 	religion = zamorak
 	culture = wild
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 

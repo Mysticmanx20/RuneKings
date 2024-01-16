@@ -29,12 +29,22 @@
  knight_bandos_no_tooltip_lowercase:0 "soldier"
  knight_bandos_no_tooltip_lowercase_plural:0 "soldiers"
  knight_bandos_no_tooltip_lowercase_plural_possessive:0 "soldiers'"
- knight_bandos_no_tooltip_lowercase_adjective:0 "Bandosian"
+ knight_bandos_no_tooltip_lowercase_adjective:0 "soldier"
 
  knight_bandos:0 "[Concept( 'knight', '$knight_bandos_no_tooltip$' )|E]"
  knight_bandos_plural:0 "[Concept( 'knight', '$knight_bandos_no_tooltip_plural$' )|E]"
 
+ #Warrior
+ knight_warrior_no_tooltip:0 "Warrior"
+ knight_warrior_no_tooltip_plural:0 "Warriors"
 
+ knight_warrior_no_tooltip_lowercase:0 "warrior"
+ knight_warrior_no_tooltip_lowercase_plural:0 "warriors"
+ knight_warrior_no_tooltip_lowercase_plural_possessive:0 "warriors'"
+ knight_warrior_no_tooltip_lowercase_adjective:0 "warrior"
+
+ knight_warrior:0 "[Concept( 'knight', '$knight_warrior_no_tooltip$' )|E]"
+ knight_warrior_plural:0 "[Concept( 'knight', '$knight_warrior_no_tooltip_plural$' )|E]"
 
 
 
