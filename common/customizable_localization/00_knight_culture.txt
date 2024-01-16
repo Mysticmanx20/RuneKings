@@ -9,6 +9,27 @@
 	}
 
 	text = {
+		trigger = {
+			culture = culture:piratecul
+		}
+		localization_key = knight_pirate
+	}
+
+	text = {
+		trigger = {
+			culture = { has_cultural_pillar = language_frem }
+		}
+		localization_key = knight_champion
+	}
+
+	text = {
+		trigger = {
+			faith = faith:bandos
+		}
+		localization_key = knight_bandos
+	}
+
+	text = {
 		localization_key = knight_default
 		fallback = yes
 	}
