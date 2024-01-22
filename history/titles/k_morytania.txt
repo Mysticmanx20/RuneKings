@@ -109,11 +109,24 @@ b_darkmeyer = {
 	}
 }
 
-
-
-
 c_fenk = {
+	11277.1.1 = {
+		holder = mort002
+	}
+	11513.1.1 = {
+		holder = mort003
+	}
+	11559.1.1 = {
+		holder = mort004
+	}
+	11580.1.1 = {
+		holder = mort005
+	}
+
 	11600.1.1 = {
+		holder = mort001
+	}
+	11620.6.12 = {
 		holder = 900506
 		change_development_level = 2
 	}

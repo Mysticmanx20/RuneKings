@@ -13,6 +13,19 @@
 	}
 }
 
+rk_charos_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		always = yes
+	}
+
+	fallback = {
+		monthly_piety = 0.1
+	}
+}
+
 rk_kharidib_template = {
 	can_equip = {
 		always = yes
@@ -22,7 +35,7 @@ rk_kharidib_template = {
 		culture = culture:kharidian
 	}
 
-	fallback - {
+	fallback = {
 		monthly_piety = 0.1
 	}
 }

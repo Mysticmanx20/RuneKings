@@ -33,3 +33,9 @@ rk_ghostspeak = {
 	monthly_piety = 0.2
 	monthly_learning_lifestyle_xp_gain_mult = 0.10
 }
+
+rk_charos = {
+	monthly_prestige = 0.03
+	general_opinion = 10
+	diplomacy = 2
+}

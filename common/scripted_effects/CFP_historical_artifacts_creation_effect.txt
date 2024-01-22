@@ -209,6 +209,38 @@ create_artifact_rk_ghostspeak_effect = {
 	}
 }
 
+create_artifact_rk_charos_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = charos_name
+		description = charos_desc
+		template = rk_charos_template
+		type = miscellaneous
+		visuals = ring
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 11285.1.1 
+			recipient = character:mort002 #Rolobrae
+			location = province:76 #NorthCoast
+		}
+		modifier = rk_charos
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
+
 create_artifact_rk_kharidib_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }

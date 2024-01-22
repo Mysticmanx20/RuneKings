@@ -79,6 +79,14 @@
 	11585.1.1 = {
 		birth = yes
 	}
+	11620.6.6 = {
+        effect = {
+            add_secret={
+				type = secret_murder
+				target = character:mort001		#kills Rologarth
+			}
+        }
+    }
 }
 
 900507 = {
@@ -427,5 +435,80 @@ vamp010 = {
 	11597.1.1 = {
 		birth = yes
 		employer = 900500
+	}
+}
+
+mort001 = {
+	name = "Rologarth"
+	religion = saradomin
+	culture = morytania
+	father = mort005
+	trait = education_diplomacy_3
+	11585.1.1 = {
+		birth = yes
+	}
+	11620.6.6 = {
+		death = {
+			death_reason = death_murder
+			killer = 900506
+		}
+	}
+
+}
+
+mort002 = {
+	name = "Rolobrae"
+	female = yes
+	religion = saradomin
+	culture = morytania
+	trait = education_diplomacy_5
+	11253.1.1 = {
+		birth = yes
+	}
+	11313.1.1 = {
+		death = yes
+	}
+
+}
+
+mort003 = {
+	name = "Rologray"
+	culture = morytania
+	religion = saradomin
+	trait = education_martial_3
+	11488.1.1 = {
+		birth = yes
+	}
+	11559.1.1 = {
+		death = yes
+	}
+}
+
+
+mort004 = {
+	name = "Rolovanne"
+	culture = morytania
+	religion = saradomin
+	father = mort003
+	trait = education_stewardship_2
+	11511.1.1 = {
+		birth = yes
+	}
+	11580.1.1 = {
+		death = yes
+	}
+}
+
+mort005 = {
+	name = "Rolomere"
+	culture = morytania
+	religion = saradomin
+	father = mort004
+	trait = education_learning_4
+	11537.1.1 = {
+		birth = yes
+	}
+	11600.1.1 = {
+		death = yes
 	}
 }
