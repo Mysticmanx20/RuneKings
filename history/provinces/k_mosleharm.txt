@@ -51,3 +51,21 @@
 	religion = saradomin
 	holding = none
 }
+
+387 = {		#Brain Brewery
+	culture = piratecul
+	religion = saradomin
+	holding = tribal_holding
+}
+
+388 = {		#Brain Volcano
+	culture = piratecul
+	religion = saradomin
+	holding = tribal_holding
+}
+
+389 = {		#Harmony
+	culture = misthalin
+	religion = saradomin
+	holding = church_holding
+}

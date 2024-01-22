@@ -167,4 +167,25 @@ c_southtrouble = {
 	}
 }
 
+c_harmony = {
+	11620.1.1 = {
+		government = theocracy_government
+		change_development_level = 5
+	}
+}
+
+c_braindeath = {
+	11615.1.1 = {
+		holder = pirate010
+		change_development_level = 4
+	}
+}
+
+c_brainvolcano = {
+	11615.1.1 = {
+		holder = pirate010
+		change_development_level = 1
+	}
+}
+
 

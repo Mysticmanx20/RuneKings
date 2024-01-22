@@ -729,6 +729,14 @@ b_southtrouble:0 "Cutthroat Brewery"
 c_eastjungle:0 "East Jungle"
 b_eastjungle:0 "East Jungle"
 b_mosisles:0 "Tropical Isle"
+d_braindeath:0 "Braindeath Island"
+c_braindeath:0 "Braindeath Brewery"
+b_braindeath:0 "Braindeath Brewery"
+c_brainvolcano:0 "Braindeath Volcano"
+b_brainvolcano:0 "Braindeath Volcano"
+c_harmony:0 "Harmony Island"
+b_harmony:0 "Harmony Island"
+
 
 
 

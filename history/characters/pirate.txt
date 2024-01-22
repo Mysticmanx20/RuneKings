@@ -110,4 +110,27 @@ pirate009 = {
 	}
 }
 
+pirate010 = {
+	name = "Braindeath"
+	culture = piratecul
+	religion = saradomin
+	trait = education_stewardship_3
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
+pirate011 = {
+	name = "Pirate Pete"
+	culture = piratecul
+	religion = saradomin
+	trait = education_intrigue_3
+	11587.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = pirate010
+	}
+}
+
 
