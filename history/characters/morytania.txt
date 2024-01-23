@@ -512,3 +512,16 @@ mort005 = {
 		death = yes
 	}
 }
+
+mort006 = {
+	name = "Charos"
+	culture = morytania
+	religion = saradomin
+	trait = education_diplomacy_5
+	11250.1.1 = {
+		birth = yes
+	}
+	11320.1.1 = {
+		death = yes
+	}
+}
