@@ -196,7 +196,7 @@ c_braindeath = {
 
 c_brainvolcano = {
 	11615.1.1 = {
-		holder = pirate010
+		holder = pirate013
 		change_development_level = 1
 	}
 }
