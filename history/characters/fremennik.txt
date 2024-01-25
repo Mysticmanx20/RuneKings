@@ -261,7 +261,7 @@ frem020 = {
 frem021 = {
 	name = "James"
 	#Bentley
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_stewardship_2
 	11591.1.1 = {

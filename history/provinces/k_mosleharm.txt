@@ -1,66 +1,66 @@
 ﻿359 = {		#Mosleharm
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 360 = {		#Mosle Port
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = none
 }
 
 361 = {		#west jung
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 362 = {		#Mos swamp
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = none
 }
 
 363 = {		#Mos cave
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 364 = {		#south trouble
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 365 = {		#north trouble
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 366 = {		#east jung
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 367 = {		#Mosleharm
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = none
 }
 
 387 = {		#Brain Brewery
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 
 388 = {		#Brain Volcano
 	culture = piratecul
-	religion = saradomin
+	religion = godless
 	holding = tribal_holding
 }
 

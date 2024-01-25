@@ -142,6 +142,14 @@ l_english:
 	holy_site_varcircle_name:0 "Varrock Stone Circle"
 	holy_site_tears_name:0 "Tears of Guthix"
 
+###############################
+
+ godless:0 "The Godless"
+ godless_adj:0 "Godless"
+ godless_adherent:0 "member of the Godless"
+ godless_adherent_plural:0 "members of the Godless"
+ godless_desc:0 "The Godless is an organization of those who hold no strong ties to any particular god. Their main philosophy is that they do not want gods on Gielinor, and state their goals as a desire to defend Gielinor from the gods while protecting the innocent."
+
 ############################
 
  bandos_religion:0 "Bandosianism"

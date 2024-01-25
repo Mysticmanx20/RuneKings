@@ -24,9 +24,9 @@
 }
 
 159 = { #Brimhaven 	
-	religion = junglegods
-	culture = karamja
-	holding = castle_holding
+	religion = godless
+	culture = piratecul
+	holding = tribal_holding
 
 }
 

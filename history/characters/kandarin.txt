@@ -926,7 +926,7 @@ kand074 = {
 
 kand075 = {
 	name = "Tock"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_diplomacy_3
 	11591.1.1 = {
@@ -936,7 +936,7 @@ kand075 = {
 
 kand076 = {
 	name = "Colin"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	11608.1.1 = {
 		birth = yes
@@ -948,7 +948,7 @@ kand076 = {
 
 kand077 = {
 	name = "Arsen"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_intrigue_1
 	11593.1.1 = {
@@ -961,7 +961,7 @@ kand077 = {
 
 kand078 = {
 	name = "Francois"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_stewardship_1
 	11593.1.1 = {
@@ -974,7 +974,7 @@ kand078 = {
 
 kand079 = {
 	name = "Yusuf"
-	religion = menaphite
+	religion = godless
 	culture = piratecul
 	trait = education_stewardship_2 #steward
 	11593.1.1 = {
@@ -987,7 +987,7 @@ kand079 = {
 
 kand080 = {
 	name = "Ithoi"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_intrigue_2 #chancellor?
 	11593.1.1 = {
@@ -1000,7 +1000,7 @@ kand080 = {
 
 kand081 = {
 	name = "Gnocci"
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_learning_2 
 	11593.1.1 = {
@@ -1015,7 +1015,7 @@ kand081 = {
 kand082 = {
 	name = "Soleil"
 	female = yes
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	trait = education_stewardship_3
 	11590.1.1 = {
