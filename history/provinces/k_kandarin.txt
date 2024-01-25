@@ -399,7 +399,7 @@
 }
 
 289 = { #CorsairCove
-	religion = saradomin
+	religion = godless
 	culture = piratecul
 	holding = tribal_holding
 }
@@ -453,7 +453,7 @@
 }
 
 298 = { #Corsair Coast
-	religion = saradomin
+	religion = godless
 	culture = asgarnia
 	holding = none
 }
