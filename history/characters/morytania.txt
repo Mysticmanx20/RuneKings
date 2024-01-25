@@ -95,7 +95,7 @@
 	dynasty = 100906
 	female = yes
 	sexuality = bisexual
-	religion = guthix
+	religion = godless
 	culture = vampyre
 	trait = compassionate
 	trait = diligent
