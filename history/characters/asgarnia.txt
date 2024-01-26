@@ -1130,3 +1130,18 @@ asgarn016 = {
     }
 }
 
+asgarn017 = {
+    name = "Garlandia"
+    female = yes
+    religion = godless
+    culture = icyene
+    trait = education_diplomacy_3
+    trait = albino
+    11585.1.1 = {
+        birth = yes
+    }
+    11620.1.1 = {
+        employer = 900301
+    }
+}
+

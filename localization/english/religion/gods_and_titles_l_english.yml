@@ -150,6 +150,8 @@ l_english:
  godless_adherent_plural:0 "members of the Godless"
  godless_desc:0 "The Godless is an organization of those who hold no strong ties to any particular god. Their main philosophy is that they do not want gods on Gielinor, and state their goals as a desire to defend Gielinor from the gods while protecting the innocent."
 
+ GODLESS_SCRIPTURES_NAME:0 "Book of the Godless"
+
 ############################
 
  bandos_religion:0 "Bandosianism"

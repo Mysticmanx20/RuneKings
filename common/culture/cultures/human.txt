@@ -28,6 +28,35 @@ misthalin = {   #misthalian
 	}	
 }
 
+icyene = {   #icyene
+	color = { 1.0 1.0 0.94 }
+	created = 1.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_icyene
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_faith_bound
+		tradition_martial_admiration
+		tradition_warrior_monks
+	}
+	
+	name_list = name_list_icyene
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
 asgarnia = {  #asgarnian
 	color = { 0.94 0.94 0.94 }
 	
