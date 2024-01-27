@@ -217,3 +217,23 @@ ogre017 = {
 		birth = yes
 	}
 }
+
+ogre018 = {
+	name = "Tragh"
+	religion = bandos
+	culture = jogre
+	trait = education_martial_3
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+ogre019 = {
+	name = "Gar'dul"
+	religion = bandos
+	culture = jogre
+	trait = education_martial_2
+	11583.1.1 = {
+		birth = yes
+	}
+}

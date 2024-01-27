@@ -79,3 +79,45 @@
 	culture = karamja
 	holding = tribal_holding
 }
+
+390 = {   #Gandius
+	religion = bandos
+	culture = jogre
+	holding = none
+}
+
+391 = {   #Ah Za Rhoon
+	religion = bandos
+	culture = jogre
+	holding = tribal_holding
+}
+
+392 = {   #JogreJungle
+	religion = bandos
+	culture = jogre
+	holding = none
+}
+
+393 = {   #Jogres
+	religion = bandos
+	culture = jogre
+	holding = tribal_holding
+}
+
+394 = {   #Shaikikan
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+395 = {   #KarambwanCoast
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+396 = {   #ShipyardDocks
+	religion = guthix
+	culture = gnome
+	holding = none
+}

@@ -32,7 +32,7 @@ icyene = {   #icyene
 	color = { 1.0 1.0 0.94 }
 	created = 1.1.1
 	
-	ethos = ethos_courtly
+	ethos = ethos_bureaucratic
 	heritage = heritage_icyene
 	language = language_common
 	martial_custom = martial_custom_equal
@@ -423,6 +423,33 @@ mogre = {     # Mogre
 		tradition_maritime_mercantilism
 		tradition_fishermen
 		tradition_polders
+	}
+	
+	name_list = name_list_goblin
+
+	coa_gfx = { oghuz_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		100 = ogre_ethnicity
+	}
+}
+
+jogre = {     # Jogre
+	color = { 0.01 0.75 0.24 }
+	created = 11453.1.1
+	parents = { ogre }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bandos
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_warriors
+		tradition_staunch_traditionalists
+		tradition_quarrelsome
 	}
 	
 	name_list = name_list_goblin

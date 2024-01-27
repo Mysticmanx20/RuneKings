@@ -736,7 +736,16 @@ c_brainvolcano:0 "Braindeath Volcano"
 b_brainvolcano:0 "Braindeath Volcano"
 c_harmony:0 "Harmony Island"
 b_harmony:0 "Harmony Island"
-
+b_shipyard2:0 "Shipyard Docks"
+c_ahzaroon:0 "Ah Za Rhoon"
+b_ahzaroon:0 "Ah Za Rhoon"
+b_gandius:0 "Gandius"
+c_jogres:0 "Eastern Jungle"
+b_jogres:0 "Jogre Mound"
+b_jogrejun:0 "Eastern Jungle"
+c_karambwan:0 "Karambwan Coast"
+b_karambwan:0 "Karambwan Coast"
+b_shaikan:0 "Shaikahan"
 
 
 
