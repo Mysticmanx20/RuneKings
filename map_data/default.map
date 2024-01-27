@@ -33,6 +33,10 @@ river_provinces = LIST { 125 }  #Elid
 river_provinces = LIST { 193 }  #Fremennik
 river_provinces = LIST {263 }  #Elf
 
+river_provinces = LIST { 397 } #Karamja Rivers
+river_provinces = LIST { 398 } 
+
+
 
 ########
 # LAKES
@@ -40,6 +44,7 @@ river_provinces = LIST {263 }  #Elf
 lakes = LIST { 78 }  #Falador Castle Moat
 lakes = LIST { 174 }  #Lake Crstalmere
 lakes = LIST { 262 }  #Lake Baxtorian
+lakes = LIST { 399 }  #Raharni Lake
 
 #####################
 # IMPASSABLE TERRAIN

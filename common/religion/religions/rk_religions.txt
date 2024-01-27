@@ -621,22 +621,21 @@ karamja_religion = {    #Karamja Jungle Gods
 			JUNGLEGOD1
 		}
 		
-		DevilName = JUNGLEGODS
-		DevilNamePossessive = JUNGLEGODS
+		DevilName = EVILSPIRITS
+		DevilNamePossessive = EVILSPIRITS_POS
 		DevilSheHe = CHARACTER_SHEHE_THEY
 		DevilHerHis = CHARACTER_HERHIS_THEIR
 		DevilHerselfHimself = west_african_bori_devil_herselfhimself
 		EvilGodNames = {
-			JUNGLEGODS
-			
+			EVILSPIRITS
 		}
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorship2 = paganism_house_of_worship
 		HouseOfWorship3 = paganism_house_of_worship
 		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = ZAM_CREST_NAME
-		ReligiousSymbol2 = ZAM_CREST_NAME
-		ReligiousSymbol3 = ZAM_CREST_NAME
+		ReligiousSymbol = TRIBALTOTEM
+		ReligiousSymbol2 = TRIBALTOTEM
+		ReligiousSymbol3 = TRIBALTOTEM
 		ReligiousText = paganism_religious_text
 		ReligiousText2 = paganism_religious_text
 		ReligiousText3 = paganism_religious_text
@@ -674,11 +673,11 @@ karamja_religion = {    #Karamja Jungle Gods
 		DeathDeityNamePossessive = GUTHIX_DEATH2
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		WitchGodName = JUNGLEGODS
-		WitchGodNamePossessive = JUNGLEGODS
-		WitchGodHerHis = CHARACTER_HERHIS_HIS
-		WitchGodSheHe = CHARACTER_SHEHE_HE
-		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodName = EVILSPIRITS
+		WitchGodNamePossessive = EVILSPIRITS_POS
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
 		WitchGodMistressMaster = master
 		WitchGodMotherFather = father
 

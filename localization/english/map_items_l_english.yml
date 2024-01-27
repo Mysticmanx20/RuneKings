@@ -4,12 +4,15 @@
  lake_fal:0 "Castle Moat"
  lake_tav:0 "Lake Crystalmere"
  lake_bax:0 "Lake Baxtorian"
+ lake_raharni:0 "Raharni Lake"
  
  
  # MAJOR RIVERS
  river_lum:0 "River Lum"
  river_salve:0 "River Salve"
  river_elid:0 "River Elid"
+ river_kharazi:0 "Kharazi River"
+ river_shaika:0 "Shaika River"
  
  
  # SEA ZONES

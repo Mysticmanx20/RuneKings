@@ -46,7 +46,7 @@ c_shipyard = {
 c_taibwo = {
 	11615.1.1 = {
 		liege = 0
-		holder = karam006
+		holder = karam001
 		change_development_level = 6
 	}
 }

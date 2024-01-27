@@ -284,6 +284,11 @@ l_english:
  JUNGLEGOD1:0 "the spirits"
  JUNGLEGOD1_POS:0 "the spirits'"
 
+ EVILSPIRITS:0 "evil spirits"
+ EVILSPIRITS_POS:0 "evil spirits'"
+
+ TRIBALTOTEM:0 "tribal totem"
+
  
 
  junglegods_old:0 "Old Karamjan Gods"

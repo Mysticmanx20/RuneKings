@@ -69,6 +69,10 @@ karam006 = {
 	11570.1.1 = {
 		birth = yes
 	}
+	11615.1.1 = {
+		employer = karam001
+		give_council_position = councillor_court_chaplain
+	}
 }
 
 karam007 = {
