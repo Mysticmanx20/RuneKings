@@ -2597,6 +2597,20 @@ e_karamja = {
 					province = 259
 				}
 			}
+
+			c_kharazi = {
+				color = { 143 146 0}
+
+				b_kharazi = {
+					color = { 143 146 0}
+					province = 400
+				}
+
+				b_jungtemple = {
+					color = { 143 53 0 }
+					province = 401
+				}
+			}
 		}
 
 		d_shipyard = {

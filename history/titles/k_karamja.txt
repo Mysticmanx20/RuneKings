@@ -72,3 +72,10 @@ c_ahzaroon = {
 		change_development_level = 2
 	}
 }
+
+c_kharazi = {
+	11618.1.1 = {
+		holder = karam013
+		change_development_level = 4
+	}
+}

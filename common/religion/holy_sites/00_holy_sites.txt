@@ -146,3 +146,57 @@ senntisten = {
 		monthly_county_control_change_factor = 0.05
 	}
 }
+
+
+######### Karamjan Gods
+
+ahzarhoon = {
+	county = c_ahzaroon
+	barony = b_ahzaroon
+	
+	character_modifier = {
+		name = holy_site_ahzarhoon_effect_name
+		monthly_piety_gain_mult = 0.05
+		intrigue = 1
+	}
+}
+
+eviltemple = {
+	county = c_kharazi
+	barony = b_jungtemple
+	
+	character_modifier = {
+		name = holy_site_eviltemple_effect_name
+		dread_baseline_add = 5
+	}
+}
+
+raharni = {
+	county = c_taibwo
+
+	character_modifier = {
+		name = holy_site_dwarka_effect_name
+		martial = 1
+		hard_casualty_modifier = -0.1
+	}
+}
+
+shaika = {
+	county = c_karambwan
+	barony = b_shaikan
+
+	character_modifier = {
+		name = holy_site_dagon_effect_name
+		martial_per_piety_level = 1
+	}
+}
+
+kharazi = {
+	county = c_kharazi
+	barony = b_kharazi
+
+	character_modifier = {
+		name = holy_site_aksum_effect_name
+		diplomacy_per_piety_level = 1
+	}
+}

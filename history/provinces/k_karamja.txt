@@ -121,3 +121,15 @@
 	culture = gnome
 	holding = none
 }
+
+400 = { #Kharazi Jungle
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+401 = { #Kharazi Temple
+	religion = junglegods
+	culture = karamja
+	holding = none
+}

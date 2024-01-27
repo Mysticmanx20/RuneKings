@@ -16,6 +16,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 190;191;river_large;193;-1;-1;-1;-1;LighthouseBridge
 242;282;sea;2;-1;-1;-1;-1;OgreIsleBridge
 248;250;river_large;263;-1;-1;-1;-1;ElfBridge
-259;391;river_large;398;-1;-1;-1;-1;EastShiloGap
+400;391;river_large;398;-1;-1;-1;-1;EastShiloGap
 261;393;river_large;397;-1;-1;-1;-1;EastTaiBwoLog
 -1;-1;;-1;-1;-1;-1;-1;

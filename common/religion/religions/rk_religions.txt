@@ -693,6 +693,12 @@ karamja_religion = {    #Karamja Jungle Gods
 			color = { 0.678 1 0.451 }
 			icon = karamja
 
+			holy_site = ahzarhoon
+			holy_site = eviltemple
+			holy_site = raharni
+			holy_site = shaika
+			holy_site = kharazi
+
 			
 
 			doctrine = tenet_inner_journey

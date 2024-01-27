@@ -23,3 +23,18 @@ holy_site_senntisten_name:0 "Senntisten Temple"
 holy_site_ham_name:0 "H.A.M. Headquarters"
 holy_site_ham_effect_name:0 "From [holy_site|E] #weak ($holy_site_ham_name$)#!"
 holy_site_ham_effects:0 "County Conversion Speed: #P +20%#!"
+
+##################
+#KAramjan GOds
+
+holy_site_ahzarhoon_name:0 "Ah Za Rhoon Temple"
+holy_site_ahzarhoon_effect_name:0 "From [holy_site|E] #weak ($holy_site_ahzarhoon_name$)#!"
+
+holy_site_eviltemple_name:0 "Kharazi Temple"
+holy_site_eviltemple_effect_name:0 "From [holy_site|E] #weak ($holy_site_eviltemple_name$)#!"
+
+holy_site_raharni_name:0 "Raharni"
+
+holy_site_shaika_name:0 "Shaika"
+
+holy_site_kharazi_name:0 "Yommi"
