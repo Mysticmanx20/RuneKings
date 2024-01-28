@@ -268,17 +268,17 @@ l_english:
 
 #Karamjan Gods
 
- karamja_religion:0 "Karamjan"
- karamja_religion_adj:1 "Karamjan"
- karamja_religion_adherent:1 "Karamjan"
- karamja_religion_adherent_plural:1 "Karamjans"
+ karamja_religion:0 "Spiritual"
+ karamja_religion_adj:1 "Spiritual"
+ karamja_religion_adherent:1 "Spiritualist"
+ karamja_religion_adherent_plural:1 "Spiritualists"
  karamja_religion_desc:0 "The Karamjan gods are a pantheon of deities worshipped by the tribal people of Karamja. It consists of the three demigods; Kharazi, his wife Shaika and their daughter Raharni, who all ascended by being gifted the power of the god-beast Gara-Dul. The people of Karamja tell little of their gods to outsiders, making their origins and nature a closely guarded secret."
 
- junglegods:0 "Karamjan Gods"
- junglegods_adj:0 "Karamjan"
- junglegods_adherent:0 "Karamjans"
- junglegods_adherent_plural:0 "Karamjans"
- junglegods_desc:0 "The Karamjan gods are a pantheon of deities worshipped by the tribal people of Karamja. It consists of the three demigods; Kharazi, his wife Shaika, and their daughter Raharni, who all ascended by being gifted the power of the god-beast Gara-Dul. The people of Karamja tell little of their gods to outsiders, making their origins and nature a closely guarded secret."
+ junglegods:0 "Karamjan Spiritualism"
+ junglegods_adj:0 "Spiritualist"
+ junglegods_adherent:0 "Spiritualist"
+ junglegods_adherent_plural:0 "Spiritualists"
+ junglegods_desc:0 "Karamjan spiritualism is based around a group of deities worshipped by the tribal people of Karamja. It consists of the three demigods; Kharazi, his wife Shaika, and their daughter Raharni, who all ascended by being gifted the power of the god-beast Gara-Dul. The people of Karamja tell little of their gods to outsiders, making their origins and nature a closely guarded secret."
 
  JUNGLEGODS:0 "the gods"
  JUNGLEGOD1:0 "the spirits"
@@ -287,13 +287,13 @@ l_english:
  EVILSPIRITS:0 "evil spirits"
  EVILSPIRITS_POS:0 "evil spirits'"
 
- TRIBALTOTEM:0 "tribal totem"
+ TRIBALTOTEM:0 "sacred totem"
 
  
 
- junglegods_old:0 "Old Karamjan Gods"
- junglegods_old_adj:0 "Old Karamjan"
- junglegods_old_adherent:0 "Old Karamjans"
- junglegods_old_adherent_plural:0 "Old Karamjans"
+ junglegods_old:0 "Old Spiritualism"
+ junglegods_old_adj:0 "Old Spiritualist"
+ junglegods_old_adherent:0 "Old Spiritualist"
+ junglegods_old_adherent_plural:0 "Old Spiritualists"
 	
 

@@ -692,6 +692,7 @@ karamja_religion = {    #Karamja Jungle Gods
 		junglegods = {
 			color = { 0.678 1 0.451 }
 			icon = karamja
+			reformed_icon = karamja_reformed
 
 			holy_site = ahzarhoon
 			holy_site = eviltemple
@@ -706,12 +707,12 @@ karamja_religion = {    #Karamja Jungle Gods
 			doctrine = tenet_communal_identity
 
 			doctrine = doctrine_no_head
-			doctrine = doctrine_pluralism_pluralistic
-			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_gender_equal
 			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_pilgrimage_forbidden
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_bastardry_none
-			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			doctrine = doctrine_consanguinity_unrestricted
 			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_divorce_approval
 			doctrine = doctrine_adultery_men_shunned
@@ -719,8 +720,8 @@ karamja_religion = {    #Karamja Jungle Gods
 			doctrine = doctrine_deviancy_shunned
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_kinslaying_close_kin_crime
-			doctrine = doctrine_clerical_function_taxation
-			doctrine = doctrine_clerical_marriage_disallowed
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_marriage_allowed
 			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 			doctrine = doctrine_clerical_gender_either
 
