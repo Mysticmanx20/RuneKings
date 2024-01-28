@@ -58,6 +58,9 @@ karam005 = {
 	11591.1.1 = {
 		birth = yes
 	}
+	11620.1.1 = {
+		employer = karam001
+	}
 
 }
 
@@ -83,6 +86,9 @@ karam007 = {
 	11590.1.1 = {
 		birth = yes
 	}
+	11620.1.1 = {
+		employer = karam001
+	}
 }
 
 karam008 = {
@@ -92,6 +98,9 @@ karam008 = {
 	trait = education_diplomacy_2
 	11593.1.1 = {
 		birth = yes
+	}
+	11620.1.1 = {
+		employer = karam009
 	}
 }
 
@@ -113,6 +122,9 @@ karam010 = {
 	11594.1.1 = {
 		birth  = yes
 	}
+	11620.1.1 = {
+		employer = karam009
+	}
 }
 
 karam011 = {
@@ -123,6 +135,9 @@ karam011 = {
 	11592.1.1 = {
 		birth = yes
 	}
+	11620.1.1 = {
+		employer = karam009
+	}
 }
 
 karam012 = {
@@ -132,6 +147,9 @@ karam012 = {
 	trait = education_stewardship_2
 	11592.1.1 = {
 		birth = yes
+	}
+	11620.1.1 = {
+		employer = karam009
 	}
 }
 
@@ -154,5 +172,34 @@ karam014 = {
     11574.1.1 = {
         birth = yes
     }
+}
+
+karam015 = {
+	name = "Kangai"
+	culture = karamja
+	religion = junglegods
+	trait = education_diplomacy_2
+	11585.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = karam014
+	}
+}
+
+karam016 = {
+	name = "Ungadulu"
+	culture = karamja
+	religion = junglegods
+	trait = education_learning_3
+	trait = possessed_1
+	11579.1.1 = {
+		birth = yes
+	}
+	11618.1.1 = {
+		employer = karam013
+		give_council_position = councillor_court_chaplain
+	}
+
 }
 
