@@ -4,6 +4,7 @@ on_game_start = {
 
 	on_actions = {
 		vamps
+		vampyres
 		start_religion
 		wizards
 		whiteknights
@@ -187,6 +188,18 @@ vamps = {
 				NOT = { has_trait = cannibal }
 			}
 			add_trait = cannibal
+		}
+	}
+}
+
+vampyres = {
+	effect = {
+		every_living_character = {
+			limit = {
+				culture = culture:vampyre
+				NOT = { has_trait = vampire_character }
+			}
+			add_trait = vampire_character
 		}
 	}
 }
