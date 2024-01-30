@@ -214,6 +214,11 @@ zam_religion = {    #Zamorak
 		zamorak = {
 			color = { 0.8 0 0 }
 			icon = zamorak
+			holy_site = drakan
+			holy_site = zmi
+			holy_site = undercity
+			holy_site = chaos
+			holy_site = demon
 			
 
 			doctrine = tenet_pursuit_of_power
@@ -2051,6 +2056,7 @@ bandos_religion = {
 			holy_site = ogre
 			holy_site = gobtemple
 			holy_site = dorgshun
+			holy_site = warforge
 
 			#Tenet:
 			doctrine = tenet_struggle_submission

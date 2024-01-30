@@ -74,6 +74,12 @@ l_english:
 	ZAM_CREST_NAME:0 "Mark of Zamorak"
  	ZAM_ABYSS:0 "the Abyss"
 
+ holy_site_zmi_name:0 "Ourania Altar"
+ holy_site_undercity_name:0 "The Undercity"
+ holy_site_drakan_name:0 "Castle Drakan"
+ holy_site_chaos_name:0 "Chaos Altar"
+ holy_site_demon_name:0 "Demonic Ruins"
+
 #################################
 #Zaros
  zaros_religion:1 "Zaros"
@@ -212,6 +218,7 @@ SEREN_CREST_NAME:0 "symbol of Seren"
   holy_site_gobtemple_name:0 "Goblin Temple"
 	holy_site_dorgshun_name:0 "Dorgesh-Kaan"
 	holy_site_ogre_name:0 "Gu'Tanoth"
+	holy_site_warforge_name:0 "Warforge"
 
 
 ##################
