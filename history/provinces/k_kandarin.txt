@@ -276,31 +276,31 @@
 }
 
 246 = { #Poison
-	religion = guthix
-	culture = elf
-	holding = castle_holding
+	religion = guthix #zulrah
+	culture = gnome
+	holding = tribal_holding
 }
 
 247 = { #Tyras
-	religion = saradomin
+	religion = seren
 	culture = elf
 	holding = castle_holding
 }
 
 248 = { #Tiranwinn
-	religion = guthix
+	religion = seren
 	culture = elf
 	holding = castle_holding
 }
 
 249 = { #Lleyta
-	religion = guthix
+	religion = seren
 	culture = elf
 	holding = castle_holding
 }
 
 250 = { #Priffdinas
-	religion = guthix
+	religion = seren
 	culture = elf
 	holding = castle_holding
 	5500.1.1 = {
@@ -309,13 +309,13 @@
 }
 
 251 = { #Gwinth
-	religion = guthix
+	religion = seren
 	culture = elf
 	holding = castle_holding
 }
 
 252 = { #Arandar
-	religion = zamorak
+	religion = seren
 	culture = elf
 	holding = castle_holding
 }

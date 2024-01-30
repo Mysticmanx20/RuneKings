@@ -112,10 +112,10 @@ l_english:
   guthix_adherent:0 "Guthixian"
   guthix_adherent_plural:0 "Guthixians"
 
-	GUTHIX_NAME:0 "Guthix"
+  GUTHIX_NAME:0 "Guthix"
 	GUTHIX_POSSESSIVE:0 "Guthix's"
 	GUTHIX_NAME2:0 "the Lord of Balance"
-	GUTHIX_POSSESSIVE2:0 "the Lord of Balance's"
+	GUTHIX_POSSESSIVE2:0 "the Lord of Balance's"	
 
 	GUTHIX_HEAD:0 "High Druid"
 	GUTHIX_DEVOTEE:0 "Druid"
@@ -141,6 +141,32 @@ l_english:
 	holy_site_keldagrim_name:0 "Keldagrim"
 	holy_site_varcircle_name:0 "Varrock Stone Circle"
 	holy_site_tears_name:0 "Tears of Guthix"
+
+###############################
+
+#Seren
+ seren_religion:0 "Seren"
+ seren_religion_adj:0 "Serenist"
+ seren_religion_adherent:0 "Serenist"
+ seren_religion_adherent_plural:0 "Serenists"
+ seren_religion_desc:0 "Commonly defined by a reverence for nature, ancestor worship, and a belief in spirits, many elven faiths are considered to be various forms of Seren worship."
+
+seren:0 "Seren Worship"
+seren_adj:0 "Serenist"
+seren_adherent:0 "Serenist"
+seren_adherent_plural:0 "Serenists"
+
+  SEREN_NAME:0 "Seren"
+	SEREN_POSSESSIVE:0 "Seren's"
+	SEREN_NAME2:0 "the Queen of Harmony"
+	SEREN_POSSESSIVE2:0 "the Queen of Harmony's"	
+
+SEREN_TEXT:0 "Cerddi"
+SEREN_CHAPEL:0 "Chapel"
+SEREN_CHAPELS:0 "Chapels"
+SEREN_CREST_NAME:0 "symbol of Seren"
+
+ 
 
 ###############################
 

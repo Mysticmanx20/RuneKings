@@ -1,7 +1,7 @@
 ﻿
 elf001 = {
 	name = "Iorwerth"
-	religion = guthix
+	religion = seren
 	culture = elf
 	trait = deceitful
 	trait = zealous
@@ -16,7 +16,7 @@ elf001 = {
 elf002 = {
 	name = "Arianwyn"
 	#Cadarn
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = zealous
 	trait = fickle
@@ -31,7 +31,7 @@ elf002 = {
 elf003 = {
 	name = "Eluned"
 	female = yes
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = education_learning_2
 	11591.1.1 = {
@@ -42,7 +42,7 @@ elf003 = {
 elf004 = {
 	name = "Gwerin"
 	#Hapus
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = education_stewardship_2
 	11589.1.1 = {
@@ -54,7 +54,7 @@ elf005 = {
 	name = "Preswylwyr"
 	#Dall
 	female = yes
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = education_learning_2
 	11590.1.1 = {
@@ -69,7 +69,7 @@ elf006 = {
 	name = "Marwolaeth"
 	#Dawnsio
 	female = yes
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = education_learning_2
 	11587.1.1 = {
@@ -83,7 +83,7 @@ elf006 = {
 elf007 = {
 	name = "Gwenwynig"
 	female = yes
-	religion = guthix #seren
+	religion = seren #seren
 	culture = elf
 	trait = education_diplomacy_1
 	11590.1.1 = {
