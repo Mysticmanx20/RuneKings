@@ -170,7 +170,11 @@
  dynn_Teach:0 "Teach"
  dynn_Laf:0 "La'Fiette"
  dynn_Donblas:0 "Donblas"
-
+ dynn_Wizard:0 "Wizard"
+ dynn_Red:0 "the Red"
+ dynn_Blue:0 "the Blue"
+ dynn_Green:0 "the Green"
+ dynn_Gray:0 "the Gray"
 
 ###Dwarf
  dynn_Thunderpike:0 "Thunderpike"
