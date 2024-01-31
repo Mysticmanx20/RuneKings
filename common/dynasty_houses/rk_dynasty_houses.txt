@@ -32,3 +32,20 @@ house_shadum = {
 	dynasty = 100903
 }
 
+#Wizard Orders
+house_red = { 
+	name = "dynn_Red"
+	dynasty = 100946
+}
+house_blue = { 
+	name = "dynn_Blue"
+	dynasty = 100946
+}
+house_green = { 
+	name = "dynn_Green"
+	dynasty = 100946
+}
+house_gray = { 
+	name = "dynn_Gray"
+	dynasty = 100946
+}
