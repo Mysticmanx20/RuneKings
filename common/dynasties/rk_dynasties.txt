@@ -225,3 +225,8 @@
 	name = "dynn_Donblas"
 	culture = asgarnia
 }
+
+100946 = { 
+	name = "dynn_Wizard"
+	culture = misthalin
+}
