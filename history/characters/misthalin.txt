@@ -318,13 +318,14 @@
 
 900118 = {
 	name = "Sedridor"
+	house = house_blue
 	religion = saradomin
 	culture = misthalin
 	learning = 12
 	trait = just
-    trait = diligent
+        trait = diligent
 	trait = humble
-    trait = education_learning_3
+        trait = education_learning_3
 	disallow_random_traits = yes
 	11565.1.1 = {
 		birth = yes
@@ -2034,6 +2035,7 @@ misth005 = {
 
 misth006 = {
 	name = "Perien"
+	house = house_blue
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
@@ -2041,6 +2043,104 @@ misth006 = {
 		birth = yes
 	}
 	11556.1.1 = {
+		death = yes
+	}
+}
+
+misth007 = {
+	name = "Unaia"
+	house = house_blue
+	culture = misthalin
+	religion = saradomin
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth007 = {
+	name = "Zanmaron"
+	house = house_red
+	culture = misthalin
+	religion = zamorak
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth008 = {
+	name = "Kelavan"
+	house = house_red
+	culture = misthalin
+	religion = zamorak
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11556.1.1 = {
+		death = yes
+	}
+}
+
+misth009 = {
+	name = "Azris"
+	house = house_green
+	culture = misthalin
+	religion = guthix
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth010 = {
+	name = "Sland"
+	house = house_green
+	culture = misthalin
+	religion = guthix
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth011 = {
+	name = "Temrin"
+	house = house_gray
+	culture = kharidian
+	religion = menaph
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth011 = {
+	name = "Mei"
+	house = house_gray
+	culture = kandarin
+	religion = armadyl
+	trait = education_learning_4
+	11473.1.1 = {
+		birth = yes
+	}
+	11522.1.1 = {
 		death = yes
 	}
 }
