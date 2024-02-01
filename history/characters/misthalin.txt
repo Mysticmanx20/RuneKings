@@ -323,9 +323,9 @@
 	culture = misthalin
 	learning = 12
 	trait = just
-        trait = diligent
+    trait = diligent
 	trait = humble
-        trait = education_learning_3
+    trait = education_learning_3
 	disallow_random_traits = yes
 	11565.1.1 = {
 		birth = yes
