@@ -195,7 +195,8 @@ fremennik = {   #fremmenik
 
 oldfremennik = {   #old fremmenik (mountain tribe)
 	color = { 0.62 0.51 0.44 }
-	created = 1.1.1 
+	created = 11453.1.1
+	parents = { fremennik }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_human
@@ -226,7 +227,8 @@ oldfremennik = {   #old fremmenik (mountain tribe)
 
 moonclan = {   #Moon clan fremenniks
 	color = { 0.0 0.87 0.87 }
-	created = 1.1.1 
+	created = 9953.1.1
+	parents = { fremennik }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_human
@@ -236,6 +238,7 @@ moonclan = {   #Moon clan fremenniks
 		tradition_philosopher_culture
 		tradition_isolationist
 		tradition_fp1_northern_stories
+		tradition_female_only_inheritance
 	}
 	
 	
