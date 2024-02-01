@@ -318,7 +318,7 @@
 
 900118 = {
 	name = "Sedridor"
-	house = house_blue
+	dynasty_house = house_blue
 	religion = saradomin
 	culture = misthalin
 	learning = 12
@@ -2035,7 +2035,7 @@ misth005 = {
 
 misth006 = {
 	name = "Perien"
-	house = house_blue
+	dynasty_house = house_blue
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
@@ -2049,7 +2049,7 @@ misth006 = {
 
 misth007 = {
 	name = "Unaia"
-	house = house_blue
+	dynasty_house = house_blue
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
@@ -2063,7 +2063,7 @@ misth007 = {
 
 misth007 = {
 	name = "Zanmaron"
-	house = house_red
+	dynasty_house = house_red
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
@@ -2077,7 +2077,7 @@ misth007 = {
 
 misth008 = {
 	name = "Kelavan"
-	house = house_red
+	dynasty_house = house_red
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
@@ -2091,7 +2091,7 @@ misth008 = {
 
 misth009 = {
 	name = "Azris"
-	house = house_green
+	dynasty_house = house_green
 	culture = misthalin
 	religion = guthix
 	trait = education_learning_4
@@ -2105,7 +2105,7 @@ misth009 = {
 
 misth010 = {
 	name = "Sland"
-	house = house_green
+	dynasty_house = house_green
 	culture = misthalin
 	religion = guthix
 	trait = education_learning_4
@@ -2119,7 +2119,7 @@ misth010 = {
 
 misth011 = {
 	name = "Temrin"
-	house = house_gray
+	dynasty_house = house_gray
 	culture = kharidian
 	religion = menaph
 	trait = education_learning_4
@@ -2133,7 +2133,7 @@ misth011 = {
 
 misth011 = {
 	name = "Mei"
-	house = house_gray
+	dynasty_house = house_gray
 	culture = kandarin
 	religion = armadyl
 	trait = education_learning_4
