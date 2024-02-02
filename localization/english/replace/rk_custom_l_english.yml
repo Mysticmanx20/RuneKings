@@ -55,6 +55,9 @@
  holy_order_bandos2:0 "Bandosian Gladiators"
  holy_order_champsofj:0 "Champions of Justice"
  holy_order_guardians:0 "Guardians of Armadyl"
+ holy_order_monhun:0 "Monster Hunters"
+ holy_order_exterminate:0 "Holy Exterminators"
+ holy_order_purify:0 "H.A.M. Purifiers"
  
  mercenary_company_varrock_guard:0 "Varrock Guard"
  mercenary_company_varrock_guard_article:0 "the "
