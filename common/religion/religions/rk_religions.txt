@@ -1012,7 +1012,15 @@ sara_religion = {
 				{ name = "holy_order_exterminate"  }
 				{ name = "holy_order_purify" }
 				
-			
+			}
+
+			localization = {
+				DevoteeMale = hamfollower
+				DevoteeMalePlural = hamfollowers
+				DevoteeFemale = hamfollower
+				DevoteeFemalePlural = hamfollowers
+				DevoteeNeuter = hamfollower
+				DevoteeNeuterPlural = hamfollowers
 			}
 
 		}

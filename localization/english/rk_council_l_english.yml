@@ -20,6 +20,18 @@
  councillor_court_chaplain_karamja_religion_empire:0 "Grand Shaman"
  councillor_court_chaplain_karamja_religion_empire_possessive:0 "Grand Shaman's"
 
+#H.A.M. 
+ councillor_court_chaplain_ham_county:1 "Speaker"
+ councillor_court_chaplain_ham_county_possessive:1 "Speaker's"
+ councillor_court_chaplain_ham_duchy:1 "Deacon"
+ councillor_court_chaplain_ham_duchy_possessive:1 "Deacon's"
+ councillor_court_chaplain_ham_kingdom:1 "Archdeacon"
+ councillor_court_chaplain_ham_kingdom_possessive:1 "Archdeacon's"
+ councillor_court_chaplain_ham_empire:0 "Patriarch"
+ councillor_court_chaplain_ham_empire_female:0 "Matriarch"
+ councillor_court_chaplain_ham_empire_possessive:0 "Patriarch's"
+ councillor_court_chaplain_ham_empire_female_possessive:0 "Matriarch's"
+
 
  #Pirate Group
  councillor_court_chaplain_pirate:0 "Bard"

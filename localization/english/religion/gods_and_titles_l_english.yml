@@ -29,6 +29,11 @@ l_english:
  hamcult_adherent_plural:0 "H.A.M. members"
  hamcult_desc:0 "Humans Against Monsters, abbreviated as H.A.M., is a human-supremacist cult who believe that humans are the most pure of Gielinor's creatures, and aim to rid Gielinor of all races that they perceive as monsters, such as goblins and ogres. They pursue their objective by recruiting members and lobbying the human authorities of Gielinor to take action, believing large-scale slaughters are necessary."
 
+ hamfollower:0 "Saradominist"
+ hamfollowers:0 "Saradominsts"
+ 
+ 
+
 ###############################
 # Armadyl
 

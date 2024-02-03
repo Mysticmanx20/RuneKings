@@ -322,6 +322,27 @@ councillor_court_chaplain = {
 				desc = councillor_court_chaplain_karamja_religion_county
 			}
 
+			#H.A.M.
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire is_female = no faith.religion = faith:hamcult.religion }
+				desc = councillor_court_chaplain_ham_empire
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire is_female = yes faith.religion = faith:hamcult.religion }
+				desc = councillor_court_chaplain_ham_empire_female
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:hamcult.religion }
+				desc = councillor_court_chaplain_ham_kingdom
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith.religion = faith:hamcult.religion }
+				desc = councillor_court_chaplain_ham_duchy
+			}
+			triggered_desc = {
+				trigger = { scope:councillor_liege.highest_held_title_tier < tier_duchy faith.religion = faith:hamcult.religion }
+				desc = councillor_court_chaplain_ham_county
+			}
 
 
 			#vanilla
