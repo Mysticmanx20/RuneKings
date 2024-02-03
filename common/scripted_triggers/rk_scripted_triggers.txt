@@ -1,0 +1,8 @@
+has_no_animations_trigger = {
+	exists = this
+	OR = {
+		culture = culture:troll
+		culture = culture:icetroll
+	}
+		
+}

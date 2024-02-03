@@ -16,6 +16,14 @@
 				boy = male
 				girl = female
 			}
+
+			hgw_trollmarshal = {
+				index = 3
+				male = { 1 = hgw_trollmarshal }
+				female = { 1 = hgw_trollmarshal }
+				boy = male
+				girl = female
+			}
 			
 		}
 	}
