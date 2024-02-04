@@ -52,6 +52,20 @@
  sea_slepebay:0 "Slepe Bay"
  sea_slepecoast:0 "Slepe Coast"
  sea_braindeath:0 "Braindeath Sea"
+ sea_weiss:0 "Weiss Coast"
+ sea_iceburg:0 "Great Sea of Ice"
+ sea_icehunt:0 "East Lunar Sea"
+ sea_relcoast:0 "Relekka Coast"
+ sea_southmisc:0 "South Miscellania Sea"
+ sea_baxtorian:0 "Bay of Baxtorian"
+ sea_hemenster:0 "Hemenster Bay"
+ sea_dagganoth:0 "Dagganoth Sea"
+ sea_gnomecoast:0 "South Lunar Sea"
+ sea_eastjat:0 "Eastern Fremennik Sea"
+ sea_pisc:0 "Piscatoris Coast"
+ sea_westneit:0 "Western Fremennik Sea"
+ sea_northlunar:0 "North Lunar Sea"
+ sea_lunar:0 "Lunar Sea"
 
 
 #Major Seas
