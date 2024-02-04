@@ -16,7 +16,7 @@
             base = 0
             modifier = {
                 add = 10005
-		is_female = yes
+		        is_female = yes
                 culture = culture:ogre
             }
         }
