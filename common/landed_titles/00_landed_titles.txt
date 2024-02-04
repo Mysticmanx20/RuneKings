@@ -2701,6 +2701,15 @@ e_karamja = {
 					province = 394
 				}
 			}
+
+			c_tempoross = {
+				color = { 163 170 80 }
+
+				b_tempoross = {
+					color = { 163 170 80 }
+					province = 429
+				}
+			}
 		}
 
 		d_taibwo = {

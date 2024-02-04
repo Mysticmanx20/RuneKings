@@ -133,3 +133,9 @@
 	culture = karamja
 	holding = none
 }
+
+429 = { # Tempoross 
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}

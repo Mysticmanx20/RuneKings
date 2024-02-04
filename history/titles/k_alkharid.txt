@@ -109,7 +109,7 @@ c_polli = {
 }
 
 c_unkah = {
-	11620.1.1 = {
+	11617.1.1 = {
 		holder = 900824
 		liege = 0
 		government = feudal_government

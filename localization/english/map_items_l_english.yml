@@ -5,6 +5,8 @@
  lake_tav:0 "Lake Crystalmere"
  lake_bax:0 "Lake Baxtorian"
  lake_raharni:0 "Raharni Lake"
+
+ LAKE_PROVINCE_TOOLTIP:0 "#T[PROVINCE.GetName]#!\nLake#!"
  
  
  # MAJOR RIVERS
@@ -16,7 +18,7 @@
  
  
  # SEA ZONES
- sea_southsea:0 "Southern Sea"
+ sea_southsea:0 "Sarim Bay"
  sea_CatherbyBay:0 "Catherby Bay"
  sea_HolySea:0 "Holy Sea"
  sea_SeaLegend:0 "Coast of Legends"
@@ -66,6 +68,14 @@
  sea_westneit:0 "Western Fremennik Sea"
  sea_northlunar:0 "North Lunar Sea"
  sea_lunar:0 "Lunar Sea"
+ sea_southmissea:0 "South Misthalin Sea"
+ sea_seatutor:0 "Sea of Beginnings"
+ sea_seaspirits:0 "Sea of Spirits"
+ sea_unkahedge:0 "Unkah's Edge"
+ sea_mudskipsea:0 "Mudskipper Sea"
+ sea_eastkharazi:0 "East Kharazi Sea"
+ sea_briminlet:0 "Brimhaven Inlet"
+ sea_deepsouthsea:0 "Unquiet Ocean"
 
 
 #Major Seas
