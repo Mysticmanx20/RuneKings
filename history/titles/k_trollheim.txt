@@ -6,6 +6,13 @@ d_trollstrong = {
 	}
 }
 
+c_trollstrong = {
+	11615.1.1 = {
+		holder = troll004
+		change_development_level = 3
+	}
+}
+
 c_edgar = {
 	11618.1.1 = {
 		liege = 0
@@ -17,13 +24,12 @@ c_edgar = {
 c_trollheim = {
 	11615.1.1 = {
 		holder = troll004
-		change_development_level = 3
+		change_development_level = 2
 	}
 }
 
 b_trollmarket = {
 	11618.1.1 = {
-		liege = c_trollheim
 		holder = troll009
 	}
 }
