@@ -82,7 +82,7 @@ c_kharazi = {
 
 c_tempoross = {
 	11618.1.1 = {
-		holder = 900824
+		holder = karam017
 		change_development_level = 2
 	}
 }

@@ -135,7 +135,7 @@
 }
 
 429 = { # Tempoross 
-	religion = junglegods
-	culture = karamja
+	religion = godless
+	culture = waterspirit
 	holding = tribal_holding
 }

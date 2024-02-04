@@ -2,6 +2,10 @@
 	type = heritage
 }
 
+heritage_element = {
+	type = heritage
+}
+
 heritage_icyene = {
 	type = heritage
 }

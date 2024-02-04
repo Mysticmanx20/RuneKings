@@ -203,3 +203,12 @@ karam016 = {
 
 }
 
+karam017 = {
+	name = "Tempoross"
+	culture = waterspirit
+	religion = godless
+	trait = education_martial_3
+	11580.1.1 = {
+		birth = yes
+	}
+}
