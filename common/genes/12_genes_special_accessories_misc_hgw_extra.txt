@@ -24,6 +24,22 @@
 				boy = male
 				girl = female
 			}
+
+			hgw_prophet_icetroll = {
+				index = 4
+				male = { 1 = hgw_prophet_icetroll }
+				female = { 1 = hgw_prophet_icetroll }
+				boy = male
+				girl = female
+			}
+
+			hgw_prophet_icetrollfem = {
+				index = 5
+				male = { 1 = hgw_prophet_icetrollfem }
+				female = { 1 = hgw_prophet_icetrollfem }
+				boy = male
+				girl = female
+			}
 			
 		}
 	}

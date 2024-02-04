@@ -1,0 +1,17 @@
+﻿pdxmesh = {
+	name = "hgw_prophet_icetrollfem_mesh"
+	file = "hgw_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "icetrollfem.dds"
+		texture_specular = "icetrollfem.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hgwportrait.shader"
+	}
+}
+entity = {
+	name = "hgw_prophet_icetrollfem_entity"
+	pdxmesh = "hgw_prophet_icetrollfem_mesh"
+}

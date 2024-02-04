@@ -9,3 +9,11 @@ hgw_prophet_femtroll = {
 hgw_trollmarshal = {
 	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "hgw_trollmarshal_entity" }
 }
+
+hgw_prophet_icetrollfem = {
+	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "hgw_prophet_icetrollfem_entity" }
+}
+
+hgw_prophet_icetroll = {
+	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "hgw_prophet_icetroll_entity" }
+}
