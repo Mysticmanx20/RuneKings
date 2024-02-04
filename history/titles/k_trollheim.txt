@@ -10,7 +10,7 @@ c_edgar = {
 	11618.1.1 = {
 		liege = 0
 		holder = asgarn013
-		change_development_level = 3
+		change_development_level = 2
 	}
 }
 
@@ -22,7 +22,8 @@ c_trollheim = {
 }
 
 b_trollmarket = {
-	11615.1.1 = {
+	11618.1.1 = {
+		liege = c_trollheim
 		holder = troll009
 	}
 }
@@ -31,14 +32,14 @@ c_dad = {
 	11615.1.1 = {
 		liege = 0
 		holder = troll003
-		change_development_level = 3
+		change_development_level = 2
 	}
 }
 
 c_mountpass = {
 	11615.1.1 = {
 		holder = troll003
-		change_development_level = 3
+		change_development_level = 2
 	}
 }
 
@@ -47,6 +48,33 @@ c_weiss = {
 		liege = 0
 		holder = troll013
 		change_development_level = 4
+	}
+}
+
+c_icepath = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll016
+		change_development_level = 1
+	}
+	11620.1.1 = {
+		holder = troll015
+	}
+}
+
+c_trollwild = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll017
+		change_development_level = 1
+	}
+}
+
+c_gwd = {
+	11615.1.1 = {
+		liege = 0
+		holder = troll018
+		change_development_level = 1
 	}
 }
 

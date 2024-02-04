@@ -749,7 +749,12 @@ b_jogrejun:0 "Eastern Jungle"
 c_karambwan:0 "Karambwan Coast"
 b_karambwan:0 "Karambwan Coast"
 b_shaikan:0 "Shaikahan"
-
+b_icegate:0 "Ice Gate"
+b_iceboss:0 "Icy Valley"
+b_northgwd:0 "Trollweiss Tundra"
+b_polarbeacon:0 "East Trollweiss Overlook"
+c_trollwild:0 "East Trollheim"
+b_trollwild:0 "East Trollheim"
 
 
 

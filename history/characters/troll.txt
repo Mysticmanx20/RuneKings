@@ -186,4 +186,46 @@ troll014 = {
 	}
 }
 
+troll015 = {
+	name = "Kamil"
+	culture = asgarnia
+	religion = zamorak
+	trait = education_learning_4
+	trait = wrathful
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+troll016 = {
+	name = "Wolfbone"
+	culture = icetroll
+	religion = bandos
+	trait = education_learning_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+troll017 = {
+	name = "Egg"
+	female = yes
+	culture = troll
+	religion = bandos
+	trait = education_diplomacy_2
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+troll018 = {
+	name = "Nanuq"
+	culture = icetroll
+	religion = bandos
+	trait = education_learning_3
+	11583.1.1 = {
+		birth = yes
+	}
+}
+
 

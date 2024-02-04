@@ -123,3 +123,9 @@
 	religion = bandos
 	holding = tribal_holding
 }
+
+416 = { #Troll wild access
+	culture = troll
+	religion = bandos
+	holding = tribal_holding
+}

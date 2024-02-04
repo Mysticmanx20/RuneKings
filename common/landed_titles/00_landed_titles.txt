@@ -1307,6 +1307,15 @@ e_trollheim = {
 				}
 	
 			}
+
+			c_trollwild = {
+				color = { 119 63 53  }
+
+				b_trollwild = {
+					color = { 119 63 53}
+					province = 416
+				}
+			}
 	
 		}
 	
@@ -1418,6 +1427,16 @@ e_trollheim = {
 					color = { 158 161 233 }
 					province = 338
 				}
+
+				b_icegate = {
+					color = {158 197 233 }
+					province = 417
+				}
+
+				b_iceboss = {
+					color = { 105 143 177}
+					province = 418
+				}
 			}
 	
 			c_gwd = {
@@ -1426,6 +1445,16 @@ e_trollheim = {
 				b_gwd = {
 					color = { 158 126 233 }
 					province = 339
+				}
+
+				b_northgwd = {
+					color = { 146 177 175 }
+					province = 419
+				}
+
+				b_polarbeacon = {
+					color ={ 175 192 233}
+					province = 420
 				}
 			}
 	
