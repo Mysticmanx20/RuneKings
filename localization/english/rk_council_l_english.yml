@@ -1,14 +1,14 @@
 ﻿l_english:
 
 #Bandosian Chaplains
- councillor_court_chaplain_bandos_religion_county:0 "Court Shaman"
- councillor_court_chaplain_bandos_religion_county_possessive:0 "Court Shaman's"
+ councillor_court_chaplain_bandos_religion_county:0 "Shaman"
+ councillor_court_chaplain_bandos_religion_county_possessive:0 "Shaman's"
  councillor_court_chaplain_bandos_religion_duchy:0 "Shaman"
  councillor_court_chaplain_bandos_religion_duchy_possessive:0 "Shaman's"
  councillor_court_chaplain_bandos_religion_kingdom:0 "High Shaman"
  councillor_court_chaplain_bandos_religion_kingdom_possessive:0 "High Shaman's"
- councillor_court_chaplain_bandos_religion_empire:0 "Grand Shaman"
- councillor_court_chaplain_bandos_religion_empire_possessive:0 "Grand Shaman's"
+ councillor_court_chaplain_bandos_religion_empire:0 "Big High Shaman"
+ councillor_court_chaplain_bandos_religion_empire_possessive:0 "Big High Shaman's"
 
 #Karamjan Chaplains
  councillor_court_chaplain_karamja_religion_county:0 "Shaman"

@@ -6,7 +6,7 @@ misthalin = {   #misthalian
 	ethos = ethos_courtly
 	heritage = heritage_human
 	language = language_common
-	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_agrarian
 		tradition_culinary_art
@@ -63,7 +63,7 @@ asgarnia = {  #asgarnian
 	ethos = ethos_courtly
 	heritage = heritage_human
 	language = language_common
-	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_artisans
@@ -258,7 +258,7 @@ moonclan = {   #Moon clan fremenniks
 	ethos = ethos_spiritual
 	heritage = heritage_human
 	language = language_frem
-	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_female_only
 	traditions = {
 		tradition_philosopher_culture
 		tradition_isolationist
