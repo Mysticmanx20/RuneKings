@@ -741,7 +741,7 @@ karamja_religion = {    #Karamja Jungle Gods
 
 
 sara_religion = {
-	family = rf_abrahamic
+	family = ﻿rf_order
 
 	doctrine = sara_hostility_doctrine
 
@@ -2094,7 +2094,7 @@ bandos_religion = {
 }
 
 arm_religion = {    #Armadyl
-	family = rf_abrahamic
+	family = ﻿rf_order
 
 	doctrine = justice_hostility_doctrine
 
