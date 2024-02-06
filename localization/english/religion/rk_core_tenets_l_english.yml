@@ -1,0 +1,13 @@
+﻿l_english:
+ 
+ order_hostility_doctrine_name:0 "$rf_order$"
+ order_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_order').GetReligions]"
+ 
+ bandos_hostility_doctrine_name:0 "$bandos_religion_adj$"
+ bandos_hostility_doctrine_desc:0 ""
+ justice_hostility_doctrine_name:0 "$arm_religion_adj$"
+ justice_hostility_doctrine_desc:0 ""
+ zam_hostility_doctrine_name:0 "$zam_religion_adj$"
+ zam_hostility_doctrine_desc:0 ""
+ sara_hostility_doctrine_name:0 "$sara_religion_adj$"
+ sara_hostility_doctrine_desc:0 ""
