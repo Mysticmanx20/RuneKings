@@ -55,4 +55,30 @@
 			
 		}
 	}
+	bandos_hostility_doctrine = {
+		visible = no
+		parameters = {
+			hostility_same_religion = 2
+			hostility_same_family = 2
+			hostility_others = 2
+			
+			
+			#Bird vs Beast
+			hostility_override_justice_hostility_doctrine = 3
+			
+		}
+	}
+	justice_hostility_doctrine = {
+		visible = no
+		parameters = {
+			hostility_same_religion = 1
+			hostility_same_family = 1
+			hostility_others = 2
+			
+			
+			#Bird vs Beast
+			hostility_override_bandos_hostility_doctrine = 3
+			
+		}
+	}
 }
