@@ -1827,7 +1827,7 @@ bandos_religion = {
 	#STANDARD DOCTRINES:
 
 	#Abrahamic hostiliy group
-	doctrine = major_hostility_doctrine
+	doctrine = bandos_hostility_doctrine
 	#Polygamous marriages
 	doctrine = doctrine_polygamy
 	#Male dominated
@@ -2096,7 +2096,7 @@ bandos_religion = {
 arm_religion = {    #Armadyl
 	family = rf_abrahamic
 
-	doctrine = major_hostility_doctrine
+	doctrine = justice_hostility_doctrine
 
 
 	#Main Group
