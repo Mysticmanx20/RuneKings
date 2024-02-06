@@ -8,6 +8,8 @@ l_english:
  sara_religion_adherent_plural:1 "Saradominists"
  sara_religion_desc:0 "Saradomin is the god of order and wisdom and one of the three major gods in Gielinor, alongside Zamorak and Guthix. Little is known about his past, but he has a great many followers; there are far more churches dedicated to Saradomin than any other god."
 
+ rf_order:0 "Order"
+ 
  saradomin:0 "Church of Saradomin"
  saradomin_adj:0 "Saradominist"
  saradomin_adherent:0 "Saradominist"
