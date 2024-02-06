@@ -6,7 +6,6 @@
  lake_bax:0 "Lake Baxtorian"
  lake_raharni:0 "Raharni Lake"
 
- LAKE_PROVINCE_TOOLTIP:0 "#T[PROVINCE.GetName]#!\nLake#!"
  
  
  # MAJOR RIVERS
