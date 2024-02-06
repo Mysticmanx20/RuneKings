@@ -17,7 +17,11 @@
 
 	text = {
 		trigger = {
-			culture = { has_cultural_heritage = heritage_gnome }
+			OR = { 
+				culture = culture:gnome
+				culture = { has_same_culture_heritage = culture:gnome }
+			}
+			
 		}
 		localization_key = knight_champion
 	}
