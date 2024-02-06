@@ -5,4 +5,9 @@
   tranquil_garden_decision_tooltip:0 "Gather rare flora and construct the greatest of all gardens"
   tranquil_garden_decision_confirm:0 "Plant the Garden of Tranquillity"
 
+  bloodpact_decision:0 "Unleash the wrath of Dragith Nurn"
+  bloodpact_decision_desc:0 "Old tomes tell of a powerful necromancer who once studied the dark arts somewhere underneath the town of Lumbridge. If one can find a way to unlock the crypts full of undead, Lumbridge could potentially fall under Zamorakian control."
+  bloodpact_decision_tooltip:0 "Spill blood in the name of Zamorak to raise the undead army of Dragith Nurn"
+  bloodpact_decision_confirm:0 "Activate the Blood Pact"
+
 

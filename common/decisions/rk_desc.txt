@@ -72,3 +72,62 @@
 		base = 100
 	}
 }
+
+bloodpact_decision = {
+	picture = "gfx/interface/illustrations/event_scenes/garden.dds"
+	
+	desc = bloodpact_decision_desc
+	selection_tooltip = bloodpact_decision_tooltip
+	major = yes
+	sort_order = 1
+
+	ai_check_interval = 120
+
+	is_shown = {
+
+		# Put conditions for the decision to show up here.
+		title:d_lumbridge.holder = { has_faith = faith:saradomin }
+
+
+		is_ruler = yes
+		is_landed = yes
+		has_faith = faith:zamorak
+		OR = {
+			top_liege = { has_title = title:k_misthalin }
+			has_title = title:k_misthalin
+		}
+
+	}
+
+	is_valid_showing_failures_only = {
+        is_available_adult = yes
+        is_at_war = no
+		is_imprisoned = no
+	}
+
+	is_valid = {
+		learning >= 15
+	}
+
+	cost = {
+		gold = 150
+	}
+
+
+	effect = {
+
+		# Add effects of the decision here.
+		title:d_lumbridge.holder = { set_character_faith_with_conversion = faith:zamorak }
+		add_prestige = major_prestige_gain
+		
+
+	}
+
+	ai_check_interval = 0 # Change this value if you want the AI to consider this decision.
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
