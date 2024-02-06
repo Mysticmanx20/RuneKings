@@ -2,7 +2,7 @@
 zam_religion = {    #Zamorak
 	family = rf_abrahamic
 
-	doctrine = major_hostility_doctrine
+	doctrine = zam_hostility_doctrine
 
 
 	#Main Group
@@ -743,7 +743,7 @@ karamja_religion = {    #Karamja Jungle Gods
 sara_religion = {
 	family = rf_abrahamic
 
-	doctrine = eastern_hostility_doctrine
+	doctrine = sara_hostility_doctrine
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
 
