@@ -741,7 +741,7 @@ karamja_religion = {    #Karamja Jungle Gods
 
 
 sara_religion = {
-	family = ﻿rf_order
+	family = rf_order
 
 	doctrine = sara_hostility_doctrine
 
@@ -981,8 +981,6 @@ sara_religion = {
 			doctrine = tenet_armed_pilgrimages
 			doctrine = tenet_monasticism
 
-			doctrine = major_hostility_doctrine
-
 
 		}
 
@@ -1005,7 +1003,7 @@ sara_religion = {
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_rite
 
-			doctrine = major_hostility_doctrine
+			doctrine = ham_hostility_doctrine
 
 			holy_order_names = {
 				{ name = "holy_order_monhun"  }
@@ -1031,12 +1029,12 @@ sara_religion = {
 
 #Fremennik religion
 fremennik_religion = {
-	family = rf_pagan
+	family = rf_nongod
 	graphical_faith = pagan_gfx
 
 	pagan_roots = yes
 
-	doctrine = eastern_hostility_doctrine
+	doctrine = v_hostility_doctrine
 
 	#Main Group
 	doctrine = doctrine_no_head
@@ -1271,8 +1269,6 @@ fremennik_religion = {
 			doctrine = doctrine_clerical_function_taxation
 			doctrine = doctrine_clerical_gender_either
 
-			doctrine = eastern_hostility_doctrine
-			doctrine = special_doctrine_ecumenical_christian
 
 			doctrine = unreformed_faith_doctrine
 			
@@ -1283,7 +1279,7 @@ fremennik_religion = {
 
 #Guthix
 guthix_religion = {
-	family = rf_abrahamic
+	family = rf_nongod
 
 	doctrine = major_hostility_doctrine
 
@@ -2094,7 +2090,7 @@ bandos_religion = {
 }
 
 arm_religion = {    #Armadyl
-	family = ﻿rf_order
+	family = rf_order
 
 	doctrine = justice_hostility_doctrine
 

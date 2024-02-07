@@ -114,6 +114,8 @@ l_english:
 ###############################
  #Guthix
 
+ rf_nongod:0 "Non-Intervention"
+
  guthix_religion:0 "Guthixianism"
  guthix_religion_adj:0 "Guthixian"
  guthix_religion_adherent:0 "Guthixians"
