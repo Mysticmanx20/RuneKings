@@ -17,7 +17,14 @@
             modifier = {
                 add = 10005
 		        is_female = yes
-                culture = culture:ogre
+                OR = { 
+                    culture = culture:ogre
+                    culture = { 
+                        any_parent_culture = {
+                            this = culture:ogre
+                        }
+                    }
+                }
             }
         }
     }
@@ -49,7 +56,15 @@
             base = 0
             modifier = {
                 add = 10000
-                culture = culture:ogre
+                OR = { 
+                    culture = culture:ogre
+                    culture = { 
+                        any_parent_culture = {
+                            this = culture:ogre
+                        }
+                    }   
+                    
+                }
             }
         }
     }

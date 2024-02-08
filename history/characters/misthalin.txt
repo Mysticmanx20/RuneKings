@@ -2061,13 +2061,13 @@ misth007 = {
 	}
 }
 
-misth007 = {
+misth008 = {
 	name = "Zanmaron"
 	dynasty_house = house_red
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
-	11473.1.1 = {
+	11474.1.1 = {
 		birth = yes
 	}
 	11522.1.1 = {
@@ -2075,13 +2075,13 @@ misth007 = {
 	}
 }
 
-misth008 = {
+misth009 = {
 	name = "Kelavan"
 	dynasty_house = house_red
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
-	11473.1.1 = {
+	11476.1.1 = {
 		birth = yes
 	}
 	11556.1.1 = {
@@ -2089,7 +2089,7 @@ misth008 = {
 	}
 }
 
-misth009 = {
+misth010 = {
 	name = "Azris"
 	dynasty_house = house_green
 	culture = misthalin
@@ -2103,13 +2103,13 @@ misth009 = {
 	}
 }
 
-misth010 = {
+misth011 = {
 	name = "Sland"
 	dynasty_house = house_green
 	culture = misthalin
 	religion = guthix
 	trait = education_learning_4
-	11473.1.1 = {
+	11476.1.1 = {
 		birth = yes
 	}
 	11522.1.1 = {
@@ -2117,7 +2117,7 @@ misth010 = {
 	}
 }
 
-misth011 = {
+misth012 = {
 	name = "Temrin"
 	dynasty_house = house_gray
 	culture = kharidian
@@ -2131,16 +2131,35 @@ misth011 = {
 	}
 }
 
-misth011 = {
+misth013 = {
 	name = "Mei"
 	dynasty_house = house_gray
 	culture = kandarin
 	religion = armadyl
 	trait = education_learning_4
-	11473.1.1 = {
+	11476.1.1 = {
 		birth = yes
 	}
 	11522.1.1 = {
+		death = yes
+	}
+}
+
+misth014 = {
+	name = "Jack"
+	dynasty = 100946
+	religion = guthix
+	culture = kandarin
+	learning = 10
+	trait = just
+    trait = diligent
+	trait = humble
+    trait = education_learning_5
+	disallow_random_traits = yes
+	10.1.1 = {
+		birth = yes
+	}
+	62.1.1 = {
 		death = yes
 	}
 }
