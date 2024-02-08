@@ -1,6 +1,6 @@
 ﻿
 zam_religion = {    #Zamorak
-	family = rf_abrahamic
+	family = rf_chaos
 
 	doctrine = zam_hostility_doctrine
 
@@ -232,7 +232,7 @@ zam_religion = {    #Zamorak
 }
 
 zaros_religion = {    #Zaros 
-	family = rf_abrahamic
+	family = rf_transcendent
 
 	doctrine = major_hostility_doctrine
 
@@ -483,7 +483,7 @@ zaros_religion = {    #Zaros
 
 
 karamja_religion = {    #Karamja Jungle Gods
-	family = rf_abrahamic
+	family = rf_jungle
 
 	doctrine = abrahamic_hostility_doctrine
 
@@ -1576,9 +1576,9 @@ guthix_religion = {
 	}
 }
 
-#Guthix
+#Seren
 seren_religion = {
-	family = rf_abrahamic
+	family = rf_transcendent
 
 	doctrine = major_hostility_doctrine
 
@@ -2318,7 +2318,7 @@ arm_religion = {    #Armadyl
 
 #Desert Pantheon
 desert_religion = {
-	family = rf_pagan
+	family = rf_desert
 	
 	graphical_faith = "islamic_gfx"
 

@@ -60,6 +60,9 @@ l_english:
 
 ###############################
  # Zammy
+
+ rf_chaos:0 "Chaos"
+
  zam_religion:1 "Zamorak"
  zam_religion_adj:1 "Zamorakian"
  zam_religion_adherent:1 "Zamorakian"
@@ -89,6 +92,9 @@ l_english:
 
 #################################
 #Zaros
+
+ rf_transcendent:0 "Transcendent"
+
  zaros_religion:1 "Zaros"
  zaros_religion_adj:1 "Zarosian"
  zaros_religion_adherent:1 "Zarosian"
@@ -267,6 +273,8 @@ SEREN_CREST_NAME:0 "symbol of Seren"
 
 ######################################
 
+ rf_desert:0 "Desert"
+
  desert_religion:0 "Menaphite Pantheon"
  desert_religion_adj:1 "Menaphite"
  desert_religion_adherent:1 "Follower of the Menaphite Pantheon"
@@ -309,6 +317,8 @@ SEREN_CREST_NAME:0 "symbol of Seren"
 ##################################
 
 #Karamjan Gods
+
+ rf_jungle:0 "Jungle"
 
  karamja_religion:0 "Spiritual"
  karamja_religion_adj:1 "Spiritual"

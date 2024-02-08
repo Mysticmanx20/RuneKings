@@ -1,0 +1,5 @@
+rf_desert = {
+	graphical_faith = "islamic_gfx"
+	hostility_doctrine = desert_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_islam.dds
+}

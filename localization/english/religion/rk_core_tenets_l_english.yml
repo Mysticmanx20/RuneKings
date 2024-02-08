@@ -2,6 +2,16 @@
  
  order_hostility_doctrine_name:0 "$rf_order$"
  order_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_order').GetReligions]"
+ nongod_hostility_doctrine_name:0 "$rf_nongod$"
+ nongod_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_nongod').GetReligions]"
+ chaos_hostility_doctrine_name:0 "$rf_chaos$"
+ chaos_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_chaos').GetReligions]"
+ transcendent_hostility_doctrine_name:0 "$rf_transcendent$"
+ transcendent_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_transcendent').GetReligions]"
+ desert_hostility_doctrine_name:0 "$rf_desert$"
+ desert_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_desert').GetReligions]"
+ jungle_hostility_doctrine_name:0 "$rf_jungle$"
+ jungle_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_jungle').GetReligions]"
  
  bandos_hostility_doctrine_name:0 "$bandos_religion_adj$"
  bandos_hostility_doctrine_desc:0 ""
