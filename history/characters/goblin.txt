@@ -1,6 +1,7 @@
 ﻿
 gob001 = {
 	name = "Bighead"
+	dynasty = 100949
 	religion = bandos
 	culture = goblin
 	trait = zealous
@@ -12,6 +13,7 @@ gob001 = {
 
 gob002 = {
 	name = "Wormbrain"
+	dynasty = 100948
 	culture = goblin
 	religion = bandos
 	trait = wrathful
@@ -23,6 +25,7 @@ gob002 = {
 
 900302 = {
 	name = "Wartface"
+	dynasty = 100947
 	culture = goblin
     religion = bandos
 	trait = arbitrary
@@ -40,6 +43,7 @@ gob002 = {
 
 gob003 = {
 	name = "Hollowtoof"
+	dynasty = 100950
 	culture = goblin
 	religion = bandos
 	trait = wrathful
@@ -50,6 +54,7 @@ gob003 = {
 
 gob004 = {
 	name = "Slimepits"
+	dynasty = 100958
 	culture = goblin
 	religion = bandos
 	11596.1.1 = {
@@ -137,6 +142,7 @@ gob010 = {
 
 gob011 = {
 	name = "Mudfoot"
+	dynasty = 100951
 	culture = goblin
 	religion = bandos
 	11596.1.1 = {
@@ -155,8 +161,10 @@ gob012 = {
 
 gob013 = {
 	name = "Murknose"
+	dynasty = 100956
 	culture = goblin
 	religion = bandos
+	trait = wrathful
 	trait = education_learning_3
 	11595.1.1 = {
 		birth = yes
@@ -164,5 +172,19 @@ gob013 = {
 	11620.1.1 = {
 		employer = 900302
 		give_council_position = councillor_court_chaplain
+	}
+}
+
+gob014 = {
+	name = "Bentnose"
+	dynasty = 100948
+	culture = goblin
+	religion = bandos
+	trait = arbitrary
+	trait = wrathful
+	trait = fickle
+	trait = education_diplomacy_2
+	11585.1.1 = {
+		birth = yes
 	}
 }

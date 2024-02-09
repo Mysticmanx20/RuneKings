@@ -230,3 +230,63 @@
 	name = "dynn_Wizard"
 	culture = misthalin
 }
+
+100947 = {
+	name = "dynn_garagorshuun"
+	culture = goblin
+}
+
+100948 = {
+	name = "dynn_thorobshuun"
+	culture = goblin
+}
+
+100949 = {
+	name = "dynn_narogoshuun"
+	culture = goblin
+}
+
+100950 = {
+	name = "dynn_idithuun"
+	culture = goblin
+}
+
+100951 = {
+	name = "dynn_ekeleshuun"
+	culture = goblin
+}
+
+100952 = {
+	name = "dynn_rekeshuun"
+	culture = goblin
+}
+
+100953 = {
+	name = "dynn_dorgeshuun"
+	culture = goblin
+}
+
+100954 = {
+	name = "dynn_drogokishuun"
+	culture = goblin
+}
+
+100955 = {
+	name = "dynn_horogothgar"
+	culture = goblin
+}
+
+100956 = {
+	name = "dynn_huzamogaarb"
+	culture = goblin
+}
+
+100957 = {
+	name = "dynn_saragorgak"
+	culture = goblin
+}
+
+100958 = {
+	name = "dynn_yurkolgokh"
+	culture = goblin
+}
