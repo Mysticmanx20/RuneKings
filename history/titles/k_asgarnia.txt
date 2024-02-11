@@ -130,7 +130,16 @@ c_gobvil = {
 		liege = 0
 		holder = 900302
 		government = tribal_government
-		change_development_level = 5
+		change_development_level = 4
+	}
+}
+
+c_gobvilred = {
+	11620.1.1 = {
+		liege = 0
+		holder = gob014
+		government = tribal_government
+		change_development_level = 4
 	}
 }
 

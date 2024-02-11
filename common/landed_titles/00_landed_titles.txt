@@ -675,6 +675,16 @@ e_zaros = {
 				}
 			}
 
+			c_gobvilred = {
+				color = { 112 138 63 }
+				definite_form = yes
+
+				b_gobvilred = {
+					color = { 112 138 63 }
+					province = 430
+				}
+			}
+
 			c_chaostemple = {
 				color = { 184 19 32 }
 

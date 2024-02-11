@@ -430,3 +430,4 @@ default_coastal_sea=coastal_sea
 427=sea
 428=sea
 429=jungle
+430=hills
