@@ -296,3 +296,14 @@
 	culture = mogre
 	holding = tribal_holding
 }
+
+430 = {
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	11621.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
+}

@@ -232,61 +232,73 @@
 }
 
 100947 = {
-	name = "dynn_garagorshuun"
+	name = "dynn_garagorshuun"  #gobs of the sea GREEN
 	culture = goblin
+	motto = "dynn_garg_motto"
 }
 
 100948 = {
-	name = "dynn_thorobshuun"
+	name = "dynn_thorobshuun"  #gobs of the hills RED
 	culture = goblin
+	motto = "dynn_thoro_motto"
 }
 
 100949 = {
-	name = "dynn_narogoshuun"
+	name = "dynn_narogoshuun"  #gobs of the west ORANGE
 	culture = goblin
+	motto = "dynn_nar_motto"
 }
 
 100950 = {
-	name = "dynn_idithuun"
+	name = "dynn_idithuun"  #gobs of the south PINK
 	culture = goblin
+	motto = "dynn_idit_motto"
 }
 
 100951 = {
-	name = "dynn_ekeleshuun"
+	name = "dynn_ekeleshuun"  #gobs of the east BLUE
 	culture = goblin
+	motto = "dynn_ekel_motto"
 }
 
 100952 = {
-	name = "dynn_rekeshuun"
+	name = "dynn_rekeshuun"  #gobs of the north TURQUOISE
 	culture = goblin
+	motto = "dynn_reke_motto"
 }
 
 100953 = {
-	name = "dynn_dorgeshuun"
+	name = "dynn_dorgeshuun"  #gobs strong spears
 	culture = goblin
+	motto = "dynn_dorg_motto"
 }
 
 100954 = {
-	name = "dynn_drogokishuun"
+	name = "dynn_drogokishuun"  #gobs fierce blades BROWN
 	culture = goblin
+	motto = "dynn_drogo_motto"
 }
 
 100955 = {
-	name = "dynn_horogothgar"
+	name = "dynn_horogothgar"  #gobs cannibals PURPLE
 	culture = goblin
+	motto = "dynn_horo_motto"
 }
 
 100956 = {
-	name = "dynn_huzamogaarb"
+	name = "dynn_huzamogaarb"  #gobs zamorak cannibals BLACK
 	culture = goblin
+	motto = "dynn_huzam_motto"
 }
 
 100957 = {
-	name = "dynn_saragorgak"
+	name = "dynn_saragorgak"  #gobs holy saradomin WHITE
 	culture = goblin
+	motto = "dynn_sara_motto"
 }
 
 100958 = {
-	name = "dynn_yurkolgokh"
+	name = "dynn_yurkolgokh"  #gobs flatulent YELLOW
 	culture = goblin
+	motto = "dynn_yurk_motto"
 }

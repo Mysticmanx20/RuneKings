@@ -64,6 +64,7 @@ gob004 = {
 
 gob005 = {
 	name = "Creakyknees"
+	dynasty = 100950
 	religion = bandos
 	culture = goblin
 	trait = education_intrigue_1
@@ -74,6 +75,7 @@ gob005 = {
 
 gob006 = {
 	name = "Greasycheeks"
+	dynasty = 100949
 	religion = bandos
 	culture = goblin
 	trait = education_learning_1
@@ -87,6 +89,7 @@ gob006 = {
 
 gob007 = {
 	name = "Smellytoes"
+	dynasty = 100958
 	religion = bandos
 	culture = goblin
 	trait = drunkard
@@ -101,6 +104,7 @@ gob007 = {
 
 gob008 = {
 	name = "Clothears"
+	dynasty = 100954
 	religion = bandos
 	culture = goblin
 	trait = education_stewardship_1
@@ -114,6 +118,7 @@ gob008 = {
 
 gob009 = {
 	name = "Wagchin"
+	dynasty = 100951
 	female = yes
 	religion = bandos
 	culture = goblin
@@ -128,6 +133,7 @@ gob009 = {
 
 gob010 = {
 	name = "Naghead"
+	dynasty = 100955
 	female = yes
 	religion = bandos
 	culture = goblin
@@ -152,6 +158,7 @@ gob011 = {
 
 gob012 = {
 	name = "Danknuck"
+	dynasty = 100952
 	culture = goblin
 	religion = bandos
 	11596.1.1 = {
@@ -170,7 +177,7 @@ gob013 = {
 		birth = yes
 	}
 	11620.1.1 = {
-		employer = 900302
+		employer = gob014
 		give_council_position = councillor_court_chaplain
 	}
 }
@@ -186,5 +193,109 @@ gob014 = {
 	trait = education_diplomacy_2
 	11585.1.1 = {
 		birth = yes
+	}
+	11620.1.1 = {
+		set_relation_rival = { target = character:900302 reason = rival_historical }
+	}
+	
+}
+
+gob015 = {
+	name = "Slimetoes"
+	dynasty = 100947
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = arrogant
+	trait = brave
+	trait = education_martial_1
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900302
+		give_council_position = councillor_marshal
+	}
+}
+
+gob016 = {
+	name = "Mossfists"
+	dynasty = 100948
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = arrogant
+	trait = brave
+	trait = education_martial_1
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = gob014
+		give_council_position = councillor_marshal
+	}
+}
+
+gob017 = {
+	name = "Grubfoot"
+	dynasty = 100954
+	culture = goblin
+	religion = bandos
+	trait = compassionate
+	trait = humble
+	trait = eccentric
+	trait = education_learning_3
+	11597.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = gob014
+	}
+}
+
+gob018 = {
+	name = "Mudknuckles"
+	dynasty = 100951
+	culture = goblin
+	religion = bandos
+	trait = diligent
+	trait = impatient
+	trait = education_learning_1
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = gob014
+	}
+}
+
+gob019 = {
+	name = "Goutbones"
+	dynasty = 100955
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = education_learning_3
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900302
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+gob020 = {
+	name = "Greldo"
+	dynasty = 100947
+	culture = goblin
+	religion = bandos
+	trait = lisping
+	trait = education_intrigue_2
+	11595.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900302
 	}
 }
