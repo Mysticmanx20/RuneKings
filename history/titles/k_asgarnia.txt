@@ -128,16 +128,16 @@ c_blkfort = {
 c_gobvil = {
 	11620.1.1 = {
 		liege = 0
-		holder = 900302
+		holder = gob014
 		government = tribal_government
 		change_development_level = 4
 	}
 }
 
-c_gobvilred = {
+c_gobvilgreen = {
 	11620.1.1 = {
 		liege = 0
-		holder = gob014
+		holder = 900302
 		government = tribal_government
 		change_development_level = 4
 	}

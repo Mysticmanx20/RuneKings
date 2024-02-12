@@ -665,22 +665,22 @@ e_zaros = {
 			capital = c_gobvil
 
 			c_gobvil = {
-				color = { 47 165 63 }
+				color = { 112 138 63 }
 				definite_form = yes
 
 				b_gobvil = {
-					color = { 47 165 63 }
+					color = { 112 138 63 }
 					definite_form = yes
 					province = 29
 				}
 			}
 
-			c_gobvilred = {
-				color = { 112 138 63 }
+			c_gobvilgreen = {
+				color = {  47 165 63 }
 				definite_form = yes
 
-				b_gobvilred = {
-					color = { 112 138 63 }
+				b_gobvilgreen = {
+					color = { 47 165 63 }
 					province = 430
 				}
 			}
