@@ -759,8 +759,10 @@ c_trollwild:0 "East Trollheim"
 b_trollwild:0 "East Trollheim"
 c_tempoross:0 "Tempoross Cove"
 b_tempoross:0 "Tempoross Cove"
-
-
+d_greengob:0 "Garagorshuun"
+d_bluegob:0 "Ekeleshuun"
+d_pinkgob:0 "Idithuun"
+d_redgob:0 "Thorobshuun"
 
 
 

@@ -481,9 +481,36 @@ empire_clan_vamp = {
 	priority = 102
 	name_lists = { name_list_vampyre }
 }
-
-
-
+duchy_goblin = {
+	type = title
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_goblin }
+}
+duke_goblin = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_goblin }
+}
+king_goblin = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_goblin }
+}
+emperor_goblin = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_goblin }
+}
 
 
 

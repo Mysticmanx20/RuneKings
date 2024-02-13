@@ -7,6 +7,35 @@ e_vamp = {
 	can_be_named_after_dynasty = no
 }
 
+d_greengob = {
+	color = { 0 128 0}
+	capital = c_gobvilgreen
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+}
+
+d_redgob = {
+	color = { 220 20 60}
+	capital = c_gobvil
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+}
+
+d_bluegob = {
+	color = { 0 0 205}
+	capital = c_dighills
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+}
+
+d_pinkgob = {
+	color = { 255 20 147}
+	capital = c_observe
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+}
+
+
 d_kinshra = {
 	color={ 100 0 0 }
 	capital = c_tavdun

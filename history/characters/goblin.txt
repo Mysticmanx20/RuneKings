@@ -47,7 +47,7 @@ gob003 = {
 	culture = goblin
 	religion = bandos
 	trait = wrathful
-	11596.1.1 = {
+	11597.1.1 = {
 		birth = yes
 	}
 }
@@ -68,7 +68,7 @@ gob005 = {
 	religion = bandos
 	culture = goblin
 	trait = education_intrigue_1
-	11598.1.1 = {
+	11596.1.1 = {
 		birth = yes
 	}
 }
@@ -151,7 +151,7 @@ gob011 = {
 	dynasty = 100951
 	culture = goblin
 	religion = bandos
-	11596.1.1 = {
+	11595.1.1 = {
 		birth = yes
 	}
 }
@@ -261,7 +261,7 @@ gob018 = {
 	trait = diligent
 	trait = impatient
 	trait = education_learning_1
-	11595.1.1 = {
+	11596.1.1 = {
 		birth = yes
 	}
 	11620.1.1 = {

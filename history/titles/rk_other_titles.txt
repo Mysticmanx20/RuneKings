@@ -55,6 +55,30 @@ k_camelot = {
 	}
 }
 
+d_greengob = {
+	11599.1.1 = {
+		holder = 900302
+	}
+}
+
+d_redgob = {
+	11599.1.1 = {
+		holder = gob014
+	}
+}
+
+d_bluegob = {
+	11599.1.1 = {
+		holder = gob011
+	}
+}
+
+d_pinkgob = {
+	11599.1.1 = {
+		holder = gob005
+	}
+}
+
 k_dwarf = {
 	1620.1.1 = {
 		succession_laws = { dwarf_elective_succession_law }
