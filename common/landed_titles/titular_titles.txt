@@ -1,4 +1,7 @@
-﻿
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
 e_vamp = {
 	color = { 100 0 0}
 	capital = c_darkmeyer
@@ -12,6 +15,16 @@ d_greengob = {
 	capital = c_gobvilgreen
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100947
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 d_redgob = {
@@ -19,6 +32,16 @@ d_redgob = {
 	capital = c_gobvil
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100948
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 d_bluegob = {
@@ -26,6 +49,16 @@ d_bluegob = {
 	capital = c_dighills
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100951
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 d_pinkgob = {
@@ -33,6 +66,16 @@ d_pinkgob = {
 	capital = c_observe
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100950
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 

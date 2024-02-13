@@ -426,7 +426,7 @@ ogre = {     # Ogre
 		tradition_highland_warriors
 	}
 	
-	name_list = name_list_goblin
+	name_list = name_list_ogre
 
 	coa_gfx = { oghuz_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -453,7 +453,7 @@ mogre = {     # Mogre
 		tradition_polders
 	}
 	
-	name_list = name_list_goblin
+	name_list = name_list_ogre
 
 	coa_gfx = { oghuz_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -480,7 +480,7 @@ jogre = {     # Jogre
 		tradition_quarrelsome
 	}
 	
-	name_list = name_list_goblin
+	name_list = name_list_ogre
 
 	coa_gfx = { oghuz_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -506,7 +506,7 @@ troll = {     # Troll
 		tradition_mountaineers
 	}
 	
-	name_list = name_list_goblin
+	name_list = name_list_ogre
 
 	coa_gfx = { turkic_group_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -532,7 +532,7 @@ icetroll = {     # Troll
 		tradition_himalayan_settlers
 	}
 	
-	name_list = name_list_goblin
+	name_list = name_list_ogre
 
 	coa_gfx = { turkic_group_coa_gfx }
 	building_gfx = { steppe_building_gfx }
