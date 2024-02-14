@@ -8,7 +8,7 @@ goblin_village_scripted_effect = {
 	}
 	title:k_gobvil = {
 		change_title_holder = {
-			holder = scope:founder
+			holder = root
 			change = scope:title_change
 		}
 	}
