@@ -30,7 +30,7 @@ goblin_village_scripted_effect = {
 				}
 			}
 		}
-		title:c_gobvilgreen = { set_county_culture = scope:founder.culture }
+		title:c_gobvilgreen = { set_county_culture = scope:root.culture }
 	}
 	
 }
