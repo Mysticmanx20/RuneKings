@@ -10,6 +10,23 @@ e_vamp = {
 	can_be_named_after_dynasty = no
 }
 
+k_gobvil = {
+	color = { 0 128 0 }
+	capital = c_gobvilgreen
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:goblin
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
 d_greengob = {
 	color = { 0 128 0}
 	capital = c_gobvilgreen

@@ -131,3 +131,62 @@ bloodpact_decision = {
 		base = 100
 	}
 }
+
+
+goblin_village_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = goblin_village_decision_desc
+
+	is_shown = {
+		culture = culture:goblin
+
+		#Not repeatable.
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_goblin_village
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		is_independent_ruler = yes
+		
+		completely_controls = title:c_gobvil
+		has_title = title:c_gobvil
+		completely_controls = title:c_gobvilgreen
+		has_title = title:c_gobvilgreen
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 75
+		prestige = 300
+		piety = 100
+	}
+
+	effect = {
+		show_as_tooltip = { goblin_village_scripted_effect = yes }
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_goblin_village
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

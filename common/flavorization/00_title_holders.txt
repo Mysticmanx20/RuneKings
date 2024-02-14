@@ -487,14 +487,6 @@ duchy_goblin = {
 	priority = 27
 	name_lists = { name_list_goblin }
 }
-duke_goblin = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 27
-	name_lists = { name_list_goblin }
-}
 king_goblin = {
 	type = character
 	gender = male
@@ -511,6 +503,11 @@ emperor_goblin = {
 	priority = 102
 	name_lists = { name_list_goblin }
 }
+
+
+
+
+
 
 
 

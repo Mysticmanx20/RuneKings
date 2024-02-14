@@ -10,4 +10,9 @@
   bloodpact_decision_tooltip:0 "Spill blood in the name of Zamorak to raise the undead army of Dragith Nurn"
   bloodpact_decision_confirm:0 "Activate the Blood Pact"
 
+  goblin_village_decision:0 "Goblin Diplomacy"
+  goblin_village_decision_desc:0 "After countless squabbles amongst ourselves, it is time for goblins to establish a proper settlement."
+  goblin_village_decision_tooltip:0 "Create a secure homeland for goblins"
+  goblin_village_decision_confirm:0 "Secure Goblin Village"
+
 
