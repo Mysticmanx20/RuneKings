@@ -13,6 +13,7 @@ e_vamp = {
 k_gobvil = {
 	color = { 0 128 0 }
 	capital = c_gobvilgreen
+	definite_form = yes
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = no
 	ignore_titularity_for_title_weighting = yes

@@ -8,7 +8,7 @@ goblin_village_scripted_effect = {
 	}
 	title:k_gobvil = {
 		change_title_holder = {
-			holder = root
+			holder = scope:founder
 			change = scope:title_change
 		}
 	}
@@ -17,20 +17,27 @@ goblin_village_scripted_effect = {
 	# Make it your capital if it wasn't already.
 	if = {
 		limit = {
-			NOT = { capital_county = title:c_gobvilgreen }
+			NOR = { 
+				capital_county = title:c_gobvilgreen 
+				capital_county = title:c_gobvil
+			}
 		}
 		set_realm_capital = title:c_gobvilgreen
 	}
-	# And convert it to your culture if it wasn't some flavour of North Germanic.
+	# And convert it to your culture if it wasn't Goblin.
 	if = {
 		limit = {
-			NOT = {
+			NOR = {
 				title:c_gobvilgreen.culture = {
+					culture = culture:goblin
+				}
+				title:c_gobvil.culture = {
 					culture = culture:goblin
 				}
 			}
 		}
-		title:c_gobvilgreen = { set_county_culture = scope:root.culture }
+		title:c_gobvilgreen = { set_county_culture = scope:founder.culture }
+		title:c_gobvil = { set_county_culture = scope:founder.culture }
 	}
 	
 }
