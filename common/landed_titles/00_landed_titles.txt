@@ -83,6 +83,10 @@ e_zaros = {
 				}
 			}
 
+		d_southmis = { 
+			color = { 255 119 0 }
+			capital = c_southmis
+
 			c_southmis = {
 				color = { 255 119 0 }
 
@@ -101,6 +105,10 @@ e_zaros = {
 					province = 51
 				}
 			}
+
+		d_westmis = { 
+			color = { 219 87 32 }
+			capital = c_westmis
 
 			c_westmis = {
 				color = { 219 87 32 }
