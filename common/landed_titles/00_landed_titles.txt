@@ -95,10 +95,16 @@ e_zaros = {
 					province = 52
 				}
 
+			c_gower = {
+				color = { 174 139 109 }
+
 				b_varrockfarm = {
 					color = { 174 139 109 }
 					province = 50
 				}
+
+			c_darkcircle = {
+				color = { 63 30 2 }
 
 				b_darkcircle = {
 					color = { 63 30 2 }
