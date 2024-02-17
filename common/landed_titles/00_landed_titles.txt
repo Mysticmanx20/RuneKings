@@ -95,6 +95,7 @@ e_zaros = {
 					color = { 255 119 0 }
 					province = 52
 				}
+			}
 
 			c_gower = {
 				color = { 174 139 109 }
@@ -103,6 +104,7 @@ e_zaros = {
 					color = { 174 139 109 }
 					province = 50
 				}
+			}
 
 			c_darkcircle = {
 				color = { 63 30 2 }
