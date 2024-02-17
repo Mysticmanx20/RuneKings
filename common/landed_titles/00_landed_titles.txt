@@ -82,6 +82,7 @@ e_zaros = {
 					definite_form = yes
 				}
 			}
+		}
 
 		d_southmis = { 
 			color = { 255 119 0 }
