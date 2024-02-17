@@ -74,6 +74,14 @@ world_wilderness = {
 		d_forinthry
 	}
 }
+
+world_misthalin = {
+	duchies = {
+		d_edgeville d_varrock d_southmis d_westmis d_jollyb d_silv
+		d_digsite d_barbvil d_lumbridge d_lumford d_lumwood d_draynor
+		d_wizard d_tutor
+	}
+}
 world_europe_west_germania = {}
 world_europe_west_francia = {}
 world_europe_west_iberia = {}

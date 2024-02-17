@@ -74,7 +74,7 @@
 }
 
 bloodpact_decision = {
-	picture = "gfx/interface/illustrations/event_scenes/garden.dds"
+	picture = "gfx/interface/illustrations/event_scenes/raid_burning.dds"
 	
 	desc = bloodpact_decision_desc
 	selection_tooltip = bloodpact_decision_tooltip
@@ -86,16 +86,14 @@ bloodpact_decision = {
 	is_shown = {
 
 		# Put conditions for the decision to show up here.
-		title:d_lumbridge.holder = { has_faith = faith:saradomin }
+		title:d_lumbridge.holder = { NOT = { has_faith = faith:zamorak } }
 
 
 		is_ruler = yes
 		is_landed = yes
 		has_faith = faith:zamorak
-		OR = {
-			top_liege = { has_title = title:k_misthalin }
-			has_title = title:k_misthalin
-		}
+		capital_county.title_province = { geographical_region = world_misthalin }
+		
 
 	}
 
@@ -107,23 +105,38 @@ bloodpact_decision = {
 
 	is_valid = {
 		learning >= 15
+		custom_description = { 
+			text = has_blood_sacrifice 
+			any_prisoner = { NOT = { has_faith = faith:zamorak } }
+		}		
 	}
 
 	cost = {
 		gold = 150
 	}
 
-
 	effect = {
-
 		# Add effects of the decision here.
 		title:d_lumbridge.holder = { set_character_faith_with_conversion = faith:zamorak }
 		add_prestige = major_prestige_gain
+		if = {
+			limit = {
+				AND = {
+					has_prisoners = yes
+					any_prisoner = { NOT = { has_faith = faith:zamorak } }	
+				}
+			}
+			show_as_tooltip = {
+				execute_prisoner_effect = {
+					VICTIM = random_prisoner
+					EXECUTIONER = root
+				}
+			}
+		}
 		
 
 	}
 
-	ai_check_interval = 0 # Change this value if you want the AI to consider this decision.
 	ai_potential = {
 		always = yes
 	}
