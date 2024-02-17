@@ -86,9 +86,13 @@ b_grandex = {
 	}
 }
 
-b_varrockfarm = {
+c_gower = {
+	1.1.1 = {
+		liege = k_misthalin
+	}
 	11620.1.1 = {
-	holder = 900132
+		change_development_level = 10
+		holder = 900132
 	}
 }
 
@@ -135,8 +139,10 @@ b_cooks = {
 	}
 }
 
-b_darkcircle = {
+c_darkcircle = {
 	11620.1.1 = {
+		liege = 0
+		change_development_level = 8
 		holder = 900219
 	}
 }
@@ -147,6 +153,9 @@ c_southmis = {
 	}
 	11611.1.1 = {
 		change_development_level = 12
+	}
+	11618.1.1 = {
+		holder = misth015
 	}
 }
 

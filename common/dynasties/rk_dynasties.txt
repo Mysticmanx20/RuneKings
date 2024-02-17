@@ -302,3 +302,8 @@
 	culture = goblin
 	motto = "dynn_yurk_motto"
 }
+
+100959 = {
+	name = "dynn_dCour"
+	culture = misthalin
+}
