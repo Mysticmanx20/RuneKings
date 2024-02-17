@@ -111,6 +111,7 @@ e_zaros = {
 					province = 51
 				}
 			}
+		}
 
 		d_westmis = { 
 			color = { 219 87 32 }
