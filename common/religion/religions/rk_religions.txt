@@ -775,8 +775,8 @@ sara_religion = {
 
 
 	traits = {
-		virtues = { forgiving compassionate chaste }
-		sins = { vengeful sadistic lustful }
+		virtues = { forgiving compassionate just chaste }
+		sins = { vengeful sadistic arbitrary lustful }
 	}
 
 	reserved_male_names = {
