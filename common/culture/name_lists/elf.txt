@@ -224,11 +224,11 @@
 	female_names = {
 		Addiena Aelwyd Aeronwen Aeronwy Afrella Alys Angharad Annes Annest Annwyl Anowed Arddyn Arianrhod
 		Blodwen Bronwen Catrin Ceindrych Ceridwen Cerie Cerys Cicely Clarisant Creirwy Cristin Danhadlwen
-		Delyth Denis Dwynwen Dwywai Dyddgu Efa Effros Efrddyl Efyrddyl Eiliwedd Elaine Elen Eleri
-		Elinion Elinor Ellyn Enid Essyllt Euronwy Ffelis Ffion Fflur Ffraid Glynys Gwen Gwenasedd Gwenfrewi Gwenhwyfach
-		Gwenhwyfar Gwenllian Gwenwyn Gwerfyl Gwladys Haer Hawys Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel
+		Delyth Denis Dwynwen Dwywai Dyddgu Efa Effros Efrddyl Efyrddyl Eira Eiliwedd Elaine Elen Eleri
+		Elinion Elinor Ellyn Enid Enilly Essyllt Euronwy Ffelis Ffion Fflur Ffraid Glynys Gwen Gwenasedd Gwenfrewi Gwenhwyfach
+		Gwenhwyfar Guinevere Gwenllian Gwenwyn Gwerfyl Gwladys Haer Hawys Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel
 		Llear Llecci Lleigy Lleuca Lowry Mabyn Maches Madrun Maelrys Mair Mali Mallt Marared Marchell Margred
-		Marwenna Mawd Melisant Morganna Morien Myfanwy Nest Nesta Newlyna Non
+		Marwenna Mawd Melisant Morganna Morien Mithrellas Myfanwy Nia Nellas Nesta Newlyna Nimloth
 		Olwen Onbrawst Owena Prawst Ragnell Rhiaindrech Rhiainfelt Rhiannon Rhonwen Sannant Sara
 		Senena Sibyl Sioned Siwan SiA_n Susanna Tangwystl Tegla Ysbail Ystradwel
 	}
