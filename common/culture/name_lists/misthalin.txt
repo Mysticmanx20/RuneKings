@@ -237,13 +237,15 @@
 	}
 	
 	male_names = {
-		 Adam Alexander Alfons Anselm Abram Arrav Ames Aubury Baldwin Damar Khom Dathero Marv
+		5 = { Adam Alexander Alfons Anselm Abram Ames Aubury Baldwin Damar Khom Dathero Marv
 		 Bernard Bran Brian Bertran Benjamin Botolf Charles Christopher Claudius Daniel Everard Eustace Faramond Ferant Filbert
 		 Fulk Frank Geoffroy Gerald Gerard Gilbert Gryff Jeremy Tobias Jack
 		Guidor Guy Henry Herbert Herman Hubert Hugh Humbert Humphrey Hywell Jordan 
 		Lambert Nigel Norman Osmond Roald Randolf Randulf Raymond Rodney Ramone Laris
 		Richard Robert Roger Rolland Raminme Sam Seth Stuart Silvester Simon Stephan Trevick
-		Tarrlo Tristan Walton William 
+		Tarrlo Tristan Walton William }
+
+		1 = { Arrav }
 	}
 	female_names = {
 		Abigail Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Anne Aubrey Aster Avelina Berengaria
