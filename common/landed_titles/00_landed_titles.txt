@@ -2255,6 +2255,16 @@ e_kandarin = {
 					color = {76 98 35}
 					province = 249
 				}
+
+				b_southley = {
+					color = { 76 109 102 }
+					province = 440
+				}
+
+				b_northley = { 
+					color = { 76 109 75 }
+					province = 441
+				}
 			}
 
 			c_isafdar = {
@@ -2266,6 +2276,20 @@ e_kandarin = {
 				}
 			}
 
+			c_arandar = {
+				color ={101 35 16 }
+
+				b_arandar = {
+					color= {101 35 16 }
+					province = 252
+				}
+			}
+		}
+
+		d_tyras = {
+			color = { 172 103 49 }
+			capital = c_tyras
+
 			c_tyras = {
 				color= {217 103 49}
 				definite_form = yes
@@ -2274,7 +2298,26 @@ e_kandarin = {
 					color = {217 103 49}
 					province = 247
 				}
+
+				b_westisle = {
+					color = { 416 103 49 }
+					province = 439
+				}
 			}
+
+			c_catapult = {
+				color = { 172 103 49 }
+
+				b_catapult = {
+					color = { 172 103 49 }
+					province = 438
+				}
+			}
+		}
+
+		d_gwen = {
+			color = { 227 138 108 }
+			capital = c_gwen
 
 			c_gwen = {
 				color= {227 138 108}
@@ -2283,14 +2326,48 @@ e_kandarin = {
 					color = {227 138 108}
 					province = 251
 				}
+
+				b_gweneast = {
+					color = { 227 163 108}
+					province = 431
+				}
+
+				b_gwennor = {
+					color = { 211 163 108}
+					province = 432
+				}
 			}
 
-			c_arandar = {
-				color ={101 35 16 }
+			c_mynd = {
+				color = { 227 138 53 }
 
-				b_arandar = {
-					color= {101 35 16 }
-					province = 252
+				b_mynd = {
+					color = { 227 138 53 }
+					province = 436
+				}
+
+				b_mynbot = {
+					color = { 255 100 53}
+					province = 437
+				}
+			}
+
+			c_gorlah = {
+				color = { 182 146 108 }
+
+				b_gorlah = {
+					color = {182 146 108 }
+					province = 434
+				}
+
+				b_gorhunt = {
+					color = { 141 146 108}
+					province = 435
+				}
+
+				b_gorhill = {
+					color = { 141 146 108 }
+					province = 433
 				}
 			}
 		}

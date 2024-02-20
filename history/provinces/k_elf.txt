@@ -1,0 +1,111 @@
+﻿246 = { #Poison
+	religion = guthix #zulrah
+	culture = gnome
+	holding = tribal_holding
+}
+
+247 = { #Tyras
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+248 = { #Tiranwinn
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+249 = { #Lleyta
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+250 = { #Priffdinas
+	religion = seren
+	culture = elf
+	holding = castle_holding
+	5500.1.1 = {
+		special_building = generic_university
+	}
+}
+
+251 = { #Gwinth
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+252 = { #Arandar
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+439 = { #West Isle
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+438 = { #Catapult 
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+431 = { #Gwen East
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+432 = { #GwenNor 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+436 = { #Mynd
+	religion = seren
+	culture = elf
+	holding = tribal_holding
+}
+
+437 = { #Myndbot
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+434 = { #Gorlah
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+435 = { #Gor Hunt 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+433 = { #Gor Hill
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+440 = { #SouhtLey
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+441 = { #NorthLey
+	religion = seren
+	culture = elf
+	holding = none
+}
+

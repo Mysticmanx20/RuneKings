@@ -93,3 +93,13 @@ elf007 = {
 		employer = gnome002
 	}
 }
+
+elf008 = {
+	name = "Meddwl"
+	female = yes
+	religion = seren
+	culture = elf
+	11590.1.1 = {
+		birth = yes
+	}
+}

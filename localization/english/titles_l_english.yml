@@ -768,7 +768,22 @@ d_bluegob:0 "Ekeleshuun"
 d_pinkgob:0 "Idithuun"
 d_redgob:0 "Thorobshuun"
 k_gobvil:0 "Goblin Village"
-
+b_northley:0 "North Lletya"
+b_southley:0 "South Lleyta"
+d_tyras:0 "Gorllewin"
+b_westisle:0 "Gorllewin Isle"
+c_catapult:0 "West Isafdar"
+b_catapult:0 "Pwlt"
+d_gwen:0 "Gwenith"
+b_gweneast:0 "Gwenith Hills"
+b_gwennor:0 "Gwenith Coast"
+c_mynd:0 "Mynydd"
+b_mynd:0 "Mynydd"
+b_mynbot:0 "Lower Mynydd"
+c_gorlah:0 "Gorlah"
+b_gorlah:0 "Gorlah"
+b_gorhunt:0 "Gorlah Plain"
+b_gorhill:0 "Gorlah Hill"
 
 
 

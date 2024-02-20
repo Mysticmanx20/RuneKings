@@ -275,51 +275,6 @@
 	holding = castle_holding
 }
 
-246 = { #Poison
-	religion = guthix #zulrah
-	culture = gnome
-	holding = tribal_holding
-}
-
-247 = { #Tyras
-	religion = seren
-	culture = elf
-	holding = castle_holding
-}
-
-248 = { #Tiranwinn
-	religion = seren
-	culture = elf
-	holding = castle_holding
-}
-
-249 = { #Lleyta
-	religion = seren
-	culture = elf
-	holding = castle_holding
-}
-
-250 = { #Priffdinas
-	religion = seren
-	culture = elf
-	holding = castle_holding
-	5500.1.1 = {
-		special_building = generic_university
-	}
-}
-
-251 = { #Gwinth
-	religion = seren
-	culture = elf
-	holding = castle_holding
-}
-
-252 = { #Arandar
-	religion = seren
-	culture = elf
-	holding = castle_holding
-}
-
 253 = { #Eagles
 	religion = saradomin
 	culture = kandarin

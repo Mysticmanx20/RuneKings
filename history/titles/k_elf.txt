@@ -22,7 +22,23 @@ c_gwen = {
 		liege = 0
 		holder = elf004
 		government = clan_government
-		change_development_level = 7
+		change_development_level = 6
+	}
+}
+
+c_mynd = {
+	11620.1.1 = {
+		holder = elf004
+		change_development_level = 2
+	}
+}
+
+c_gorlah = {
+	11620.1.1 = {
+		liege = 0
+		holder = elf008
+		government = clan_government
+		change_development_level = 4
 	}
 }
 
@@ -31,14 +47,21 @@ c_poison = {
 		liege = 0
 		holder = gnome002
 		government = clan_government
-		change_development_level = 5
+		change_development_level = 2
 	}
 }
 
 c_tyras = {
 	11620.1.1 = {
 		holder = kand018
-		change_development_level = 7
+		change_development_level = 5
+	}
+}
+
+c_catapult = {
+	11620.1.1 = {
+		holder = kand018
+		change_development_level = 3
 	}
 }
 
