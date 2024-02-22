@@ -5610,12 +5610,12 @@ religion_interior = {
 	}
 
 	texture = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:sara_religion }
 		reference = "event_scenes/church.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:sara_religion }
 		reference = "environment_event_church"
 	}
 
