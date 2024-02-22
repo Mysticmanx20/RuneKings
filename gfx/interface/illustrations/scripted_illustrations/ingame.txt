@@ -5599,13 +5599,18 @@ religion_interior = {
 		reference = "event_scenes/fp3_temple.dds"
 	}
 
+	texture = { #Zammy
+		trigger = { religion = religion:zam_religion }
+		reference = "event_scenes/fp2_temple.dds"
+	}
+
 	texture = { # FP1
-		trigger = { religion = religion:germanic_religion }
+		trigger = { religion = religion:karamja_religion }
 		reference = "event_scenes/fp1_tribal_temple.dds"
 	}
 
 	environment = { # FP1
-		trigger = { religion = religion:germanic_religion }
+		trigger = { religion = religion:karamja_religion }
 		reference = "environment_event_fp1_tribal_temple"
 	}
 
@@ -5621,7 +5626,7 @@ religion_interior = {
 
 	texture = {
 		trigger = {
-			religion = religion:islam_religion
+			religion = religion:desert_religion
 		}
 
 		reference = "event_scenes/mosque.dds"
@@ -5632,7 +5637,7 @@ religion_interior = {
 		reference = "environment_event_mosque"
 
 		trigger = {
-			religion = religion:islam_religion
+			religion = religion:desert_religion
 		}
 	}
 
