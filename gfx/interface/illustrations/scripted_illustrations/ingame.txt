@@ -5604,9 +5604,14 @@ religion_interior = {
 		reference = "event_scenes/fp2_temple.dds"
 	}
 
+	texture = { #Guthix
+		trigger = { religion = religion:guthix_religion }
+		reference = "event_scenes/guthix_temple.dds"
+	}
+
 	texture = { # FP1
 		trigger = { religion = religion:karamja_religion }
-		reference = "event_scenes/fp1_tribal_temple.dds"
+		reference = "event_scenes/tribal_temple.dds"
 	}
 
 	environment = { # FP1
