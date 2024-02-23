@@ -49,3 +49,9 @@ house_gray = {
 	name = "dynn_Gray"
 	dynasty = 100946
 }
+
+house_firestaff = {
+	prefix = "dynnp_of"
+	name = "dynn_firestaff"
+	dynasty = 100946
+}

@@ -1458,10 +1458,12 @@
 
 900200 = {
     name = "Ellaron"
+	dynasty_house = house_firestaff
     culture = misthalin
-    religion = zamorak
+    religion = saradomin
     11588.1.1 = {
         birth = yes
+		make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:zamorak }
     }
 	11613.1.1 = {
 		employer = 900118
