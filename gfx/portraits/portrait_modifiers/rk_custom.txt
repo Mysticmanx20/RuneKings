@@ -192,6 +192,34 @@
         }
     }
 
+    wizard_robes = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+            accessory = {
+                mode = add
+                gene = clothes
+                template = rk_wizard_robes
+                range = { 0 1 }
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                exists = this
+                is_adult = yes
+                portrait_religious_catholic_trigger = yes
+                has_character_flag = wizard
+            }
+        }
+    }
+
     hgw_portrait_rin = {
         dna_modifiers = {
             morph = {
