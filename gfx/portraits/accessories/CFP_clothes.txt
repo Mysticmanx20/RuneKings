@@ -178,3 +178,14 @@ female_clothes_secular_java_cfp_common_01 = {
 	entity = { required_tags = ""		shared_pose_entity = torso		entity =
 	female_clothes_secular_java_cfp_common_01_entity }
 }
+
+#Runekings
+male_wizard_robes_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_wizard_robes_01_entity }
+}
+
+female_wizard_robes_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_wizard_robes_01_entity }
+}
