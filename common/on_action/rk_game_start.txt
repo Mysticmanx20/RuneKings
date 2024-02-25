@@ -273,6 +273,9 @@ wizards = {
 				}
 			}
 			every_courtier = {
+				limit = {
+					NOT = { has_council_position = councillor_court_chaplain }
+				}
 				give_nickname = nick_wizard
 				add_character_flag = {
 				flag = wizard
@@ -325,6 +328,7 @@ on_join_court = {
 		if = {
 			limit = {
 				is_adult = yes
+				NOT = { has_council_position = councillor_court_chaplain } 
 				scope:new_employer = {
 					NOT = {is_spouse_of = root }
 					OR = {
