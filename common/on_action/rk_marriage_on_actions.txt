@@ -1,0 +1,17 @@
+﻿
+on_marriage = {
+    effect = {
+
+		if = {
+			limit = {
+				OR = {
+					scope:spouse = { has_nickname = nick_wizard }
+					scope:spouse = { has_nickname = nick_sir }
+					scope:spouse = { has_nickname = nick_lady }
+				}
+				root = { is_landed = yes }
+			}
+			scope:spouse = { remove_nickname = yes }
+		}
+	}
+}

@@ -62,7 +62,7 @@ on_title_gain = {
 					has_nickname = nick_sir
 					has_nickname = nick_lady
 				}
-				highest_held_title_tier >= tier_county
+					
 			}
 			remove_nickname = yes
 		}

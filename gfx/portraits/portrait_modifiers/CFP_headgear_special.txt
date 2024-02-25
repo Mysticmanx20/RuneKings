@@ -367,6 +367,12 @@
 				template = cfp_fantasy_witches
 				range = { 0.35 0.40 }
 			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
+				range = { 0 1 }
+			}
 		}
 		weight = {
 			base = 0
@@ -379,6 +385,12 @@
 					has_character_flag = wizard
 					has_title = title:c_wizard
 					has_title = title:b_magetrain
+					primary_spouse = { 
+						OR = {
+							has_primary_title = title:c_wizard 
+							has_primary_title = title:d_wizard
+						}
+					}
 				}
 			}
 		}
@@ -390,6 +402,12 @@
 				mode = add
 				gene = headgear
 				template = rk_darkwiz
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
 				range = { 0 1 }
 			}
 		}
@@ -409,6 +427,12 @@
 				mode = add
 				gene = headgear
 				template = rk_witch
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
 				range = { 0 1 }
 			}
 		}

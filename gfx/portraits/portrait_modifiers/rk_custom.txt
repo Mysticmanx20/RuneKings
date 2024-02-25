@@ -215,7 +215,17 @@
                 exists = this
                 is_adult = yes
                 portrait_religious_catholic_trigger = yes
-                has_character_flag = wizard
+                OR = {
+					has_character_flag = wizard
+					has_title = title:c_wizard
+					has_title = title:b_magetrain
+					primary_spouse = { 
+						OR = {
+							has_primary_title = title:c_wizard 
+							has_primary_title = title:d_wizard
+						}
+					}
+				}
             }
         }
     }
