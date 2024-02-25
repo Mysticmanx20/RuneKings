@@ -12,8 +12,8 @@ birthday_wizard = {
 		if = {
 			limit = {
 				OR = {
-					employer.has_primary_title = c_wizard
-					employer.has_primary_title = d_wizard
+					root.employer = { has_primary_title = title:c_wizard }
+					root.employer = { has_primary_title = title:d_wizard }
 				}
 			}
 			give_nickname = nick_wizard
