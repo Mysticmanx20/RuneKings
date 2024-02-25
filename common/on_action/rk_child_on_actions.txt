@@ -1,0 +1,25 @@
+﻿
+on_birthday = {
+    on_actions = {
+		birthday_wizard
+	}
+}
+
+birthday_wizard = {
+	trigger = { age = 16 }
+
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					employer.has_primary_title = c_wizard
+					employer.has_primary_title = d_wizard
+				}
+			}
+			give_nickname = nick_wizard
+			add_character_flag = {
+				flag = wizard
+			}
+		}
+	}
+}
