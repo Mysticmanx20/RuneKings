@@ -204,7 +204,35 @@
                 mode = add
                 gene = clothes
                 template = rk_wizard_robes
-                range = { 0 1 }
+                value = 0.1
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                exists = this
+                is_adult = yes
+                portrait_religious_catholic_trigger = yes
+                has_character_flag = wizard
+            }
+        }
+    }
+
+    archmage_robes = {
+        dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+            accessory = {
+                mode = add
+                gene = clothes
+                template = rk_wizard_robes
+                value = 0.9
             }
         }
 
@@ -216,19 +244,20 @@
                 is_adult = yes
                 portrait_religious_catholic_trigger = yes
                 OR = {
-					has_character_flag = wizard
-					has_title = title:c_wizard
-					has_title = title:b_magetrain
-					primary_spouse = { 
-						OR = {
-							has_primary_title = title:c_wizard 
-							has_primary_title = title:d_wizard
-						}
-					}
-				}
+                    has_primary_title = title:c_wizard
+                    has_primary_title = title:d_wizard
+                    primary_spouse = { 
+                        OR = {
+                            has_primary_title = title:c_wizard 
+                            has_primary_title = title:d_wizard
+                        }
+                    }
+                }
             }
         }
     }
+
+
 
     hgw_portrait_rin = {
         dna_modifiers = {
