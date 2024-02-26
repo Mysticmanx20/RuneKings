@@ -947,7 +947,9 @@
 	culture = misthalin
 	religion = saradomin
 	trait = zealous
+	trait = just
 	trait = craven
+	trait = education_learning_2
 	11595.1.1 = {
 		birth = yes
 	}
@@ -964,6 +966,7 @@
 	female = yes
 	culture = misthalin
 	religion = saradomin
+	trait = generous
 	11596.1.1 = {
 		birth = yes
 	}

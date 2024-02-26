@@ -1,0 +1,22 @@
+﻿morph_genes = { 
+	
+	race_gene_skin_color = {
+		inheritable = yes
+		group = body
+
+        jogre_skin = {
+			index = 1
+			male = {
+				skin_hsv_shift_curve = {
+					curve = {
+						{ 0.0 	{ 0.2 0.1 0.0 } }
+						{ 1.0   { 0.23 0.1 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+}

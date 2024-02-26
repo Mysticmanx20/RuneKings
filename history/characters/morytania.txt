@@ -97,7 +97,7 @@
 	female = yes
 	sexuality = bisexual
 	religion = godless
-	culture = vampyre
+	culture = morytania
 	trait = compassionate
 	trait = diligent
 	trait = infertile
@@ -116,7 +116,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	11600.1.1 = {
+	11620.6.13 = {
 		employer = 900506
 	}
 	11620.1.1 = {

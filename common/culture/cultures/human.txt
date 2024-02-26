@@ -488,7 +488,7 @@ jogre = {     # Jogre
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		100 = ogre_ethnicity
+		100 = jogre_ethnicity
 	}
 }
 
