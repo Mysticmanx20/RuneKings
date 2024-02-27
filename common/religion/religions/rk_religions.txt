@@ -796,8 +796,8 @@ monkey_religion = {    #Karamja Jungle Gods
 		HighGodNameSheHe = west_african_bori_devil_shehe
 		HighGodHerHis = west_african_bori_devil_herhis
 		HighGodHerselfHimself = west_african_bori_devil_herselfhimself
-		HighGodNameAlternate = JUNGLEGOD1
-		HighGodNameAlternatePossessive = JUNGLEGOD1_POS
+		HighGodNameAlternate = MARIMBO_ALT
+		HighGodNameAlternatePossessive = MARIMBO_ALT_POS
 	
 		#Creator
 		CreatorName = MARIMBO
@@ -883,24 +883,24 @@ monkey_religion = {    #Karamja Jungle Gods
 			MARIMBO_ALT
 		}
 		
-		DevilName = EVILSPIRITS
-		DevilNamePossessive = EVILSPIRITS_POS
+		DevilName = MONKEY_EVIL
+		DevilNamePossessive = MONKEY_EVIL_POS
 		DevilSheHe = CHARACTER_SHEHE_THEY
 		DevilHerHis = CHARACTER_HERHIS_THEIR
 		DevilHerselfHimself = west_african_bori_devil_herselfhimself
 		EvilGodNames = {
-			EVILSPIRITS
+			MONKEY_EVIL
 		}
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorship2 = paganism_house_of_worship
 		HouseOfWorship3 = paganism_house_of_worship
 		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = TRIBALTOTEM
-		ReligiousSymbol2 = TRIBALTOTEM
-		ReligiousSymbol3 = TRIBALTOTEM
-		ReligiousText = paganism_religious_text
-		ReligiousText2 = paganism_religious_text
-		ReligiousText3 = paganism_religious_text
+		ReligiousSymbol = MONKEY_SYMBOL
+		ReligiousSymbol2 = MONKEY_SYMBOL
+		ReligiousSymbol3 = MONKEY_SYMBOL
+		ReligiousText = MARIMBO_BOOK
+		ReligiousText2 = MARIMBO_BOOK
+		ReligiousText3 = MARIMBO_BOOK
 		ReligiousHeadName = SARA_Head_Title
 		ReligiousHeadTitleName = christianity_religious_head_title_name
 		DevoteeMale = paganism_devotee
@@ -935,8 +935,8 @@ monkey_religion = {    #Karamja Jungle Gods
 		DeathDeityNamePossessive = GUTHIX_DEATH2
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		WitchGodName = EVILSPIRITS
-		WitchGodNamePossessive = EVILSPIRITS_POS
+		WitchGodName = MONKEY_EVIL
+		WitchGodNamePossessive = MONKEY_EVIL_POS
 		WitchGodHerHis = CHARACTER_HERHIS_THEIR
 		WitchGodSheHe = CHARACTER_SHEHE_THEY
 		WitchGodHerHim = CHARACTER_HERHIM_THEM
