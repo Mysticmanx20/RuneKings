@@ -371,5 +371,11 @@ SEREN_CREST_NAME:0 "symbol of Seren"
  MARIMBO_POS:0 "Marimbo's"
  MARIMBO_ALT:0 "Goddess of Pleasure"
  MARIMBO_ALT_POS:0 "Goddess of Pleasure's"
+
+ MONKEY_SYMBOL:0 "symbol of Marimbo"
+ MARIMBO_BOOK:0 "tales of Marimbo"
+
+ MONKEY_EVIL:0 "the warring gods"
+ MONKEY_EVIL_POS:0 "the warring gods'"
 	
 
