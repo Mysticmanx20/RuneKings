@@ -59,7 +59,7 @@
 258 = { #CrashIsle
 	religion = guthix
 	culture = gnome
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 259 = { #Shilo
