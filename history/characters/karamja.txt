@@ -212,3 +212,13 @@ karam017 = {
 		birth = yes
 	}
 }
+
+karam018 = {
+	name = "Awowogei"
+	culture = monkey
+	religion = marimbo
+	trait = education_diplomacy_2
+	11585.1.1 = {
+		birth = yes
+	}
+}

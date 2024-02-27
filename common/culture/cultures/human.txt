@@ -820,6 +820,35 @@ mahjarrat = {
 	}	
 }
 
+monkey = {   
+	color = { 0.87 0.94 0.34 }
+	created = 1.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_monkey
+	language = language_monkey
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_bush_hunting
+		tradition_staunch_traditionalists
+		tradition_isolationist
+		tradition_festivities
+	}
+	
+	name_list = name_list_mongol
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
 
 
 

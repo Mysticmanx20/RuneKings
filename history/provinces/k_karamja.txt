@@ -51,8 +51,8 @@
 }
 
 257 = { #Marimbo
-	religion = guthix
-	culture = asgarnia
+	religion = marimbo
+	culture = monkey
 	holding = tribal_holding
 }
 

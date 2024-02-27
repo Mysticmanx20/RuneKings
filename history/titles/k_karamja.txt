@@ -86,3 +86,10 @@ c_tempoross = {
 		change_development_level = 2
 	}
 }
+
+c_marim = {
+	11611.1.1 = {
+		holder = karam018
+		change_development_level = 3
+	}
+}

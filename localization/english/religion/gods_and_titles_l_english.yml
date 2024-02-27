@@ -347,5 +347,29 @@ SEREN_CREST_NAME:0 "symbol of Seren"
  junglegods_old_adj:0 "Old Spiritualist"
  junglegods_old_adherent:0 "Old Spiritualist"
  junglegods_old_adherent_plural:0 "Old Spiritualists"
+
+
+####################################################
+
+# Marimbo
+
+ rf_hedonist:0 "Hedonistic"
+
+ monkey_religion:0 "Monkey"
+ monkey_religion_adj:1 "Monkey"
+ monkey_religion_adherent:1 "Monkey"
+ monkey_religion_adherent_plural:1 "Monkeys"
+ monkey_religion_desc:0 "The monkeys of Gielinor follow the monkey goddess Marimbo."
+
+ marimbo:0 "Marimbo Worship"
+ marimbo_adj:0 "Marimban"
+ marimbo_adherent:0 "Marimban"
+ marimbo_adherent_plural:0 "Marimbans"
+ marimbo_desc:0 "Marimbo is the patron goddess of monkeys and hedonism. Though encouraging her followers to enjoy life and party hard, these teachings can just as easily inspire the opposite effect. Marimbo worship is mainly found on the remote island of Ape Atoll, and other places where monkeys and apes reside."
+
+ MARIMBO:0 "Marimbo"
+ MARIMBO_POS:0 "Marimbo's"
+ MARIMBO_ALT:0 "Goddess of Pleasure"
+ MARIMBO_ALT_POS:0 "Goddess of Pleasure's"
 	
 

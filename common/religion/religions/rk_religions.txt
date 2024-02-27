@@ -739,6 +739,257 @@ karamja_religion = {    #Karamja Jungle Gods
 }
 
 
+monkey_religion = {    #Karamja Jungle Gods
+	family = rf_hedonist
+
+	doctrine = abrahamic_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_extended_family_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_crime
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	traits = {
+		virtues = { gluttonous lustful arrogant }
+		sins = { temperate chaste humble }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_faithful_of_highgod" }
+		{ name = "holy_order_warriors_of_the_symbol" }
+	}
+
+	holy_order_maa = { horn_warrior }
+
+	localization = {
+		#HighGod
+		HighGodName = MARIMBO
+		HighGodNamePossessive = MARIMBO_POS
+		HighGodNameSheHe = west_african_bori_devil_shehe
+		HighGodHerHis = west_african_bori_devil_herhis
+		HighGodHerselfHimself = west_african_bori_devil_herselfhimself
+		HighGodNameAlternate = JUNGLEGOD1
+		HighGodNameAlternatePossessive = JUNGLEGOD1_POS
+	
+		#Creator
+		CreatorName = MARIMBO
+		CreatorNamePossessive = MARIMBO_POS
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+	
+		#HealthGod
+		HealthGodName = MARIMBO
+		HealthGodNamePossessive = MARIMBO_POS
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = MARIMBO
+		FertilityGodNamePossessive = MARIMBO_POS
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+	
+		#WealthGod
+		WealthGodName = MARIMBO
+		WealthGodNamePossessive = MARIMBO_POS
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
+	
+		#HouseholdGod
+		HouseholdGodName = MARIMBO
+		HouseholdGodNamePossessive = MARIMBO_POS
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+	
+		#FateGod
+		FateGodName = MARIMBO
+		FateGodNamePossessive = MARIMBO_POS
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+	
+		#KnowledgeGod
+		KnowledgeGodName = MARIMBO
+		KnowledgeGodNamePossessive = MARIMBO_POS
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+	
+		#WarGod
+		WarGodName = MARIMBO
+		WarGodNamePossessive = MARIMBO_POS
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+	
+		#TricksterGod
+		TricksterGodName = MARIMBO
+		TricksterGodNamePossessive = MARIMBO_POS
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+	
+		#NightGod
+		NightGodName = MARIMBO
+		NightGodNamePossessive = MARIMBO_POS
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+	
+		#WaterGod
+		WaterGodName = MARIMBO
+		WaterGodNamePossessive = MARIMBO_POS
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+	
+		PantheonTerm = MARIMBO
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			MARIMBO
+			MARIMBO_ALT
+		}
+		
+		DevilName = EVILSPIRITS
+		DevilNamePossessive = EVILSPIRITS_POS
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = west_african_bori_devil_herselfhimself
+		EvilGodNames = {
+			EVILSPIRITS
+		}
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorship2 = paganism_house_of_worship
+		HouseOfWorship3 = paganism_house_of_worship
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = TRIBALTOTEM
+		ReligiousSymbol2 = TRIBALTOTEM
+		ReligiousSymbol3 = TRIBALTOTEM
+		ReligiousText = paganism_religious_text
+		ReligiousText2 = paganism_religious_text
+		ReligiousText3 = paganism_religious_text
+		ReligiousHeadName = SARA_Head_Title
+		ReligiousHeadTitleName = christianity_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = paganism_priest
+		PriestMalePlural = paganism_priest_plural
+		PriestFemale = paganism_priest
+		PriestFemalePlural = paganism_priest_plural
+		PriestNeuter = paganism_priest
+		PriestNeuterPlural = paganism_priest_plural
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = christianity_bishop
+		BishopMalePlural = christianity_bishop_plural
+		BishopFemale = christianity_bishop
+		BishopFemalePlural = christianity_bishop_plural
+		BishopNeuter = christianity_bishop
+		BishopNeuterPlural = christianity_bishop_plural
+		DivineRealm = AFTERLIFE
+		DivineRealm2 = AFTERLIFE
+		DivineRealm3 = AFTERLIFE
+		PositiveAfterLife = AFTERLIFE
+		PositiveAfterLife2 = AFTERLIFE
+		PositiveAfterLife3 = AFTERLIFE
+		NegativeAfterLife = UNDERWORLD
+		NegativeAfterLife2 = UNDERWORLD
+		NegativeAfterLife3 = UNDERWORLD
+		DeathDeityName = GUTHIX_DEATH
+		DeathDeityNamePossessive = GUTHIX_DEATH2
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = EVILSPIRITS
+		WitchGodNamePossessive = EVILSPIRITS_POS
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+
+		}
+		
+
+	faiths = {           
+		marimbo = {
+			color = { 0.678 1 0.451 }
+			icon = marimbo
+			reformed_icon = marimbo_reformed
+
+			
+
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_hedonistic
+			doctrine = tenet_communal_identity
+
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_pilgrimage_forbidden
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_consanguinity_unrestricted
+			doctrine = doctrine_homosexuality_shunned
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_witchcraft_crime
+			doctrine = doctrine_kinslaying_close_kin_crime
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+			doctrine = doctrine_clerical_gender_either
+
+			doctrine = unreformed_faith_doctrine
+
+
+		}
+		
+	}
+}
+
+
 
 sara_religion = {
 	family = rf_order
