@@ -835,7 +835,7 @@ monkey = {
 		tradition_festivities
 	}
 	
-	name_list = name_list_mongol
+	name_list = name_list_monkey
 	
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

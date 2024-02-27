@@ -952,11 +952,14 @@ monkey_religion = {    #Karamja Jungle Gods
 
 	faiths = {           
 		marimbo = {
-			color = { 0.678 1 0.451 }
+			color = { 0.98 0.91 0.71 }
 			icon = marimbo
 			reformed_icon = marimbo_reformed
 
-			
+			holy_site = marim
+			holy_site = karamja
+			holy_site = brimhaven
+			holy_site = mosleharm
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_hedonistic
