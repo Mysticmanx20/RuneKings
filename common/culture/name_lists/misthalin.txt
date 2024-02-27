@@ -237,20 +237,20 @@
 	}
 	
 	male_names = {
-		 Adam Arrav Alexander Alfons Anselm Abram Ames Aubury Baldwin Damar Khom Dathero Marv
-		 Bernard Bran Brian Bertran Benjamin Botolf Charles Christopher Claudius Daniel Everard Eustace Faramond Ferant Filbert
-		 Fulk Frank Geoffroy Gerald Gerard Gilbert Gryff Jeremy Tobias Jack
-		Guidor Guy Henry Herbert Herman Hubert Hugh Humbert Humphrey Hywell Jordan 
-		Lambert Nigel Norman Osmond Roald Randolf Randulf Raymond Rodney Ramone Laris
-		Richard Robert Roger Rolland Raminme Sam Seth Stuart Silvester Simon Stephan Trevick
-		Tarrlo Tristan Walton William 
+		 Adam Aereck Arrav Alexander Alfons Anselm Abram Ames Avan Aubury Bob Baldwin Damar Khom Dathero Marv
+		 Baraek Bernard Bran Brana Brian Bertran Benjamin Botolf Caleb Charles Christopher Claudius Daniel Draul Dimintheis Everard Eustace Faramond Ferant Filbert
+		 Fulk Frank Geoffroy Gerald Gerard Gilbert Gryff Jeremy Jeffrey Tobias Toby Jack
+		Guidor Guy Hans Henry Herbert Herman Horvik Horacio Hubert Hugh Humbert Humphrey Hywell Jordan Jon Jonathan Johnathon James
+		Lambert Lowe Milo Miles Nigel Norman Osmond Roald Randolf Randulf Raymond Reldo Rodney Romeo Ramone Laris Phileas
+		Richard Robert Roger Rolland Raminme Sam Seth Stuart Straven Silvester Simon Stephan Sigmund Trevick Treznor Tolna
+		Tarrlo Tristan Walton William Wilfred
 	}
 	female_names = {
-		Abigail Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Anne Aubrey Aster Avelina Berengaria
-		Busilla Clarimond Clemenza Constance Egelina Eleanor Elise Elsie Elysande Ethel Emma Emonie Edwina
-		Felicia Flandina Fredesende Fressenda Fressende Geva Giselle Gohilde Griselda Gundred Hadwis Helewisa Heria Herleve Hermessent Hermine Hugolina
-		Ida  Judit Katrine Lesceline Launa Mabel Marie Martina Matilda Maud Mautild Maysant Millicent Muriella Oriel Richenda
-		Rosalind Selova Stephanie Shauna Trista Thessalia Umfreda Valdrade Wilmot Yolanda Yvon Xenia Jacquelyn
+		Abigail Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Anne Aubrey Aster Avelina Berengaria Barbara
+		Busilla Clarimond Clemenza Constance Donella Egelina Eleanor Elise Eliza Elsie Elysande Ethel Emma Emonie Edwina
+		Felicia Flandina Fredesende Fressenda Fressende Geva Gertrude Giselle Gohilde Griselda Gundred Hadwis Helewisa Heria Herleve Hermessent Hermine Hugolina
+		Ida Iffie Judith Juliet Julia Katrine Lesceline Launa Mabel Marie Martina Matilda Maud Mautild Maysant Meredith Millicent Muriella Oriel Phillipa Richenda
+		Rosalind Selova Stephanie Sarah Shauna Susannah Trista Thessalia Umfreda Valdrade Wilmot Yolanda Yvonne Xenia Jacquelyn
 	}
 	dynasty_of_location_prefix = ""
 	
