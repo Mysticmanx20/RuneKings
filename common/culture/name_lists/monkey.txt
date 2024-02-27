@@ -76,13 +76,13 @@
 	}
 
 	male_names = {
-		Aberab Awowogei Bobawu Bonzara Daga Dendadu Duke Dugopul Hafuba Ifaba
-		Jumaane Kruk Lofu Loris Muruwoi Oipuis Oobapohk Ouhai
+		Aberab Awowogei Bobawu Bonzara Daga Dealga Dendadu Duke Dugopul Hafuba Ifaba Iwazaru
+		Jumaane Kruk Kikazaru Lofu Mizaru Muruwoi Mojo Oipuis Oobapohk Ouhai
 		Padulah Solihib Trefaji Tutab Unuki Uodai Uwogo Uyoro
 	}
 	female_names = {
-		Aigiarn Al-Alta Alan Alan_Gua Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Conchaka Dokez Doregene Doquz Ebegei Goland Gurbesu Hogelun Holuikhan Ibakha
-		Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulan Khutulun Kokachin Mandukhai Mongoljin Nomolun Oghul Orbei Orqina Sokhatai Sorkhaghatani Tekine Temulun TO_regene Yesugun Yesui Hoelun
+		Aigiarn Al-Alta Alan Alan_Gua Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Conchaka Dokez Doregene Doquz Ebegei Emilee Goland Gurbesu Hamab Hogelun Holuikhan Ibakha
+		Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulan Khutulun Kokachin Loris Mandukhai Mongoljin Nomolun Oghul Orbei Orqina Sokhatai Sorkhaghatani Tekine Temulun TO_regene Yesugun Yesui Hoelun
 	}
 	
 	dynasty_of_location_prefix = "dynnp_of"
