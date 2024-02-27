@@ -378,4 +378,7 @@ SEREN_CREST_NAME:0 "symbol of Seren"
  MONKEY_EVIL:0 "the warring gods"
  MONKEY_EVIL_POS:0 "the warring gods'"
 	
-
+holy_site_marim_name:0 "Temple of Marimbo"
+holy_site_karamja_name:0 "Karamja Jungle"
+holy_site_brimhaven_name:0 "Northern Jungle"
+holy_site_mosleharm:0 "Eastern Jungle"
