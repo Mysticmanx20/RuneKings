@@ -10,25 +10,25 @@
 
 	male_names = {
 		Adam Alvis Alan Alastair Alexander Andrew
-		Angus Archibald Arthur Arran Aulay Beathan Brian Brice Cailean Calum Carbrey Colban
-		Colin Conall Conan Constantine David Dermid Donald Douglas Duff Dugald
-		Duncan Edgar Edward Edwin Eric Evander Ewan Farquhar Fergus Fingal Findlay Frang
-		Gavin Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor
-		Hamish Hector Henry Hugh Iain Indulf James John Kenneth Kentigern Lachlan Laurence Lennon
+		Angus Archibald Arthur Arran Aulay Audmann Beathan Brian Brice Blasidar Cailean Calum Carbrey Colban
+		Colin Conall Conan Constantine David Dermid Derni Dernu Donald Dondakan Douglas Dromund Drorkar Duff Dugald
+		Duncan Edgar Edward Edwin Erick Evander Ewan Farquhar Fergus Fingal Findlay Frang
+		Gavin Gauss Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor Gulldamar
+		Hamish Hector Henry Hreidmar Hugh Iain Indulf James John Jorra Jorzik Karl Kenneth Kentigern Klaas Lachlan Laurence Lennon
 		Lulach Macbeth Magnus Malcolm Maldoven Maldred Malise Malmure Maoilios Marcas Malsnectan
-		Matad Matthew Michael Morgan Muir Mungo Murdoch Murray Neil Ninian Oscar
-		Patrick Paul Peter Philip Radulf Ranald Richard Robert Roderick Ronald Rory Ross Roy
-		Shaw Sholto Simon Somerled Stephan Sweeny Taig Talore Thomas Torquil Uhtred Uisdean Walan
-		Waldeve Walter William
+		Matad Matthew Michael Morgan Muir Mungo Murdoch Murray Neil Ninian Nolar Odmar Ordan Oscar
+		Patrick Paul Peter Philip Radulf Ranald Reinald Richard Riki Robert Roderick Ronald Rory Ross Roy
+		Shaw Sholto Simon Somerled Stephan Sweeny Taig Talore Tombar Thomas Thak Thirus Torquil Uhtred Uisdean Veldaban Walan
+		Waldeve Walter Wemund William
 	}
 	female_names = {
-		Ada Affraic Agnes Aileen Alice Anna Annabella Aufrica Barabal Beileag Beitris Beathoc Bride
+		Ada Affraic Agnes Agmundi Aileen Alice Anna Anleif Annabella Aufrica Barabal Beileag Beitris Beathoc Bride
 		Catriona Cecilia Christina Deirdre Derilla Dervorgilla Donada Donella
 		Edith Edna Effie Eilionoir Eimhir Eithne Ela Eleanor Elspeth Euna Eva Fenella Fingola Flora
-		Forflissa Galiena Glenna Gormelia Gruoch Helen Innes Iona Isabel Isla Isobel Jean Julia
-		Kenna Kentigerna Kirstin Lillias Lorna Malmure Maisie Malina Margaret Mariota Marjory Mary
-		Martha Marthoc Maud Maura Mirren Mor Morag Morna Moyna Muriel
-		Murron Nuala Orabilia Peigi Rhonda Rodina Ronalda Ros Saundra Sheena Shona Slaine Sorcha Steacy Una
+		Forflissa Galiena Glenna Gormelia Grenda Gruoch Helen Haera Innes Iona Isabel Isla Isobel Jean Julia
+		Kenna Kentigerna Kirstin Lillias Lorna Lovada Malmure Maisie Malina Margaret Mariota Marjory Mary
+		Martha Marthoc Maud Maura Meike Miriam Mor Morag Morna Moyna Muriel
+		Murron Nuala Orabilia Peigi Rhonda Rodina Ronalda Ros Sagira Saundra Sheena Shona Sieglinde Slaine Sorcha Steacy Una Vulcana Vermundi 
 	}
 	dynasty_of_location_prefix = ""
 	
