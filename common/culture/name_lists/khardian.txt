@@ -72,9 +72,9 @@
 		Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Zeke Youssef Zeid Zakariyah
 	}
 	female_names = {
-		Acenith Ali Alia Amunet Andali Asanet Asenath Asenet Azenet Ayesha Badiat Cena Fatima Halima
-		Jamila Khadija Majida Maysa Nabila Nura Radiya Rana Sacmis Safiya
-		Samira Suhaila Tawaret Tafani Titi Thuriya Zara Zahra
+		Aadeela Acenith Akhomet Ali Alia Alisha Amunet Andali Asanet Asenath Asenet Azenet Ayesha Badiat Beset Banafrit Cena Ehsan Elisheba Fatima Habibah Halima
+		Jamila Khadija Majida Malala Maysa Meena Meskhenet Nabila Nathifa Nefertari Neferti Nura Radiya Rana Ranael Sabrina Sacmis Safiya
+		Samira Selima Sennefer Shiratti Suhaila Tawaret Tafani Titi Thuriya Urbi Wafaa Zahur Zara Zahra
 	}
 	dynasty_of_location_prefix = ""
 	
