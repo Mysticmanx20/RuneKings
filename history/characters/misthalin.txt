@@ -994,7 +994,9 @@
 		add_spouse = 900164
 	}
 	11620.1.1 = {
-		add_visiting_courtier = character:900806
+		effect = {
+			add_visiting_courtier = character:900806
+		}
 	}
 }
 
