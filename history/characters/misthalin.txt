@@ -116,6 +116,17 @@
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
+	trait = education_diplomacy_3
+	trait = just
+	trait = patient
+	trait = trusting
+	disallow_random_traits = yes
+	diplomacy = 6
+	intrigue = 9
+	martial = 5
+	stewardship = 10
+	learning = 7
+	prowess = 6
 	father = 900108
 	11592.1.1 = {
 		birth = yes
@@ -130,6 +141,18 @@
 	female = yes
 	religion = saradomin
 	culture = misthalin
+	trait = education_martial_1
+	trait = arrogant
+	trait = brave
+	trait = ambitious
+	trait = irritable
+	disallow_random_traits = yes
+	diplomacy = 10
+	martial = 7
+	stewardship = 6
+	intrigue = 9
+	learning = 7
+	prowess = 13
 	11594.1.1 = {
 		birth = yes
 	}
@@ -227,9 +250,11 @@
 	11589.1.1 = {
 		add_spouse = 900139
 	}
-	11620.1.1 = {
-		add_visiting_courtier = character:900125
-		add_visiting_courtier = character:900146
+	11620.6.6 = {
+		effect = {
+			add_visiting_courtier = character:900125
+			add_visiting_courtier = character:900146
+		}
 	}
 }
 
@@ -431,6 +456,12 @@
 	11601.1.1 = {
 		birth = yes
 	}
+	11620.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
+	
 }
 
 900126 = {
@@ -682,10 +713,16 @@
 	dynasty = 100931
     female = yes
     religion = saradomin
-    culture = asgarnia
+    culture = misthalin
+	trait = education_learning_1
     11594.1.1 = {
         birth = yes
     }
+	11620.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
 }
 
 900147 = {
@@ -1956,11 +1993,11 @@ ani001 = {
 	female = yes
 	culture = misthalin
 	religion = saradomin
-	diplomacy = 11
+	diplomacy = 9
 	martial = 3
-	stewardship = 11
-	intrigue = 9
-	learning = 13
+	stewardship = 6
+	intrigue = 8
+	learning = 10
 	prowess = 5
 	trait = drunkard
 	trait = gluttonous
@@ -2198,5 +2235,93 @@ misth015 = {
 	trait = education_martial_4
 	11590.1.1 = {
 		birth = yes
+	}
+}
+
+misth016 = {
+	name = "Fortunato"
+	dynasty = 100960
+	religion = saradomin
+	culture = misthalin
+	trait = education_stewardship_1
+	11583.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900163
+	}
+}
+
+misth017 = {
+	name = "Diango"
+	dynasty = 100961
+	religion = saradomin
+	culture = misthalin
+	trait = education_stewardship_2
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900163
+	}
+}
+
+misth018 = {
+	name = "Dionysus"
+	dynasty = 100962
+	religion = saradomin
+	culture = misthalin
+	trait = education_learning_4
+	11560.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900163
+	}
+}
+
+misth019 = {
+	name = "Martin"
+	dynasty = 100963
+	religion = saradomin
+	culture = misthalin
+	trait = education_learning_2
+	11560.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900163
+	}
+}
+
+misth020 = {
+	name = "Zenevivia"
+	female = yes
+	religion = saradomin
+	culture = misthalin
+	trait = education_learning_4
+	11560.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900310
+	}
+}
+
+misth021 = {
+	name = "Barbara"
+	female = yes
+	religion = v
+	culture = fremennik
+	trait = education_diplomacy_1
+	trait = wrathful
+	trait = arrogant
+	trait = gregarious
+	disallow_random_traits = yes
+	11593.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = 900128
 	}
 }

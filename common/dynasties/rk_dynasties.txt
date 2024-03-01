@@ -307,3 +307,24 @@
 	name = "dynn_dCour"
 	culture = misthalin
 }
+
+100960 = {
+	name = "dynn_Amont"
+	culture = misthalin
+}
+
+100961 = {
+	name = "dynn_Cava"
+	culture = misthalin
+}
+
+100962 = {
+	name = "dynn_Wize"
+	culture = misthalin
+}
+
+100963 = {
+	name = "dynn_Gardener"
+	culture = misthalin
+}
+

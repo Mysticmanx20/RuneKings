@@ -207,6 +207,10 @@
  dynn_saragorgak:0 "Saragorgak"
  dynn_yurkolgokh:0 "Yurkolgokh"
  dynn_dCour:0 "d'Cour"
+ dynn_Amont:0 "Amontillado"
+ dynn_Cava:0 "Cavalier"
+ dynn_Wize:0 "Wiseman"
+ dynn_Gardener:0 "Seedsower"
 
 ###Dwarf
  dynn_Thunderpike:0 "Thunderpike"

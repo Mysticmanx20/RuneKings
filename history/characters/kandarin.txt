@@ -1098,5 +1098,19 @@ kand089 = {
 	}
 }
 
+kand090 = {
+	name = "Relomia"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_2
+	11601.1.1 = {
+		birth = yes
+	}
+	11620.1.1 = {
+		employer = kand017
+	}
+}
+
 
 
