@@ -202,8 +202,10 @@ ogre016 = {
 		birth = yes
 	}
 	11620.1.1 = {
-		add_visiting_courtier = character:ogre001
-		add_realm_law = male_only_law
+		effect = {
+			add_visiting_courtier = character:ogre001
+			add_realm_law = male_only_law
+		}
 	}
 }
 
