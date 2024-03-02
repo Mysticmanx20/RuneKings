@@ -75,9 +75,19 @@
 	father = 900805
 	religion = menaph
 	culture = kharidian
-	intrigue = 14
-	11607.1.1 = {
+	trait = education_intrigue_1
+	trait = paranoid
+	trait = just
+	trait = brave
+	disallow_random_traits = yes
+	intrigue = 12
+	11605.1.1 = {
 		birth = yes
+	}
+	11620.6.6 = {
+		effect = {
+			move_to_pool = yes
+		}
 	}
 
 }

@@ -993,7 +993,7 @@
 	11611.1.1 = {
 		add_spouse = 900164
 	}
-	11620.1.1 = {
+	11621.1.1 = {
 		effect = {
 			add_visiting_courtier = character:900806
 		}
