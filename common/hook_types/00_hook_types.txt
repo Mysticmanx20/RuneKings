@@ -7,7 +7,7 @@ weak_blackmail_hook = {
 strong_blackmail_hook = {
 	strong = yes
 	requires_secret = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 test_hook = {
@@ -28,12 +28,12 @@ indebted_hook = {
 
 loyalty_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 predecessor_loyalty_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 threat_hook = {
@@ -58,7 +58,7 @@ manipulation_hook = {
 }
 
 house_head_hook = {
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 fabrication_hook = {
@@ -80,12 +80,12 @@ minor_crime_accomplice_hook = {
 
 major_crime_accomplice_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 ritual_best_friend_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 
 	on_used = {
 		# Best friend stress.
@@ -120,7 +120,7 @@ ritual_best_friend_hook = {
 
 saved_my_life_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 suspicious_activity_hook = {
@@ -134,7 +134,7 @@ major_threat_hook = {
 
 liege_favour_strong_hook = {
 	strong = yes
-	expiration_days = -1
+	expiration_days = 36500
 }
 
 hostage_loyalty = {

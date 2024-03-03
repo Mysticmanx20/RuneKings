@@ -1,6 +1,297 @@
 ﻿# On actions for child birth and pregnancy notification events, triggered automatically by the game
 
+# called for the mother
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:real_father is the biological father
+# scope:father is the family father (not the biological)
+on_birth_mother = {
+	events = {
+		birth.0001 #No one dies - hidden event that selects visible birth event based on bastard status and complication rolls
+		birth.3011 #Mother dies
+	}
+	effect = {
 
+		scope:mother = {
+			if = {
+				limit = {
+					is_landed = yes
+					exists = scope:mother.location
+					exists = scope:child.location
+					scope:mother.location = scope:child.location
+				}
+				trigger_event = {
+					id = bp2_yearly.4000
+ 	  				days = 3
+				}
+			}
+		}
+
+		scope:mother.current_travel_plan ?= { 
+			if = {
+				limit = {
+					travel_plan_owner = { is_ruler = yes }
+				}
+				add_companion = scope:child
+			}
+		}
+
+		# Gain piety from Sacred Childbirth doctrine
+		if = {
+			limit = {
+				faith = { has_doctrine_parameter = piety_from_childbirth_active }
+			}
+			send_interface_toast = {
+				type = event_generic_neutral
+				title = piety_from_childbirth_toast
+				left_icon = scope:child
+				right_icon = scope:mother
+				if = {
+					limit = {
+						scope:child = { has_any_negative_bastard_trait_trigger = no }
+					}
+					add_piety = {
+						value = major_piety_gain
+						if = {
+							limit = {
+								any_child = { is_twin_of = scope:child }
+							}
+							add = major_piety_gain
+						}
+						if = {
+							limit = {
+								any_child = {
+									count >= 2
+									is_twin_of = scope:child
+								}
+							}
+							add = major_piety_gain
+						}
+					}
+				}
+				else = {
+					add_piety = {
+						value = minor_piety_gain
+						if = {
+							limit = {
+								any_child = { is_twin_of = scope:child }
+							}
+							add = minor_piety_gain
+						}
+						if = {
+							limit = {
+								any_child = {
+									count >= 2
+									is_twin_of = scope:child
+								}
+							}
+							add = minor_piety_gain
+						}
+					}
+				}
+			}
+		}
+		scope:child = {
+			if = {
+				limit = { has_trait = twin }
+				random_sibling = {
+					limit = { is_twin_of = scope:child }
+					save_scope_as = child_2
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NOR = {
+					any_child = {
+						even_if_dead = yes
+						NOT = {
+							this = scope:child
+						}
+					}
+					exists = scope:child_2
+				}
+			}
+			create_character_memory = {
+				type = first_born
+				participants = {
+					child = scope:child
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { exists = scope:child_2 }
+				create_character_memory = {
+					type = twins_born
+					participants = {
+						child = scope:child
+						child_2 = scope:child_2
+					}
+				}
+			}
+			else = {
+				create_character_memory = {
+					type = child_born
+					participants = {
+						child = scope:child
+					}
+				}
+			}
+		}
+	}
+}
+
+# called for the father
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:real_father is the biological father
+# scope:father is the family father (not the biological)
+on_birth_father = {
+	events = {
+	}
+	effect = {
+		scope:father = {
+			if = {
+				limit = {
+					is_landed = yes
+					exists = scope:father.location
+					exists = scope:child.location
+					scope:father.location = scope:child.location
+				}
+				trigger_event = {
+					id = bp2_yearly.4000
+ 	  				days = 3
+				}
+			}
+		}
+
+		# Gain piety from Sacred Childbirth doctrine
+		if = {
+			limit = {
+				faith = { has_doctrine_parameter = piety_from_childbirth_active }
+			}
+			send_interface_toast = {
+				type = event_generic_neutral
+				title = piety_from_childbirth_toast
+				left_icon = scope:child
+				right_icon = scope:mother
+				if = {
+					limit = {
+						scope:child = { has_any_negative_bastard_trait_trigger = no }
+					}
+					add_piety = {
+						value = major_piety_gain
+						if = {
+							limit = {
+								any_child = { is_twin_of = scope:child }
+							}
+							add = major_piety_gain
+						}
+						if = {
+							limit = {
+								any_child = {
+									count >= 2
+									is_twin_of = scope:child
+								}
+							}
+							add = major_piety_gain
+						}
+					}
+				}
+				else = {
+					add_piety = {
+						value = minor_piety_gain
+						if = {
+							limit = {
+								any_child = { is_twin_of = scope:child }
+							}
+							add = minor_piety_gain
+						}
+						if = {
+							limit = {
+								any_child = {
+									count >= 2
+									is_twin_of = scope:child
+								}
+							}
+							add = minor_piety_gain
+						}
+					}
+				}
+			}
+		}
+		scope:child = {
+			if = {
+				limit = { has_trait = twin }
+				random_sibling = {
+					limit = { is_twin_of = scope:child }
+					save_scope_as = child_2
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				NOR = {
+					any_child = {
+						even_if_dead = yes
+						NOT = {
+							this = scope:child
+						}
+					}
+					exists = scope:child_2
+				}
+			}
+			create_character_memory = {
+				type = first_born
+				participants = {
+					child = scope:child
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { exists = scope:child_2 }
+				create_character_memory = {
+					type = twins_born
+					participants = {
+						child = scope:child
+						child_2 = scope:child_2
+					}
+				}
+			}
+			else = {
+				create_character_memory = {
+					type = child_born
+					participants = {
+						child = scope:child
+					}
+				}
+			}
+		}
+	}
+}
+
+# called for the biological father
+# only called if father and real father are different
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:real_father is the biological father
+# scope:father is the family father (not the biological)
+on_birth_real_father = {
+	events = {
+
+	}
+}
+
+# called for the newborn child
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:father is the family father (not the biological)
+# scope:real_father is the biological father
+# scope:is_bastard, true if a known bastard
 on_birth_child = {
 	events = {
 		middle_east_decisions.0012 #Saoshyant Descendants.
@@ -168,6 +459,28 @@ on_birth_child = {
 			return_hostage = yes
 			scope:warden = { add_courtier = root }
 		}
+
+		#RK Edit
+		#pass down cannibalism for vampyre children
+		if = {
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = culture:vampyre
+						has_trait = cannibal
+					}
+					
+					scope:mother = {
+						culture = culture:vampyre
+						has_trait = cannibal
+					}	
+				}
+			}
+			add_trait = cannibal	
+		}
+
+
+
 		hidden_effect = {
 			every_parent = {
 				limit = { has_perk = sound_foundations_perk	}
@@ -339,24 +652,51 @@ on_birth_child = {
 			}
 		}
 
-			#pass down cannibalism for vampyre children
-		if = {
-			limit = {
-				OR = {
-					scope:real_father = {
-						culture = culture:vampyre
-						has_trait = cannibal
+		hidden_effect = { # Track El Cid's Lineage (FP2) for achievement
+			if = {
+				limit = { 
+					OR = {
+						scope:real_father = { has_character_flag = fp2_el_cid_blood_relation_legacy }
+						scope:mother = { has_character_flag = fp2_el_cid_blood_relation_legacy }
 					}
-					
-					scope:mother = {
-						culture = culture:vampyre
-						has_trait = cannibal
-					}	
-				}
+				}				
+				scope:child = { add_character_flag = fp2_el_cid_blood_relation_legacy }
 			}
-			add_trait = cannibal	
 		}
-		
 	}
+}
 
+# called for the mother when a pregnancy reaches the "revealed" status
+# scope:mother is the pregnant mother
+# scope:father is the assumed father
+# scope:real_father is the biological father
+on_pregnancy_mother = {
+	events = {
+		pregnancy.0001 # Universal hidden maintenance event
+		pregnancy.1001 # Mother gives birth to current husband's child.
+		pregnancy.1101 # Mother gives birth to ex-husband's child.
+		pregnancy.2001 # Unwed mother gives birth to bastard child.
+		pregnancy.2002 # Married mother gives birth to bastard child.
+		pregnancy.2050 # Married mother in same-sex relationship.
+	}
+}
+
+# called for the father when a pregnancy reaches the "revealed" status
+# scope:mother is the pregnant mother
+# scope:father is the assumed father
+# scope:real_father is the biological father
+on_pregnancy_father = {
+	events = {
+	
+	}
+}
+
+# called for the mother when a pregnancy ends prematurely
+# scope:mother is the pregnant mother
+# scope:father is the assumed father
+# scope:real_father is the biological father
+on_pregnancy_ended_mother = {
+	events = {
+	
+	}
 }
