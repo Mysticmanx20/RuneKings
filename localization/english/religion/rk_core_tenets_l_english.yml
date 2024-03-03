@@ -21,3 +21,8 @@
  zam_hostility_doctrine_desc:0 ""
  sara_hostility_doctrine_name:0 "$sara_religion_adj$"
  sara_hostility_doctrine_desc:0 ""
+ ham_hostility_doctrine_name:0 "Supremacist"
+ ham_hostility_doctrine_desc:0 ""
+ v_hostility_doctrine_name:0 "Fremennik"
+ v_hostility_doctrine_desc:0 ""
+ 

@@ -51,6 +51,7 @@ zam_religion = {    #Zamorak
 	localization = {
 		#HighGod
 		HighGodName = ZAM_NAME
+		HighGodName2 = ZAM_NAME
 		HighGodNamePossessive = ZAM_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
@@ -136,6 +137,7 @@ zam_religion = {    #Zamorak
 		WaterGodHerHim = CHARACTER_HERHIM_IT
 	
 		PantheonTerm = ZAM_NAME
+		PantheonTerm2 = ZAM_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			ZAM_NAME
@@ -304,6 +306,7 @@ zaros_religion = {    #Zaros
 	localization = {
 		#HighGod
 		HighGodName = ZAROS_NAME
+		HighGodName2 = ZAROS_NAME
 		HighGodNamePossessive = ZAROS_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
@@ -389,6 +392,7 @@ zaros_religion = {    #Zaros
 		WaterGodHerHim = CHARACTER_HERHIM_IT
 	
 		PantheonTerm = ZAROS_NAME
+		PantheonTerm2 = ZAROS_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			ZAROS_NAME
@@ -535,6 +539,7 @@ karamja_religion = {    #Karamja Jungle Gods
 	localization = {
 		#HighGod
 		HighGodName = JUNGLEGODS
+		HighGodName2 = JUNGLEGODS
 		HighGodNamePossessive = JUNGLEGODS
 		HighGodNameSheHe = west_african_bori_devil_shehe
 		HighGodHerHis = west_african_bori_devil_herhis
@@ -620,6 +625,7 @@ karamja_religion = {    #Karamja Jungle Gods
 		WaterGodHerHim = CHARACTER_HERHIM_THEM
 	
 		PantheonTerm = JUNGLEGODS
+		PantheonTerm2 = JUNGLEGODS
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
 			JUNGLEGODS
@@ -792,6 +798,7 @@ monkey_religion = {    #Karamja Jungle Gods
 	localization = {
 		#HighGod
 		HighGodName = MARIMBO
+		HighGodName2 = MARIMBO
 		HighGodNamePossessive = MARIMBO_POS
 		HighGodNameSheHe = west_african_bori_devil_shehe
 		HighGodHerHis = west_african_bori_devil_herhis
@@ -877,6 +884,7 @@ monkey_religion = {    #Karamja Jungle Gods
 		WaterGodHerHim = CHARACTER_HERHIM_HER
 	
 		PantheonTerm = MARIMBO
+		PantheonTerm2 = MARIMBO
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			MARIMBO
@@ -1058,6 +1066,7 @@ sara_religion = {
 	localization = {
 		#HighGod
 		HighGodName = SARA_NAME
+		HighGodName2 = SARA_NAME
 		HighGodNamePossessive = SARA_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
@@ -1143,6 +1152,7 @@ sara_religion = {
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 	
 		PantheonTerm = SARA_NAME
+		PantheonTerm2 = SARA_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			SARA_NAME
@@ -1345,6 +1355,7 @@ fremennik_religion = {
 	localization = {
 		#HighGod
 		HighGodName = V_NAME
+		HighGodName2 = V_NAME
 		HighGodNamePossessive = V_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
@@ -1432,6 +1443,7 @@ fremennik_religion = {
 
 
 		PantheonTerm = V_NAME
+		PantheonTerm2 = V_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = { V_NAME }
 		DevilName = finno_ugric_devil_name
@@ -1584,6 +1596,7 @@ guthix_religion = {
 
 	localization = {
 		HighGodName = GUTHIX_NAME
+		HighGodName2 = GUTHIX_NAME
 		HighGodNamePossessive = GUTHIX_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
@@ -1670,6 +1683,7 @@ guthix_religion = {
 
 
 		PantheonTerm = GUTHIX_NAME
+		PantheonTerm2 = GUTHIX_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = { 
 			GUTHIX_NAME
@@ -1787,7 +1801,7 @@ guthix_religion = {
 			#Marriage
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_approval
-			doctrine = doctrine_bastardry_no_legitimization
+			doctrine = doctrine_bastardry_none
 			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 
 			#Crimes
@@ -1799,7 +1813,7 @@ guthix_religion = {
 			doctrine = doctrine_witchcraft_crime
 
 			#Clerical Functions
-			doctrine = doctrine_clerical_function_alms/pacification
+			doctrine = doctrine_clerical_function_alms_and_pacification
 			doctrine = doctrine_clerical_gender_either
 			doctrine = doctrine_clerical_marriage_allowed
 			doctrine = doctrine_clerical_succession_temporal_appointment
@@ -1883,6 +1897,7 @@ seren_religion = {
 
 	localization = {
 		HighGodName = SEREN_NAME
+		HighGodName2 = SEREN_NAME
 		HighGodNamePossessive = SEREN_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
@@ -1969,6 +1984,7 @@ seren_religion = {
 
 
 		PantheonTerm = SEREN_NAME
+		PantheonTerm2 = SEREN_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = { 
 			SEREN_NAME
@@ -2357,7 +2373,7 @@ arm_religion = {    #Armadyl
 	#Marriage
 	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_approval
-	doctrine = doctrine_bastardry_no_legitimization
+	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
@@ -2393,6 +2409,7 @@ arm_religion = {    #Armadyl
 	localization = {
 		#HighGod
 		HighGodName = ARM_NAME
+		HighGodName2 = ARM_NAME
 		HighGodNamePossessive = ARM_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
@@ -2478,6 +2495,7 @@ arm_religion = {    #Armadyl
 		WaterGodHerHim = CHARACTER_HERHIM_IT
 	
 		PantheonTerm = ARM_NAME
+		PantheonTerm2 = ARM_NAME
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			ARM_NAME
@@ -2643,14 +2661,14 @@ desert_religion = {
 
 	localization = {
 		#HighGod
-		HighGodName = MENA_HIGHGOD
-		HighGodName2 = MENA_HIGHGOD2
+		HighGodName = MENA_GROUP
+		HighGodName2 = MENA_GROUP2
 		HighGodNamePossessive = MENA_HIGHGODPOS
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
-		HighGodNameAlternate = MENA_ALT
-		HighGodNameAlternatePossessive = MENA_ALT2
+		HighGodNameAlternate = MENA_GROUP2
+		HighGodNameAlternatePossessive = MENA_GROUP2_POS
 		#Creator
 		CreatorName = MENA_HIGHGOD
 		CreatorNamePossessive = MENA_HIGHGODPOS
@@ -2731,6 +2749,7 @@ desert_religion = {
 
 
 		PantheonTerm = MENA_GROUP
+		PantheonTerm2 = MENA_GROUP2
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
 			MENA_HIGHGOD

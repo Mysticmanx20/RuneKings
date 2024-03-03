@@ -3391,11 +3391,11 @@ e_fremennik = {
 
 	k_isles = {
 		color = {216 172 86 }
-		capital = c_nietz
+		capital = c_neitz
 		
 		d_neitz = {
 			color = { 216 172 86 }
-			capital = c_nietz
+			capital = c_neitz
 		
 			c_neitz = {
 				color = {216 172 86 }

@@ -638,7 +638,6 @@ vampyre = {    # Vampyre
 	
 	name_list = name_list_vampyre
 
-	always_use_patronym = no
 	
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -667,7 +666,6 @@ werewolf = {    # Werewolf
 	
 	name_list = name_list_werewolf
 
-	always_use_patronym = no
 	
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

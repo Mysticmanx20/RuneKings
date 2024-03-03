@@ -134,8 +134,7 @@ grandtree = {
 }
 
 varcircle = {
-	county = c_southmis
-	barony = b_darkcircle
+	county = c_darkcircle
 
 	flag = cordoba_conversion_bonus # +20% county conversion speed
 }

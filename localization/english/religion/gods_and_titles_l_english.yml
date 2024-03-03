@@ -293,6 +293,8 @@ SEREN_CREST_NAME:0 "symbol of Seren"
  MENA_ALT:0 "the Sun God"
  MENA_ALT2:0 "the Sun God's"
  MENA_GROUP:0 "The Gods"
+ MENA_GROUP2:0 "The Pantheon"
+ MENA_GROUP2_POS:0 "The Pantheon's"
 
  MENA_ELID:0 "Elidinis"
  MENA_ELID2:0 "Elidinis'"

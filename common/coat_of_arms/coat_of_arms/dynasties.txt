@@ -147,7 +147,7 @@ house_drakan={
 }
 
 100947={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=green
 	color2=white
@@ -231,7 +231,7 @@ house_drakan={
 
 
 100949={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=orange
 	color2=white
@@ -261,7 +261,7 @@ house_drakan={
 }
 
 100950={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 183 0 137 }
 	color2=white
@@ -340,7 +340,7 @@ house_drakan={
 
 
 100952={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 73 163 120 }
 	color2=white
@@ -393,7 +393,7 @@ house_drakan={
 }
 
 100953={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 152 152 152 }
 	color2=white
@@ -462,7 +462,7 @@ house_drakan={
 }
 
 100954={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 88 46 22 }
 	color2=white
@@ -486,7 +486,7 @@ house_drakan={
 }
 
 100955={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=purple
 	color2=white
@@ -512,7 +512,7 @@ house_drakan={
 }
 
 100956={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=white
@@ -530,7 +530,7 @@ house_drakan={
 }
 
 100957={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=white
 	color2=white
@@ -603,7 +603,7 @@ house_drakan={
 }
 
 100958={
-	custom=yes
+	
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 240 163 48 }
 	color2=white

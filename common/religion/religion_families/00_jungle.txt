@@ -1,4 +1,4 @@
-rf_jungle = {
+﻿rf_jungle = {
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = jungle_hostility_doctrine
 	doctrine_background_icon = core_tenet_banner_pagan.dds
