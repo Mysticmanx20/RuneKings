@@ -4,7 +4,6 @@ picture="thumbnail.png"
 tags={
 	"Total Conversion"
 }
-
 replace_path="common/bookmark_portraits"
 replace_path="common/bookmarks"
 replace_path="common/landed_titles"
@@ -14,5 +13,5 @@ replace_path="history/cultures"
 replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
-supported_version="1.11.5"
-path="mod/RuneKings"
+supported_version="1.12.2.1"
+path="C:/Users/mysti/OneDrive/Documents/Paradox Interactive/Crusader Kings III/mod/RuneKings"
