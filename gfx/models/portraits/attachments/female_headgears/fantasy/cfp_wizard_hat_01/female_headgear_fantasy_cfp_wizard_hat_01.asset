@@ -20,7 +20,7 @@ entity = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgears/fantasy/cfp_wizard_hat_01/male_headgear_fantasy_cfp_wizard_hat_01_masks.dds"
-				variation = "cfp_western_hoods_common_02"
+				variation = "cfp_western_hoods_common_01"
 			}
         }
 	}
