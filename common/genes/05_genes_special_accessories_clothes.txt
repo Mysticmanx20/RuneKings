@@ -2585,6 +2585,19 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			rk_wizard_robes = {
+				index = 128
+				male = {
+					1 = male_wizard_robes_01
+					1 = male_archmage_robes_01
+				}
+				female = {
+					1 = female_wizard_robes_01
+				}
+				boy = male
+				girl = female
+			}
 		
 		}
 	}
