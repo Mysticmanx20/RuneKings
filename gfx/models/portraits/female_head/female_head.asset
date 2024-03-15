@@ -91,6 +91,12 @@ pdxmesh = {
 		blend_shape = { id = "female_bs_ear_size_max"											type = "blendshapes/female_bs_ear_size_max.mesh" }
 		blend_shape = { id = "female_bs_ear_upper_bend_max"										type = "blendshapes/female_bs_ear_upper_bend_max.mesh" }
 
+		# RuneKings
+		blend_shape = { id = "female_bs_floppy_ear_length"										type = "blendshapes/female_bs_floppy_ear_length.mesh" }
+		blend_shape = { id = "female_bs_erect_ear_lenght_max"									type = "blendshapes/female_bs_erect_ear_lenght_max.mesh" }
+		blend_shape = { id = "female_bs_ear_tip_max"											type = "blendshapes/female_bs_ear_tip_max.mesh" }
+		blend_shape = { id = "female_bs_back_ear_lenght"										type = "blendshapes/female_bs_back_ear_lenght.mesh" }
+
 		blend_shape = { id = "female_bs_eye_corner_depth_min"									type = "blendshapes/female_bs_eye_corner_depth_min.mesh" }
 		blend_shape = { id = "female_bs_eye_corner_depth_max"									type = "blendshapes/female_bs_eye_corner_depth_max.mesh" }
 		blend_shape = { id = "female_bs_eye_corner_height_min"									type = "blendshapes/female_bs_eye_corner_height_min.mesh" }
@@ -209,6 +215,9 @@ pdxmesh = {
 
 		#### Neutral blendshape to use with attachment blends
 		blend_shape = { id = "female_bs_neutral"												type = "blendshapes/female_bs_neutral.mesh" }
+
+		#RuneKings
+		blend_shape = { id = "female_bs_no_portrait"											type = "blendshapes/male_bs_no_portrait.mesh" }
 
 		#### Blend shapes that contain only changes to vertex normals. Used in conjunction with joint animations
 		blend_shape = { id = "female_nbs_forehead_brow_height_max"								type = "blendshapes/female_nbs_forehead_brow_height_max.mesh" data = "normal|tangent" }
@@ -351,6 +360,13 @@ entity = {
 	attribute = { name = "bs_ear_size_max"														blend_shape = "female_bs_ear_size_max" }
 	attribute = { name = "bs_ear_upper_bend_max"												blend_shape = "female_bs_ear_upper_bend_max" }
 
+	# RuneKings
+	attribute = { name = "bs_ear_length" 														blend_shape = "female_bs_neutral" } #Attribute to blendshape hairs
+	attribute = { name = "bs_floppy_ear_length"													blend_shape = "female_bs_floppy_ear_length" }
+	attribute = { name = "bs_erect_ear_lenght_max"												blend_shape = "female_bs_erect_ear_lenght_max" }
+	attribute = { name = "bs_ear_tip_max"														blend_shape = "female_bs_ear_tip_max" }
+	attribute = { name = "bs_back_ear_lenght"													blend_shape = "female_bs_back_ear_lenght" }
+
 	attribute = { name = "bs_eye_corner_depth_min"												blend_shape = "female_bs_eye_corner_depth_min" }
 	attribute = { name = "bs_eye_corner_depth_max"												blend_shape = "female_bs_eye_corner_depth_max" }
 	attribute = { name = "bs_eye_corner_height_min"												blend_shape = "female_bs_eye_corner_height_min" }
@@ -479,6 +495,9 @@ entity = {
 
 	attribute = { name = "bs_expression_cheek_left"												blend_shape = "female_bs_expression_cheek_left" }
 	attribute = { name = "bs_expression_cheek_right"											blend_shape = "female_bs_expression_cheek_right" }
+
+	#Runekings
+	attribute = { name = "bs_no_portrait"													blend_shape = "female_bs_no_portrait" }
 
 	#### Blend shapes that contain only changes to vertex normals. Used in conjunction with joint animations
 	attribute = { name = "nbs_forehead_brow_height_max"											blend_shape = "female_nbs_forehead_brow_height_max" }

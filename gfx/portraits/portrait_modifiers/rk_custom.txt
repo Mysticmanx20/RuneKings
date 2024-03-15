@@ -770,6 +770,7 @@
             base = 0
             modifier = {
                 add = 991
+                is_female = no
                 culture = culture:icetroll
                 #hgw_costume_trigger = no
             }
