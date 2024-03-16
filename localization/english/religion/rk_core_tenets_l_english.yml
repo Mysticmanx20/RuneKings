@@ -13,6 +13,8 @@
  jungle_hostility_doctrine_name:0 "$rf_jungle$"
  jungle_hostility_doctrine_desc:0 "The following religions are Order:\n[GetReligionFamily('rf_jungle').GetReligions]"
  
+ major_hostility_doctrine_name:0 "Major Hostility"
+ major_hostility_doctrine_desc:0 ""
  bandos_hostility_doctrine_name:0 "$bandos_religion_adj$"
  bandos_hostility_doctrine_desc:0 ""
  justice_hostility_doctrine_name:0 "$arm_religion_adj$"

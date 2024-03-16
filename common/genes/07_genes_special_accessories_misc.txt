@@ -1911,3 +1911,6 @@ props_left = {
 			girl = female
 		}
 	}
+}
+
+}

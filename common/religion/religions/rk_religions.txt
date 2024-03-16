@@ -31,6 +31,8 @@ zam_religion = {    #Zamorak
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { vengeful arbitrary callous sadistic }
 		sins = { forgiving just compassionate }
@@ -264,6 +266,8 @@ zaros_religion = {    #Zaros
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_funeral_stoic
 
 	traits = {
 		virtues = { vengeful arbitrary callous sadistic }
@@ -518,6 +522,8 @@ karamja_religion = {    #Karamja Jungle Gods
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_funeral_stoic
 
 	traits = {
 		virtues = { humble compassionate brave lifestyle_hunter }
@@ -778,6 +784,8 @@ monkey_religion = {    #Karamja Jungle Gods
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { gluttonous lustful arrogant }
 		sins = { temperate chaste humble }
@@ -1033,6 +1041,8 @@ sara_religion = {
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_disallowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_funeral_bewailment
 
 
 	traits = {
@@ -1325,6 +1335,8 @@ fremennik_religion = {
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_funeral_cremation
+
 	traits = {
 		virtues = { brave wrathful vengeful poet one_eyed }
 		sins = { craven deceitful forgiving }
@@ -1575,6 +1587,8 @@ guthix_religion = {
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_funeral_bewailment
 
 	traits = {
 		virtues = { lifestyle_herbalist compassionate just calm }
@@ -1877,6 +1891,8 @@ seren_religion = {
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_funeral_bewailment
+
 	traits = {
 		virtues = {  compassionate just calm }
 		sins = { wrathful sadistic deceitful }
@@ -2128,8 +2144,9 @@ bandos_religion = {
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 	doctrine = doctrine_temporal_head
 
-	#Special Doctrine for Islamic Syncretism
-	doctrine = special_doctrine_is_islamic_faith
+	doctrine = doctrine_funeral_mummification
+
+
 
 	traits = {
 		virtues = { gluttonous wrathful brave }
@@ -2390,6 +2407,8 @@ arm_religion = {    #Armadyl
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_funeral_sky_burial
+
 	traits = {
 		virtues = { just compassionate calm }
 		sins = { callous arbitrary wrathful }
@@ -2578,7 +2597,7 @@ arm_religion = {    #Armadyl
 			
 
 			doctrine = tenet_legalism
-			doctrine = tenet_sky_burials
+			doctrine = tenet_pacifism
 			doctrine = tenet_religious_legal_pronouncements
 
 
@@ -2633,6 +2652,8 @@ desert_religion = {
 	#Merit-based clerical succession
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 	doctrine = doctrine_temporal_head
+
+	doctrine = doctrine_funeral_mummification
 
 
 	traits = {
