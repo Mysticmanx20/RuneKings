@@ -1,7 +1,7 @@
 ﻿
 gnome001 = {
 	name = "Narnode"
-	#Shareen
+	dynasty = 100964
 	religion = guthix
 	culture = gnome
 	trait = trusting
@@ -27,9 +27,14 @@ gnome002 = {
 
 gnome003 = {
 	name = "Bolren"
+	dynasty = 100965
 	religion = guthix
 	culture = gnome
-	11593.1.1 = {
+	trait = humble
+	trait = shy
+	trait = patient
+	trait = education_diplomacy_2
+	11591.1.1 = {
 		birth = yes
 	}
 }
@@ -102,4 +107,104 @@ gnome008 = {
 		death = yes
 	}
 
+}
+
+gnome009 = {
+	name = "Galena"
+	female = yes
+	culture = gnome
+	religion = guthix
+	trait = humble
+	trait = education_learning_1
+	11592.1.1 = {
+		birth = yes
+	}
+	11608.1.1 = {
+		add_spouse = gnome003
+	}
+}
+
+gnome010 = {
+	name = "Bolrie"
+	dynasty = 100965
+	culture = gnome
+	religion = guthix
+	trait = deceitful
+	trait = ambitious
+	trait = arbitrary
+	trait = education_learning_2
+	11575.1.1 = {
+		birth = yes
+	}
+}
+
+gnome011 = {
+	name = "Gena"
+	female = yes
+	culture = gnome
+	religion = guthix
+	trait = humble
+	trait = patient
+	trait = content
+	11573.1.1 = {
+		birth = yes
+	}
+	11589.1.1 = {
+		add_spouse = gnome010
+	}
+	11614.1.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+gnome012 = {
+	name = "Golrana"
+	dynasty = 100965
+	female = yes
+	culture = gnome
+	religion = guthix
+	father = gnome010
+	mother = gnome011
+	trait = brave
+	trait = ambitious
+	trait = forgiving
+	trait = education_martial_2
+	11589.1.1 = {
+		birth = yes
+	}
+	11605.1.1 = {
+		add_spouse = gnome013
+	}
+}
+
+gnome013 = {
+	name = "Belmondo"
+	culture = gnome
+	religion = guthix
+	trait = humble
+	trait = compassionate
+	trait = lustful
+	trait = education_diplomacy_3
+	11585.1.1 = {
+		birth = yes
+	}
+
+}
+
+gnome014 = {
+	name = "Golrie"
+	dynasty = 100965
+	culture = gnome
+	religion = guthix
+	father = gnome013
+	mother = gnome012
+	trait = patient
+	trait = shy
+	trait = content
+	trait = education_learning_3
+	11605.1.1 = {
+		birth = yes
+	}
 }

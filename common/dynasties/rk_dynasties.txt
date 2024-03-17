@@ -328,3 +328,13 @@
 	culture = misthalin
 }
 
+100964 = {
+	name = "dynn_Shareen"
+	culture = gnome
+}
+
+100965 = {
+	name = "dynn_Denberas"
+	culture = gnome
+}
+
