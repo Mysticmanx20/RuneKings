@@ -26,6 +26,11 @@ elf002 = {
 	11593.1.1 = {
 		birth = yes
 	}
+	11620.1.1 = {
+		effect = {
+			add_visiting_courtier = character:gnome010
+		}
+	}
 }
 
 elf003 = {

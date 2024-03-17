@@ -116,14 +116,19 @@ d_gnomestrong = {
 }
 
 k_gnome2 = {
-	2120.1.1 = {
-		liege = e_gnome
+	11589.1.1 = {
+		holder = gnome010
+	}
+	11611.1.1 = {
 		holder = gnome003
 	}
 }
 
 d_gnomevil = {
-	2120.1.1 = {
+	11589.1.1 = {
+		holder = gnome010
+	}
+	11611.1.1 = {
 		holder = gnome003
 	}
 }

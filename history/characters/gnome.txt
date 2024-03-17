@@ -136,6 +136,11 @@ gnome010 = {
 	11575.1.1 = {
 		birth = yes
 	}
+	11611.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
 }
 
 gnome011 = {
@@ -206,5 +211,22 @@ gnome014 = {
 	trait = education_learning_3
 	11605.1.1 = {
 		birth = yes
+	}
+}
+
+gnome015 = {
+	name = "Bolkoy"
+	culture = gnome
+	religion = guthix
+	trait = content
+	trait = diligent
+	trait = generous
+	trait = education_stewardship_2
+	11590.1.1 = {
+		birth = yes
+	}
+	11615.1.1 = {
+		employer = gnome003
+		give_council_position = councillor_steward
 	}
 }
