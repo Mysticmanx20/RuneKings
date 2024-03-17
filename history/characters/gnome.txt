@@ -9,7 +9,7 @@ gnome001 = {
 	trait = gregarious
 	trait = education_diplomacy_3
 	disallow_random_traits = yes
-	11588.1.1 = {
+	11581.1.1 = {
 		birth = yes
 	}
 }
@@ -53,4 +53,53 @@ gnome005 = {
 	11594.1.1 = {
 		birth = yes
 	}
+}
+
+gnome006 = {
+	name = "Healthorg"
+	religion = guthix
+	culture = gnome
+	trait = brave
+	trait = diligent
+	trait = just
+	trait = education_learning_3
+	11364.1.1 = {
+		birth = yes
+	}
+	11384.1.1 = {
+		add_spouse = gnome007
+	}
+	11450.1.1 = {
+		death = yes
+	}
+}
+
+gnome007 = {
+	name = "Meshani"
+	female = yes
+	religion = guthix
+	culture = gnome
+	11364.1.1 = {
+		birth = yes
+	}
+	11450.1.1 = {
+		death = yes
+	}
+}
+
+gnome008 = {
+	name = "Argenthorg"
+	father = gnome006
+	mother = gnome007
+	religion = guthix
+	culture = gnome
+	trait = just 
+	trait = education_diplomacy_3
+	11395.1.1 = {
+		birth = yes
+	}
+	11480.1.1 = {
+		death = yes
+	}
+
 }

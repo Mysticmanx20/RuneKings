@@ -230,10 +230,17 @@ c_eastfeldip = {
 }
 
 c_gnomestrong = {
-	11615.1.1 = {
+	11384.1.1 = {
 		liege = 0
+		holder = gnome006
+		change_development_level = 10
+	}
+	11450.1.1 = {
+		holder = gnome008
+	}
+	11601.1.1 = {
 		holder = gnome001
-		change_development_level = 18
+		change_development_level = 16
 	}
 }
 

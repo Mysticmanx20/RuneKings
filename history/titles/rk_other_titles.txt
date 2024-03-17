@@ -90,13 +90,27 @@ k_dwarf = {
 
 
 k_gnome1 = {
-	11600.1.1 = {
+	11384.1.1 = {
+		liege = 0
+		holder = gnome006
+	}
+	11450.1.1 = {
+		holder = gnome008
+	}
+	11601.1.1 = {
 		holder = gnome001
 	}
 }
 
 d_gnomestrong = {
-	11600.1.1 = {
+	11384.1.1 = {
+		liege = 0
+		holder = gnome006
+	}
+	11450.1.1 = {
+		holder = gnome008
+	}
+	11601.1.1 = {
 		holder = gnome001
 	}
 }
