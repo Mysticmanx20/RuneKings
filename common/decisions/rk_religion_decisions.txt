@@ -1,0 +1,73 @@
+﻿
+select_personal_deity_germanic_decision = {
+	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+
+	desc = select_personal_deity_germanic_decision_desc
+	selection_tooltip = select_personal_deity_germanic_decision_tooltip
+
+	is_shown = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Following a valid religion & faith.
+		religion = religion:desert_religion
+		faith = { has_doctrine_parameter = select_personal_god_active }
+	}
+
+	is_valid = {
+		religion = religion:desert_religion
+	}
+
+	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
+	}
+
+	cooldown = { years = 2 }
+
+	effect = {
+		# Show the possible options.
+		show_as_tooltip = {
+			random_list = {
+				desc = select_personal_deity_germanic_decision_tt
+				100 = {
+					show_chance = no
+					desc = select_personal_deity_germanic_decision.select_tumeken
+					add_character_modifier = bhakti_mena_tumeken
+				}
+				100 = {
+					show_chance = no
+					desc = select_personal_deity_germanic_decision.select_elid
+					add_character_modifier = bhakti_mena_elid
+				}
+				100 = {
+					show_chance = no
+					desc = select_personal_deity_germanic_decision.select_itchlarin
+					add_character_modifier = bhakti_mena_itchlarin
+				}
+				100 = {
+					show_chance = no
+					desc = select_personal_deity_germanic_decision.select_amascut
+					add_character_modifier = bhakti_mena_amascut
+				}
+			}
+		}
+		# And the actual effect.
+		trigger_event = religious_decision.0696
+	}
+
+	ai_check_interval = 96
+	
+	ai_potential = {
+		piety >= minor_piety_value
+		NOR = {
+			has_character_modifier = bhakti_mena_tumeken
+			has_character_modifier = bhakti_mena_elid
+			has_character_modifier = bhakti_mena_itchlarin
+			has_character_modifier = bhakti_mena_amascut
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

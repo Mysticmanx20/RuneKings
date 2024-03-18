@@ -16,4 +16,9 @@
   goblin_village_decision_tooltip:0 "Create a secure homeland for goblins"
   goblin_village_decision_confirm:0 "Secure Goblin Village"
 
+  select_personal_deity_germanic_decision.select_tumeken:0 "Tumeken, God of the Sun"
+  select_personal_deity_germanic_decision.select_elid:0 "Elidinis, Goddess of Fertility"
+  select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"
+  select_personal_deity_germanic_decision.select_amascut:0 "Amascut the Devourer"
+
 
