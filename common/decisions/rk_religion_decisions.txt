@@ -22,7 +22,7 @@ select_personal_deity_germanic_decision = {
 		piety >= 0
 	}
 
-	cooldown = { years = 2 }
+	cooldown = { years = 5 }
 
 	effect = {
 		# Show the possible options.

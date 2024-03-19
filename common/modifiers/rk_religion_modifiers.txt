@@ -1,24 +1,24 @@
 ﻿
-bhakti_mena_tumeken = {	# God of... really, just an immense number of things. War, sorcery, death, and poetry are probably the major sphere divisions (or rather, major & misc, for poetry specifically).
+bhakti_mena_tumeken = {	# God of the Sun and main god of the pantheon. Big Daddy of the Desert.
 	icon = tumeken
 	monthly_prestige_gain_mult = 0.1
     monthly_piety_gain_mult = 0.15
 	
 }
 
-bhakti_mena_elid = {	# A major god of war, at least if toponymic archaeology is anything to go by, but existed almost entirely outside of Denmark and doesn't show up much in the Eddas.
+bhakti_mena_elid = {	# Goddess of fertility and growth. 
 	icon = elid
     stewardship = 3
 	fertility = 0.25
 }
 
-bhakti_mena_itchlarin = {	# Another major god of war: shows up mostly *inside* Denmark, but is significantly more famous due to actually being in the Eddas quite a bit.
+bhakti_mena_itchlarin = {	# God of the dead, known for recruiting the Mahjarrat to fight against the Zarosians.
 	icon = itchlarin
     different_faith_opinion = 5
 	levy_reinforcement_rate = 0.15
 }
 
-bhakti_mena_amascut = {	# A god of protection, storms, humanity, and feats of strength. Variously fertility & the harvest sometimes too.
+bhakti_mena_amascut = {	# Once a goddess of rebirth, she has become corrupted and is considered a being of pure destruction.
 	icon = amascut
     intrigue = medium_skill_bonus
 	monthly_piety_gain_per_dread_add = 0.03

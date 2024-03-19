@@ -18,6 +18,10 @@ religious_decision.0696 = {
 			NOT = { has_character_modifier = bhakti_mena_tumeken }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_mena_tumeken }
+
+		ai_chance = {
+			base = 50
+		}
 	}
 
 	# Ullr
@@ -27,6 +31,10 @@ religious_decision.0696 = {
 			NOT = { has_character_modifier = bhakti_mena_elid }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_mena_elid }
+
+		ai_chance = {
+			base = 50
+		}
 	}
 
 	# Tyr
@@ -36,6 +44,10 @@ religious_decision.0696 = {
 			NOT = { has_character_modifier = bhakti_mena_itchlarin }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_mena_itchlarin }
+
+		ai_chance = {
+			base = 50
+		}
 	}
 
 	# Thor
@@ -45,6 +57,10 @@ religious_decision.0696 = {
 			NOT = { has_character_modifier = bhakti_mena_amascut }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_mena_amascut }
+
+		ai_chance = {
+			base = 10
+		}
 	}
 
 
