@@ -59,7 +59,12 @@ religious_decision.0696 = {
 		set_bhakti_effect = { BHAKTI = bhakti_mena_amascut }
 
 		ai_chance = {
-			base = 10
+			base = 0
+
+			modifier = {
+				add = 1000
+				has_trait = witch
+			}
 		}
 	}
 
