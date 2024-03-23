@@ -303,13 +303,6 @@ e_zaros = {
 
 				}
 
-				b_lumcata = {
-					color = { 240 121 0 }
-					province = 80
-					definite_form = yes
-
-				}
-
 				b_bobs = { 
 					color = { 109 48 48 }
 					province = 5
@@ -321,7 +314,18 @@ e_zaros = {
 					color = { 206 101 162 }
 					province = 7
 				}
-			}   
+			}
+			
+			c_lumcata = {
+				color = { 240 121 0}
+
+				b_lumcata = {
+					color = { 240 121 0 }
+					province = 80
+					definite_form = yes
+
+				}
+			}
 
 			c_goblum = {
 				color = {136 112 14 }

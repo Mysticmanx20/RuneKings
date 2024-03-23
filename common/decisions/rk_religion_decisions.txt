@@ -55,7 +55,7 @@ select_personal_deity_germanic_decision = {
 		trigger_event = religious_decision.0696
 	}
 
-	ai_check_interval = 96
+	ai_check_interval = 30
 	
 	ai_potential = {
 		piety >= minor_piety_value
