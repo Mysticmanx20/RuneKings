@@ -2330,7 +2330,7 @@ misth021 = {
 
 misth022 = {
 	name = "Obor"
-	culture = goblin
+	culture = hillgiant
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_2

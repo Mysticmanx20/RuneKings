@@ -371,13 +371,13 @@
 
 442= { #obor
 	religion = bandos
-	culture = goblin
+	culture = hillgiant
 	holding = tribal_holding
 }
 
 443= { #brass shed
 	religion = bandos
-	culture = goblin
+	culture = hillgiant
 	holding = none
 }
 

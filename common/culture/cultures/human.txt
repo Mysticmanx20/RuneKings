@@ -413,6 +413,34 @@ goblin = {     # Goblin
 	}
 }
 
+hillgiant = {     # Hill Giant
+	color = { 1.0 0.92 0.8 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bandos
+	language = language_bandos
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hill_dwellers
+		tradition_warrior_culture
+		tradition_isolationist
+	}
+	
+	name_list = name_list_czech
+
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		45 = slavic_blond
+		5 = slavic_ginger
+		35 = slavic_brown_hair
+		15 = slavic_dark_hair
+	}
+}
+
 ogre = {     # Ogre
 	color = { 0.49 0.36 0.23 }
 	
