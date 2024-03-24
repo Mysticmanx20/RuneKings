@@ -299,3 +299,14 @@ gob020 = {
 		employer = 900302
 	}
 }
+
+gob021 = {
+	name = "Stinkypits"
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = education_martial_1
+	11595.1.1 = {
+		birth = yes
+	}
+}

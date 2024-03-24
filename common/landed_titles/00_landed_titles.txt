@@ -140,6 +140,29 @@ e_zaros = {
 				}
 
 			}
+
+			c_hillgiants = {
+				color = { 197 151 0 }
+
+				b_obor = {
+					color = { 197 151 0 }
+					province = 442
+				}
+
+				b_brass = {
+					color = { 104 95 0 }
+					province = 443
+				}
+			}
+
+			c_westgobs = {
+				color = { 87 151 0 }
+
+				b_westgobs = {
+					color = { 87 151 0 }
+					province = 444
+				}
+			}
 		}
 
 		d_jollyb = {

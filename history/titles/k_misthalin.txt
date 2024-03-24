@@ -382,3 +382,19 @@ b_bobs = {
 	}
 }
 
+c_hillgiants = {
+	11615.1.1 = {
+		liege = 0
+		holder = misth022
+		change_development_level = 2
+	}
+}
+
+c_westgobs = {
+	11615.1.1 = {
+		liege = 0
+		holder = gob021
+		change_development_level = 2
+	}
+}
+

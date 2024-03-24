@@ -2328,3 +2328,15 @@ misth021 = {
 	}
 }
 
+misth022 = {
+	name = "Obor"
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = education_martial_2
+	11593.1.1 = {
+		birth = yes
+	}
+}
+
+

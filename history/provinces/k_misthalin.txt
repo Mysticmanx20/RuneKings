@@ -369,3 +369,21 @@
 	holding = castle_holding
 }
 
+442= { #obor
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
+443= { #brass shed
+	religion = bandos
+	culture = goblin
+	holding = none
+}
+
+444 = { #doogle forest
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
