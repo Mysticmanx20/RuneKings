@@ -1,7 +1,7 @@
-game_object_locator={
+﻿game_object_locator={
 	name="buildings"
+	render_pass=Map
 	clamp_to_water_level=yes
-	render_under_water=no
 	generated_content=no
 	layer="building_layer"
 	instances={
@@ -235,7 +235,7 @@ game_object_locator={
 		}
 		{
 			id=40
-			position={ 5305.966797 0.000000 1663.104004 }
+			position={ 5307.251465 0.000000 1661.849609 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -2239,19 +2239,19 @@ game_object_locator={
 		}
 		{
 			id=442
-			position={ 0.000000 0.000000 -3.000000 }
+			position={ 5605.624023 0.000000 2450.759033 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
 			id=443
-			position={ 0.000000 0.000000 -3.000000 }
+			position={ 5612.443359 0.000000 2414.128174 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{
 			id=444
-			position={ 0.000000 0.000000 -3.000000 }
+			position={ 5636.109375 0.000000 2327.669678 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
