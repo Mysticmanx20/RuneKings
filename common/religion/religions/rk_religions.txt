@@ -31,6 +31,8 @@ zam_religion = {    #Zamorak
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_pilgrimage_encouraged
+
 	doctrine = doctrine_funeral_stoic
 
 	traits = {
@@ -266,6 +268,8 @@ zaros_religion = {    #Zaros
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = doctrine_funeral_stoic
 
@@ -763,6 +767,7 @@ monkey_religion = {    #Karamja Jungle Gods
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_forbidden
 
 	#Marriage
 	doctrine = doctrine_monogamy
@@ -1021,6 +1026,7 @@ sara_religion = {
 	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
 
 	#Marriage
 	doctrine = doctrine_monogamy
@@ -1335,6 +1341,8 @@ fremennik_religion = {
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	doctrine = doctrine_pilgrimage_encouraged
+
 	doctrine = doctrine_funeral_cremation
 
 	traits = {
@@ -1529,6 +1537,9 @@ fremennik_religion = {
 		v = {
 			color = { 1.0 0.66 0.07 }
 			icon = v
+			holy_site = lakespirit
+			holy_site = lunarmine
+			#holy_site = islandofstone
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_ancestor_worship
@@ -1587,6 +1598,8 @@ guthix_religion = {
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = doctrine_funeral_bewailment
 
@@ -1801,10 +1814,14 @@ guthix_religion = {
 		oldfrem = {                       # old fremennik religion (mountain tribe)
 			color = { 0.62 0.51 0.44 }
 			icon = oldfrem
+			holy_site = lakespirit
+			holy_site = lunarmine
+			#holy_site = islandofstone
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_pastoral_isolation
+
 
 
 			doctrine = doctrine_no_head
@@ -1842,10 +1859,16 @@ guthix_religion = {
 		godless = {
 			color = { 1.0 0.31 0.0 }
 			icon = godless
+			holy_site = tavcircle
+			holy_site = grandtree
+			holy_site = keldagrim
+			holy_site = varcircle
+			holy_site = tears
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_aniconism
 			doctrine = tenet_false_conversion_sanction
+			doctrine = doctrine_pilgrimage_forbidden
 
 			localization = {
 				ReligiousText = GODLESS_SCRIPTURES_NAME
@@ -1892,6 +1915,8 @@ seren_religion = {
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = doctrine_funeral_bewailment
 
@@ -2077,6 +2102,10 @@ seren_religion = {
 		seren = {
 			color = { 0.0 1.0 1.0 }
 			icon = seren
+			holy_site = gorlah
+			holy_site = prif
+			holy_site = light
+			holy_site = waterfall
 
 
 			doctrine = tenet_dharmic_pacifism
@@ -2145,6 +2174,8 @@ bandos_religion = {
 	#Merit-based clerical succession
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 	doctrine = doctrine_temporal_head
+
+	doctrine = doctrine_pilgrimage_forbidden
 
 	doctrine = doctrine_funeral_mummification
 
@@ -2595,6 +2626,9 @@ arm_religion = {    #Armadyl
 		armadyl = {
 			color = { 0.54 0.81 0.94 }
 			icon = armadyl
+			holy_site = ikov
+			holy_site = tower
+			holy_site = stormguard
 
 			
 
@@ -2654,6 +2688,8 @@ desert_religion = {
 	#Merit-based clerical succession
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 	doctrine = doctrine_temporal_head
+
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = doctrine_funeral_mummification
 
@@ -2871,6 +2907,7 @@ desert_religion = {
 			doctrine = doctrine_no_head 
 			doctrine = doctrine_theocracy_temporal
 			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_pilgrimage_encouraged
 			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_witchcraft_accepted
 			doctrine = doctrine_concubines

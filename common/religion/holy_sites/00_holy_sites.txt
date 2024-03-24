@@ -361,3 +361,97 @@ elid = {
 		stewardship = 1
 	}
 }
+
+
+
+############ Fremennik
+
+lakespirit = {
+	county = c_fremaltar
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+lunarmine = {
+	county = c_lunarmine
+
+	character_modifier = {
+		name = holy_site_falador_effect_name
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+
+################ Armadyl
+
+ikov = {
+	county = c_ikov
+
+	character_modifier = {
+		name = holy_site_preslav_effect_name
+		levy_size = 0.1
+	}
+
+}
+
+stormguard = {
+	county = c_ardy
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.1
+		learning = 1
+	}
+}
+
+tower = {
+	county = c_craft
+
+	character_modifier = {
+		name = holy_site_sinjar_effect_name
+		clergy_opinion = 10
+		monthly_prestige_gain_mult = 0.2
+	}
+}
+
+
+
+################## Seren
+
+light = {
+	county = c_westardy
+
+	character_modifier = {
+		name = holy_site_eviltemple_effect_name
+		dread_baseline_add = 5
+	}
+}
+
+prif = {
+	county = c_prif
+
+	
+	character_modifier = {
+		name = holy_site_itanagar_effect_name
+		monthly_prestige_gain_mult = 0.1
+	}
+}
+
+gorlah = {
+	county = c_gorlah
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+waterfall = {
+	county = c_almera
+
+	character_modifier = {
+		name = holy_site_sennar_effect_name
+		diplomacy = 2
+	}
+}

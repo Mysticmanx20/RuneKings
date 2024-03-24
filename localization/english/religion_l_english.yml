@@ -48,3 +48,29 @@ holy_site_kings_name:0 "Tomb of Kings"
 holy_site_golden_name:0 "Golden Palace"
 holy_site_elid_name:0 "Elidinis' Cave"
 holy_site_necro_name:0 "Tomb of the Father"
+
+
+
+#####################
+# Fremennik
+
+holy_site_lakespirit_name:0 "Fossegrimen's Altar"
+holy_site_lunarmine_name:0 "Rune Essence Cavern"
+
+
+
+
+################### Armadyl
+
+holy_site_tower_name:0 "Empyrean Citadel"
+holy_site_ikov_name:0 "Temple of Ikov"
+holy_site_stormguard_name:0 "Stormguard Citadel"
+
+
+
+################### Seren
+
+holy_site_light_name:0 "Temple of Light"
+holy_site_prif_name:0 "Prifddinas"
+holy_site_gorlah_name:0 "Gorlah"
+holy_site_waterfall_name:0 "Baxtorian Falls"
