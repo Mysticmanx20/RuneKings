@@ -200,6 +200,10 @@ goblin_village_decision = {
 				target = flag:flag_goblin_village
 			}
 		}
+
+		culture:goblin = {
+			add_innovation = innovation_all_things
+		}
 	}
 
 	ai_potential = {
