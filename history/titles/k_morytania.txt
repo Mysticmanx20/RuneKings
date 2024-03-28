@@ -78,11 +78,13 @@ c_burgderot ={
 	}
 }
 
-b_hmine = {
+c_hmine = {
 	11596.1.1 = {
+		liege = k_morytania
 		holder = 900508
 	}
 }
+
 
 c_canifis = {
 	11615.1.1 = {

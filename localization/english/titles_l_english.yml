@@ -791,7 +791,14 @@ c_gorlah:0 "Gorlah"
 b_gorlah:0 "Gorlah"
 b_gorhunt:0 "Gorlah Plain"
 b_gorhill:0 "Gorlah Hill"
-
+d_slepe:0 "Slepe"
+k_mortmyre:0 "Mort Myre"
+k_northcoast:0 "North Coast"
+c_hmine:0 "Mort Ridge Mine"
+c_deadfields:0 "Rotting Woods"
+d_mortton:0 "Mort'ton"
+d_mortmyre:0 "Mort Myre"
+c_cromb:0 "Crombwick Manor"
 
 
 

@@ -121,13 +121,13 @@
 93 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 94 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = none
+	holding = tribal_holding
 }
 
 95 = {  

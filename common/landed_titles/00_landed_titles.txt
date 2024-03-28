@@ -2908,6 +2908,209 @@ e_morytania = {
 		}
 	}
 
+	k_northcoast = {
+		color = {182 165 46}
+		capital = c_fenk
+
+		d_canifis = {
+			color = {151 102 46}
+			capital = c_canifis
+
+			cultural_names = {
+				name_list_mahjarrat = cn_khar
+			}
+
+			c_canifis = {
+				color = {151 102 46}
+
+				cultural_names = {
+					name_list_mahjarrat = cn_khar
+				}
+
+				b_canifis = {
+					color = {151 102 46}
+					province = 75
+				}
+
+				b_slayer = {
+					color = {180 46 17}
+					province = 81
+				}
+
+				b_crone = {
+					color = {68 53 12}
+					province = 82
+				}
+
+				b_crossroads = {
+					color = {92 108 12}
+					province = 83
+				}
+
+				b_werewolf = {
+					color = {117 74 0 }
+					province = 84
+				}
+			}
+
+		}
+
+		d_northcoast = {
+			color = {182 165 46}
+			capital = c_fenk
+
+			c_fenk = { 
+				color = {182 165 46}
+
+				b_fenk = {
+					color = {182 165 46}
+					province = 76
+				}
+
+				b_deadfarm = {
+					color = {202 64 141 }
+					province = 107
+				}
+
+				b_hwoods = {
+					color = { 107 0 41 }
+					province = 85
+					definite_form = yes
+				}
+			}
+		}
+
+		d_phas = {
+			color = {135 255 106}
+			capital = c_portphas 
+
+			c_portphas = {
+				color = {186 255 0}
+
+				b_ecto = {
+					color = {186 255 0 }
+					province = 86
+				}
+				
+				b_portphas = {
+					color = {135 255 106}
+					province = 73
+				}
+
+				b_eastwoods = {
+					color = {11 180 117 }
+					province = 87
+				}
+
+				b_southbank = {
+					color = {11 0 117}
+					province = 88
+				}
+
+			}
+
+		}
+	}
+
+	k_mortmyre = {
+		color = { 58 87 49 }
+		capital = c_burgderot
+
+		d_mortton = {
+			color = { 160 160 0 }
+			capital = c_mortton
+
+			c_mortton = {
+				color = {160 160 0}
+
+				b_mortton = {
+					color = {160 160 0}
+					province = 71
+				}
+
+				b_swamptrail = {
+					color = {0 141 255}
+					province = 91
+				}
+
+				b_barrows = {
+					color= {78 151 0}
+					province = 92
+				}
+			}
+
+		}
+
+		d_burgderot = {
+			color = {151 72 0}
+			capital = c_burgderot
+
+			c_burgderot = {
+				color = {151 72 0}
+
+				b_burgderot = {
+					color = {151 72 0}
+					province = 70
+				}
+			}
+
+			c_hmine = {
+				color = { 112 32 0 }
+
+				b_hmine = {
+					color = {112 32 0}
+					province = 93
+				}
+			}
+
+			c_deadfields = {
+				color = { 202 64 0 }
+
+				b_deadfields = {
+					color = {202 64 0}
+					province = 94
+					definite_form = yes
+				}
+			}
+			
+		}
+
+		d_mortmyre = {
+			color = { 58 87 49 }
+			capital = c_mortmyre
+
+			c_mortmyre = {
+				color = {58 87 49}
+
+				cultural_names = {
+					name_list_icyene = cn_humble
+				}
+
+				b_myreque = {
+					color = {255 197 12 }
+					province = 89
+				}
+
+				b_nature = {
+					color = {0 255 2 }
+					province = 90
+				}
+
+				b_grave = {
+					color = {211 0 24 }
+					province = 106
+				}
+				
+				b_mortmyre = {
+					color = {58 87 49}
+					province = 74
+				}
+			}
+
+		}
+
+	}
+
 	k_morytania = {
 		color = { 173 61 0 }
 		capital = c_darkmeyer
@@ -2986,86 +3189,12 @@ e_morytania = {
 
 		}
 
-		d_burgderot = {
-			color = {151 72 0}
-			capital = c_burgderot
-
-			c_burgderot = {
-				color = {151 72 0}
-
-				b_burgderot = {
-					color = {151 72 0}
-					province = 70
-				}
-
-				b_hmine = {
-					color = {112 32 0}
-					province = 93
-				}
-
-				b_deadfields = {
-					color = {202 64 0}
-					province = 94
-					definite_form = yes
-				}
-			}
-
-			c_mortton = {
-				color = {160 160 0}
-
-				b_mortton = {
-					color = {160 160 0}
-					province = 71
-				}
-
-				b_swamptrail = {
-					color = {0 141 255}
-					province = 91
-				}
-
-				b_barrows = {
-					color= {78 151 0}
-					province = 92
-				}
-			}
-		}
-
-		d_phas = {
-			color = {135 255 106}
-			capital = c_portphas 
-
-			c_portphas = {
-				color = {186 255 0}
-
-				b_ecto = {
-					color = {186 255 0 }
-					province = 86
-				}
-				
-				b_portphas = {
-					color = {135 255 106}
-					province = 73
-				}
-
-				b_eastwoods = {
-					color = {11 180 117 }
-					province = 87
-				}
-
-				b_southbank = {
-					color = {11 0 117}
-					province = 88
-				}
-
-			}
+		d_slepe = {
+			color = { 93 114 88 }
+			capital = c_slepe
 
 			c_slepe = {
 				color = {93 114 88}
-
-				b_cromb = {
-					color = {156 165 95}
-					province = 105
-				}
 
 				b_ratbat = {
 					color = {255 92 58 }
@@ -3082,102 +3211,19 @@ e_morytania = {
 					province = 72
 				}
 			}
+
+			c_cromb = {
+				color = { 156 165 95 }
+
+				b_cromb = {
+					color = {156 165 95}
+					province = 105
+				}
+
+			}
+
 		}
-
-		d_canifis = {
-			color = {151 102 46}
-			capital = c_canifis
-
-			cultural_names = {
-				name_list_mahjarrat = cn_khar
-			}
-
-			c_canifis = {
-				color = {151 102 46}
-
-				cultural_names = {
-					name_list_mahjarrat = cn_khar
-				}
-
-				b_canifis = {
-					color = {151 102 46}
-					province = 75
-				}
-
-				b_slayer = {
-					color = {180 46 17}
-					province = 81
-				}
-
-				b_crone = {
-					color = {68 53 12}
-					province = 82
-				}
-
-				b_crossroads = {
-					color = {92 108 12}
-					province = 83
-				}
-
-				b_werewolf = {
-					color = {117 74 0 }
-					province = 84
-				}
-			}
-
-			c_mortmyre = {
-				color = {58 87 49}
-
-				cultural_names = {
-					name_list_icyene = cn_humble
-				}
-
-				b_myreque = {
-					color = {255 197 12 }
-					province = 89
-				}
-
-				b_nature = {
-					color = {0 255 2 }
-					province = 90
-				}
-
-				b_grave = {
-					color = {211 0 24 }
-					province = 106
-				}
-				
-				b_mortmyre = {
-					color = {58 87 49}
-					province = 74
-				}
-			}
-		}
-
-		d_northcoast = {
-			color = {182 165 46}
-			capital = c_fenk
-
-			c_fenk = { 
-				color = {182 165 46}
-
-				b_fenk = {
-					color = {182 165 46}
-					province = 76
-				}
-
-				b_deadfarm = {
-					color = {202 64 141 }
-					province = 107
-				}
-
-				b_hwoods = {
-					color = { 107 0 41 }
-					province = 85
-					definite_form = yes
-				}
-			}
-		}
+		
 	}
 
 	k_harmless = {
