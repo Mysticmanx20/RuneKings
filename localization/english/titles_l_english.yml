@@ -799,6 +799,11 @@ c_deadfields:0 "Rotting Woods"
 d_mortton:0 "Mort'ton"
 d_mortmyre:0 "Mort Myre"
 c_cromb:0 "Crombwick Manor"
+c_vers:0 "Ver Sinhaza"
+c_nature:0 "South Myre"
+c_graveyard:0 "Graveyard"
+c_swamptrail:0 "Swamp Trail"
+c_barrows:0 "The Barrows"
 
 
 

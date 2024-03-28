@@ -3028,15 +3028,26 @@ e_morytania = {
 					province = 71
 				}
 
+			}
+
+			c_swamptrail = {
+				color = { 0 141 255 }
+
 				b_swamptrail = {
 					color = {0 141 255}
 					province = 91
 				}
 
+			}
+
+			c_barrows = {
+				color = { 78 151 0}
+
 				b_barrows = {
 					color= {78 151 0}
 					province = 92
 				}
+
 			}
 
 		}
@@ -3091,20 +3102,31 @@ e_morytania = {
 					province = 89
 				}
 
-				b_nature = {
-					color = {0 255 2 }
-					province = 90
-				}
-
-				b_grave = {
-					color = {211 0 24 }
-					province = 106
-				}
 				
 				b_mortmyre = {
 					color = {58 87 49}
 					province = 74
 				}
+			}
+
+			c_graveyard = {
+				color = { 211 0 24 }
+
+				b_grave = {
+					color = {211 0 24 }
+					province = 106
+				}
+
+			}
+
+			c_nature = {
+				color = { 0 255 2 }
+
+				b_nature = {
+					color = {0 255 2 }
+					province = 90
+				}
+
 			}
 
 		}
@@ -3151,11 +3173,6 @@ e_morytania = {
 			c_mditch = {
 				color = {119 66 115}
 
-				b_vers = {
-					color= {119 66 115}
-					province = 102
-				}
-
 				b_m1 ={
 					color= {255 44 129}
 					province = 95
@@ -3185,6 +3202,16 @@ e_morytania = {
 					color = {129 148 66}
 					province = 101
 				}
+			}
+
+			c_vers = {
+				color = { 119 66 115 }
+
+				b_vers = {
+					color= {119 66 115}
+					province = 102
+				}
+
 			}
 
 		}

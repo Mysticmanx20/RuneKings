@@ -46,6 +46,12 @@ c_slepe = {
 	}
 }
 
+c_cromb = {
+	11620.1.1 = {
+		holder = 900502
+	}
+}
+
 c_mortton = {
 	11506.1.1 = {
 		holder = 900503
@@ -59,10 +65,7 @@ c_mortmyre = {
 	}
 }
 
-b_nature = {
-	11600.1.1 = {
-		liege = c_mortmyre
-	}
+c_nature = {
 	11605.1.1 = {
 		holder = 900510
 	}
@@ -82,6 +85,7 @@ c_hmine = {
 	11596.1.1 = {
 		liege = k_morytania
 		holder = 900508
+		change_development_level = 1
 	}
 }
 
@@ -102,6 +106,13 @@ c_mditch = {
 		holder = 900512
 		government = clan_government
 		change_development_level = 5
+	}
+}
+
+c_vers = {
+	11600.1.1 = {
+		holder = 900512
+		change_development_level = 8
 	}
 }
 
