@@ -49,6 +49,7 @@ c_slepe = {
 c_cromb = {
 	11620.1.1 = {
 		holder = 900502
+		change_development_level = 6
 	}
 }
 
@@ -62,12 +63,21 @@ c_mortton = {
 c_mortmyre = {
 	11608.1.1 = {
 		holder = 900516
+		change_development_level = 2
 	}
 }
 
 c_nature = {
 	11605.1.1 = {
 		holder = 900510
+		change_development_level = 2
+	}
+}
+
+c_graveyard = {
+	11500.1.1 = {
+		
+		change_development_level = 2
 	}
 }
 
