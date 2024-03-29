@@ -804,6 +804,12 @@ c_nature:0 "South Myre"
 c_graveyard:0 "Graveyard"
 c_swamptrail:0 "Swamp Trail"
 c_barrows:0 "The Barrows"
+c_giants:0 "Giant's Plateau"
+c_shantay:0 "Shantay Pass"
+c_duelarena:0 "Duel Arena"
+c_duelarena_article:0 "The "
+c_magetrain_article:0 "The "
+c_magetrain:0 "Mage Training Arena"
 
 
 

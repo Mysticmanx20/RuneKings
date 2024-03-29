@@ -5,9 +5,9 @@
 }
 
 22 = {		#Giant
-	culture = kharidian
-	religion = menaph
-	holding = none
+	culture = hillgiant
+	religion = bandos
+	holding = tribal_holding
 }
 
 23 = {		#Citharade
@@ -25,11 +25,12 @@
 25 = {		#ScorpMine
 	culture = kharidian
 	religion = menaph
-	holding = none
+	holding = tribal_holding
 }
 
 26 = {		#MageArena
 	culture = misthalin
+	religion = saradomin
 	holding = castle_holding
 }
 

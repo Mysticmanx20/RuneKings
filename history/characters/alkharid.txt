@@ -1031,3 +1031,30 @@
 		}
 	}
 }
+
+900876 = {
+	name = "Kovac"
+	religion = bandos
+	culture = hillgiant
+	trait = humble
+	trait = generous
+	trait = diligent
+	trait = education_learning_1
+	disallow_random_traits = yes
+	11585.1.1 = {
+		birth = yes
+	}
+}
+
+desert001 = {
+	name = "Polletix"
+	female = yes
+	religion = guthix
+	culture = misthalin
+	trait = humble
+	trait = lifestyle_gardener
+	trait = education_learning_2
+	11583.1.1 = {
+		birth = yes
+	}
+}

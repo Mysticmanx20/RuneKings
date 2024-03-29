@@ -19,18 +19,35 @@ c_alkharid = {
 	}
 }
 
-c_northkharid = {
+c_duelarena = {
 	11580.1.1 = {
 		liege = k_alkharid
 		holder = 900803
-		change_development_level = 11
+		change_development_level = 10
 		government = feudal_government
 	}
 }
 
-b_magetrain = {
+c_magetrain = {
 	11616.1.1 = {
 		holder = 900802
+		change_development_level = 8
+	}
+}
+
+c_northkharid = {
+	11618.1.1 = {
+		liege = k_alkharid
+		holder = desert001
+		change_development_level = 3
+	}
+}
+
+c_giants = {
+	11618.1.1 = {
+		liege = 0
+		holder = 900876
+		change_development_level = 4
 	}
 }
 
@@ -42,9 +59,11 @@ c_citharade = {
 	}
 }
 
-b_shantay = {
+c_shantay = {
 	11620.1.1 = {
+		liege = k_alkharid
 		holder = 900874
+		change_development_level = 9
 	}
 }
 

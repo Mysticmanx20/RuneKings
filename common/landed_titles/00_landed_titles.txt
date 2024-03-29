@@ -1229,20 +1229,28 @@ e_zaros = {
 				b_alkharid = {
 					color = { 187 197 108 }
 					province = 21
-					}
+				}
 
+		    }
 
-				b_giants = {
-					color = { 104 54 44 }
-					province = 22
-					}
+			c_shantay = {
+				color = { 227 114 0 }
 
 				b_shantay = {
 					color = { 227 114 0 }
 					province = 24
-					}
+				}
+			}
 
-		    }
+			c_giants = {
+				color = { 104 54 44 }
+
+				b_giants = {
+					color = { 104 54 44 }
+					province = 22
+				}
+
+			}
 
 			c_citharade = {
 				color = { 66 0 140 }
@@ -1258,26 +1266,36 @@ e_zaros = {
 
 		d_northkharid = {
 			color = { 245 215 77 }
-			capital = c_northkharid
+			capital = c_duelarena
 
 			c_northkharid = {
 				color = { 245 215 77 }
-				
-
-				b_duelarena = {
-					color = { 245 215 77 }
-					province = 27
-					}
 
 				b_scorpmine = {
 					color = { 142 52 0 }
 					province = 25
-					}
+				}
+
+			}
+
+			c_duelarena = {
+				color = { 245 215 77 }
+
+				b_duelarena = {
+					color = { 245 215 77 }
+					province = 27
+				}
+
+			}
+
+			c_magetrain = {
+				color = { 140 238 255 }
 
 				b_magetrain = {
 					color = { 140 238 255 }
 					province = 26
-					}
+				}
+
 			}
 					
 		}
