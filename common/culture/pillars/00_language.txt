@@ -19,6 +19,24 @@ language_common = {
 	color = frankish
 }
 
+language_scabarite = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_scabarite
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_scabarite }
+			multiply = 10
+		}
+	}
+	
+	color = gaelic
+}
+
 language_element = {
 	type = language
 	is_shown = {

@@ -1058,3 +1058,17 @@ desert001 = {
 		birth = yes
 	}
 }
+
+desert002 = {
+	name = "Kalphite Queen"
+	female = yes
+	religion = menaph
+	culture = kalphite
+	trait = diligent
+	trait = lustful
+	trait = arbitrary
+	trait = education_martial_4
+	11590.1.1 = {
+		birth = yes
+	}
+}

@@ -192,6 +192,14 @@ c_bedabin = {
 	}
 }
 
+c_kalphite = {
+	11615.1.1 = {
+		liege = 0
+		holder = desert002
+		change_development_level = 1
+	}
+}
+
 c_bandit = {
 	11599.1.1 = {
 		holder = 900822

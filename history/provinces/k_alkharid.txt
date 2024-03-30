@@ -47,9 +47,9 @@
 }
 
 109 = {  #Khalphite
-	culture = kharidian
+	culture = kalphite
 	religion = menaph
-	holding = none
+	holding = tribal_holding
 }
 
 110 = {  #MineCamp

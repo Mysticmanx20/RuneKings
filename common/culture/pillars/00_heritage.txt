@@ -23,6 +23,11 @@ heritage_bandos = {
 	audio_parameter = mena
 }
 
+heritage_scabarite = {
+	type = heritage
+	audio_parameter = mena
+}
+
 heritage_dwarf = {
 	type = heritage
 	audio_parameter = european

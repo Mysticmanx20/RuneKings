@@ -2751,15 +2751,20 @@ e_kharid = {
 					province = 112
 				}
 
+				b_westdesert = {
+					color = {124 117 98 }
+					province = 111
+				}
+			}
+
+			c_kalphite = {
+				color = { 44 204 56 }
+
 				b_kalphite = {
 					color = { 44 204 56}
 					province = 109
 				}
 
-				b_westdesert = {
-					color = {124 117 98 }
-					province = 111
-				}
 			}
 		}
 
