@@ -2479,6 +2479,12 @@ e_kharid = {
 
 			}
 
+		}
+
+		d_unkah = {
+			color = { 70 255 146 }
+			capital = c_unkah
+
 			c_unkah = {
 				color = { 70 255 146}
 				
@@ -2487,15 +2493,26 @@ e_kharid = {
 					province = 128
 				}
 
-				b_unkahsouth = {
-					color = {199 34 41}
-					province = 129
-				}
+			}
+
+			c_unkahmine = {
+				color = { 70 83 146 }
 
 				b_unkahmine = {
 					color = {70 83 146}
 					province = 127
 				}
+
+			}
+
+			c_unkahsouth = {
+				color = { 199 34 41 }
+
+				b_unkahsouth = {
+					color = {199 34 41}
+					province = 129
+				}
+
 			}
 
 		}
@@ -2544,6 +2561,111 @@ e_kharid = {
 			}
 
 		}
+
+		d_nardah = {
+			color = {91 135 127 }
+			capital = c_nardah 
+
+			c_nardah = {
+				color = { 91 135 127 }
+
+				b_nardah = {
+					color = {91 135 127 }
+					province = 121
+				}
+
+			}
+
+			c_agility = {
+				color = { 211 136 80}
+
+				b_agility = {
+					color = { 211 136 80 }
+					province = 119
+				}
+
+			}
+
+			c_southdesert = {
+				color = { 211 32 90 }
+
+				b_southdesert = {
+					color = { 211 32 90}
+					province = 120
+				}
+
+			}
+
+		}
+
+		d_ullek = {
+			color = { 0 109 53 }
+			capital = c_ullek
+
+			c_ullek = {
+				color = {0 109 53 }
+
+				b_ullek = {
+					color = {0 109 53}
+					province = 135 
+				}
+
+			}
+
+			c_ulleksea = {
+				color = { 0 184 255 }
+
+				b_ulleksea = {
+					color = {0 184 255 }
+					province = 134
+				}
+
+			}
+
+			c_ullekmine = {
+				color = { 255 0 88 }
+
+				b_ullekmine = {
+					color = {255 0 88 }
+					province = 133
+				}
+
+			}
+
+
+		}
+
+		d_bandit = {
+			color = {178 0 168 }
+			capital = c_bandit 
+
+			c_bandit = {
+				color = {178 0 168 }
+
+				b_bandit = {
+					color = { 178 0 168 }
+					province = 113
+				}
+
+
+			}
+
+			c_quarry = {
+				color = { 146 67 27 }
+
+				b_quarry = {
+					color = {146 67 27 }
+					province = 114
+				}
+
+			}
+		}
+
+	}
+
+	k_uzer = {
+		color = { 255 251 176 }
+		capital = c_uzer
 
 		d_uzer = {
 			color = { 255 251 176 }
@@ -2638,100 +2760,6 @@ e_kharid = {
 					color = {124 117 98 }
 					province = 111
 				}
-			}
-		}
-
-		d_nardah = {
-			color = {91 135 127 }
-			capital = c_nardah 
-
-			c_nardah = {
-				color = { 91 135 127 }
-
-				b_nardah = {
-					color = {91 135 127 }
-					province = 121
-				}
-
-			}
-
-			c_agility = {
-				color = { 211 136 80}
-
-				b_agility = {
-					color = { 211 136 80 }
-					province = 119
-				}
-
-			}
-
-			c_southdesert = {
-				color = { 211 32 90 }
-
-				b_southdesert = {
-					color = { 211 32 90}
-					province = 120
-				}
-
-			}
-
-		}
-
-		d_ullek = {
-			color = { 0 109 53 }
-			capital = c_ullek
-
-			c_ullek = {
-				color = {0 109 53 }
-
-				b_ullek = {
-					color = {0 109 53}
-					province = 135 
-				}
-
-			}
-
-			c_ulleksea = {
-				color = { 0 184 255 }
-
-				b_ulleksea = {
-					color = {0 184 255 }
-					province = 134
-				}
-
-			}
-
-			c_ullekmine = {
-				color = { 255 0 88 }
-
-				b_ullekmine = {
-					color = {255 0 88 }
-					province = 133
-				}
-
-			}
-
-
-		}
-
-		d_bandit = {
-			color = {178 0 168 }
-			capital = c_bandit 
-
-			c_bandit = {
-				color = {178 0 168 }
-
-				b_bandit = {
-					color = { 178 0 168 }
-					province = 113
-				}
-
-
-				b_quarry = {
-					color = {146 67 27 }
-					province = 114
-				}
-
 			}
 		}
 

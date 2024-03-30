@@ -162,6 +162,20 @@ c_unkah = {
 	}
 }
 
+c_unkahsouth = {
+	11618.1.1 = {
+		holder = 900824
+		change_development_level = 2
+	}
+}
+
+c_unkahmine = {
+	11618.1.1 = {
+		holder = 900824
+		change_development_level = 3
+	}
+}
+
 c_minecamp = {
 	11600.1.1 = {
 		holder = 900820
@@ -183,6 +197,13 @@ c_bandit = {
 		holder = 900822
 		liege = 0
 		change_development_level = 4
+	}
+}
+
+c_quarry = {
+	11620.1.1 = {
+		holder = 900822
+		change_development_level = 3
 	}
 }
 

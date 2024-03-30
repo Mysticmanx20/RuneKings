@@ -818,7 +818,10 @@ c_southdesert:0 "South Desert"
 c_ulleksea:0 "Ullek Coast"
 c_ullekmine:0 "Ullek Mine"
 d_ullek:0 "Ullek"
-
-
+d_unkah:0 "Unkah"
+c_unkahmine:0 "Unkah Mine"
+c_unkahsouth:0 "Unkah Desert"
+c_quarry:0 "Desert Quarry"
+k_uzer:0 "Uzer"
 
 
