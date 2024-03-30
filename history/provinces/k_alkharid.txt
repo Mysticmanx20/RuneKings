@@ -79,7 +79,7 @@
 114 = {  #Quarry
 	culture = kharidian
 	religion = menaph
-	holding = none
+	holding = tribal_holding
 }
 
 115 = {  #AncientP
@@ -103,7 +103,7 @@
 118 = {  #SouthOasis
 	culture = menaphite
 	religion = menaph
-	holding = none
+	holding = castle_holding
 }
 
 119 = {  #AgilityP
@@ -115,7 +115,7 @@
 120 = {  #South Des
 	culture = menaphite
 	religion = menaph
-	holding = none
+	holding = castle_holding
 }
 
 121 = {  #Nardah
@@ -187,13 +187,13 @@
 133 = {  #UllekMine
 	culture = menaphite
 	religion = menaph
-	holding = none
+	holding = tribal_holding
 }
 
 134 = {  #UllekCoast
 	culture = menaphite
 	religion = menaph
-	holding = none
+	holding = tribal_holding
 }
 
 135 = {  #Ullek

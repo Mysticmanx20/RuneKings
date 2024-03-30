@@ -810,6 +810,15 @@ c_duelarena:0 "Duel Arena"
 c_duelarena_article:0 "The "
 c_magetrain_article:0 "The "
 c_magetrain:0 "Mage Training Arena"
+c_deserttreasure:0 "Jaldraocht"
+d_soph:0 "Sophanem"
+c_sophdesert:0 "South Oasis"
+c_agility:0 "Jaleustrophos"
+c_southdesert:0 "South Desert"
+c_ulleksea:0 "Ullek Coast"
+c_ullekmine:0 "Ullek Mine"
+d_ullek:0 "Ullek"
+
 
 
 

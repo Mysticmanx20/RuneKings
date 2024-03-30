@@ -85,13 +85,39 @@ c_nardah = {
 	}
 }
 
-b_agility = {
+c_southdesert = {
+	11602.1.1 = {
+		holder = 900817
+		change_development_level = 4
+	}
+}
+
+c_agility = {
 	11620.1.1 = {
+		liege = 0
 		holder = 900862
 	}
 }
 
 c_ullek = {
+	11520.1.1 = {
+		holder = 900828
+		liege = 0
+		government = feudal_government
+		change_development_level = 2
+	}
+}
+
+c_ulleksea = {
+	11520.1.1 = {
+		holder = 900828
+		liege = 0
+		government = feudal_government
+		change_development_level = 2
+	}
+}
+
+c_ullekmine = {
 	11520.1.1 = {
 		holder = 900828
 		liege = 0
@@ -160,8 +186,8 @@ c_bandit = {
 	}
 }
 
-b_ancientp = {
-	11599.1.1 = {
+c_deserttreasure = {
+	11620.1.1 = {
 		holder = 900822
 	}
 }
@@ -213,6 +239,13 @@ c_soph = {
 		holder = 900860
 		change_development_level = 9
 		government = feudal_government
+	}
+}
+
+c_sophdesert = {
+	11620.1.1 = {
+		holder = 900860
+		change_development_level = 5
 	}
 }
 

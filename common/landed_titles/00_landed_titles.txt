@@ -1202,106 +1202,6 @@ e_zaros = {
 		
 	}
 
-	k_alkharid = {
-		color = { 187 197 108 }
-		capital = c_alkharid
-
-		cultural_names = {
-			name_list_mahjarrat = cn_kharid
-		}
-
-
-	 	d_southkharid = {
-			color = { 187 197 108 }
-			capital = c_alkharid
-
-			cultural_names = {
-				name_list_mahjarrat = cn_kharid
-			}
-
-		 	c_alkharid = {
-				color = { 187 197 108 }
-
-				cultural_names = {
-					name_list_mahjarrat = cn_kharid
-				}
-
-				b_alkharid = {
-					color = { 187 197 108 }
-					province = 21
-				}
-
-		    }
-
-			c_shantay = {
-				color = { 227 114 0 }
-
-				b_shantay = {
-					color = { 227 114 0 }
-					province = 24
-				}
-			}
-
-			c_giants = {
-				color = { 104 54 44 }
-
-				b_giants = {
-					color = { 104 54 44 }
-					province = 22
-				}
-
-			}
-
-			c_citharade = {
-				color = { 66 0 140 }
-
-				b_citharade = {
-					color = { 66 0 140 }
-					province = 23
-					}
-
-			}
-
-		}
-
-		d_northkharid = {
-			color = { 245 215 77 }
-			capital = c_duelarena
-
-			c_northkharid = {
-				color = { 245 215 77 }
-
-				b_scorpmine = {
-					color = { 142 52 0 }
-					province = 25
-				}
-
-			}
-
-			c_duelarena = {
-				color = { 245 215 77 }
-
-				b_duelarena = {
-					color = { 245 215 77 }
-					province = 27
-				}
-
-			}
-
-			c_magetrain = {
-				color = { 140 238 255 }
-
-				b_magetrain = {
-					color = { 140 238 255 }
-					province = 26
-				}
-
-			}
-					
-		}
-
-	}
-
 }
 
 e_trollheim = {
@@ -2436,6 +2336,106 @@ e_kharid = {
 		}
 	}
 
+	k_alkharid = {
+		color = { 187 197 108 }
+		capital = c_alkharid
+
+		cultural_names = {
+			name_list_mahjarrat = cn_kharid
+		}
+
+
+	 	d_southkharid = {
+			color = { 187 197 108 }
+			capital = c_alkharid
+
+			cultural_names = {
+				name_list_mahjarrat = cn_kharid
+			}
+
+		 	c_alkharid = {
+				color = { 187 197 108 }
+
+				cultural_names = {
+					name_list_mahjarrat = cn_kharid
+				}
+
+				b_alkharid = {
+					color = { 187 197 108 }
+					province = 21
+				}
+
+		    }
+
+			c_shantay = {
+				color = { 227 114 0 }
+
+				b_shantay = {
+					color = { 227 114 0 }
+					province = 24
+				}
+			}
+
+			c_giants = {
+				color = { 104 54 44 }
+
+				b_giants = {
+					color = { 104 54 44 }
+					province = 22
+				}
+
+			}
+
+			c_citharade = {
+				color = { 66 0 140 }
+
+				b_citharade = {
+					color = { 66 0 140 }
+					province = 23
+					}
+
+			}
+
+		}
+
+		d_northkharid = {
+			color = { 245 215 77 }
+			capital = c_duelarena
+
+			c_northkharid = {
+				color = { 245 215 77 }
+
+				b_scorpmine = {
+					color = { 142 52 0 }
+					province = 25
+				}
+
+			}
+
+			c_duelarena = {
+				color = { 245 215 77 }
+
+				b_duelarena = {
+					color = { 245 215 77 }
+					province = 27
+				}
+
+			}
+
+			c_magetrain = {
+				color = { 140 238 255 }
+
+				b_magetrain = {
+					color = { 140 238 255 }
+					province = 26
+				}
+
+			}
+					
+		}
+
+	}
+
 	k_menaphos = {
 		color = { 219 202 27 }
 		capital = c_menaphos
@@ -2469,17 +2469,12 @@ e_kharid = {
 
 			}
 
-			c_soph = {
-				color = {41 102 27}
+			c_deserttreasure = {
+				color = { 204 155 100 }
 
-				b_soph = {
-					color = { 41 102 27}
-					province = 117
-				}
-
-				b_southoasis = {
-					color = {211 27 27}
-					province = 118
+				b_ancientp = {
+					color = { 204 155 100}
+					province = 115
 				}
 
 			}
@@ -2503,6 +2498,32 @@ e_kharid = {
 				}
 			}
 
+		}
+
+		d_soph = {
+			color = { 41 102 27 }
+			capital = c_soph
+
+			c_soph = {
+				color = {41 102 27}
+
+				b_soph = {
+					color = { 41 102 27}
+					province = 117
+				}
+
+			}
+
+			c_sophdesert = {
+				color = { 211 27 27 }
+
+				b_southoasis = {
+					color = {211 27 27}
+					province = 118
+				}
+
+			}
+
 			c_necro = {
 				color = {42 32 0 }
 
@@ -2521,7 +2542,6 @@ e_kharid = {
 					province = 130
 				}
 			}
-
 
 		}
 
@@ -2633,16 +2653,33 @@ e_kharid = {
 					province = 121
 				}
 
+			}
+
+			c_agility = {
+				color = { 211 136 80}
+
 				b_agility = {
 					color = { 211 136 80 }
 					province = 119
 				}
 
+			}
+
+			c_southdesert = {
+				color = { 211 32 90 }
+
 				b_southdesert = {
 					color = { 211 32 90}
 					province = 120
 				}
+
 			}
+
+		}
+
+		d_ullek = {
+			color = { 0 109 53 }
+			capital = c_ullek
 
 			c_ullek = {
 				color = {0 109 53 }
@@ -2652,16 +2689,29 @@ e_kharid = {
 					province = 135 
 				}
 
-				b_ullekmine = {
-					color = {255 0 88 }
-					province = 133
-				}
+			}
+
+			c_ulleksea = {
+				color = { 0 184 255 }
 
 				b_ulleksea = {
 					color = {0 184 255 }
 					province = 134
 				}
+
 			}
+
+			c_ullekmine = {
+				color = { 255 0 88 }
+
+				b_ullekmine = {
+					color = {255 0 88 }
+					province = 133
+				}
+
+			}
+
+
 		}
 
 		d_bandit = {
@@ -2676,10 +2726,7 @@ e_kharid = {
 					province = 113
 				}
 
-				b_ancientp = {
-					color = { 204 155 100}
-					province = 115
-				}
+
 				b_quarry = {
 					color = {146 67 27 }
 					province = 114
