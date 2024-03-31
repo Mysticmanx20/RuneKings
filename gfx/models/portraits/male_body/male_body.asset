@@ -4,9 +4,6 @@ skeletal_animation_set = {
 
 	# All future new animations go here for retargeting.
 
-	# RuneKings
-	animation = { id = "body_still"														type = "male_body_still.anim" }
-
 	
 	animation = { id = "body_emotion_loss1_1"											type = "male_body_emotion_loss1_1.anim" }
 	animation = { id = "body_emotion_loss1_2"											type = "male_body_emotion_loss1_2.anim" }
@@ -744,6 +741,10 @@ pdxmesh = {
 	animation = { id = "body_testCase1_1"												type = "male_body_testCase1_1.anim" }
 	animation = { id = "body_testCase1_2"												type = "male_body_testCase1_2.anim" }
 	animation = { id = "body_testCase1_3"												type = "male_body_testCase1_3.anim" }
+
+	# RuneKings
+	animation = { id = "body_still"														type = "male_body_still.anim" }
+	
 }
 
 entity = {
