@@ -49,6 +49,11 @@ select_personal_deity_germanic_decision = {
 					desc = select_personal_deity_germanic_decision.select_amascut
 					add_character_modifier = bhakti_mena_amascut
 				}
+				100 = {
+					show_chance = no
+					desc = select_personal_deity_germanic_decision.select_scabaras
+					add_character_modifier = bhakti_mena_scabaras
+				}
 			}
 		}
 		# And the actual effect.

@@ -23,3 +23,10 @@ bhakti_mena_amascut = {	# Once a goddess of rebirth, she has become corrupted an
     intrigue = medium_skill_bonus
 	monthly_piety_gain_per_dread_add = 0.03
 }
+
+bhakti_mena_scabaras = {	# Demigod of isolation and tranqility
+	icon = scabaras
+    diplomacy = -1
+	stress_gain_mult = -0.15
+	stress_loss_mult = 0.15
+}

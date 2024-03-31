@@ -68,6 +68,24 @@ religious_decision.0696 = {
 		}
 	}
 
+	# Scabaras
+	option = {
+		name = religious_decision.0102.scabaras
+		trigger = {
+			NOT = { has_character_modifier = bhakti_mena_scabaras }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_mena_scabaras }
+
+		ai_chance = {
+			base = 0
+
+			modifier = {
+				add = 1000
+				culture = culture:kalphite
+			}
+		}
+	}
+
 
 	# Opt-Out
 	option = {

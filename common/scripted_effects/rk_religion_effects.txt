@@ -33,6 +33,13 @@ set_bhakti_effect = {
 			remove_character_modifier = bhakti_mena_amascut
 			add_piety = massive_piety_loss
 		}
+		else_if = {	
+			limit = {
+				has_character_modifier = bhakti_mena_scabaras
+			}
+			remove_character_modifier = bhakti_mena_scabaras
+			add_piety = massive_piety_loss
+		}
 		
 	}
 	# Karamjan
