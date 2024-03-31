@@ -1067,6 +1067,7 @@ desert002 = {
 	trait = diligent
 	trait = lustful
 	trait = arbitrary
+	trait = family_first
 	trait = education_martial_4
 	11590.1.1 = {
 		birth = yes
