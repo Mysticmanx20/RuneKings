@@ -204,6 +204,10 @@ pdxmesh = {
 	animation = { id = "body_throneRoom_rulerChild1_1"									type = "female_body_throneRoom_rulerChild1_1.anim" }
 	animation = { id = "body_throneRoom_rulerChild1_2"									type = "female_body_throneRoom_rulerChild1_2.anim" }
 	animation = { id = "body_throneRoom_rulerChild1_3"									type = "female_body_throneRoom_rulerChild1_3.anim" }
+
+	# RuneKings
+	animation = { id = "body_still"													type = "female_body_still.anim" }
+
 }
 
 entity = {
@@ -271,6 +275,10 @@ entity = {
 	attribute = { name = "bs_body_breast_shape_4"									blend_shape = "female_bs_body_breast_shape_4" }
 
 	default_state = "none"
+
+	#RuneKings
+	state = {	name = "still"					animation = "body_still" next_state = "still" }
+
 	state = {	name = "none"														animation = "body_idle_1" }
 #	state = {	name = "idle_entry"													animation = "body_idle_1" chance = 10 looping = no  next_state = "idle" }
 	state = {	name = "idle_entry"													animation = "body_idle_1" chance = 10 looping = no next_state = "idle" }

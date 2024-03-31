@@ -274,6 +274,10 @@ pdxmesh = {
 	animation = { id = "head_testCase1_1"														type = "female_head_testCase1_1.anim" }
 	animation = { id = "head_testCase1_2"														type = "female_head_testCase1_2.anim" }
 	animation = { id = "head_testCase1_3"														type = "female_head_testCase1_3.anim" }
+
+	# Runekings
+	animation = { id = "head_still"														type = "female_head_still.anim" }
+
 }
 
 entity = {
@@ -510,6 +514,10 @@ entity = {
 	### Animations
 	default_state = "none"
 	state = {	name = "none" 																	animation = "head_idle_1" }
+
+	# Runekings
+	state = {	name = "still"																animation = "head_still" next_state = "still" }
+
 #	state = {	name = "idle_entry"																animation = "head_idle_1" chance = 10 looping = no time_offset = { 0.0 5.0 } next_state = "idle" }
 	state = {	name = "idle_entry"																animation = "head_idle_1" chance = 10 looping = no next_state = "idle" }
 	state = {	name = "idle"																	animation = "head_idle_1" chance = 10 looping = no next_state = "idle" }

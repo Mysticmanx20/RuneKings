@@ -218,6 +218,10 @@ pdxmesh = {
 	animation = { id = "body_throneRoom_rulerChild1_1"									type = "female_body_throneRoom_rulerChild1_1.anim" }
 	animation = { id = "body_throneRoom_rulerChild1_2"									type = "female_body_throneRoom_rulerChild1_2.anim" }
 	animation = { id = "body_throneRoom_rulerChild1_3"									type = "female_body_throneRoom_rulerChild1_3.anim" }
+
+	# RuneKings
+	animation = { id = "body_still"													type = "female_body_still.anim" }
+
 }
 
 entity = {
@@ -288,6 +292,10 @@ entity = {
 
 	default_state = "none"
 	state = {	name = "none"														animation = "body_idle_1" }
+
+	#RuneKings
+	state = {	name = "still"					animation = "body_still" next_state = "still" }
+
 #	state = {	name = "idle_entry"													animation = "body_idle_1" chance = 10 looping = no  next_state = "idle" }
 	state = {	name = "idle_entry"													animation = "body_idle_1" chance = 10 looping = no next_state = "idle" }
 	state = {	name = "idle"														animation = "body_idle_1" chance = 10 looping = no next_state = "idle" }

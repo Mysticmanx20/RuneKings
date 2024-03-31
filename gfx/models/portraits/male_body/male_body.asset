@@ -4,6 +4,9 @@ skeletal_animation_set = {
 
 	# All future new animations go here for retargeting.
 
+	# RuneKings
+	animation = { id = "body_still"														type = "male_body_still.anim" }
+
 	
 	animation = { id = "body_emotion_loss1_1"											type = "male_body_emotion_loss1_1.anim" }
 	animation = { id = "body_emotion_loss1_2"											type = "male_body_emotion_loss1_2.anim" }
@@ -799,6 +802,10 @@ entity = {
 	attribute = { name = "bs_cloak_offset"													blend_shape = "male_bs_body_neutral" }
 
 	default_state = "none"
+
+	#RuneKings
+	state = {	name = "still"					animation = "body_still" next_state = "still" }
+
 	state = {	name = "none"															animation = "body_idle_1" }
 	# state = {	name = "idle_entry"														animation = "body_idle_1" chance = 10 looping = no  next_state = "idle" }
 	state = {	name = "idle_entry"														animation = "body_idle_1" chance = 10 looping = no  next_state = "idle" }
