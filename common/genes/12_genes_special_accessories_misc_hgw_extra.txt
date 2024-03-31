@@ -40,6 +40,14 @@
 				boy = male
 				girl = female
 			}
+
+			rk_kalphite_queen = {
+				index = 6
+				male = { 1 = rk_kalphite_queen }
+				female = { 1 = rk_kalphite_queen }
+				boy = male
+				girl = female
+			}
 			
 		}
 	}
