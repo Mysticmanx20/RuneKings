@@ -21,7 +21,7 @@ c_darkmeyer = {
 
 
 c_portphas = {
-	11590.1.1 ={ 
+	9138.1.1 ={ 
 		liege = 0
 		holder = 900501
 		change_development_level = 6
@@ -29,7 +29,7 @@ c_portphas = {
 }
 
 b_portphas = {
-	11601.1.1 = {
+	9149.1.1 = {
 		holder = 900511
 	}
 }
@@ -47,7 +47,7 @@ c_slepe = {
 }
 
 c_cromb = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = 900502
 		change_development_level = 6
 	}
@@ -61,21 +61,21 @@ c_mortton = {
 }
 
 c_mortmyre = {
-	11608.1.1 = {
+	9156.1.1 = {
 		holder = 900516
 		change_development_level = 2
 	}
 }
 
 c_nature = {
-	11605.1.1 = {
+	9153.1.1 = {
 		holder = 900510
 		change_development_level = 2
 	}
 }
 
 c_graveyard = {
-	11500.1.1 = {
+	9048.1.1 = {
 		
 		change_development_level = 2
 	}
@@ -92,7 +92,7 @@ c_burgderot ={
 }
 
 c_hmine = {
-	11596.1.1 = {
+	9144.1.1 = {
 		liege = k_morytania
 		holder = 900508
 		change_development_level = 1
@@ -101,7 +101,7 @@ c_hmine = {
 
 
 c_canifis = {
-	11615.1.1 = {
+	9163.1.1 = {
 		liege = k_morytania
 		holder = 900505
 		change_development_level = 7
@@ -112,7 +112,7 @@ c_mditch = {
 	1000.1.1 = {
 		liege = k_morytania
 	}
-	11594.1.1 = {
+	9142.1.1 = {
 		holder = 900512
 		government = clan_government
 		change_development_level = 5
@@ -120,14 +120,14 @@ c_mditch = {
 }
 
 c_vers = {
-	11600.1.1 = {
+	9148.1.1 = {
 		holder = 900512
 		change_development_level = 8
 	}
 }
 
 b_darkmeyer = {
-	11594.1.1 = {
+	9142.1.1 = {
 		holder = 900500
 	}
 }
@@ -142,83 +142,83 @@ c_fenk = {
 	11559.1.1 = {
 		holder = mort004
 	}
-	11580.1.1 = {
+	9128.1.1 = {
 		holder = mort005
 	}
 
-	11600.1.1 = {
+	9148.1.1 = {
 		holder = mort001
 	}
-	11620.6.12 = {
+	9168.6.12 = {
 		holder = 900506
 		change_development_level = 2
 	}
 }
 
 b_deadfarm = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = 900513
 	}
 }
 
 c_harmless = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate001
 		change_development_level = 6
 	}
 }
 
 c_westjungle = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate001
 		change_development_level = 3
 	}
 }
 
 c_moscave = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate006
 		change_development_level = 2
 	}
 }
 
 c_eastjungle = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate007
 		change_development_level = 3
 	}
 }
 
 c_trouble = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate008
 		change_development_level = 4
 	}
 }
 
 c_southtrouble = {
-	11591.1.1 = {
+	9139.1.1 = {
 		holder = pirate009
 		change_development_level = 4
 	}
 }
 
 c_harmony = {
-	11620.1.1 = {
+	9168.1.1 = {
 		government = theocracy_government
 		change_development_level = 5
 	}
 }
 
 c_braindeath = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = pirate010
 		change_development_level = 4
 	}
 }
 
 c_brainvolcano = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = pirate013
 		change_development_level = 1
 	}

@@ -4,7 +4,7 @@ troll001 = {
     culture = troll
     religion = bandos
     trait = wrathful
-    11591.1.1 = {
+    9139.1.1 = {
         birth = yes
     }
 }
@@ -26,7 +26,7 @@ troll003 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_3
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }
@@ -37,7 +37,7 @@ troll004 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_4
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -50,10 +50,10 @@ troll005 = {
 	trait = gregarious
 	trait = patient
 	trait = education_learning_3
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -67,10 +67,10 @@ troll006 = {
 	trait = content
 	trait = education_learning_2
 	disallow_random_traits = yes
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -81,10 +81,10 @@ troll007 = {
 	religion = bandos
 	trait = lazy
 	trait = education_martial_1
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -95,10 +95,10 @@ troll008 = {
 	religion = bandos
 	trait = lazy
 	trait = education_martial_1
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -122,10 +122,10 @@ troll010 = {
 	culture = troll
 	religion = bandos
 	trait = education_intrigue_1
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -136,10 +136,10 @@ troll011 = {
 	religion = bandos
 	trait = compassionate
 	trait = education_diplomacy_1
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -151,10 +151,10 @@ troll012 = {
 	trait = brave
 	trait = wrathful
 	trait = education_martial_3
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = troll004
 	}
 }
@@ -181,7 +181,7 @@ troll014 = {
 	religion = bandos
 	trait = compassionate
 	trait = education_diplomacy_3
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
 }
@@ -192,7 +192,7 @@ troll015 = {
 	religion = zamorak
 	trait = education_learning_4
 	trait = wrathful
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }
@@ -202,7 +202,7 @@ troll016 = {
 	culture = icetroll
 	religion = bandos
 	trait = education_learning_2
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }
@@ -213,7 +213,7 @@ troll017 = {
 	culture = troll
 	religion = bandos
 	trait = education_diplomacy_2
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }
@@ -223,7 +223,7 @@ troll018 = {
 	culture = icetroll
 	religion = bandos
 	trait = education_learning_3
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }

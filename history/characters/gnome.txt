@@ -20,7 +20,7 @@ gnome002 = {
 	religion = guthix
 	culture = gnome
 	trait = zealous
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
 }
@@ -34,7 +34,7 @@ gnome003 = {
 	trait = shy
 	trait = patient
 	trait = education_diplomacy_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -44,7 +44,7 @@ gnome004 = {
 	religion = guthix
 	culture = gnome
 	trait = education_learning_4
-	11571.1.1 = {
+	9119.1.1 = {
 		birth = yes
 	}
 }
@@ -55,7 +55,7 @@ gnome005 = {
 	culture = gnome
 	trait = deceitful
 	trait = education_intrigue_2
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
 }
@@ -116,10 +116,10 @@ gnome009 = {
 	religion = guthix
 	trait = humble
 	trait = education_learning_1
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11608.1.1 = {
+	9156.1.1 = {
 		add_spouse = gnome003
 	}
 }
@@ -133,10 +133,10 @@ gnome010 = {
 	trait = ambitious
 	trait = arbitrary
 	trait = education_learning_2
-	11575.1.1 = {
+	9123.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		effect = {
 			move_to_pool = yes
 		}
@@ -154,10 +154,10 @@ gnome011 = {
 	11573.1.1 = {
 		birth = yes
 	}
-	11589.1.1 = {
+	9137.1.1 = {
 		add_spouse = gnome010
 	}
-	11614.1.1 = {
+	9162.1.1 = {
 		death = {
 			death_reason = death_natural_causes
 		}
@@ -176,10 +176,10 @@ gnome012 = {
 	trait = ambitious
 	trait = forgiving
 	trait = education_martial_2
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
-	11605.1.1 = {
+	9153.1.1 = {
 		add_spouse = gnome013
 	}
 }
@@ -192,7 +192,7 @@ gnome013 = {
 	trait = compassionate
 	trait = lustful
 	trait = education_diplomacy_3
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 
@@ -209,7 +209,7 @@ gnome014 = {
 	trait = shy
 	trait = content
 	trait = education_learning_3
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
 }
@@ -222,10 +222,10 @@ gnome015 = {
 	trait = diligent
 	trait = generous
 	trait = education_stewardship_2
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = gnome003
 		give_council_position = councillor_steward
 	}

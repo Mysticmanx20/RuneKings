@@ -4,7 +4,7 @@
 	religion = menaph
 	culture = kharidian
 	health = 2.5
-	11556.1.1 = {
+	9104.1.1 = {
 		birth = yes
 	}
 }
@@ -16,7 +16,7 @@
 	culture = kharidian
 	father = 900800
 	trait = just
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
 }
@@ -25,7 +25,7 @@
 	name = "Shug"
 	religion = saradomin
 	culture = misthalin
-	11553.1.1 = {
+	9101.1.1 = {
 		birth = yes
 	}
 }
@@ -37,7 +37,7 @@
 	intrigue = 14
 	religion = menaph
 	culture = kharidian
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 		give_nickname = nick_the_crowd_pleaser
 	}
@@ -47,10 +47,10 @@
 	name = "Hassan"
 	religion = menaph
 	culture = kharidian
-	11570.1.1 = {
+	9118.1.1 = {
 		birth = yes
 	}
-	11580.1.1 = {
+	9128.1.1 = {
 		employer = 900800
 		give_council_position = councillor_chancellor
 	}
@@ -60,11 +60,11 @@
 	name = "Osman"
 	religion = menaph
 	culture = kharidian
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 		employer = 900800
 	}
-	11613.1.1 = {
+	9161.1.1 = {
 		give_council_position = councillor_spymaster
 	}
 }
@@ -81,10 +81,10 @@
 	trait = brave
 	disallow_random_traits = yes
 	intrigue = 12
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
-	11620.6.6 = {
+	9168.6.6 = {
 		effect = {
 			move_to_pool = yes
 		}
@@ -98,7 +98,7 @@
     religion = saradomin
     culture = misthalin
 	trait = devoted
-    11568.1.1 = {
+    9116.1.1 = {
         birth = yes
     }
 }
@@ -110,10 +110,10 @@
     religion = saradomin
     culture = misthalin
 	trait = devoted
-    11601.1.1 = {
+    9149.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 	}
@@ -125,10 +125,10 @@
     religion = saradomin
     culture = asgarnia
 	trait = devoted
-    11588.1.1 = {
+    9136.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 	}
@@ -140,10 +140,10 @@
     religion = saradomin
     culture = misthalin
 	trait = devoted
-    11563.1.1 = {
+    9111.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 	}
@@ -155,10 +155,10 @@
     religion = saradomin
     culture = misthalin
 	trait = devoted
-    11566.1.1 = {
+    9114.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 	}
@@ -170,14 +170,14 @@
     religion = saradomin
     culture = misthalin
 	trait = devoted
-    11601.1.1 = {
+    9149.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807 
 		add_character_flag = blocked_from_leaving
 	}
-    11620.6.6 = {
+    9168.6.6 = {
         effect = {
             add_secret={
 				type = secret_murder
@@ -193,13 +193,13 @@
     female = yes
     religion = saradomin
     culture = misthalin
-    11601.1.1 = {
+    9149.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 	}
-    11620.6.6 = {
+    9168.6.6 = {
 		death = {
 			death_reason = death_murder
 			killer = 900812
@@ -213,10 +213,10 @@
     religion = saradomin
     culture = asgarnia
 	trait = devoted
-    11563.1.1 = {
+    9111.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 	}
@@ -228,10 +228,10 @@
     religion = saradomin
     culture = asgarnia
 	trait = devoted
-    11563.1.1 = {
+    9111.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900807
 		add_character_flag = blocked_from_leaving
 		
@@ -245,7 +245,7 @@
     culture = kharidian
     religion = menaph
     trait = witch
-    11598.1.1 = {
+    9146.1.1 = {
         birth = yes
 		employer = 900800
     }
@@ -256,7 +256,7 @@
 	name = "Awusah"
 	religion = menaph
 	culture = menaphite
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 
@@ -270,7 +270,7 @@
 	trait = cynical
 	religion = menaph
 	culture = menaphite
-	11582.1.1 = {
+	9130.1.1 = {
 		birth = yes
 	}
 
@@ -280,7 +280,7 @@
 	name = "Hakeem"
 	religion = menaph
 	culture = kharidian
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 
@@ -291,7 +291,7 @@
 	martial = 12
 	religion = menaph
 	culture = kharidian
-	11584.1.1 = {
+	9132.1.1 = {
 		birth = yes
 	}
 
@@ -301,7 +301,7 @@
 	name = "Al Shabim"
 	religion = menaph
 	culture = bedabin
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
 
@@ -312,7 +312,7 @@
 	name = "Eblis"
 	religion = zaros
 	culture = kharidian
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 
@@ -323,7 +323,7 @@
 	name = "Clay"
 	religion = menaph
 	culture = menaphite
-	11579.1.1 = {
+	9127.1.1 = {
 		birth = yes
 	}
 
@@ -334,7 +334,7 @@
 	female = yes
 	religion = menaph
 	culture = kharidian
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
 
@@ -344,10 +344,10 @@
 	name = "Ishmael"
 	religion = menaph
 	culture = kharidian
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11620.1.2 = {
+	9168.1.2 = {
 		employer = 900824
 	}
 
@@ -357,10 +357,10 @@
 	name = "Lazim"
 	religion = zamorak
 	culture = kharidian
-	11572.1.2 = {
+	9120.1.2 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900822
 	}
 
@@ -370,10 +370,10 @@
 	name = "Drew"
 	religion = menaph
 	culture = kharidian
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-	11620.1.2 = {
+	9168.1.2 = {
 		employer = 900822
 	}
 
@@ -384,7 +384,7 @@
 	female = yes
 	religion = saradomin
 	culture = misthalin
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 
@@ -395,10 +395,10 @@
 	name = "Kerner"
 	religion = saradomin
 	culture = misthalin
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900828
 	}
 
@@ -409,7 +409,7 @@
 	name = "Elias"
 	religion = saradomin
 	culture = misthalin
-	11579.1.1 = {
+	9127.1.1 = {
 		birth = yes
 	}
 
@@ -420,10 +420,10 @@
 	female = yes
 	religion = menaph
 	culture = kharidian
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11620.1.2 = {
+	9168.1.2 = {
 		employer = 900824
 	}
 
@@ -433,10 +433,10 @@
 	name = "Ali" #Uzer tea seller 
 	religion = menaph
 	culture = menaphite
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-	11621.1.1 = {
+	9169.1.1 = {
 		employer = 900830
 	}
 
@@ -446,10 +446,10 @@
 	name = "Cassim"
 	religion = zamorak
 	culture = menaphite
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11621.1.1 = {
+	9169.1.1 = {
 		employer = 900830
 	}
 
@@ -461,10 +461,10 @@
 	religion = saradomin
 	culture = asgarnia
 	martial = 13
-	11571.1.1 = {
+	9119.1.1 = {
 		birth = yes
 	}
-	11621.1.1 = {
+	9169.1.1 = {
 		employer = 900830
 	}
 }
@@ -475,10 +475,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900817
 		give_council_position = councillor_court_chaplain
 	}
@@ -489,10 +489,10 @@
 	name = "Ghaslor"
 	religion = menaph
 	culture = menaphite
-	11565.1.1 = {
+	9113.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900817
 		set_knight_status = forbid
 		give_council_position = councillor_chancellor
@@ -505,10 +505,10 @@
 	religion = menaph
 	culture = menaphite
 	#knight Nardah
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900817
 	}
 
@@ -519,10 +519,10 @@
 	religion = menaph
 	culture = menaphite
 	#knight Nardah
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900817
 	}
 
@@ -533,10 +533,10 @@
 	religion = menaph
 	culture = menaphite
 	#knight Nardah
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900817
 	}
 
@@ -548,10 +548,10 @@
 	trait = witch
 	religion = menaph
 	culture = kharidian
-	11563.1.1 = {
+	9111.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 
@@ -561,10 +561,10 @@
 	name = "Rashid"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 
@@ -574,10 +574,10 @@
 	name = "Faisal"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -586,10 +586,10 @@
 	name = "Isma'il"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -598,10 +598,10 @@
 	name = "Sami"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -611,10 +611,10 @@
 	female = yes
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -623,10 +623,10 @@
 	name = "Badir"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -635,10 +635,10 @@
 	name = "Jalal"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900819
 	}
 }
@@ -653,10 +653,10 @@
 	intrigue = 10
 	religion = menaph
 	culture = kharidian
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = 900800
 	}
 
@@ -668,10 +668,10 @@
 	trait = lifestyle_gardener
 	religion = menaph
 	culture = kharidian
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = 900800
 	}
 }
@@ -682,10 +682,10 @@
 	religion = menaph
 	culture = kharidian
 	father = 900848
-	11609.1.1 = {
+	9157.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900131
 	}
 }
@@ -694,10 +694,10 @@
 	name = "Zeke"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = 900800
 	}
 }
@@ -706,10 +706,10 @@
 	name = "Dommik"
 	religion = menaph
 	culture = kharidian
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = 900800
 	}
 }
@@ -719,10 +719,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -731,10 +731,10 @@
 	name = "Raetul"
 	religion = menaph
 	culture = menaphite
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -744,10 +744,10 @@
 	religion = saradomin
 	culture = misthalin
 	trait = greedy
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -757,10 +757,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -770,10 +770,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -783,10 +783,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -796,10 +796,10 @@
 	learning = 12
 	religion = menaph
 	culture = menaphite
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900860
 	}
 }
@@ -809,7 +809,7 @@
 	learning = 13
 	religion = menaph
 	culture = menaphite
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }
@@ -818,10 +818,10 @@
 	name = "Coenus"
 	religion = menaph
 	culture = menaphite
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 	}
 }
@@ -830,7 +830,7 @@
 	name = "Simon"
 	religion = saradomin
 	culture = misthalin
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 
@@ -844,10 +844,10 @@
 	trait = diligent
 	religion = menaph
 	culture = menaphite
-	11569.1.1 = {
+	9117.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 		give_council_position = councillor_chancellor
 	}
@@ -861,10 +861,10 @@
 	trait = arrogant
 	religion = menaph
 	culture = menaphite
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		give_council_position = councillor_steward
 	}
 }
@@ -878,10 +878,10 @@
 	trait = impatient
 	religion = menaph
 	culture = menaphite
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 		give_council_position = councillor_marshal
 	}
@@ -895,7 +895,7 @@
 	trait = peasant_leader
 	religion = menaph
 	culture = menaphite
-	11571.1.1 = {
+	9119.1.1 = {
 		birth = yes
 	}
 }
@@ -908,7 +908,7 @@
 	trait = brave
 	trait = fickle
 	trait = gregarious
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
 }
@@ -919,10 +919,10 @@
 	religion = menaph
 	culture = menaphite
 	#Menaphos librarian
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 	}
 }
@@ -933,10 +933,10 @@
 	religion = menaph
 	culture = menaphite
 	#chaplin Imperial District? Kingdom?
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 		give_council_position = councillor_court_chaplain
 	}
@@ -949,10 +949,10 @@
 	religion = menaph
 	culture = menaphite
 	trait = lifestyle_gardener
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 	}
 
@@ -964,10 +964,10 @@
 	female = yes
 	religion = menaph
 	culture = menaphite
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900864
 	}
 
@@ -980,10 +980,10 @@
 	trait = patient
 	religion = menaph
 	culture = menaphite
-	11603.1.1 = {
+	9151.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900818
 	}
 
@@ -995,10 +995,10 @@
 	culture = kharidian
 	trait = greedy
 	trait = deceitful
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900821
 	}
 
@@ -1008,7 +1008,7 @@
 	name = "Shantay"
 	religion = menaph
 	culture = kharidian
-	11584.1.1 = {
+	9132.1.1 = {
 		birth = yes
 	}
 }
@@ -1041,7 +1041,7 @@
 	trait = diligent
 	trait = education_learning_1
 	disallow_random_traits = yes
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }
@@ -1054,7 +1054,7 @@ desert001 = {
 	trait = humble
 	trait = lifestyle_gardener
 	trait = education_learning_2
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }
@@ -1069,7 +1069,7 @@ desert002 = {
 	trait = arbitrary
 	trait = family_first
 	trait = education_martial_4
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
 }

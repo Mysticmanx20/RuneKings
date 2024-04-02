@@ -9,10 +9,10 @@
 	stewardship = 10
 	learning = 10
 	trait = generous
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-	11596.1.1 = {
+	9144.1.1 = {
 		add_spouse = 900102
 	}
 }
@@ -27,7 +27,7 @@
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	11558.1.1 = {
+	9106.1.1 = {
 		birth = yes
 	}
 }
@@ -37,7 +37,7 @@
 	female = yes
 	religion = saradomin	
 	culture = misthalin
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 	11619.1.1 = {
@@ -56,13 +56,13 @@
 	learning = 10
 	religion = saradomin	
 	culture = misthalin
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11611.1.2 = {
+	9159.1.2 = {
 		employer = 900100
 	}
-	11620.6.1 = {
+	9168.6.1 = {
 		give_council_position = councillor_court_chaplain
 	}
 
@@ -80,13 +80,13 @@
 	stewardship = 10
 	learning = 10
 	trait = education_martial_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.6.2 = {
+	9168.6.2 = {
 		employer = 900101
 	}
-	11620.6.3 = {
+	9168.6.3 = {
 		give_council_position = councillor_marshal
 	}
 
@@ -105,7 +105,7 @@
 	stewardship = 10
 	learning = 10
 	trait = education_stewardship_2
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
 }
@@ -128,10 +128,10 @@
 	learning = 7
 	prowess = 6
 	father = 900108
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11610.1.1 = {
+	9158.1.1 = {
 		add_spouse = 900107
 	}
 }
@@ -153,7 +153,7 @@
 	intrigue = 9
 	learning = 7
 	prowess = 13
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
 }
@@ -167,7 +167,7 @@
 	11533.1.1 = {
 		birth = yes
 	}
-	11612.1.1 = {
+	9160.1.1 = {
 		death = yes
 	}
 }
@@ -180,7 +180,7 @@
 	11486.1.1 = {
 		birth = yes
 	}
-	11555.1.1 = {
+	9103.1.1 = {
 		death = yes
 	}
 }
@@ -193,7 +193,7 @@
 	11442.1.1 = {
 		birth = yes
 	}
-	11504.1.1 = {
+	9052.1.1 = {
 		death = yes
 	}
 
@@ -243,14 +243,14 @@
 	disallow_random_traits = yes
 	father = 900121
 	mother = 900138
-	11575.1.1 = {
+	9123.1.1 = {
 		birth = yes
 	
 	}
-	11589.1.1 = {
+	9137.1.1 = {
 		add_spouse = 900139
 	}
-	11620.6.6 = {
+	9168.6.6 = {
 		effect = {
 			add_visiting_courtier = character:900125
 			add_visiting_courtier = character:900146
@@ -269,10 +269,10 @@
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		effect = {
 			imprison = {
 				target = character:900169
@@ -301,7 +301,7 @@
     trait = education_intrigue_1
 	trait = disinherited
 	disallow_random_traits = yes
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
 }
@@ -321,7 +321,7 @@
     trait = zealous
 	trait = education_learning_2
 	disallow_random_traits = yes
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
 }
@@ -336,7 +336,7 @@
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	11572.1.1 = {
+	9120.1.1 = {
 		birth = yes
 	}
 }
@@ -352,7 +352,7 @@
 	trait = humble
     trait = education_learning_3
 	disallow_random_traits = yes
-	11565.1.1 = {
+	9113.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = {
@@ -369,7 +369,7 @@
 	culture = misthalin
 	trait = eccentric
 	trait = education_learning_3
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -388,7 +388,7 @@
 	disallow_random_traits = yes
 	father = 900113
 	mother = 900139
-	11603.1.1 = {
+	9151.1.1 = {
 		birth = yes
 	}
 }
@@ -406,7 +406,7 @@
 	11542.1.1 = {
 		add_spouse = 900138
 	}
-	11595.1.1 = {
+	9143.1.1 = {
 		death = yes
 	}
 }
@@ -420,10 +420,10 @@
 	11483.1.1 = {
 		birth = yes
 	}
-	11500.1.1 = {
+	9048.1.1 = {
 		add_spouse = 900137
 	}
-	11558.1.1 = {
+	9106.1.1 = {
 		death = yes
 	}
 }
@@ -432,7 +432,7 @@
 	name = "Bill"
 	culture = misthalin
 	religion = saradomin
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
 }
@@ -441,7 +441,7 @@
 	name = "Lloyd"
 	culture = misthalin
 	religion = saradomin
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
 }
@@ -453,10 +453,10 @@
 	trait = compassionate
 	trait = lustful
 	trait = generous
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		effect = {
 			move_to_pool = yes
 		}
@@ -482,7 +482,7 @@
 	culture = misthalin
 	religion = guthix
 	learning = 15
-	11565.1.1 = {
+	9113.1.1 = {
 		birth = yes
 	}
 }
@@ -493,7 +493,7 @@
 	culture = misthalin
 	religion = saradomin
 	martial = 13
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
 }
@@ -504,14 +504,14 @@
 	culture = misthalin
 	religion = saradomin
 	learning = 13
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 		employer = 900108
 	}
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		give_council_position = councillor_court_chaplain
 	}
 }
@@ -521,7 +521,7 @@
 	dynasty = 100937
 	culture = misthalin
 	religion = saradomin
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }
@@ -532,10 +532,10 @@
 	stewardship = 13
 	culture = misthalin
 	religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		give_council_position = councillor_steward
 	}
 }
@@ -550,7 +550,7 @@
 	trait = ambitious
 	trait = education_learning_3
 	disallow_random_traits = yes
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }
@@ -561,7 +561,7 @@
 	dynasty = 100911
 	culture = misthalin
 	religion = saradomin
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 	}
 }
@@ -571,10 +571,10 @@
 	dynasty = 100908
 	culture = misthalin
 	religion = saradomin
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		add_courtier = character:900136
 	}
 }
@@ -586,7 +586,7 @@
 	father = 900134
 	culture = misthalin
 	religion = saradomin
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
 }
@@ -597,7 +597,7 @@
 	dynasty = 100910
 	culture = misthalin
 	religion = saradomin
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
 }
@@ -611,7 +611,7 @@
         birth = yes
     }
 	
-    11549.1.1 = {
+    9097.1.1 = {
         death = yes
     }
 }
@@ -624,7 +624,7 @@
     11527.1.1 = {
         birth = yes
     }
-    11591.1.1 = {
+    9139.1.1 = {
         death = yes
     }
 }
@@ -645,14 +645,14 @@
     religion = v
     culture = fremennik
     trait = wrathful
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900121
     }
-	11595.1.1 = {
+	9143.1.1 = {
 		employer = 900113
 	}
-	11610.1.1 = {
+	9158.1.1 = {
 		give_council_position = councillor_marshal
 	}
 }
@@ -662,7 +662,7 @@
     female = yes
     religion = v
     culture = fremennik
-    11599.1.1 = {
+    9147.1.1 = {
         birth = yes
 		employer = 900113
     }
@@ -672,7 +672,7 @@
     name = "Sigurd"
     religion = v
     culture = fremennik
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900121
     }
@@ -682,7 +682,7 @@
     name = "Hunding"
     religion = v
     culture = fremennik
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900121
     }
@@ -692,7 +692,7 @@
     name = "Kjell"
     religion = v
     culture = fremennik
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900121
     }
@@ -702,7 +702,7 @@
     name = "Peksa"
     religion = v
     culture = fremennik
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900121
     }
@@ -715,10 +715,10 @@
     religion = saradomin
     culture = misthalin
 	trait = education_learning_1
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		effect = {
 			move_to_pool = yes
 		}
@@ -744,13 +744,13 @@
 	intrigue = 10
 	stewardship = 10
 	learning = 9
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 
@@ -762,13 +762,13 @@
 	dynasty = 100911
 	culture = misthalin
 	religion = saradomin
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 		effect = {
 			set_mother = dummy_female
 		}
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 
@@ -779,10 +779,10 @@
 	dynasty = 100911
 	culture = misthalin
 	religion = saradomin
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 	}
-	11603.1.1 = {
+	9151.1.1 = {
 		add_spouse = 900133
 	}
 
@@ -795,7 +795,7 @@
 	religion = saradomin
 	mother = 900133
 	father = 900149
-	11612.1.1 = {
+	9160.1.1 = {
 		birth = yes
 	}
 }
@@ -807,7 +807,7 @@
 	religion = saradomin
 	mother = 900133
 	father = 900149
-	11614.1.1 = {
+	9162.1.1 = {
 		birth = yes
 	}
 }
@@ -819,7 +819,7 @@
 	religion = saradomin
 	mother = 900133
 	father = 900149
-	11614.1.1 = {
+	9162.1.1 = {
 		birth = yes
 	}
 }
@@ -842,7 +842,7 @@
     name = "Solztun" #brother of Litara
     religion = v
     culture = fremennik
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
 
     }
@@ -859,11 +859,11 @@
     religion = guthix
     culture = fremennik
     #prisoner of Blk Fort at game start?
-    11600.1.1 = {
+    9148.1.1 = {
         birth = yes
 		employer = 900113
     }
-	11617.1.1 = {
+	9165.1.1 = {
 		effect = {
 			set_relation_lover = { reason = lover_friend_to_lover target = character:900158 }
 		}
@@ -878,11 +878,11 @@
     trait = wrathful
     trait = arrogant
     trait = drunkard
-    11580.1.1 = {
+    9128.1.1 = {
         birth = yes
 		employer = 900121
     }
-    11611.1.1 = {
+    9159.1.1 = {
 		add_trait = murderer
 		employer = 900114
         #murdered Haba's husband
@@ -895,7 +895,7 @@
     female = yes
     religion = guthix
     culture = fremennik
-    11580.1.1 = {
+    9128.1.1 = {
         birth = yes
 		employer = 900121
     }
@@ -907,11 +907,11 @@
     name = "Castimir"
     religion = saradomin
     culture = asgarnia
-    11600.1.1 = {
+    9148.1.1 = {
         birth = yes
         #Rimmington
     }
-	11616.1.1 = {
+	9164.1.1 = {
 		employer = 900118
 	}
 
@@ -923,7 +923,7 @@
     culture = misthalin
     religion = saradomin
     trait = witch
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
 		employer = 900115
 		effect = {
@@ -940,7 +940,7 @@
     culture = misthalin
     religion = saradomin
     trait = witch
-    11599.1.1 = {
+    9147.1.1 = {
         birth = yes
 		employer = 900115
 		effect = {
@@ -957,10 +957,10 @@
     culture = misthalin
     religion = saradomin
     trait = witch
-    11580.1.1 = {
+    9128.1.1 = {
         birth = yes
     }
-	11620.1.2 = {
+	9168.1.2 = {
 		employer = 900163
 	}
 }
@@ -971,10 +971,10 @@
     culture = misthalin
     religion = saradomin
     trait = witch
-    11585.1.1 = {
+    9133.1.1 = {
         birth = yes
     }
-	11600.1.1 = {
+	9148.1.1 = {
 		employer = 900115
 	}
 }
@@ -987,13 +987,13 @@
 	trait = just
 	trait = craven
 	trait = education_learning_2
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		add_spouse = 900164
 	}
-	11621.1.1 = {
+	9169.1.1 = {
 		effect = {
 			add_visiting_courtier = character:900806
 		}
@@ -1006,7 +1006,7 @@
 	culture = misthalin
 	religion = saradomin
 	trait = generous
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 
@@ -1019,10 +1019,10 @@
     culture = misthalin
     religion = zamorak
 	trait = arbitrary
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1033,10 +1033,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-	11579.1.1 = {
+	9127.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1045,10 +1045,10 @@
     name = "Oziach"
     culture = misthalin
     religion = saradomin
-    11579.1.1 = {
+    9127.1.1 = {
         birth = yes
     }
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1058,10 +1058,10 @@
     female = yes
     culture= misthalin
     religion = zamorak
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1072,10 +1072,10 @@
     culture = misthalin
     religion = zamorak
     #imprisoned 
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1084,10 +1084,10 @@
     name = "Hari"
     culture = misthalin
     religion = saradomin
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1100,11 +1100,11 @@
 	father = misth002
     culture = misthalin
     religion = saradomin
-	11603.1.1 = {
+	9151.1.1 = {
 		birth = yes
 		employer = 900108
 	}
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 	11619.1.1 = {
@@ -1119,11 +1119,11 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11599.1.1 = {
+    9147.1.1 = {
 		birth = yes
 		employer = 900108
 	}
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 	11619.1.1 = {
@@ -1139,10 +1139,10 @@
     female = yes
     culture = fremennik
     religion = v
-	11598.1.1 = {
+	9146.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1152,10 +1152,10 @@
     culture = misthalin
     religion = zamorak
     trait = zealous
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900114
 	}
 }
@@ -1167,7 +1167,7 @@
 	trait = arrogant
 	trait = wrathful
 	trait = deceitful
-	11571.1.1 = {
+	9119.1.1 = {
 		birth = yes
 	}
 }
@@ -1181,7 +1181,7 @@
 	trait = patient
     culture = mahjarrat
     religion = zamorak
-    11605.1.1 = {
+    9153.1.1 = {
 		birth = yes
 	}
 }
@@ -1192,10 +1192,10 @@
     #nickname = 'Barfy'
     culture = piratecul
     religion = saradomin
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1209,10 +1209,10 @@
     culture = misthalin
     religion = hamcult
     #set as council member of Lumbridge
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 		give_council_position = councillor_chancellor
 	}
@@ -1227,10 +1227,10 @@
     culture = misthalin
     religion = saradomin
     #council? court position?
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1240,7 +1240,7 @@
     trait = diligent
     culture = misthalin
     religion = saradomin
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
 }
@@ -1252,10 +1252,10 @@
     culture = misthalin
     religion = saradomin
     #court position?
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1267,7 +1267,7 @@
 	11581.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1277,10 +1277,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1289,10 +1289,10 @@
     name = "Gee"
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1302,10 +1302,10 @@
     #dynasty Cosaintus
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1315,10 +1315,10 @@
     dynasty = 100930 
     culture = misthalin
     religion = saradomin
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1328,10 +1328,10 @@
     female = yes
     culture = egyptian
     religion = menaph
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1341,10 +1341,10 @@
     dynasty = 100930
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1357,10 +1357,10 @@
     dynasty = 100930
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 		give_council_position = councillor_marshal
 	}
@@ -1376,10 +1376,10 @@
     disallow_random_traits = yes
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1391,10 +1391,10 @@
     trait = generous
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 
@@ -1407,10 +1407,10 @@
     trait = humble
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900100
 	}
 }
@@ -1420,10 +1420,10 @@
     dynasty = 100930
     culture = misthalin
     religion = saradomin
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11620.6.1 = {
+	9168.6.1 = {
 		employer = 900101
 	}
 }
@@ -1433,10 +1433,10 @@
     dynasty = 100930
     culture = misthalin
     religion = saradomin
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.6.1 = {
+	9168.6.1 = {
 		employer = 900101
 	}
 }
@@ -1445,10 +1445,10 @@
     name = "Rick"
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1461,7 +1461,7 @@
     11573.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1471,10 +1471,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1483,10 +1483,10 @@
     name = "Mizgog"
     culture = misthalin
     religion = saradomin
-    11582.1.1 = {
+    9130.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1495,10 +1495,10 @@
     name = "Traiborn"
     culture = misthalin
     religion = saradomin
-    11571.1.1 = {
+    9119.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1512,7 +1512,7 @@
         birth = yes
 		make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:zamorak }
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1521,10 +1521,10 @@
     name = "Isidor"
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1534,10 +1534,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1546,10 +1546,10 @@
     name = "Felix"
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1559,10 +1559,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1572,10 +1572,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1585,10 +1585,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11589.1.1 = {
+    9137.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1597,10 +1597,10 @@
     name = "Borann"
     culture = misthalin
     religion = saradomin
-    11582.1.1 = {
+    9130.1.1 = {
         birth = yes
     }
-	11613.1.1 = {
+	9161.1.1 = {
 		employer = 900118
 	}
 }
@@ -1610,10 +1610,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900100
 	}
     #captured by Reese's cult
@@ -1625,10 +1625,10 @@
     culture = misthalin
     religion = zamorak
 	trait = callous
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900210
 	}
 }
@@ -1642,10 +1642,10 @@
 	trait = education_learning_1
     culture = misthalin
     religion = zamorak
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		effect = {
 			imprison = {
 				target = character:900208
@@ -1662,7 +1662,7 @@
     11597.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900210
 	}
 }
@@ -1676,7 +1676,7 @@
     disallow_random_traits = yes
     culture = misthalin
     religion = guthix
-    11571.1.1 = {
+    9119.1.1 = {
         birth = yes
     }
 
@@ -1686,7 +1686,7 @@
     name = "Fred"
     culture = misthalin
     religion = saradomin
-    11593.1.1 = {
+    9141.1.1 = {
         birth = yes
     }
 }
@@ -1696,7 +1696,7 @@
     dynasty = 100928
     culture = misthalin
     religion = saradomin
-    11580.1.1 = {
+    9128.1.1 = {
         birth = yes
     }
 
@@ -1709,7 +1709,7 @@
     culture = misthalin
     religion = saradomin
     father = 900214
-    11601.1.1 = {
+    9149.1.1 = {
         birth = yes
     }
 }
@@ -1724,10 +1724,10 @@
 	trait = humble
 	trait = lifestyle_gardener
 	disallow_random_traits = yes
-    11603.1.1 = {
+    9151.1.1 = {
         birth = yes
     }
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = ham001
 	}
     #Lumbridge Pass
@@ -1742,7 +1742,7 @@ ham001 = {
 	trait = humble
 	trait = just
 	trait = education_learning_1
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
 }
@@ -1752,11 +1752,11 @@ ham001 = {
     dynasty = 100926
     culture = misthalin
     religion = saradomin
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
     #set as Knight
@@ -1767,14 +1767,14 @@ ham001 = {
     dynasty = 100925
     culture = misthalin
     religion = saradomin
-    11593.1.1 ={
+    9141.1.1 ={
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
-    11620.1.1 = {
+    9168.1.1 = {
 		give_council_position = councillor_marshal
 	}
 }
@@ -1799,11 +1799,11 @@ ham001 = {
     dynasty = 100924
     culture = misthalin
     religion = saradomin
-    11593.1.1 = {
+    9141.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 
@@ -1814,11 +1814,11 @@ ham001 = {
     dynasty = 100923
     culture = misthalin
     religion = zamorak
-    11591.1.1 = {
+    9139.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1828,11 +1828,11 @@ ham001 = {
     dynasty = 100922
     culture = misthalin
     religion = saradomin
-    11592.1.1 = {
+    9140.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1843,11 +1843,11 @@ ham001 = {
 	female = yes
     culture = misthalin
     religion = saradomin
-    11592.1.1  = {
+    9140.1.1  = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1858,11 +1858,11 @@ ham001 = {
     dynasty = 100920
     culture = misthalin
     religion = saradomin
-    11591.1.1 = {
+    9139.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1876,7 +1876,7 @@ ham001 = {
         birth =yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1887,11 +1887,11 @@ ham001 = {
     female = yes
     culture = misthalin
     religion = saradomin
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900123
 	}
 }
@@ -1902,14 +1902,14 @@ ham001 = {
 	intrigue = 13
     culture = misthalin
     religion = saradomin
-    11590.1.1 = {
+    9138.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		give_council_position = councillor_spymaster
 	}
 }
@@ -1918,11 +1918,11 @@ ham001 = {
     name = "Zaff"
     culture = misthalin
     religion = saradomin
-    11589.1.1 = {
+    9137.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1933,11 +1933,11 @@ ham001 = {
     trait = lifestyle_herbalist
     culture = misthalin
     religion = saradomin
-    11591.1.1 = {
+    9139.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1947,11 +1947,11 @@ ham001 = {
     trait = lifestyle_gardener
     culture = misthalin
     religion = saradomin
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -1962,14 +1962,14 @@ ham001 = {
     culture = misthalin
     religion = saradomin
 	trait = zealous
-    11590.1.1 = {
+    9138.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
-    11620.1.1 = {
+    9168.1.1 = {
 		give_council_position = councillor_chancellor
 	}
 }
@@ -1979,11 +1979,11 @@ ham001 = {
     dynasty = 100914
     culture = misthalin
     religion = saradomin
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
 		employer = 900108
     }
-	11612.1.1 = {
+	9160.1.1 = {
 		employer = 900106
 	}
 }
@@ -2008,13 +2008,13 @@ ani001 = {
 	trait = beauty_good_2
 	trait = education_learning_2
 	trait = divine_blood
-	11603.1.1 = {
+	9151.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = no_drunkard_visual
 		}
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900163
 	}
 }
@@ -2026,10 +2026,10 @@ misth001 = {
 	culture = misthalin
 	trait = eccentric
 	trait = education_learning_3
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900100
 	}
 }
@@ -2039,10 +2039,10 @@ misth002 = {
 	dynasty = 100941
 	religion = saradomin
 	culture = misthalin
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
-	11614.1.1 = {
+	9162.1.1 = {
 		employer = 900106
 	}
 }
@@ -2068,10 +2068,10 @@ misth004 = {
 	trait = callous
 	trait = education_intrigue_1
 	disallow_random_traits = yes
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11621.1.1 = {
+	9169.1.1 = {
 		effect = {
 			imprison = {
 				target = character:900801
@@ -2088,10 +2088,10 @@ misth005 = {
 	trait = shy
 	trait = loyal
 	trait = education_learning_1
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900115
 		give_council_position = councillor_court_chaplain
 	}
@@ -2120,7 +2120,7 @@ misth007 = {
 	11473.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2134,7 +2134,7 @@ misth008 = {
 	11474.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2162,7 +2162,7 @@ misth010 = {
 	11473.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2176,7 +2176,7 @@ misth011 = {
 	11476.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2190,7 +2190,7 @@ misth012 = {
 	11473.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2204,7 +2204,7 @@ misth013 = {
 	11476.1.1 = {
 		birth = yes
 	}
-	11522.1.1 = {
+	9070.1.1 = {
 		death = yes
 	}
 }
@@ -2235,7 +2235,7 @@ misth015 = {
 	culture = misthalin
 	trait = brave
 	trait = education_martial_4
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
 }
@@ -2246,10 +2246,10 @@ misth016 = {
 	religion = saradomin
 	culture = misthalin
 	trait = education_stewardship_1
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900163
 	}
 }
@@ -2260,10 +2260,10 @@ misth017 = {
 	religion = saradomin
 	culture = misthalin
 	trait = education_stewardship_2
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900163
 	}
 }
@@ -2277,7 +2277,7 @@ misth018 = {
 	11560.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900163
 	}
 }
@@ -2291,7 +2291,7 @@ misth019 = {
 	11560.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900163
 	}
 }
@@ -2305,7 +2305,7 @@ misth020 = {
 	11560.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900310
 	}
 }
@@ -2320,10 +2320,10 @@ misth021 = {
 	trait = arrogant
 	trait = gregarious
 	disallow_random_traits = yes
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900128
 	}
 }
@@ -2334,7 +2334,7 @@ misth022 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_2
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
 }

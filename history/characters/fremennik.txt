@@ -8,7 +8,7 @@ frem001 = {
 	trait = stubborn
 	trait = honest
 	trait = education_martial_3
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
 }
@@ -19,7 +19,7 @@ frem002 = {
 	culture = fremennik
 	trait = diligent
 	trait = education_stewardship_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -46,10 +46,10 @@ frem004 = {
 	trait = education_learning_2
 	trait = pensive
 	father = frem003
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11607.1.1 = {
+	9155.1.1 = {
 		death = {
 			death_reason = death_disappearance
 		}
@@ -61,13 +61,13 @@ frem005 = {
 	religion = oldfrem
 	culture = oldfremennik
 	trait = education_diplomacy_1
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11593.1.1 = {
+	9141.1.1 = {
 		employer = frem003
 	}
-	11602.1.1 = {
+	9150.1.1 = {
 		effect = {
 			create_betrothal_matrilineal = character:frem004
 		}
@@ -79,10 +79,10 @@ frem006 = {
 	religion = oldfrem
 	culture = oldfremennik
 	trait = education_stewardship_1
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = frem003
 	}
 }
@@ -93,10 +93,10 @@ frem007 = {
 	religion = armadyl
 	culture = fremennik
 	trait = education_intrigue_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:frem008 }
 		}
@@ -108,7 +108,7 @@ frem008 = {
 	religion = v
 	culture = fremennik
 	trait = education_diplomacy_2
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
 	#imprisoned by daggermouths (Waterbirth?)
@@ -121,7 +121,7 @@ frem009 = {
 	trait = craven
 	trait = honest
 	trait = education_diplomacy_1
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
 }
@@ -138,7 +138,7 @@ frem010 = {
 	11586.1.1 = {
 		birth = yes
 	}
-	11602.1.1 = {
+	9150.1.1 = {
 		add_spouse = frem011
 	}
 }
@@ -161,7 +161,7 @@ frem012 = {
 	culture = fremennik
 	father = frem010
 	mother = frem011
-	11605.1.1 = {
+	9153.1.1 = {
 		birth = yes
 	}
 }
@@ -177,7 +177,7 @@ frem013 = {
 	11606.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = frem010
 	}
 }
@@ -198,7 +198,7 @@ frem015 = {
 	religion = v
 	culture = fremennik
 	trait = education_martial_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 
@@ -210,7 +210,7 @@ frem016 = {
 	religion = v
 	culture = fremennik
 	trait = education_stewardship_1
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -221,7 +221,7 @@ frem017 = {
 	religion = v
 	culture = fremennik
 	trait = education_diplomacy_1
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -232,7 +232,7 @@ frem018 = {
 	religion = v
 	culture = fremennik
 	trait = education_diplomacy_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -242,7 +242,7 @@ frem019 = {
 	religion = v
 	culture = fremennik
 	trait = education_stewardship_3
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -253,7 +253,7 @@ frem020 = {
 	religion = guthix
 	culture = moonclan
 	trait = education_learning_4
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }
@@ -264,7 +264,7 @@ frem021 = {
 	religion = godless
 	culture = piratecul
 	trait = education_stewardship_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
 }

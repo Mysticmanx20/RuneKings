@@ -1,6 +1,6 @@
 
 c_prif = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0 
 		holder = elf001
 		government = clan_government
@@ -9,7 +9,7 @@ c_prif = {
 }
 
 c_lletya = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = elf002
 		government = clan_government
@@ -18,7 +18,7 @@ c_lletya = {
 }
 
 c_gwen = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = elf004
 		government = clan_government
@@ -27,14 +27,14 @@ c_gwen = {
 }
 
 c_mynd = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = elf004
 		change_development_level = 2
 	}
 }
 
 c_gorlah = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = elf008
 		government = clan_government
@@ -43,7 +43,7 @@ c_gorlah = {
 }
 
 c_poison = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = gnome002
 		government = clan_government
@@ -52,14 +52,14 @@ c_poison = {
 }
 
 c_tyras = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = kand018
 		change_development_level = 5
 	}
 }
 
 c_catapult = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = kand018
 		change_development_level = 3
 	}

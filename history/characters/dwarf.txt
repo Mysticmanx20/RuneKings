@@ -8,7 +8,7 @@ dwarf001 = {
 	trait = compassionate
 	trait = education_martial_2
 	disallow_random_traits = yes
-	11582.1.1 = {
+	9130.1.1 = {
 		birth = yes
 	}
 }
@@ -38,7 +38,7 @@ kand002 = {
     name ="Austri"
     culture = dwarf
     religion = guthix
-    11590.1.1 = {
+    9138.1.1 = {
         birth = yes
     }
 }

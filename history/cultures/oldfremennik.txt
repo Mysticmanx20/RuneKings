@@ -1,7 +1,7 @@
 ﻿
 # Old Fremennik (Mountain Tribe)
 
-9500.1.1 = {
+8500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_quilted_armor
@@ -15,7 +15,7 @@
 	discover_innovation = innovation_longboats
 }
 
-9900.1.1 = {
+8900.1.1 = {
 	discover_innovation = innovation_ledger
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_barracks
@@ -26,7 +26,7 @@
 	
 }
 
-11452 = {
+9000.1.1 = {
 	discover_innovation = innovation_horseshoes
 	discover_innovation = innovation_house_soldiers
 	discover_innovation = innovation_arched_saddle

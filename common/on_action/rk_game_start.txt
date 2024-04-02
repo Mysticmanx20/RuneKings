@@ -136,7 +136,7 @@ on_game_start = {
 		## NOTE: we do these first to avoid feed messages getting weird due to regents being replaced immediately after getting their position.
 		
 		if = {
-			limit = { game_start_date = 11621.1.1 }
+			limit = { game_start_date = 9169.1.1 }
 			# Designate some regents.
 			
 			character:900301 = { 

@@ -9,7 +9,7 @@
 	learning = 9
     trait = just
     trait = education_learning_4
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -19,7 +19,7 @@
 	religion = saradomin	
 	culture = asgarnia
 	health = 2
-	11549.1.1 = {
+	9097.1.1 = {
 		birth = yes
 	}
 }
@@ -31,10 +31,10 @@
     trait = humble
     trait = just
     trait = zealous
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 	}
-    11616.1.1 = {
+    9164.1.1 = {
         add_pressed_claim = title:k_asgarnia
     }
 }
@@ -44,7 +44,7 @@
     religion = saradomin
     culture = asgarnia
     father = 900301
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -53,11 +53,11 @@
     name = "Amik"
     religion = saradomin
     culture = asgarnia
-    11596.1.1 = {
+    9144.1.1 = {
         birth = yes
         employer = 900301
     }
-    11616.1.1 = {
+    9164.1.1 = {
         give_council_position = councillor_chancellor
         set_knight_status = force
     }
@@ -67,7 +67,7 @@
     name = "Nurmof"
     religion = guthix
     culture = dwarf
-    11598.1.1 = {
+    9146.1.1 = {
         birth = yes
     }
 }
@@ -76,7 +76,7 @@
     name = "Ramarno"
     religion = saradomin
     culture = imcando
-    11598.1.1 = {
+    9146.1.1 = {
         birth = yes
     }
 }
@@ -86,7 +86,7 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -97,10 +97,10 @@
     religion = saradomin
     culture = asgarnia
     trait = witch
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900315
     }
 }
@@ -111,7 +111,7 @@
     religion = saradomin
     culture = asgarnia
     trait = witch
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
         effect = {
 			add_character_flag = {
@@ -126,7 +126,7 @@
 	female = yes
     religion = saradomin
     culture = asgarnia
-    11599.1.1 = {
+    9147.1.1 = {
         birth = yes
     }
 }
@@ -137,10 +137,10 @@
     female = yes
     religion = saradomin
     culture = asgarnia
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900313
     }
 }
@@ -150,7 +150,7 @@
     religion = saradomin
     culture = asgarnia
     trait = lifestyle_gardener
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -159,10 +159,10 @@
     name = "Wydin"
     religion = saradomin
     culture = asgarnia
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900315
     }
 }
@@ -171,7 +171,7 @@
     name = "Tobias"
     religion = saradomin
     culture = asgarnia
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -180,7 +180,7 @@
     name = "Frank"
     religion = saradomin
     culture = asgarnia
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -189,7 +189,7 @@
     name = "Luthas"
     religion = saradomin
     culture = asgarnia
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -198,7 +198,7 @@
     name = "Zambo"
     culture = karamja
     religion = junglegods
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -207,7 +207,7 @@
     name = "Yambo"
     culture = karamja
     religion = junglegods
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -216,7 +216,7 @@
     name = "Kofi"
     culture = karamja
     religion = junglegods
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
     }
 }
@@ -226,7 +226,7 @@
     name = "Thurgo"
     religion = saradomin
     culture = imcando
-    11590.1.1 = {
+    9138.1.1 = {
         birth = yes
     }
 }
@@ -235,7 +235,7 @@
     name = "Zandar"
     religion = zamorak
     culture = asgarnia
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
 }
@@ -253,7 +253,7 @@
     name = "Party Pete"
     religion = saradomin
     culture = asgarnia
-    11593.1.1 = {
+    9141.1.1 = {
         birth = yes
     }
 }
@@ -262,7 +262,7 @@
     name = "Tiffy"
     religion = saradomin
     culture = asgarnia
-    11565.1.1 = {
+    9113.1.1 = {
         birth = yes
     }
 }
@@ -272,10 +272,10 @@
     name = "Drorkar"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -285,10 +285,10 @@
     name = "Lakki"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -297,10 +297,10 @@
     name = "Drogo"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -319,7 +319,7 @@
     religion = guthix
     culture = dwarf
     father = 900329
-    11601.1.1 = {
+    9149.1.1 = {
         birth = yes
     }
 }
@@ -328,10 +328,10 @@
     name = "Hura"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -340,10 +340,10 @@
     name = "Boot"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -352,10 +352,10 @@
     name = "Hammerspike"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -364,10 +364,10 @@
     name = "Nulodion"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -376,10 +376,10 @@
     name = "Rolad"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900306
 	}
 }
@@ -388,7 +388,7 @@
     name = "Rupert"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
 }
@@ -397,10 +397,10 @@
     name = "Thaki"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900315
 	}
 }
@@ -409,7 +409,7 @@
     name = "Gadrin"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
 }
@@ -418,10 +418,10 @@
     name = "Gudrik"
     religion = guthix
     culture = dwarf
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900315
 	}
 }
@@ -432,10 +432,10 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -446,10 +446,10 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -460,10 +460,10 @@
     religion = saradomin
     culture = dwarf
     trait = devoted
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -474,10 +474,10 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -488,10 +488,10 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -505,7 +505,7 @@
     11568.1.1 = {
         birth = yes
     }
-    11618.1.1 = {
+    9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -519,7 +519,7 @@
     11568.1.1 = {
         birth = yes
     }
-    11618.1.1 = {
+    9166.1.1 = {
 		employer = 900308
         add_character_flag = blocked_from_leaving
 	}
@@ -530,13 +530,13 @@
     name = "Marius"
     religion = zamorak
     culture = asgarnia
-    11589.1.1 = {
+    9137.1.1 = {
         birth = yes
     }
-    11616.12.21 = {
+    9164.12.21 = {
         employer = 900360
     }
-    11616.12.21 = {
+    9164.12.21 = {
         give_council_position = councillor_court_chaplain
     }
 }
@@ -545,10 +545,10 @@
     name = "Graves"
     religion = zamorak
     culture = asgarnia
-    11589.1.1 = {
+    9137.1.1 = {
         birth = yes
     }
-    11616.12.21 = {
+    9164.12.21 = {
         employer = 900360
     }
 }
@@ -559,13 +559,13 @@
     religion = zamorak
     culture = asgarnia
     trait = witch
-    11589.1.1 = {
+    9137.1.1 = {
         birth = yes
     }
-    11616.12.21 = {
+    9164.12.21 = {
         employer = 900360
     }
-    11616.12.21 = {
+    9164.12.21 = {
         give_council_position = councillor_spymaster
     }
     11626.6.15 = {
@@ -583,7 +583,7 @@
     religion = zamorak
     culture = asgarnia
     trait = education_intrigue_1
-    11587.1.1 = {
+    9135.1.1 = {
         birth = yes
     }
     
@@ -602,10 +602,10 @@
 	dynasty = 100911
 	culture = asgarnia
 	religion = saradomin
-	11587.1.1 = {
+	9135.1.1 = {
 		birth = yes
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		employer = 900301
 	}
 
@@ -616,10 +616,10 @@
     name = "Rommik"
     religion = saradomin
     culture = asgarnia
-    11591.1.1 = {
+    9139.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 }
@@ -630,10 +630,10 @@
     religion = saradomin
     culture = asgarnia
     trait = lifestyle_gardener
-    11594.1.1 = {
+    9142.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 }
@@ -642,10 +642,10 @@
     name = "Phials"
     religion = saradomin
     culture = asgarnia
-    11593.1.1 = {
+    9141.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 }
@@ -659,7 +659,7 @@
     trait = wrathful
     trait = lunatic_1
     trait = reclusive
-    11579.1.1 = {
+    9127.1.1 = {
         birth = yes
     }
     
@@ -669,10 +669,10 @@
     name = "Eric"
     religion = saradomin
     culture = asgarnia
-    11592.1.1 = {
+    9140.1.1 = {
         birth = yes 
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 
@@ -683,10 +683,10 @@
     female = yes
     religion = saradomin
     culture = asgarnia
-    11592.1.1 = {
+    9140.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 
@@ -696,10 +696,10 @@
     name = "Hengel"
     religion = saradomin
     culture = asgarnia
-    11592.1.1 = {
+    9140.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900310
     }
 }
@@ -711,7 +711,7 @@
     female = yes
     religion = saradomin
     culture = asgarnia
-    11615.1.1 = {
+    9163.1.1 = {
         birth = yes
     }
 }
@@ -722,7 +722,7 @@
     mother = 900367
     religion = saradomin
     culture = asgarnia
-    11614.1.1 = {
+    9162.1.1 = {
         birth = yes
     }
 }
@@ -733,10 +733,10 @@
     culture = asgarnia
     religion = saradomin
     trait = witch
-    11599.1.1 = {
+    9147.1.1 = {
         birth = yes
     }
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900315
     }
 }
@@ -751,7 +751,7 @@
     trait = education_martial_3
     disallow_random_traits = yes
 	prowess = 16
-    11590.1.1 = {
+    9138.1.1 = {
         birth = yes
         employer = 900301
     }
@@ -764,7 +764,7 @@
     religion = guthix
     trait = lifestyle_herbalist
     trait = compassionate
-    11572.1.1 = {
+    9120.1.1 = {
         birth = yes
     }
 }
@@ -777,7 +777,7 @@
     religion = saradomin
     trait = brave
     trait = just
-    11593.1.1 = {
+    9141.1.1 = {
         birth = yes
     }
 }
@@ -805,10 +805,10 @@
     trait = wrathful
     trait = sadistic
     trait = vengeful
-    11546.5.17 = {
+    9094.5.17 = {
         birth = yes
     }
-    11615.1.1 = {
+    9163.1.1 = {
         death = yes
     }
 }
@@ -821,7 +821,7 @@
     11576.9.22 = {
         birth = yes
     }
-    11616.1.1 = {
+    9164.1.1 = {
         death = {
             death_reason = death_assassinated_by_soldiers
         }
@@ -837,10 +837,10 @@
     trait = vengeful
     trait = scarred
     trait = maimed
-    11546.5.10 = {
+    9094.5.10 = {
         birth = yes
     }
-    11617.6.6 = {
+    9165.6.6 = {
         death = {
             death_reason = death_assassination
         }
@@ -855,7 +855,7 @@ druid001 ={
 	trait = lifestyle_herbalist
 	trait = humble
     trait = education_learning_3
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
 }
@@ -865,10 +865,10 @@ asgarn001 = {
 	religion = saradomin
 	culture = asgarnia
 	trait = education_martial_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
         give_council_position = councillor_marshal
     }
@@ -879,10 +879,10 @@ asgarn002 = {
 	religion = saradomin
 	culture = asgarnia
 	trait = education_diplomacy_1
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -894,10 +894,10 @@ asgarn003 = {
 	culture = asgarnia
 	trait = gluttonous
 	trait = education_intrigue_1
-	11589.1.1 = {
+	9137.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -907,10 +907,10 @@ asgarn004 = {
 	religion = saradomin
 	culture = asgarnia
 	trait = education_learning_1
-	11583.1.1 = {
+	9131.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 
@@ -922,7 +922,7 @@ asgarn005 = {
 	culture = asgarnia
 	trait = education_martial_1
 	father = asgarn004
-	11603.1.1 = {
+	9151.1.1 = {
 		birth = yes
 	}
 }
@@ -933,10 +933,10 @@ asgarn006 = {
 	culture = asgarnia
 	trait = reclusive
 	trait = education_learning_1
-	11571.1.1 = {
+	9119.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -947,10 +947,10 @@ asgarn007 = {
 	culture = dwarf
 	trait = reclusive
 	trait = education_learning_1
-	11574.1.1 = {
+	9122.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -962,10 +962,10 @@ asgarn008 = {
 	culture = dwarf
 	#mountaineer?
 	trait = education_stewardship_1
-	11575.1.1 = {
+	9123.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -978,10 +978,10 @@ asgarn009 = {
 	trait = brave
 	trait = compassionate
 	#steward of Heroes' Guild
-	11574.1.1 = {
+	9122.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900376
     }
 }
@@ -995,7 +995,7 @@ asgarn010 = {
 	trait = witch
 	trait = paranoid
 	trait = education_intrigue_2
-	11584.1.1 = {
+	9132.1.1 = {
 		birth = yes
 	}
 }
@@ -1007,7 +1007,7 @@ asgarn011 = {
 	culture = asgarnia
 	trait = generous
 	trait = education_martial_3
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
 }
@@ -1018,10 +1018,10 @@ asgarn012 = {
 	culture = asgarnia
 	trait = education_stewardship_1
 	#trait mountaineer?
-	11594.1.1 = {
+	9142.1.1 = {
 		birth = yes
 	}
-    11611.1.1 = {
+    9159.1.1 = {
         employer = 900304
     }
 }
@@ -1032,7 +1032,7 @@ asgarn013 = {
     culture = asgarnia
     trait = reclusive
     trait = education_learning_2
-    11592.1.1 = {
+    9140.1.1 = {
         birth = yes
     }
 }
@@ -1044,10 +1044,10 @@ driud002 = {
 	culture = asgarnia
 	trait = lifestyle_herbalist
 	trait = education_learning_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900373
 	}
 }
@@ -1060,10 +1060,10 @@ driud003 = {
 	culture = asgarnia
 	trait = lifestyle_herbalist
 	trait = education_learning_1
-	11600.1.1 = {
+	9148.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900373
 	}
 }
@@ -1076,10 +1076,10 @@ driud004 = {
 	culture = asgarnia
 	trait = lifestyle_herbalist
 	trait = education_learning_1
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900373
 	}
 	#lover of Acheitties
@@ -1090,11 +1090,11 @@ asgarn014 = {
     religion = saradomin
     culture = asgarnia
     trait = education_martial_5
-    11431.1.1 = {
+    8979.1.1 = {
         birth = yes
 	    give_nickname = nick_falador
     }
-    11492.1.1 = {
+    9040.1.1 = {
         death = yes
     }
 }
@@ -1106,11 +1106,11 @@ asgarn015 = {
     culture = asgarnia
     trait = education_learning_3
     trait = humble
-    11595.1.1 = {
+    9143.1.1 = {
         birth = yes
         employer = 900301
     }
-    11615.1.1 = {
+    9163.1.1 = {
         give_council_position = councillor_court_chaplain
     }
 }
@@ -1121,10 +1121,10 @@ asgarn016 = {
     religion = saradomin
     culture = asgarnia
     trait = education_diplomacy_5
-    11422.1.1 = {
+    8970.1.1 = {
         birth = yes
     }
-    11482.1.1 = {
+    9030.1.1 = {
         death = yes
     }
 }
@@ -1136,10 +1136,10 @@ asgarn017 = {
     culture = icyene
     trait = education_diplomacy_3
     trait = albino
-    11585.1.1 = {
+    9133.1.1 = {
         birth = yes
     }
-    11620.1.1 = {
+    9168.1.1 = {
         employer = 900301
     }
 }
@@ -1151,10 +1151,10 @@ asgarn018 = {
 	trait = education_martial_1
 	trait = drunkard
 	trait = wrathful
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900310
 	}
 }

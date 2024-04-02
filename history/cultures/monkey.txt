@@ -1,14 +1,14 @@
 ﻿
 # MOnkey
 
-9500.1.1 = {
+8500.1.1 = {
 	discover_innovation = innovation_gavelkind
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_city_planning
 	discover_innovation = innovation_currency_01
 }
 
-9900.1.1 = {
+8900.1.1 = {
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_mustering_grounds
 

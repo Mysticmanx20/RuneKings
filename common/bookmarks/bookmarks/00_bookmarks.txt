@@ -1,5 +1,5 @@
 ﻿bm_1000_test = {
-	start_date = 11621.1.1
+	start_date = 9169.1.1
 	is_playable = yes
 	group = bm_group_1066 
 
@@ -11,7 +11,7 @@
 		name = "Duke Horatio"
 		dynasty_splendor_level = 1
 		type = male
-		birth = 11591.1.1
+		birth = 9139.1.1
 		title = d_lumbridge
 		government = feudal_government
 		culture = misthalin
@@ -29,7 +29,7 @@
 		dynasty = 100903
 		dynasty_splendor_level = 1
 		type = male
-		birth = 11590.1.1
+		birth = 9138.1.1
 		title = c_drayman
 		government = feudal_government
 		culture = vampyre
@@ -62,7 +62,7 @@
 		name = "Archmage Sedridor"
 		dynasty_splendor_level = 1
 		type = male
-		birth = 11565.1.1 
+		birth = 9113.1.1 
 		title = c_wizard
 		government = feudal_government
 		culture = misthalin
@@ -79,7 +79,7 @@
 		dynasty = 100901
 		dynasty_splendor_level = 1
 		type = male
-		birth = 11592.1.1 
+		birth = 9140.1.1 
 		title = k_misthalin
 		government = feudal_government
 		culture = misthalin

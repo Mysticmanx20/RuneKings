@@ -15,7 +15,7 @@
 	religion = bandos
 	culture = goblin
 	holding = tribal_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			war_camps_01
 		}
@@ -38,7 +38,7 @@
 	religion = guthix
 	culture = dwarf
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			quarries_02
 		}
@@ -85,7 +85,7 @@
 	religion = saradomin
 	culture = asgarnia
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			common_tradeport_03
 		}
@@ -242,7 +242,7 @@
 	culture = asgarnia
 	holding = church_holding
 
-	11621.1.1 = {
+	9169.1.1 = {
 		culture = goblin
 		religion = bandos
 		
@@ -301,7 +301,7 @@
 	religion = bandos
 	culture = goblin
 	holding = tribal_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			war_camps_01
 		}

@@ -18,7 +18,7 @@ karam002 = {
 	father = karam001
 	trait = lifestyle_hunter
 	trait = education_martial_2
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
 }
@@ -31,7 +31,7 @@ karam003 = {
 	father = karam001
 	trait = lunatic
 	trait = education_learning_2
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
 }
@@ -44,7 +44,7 @@ karam004 = {
 	father = karam001
 	trait = stubborn
 	trait = education_learning_2
-	11602.1.1 = {
+	9150.1.1 = {
 		birth = yes
 	}
 }
@@ -55,10 +55,10 @@ karam005 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_stewardship_2
-	11591.1.1 = {
+	9139.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam001
 	}
 
@@ -69,10 +69,10 @@ karam006 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_learning_3
-	11570.1.1 = {
+	9118.1.1 = {
 		birth = yes
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		employer = karam001
 		give_council_position = councillor_court_chaplain
 	}
@@ -83,10 +83,10 @@ karam007 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_stewardship_2
-	11590.1.1 = {
+	9138.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam001
 	}
 }
@@ -96,10 +96,10 @@ karam008 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_diplomacy_2
-	11593.1.1 = {
+	9141.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam009
 	}
 }
@@ -109,7 +109,7 @@ karam009 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_stewardship_3
-	11595.1.1 = {
+	9143.1.1 = {
 		birth  = yes
 	}
 }
@@ -119,10 +119,10 @@ karam010 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_martial_2
-	11594.1.1 = {
+	9142.1.1 = {
 		birth  = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam009
 	}
 }
@@ -132,10 +132,10 @@ karam011 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_learning_2
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam009
 	}
 }
@@ -145,10 +145,10 @@ karam012 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_stewardship_2
-	11592.1.1 = {
+	9140.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam009
 	}
 }
@@ -158,7 +158,7 @@ karam013 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_diplomacy_3
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -169,7 +169,7 @@ karam014 = {
     religion = godless
     trait = brave
     trait = vengeful
-    11574.1.1 = {
+    9122.1.1 = {
         birth = yes
     }
 }
@@ -179,10 +179,10 @@ karam015 = {
 	culture = karamja
 	religion = junglegods
 	trait = education_diplomacy_2
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = karam014
 	}
 }
@@ -193,10 +193,10 @@ karam016 = {
 	religion = junglegods
 	trait = education_learning_3
 	trait = possessed_1
-	11579.1.1 = {
+	9127.1.1 = {
 		birth = yes
 	}
-	11618.1.1 = {
+	9166.1.1 = {
 		employer = karam013
 		give_council_position = councillor_court_chaplain
 	}
@@ -208,7 +208,7 @@ karam017 = {
 	culture = waterspirit
 	religion = godless
 	trait = education_martial_3
-	11580.1.1 = {
+	9128.1.1 = {
 		birth = yes
 	}
 }
@@ -218,7 +218,7 @@ karam018 = {
 	culture = monkey
 	religion = marimbo
 	trait = education_diplomacy_2
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
 }

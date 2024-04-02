@@ -18,7 +18,7 @@ gob002 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_1
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -33,10 +33,10 @@ gob002 = {
 	trait = fickle
 	trait = education_diplomacy_2
 	disallow_random_traits = yes
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		add_realm_law = male_only_law
 	}
 }
@@ -57,7 +57,7 @@ gob004 = {
 	dynasty = 100958
 	culture = goblin
 	religion = bandos
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -68,7 +68,7 @@ gob005 = {
 	religion = bandos
 	culture = goblin
 	trait = education_intrigue_1
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -79,10 +79,10 @@ gob006 = {
 	religion = bandos
 	culture = goblin
 	trait = education_learning_1
-	11600.1.1 = {
+	9148.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob005
 	}
 }
@@ -94,10 +94,10 @@ gob007 = {
 	culture = goblin
 	trait = drunkard
 	trait = education_diplomacy_1
-	11601.1.1 = {
+	9149.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob005
 	}
 }
@@ -108,10 +108,10 @@ gob008 = {
 	religion = bandos
 	culture = goblin
 	trait = education_stewardship_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob005
 	}
 }
@@ -123,10 +123,10 @@ gob009 = {
 	religion = bandos
 	culture = goblin
 	trait = education_learning_3
-	11599.1.1 = {
+	9147.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob005
 	}
 }
@@ -138,10 +138,10 @@ gob010 = {
 	religion = bandos
 	culture = goblin
 	trait = education_learning_3
-	11600.1.1 = {
+	9148.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob005
 	}
 }
@@ -151,7 +151,7 @@ gob011 = {
 	dynasty = 100951
 	culture = goblin
 	religion = bandos
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
 }
@@ -161,7 +161,7 @@ gob012 = {
 	dynasty = 100952
 	culture = goblin
 	religion = bandos
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
 }
@@ -173,10 +173,10 @@ gob013 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_learning_3
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob014
 		give_council_position = councillor_court_chaplain
 	}
@@ -191,10 +191,10 @@ gob014 = {
 	trait = wrathful
 	trait = fickle
 	trait = education_diplomacy_2
-	11585.1.1 = {
+	9133.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		set_relation_rival = { target = character:900302 reason = rival_historical }
 	}
 	
@@ -209,10 +209,10 @@ gob015 = {
 	trait = arrogant
 	trait = brave
 	trait = education_martial_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900302
 		give_council_position = councillor_marshal
 	}
@@ -227,10 +227,10 @@ gob016 = {
 	trait = arrogant
 	trait = brave
 	trait = education_martial_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob014
 		give_council_position = councillor_marshal
 	}
@@ -248,7 +248,7 @@ gob017 = {
 	11597.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = gob014
 	}
 }
@@ -261,10 +261,10 @@ gob018 = {
 	trait = diligent
 	trait = impatient
 	trait = education_learning_1
-	11596.1.1 = {
+	9144.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900302
 	}
 }
@@ -276,10 +276,10 @@ gob019 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_learning_3
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900302
 		give_council_position = councillor_court_chaplain
 	}
@@ -292,10 +292,10 @@ gob020 = {
 	religion = bandos
 	trait = lisping
 	trait = education_intrigue_2
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
-	11620.1.1 = {
+	9168.1.1 = {
 		employer = 900302
 	}
 }
@@ -306,7 +306,7 @@ gob021 = {
 	religion = bandos
 	trait = wrathful
 	trait = education_martial_1
-	11595.1.1 = {
+	9143.1.1 = {
 		birth = yes
 	}
 }

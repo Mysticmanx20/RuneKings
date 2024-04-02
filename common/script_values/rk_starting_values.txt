@@ -5,7 +5,7 @@
 	# Historical one-time increases to Cultural Acceptance (added on top of the baseline)
 	# Note: List the cultures in the same order as they appear in script in common\culture\cultures.
 	if = {
-		limit = { current_date >= 11621.1.1 } # Changes for the 169V bookmark
+		limit = { current_date >= 9169.1.1 } # Changes for the 169V bookmark
 		
 		if = {
 			limit = { # Misthalin-Morytania War

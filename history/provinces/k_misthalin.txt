@@ -3,7 +3,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			pastures_01
 		}
@@ -14,7 +14,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			military_camps_01
 		}
@@ -38,7 +38,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			castle_02
 		}
@@ -91,7 +91,7 @@
 	culture = fremennik
 	religion = v
 	holding = tribal_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			palisades_01
 		}
@@ -114,7 +114,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
-	11452.1.1 = {
+	9000.1.1 = {
 		special_building = generic_university
 	}
 }
@@ -219,7 +219,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
-	11621.1.1 = {
+	9169.1.1 = {
 		buildings = {
 			logging_camps_01
 		}

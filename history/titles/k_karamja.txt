@@ -1,6 +1,6 @@
 
 c_brim = {
-	11615.1.1 ={
+	9163.1.1 ={
 		liege = 0
 		holder = karam014
 		change_development_level = 10
@@ -8,7 +8,7 @@ c_brim = {
 }
 
 c_musa = {
-	11615.1.1 = {
+	9163.1.1 = {
 		liege = 0
 		holder = 900317
 		change_development_level = 7
@@ -16,19 +16,19 @@ c_musa = {
 }
 
 b_zambo = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = 900318
 	}
 }
 
 b_kofigen = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = 900320
 	}
 }
 
 c_shilo = {
-	11615.1.1 = {
+	9163.1.1 = {
 		liege = 0
 		holder = karam009
 		change_development_level = 8
@@ -36,7 +36,7 @@ c_shilo = {
 }
 
 c_shipyard = {
-	11615.1.1 = {
+	9163.1.1 = {
 		liege = 0
 		holder = gnome005
 		change_development_level = 7
@@ -44,7 +44,7 @@ c_shipyard = {
 }
 
 c_taibwo = {
-	11615.1.1 = {
+	9163.1.1 = {
 		liege = 0
 		holder = karam001
 		change_development_level = 6
@@ -52,7 +52,7 @@ c_taibwo = {
 }
 
 c_karambwan = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = karam004
 		change_development_level = 3
@@ -60,35 +60,35 @@ c_karambwan = {
 }
 
 c_jogres = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = ogre018
 		change_development_level = 2
 	}
 }
 
 c_ahzaroon = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = ogre019
 		change_development_level = 2
 	}
 }
 
 c_kharazi = {
-	11618.1.1 = {
+	9166.1.1 = {
 		holder = karam013
 		change_development_level = 4
 	}
 }
 
 c_tempoross = {
-	11618.1.1 = {
+	9166.1.1 = {
 		holder = karam017
 		change_development_level = 2
 	}
 }
 
 c_marim = {
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = karam018
 		change_development_level = 3
 	}

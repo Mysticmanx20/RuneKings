@@ -194,7 +194,7 @@ create_artifact_rk_ghostspeak_effect = {
 		quality = scope:quality
 		history = {
 			type = created
-			date = 11620.10.29
+			date = 9168.10.29
 			recipient = character:900101 #Urhney 
 			location = province:3 #Lum Swamp
 		}
@@ -259,19 +259,19 @@ create_artifact_rk_charos_effect = {
 		}
 		add_artifact_history = {
 			type = inherited
-			date = 11580.1.1
+			date = 9128.1.1
 			actor = character:mort004 # vanne
 			recipient = character:mort005 # Rolomere
 		}
 		add_artifact_history = {
 			type = inherited
-			date = 11600.1.1
+			date = 9148.1.1
 			actor = character:mort004 # mere
 			recipient = character:mort001 # Rologarth
 		}
 		add_artifact_history = {
 			type = inherited
-			date = 11620.6.6
+			date = 9168.6.6
 			actor = character:mort001 # garth
 			recipient = character:900506 # Fenk
 		}
@@ -295,7 +295,7 @@ create_artifact_rk_kharidib_effect = {
 		quality = scope:quality
 		history = {
 			type = created
-			date = 11620.10.29
+			date = 9168.10.29
 			recipient = character:900800 #Emir Shah
 			location = province:21 #Alkarid
 		}

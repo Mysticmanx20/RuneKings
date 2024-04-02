@@ -1,65 +1,65 @@
 ﻿d_entrana = {
-	11453.1.1 = {
+	9001.1.1 = {
 		liege = 0
 	}
-	11602.1.1 = {
+	9150.1.1 = {
 		holder = 900300
 	}
 }
 
 c_entrana = {
-	11602.1.1 = {
+	9150.1.1 = {
 		holder = 900300
 		change_development_level = 11
 	}
 }
 
 k_asgarnia = {
-	11460.1.1 = {
+	9008.1.1 = {
 		holder = asgarn016
 	}
-	11570.1.1 = {
+	9118.1.1 = {
 		holder = 900301
 	}
 }
 
 b_whiteknight = {
-	11570.1.1 = {
+	9118.1.1 = {
 		holder = 900301
 	}
 }
 
 d_falador = {
-	11470.1.1 = {
+	9018.1.1 = {
 		liege = k_asgarnia
 	}
-	11570.1.1 = {
+	9118.1.1 = {
 		holder = 900301
 	}
 }
 
 c_faladorwest = {
-	11470.1.1 = {
+	9018.1.1 = {
 		liege = d_falador
 	}
-	11570.1.1 = {
+	9118.1.1 = {
 		holder = 900301
 		change_development_level = 20
 	}
 }
 
 c_faladoreast = {
-	11460.1.1 = {
+	9008.1.1 = {
 		liege = d_falador
 	}
-	11614.1.1 = {
+	9162.1.1 = {
 		holder = 900348
 		change_development_level = 18
 	}
 }
 
 c_sarimchurch = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		government = tribal_government
 		holder = gob003
@@ -68,7 +68,7 @@ c_sarimchurch = {
 }
 
 b_sarimforest = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = gob003
 		effect = {
 			set_capital_barony = yes
@@ -77,48 +77,48 @@ b_sarimforest = {
 }
 
 b_sarimchurch = {
-	11620.1.1 = {
+	9168.1.1 = {
 		holder = gob003
 	}
 }
 
 b_partyroom = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = 900324
 	}
 }
 
 b_northfal = {
-	11590.1.1 = {
+	9138.1.1 = {
 		holder = 900325
 	}
 }
 
 c_dmine = {
-	11618.1.1 = {
+	9166.1.1 = {
 		holder = 900306
 		change_development_level = 10
 	}
-	11620.1.2 = {
+	9168.1.2 = {
 		liege = k_dwarf
 	}
 }
 
 c_blkfort = {
-	11456.1.1 = {
+	9004.1.1 = {
 		liege = d_kinshra
 		holder = 900377 #Sanafin
 	}
-	11582.1.1 = {
+	9130.1.1 = {
 		holder = 900378 #Shadwell
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = 900379  #Milton
 	}
-	11616.1.1 = {
+	9164.1.1 = {
 		holder = 900380 #Sulla
 	}
-	11616.12.21 = {
+	9164.12.21 = {
 		holder = 900360
 		change_development_level = 8
 	}
@@ -126,7 +126,7 @@ c_blkfort = {
 }
 
 c_gobvil = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = gob014
 		government = tribal_government
@@ -135,7 +135,7 @@ c_gobvil = {
 }
 
 c_gobvilgreen = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = 900302
 		government = tribal_government
@@ -144,7 +144,7 @@ c_gobvilgreen = {
 }
 
 c_chaostemple = {
-	11618.1.2 = {
+	9166.1.2 = {
 		liege = 0
 		holder = 900322
 		change_development_level = 5
@@ -152,7 +152,7 @@ c_chaostemple = {
 }
 
 c_doric = {
-	11600.1.1 = {
+	9148.1.1 = {
 		liege = k_asgarnia
 		holder = 900329
 		change_development_level = 8
@@ -160,7 +160,7 @@ c_doric = {
 }
 
 c_miztower = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = k_asgarnia
 		holder = 900311
 		change_development_level = 7
@@ -168,7 +168,7 @@ c_miztower = {
 }
 
 c_edgemon = {
-	11618.1.1 = {
+	9166.1.1 = {
 		liege = k_asgarnia
 		holder = 900308
 		change_development_level = 10
@@ -177,7 +177,7 @@ c_edgemon = {
 
 
 c_camdozaal = {
-	11621.1.1 = {
+	9169.1.1 = {
 		liege = 0
 		holder = 900307
 		change_development_level = 3
@@ -185,7 +185,7 @@ c_camdozaal = {
 }
 
 c_falfarm = {
-	11610.1.1 = {
+	9158.1.1 = {
 		liege = k_asgarnia
 		holder = 900313
 		change_development_level = 12
@@ -193,7 +193,7 @@ c_falfarm = {
 }
 
 c_craft = {
-	11600.1.1 = {
+	9148.1.1 = {
 		liege = k_asgarnia
 		holder = 900301
 		change_development_level = 12
@@ -201,7 +201,7 @@ c_craft = {
 }
 
 c_rim = {
-	11611.1.1 = {
+	9159.1.1 = {
 		liege = k_asgarnia
 		holder = 900310
 		change_development_level = 12
@@ -209,7 +209,7 @@ c_rim = {
 }
 
 c_melzar = {
-	11621.1.1 = {
+	9169.1.1 = {
 		liege = 0
 		holder = 900365
 		change_development_level = 8
@@ -218,7 +218,7 @@ c_melzar = {
 
 
 c_portsarim = {
-	11611.1.1 = {
+	9159.1.1 = {
 		liege = k_asgarnia
 		holder = 900315
 		change_development_level = 15
@@ -226,7 +226,7 @@ c_portsarim = {
 }
 
 c_asgarnice = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = 900321
 		change_development_level = 6
@@ -234,7 +234,7 @@ c_asgarnice = {
 }
 
 c_mudskip = {
-	11620.1.1 = {
+	9168.1.1 = {
 		liege = 0
 		holder = ogre017
 		change_development_level = 5
@@ -242,7 +242,7 @@ c_mudskip = {
 }
 
 c_crandor = {
-	11591.1.1 = {
+	9139.1.1 = {
 		liege = 0
 		holder = 900323
 		change_development_level = 1
@@ -250,7 +250,7 @@ c_crandor = {
 }
 
 c_taverley = {
-	11592.1.1 = {
+	9140.1.1 = {
 		liege = k_asgarnia
 		holder = 900373
 		change_development_level = 11
@@ -258,19 +258,19 @@ c_taverley = {
 }
 
 b_witchhouse = {
-	11604.1.1 = {
+	9152.1.1 = {
 		holder = asgarn010
 	}
 }
 
 b_tavcircle = {
-	11592.1.1 = {
+	9140.1.1 = {
 		holder = druid001
 	}
 }
 
 c_tavdun = {
-	11615.1.1 ={
+	9163.1.1 ={
 		liege = d_kinshra
 		holder = 900303
 		change_development_level = 8
@@ -279,17 +279,17 @@ c_tavdun = {
 
 
 c_whitewolf = {
-	11608.1.1 = {
+	9156.1.1 = {
 		holder = 900374
 		change_development_level = 9
 	}
-	11620.1.2 = {
+	9168.1.2 = {
 		liege = k_dwarf
 	}
 }
 
 c_darkwiztow = {
-	11618.1.1 = {
+	9166.1.1 = {
 		liege = 0
 		holder = 900322
 		change_development_level = 7
@@ -297,39 +297,39 @@ c_darkwiztow = {
 }
 
 d_burthorpe = {
-	11570.1.1 = {
+	9118.1.1 = {
 		liege = k_asgarnia
 		holder = 900301
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = 900304
 	}
 }
 
 c_burthorpe = {
-	11570.1.1 = {
+	9118.1.1 = {
 		holder = 900301
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = 900304
 		change_development_level = 12
 	}
 }
 
 b_heroes = {
-	11611.1.1 ={
+	9159.1.1 ={
 		holder = 900376
 	}
 }
 
 b_warrior = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = asgarn011
 	}
 }
 
 c_deathpla = {
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = troll001
 		liege = 0
 		change_development_level = 6

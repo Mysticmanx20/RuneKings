@@ -1,6 +1,6 @@
 ﻿# Mogre
 
-9500.1.1 = {
+8500.1.1 = {
 	discover_innovation = innovation_bannus
 	#
 	discover_innovation = innovation_gavelkind
@@ -9,7 +9,7 @@
 	discover_innovation = innovation_plenary_assemblies
 }
 
-9900.1.1 = {
+8900.1.1 = {
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_mustering_grounds
 	#

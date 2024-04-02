@@ -1,80 +1,80 @@
 
 d_kinshra = {
-	11456.1.1 = {
+	9004.1.1 = {
 		holder = 900377 #Sanafin
 		succession_laws = { 
 			unholy_only_law
 		}
 
 	}
-	11582.1.1 = {
+	9130.1.1 = {
 		holder = 900378 #Shadwell
 	}
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = 900379  #Milton
 	}
-	11616.1.1 = {
+	9164.1.1 = {
 		holder = 900380 #Sulla
 	}
-    11616.12.20 ={
+    9164.12.20 ={
         holder = 900303   #Daquarius
     }
 }
 
 d_whiteknights = {
-	11456.1.1 = {
+	9004.1.1 = {
 		liege = k_asgarnia
 		holder = asgarn014
 	}
 }
 
 e_vamp = {
-	11595.1.1 = {
+	9143.1.1 = {
 		holder = vamp001
 	}
-	11599.1.1 = {
+	9147.1.1 = {
 		holder = 0
 	}
 }
 
 d_ham = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = ham001
 	}
 }
 
 d_khazard2 = {
-	11615.1.1 = {
+	9163.1.1 = {
 		holder = kand065
 	}
 }
 
 k_camelot = {
-	11584.1.1 = {
+	9132.1.1 = {
 		holder = kand004
 	}
 }
 
 d_greengob = {
-	11599.1.1 = {
+	9147.1.1 = {
 		holder = 900302
 	}
 }
 
 d_redgob = {
-	11599.1.1 = {
+	9147.1.1 = {
 		holder = gob014
 	}
 }
 
 d_bluegob = {
-	11599.1.1 = {
+	9147.1.1 = {
 		holder = gob011
 	}
 }
 
 d_pinkgob = {
-	11599.1.1 = {
+	9147.1.1 = {
 		holder = gob005
 	}
 }
@@ -97,7 +97,7 @@ k_gnome1 = {
 	11450.1.1 = {
 		holder = gnome008
 	}
-	11601.1.1 = {
+	9149.1.1 = {
 		holder = gnome001
 	}
 }
@@ -110,25 +110,25 @@ d_gnomestrong = {
 	11450.1.1 = {
 		holder = gnome008
 	}
-	11601.1.1 = {
+	9149.1.1 = {
 		holder = gnome001
 	}
 }
 
 k_gnome2 = {
-	11589.1.1 = {
+	9137.1.1 = {
 		holder = gnome010
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = gnome003
 	}
 }
 
 d_gnomevil = {
-	11589.1.1 = {
+	9137.1.1 = {
 		holder = gnome010
 	}
-	11611.1.1 = {
+	9159.1.1 = {
 		holder = gnome003
 	}
 }

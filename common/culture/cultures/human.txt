@@ -220,7 +220,7 @@ fremennik = {   #fremmenik
 
 oldfremennik = {   #old fremmenik (mountain tribe)
 	color = { 0.62 0.51 0.44 }
-	created = 11453.1.1
+	created = 9001.1.1
 	parents = { fremennik }
 	
 	ethos = ethos_spiritual
@@ -494,7 +494,7 @@ ogre = {     # Ogre
 
 mogre = {     # Mogre
 	color = { 0.5 1.0 0.0 }
-	created = 11453.1.1
+	created = 9001.1.1
 	parents = { ogre }
 	
 	ethos = ethos_bellicose
@@ -521,7 +521,7 @@ mogre = {     # Mogre
 
 jogre = {     # Jogre
 	color = { 0.01 0.75 0.24 }
-	created = 11453.1.1
+	created = 9001.1.1
 	parents = { ogre }
 	
 	ethos = ethos_bellicose

@@ -1,7 +1,7 @@
 
 # Dwarf
 
-9500.1.1 = {
+8500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_quilted_armor
@@ -13,7 +13,7 @@
 	discover_innovation = innovation_plenary_assemblies
 }
 
-9900.1.1 = {
+8900.1.1 = {
 	discover_innovation = innovation_ledger
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_barracks
@@ -25,7 +25,7 @@
 	join_era = culture_era_early_medieval
 }
 
-11452 = {
+9000.1.1 = {
 	discover_innovation = innovation_house_soldiers
 	discover_innovation = innovation_baliffs
 	discover_innovation = innovation_development_02
