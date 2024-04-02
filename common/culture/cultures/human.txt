@@ -252,7 +252,7 @@ oldfremennik = {   #old fremmenik (mountain tribe)
 
 moonclan = {   #Moon clan fremenniks
 	color = { 0.0 0.87 0.87 }
-	created = 9953.1.1
+	created = 7100.1.1
 	parents = { fremennik }
 	
 	ethos = ethos_spiritual
@@ -733,7 +733,7 @@ werewolf = {    # Werewolf
 
 morytania = {   #Morytanian
 	color = { 0.0 0.66 0.47}
-	created = 8825.1.1
+	created = 8777.1.1
 	parents = { misthalin }
 	
 	ethos = ethos_stoic

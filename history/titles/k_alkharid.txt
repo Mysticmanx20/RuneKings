@@ -72,7 +72,7 @@ c_shantay = {
 
 
 c_nardah = {
-	8500.1.1 = {
+	6500.1.1 = {
 		holder = 900875
 		liege = 0
 		government= feudal_government

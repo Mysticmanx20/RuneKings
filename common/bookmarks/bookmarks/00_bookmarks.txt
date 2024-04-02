@@ -46,7 +46,7 @@
 		dynasty = 100905
 		dynasty_splendor_level = 1
 		type = male
-		birth = 11556.1.1 
+		birth = 9104.1.1 
 		title = k_alkharid
 		government = feudal_government
 		culture = kharidian
