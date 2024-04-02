@@ -1,19 +1,19 @@
 ﻿
 k_morytania = {
-	11506.1.1 = {
+	9054.1.1 = {
 	holder = 900500
 	government = clan_government
 	}
 }
 
 d_sang ={
-	11506.1.1 = {
+	9054.1.1 = {
 		holder = 900500
 	}
 }
 
 c_darkmeyer = {
-	11506.1.1 = {
+	9054.1.1 = {
 		holder = 900500
 		change_development_level = 10
 	}
@@ -39,7 +39,7 @@ c_slepe = {
 		liege = k_morytania
 	}
 
-	11506.1.1 = {
+	9054.1.1 = {
 		holder = 900502
 		government = clan_government
 		change_development_level = 8
@@ -54,7 +54,7 @@ c_cromb = {
 }
 
 c_mortton = {
-	11506.1.1 = {
+	9054.1.1 = {
 		holder = 900503
 		change_development_level = 1
 	}
@@ -85,7 +85,7 @@ c_burgderot ={
 	1000.1.1 = {
 		liege = 0
 	}
-	11506.1.1 = {
+	9054.1.1 = {
 		holder = 900504
 		change_development_level = 3
 	}
@@ -133,13 +133,13 @@ b_darkmeyer = {
 }
 
 c_fenk = {
-	11277.1.1 = {
+	8825.1.1 = {
 		holder = mort002
 	}
-	11513.1.1 = {
+	9061.1.1 = {
 		holder = mort003
 	}
-	11559.1.1 = {
+	9107.1.1 = {
 		holder = mort004
 	}
 	9128.1.1 = {

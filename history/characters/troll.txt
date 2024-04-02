@@ -15,7 +15,7 @@ troll002 = {
 	culture = troll
 	trait = education_stewardship_1
 	trait = paranoid
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -111,7 +111,7 @@ troll009 = {
 	trait = lazy
 	trait = gluttonous
 	trait = education_martial_2
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 }
@@ -168,7 +168,7 @@ troll013 = {
 	trait = callous
 	trait = education_martial_3
 	disallow_random_traits = yes
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }

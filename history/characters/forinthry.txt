@@ -106,7 +106,7 @@ wild010 = {
 	name = "Ian"  #forgotten cem
 	religion = zamorak
 	culture = wild
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }
@@ -124,7 +124,7 @@ wild012 = {
 	name = "Ferox"
 	religion = zamorak
 	culture = wild
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }
@@ -133,7 +133,7 @@ wild013 = {
 	name = "Camarst"
 	religion = zamorak
 	culture = wild
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {

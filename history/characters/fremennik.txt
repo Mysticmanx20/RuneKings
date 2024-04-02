@@ -135,7 +135,7 @@ frem010 = {
 	trait = craven
 	trait = greedy
 	trait = education_intrigue_2
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 	9150.1.1 = {
@@ -149,7 +149,7 @@ frem011 = {
 	#dynasty Hradson
 	religion = v
 	culture = fremennik
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 }
@@ -188,7 +188,7 @@ frem014 = {
 	religion = v
 	culture = fremennik
 	trait = education_learning_2
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }

@@ -5,7 +5,7 @@ karam001 = {
 	religion = junglegods
 	culture = karamja
 	trait = education_diplomacy_2
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 }

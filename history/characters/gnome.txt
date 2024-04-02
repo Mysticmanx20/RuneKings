@@ -9,7 +9,7 @@ gnome001 = {
 	trait = gregarious
 	trait = education_diplomacy_3
 	disallow_random_traits = yes
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }
@@ -71,10 +71,10 @@ gnome006 = {
 	11364.1.1 = {
 		birth = yes
 	}
-	11384.1.1 = {
+	8932.1.1 = {
 		add_spouse = gnome007
 	}
-	11450.1.1 = {
+	8998.1.1 = {
 		death = yes
 	}
 }
@@ -87,7 +87,7 @@ gnome007 = {
 	11364.1.1 = {
 		birth = yes
 	}
-	11450.1.1 = {
+	8998.1.1 = {
 		death = yes
 	}
 }

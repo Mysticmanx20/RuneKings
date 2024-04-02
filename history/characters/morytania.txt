@@ -12,7 +12,7 @@
 	trait = faith_warrior
 	trait = education_martial_4
 	disallow_random_traits = yes
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 		set_immortal_age = 30
 	}
@@ -36,7 +36,7 @@
 	name = "Damien"
 	religion = zamorak
 	culture = vampyre
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -45,7 +45,7 @@
 	name = "Razmire"
 	religion = zamorak
 	culture = morytania
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -199,7 +199,7 @@
 	trait = wrathful
 	trait = education_martial_3
 	disallow_random_traits = yes
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -289,10 +289,10 @@ vamp001 = {
 	trait = education_diplomacy_5
 	trait = family_first
 	disallow_random_traits = yes
-	11508.1.1 = {
+	9056.1.1 = {
 		birth = yes
 	}
-	11537.1.1 = {
+	9085.1.1 = {
 		add_spouse = vamp004
 	}
 	9144.1.1 = {
@@ -313,7 +313,7 @@ vamp002 = {
 	trait = fickle
 	trait = education_intrigue_3
 	disallow_random_traits = yes
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 		employer = 900500
 	}
@@ -397,7 +397,7 @@ vamp007 = {
 	dynasty_house = house_jovkai
 	religion = zamorak
 	culture = vampyre
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 		employer = 900500
 	}
@@ -421,7 +421,7 @@ vamp009 = {
 	dynasty_house = house_shadum
 	religion = zamorak
 	culture = vampyre
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 		employer = 900500
 	}
@@ -433,7 +433,7 @@ vamp010 = {
 	dynasty_house = house_shadum
 	religion = zamorak
 	culture = vampyre
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 		employer = 900500
 	}
@@ -463,10 +463,10 @@ mort002 = {
 	religion = saradomin
 	culture = morytania
 	trait = education_diplomacy_5
-	11253.1.1 = {
+	8801.1.1 = {
 		birth = yes
 	}
-	11313.1.1 = {
+	8861.1.1 = {
 		death = yes
 	}
 
@@ -477,10 +477,10 @@ mort003 = {
 	culture = morytania
 	religion = saradomin
 	trait = education_martial_3
-	11488.1.1 = {
+	9036.1.1 = {
 		birth = yes
 	}
-	11559.1.1 = {
+	9107.1.1 = {
 		death = yes
 	}
 }
@@ -492,7 +492,7 @@ mort004 = {
 	religion = saradomin
 	father = mort003
 	trait = education_stewardship_2
-	11511.1.1 = {
+	9059.1.1 = {
 		birth = yes
 	}
 	9128.1.1 = {
@@ -506,7 +506,7 @@ mort005 = {
 	religion = saradomin
 	father = mort004
 	trait = education_learning_4
-	11537.1.1 = {
+	9085.1.1 = {
 		birth = yes
 	}
 	9148.1.1 = {
@@ -519,10 +519,10 @@ mort006 = {
 	culture = morytania
 	religion = saradomin
 	trait = education_diplomacy_5
-	11250.1.1 = {
+	8798.1.1 = {
 		birth = yes
 	}
-	11320.1.1 = {
+	8868.1.1 = {
 		death = yes
 	}
 }

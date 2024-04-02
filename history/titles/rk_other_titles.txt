@@ -83,18 +83,18 @@ k_dwarf = {
 	1620.1.1 = {
 		succession_laws = { dwarf_elective_succession_law }
 	}
-	2120.1.1 = {
+	9168.1.1 = {
 		holder = dwarf001
 	}
 }
 
 
 k_gnome1 = {
-	11384.1.1 = {
+	8932.1.1 = {
 		liege = 0
 		holder = gnome006
 	}
-	11450.1.1 = {
+	8998.1.1 = {
 		holder = gnome008
 	}
 	9149.1.1 = {
@@ -103,11 +103,11 @@ k_gnome1 = {
 }
 
 d_gnomestrong = {
-	11384.1.1 = {
+	8932.1.1 = {
 		liege = 0
 		holder = gnome006
 	}
-	11450.1.1 = {
+	8998.1.1 = {
 		holder = gnome008
 	}
 	9149.1.1 = {

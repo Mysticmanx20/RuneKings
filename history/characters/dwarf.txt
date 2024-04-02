@@ -19,7 +19,7 @@ dwarf002 = {
 	culture = dwarf
 	trait = stubborn
 	trait = education_martial_2
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 
@@ -29,7 +29,7 @@ kand002 = {
 	name = "Vestri"
 	religion = guthix
 	culture = dwarf
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }

@@ -6,7 +6,7 @@ gob001 = {
 	culture = goblin
 	trait = zealous
 	trait = education_learning_2
-	11588.8.30 = {
+	9136.8.30 = {
 		birth = yes
 	}
 }
@@ -47,7 +47,7 @@ gob003 = {
 	culture = goblin
 	religion = bandos
 	trait = wrathful
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 }
@@ -245,7 +245,7 @@ gob017 = {
 	trait = humble
 	trait = eccentric
 	trait = education_learning_3
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {

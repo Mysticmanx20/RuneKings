@@ -63,20 +63,20 @@ c_ardyfarm = {
 }
 
 c_ardy = {
-	11588.1.1 = {
+	9136.1.1 = {
 		holder = kand017
 		change_development_level = 20
 	}
 }
 
 d_ardy = {
-	11588.1.1 = {
+	9136.1.1 = {
 		holder = kand017
 	}
 }
 
 c_westardy = {
-	11588.1.1 = {
+	9136.1.1 = {
 		liege = 0
 		holder = kand018
 		change_development_level = 12
@@ -230,12 +230,12 @@ c_eastfeldip = {
 }
 
 c_gnomestrong = {
-	11384.1.1 = {
+	8932.1.1 = {
 		liege = 0
 		holder = gnome006
 		change_development_level = 10
 	}
-	11450.1.1 = {
+	8998.1.1 = {
 		holder = gnome008
 	}
 	9149.1.1 = {

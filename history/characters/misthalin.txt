@@ -470,7 +470,7 @@
 	culture = misthalin
 	religion = saradomin
 	learning = 13
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 }
@@ -635,7 +635,7 @@
     female = yes
     religion = v
     culture = fremennik
-    11578.1.1 = {
+    9126.1.1 = {
         birth = yes
     }
 }
@@ -1264,7 +1264,7 @@
     name = "Count Check"
     culture = vampyre
     religion = zamorak
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 	9159.1.1 = {
@@ -1508,7 +1508,7 @@
 	dynasty_house = house_firestaff
     culture = misthalin
     religion = saradomin
-    11588.1.1 = {
+    9136.1.1 = {
         birth = yes
 		make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:zamorak }
     }
@@ -1659,7 +1659,7 @@
     name = "Kayle"
     culture = misthalin
     religion = zamorak
-    11597.1.1 = {
+    9145.1.1 = {
         birth = yes
     }
 	9168.1.1 = {
@@ -1789,7 +1789,7 @@ ham001 = {
 	trait = zealous
 	trait = education_learning_4
 	disallow_random_traits = yes
-    11588.1.1 ={
+    9136.1.1 ={
         birth = yes
     }
 }
@@ -1872,7 +1872,7 @@ ham001 = {
     dynasty = 100919
     culture = misthalin
     religion = zamorak
-    11586.1.1 ={
+    9134.1.1 ={
         birth =yes
 		employer = 900108
     }

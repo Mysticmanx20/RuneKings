@@ -733,7 +733,7 @@ werewolf = {    # Werewolf
 
 morytania = {   #Morytanian
 	color = { 0.0 0.66 0.47}
-	created = 11277.1.1
+	created = 8825.1.1
 	parents = { misthalin }
 	
 	ethos = ethos_stoic

@@ -61,7 +61,7 @@ kand007 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_stewardship_1
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 }
@@ -87,7 +87,7 @@ kand009 = {
 	culture = kandarin
 	trait = patient
 	trait = education_learning_3
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 	9165.1.1 = {
@@ -114,7 +114,7 @@ kand011 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_stewardship_1
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 	9165.1.1 ={
@@ -128,7 +128,7 @@ kand012 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_intrigue_2
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -141,7 +141,7 @@ kand013 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_intrigue_1
-	11597.1.1 = {
+	9145.1.1 = {
 		birth = yes
 	}
 }
@@ -190,7 +190,7 @@ kand017 = {
 	trait = education_intrigue_2
 	disallow_random_traits = yes
 	father = kand019
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 }
@@ -222,7 +222,7 @@ kand019 = {
 	11547.1.1 = {
 		birth = yes
 	}
-	11588.1.1 = {
+	9136.1.1 = {
 		death = yes
 	}
 }
@@ -257,7 +257,7 @@ kand022 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_martial_1
-	11578.1.1 = {
+	9126.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -311,7 +311,7 @@ kand026 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_diplomacy_1
-	11576.1.1 = {
+	9124.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -354,7 +354,7 @@ kand029 = {
 	9131.1.1 = {
 		birth = yes
 	}
-	11588.1.1 = {
+	9136.1.1 = {
 		employer = kand018
 	}
 }
@@ -366,10 +366,10 @@ kand030 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_diplomacy_1
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
-	11597.1.1 = {
+	9145.1.1 = {
 		add_spouse = kand029
 	}
 }
@@ -496,7 +496,7 @@ kand40 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_stewardship_3
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -537,7 +537,7 @@ kand043 = {
 	culture = kandarin
 	trait = arrogant
 	trait = education_diplomacy_2
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -552,7 +552,7 @@ kand044 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_stewardship_2
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -609,7 +609,7 @@ kand048 = {
 	religion = saradomin
 	culture = kandarin
 	trait = lifestyle_hunter
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 }
@@ -645,7 +645,7 @@ kand051 = {
 	culture = kandarin
 	trait = humble
 	trait = education_learning_2
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -689,7 +689,7 @@ kand055 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_learning_1
-	11581.1.1 = {
+	9129.1.1 = {
 		birth = yes
 	}
 }
@@ -735,7 +735,7 @@ kand071 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_learning_2
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -804,7 +804,7 @@ kand064 = {
 	culture = khazard
 	trait = patient
 	trait = education_learning_2
-	11586.1.1 = {
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -829,7 +829,7 @@ kand066 = {
 	culture = kandarin
 	trait = devoted
 	trait = education_diplomacy_1
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 }
@@ -902,7 +902,7 @@ kand073 = {
 	trait = callous
 	trait = education_intrigue_1
 	disallow_random_traits = yes
-	11588.1.1 = {
+	9136.1.1 = {
 		birth = yes
 	}
 	9163.1.1 = {

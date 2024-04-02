@@ -244,7 +244,7 @@
     name = "Elvarg"
     culture = asgarnia
     religion = zamorak
-    11566.1.1 = {
+    9114.1.1 = {
         birth = yes
     }
 }
@@ -309,7 +309,7 @@
     name = "Doric"
     religion = guthix
     culture = dwarf
-    11581.1.1 = {
+    9129.1.1 = {
         birth = yes
     }
 }
@@ -502,7 +502,7 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11568.1.1 = {
+    9116.1.1 = {
         birth = yes
     }
     9166.1.1 = {
@@ -516,7 +516,7 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
-    11568.1.1 = {
+    9116.1.1 = {
         birth = yes
     }
     9166.1.1 = {
@@ -788,10 +788,10 @@
     culture = misthalin
     religion = zamorak
     trait = generous
-    11421.6.29 = {
+    8969.6.29 = {
         birth = yes
     }
-    11497.7.25 = {
+    9045.7.25 = {
         death = {
             death_reason = death_old_age
         }
@@ -818,7 +818,7 @@
     culture = asgarnia
     religion = zamorak
     trait = vengeful
-    11576.9.22 = {
+    9124.9.22 = {
         birth = yes
     }
     9164.1.1 = {
