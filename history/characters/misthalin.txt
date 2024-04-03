@@ -40,7 +40,7 @@
 	9139.1.1 = {
 		birth = yes
 	}
-	11619.1.1 = {
+	9167.1.1 = {
 		death = yes
 	}
 
@@ -164,7 +164,7 @@
 	religion = saradomin
 	culture = misthalin
 	father = 900109
-	11533.1.1 = {
+	9081.1.1 = {
 		birth = yes
 	}
 	9160.1.1 = {
@@ -177,7 +177,7 @@
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
-	11486.1.1 = {
+	90346.1.1 = {
 		birth = yes
 	}
 	9103.1.1 = {
@@ -190,7 +190,7 @@
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
-	11442.1.1 = {
+	8990.1.1 = {
 		birth = yes
 	}
 	9052.1.1 = {
@@ -203,10 +203,10 @@
 	name = "Polonius"
 	religion = saradomin
 	culture = misthalin
-	11412.1.1 = {
+	8960.1.1 = {
 		birth = yes
 	}
-	11483.1.1 = {
+	9031.1.1 = {
 		death = yes
 	}
 }
@@ -216,10 +216,10 @@
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
-	11396.1.1 = {
+	8944.1.1 = {
 		birth = yes
 	}
-	11472.1.1 = {
+	9020.1.1 = {
 		death = yes
 	}
 
@@ -400,10 +400,10 @@
 	religion = v
 	father = 900122
 	mother = 900137
-	11524.1.1 = {
+	9072.1.1 = {
 		birth = yes
 	}
-	11542.1.1 = {
+	9090.1.1 = {
 		add_spouse = 900138
 	}
 	9143.1.1 = {
@@ -417,7 +417,7 @@
 	culture = fremennik
 	religion = v
 	martial = 20
-	11483.1.1 = {
+	9031.1.1 = {
 		birth = yes
 	}
 	9048.1.1 = {
@@ -607,7 +607,7 @@
     female = yes
     religion = v
     culture = fremennik
-    11485.1.1 = {
+    9033.1.1 = {
         birth = yes
     }
 	
@@ -621,7 +621,7 @@
     female = yes
     religion = v
     culture = fremennik
-    11527.1.1 = {
+    9075.1.1 = {
         birth = yes
     }
     9139.1.1 = {
@@ -832,7 +832,7 @@
 	religion = saradomin
 	mother = 900133
 	father = 900149
-	11619.1.1 = {
+	9167.1.1 = {
 		birth = yes
 	}
 }
@@ -846,7 +846,7 @@
         birth = yes
 
     }
-    116116.1.1 = {
+    9168.1.1 = {
         death = yes #disappeared
     }
 
@@ -1107,7 +1107,7 @@
 	9160.1.1 = {
 		employer = 900106
 	}
-	11619.1.1 = {
+	9167.1.1 = {
 		employer = 900114
 	}
 }
@@ -1126,7 +1126,7 @@
 	9160.1.1 = {
 		employer = 900106
 	}
-	11619.1.1 = {
+	9167.1.1 = {
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:900171 }
 		}
@@ -1458,7 +1458,7 @@
     dynasty = 100929
     culture = misthalin
     religion = saradomin
-    11573.1.1 = {
+    9121.1.1 = {
         birth = yes
     }
 	9161.1.1 = {
@@ -2052,7 +2052,7 @@ misth003 = {
 	#Paldock
 	religion = saradomin
 	culture = misthalin
-	11573.1.1 = {
+	9121.1.1 = {
 		birth = yes
 	}
 }
@@ -2103,10 +2103,10 @@ misth006 = {
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
-	11494.1.1 = {
+	9042.1.1 = {
 		birth = yes
 	}
-	11556.1.1 = {
+	9104.1.1 = {
 		death = yes
 	}
 }
@@ -2117,7 +2117,7 @@ misth007 = {
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
-	11473.1.1 = {
+	9021.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2131,7 +2131,7 @@ misth008 = {
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
-	11474.1.1 = {
+	9022.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2145,10 +2145,10 @@ misth009 = {
 	culture = misthalin
 	religion = zamorak
 	trait = education_learning_4
-	11476.1.1 = {
+	9024.1.1 = {
 		birth = yes
 	}
-	11556.1.1 = {
+	9104.1.1 = {
 		death = yes
 	}
 }
@@ -2159,7 +2159,7 @@ misth010 = {
 	culture = misthalin
 	religion = guthix
 	trait = education_learning_4
-	11473.1.1 = {
+	9021.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2173,7 +2173,7 @@ misth011 = {
 	culture = misthalin
 	religion = guthix
 	trait = education_learning_4
-	11476.1.1 = {
+	9024.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2187,7 +2187,7 @@ misth012 = {
 	culture = kharidian
 	religion = menaph
 	trait = education_learning_4
-	11473.1.1 = {
+	9021.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2201,7 +2201,7 @@ misth013 = {
 	culture = kandarin
 	religion = armadyl
 	trait = education_learning_4
-	11476.1.1 = {
+	9024.1.1 = {
 		birth = yes
 	}
 	9070.1.1 = {
@@ -2274,7 +2274,7 @@ misth018 = {
 	religion = saradomin
 	culture = misthalin
 	trait = education_learning_4
-	11560.1.1 = {
+	9108.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -2288,7 +2288,7 @@ misth019 = {
 	religion = saradomin
 	culture = misthalin
 	trait = education_learning_2
-	11560.1.1 = {
+	9108.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {
@@ -2302,7 +2302,7 @@ misth020 = {
 	religion = saradomin
 	culture = misthalin
 	trait = education_learning_4
-	11560.1.1 = {
+	9108.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {

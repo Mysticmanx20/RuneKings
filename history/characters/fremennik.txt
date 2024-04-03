@@ -31,7 +31,7 @@ frem003 = {
 	trait = humble
 	trait = stubborn
 	trait = education_diplomacy_2
-	11573.1.1 = {
+	9121.1.1 = {
 		birth = yes
 	}
 }
