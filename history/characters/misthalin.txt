@@ -177,7 +177,7 @@
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
-	90346.1.1 = {
+	9034.1.1 = {
 		birth = yes
 	}
 	9103.1.1 = {
