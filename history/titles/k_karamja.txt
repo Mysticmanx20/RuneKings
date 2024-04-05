@@ -16,6 +16,9 @@ c_musa = {
 }
 
 c_musashop = {
+	1.1.1 = {
+		government = tribal_government
+	}
 	9163.1.1 = {
 		holder = 900317
 		change_development_level = 6
@@ -23,7 +26,7 @@ c_musashop = {
 }
 
 b_kofigen = {
-	9163.1.1 = {
+	9168.1.1 = {
 		holder = 900320
 	}
 }

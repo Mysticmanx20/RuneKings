@@ -227,8 +227,10 @@
     9143.1.1 = {
         birth = yes
     }
-    9168.1.1 = {
+    9165.1.1 = {
         employer = 900317
+    }
+    9165.1.2 = {
         give_council_position = councillor_steward
     }
 }
