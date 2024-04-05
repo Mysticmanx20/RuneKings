@@ -14,13 +14,13 @@
 46 = {  #ZamboPub
 	religion = junglegods
 	culture = karamja
-	holding = city_holding
+	holding = tribal_holding
 }
 
 47 = {  #KaramVolcano 
 	religion = junglegods
 	culture = karamja
-	holding = none
+	holding = tribal_holding
 }
 
 159 = { #Brimhaven 	
@@ -138,4 +138,22 @@
 	religion = godless
 	culture = waterspirit
 	holding = tribal_holding
+}
+
+445 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+446 = {
+	religion = marimbo
+	culture = monkey
+	holding = tribal_holding
+}
+
+447 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
 }

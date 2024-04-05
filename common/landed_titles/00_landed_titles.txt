@@ -2778,18 +2778,8 @@ e_karamja = {
 	capital = c_brim
 	definite_form = yes
 
-	k_karamja = {
-
-		ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:karamja
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-
-		color = { 104 129 46 }
+	k_brimhaven = {
+		color = {104 129 46 }
 		capital = c_brim
 
 		d_brimhaven = {
@@ -2816,6 +2806,12 @@ e_karamja = {
 				}
 			}
 
+		}
+
+		d_musa = {
+			color = { 104 129 46 }
+			capital = c_musa
+
 			c_musa = {
 				color = { 104 129 46 }
 
@@ -2824,11 +2820,15 @@ e_karamja = {
 					province = 44
 				}
 
-				b_kofigen = {
-					color = { 104 81 36 }
-					definite_form = yes
-					province = 45
+				b_banana = {
+					color = { 172 205 31}
+					province = 447
 				}
+
+			}
+
+			c_musashop = {
+				color = { 209 205 31}
 
 				b_zambo = {
 					color = { 209 205 31 }
@@ -2836,13 +2836,59 @@ e_karamja = {
 					province = 46
 				}
 
+				b_kofigen = {
+					color = { 104 81 36 }
+					definite_form = yes
+					province = 45
+				}
+			}
+
+			c_musajung = {
+				color = {114 205 31 }
+
+				b_musajung = {
+					color = { 114 205 31}
+					province = 446
+				}
+
+				b_musapier = {
+					color = { 83 113 36}
+					province = 445
+				}
+			}
+
+		}
+
+		d_volcano = {
+			color = { 206 22 36 }
+			capital = c_volcano
+
+			c_volcano = {
+				color = { 206 22 36 }
+
 				b_volcano = {
 					color = { 206 22 36 }
 					definite_form = yes
 					province = 47
 				}
+
 			}
 		}
+	}
+
+	k_karamja = {
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:karamja
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		color = { 41 146 0 }
+		capital = c_shilo
 
 		d_shilo = {
 			color = {41 146 0}

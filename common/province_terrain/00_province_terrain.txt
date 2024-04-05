@@ -445,3 +445,6 @@ default_coastal_sea=coastal_sea
 442=hills
 443=forest
 444=forest
+445=jungle
+446=jungle
+447=jungle

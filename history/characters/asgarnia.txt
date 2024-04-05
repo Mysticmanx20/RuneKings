@@ -196,10 +196,15 @@
 
 900318 = {
     name = "Zambo"
+    father = 900319
     culture = karamja
     religion = junglegods
     9143.1.1 = {
         birth = yes
+    }
+    9168.1.1 = {
+        employer = 900317
+        give_council_position = councillor_chancellor
     }
 }
 
@@ -207,8 +212,11 @@
     name = "Yambo"
     culture = karamja
     religion = junglegods
-    9143.1.1 = {
+    9121.1.1 = {
         birth = yes
+    }
+    9168.1.1 = {
+        employer = 900317
     }
 }
 
@@ -218,6 +226,10 @@
     religion = junglegods
     9143.1.1 = {
         birth = yes
+    }
+    9168.1.1 = {
+        employer = 900317
+        give_council_position = councillor_steward
     }
 }
 
