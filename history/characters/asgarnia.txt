@@ -159,11 +159,13 @@
     name = "Wydin"
     religion = saradomin
     culture = asgarnia
+    trait = education_stewardship_2
     9143.1.1 = {
         birth = yes
     }
     9159.1.1 = {
         employer = 900315
+        give_council_position = councillor_steward
     }
 }
 
@@ -171,6 +173,7 @@
     name = "Tobias"
     religion = saradomin
     culture = asgarnia
+    trait = education_diplomacy_2
     9143.1.1 = {
         birth = yes
     }
@@ -178,10 +181,13 @@
 
 900316 = {
     name = "Frank"
-    religion = saradomin
-    culture = asgarnia
+    religion = godless
+    culture = piratecul
     9143.1.1 = {
         birth = yes
+    }
+    9162.1.1 = {
+        employer = 900315
     }
 }
 
@@ -189,6 +195,10 @@
     name = "Luthas"
     religion = saradomin
     culture = asgarnia
+    trait = just
+    trait = diligent
+    trait = honest
+    trait = education_stewardship_2
     9143.1.1 = {
         birth = yes
     }
@@ -199,6 +209,9 @@
     father = 900319
     culture = karamja
     religion = junglegods
+    trait = content
+    trait = gregarious
+    trait = compassionate
     9143.1.1 = {
         birth = yes
     }
@@ -212,6 +225,7 @@
     name = "Yambo"
     culture = karamja
     religion = junglegods
+    trait = content
     9121.1.1 = {
         birth = yes
     }
@@ -224,6 +238,7 @@
     name = "Kofi"
     culture = karamja
     religion = junglegods
+    trait = content
     9143.1.1 = {
         birth = yes
     }

@@ -222,3 +222,43 @@ karam018 = {
 		birth = yes
 	}
 }
+
+karam019 = {
+	name = "Stephanie"
+	female = yes
+	culture = asgarnia
+	religion = saradomin
+	trait = education_intrigue_2
+	trait = paranoid
+	trait = fickle
+	trait = patient
+	intrigue = 4
+	9140.1.1 = {
+		birth = yes
+	}
+	9163.1.1 = {
+		employer = 900317
+		give_council_position = councillor_spymaster
+	}
+}
+
+karam020 = {
+	name = "Guarani"
+	culture = karamja
+	religion = junglegods
+	trait = education_learning_2
+	trait = temperate
+	trait = lifestyle_traveler
+	trait = generous
+	trait = content
+	martial = 9
+	prowess = 9
+	9138.1.1 = {
+		birth = yes
+	}
+	9167.1.1 = {
+		employer = 900317
+		give_council_position = councillor_marshal
+	}
+
+}
