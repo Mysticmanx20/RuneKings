@@ -274,8 +274,9 @@
 
 900323 = {
     name = "Elvarg"
-    culture = asgarnia
-    religion = zamorak
+    female = yes
+    culture = dragon
+    religion = jas
     trait = wrathful
     trait = arbitrary
     trait = sadistic

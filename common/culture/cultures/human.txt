@@ -843,6 +843,36 @@ elf = {   #Elf
 	}	
 }
 
+dragon = {   
+	color = { 0.28 0.24 0.2 }
+	created = 1.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_dragonkin
+	language = language_dragonkin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_horse_lords
+		tradition_ruling_caste
+		tradition_battlefield_looters
+		tradition_ep2_avid_falconers
+	}
+	
+	name_list = name_list_german
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
 mahjarrat = {   
 	color = { 0.33 0.41 0.47 }
 	created = 1.1.1

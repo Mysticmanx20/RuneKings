@@ -493,6 +493,261 @@ zaros_religion = {    #Zaros
 	}
 }
 
+elder_religion = {    #Elder Gods
+	family = rf_transcendent
+
+	doctrine = major_hostility_doctrine
+
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_lay_clergy
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_accepted
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_pilgrimage_forbidden
+
+	doctrine = doctrine_funeral_stoic
+
+	traits = {
+		virtues = { vengeful arbitrary callous sadistic }
+		sins = { forgiving just compassionate }
+	}
+
+	reserved_male_names = {
+		Aemilian Aemilius Aetius Albinus Alexander Anastasius Anicius Annius Antoninus Antonius Arcadius Aurelian Aurelius
+		Avitus Belisarius Britannicus Caecilius Caesar Callistus Carinus Carus Cassius Claudius Clementius Constans Constantine
+		Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Fabricius Faustus Felix Flavianus Florian
+		Gaius Galerius Gallienus Gallus Germanus Gordian Gracchus Gratian Hadrian Herculius Honorius Joannes Jovian
+		Julian Julius Julius-Caesar Junius Justin Justinian Leo Leontius Liberius Licinius Lucius Magnus Marcellinus
+		Marcellus Marcian Marcus Marinus Marius Martinus Maximian Maximinus Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
+		Paulinus Paulus Petronius Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus Romulus Rufinus Rutilius Sabinianus
+		Saturninus Sempronius Septimius Sergius Severinus Severus Sextus Symmachus Tacitus Theodosius Tiberius
+		Titius Titus Trajan Urbanus Valens Valentinian Valerian Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
+	}
+	reserved_female_names = {
+		Aelia Agrippina Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia Clementia Constantia
+		Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
+		Gordiana Hadriana Helvia Hilara Honoria Hortensia Julia Juliana Junia Justa Justina Justiniana Licinia Livia Livilla Lucilla
+		Magnia Magnilla Marcella Marcia Marciana Marina Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
+		Octavia Palatina Paula Paulina Petronella Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria
+		Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria
+		Verina Victoria Vigilantia Viviana
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_faithful_of_highgod" }
+		{ name = "holy_order_warriors_of_the_symbol" }
+	}
+
+	holy_order_maa = { horn_warrior }
+
+	localization = {
+		#HighGod
+		HighGodName = JAS_NAME
+		HighGodName2 = JAS_NAME
+		HighGodNamePossessive = JAS_NAME_POS
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		HighGodNameAlternate = JAS_NAME2
+		HighGodNameAlternatePossessive = JAS_NAME2_POS
+	
+		#Creator
+		CreatorName = JAS_NAME
+		CreatorNamePossessive = JAS_NAME_POS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+	
+		#HealthGod
+		HealthGodName = JAS_NAME
+		HealthGodNamePossessive = JAS_NAME_POS
+		HealthGodSheHe = CHARACTER_SHEHE_IT
+		HealthGodHerHis = CHARACTER_HERHIS_ITS
+		HealthGodHerHim = CHARACTER_HERHIM_IT
+		
+		#FertilityGod
+		FertilityGodName = JAS_NAME
+		FertilityGodNamePossessive = JAS_NAME_POS
+		FertilityGodSheHe = CHARACTER_SHEHE_IT
+		FertilityGodHerHis = CHARACTER_HERHIS_ITS
+		FertilityGodHerHim = CHARACTER_HERHIM_IT
+	
+		#WealthGod
+		WealthGodName = JAS_NAME
+		WealthGodNamePossessive = JAS_NAME_POS
+		WealthGodSheHe = CHARACTER_SHEHE_IT
+		WealthGodHerHis = CHARACTER_HERHIS_ITS
+		WealthGodHerHim = CHARACTER_HERHIM_IT
+	
+		#HouseholdGod
+		HouseholdGodName = JAS_NAME
+		HouseholdGodNamePossessive = JAS_NAME_POS
+		HouseholdGodSheHe = CHARACTER_SHEHE_IT
+		HouseholdGodHerHis = CHARACTER_HERHIS_ITS
+		HouseholdGodHerHim = CHARACTER_HERHIM_IT
+	
+		#FateGod
+		FateGodName = JAS_NAME
+		FateGodNamePossessive = JAS_NAME_POS
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+	
+		#KnowledgeGod
+		KnowledgeGodName = JAS_NAME
+		KnowledgeGodNamePossessive = JAS_NAME_POS
+		KnowledgeGodSheHe = CHARACTER_SHEHE_IT
+		KnowledgeGodHerHis = CHARACTER_HERHIS_ITS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_IT
+	
+		#WarGod
+		WarGodName = JAS_NAME
+		WarGodNamePossessive = JAS_NAME_POS
+		WarGodSheHe = CHARACTER_SHEHE_IT
+		WarGodHerHis = CHARACTER_HERHIS_ITS
+		WarGodHerHim = CHARACTER_HERHIM_IT
+	
+		#TricksterGod
+		TricksterGodName = JAS_NAME
+		TricksterGodNamePossessive = JAS_NAME_POS
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#NightGod
+		NightGodName = JAS_NAME
+		NightGodNamePossessive = JAS_NAME_POS
+		NightGodSheHe = CHARACTER_SHEHE_IT
+		NightGodHerHis = CHARACTER_HERHIS_ITS
+		NightGodHerHim = CHARACTER_HERHIM_IT
+	
+		#WaterGod
+		WaterGodName = JAS_NAME
+		WaterGodNamePossessive = JAS_NAME_POS
+		WaterGodSheHe = CHARACTER_SHEHE_IT
+		WaterGodHerHis = CHARACTER_HERHIS_ITS
+		WaterGodHerHim = CHARACTER_HERHIM_IT
+	
+		PantheonTerm = JAS_NAME
+		PantheonTerm2 = JAS_NAME
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			JAS_NAME
+			JAS_NAME2
+		}
+		
+		DevilName = ZAROS_AFTERLIFE
+		DevilNamePossessive = JAS_SHADOWS
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		EvilGodNames = {
+			ZAROS_AFTERLIFE
+		}
+		HouseOfWorship = christianity_house_of_worship
+		HouseOfWorship2 = christianity_house_of_worship_2
+		HouseOfWorship3 = christianity_house_of_worship_3
+		HouseOfWorshipPlural = christianity_house_of_worship_plural
+		ReligiousSymbol = JAS_SYMBOL
+		ReligiousSymbol2 = JAS_SYMBOL
+		ReligiousSymbol3 = JAS_SYMBOL
+		ReligiousText = JAS_BOOK
+		ReligiousText2 = JAS_BOOK
+		ReligiousText3 = JAS_BOOK
+		ReligiousHeadName = SARA_Head_Title
+		ReligiousHeadTitleName = christianity_religious_head_title_name
+		DevoteeMale = christianity_devotee_male
+		DevoteeMalePlural = christianity_devotee_male_plural
+		DevoteeFemale = christianity_devotee_female
+		DevoteeFemalePlural = christianity_devotee_female_plural
+		DevoteeNeuter = christianity_devotee_neuter
+		DevoteeNeuterPlural = christianity_devotee_neuter_plural
+		PriestMale = christianity_priest_male
+		PriestMalePlural = christianity_priest_male_plural
+		PriestFemale = christianity_priest_male
+		PriestFemalePlural = christianity_priest_male_plural
+		PriestNeuter = christianity_priest_male
+		PriestNeuterPlural = christianity_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = christianity_bishop
+		BishopMalePlural = christianity_bishop_plural
+		BishopFemale = christianity_bishop
+		BishopFemalePlural = christianity_bishop_plural
+		BishopNeuter = christianity_bishop
+		BishopNeuterPlural = christianity_bishop_plural
+		DivineRealm = JAS_DIVINE
+		DivineRealm2 = JAS_DIVINE
+		DivineRealm3 = JAS_DIVINE
+		PositiveAfterLife = JAS_AFTERLIFE
+		PositiveAfterLife2 = JAS_AFTERLIFE
+		PositiveAfterLife3 = JAS_AFTERLIFE
+		NegativeAfterLife = ZAROS_DIVINE
+		NegativeAfterLife2 = ZAROS_DIVINE
+		NegativeAfterLife3 = ZAROS_DIVINE
+		DeathDeityName = GUTHIX_DEATH
+		DeathDeityNamePossessive = GUTHIX_DEATH2
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = christianity_witchgodname_the_horned_god
+		WitchGodNamePossessive = christianity_witchgodname_the_horned_god_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+
+		}
+		
+
+	faiths = {           
+		jas = {
+			color = { 0.6 0.2 0.8 }
+			icon = jas
+
+			#holy_site = ullek
+			
+
+			doctrine = tenet_alexandrian_catechism
+			doctrine = tenet_inner_journey
+			doctrine = tenet_esotericism
+
+
+		}
+		
+	}
+}
+
 
 karamja_religion = {    #Karamja Jungle Gods
 	family = rf_jungle

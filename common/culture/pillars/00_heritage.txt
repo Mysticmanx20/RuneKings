@@ -38,6 +38,11 @@ heritage_vampyre = {
 	audio_parameter = european
 }
 
+heritage_dragonkin = {
+	type = heritage
+	audio_parameter = european
+}
+
 heritage_undead = {
 	type = heritage
 	audio_parameter = european

@@ -118,8 +118,8 @@
 
 
 48 = {  #Crandor 
-	religion = zamorak
-	culture = asgarnia
+	religion = jas
+	culture = dragon
 	holding = castle_holding
 }
 
