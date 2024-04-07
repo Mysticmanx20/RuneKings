@@ -36,6 +36,10 @@
 	name = "Damien"
 	religion = zamorak
 	culture = vampyre
+	trait = ambitious
+	trait = impatient
+	trait = arbitrary
+	trait = education_diplomacy_1
 	9134.1.1 = {
 		birth = yes
 	}
@@ -45,6 +49,10 @@
 	name = "Razmire"
 	religion = zamorak
 	culture = morytania
+	trait = education_stewardship_2
+	trait = brave
+	trait = temperate
+	trait = diligent
 	9134.1.1 = {
 		birth = yes
 	}
@@ -55,6 +63,10 @@
 	female = yes
 	religion = saradomin
 	culture = morytania
+	trait = education_diplomacy_1
+	trait = paranoid
+	trait = temperate
+	trait = patient
 	9142.1.1 = {
 		birth = yes
 	}
@@ -151,6 +163,7 @@
 	trait = patient
 	trait = wrathful
 	trait = lunatic_1
+	trait = education_learning_1
 	disallow_random_traits = yes
 	9137.1.1 = {
 		birth = yes
@@ -181,6 +194,8 @@
 	female = yes
 	culture = ghost
 	religion = saradomin
+	trait = stubborn
+	trait = education_diplomacy_1
 	9133.1.1 = {
 		birth = yes
 	}
@@ -221,6 +236,7 @@
 	trait = craven
 	trait = stubborn 
 	trait = just
+	trait = education_stewardship_1
 	disallow_random_traits = yes
 	9123.1.1 = {
 		birth = yes
@@ -238,6 +254,7 @@
 	trait = humble
 	trait = just
 	trait = greedy
+	trait = education_learning_1
 	disallow_random_traits = yes
 	9123.1.1 = {
 		birth = yes

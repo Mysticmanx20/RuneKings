@@ -183,6 +183,9 @@
     name = "Frank"
     religion = godless
     culture = piratecul
+    trait = gluttonous
+    trait = greedy
+    trait = education_stewardship_1
     9143.1.1 = {
         birth = yes
     }
@@ -273,6 +276,10 @@
     name = "Elvarg"
     culture = asgarnia
     religion = zamorak
+    trait = wrathful
+    trait = arbitrary
+    trait = sadistic
+    trait = education_martial_4
     9114.1.1 = {
         birth = yes
     }
@@ -282,6 +289,7 @@
     name = "Party Pete"
     religion = saradomin
     culture = asgarnia
+    trait = education_stewardship_4
     9141.1.1 = {
         birth = yes
     }
@@ -393,6 +401,7 @@
     name = "Nulodion"
     religion = guthix
     culture = dwarf
+    trait = education_learning_4
     9142.1.1 = {
         birth = yes
     }

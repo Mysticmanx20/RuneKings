@@ -969,7 +969,7 @@
     name = "Helda"  #DraynorMAnor
     female = yes
     culture = misthalin
-    religion = saradomin
+    religion = zamorak
     trait = witch
     9133.1.1 = {
         birth = yes
@@ -2339,4 +2339,75 @@ misth022 = {
 	}
 }
 
+misth023 = {
+	name = "Albert"
+	#Oddenstein
+	culture = misthalin
+	religion = saradomin
+	trait = eccentric
+	trait = content
+	trait = diligent
+	trait = education_learning_3
+	disallow_random_traits = yes
+	9134.1.1 = {
+		birth = yes
+	}
+	9166.1.1 = {
+		employer = 900115
+	}
+}
+
+misth024 = {
+	name = "Ava"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = eccentric
+	trait = cynical
+	trait = content
+	trait = education_learning_3
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900115
+	}
+}
+
+misth025 = {
+	name = "Veronica"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = impatient
+	trait = lustful
+	trait = compassionate
+	trait = education_diplomacy_1
+	disallow_random_traits = yes
+	9151.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900115
+	}
+}
+
+misth026 = {
+	name = "Ernest"
+	culture = misthalin
+	religion = saradomin
+	trait = brave
+	trait = trusting
+	trait = compassionate
+	trait = education_diplomacy_1
+	disallow_random_traits = yes
+	9151.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900115
+		create_betrothal = character:misth025
+	}
+}
 
