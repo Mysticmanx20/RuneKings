@@ -58,6 +58,7 @@
 
 900805 = {
 	name = "Osman"
+	dynasty = 100966
 	religion = menaph
 	culture = kharidian
 	9134.1.1 = {
@@ -71,6 +72,7 @@
 
 900806 = {
 	name = "Leela"
+	dynasty = 100966
 	female = yes
 	father = 900805
 	religion = menaph
@@ -1071,5 +1073,59 @@ desert002 = {
 	trait = education_martial_4
 	9138.1.1 = {
 		birth = yes
+	}
+}
+
+desert003 = {
+	name = "Senliten"
+	dynasty = 100966
+	female = yes
+	religion = menaph
+	culture = menaphite
+	trait = brave
+	trait = humble
+	trait = just
+	trait = education_diplomacy_4
+	2000.1.1 = {
+		birth = yes
+	}
+	2071.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+desert004 = {
+	name = "Osmumten"
+	dynasty = 100966
+	mother = desert003
+	religion = menaph
+	culture = menaphite
+	trait = education_martial_2
+	2022.1.1 = {
+		birth = yes
+	}
+	2076.1.1 = {
+		death =  {
+			death_reason = death_assassinated_by_soldiers
+		}
+	}
+}
+
+desert005 = {
+	name = "Mehhar"
+	dynasty = 100966
+	father = desert004
+	religion = menaph
+	culture = menaphite
+	trait = education_learning_5
+	2041.1.1 = {
+		birth = yes
+	}
+	2119.1.1 = {
+		death = {
+			death_reason = death_old_age
+		}
 	}
 }

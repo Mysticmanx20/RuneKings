@@ -338,3 +338,8 @@
 	culture = gnome
 }
 
+100966 = {
+	name = "dynn_Ptolemaic"
+	culture = menaphite
+}
+

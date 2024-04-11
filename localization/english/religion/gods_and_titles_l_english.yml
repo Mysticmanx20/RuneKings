@@ -124,13 +124,13 @@ l_english:
  elder_religion_adj:1 "Elder God"
  elder_religion_adherent:1 "Elder God follower"
  elder_religion_adherent_plural:1 "Elder God followers"
- elder_religion_desc:0 "The Elder Gods, also known as the The Elder Choir or the Creators, are legendary and divine entities responsible for creating the planets and life in the universe. They occupy the highest tier of godhood. There are five of form - Jas, Ful, Wen, Bik, and Mah."
+ elder_religion_desc:0 "The Elder Gods, also known as the The Elder Choir or the Creators, are a group of legendary and divine entities responsible for the creation of planets and life throughout the universe. They occupy the highest tier of godhood. There are five of form - Jas, Ful, Wen, Bik, and Mah."
 
  jas:0 "Voice of Jas"
  jas_adj:0 "Jas"
  jas_adherent:0 "Servant of Jas"
  jas_adherent_plural:0 "Servants of Jas"
- jas_desc:0 "Jas is the eldest and most powerful of the Elder Gods who is heavily associated with the aspect of time and sands. After the Elder Gods identified the dragonkin as a threat to their existance, Jas cursed the entire dragonkin race by binding them to an Elder Artifact known as the Stone of Jas. 
+ jas_desc:0 "Jas is the eldest and most powerful of the Elder Gods who is heavily associated with the aspect of time and sands. After the Elder Gods identified the dragonkin as a threat to their existance, Jas placed a curse upon the entire dragonkin race by binding them to an Elder Artifact known as the Stone of Jas. 
 
  JAS_NAME:0 "Jas"
  JAS_NAME_POS:0 "Jas'"

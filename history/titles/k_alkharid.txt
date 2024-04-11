@@ -222,25 +222,43 @@ c_deserttreasure = {
 }
 
 k_menaphos = {
+	2032.1.1 = {
+		holder = desert003
+		government= feudal_government
+	}
+	2071.1.1 = {
+		holder = desert004
+	}
 	9146.1.1 = {
 		holder = 900818
-		government= feudal_government
 	}
 }
 
 d_menaphos = {
+	2032.1.1 = {
+		holder = desert003
+		government= feudal_government
+		liege = k_menaphos
+	}
+	2071.1.1 = {
+		holder = desert004
+	}
 	9146.1.1 = {
 		holder = 900818
-		liege = k_menaphos
-		government= feudal_government
 	}
 }
 
 c_menaphos = {
+	2032.1.1 = {
+		holder = desert003
+		government= feudal_government
+	}
+	2071.1.1 = {
+		holder = desert004
+	}
 	9146.1.1 = {
 		holder = 900818
 		change_development_level = 11
-		government= feudal_government
 	}
 }
 
@@ -263,11 +281,17 @@ b_menawork = {
 }
 
 c_soph = {
-	9168.1.1 = {
+	2032.1.1 = {
+		holder = desert003
+		government= feudal_government
 		liege = k_menaphos
+	}
+	2071.1.1 = {
+		holder = desert004
+	}
+	9168.1.1 = {
 		holder = 900860
 		change_development_level = 9
-		government = feudal_government
 	}
 }
 
