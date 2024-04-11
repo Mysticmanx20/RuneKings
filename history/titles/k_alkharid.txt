@@ -229,6 +229,9 @@ k_menaphos = {
 	2071.1.1 = {
 		holder = desert004
 	}
+	6660.1.1 = {
+		holder = desert006
+	}
 	9146.1.1 = {
 		holder = 900818
 	}
@@ -243,6 +246,9 @@ d_menaphos = {
 	2071.1.1 = {
 		holder = desert004
 	}
+	6660.1.1 = {
+		holder = desert006
+	}
 	9146.1.1 = {
 		holder = 900818
 	}
@@ -255,6 +261,9 @@ c_menaphos = {
 	}
 	2071.1.1 = {
 		holder = desert004
+	}
+	6660.1.1 = {
+		holder = desert006
 	}
 	9146.1.1 = {
 		holder = 900818
@@ -288,6 +297,9 @@ c_soph = {
 	}
 	2071.1.1 = {
 		holder = desert004
+	}
+	6660.1.1 = {
+		holder = desert006
 	}
 	9168.1.1 = {
 		holder = 900860

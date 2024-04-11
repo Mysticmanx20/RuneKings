@@ -1085,6 +1085,7 @@ desert003 = {
 	trait = brave
 	trait = humble
 	trait = just
+	trait = august
 	trait = education_diplomacy_4
 	2000.1.1 = {
 		birth = yes
@@ -1132,5 +1133,21 @@ desert005 = {
 		death = {
 			death_reason = death_old_age
 		}
+	}
+}
+
+desert006 = {
+	name = "Emharses"
+	culture = menaphite
+	religion = menaph
+	trait = education_learning_3
+	trait = whole_of_body
+	trait = temperate
+	trait = patient
+	6647.1.1 = {
+		birth = yes
+	}
+	6727.1.1 = {
+		death = yes
 	}
 }
