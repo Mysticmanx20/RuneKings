@@ -354,26 +354,6 @@ regional_heresy = {
 	}
 }
 
-mongol_invasion = {
-	
-	categories = {
-		difficulty historicity
-	}
-	
-	default = default_mongol_invasion
-
-	default_mongol_invasion = {
-	
-	}
-	
-	never_mongol_invasion = {
-		flag = blocks_achievements
-	}
-	
-	random_mongol_invasion = {
-	
-	}
-}
 
 random_harm = {
 		
@@ -512,7 +492,7 @@ diplomatic_range = {
 		tweaks historicity
 	}
 	
-	default = default_diplomatic_range
+	default = restricted_diplomatic_range
 
 	default_diplomatic_range = {
 	
@@ -806,18 +786,6 @@ domain_limit_tweaks = {
 	}
 }
 
-hungarian_migration = {
-	
-	categories = {
-		historicity flavor
-	}
-	
-	default = launch_immediate
-	launch_historical = {}
-	launch_immediate = {}
-	launch_random = {}
-	launch_off = { flag = blocks_achievements }
-}
 
 dlc_fp1_scandinavian_adventurers = {
 	
@@ -834,31 +802,4 @@ dlc_fp1_scandinavian_adventurers = {
 	fp1_scandi_adventurers_off = { flag = blocks_achievements }
 }
 
-dissolution_umayyad = {
-	
-	categories = {
-		historicity flavor
-	}
-	
-	default = dissolution_unconstrained
-	dissolution_unconstrained = {}
-	dissolution_after_caliph_death = {}
-	dissolution_historical_date = {}
-}
 
-dlc_fp3_seljuk_invasion = {
-
-	categories = {
-		difficulty historicity
-	}
-	
-	default = default_seljuk_invasion
-
-	default_seljuk_invasion = {}
-	
-	never_seljuk_invasion = {
-		flag = blocks_achievements
-	}
-
-	random_seljuk_invasion = {}
-}
