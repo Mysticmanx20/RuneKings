@@ -1,0 +1,30 @@
+﻿
+d_portpisc = {
+	9155.1.1 = {
+		holder = zeah002
+	}
+}
+
+d_hos = {
+	9155.1.1 = {
+		holder = zeah001
+	}
+}
+
+d_shayzien = {
+	9155.1.1 = {
+		holder = zeah004
+	}
+}
+
+d_arceus = {
+	9155.1.1 = {
+		holder = zeah003
+	}
+}
+
+d_lova = {
+	9155.1.1 = {
+		holder = zeah005
+	}
+}

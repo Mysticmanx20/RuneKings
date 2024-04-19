@@ -1,0 +1,48 @@
+﻿
+448 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+449 = {  #Shayzien
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+450 = {  #Woodlands
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+451 = {  #hosidius
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+452 = {  #Port Pisc
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+453 = {  #Arceeus
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+454 = {  #Kourend
+	religion = guthix
+	culture = dwarf
+	holding = castle_holding	
+}
+
+455 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}

@@ -2,6 +2,129 @@
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 
+e_zeah = {
+	color = { 91 202 135 }
+	capital = c_kourend
+
+	k_kourend = {
+		color = { 91 202 135}
+		capital = c_kourend
+
+		d_kourend = {
+			color = { 91 202 135 }
+			capital = c_kourend 
+
+			c_kourend = {
+				color = { 91 202 135 }
+
+				b_kourend = {
+					color = { 91 202 135 }
+					province = 448
+				}
+			}
+		}
+
+		d_wintertodt = {
+			color = { 209 177 186 }
+			capital = c_wintertodt
+
+			c_wintertodt = {
+				color = { 209 177 186 }
+
+				b_wintertodt = {
+					color = { 209 177 186 }
+					province = 455
+				}
+			}
+		}
+
+		d_portpisc = {
+			color = { 219 202 97 }
+			capital = c_portpisc
+
+			c_portpisc = {
+				color = { 219 202 97 }
+
+				b_portpisc = {
+					color = { 219 202 97}
+					province = 452
+				}
+			}
+		}
+
+		d_shayzien = {
+			color = { 176 39 39 }
+			capital = c_shayzien 
+
+			c_shayzien = {
+				color = { 176 39 39 }
+
+				b_shayzien = {
+					color = { 176 39 39 }
+					province = 449
+				}
+			}
+		}
+
+		d_woodlands = { 
+			color = { 160 189 151 }
+			capital = c_woodlands
+
+			c_woodlands = {
+				color = { 160 189 151 }
+
+				b_woodlands = {
+					color = { 160 189 151}
+					province = 450
+				}
+			}
+		}
+
+		d_hos = {
+			color = { 146 189 133 }
+			capital = c_hos
+
+			c_hos = {
+				color = { 146 189 133 }
+
+				b_hos = { 
+					color = { 146 189 133 }
+					province = 451
+				}
+			}
+		}
+
+		d_lova = {
+			color = { 255 131 5}
+			capital = c_lova 
+
+			c_lova = { 
+				color = { 255 131 5}
+
+				b_lova = {
+					color = { 255 131 5 }
+					province = 454
+				}
+			}
+		}
+
+		d_arceus = {
+			color = { 137 85 161 }
+			capital = c_arceus
+
+			c_arceus = {
+				color = { 137 85 161}
+
+				b_arceus = {
+					color = { 137 85 161 }
+					province = 453
+				}
+			}
+
+		}
+	}
+}
+
 e_zaros = { 
 	definite_form = yes
    

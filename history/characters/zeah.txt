@@ -1,0 +1,57 @@
+﻿
+zeah001 = {
+	name= "Kandur"
+	#dynasty Hosidius
+	religion = saradomin
+	culture = asgarnia
+	trait = education_diplomacy_3
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
+zeah002 = {
+	name= "Shauna"
+	#dynasty Pisc
+	female = yes
+	religion = saradomin
+	culture = asgarnia
+	trait = education_intrigue_3
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
+zeah003 = {
+	name= "Trobin"
+	#dynasty Arceeus
+	religion = saradomin
+	culture = asgarnia
+	trait = education_learning_3
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
+zeah004 = {
+	name= "Shiro"
+	#dynasty Shayzien
+	religion = saradomin
+	culture = asgarnia
+	trait = education_martial_3
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
+zeah005 = {
+	name= "Vulcana"
+	#dynasty Lovakengj
+	female = yes
+	religion = guthix
+	culture = dwarf
+	trait = education_stewardship_3
+	9135.1.1 = {
+		birth = yes
+	}
+}
