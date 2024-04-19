@@ -55,3 +55,16 @@ zeah005 = {
 		birth = yes
 	}
 }
+
+zeah006 = {
+	name = "David"
+	#dynasty Andrews
+	religion = saradomin
+	culture = asgarnia
+	trait = education_diplomacy_2
+	trait = deceitful
+	trait = greedy
+	9135.1.1 = {
+		birth = yes
+	}
+}
