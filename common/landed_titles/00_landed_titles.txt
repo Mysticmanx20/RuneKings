@@ -3125,6 +3125,13 @@ e_karamja = {
 			}
 		}
 
+
+	}
+
+	k_marim = {
+		color = { 111 93 8}
+		capital = c_marim
+
 		d_marim = {
 			color = {111 93 8}
 			capital = c_marim
@@ -3132,11 +3139,46 @@ e_karamja = {
 			c_marim = {
 				color ={111 93 8}
 
+				b_marimcenter = {
+					color = { 111 70 8}
+					province = 458
+				}
+
 				b_marim = {
 					color= {111 93 8}
 					province = 257
 				}
+
+				b_westmarim = {
+					color = { 111 80 8}
+					province = 459
+				}
 			}
+
+			c_marimjung = {
+				color = { 121 121 8}
+
+				b_marimcove = {
+					color = { 111 105 8}
+					province = 460
+				}
+
+				b_marimgate = {
+					color = { 111 115 8}
+					province = 461
+				}
+
+				b_marimjung = {
+					color = { 121 121 8}
+					province = 462
+				}
+			}
+
+		}
+
+		d_crashisle = {
+			color = { 89 144 92 }
+			capital = c_crashisle
 
 			c_crashisle = {
 				color = {89 144 92}
@@ -3145,7 +3187,23 @@ e_karamja = {
 					color = {89 144 92}
 					province = 258
 				}
+
+				b_crashsnake = {
+					color = { 90 154 93}
+					province = 456
+				}
+
+				b_crashsouth = {
+					color = { 90 164 93}
+					province = 457
+				}
 			}
+
+		}
+
+		d_voidknight = {
+			color = { 20 40 18}
+			capital = c_voidout	
 
 			c_voidout = {
 				color ={20 40 18}
@@ -3155,6 +3213,21 @@ e_karamja = {
 					province = 256
 				}
 			}
+
+			c_pestisle = {
+				color = { 25 69 35}
+
+				b_pestnorth = {
+					color = { 25 69 35}
+					province = 463
+				}
+
+				b_southpest = {
+					color = { 25 75 29}
+					province = 464
+				}
+			}
+
 		}
 
 	}

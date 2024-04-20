@@ -42,6 +42,18 @@ island_region_marim = {
 	}
 }
 
+island_region_crash = {
+	duchies = {
+		d_crashisle
+	}
+}
+
+island_region_pest = {
+	duchies = {
+		d_voidknight
+	}
+}
+
 island_region_waterbirth = {
 	duchies = {
 		d_waterb

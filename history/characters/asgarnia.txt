@@ -1198,3 +1198,14 @@ asgarn018 = {
 	}
 }
 
+asgarn019 = {
+    name = "Matthias"
+    religion = guthix
+    culture = asgarnia
+    trait = education_martial_3
+    trait = just
+    9130.1.1 = {
+        birth = yes
+    }
+}
+

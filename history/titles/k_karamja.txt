@@ -97,3 +97,40 @@ c_marim = {
 		change_development_level = 3
 	}
 }
+
+k_marim = {
+	9159.1.1 = {
+		holder = karam018
+	}
+}
+
+c_marimjung = {
+	9159.1.1 = {
+		holder = karam018
+		change_development_level = 2
+	}
+}
+
+c_crashisle = {
+	9168.1.1 = {
+		liege = 0
+		holder = gnome016
+		change_development_level = 1
+	}
+}
+
+c_voidout = {
+	9146.1.1 = {
+		liege = 0
+		holder = asgarn019
+		change_development_level = 5
+	}
+}
+
+c_pestisle = {
+	9146.1.1 = {
+		holder = asgarn019
+		change_development_level = 1
+	}
+}
+

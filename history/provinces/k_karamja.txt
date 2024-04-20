@@ -50,10 +50,10 @@
 	holding = castle_holding
 }
 
-257 = { #Marimbo
+257 = { #MarimboTemple
 	religion = marimbo
 	culture = monkey
-	holding = tribal_holding
+	holding = church_holding
 }
 
 258 = { #CrashIsle
@@ -157,3 +157,52 @@
 	culture = karamja
 	holding = none
 }
+
+456 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+457 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+458 = {
+	religion = marimbo
+	culture = monkey
+	holding = tribal_holding
+}
+
+459 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+460 = {
+	religion = marimbo
+	culture = monkey
+	holding = tribal_holding
+}
+
+461 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+462 = {
+	religion = marimbo
+	culture = monkey
+	holding = none
+}
+
+463 = {
+	religion = marimbo
+	culture = monkey
+	holding = tribal_holding
+}
+

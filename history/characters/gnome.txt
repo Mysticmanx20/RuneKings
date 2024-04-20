@@ -230,3 +230,16 @@ gnome015 = {
 		give_council_position = councillor_steward
 	}
 }
+
+gnome016 = {
+	name = "Lumdo"
+	culture = gnome
+	religion = guthix
+	trait = brave
+	trait = patient
+	trait = content
+	trait = education_martial_2
+	9141.1.1 = {
+		birth = yes
+	}
+}
