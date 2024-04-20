@@ -262,3 +262,34 @@ karam020 = {
 	}
 
 }
+
+karam022 = {
+	name = "Kruk"
+	religion = marimbo
+	culture = monkey
+	trait = brave
+	trait = deceitful
+	trait = education_martial_2
+	9143.1.1 ={
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = karam018
+		give_council_position = councillor_marshal
+	}
+}
+
+karam023 = {
+	name = "Hafuba"
+	religion = marimbo
+	culture = monkey
+	trait = humble
+	trait = education_learning_2
+	9143.1.1 ={
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = karam018
+		give_council_position = councillor_court_chaplain
+	}
+}

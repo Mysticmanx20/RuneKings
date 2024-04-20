@@ -1209,3 +1209,18 @@ asgarn019 = {
     }
 }
 
+asgarn020 = {
+    name = "Tyr"
+    religion = guthix
+    culture = asgarnia
+    trait = education_martial_3
+    trait = just
+    9132.1.1 = {
+        birth = yes
+    }
+    9165.1.1 = {
+        employer = asgarn019
+        give_council_position = councillor_chancellor
+    }
+}
+
