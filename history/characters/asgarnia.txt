@@ -1224,3 +1224,25 @@ asgarn020 = {
     }
 }
 
+asgarn01 = {
+    name = "Korasi"
+    female = yes
+    religion = guthix
+    culture = asgarnia
+    diplomacy = 6
+    martial = 11
+    trait = education_diplomacy_3
+    trait = just
+    trait = vengeful
+    trait = diligent
+    9132.1.1 = {
+        birth = yes
+    }
+    9165.1.1 = {
+        employer = asgarn019
+        set_knight_status = force
+    }
+}
+
+
+
