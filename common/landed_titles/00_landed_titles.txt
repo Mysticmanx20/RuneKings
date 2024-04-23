@@ -2488,6 +2488,21 @@ e_kharid = {
 					province = 21
 				}
 
+				b_gatek = {
+					color = { 197 197 108}
+					province = 467
+				}
+
+				b_eastk = {
+					color = { 208 197 108}
+					province = 466
+				}
+
+				b_coastk = {
+					color = { 200 197 118}
+					province = 465
+				}
+
 		    }
 
 			c_shantay = {
@@ -2507,6 +2522,16 @@ e_kharid = {
 					province = 22
 				}
 
+				b_giantapp = {
+					color = { 100 54 44}
+					province = 468
+				}
+
+				b_giantplat = {
+					color = { 95 54 44}
+					province = 469
+				}
+
 			}
 
 			c_citharade = {
@@ -2515,7 +2540,12 @@ e_kharid = {
 				b_citharade = {
 					color = { 66 0 140 }
 					province = 23
-					}
+				}
+
+				b_cithmine = {
+					color = { 66 15 140}
+					province = 470
+				}
 
 			}
 
@@ -2533,6 +2563,16 @@ e_kharid = {
 					province = 25
 				}
 
+				b_gardenk = {
+					color = { 150 75 0}
+					province = 474
+				}
+
+				b_firealtar = {
+					color = { 152 40 0}
+					province = 475
+				}
+
 			}
 
 			c_duelarena = {
@@ -2543,6 +2583,16 @@ e_kharid = {
 					province = 27
 				}
 
+				b_staging = {
+					color = { 245 199 77}
+					province = 472
+				}
+
+				b_dueledge = {
+					color = { 225 199 80}
+					province = 471
+				}
+
 			}
 
 			c_magetrain = {
@@ -2551,6 +2601,11 @@ e_kharid = {
 				b_magetrain = {
 					color = { 140 238 255 }
 					province = 26
+				}
+
+				b_mageupper = {
+					color = { 140 228 245 }
+					province = 473
 				}
 
 			}

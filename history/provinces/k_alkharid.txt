@@ -241,6 +241,70 @@
 	}
 }
 
+465 = {  #Kharid Coast
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
 
+466 = {  #East Kharid 
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+467 = {  #Gate Khardid
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+468 = {  #Giant Apporach
+	culture = hillgiant
+	religion = bandos
+	holding = none
+}
+
+469 = {  #Giant Plateau
+	culture = hillgiant
+	religion = bandos
+	holding = none
+}
+
+470 = {  #Cith mine
+	culture = misthalin
+	religion = saradomin
+	holding = none
+}
+
+471 = {  #Duel Edge
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+472 = {  #Staging Grounds
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+473 = {  #Upper Mage arena
+	culture = misthalin
+	religion = saradomin
+	holding = none
+}
+
+474 = {  #GArdne Kharid
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+475 = {  #Fire altar
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
 
 
