@@ -104,18 +104,18 @@ dynasty_names = {
 }
 
 male_names = {
-    Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
-    Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
-    Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
-    Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+    Adrian Alek Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carnivus Carol Ciprian Ciubar Claudiu
+    Corneliu Costin Damjan Dan Desmodus Draconis Dragos Drasdan Dumitru Emerik Florin Franjo Gavril Gheorghe Grigor Grinka Haemas Iacob
+    Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Lenyig Litovoi Lucian Marin
+    Mihai Milos Mircea Mordan Mort Moise Nicolaie Noctillion Petre Pirvu Radovan Radu Remus Roman Sas Seneslav Sergiu Simion
     Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
-    Victor Vilhelm Vintila Vlad
+    Victor Vilhelm Vintila Vlad Vladirog Vormar
 }
 female_names = {
-    Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
-    Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
-    Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
-    Tereza Vasilica Violeta Voica Zina
+    Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Caninelle Christina Clara Crimsonette Dana Diphylla Ecatarina
+    Elena Elisabeta Emilia Episcula Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Lasenna Maria Marisa Mervilla Monica Mortina
+    Natalia Noranna Olimpia Paraschiva Petra Pipistrelle Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+    Tereza Valentina Varrian Vallessia Vasilica Violetta Voica Zina
     
 }
 
