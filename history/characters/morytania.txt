@@ -43,6 +43,14 @@
 	9134.1.1 = {
 		birth = yes
 	}
+	9169.1.1 = {
+		effect = {
+			imprison = {
+				target = character:mort010
+				type = house_arrest
+			}
+		}
+	}
 }
 
 900503 = {
@@ -541,5 +549,88 @@ mort006 = {
 	}
 	8868.1.1 = {
 		death = yes
+	}
+}
+
+mort007 = {
+	name = "Dessous"
+	culture = vampyre
+	religion = zamorak
+	trait = sadistic
+	trait = wrathful
+	trait = greedy
+	trait = education_martial_2
+	9141.1.1 = {
+		birth = yes
+	}
+}
+
+mort008 = {
+	name = "Malak"
+	culture = vampyre
+	religion = zamorak
+	trait = arrogant
+	trait = greedy
+	trait = education_diplomacy_2
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900500
+	}
+}
+
+mort009 = {
+	name = "Bill"
+	#Blakey
+	culture = ghost
+	religion = saradomin
+	trait = poet
+	trait = trusting
+	trait = education_diplomacy_1
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
+mort010 = {
+	name = "Charles"
+	#Crumbwick
+	culture = morytania
+	religion = zamorak
+	trait = craven
+	trait = education_stewardship_1
+	9139.1.1 = {
+		birth = yes
+	}
+}
+
+mort011 = {
+	name = "Martha"
+	#Crumbwick
+	female = yes
+	culture = morytania
+	religion = zamorak
+	trait = education_learning_1
+	9140.1.1 = {
+		birth = yes
+	}
+	9160.1.1 = {
+		add_spouse = mort010
+	}
+}
+
+mort012 = {
+	name = "Solomon"
+	#Lamescus
+	culture = vampyre
+	religion = zamorak
+	trait = arrogant
+	trait = education_diplomacy_1
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900500
 	}
 }
