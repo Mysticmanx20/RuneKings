@@ -34,6 +34,7 @@
 
 900502 = {
 	name = "Damien"
+	dynasty = 100979
 	religion = zamorak
 	culture = vampyre
 	trait = ambitious
@@ -49,13 +50,18 @@
 				target = character:mort010
 				type = house_arrest
 			}
+			imprison = {
+				target = character:mort011
+				type = house_arrest
+			}
 		}
 	}
 }
 
 900503 = {
 	name = "Razmire"
-	religion = zamorak
+	dynasty = 100978
+	religion = saradomin
 	culture = morytania
 	trait = education_stewardship_2
 	trait = brave
@@ -149,7 +155,7 @@
 
 900508 = {
 	name = "Treus" 
-	#dynasty Dayth
+	dynasty = 100977
 	culture = ghost
 	religion = zamorak
 	trait = zealous
@@ -164,7 +170,7 @@
 
 900509 = {
 	name= "Tarn"
-	#dynasty Razolor
+	dynasty = 100976
 	culture = morytania
 	religion = zamorak
 	trait = ambitious
@@ -176,13 +182,16 @@
 	9137.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		employer = 900508
+	}
 }
 
 
 
 900510 = {
 	name = "Filliman" 
-	#dynasty Tarlock
+	dynasty = 100975
 	culture = ghost
 	religion = guthix
 	trait = humble 
@@ -288,7 +297,7 @@
 
 900516 = {
 	name = "Veliaf"
-	#dynasty Hurtz
+	dynasty = 100974
 	culture = morytania
 	religion = saradomin
 	trait = ambitious
@@ -582,7 +591,7 @@ mort008 = {
 
 mort009 = {
 	name = "Bill"
-	#Blakey
+	dynasty = 100972
 	culture = ghost
 	religion = saradomin
 	trait = poet
@@ -595,7 +604,7 @@ mort009 = {
 
 mort010 = {
 	name = "Charles"
-	#Crumbwick
+	dynasty = 100971
 	culture = morytania
 	religion = zamorak
 	trait = craven
@@ -607,7 +616,6 @@ mort010 = {
 
 mort011 = {
 	name = "Martha"
-	#Crumbwick
 	female = yes
 	culture = morytania
 	religion = zamorak
@@ -618,11 +626,14 @@ mort011 = {
 	9160.1.1 = {
 		add_spouse = mort010
 	}
+	9167.1.1 = {
+		employer = mort010
+	}
 }
 
 mort012 = {
 	name = "Solomon"
-	#Lamescus
+	dynasty = 100973
 	culture = vampyre
 	religion = zamorak
 	trait = arrogant
@@ -634,3 +645,111 @@ mort012 = {
 		employer = 900500
 	}
 }
+
+mort013 = {
+	name = "Hiylik"
+	dynasty = 100970
+	culture = morytania
+	religion = saradomin
+	trait = humble
+	trait = education_learning_2
+	9135.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900116
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+mort014 = {
+	name = "Ulizius"
+	culture = morytania
+	religion = saradomin
+	trait = craven
+	trait = education_martial_1
+	9135.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900116
+	}
+}
+
+mort015 = {
+	name = "Cornelius"
+	culture = morytania
+	religion = saradomin
+	trait = temperate
+	trait = education_stewardship_2
+	9134.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900504
+		give_council_position = councillor_steward
+	}
+}
+
+mort016 = {
+	name = "Zachory"
+	dynasty = 100969
+	culture = misthalin
+	religion = saradomin
+	trait = arrogant
+	trait = education_learning_1
+	9142.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900116
+	}
+}
+
+mort017 = {
+	name = "Pazuzu"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = humble
+	trait = education_learning_2
+	9140.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900116
+	}
+}
+
+mort018 = {
+	name = "Dean"
+	dynasty = 100968
+	culture = misthalin
+	religion = saradomin
+	trait = brave
+	trait = education_martial_2
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900116
+	}
+}
+ 
+mort019 = {
+	name = "Ulsquire"
+	dynasty = 100967
+	culture = morytania
+	religion = saradomin
+	trait = humble
+	trait = patient
+	trait = education_learning_2
+	9132.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900503
+		give_council_position = councillor_court_chaplain
+	}
+}
+

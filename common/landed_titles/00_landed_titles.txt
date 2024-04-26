@@ -3327,11 +3327,6 @@ e_morytania = {
 					province = 75
 				}
 
-				b_slayer = {
-					color = {180 46 17}
-					province = 81
-				}
-
 				b_crone = {
 					color = {68 53 12}
 					province = 82
@@ -3346,6 +3341,16 @@ e_morytania = {
 					color = {117 74 0 }
 					province = 84
 				}
+			}
+
+			c_slayer = {
+				color = { 180 46 17 }
+
+				b_slayer = {
+					color = {180 46 17}
+					province = 81
+				}
+
 			}
 
 		}

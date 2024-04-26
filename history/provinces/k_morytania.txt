@@ -11,8 +11,8 @@
 }
 
 71 = {  #Morton
-	culture = vampyre
-	religion = zamorak
+	culture = morytania
+	religion = saradomin
 	holding = castle_holding
 }
 

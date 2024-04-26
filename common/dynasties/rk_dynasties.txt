@@ -343,3 +343,67 @@
 	culture = menaphite
 }
 
+100967 = {
+	name = "dynn_Shauncy"
+	culture = morytania
+}
+
+100968 = {
+	name = "dynn_Vellio"
+	culture = misthalin
+}
+
+100969 = {
+	name = "dynn_Bragg"
+	culture = misthalin
+}
+
+100970 = {
+	name = "dynn_Myna"
+	culture = morytania
+}
+
+100971 = {
+	name = "dynn_Crombwick"
+	culture = morytania
+}
+
+100972 = {
+	name = "dynn_Blakey"
+	culture = morytania
+}
+
+100973 = {
+	name = "dynn_Lamescus"
+	culture = vampyre
+}
+
+100974 = {
+	name = "dynn_Hurtz"
+	culture = morytania
+}
+
+100975 = {
+	name = "dynn_Tarlock"
+	culture = morytania
+}
+
+100976 = {
+	name = "dynn_Razo"
+	culture = morytania
+}
+
+100977 = {
+	name = "dynn_Dayth"
+	culture = vampyre
+}
+
+100978 = {
+	name = "dynn_Keelgan"
+	culture = morytania
+}
+
+100979 = {
+	name = "dynn_Leucurte"
+	culture = vampyre
+}

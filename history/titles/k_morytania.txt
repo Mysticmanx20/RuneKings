@@ -127,6 +127,13 @@ c_canifis = {
 	}
 }
 
+c_slayer = {
+	9168.1.1 = {
+		holder = 900500
+		change_development_level = 4
+	}
+}
+
 c_mditch = {
 	1000.1.1 = {
 		liege = k_morytania
