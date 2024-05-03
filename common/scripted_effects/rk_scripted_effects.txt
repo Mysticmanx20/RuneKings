@@ -39,5 +39,7 @@ goblin_village_scripted_effect = {
 		title:c_gobvilgreen = { set_county_culture = scope:founder.culture }
 		title:c_gobvil = { set_county_culture = scope:founder.culture }
 	}
+
+	add_legitimacy = minor_legitimacy_gain
 	
 }
