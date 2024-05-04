@@ -1,0 +1,18 @@
+
+#Bedabin nomads
+
+8500.1.1 = {
+	
+	discover_innovation = innovation_gavelkind
+	discover_innovation = innovation_currency_01
+	discover_innovation = innovation_crop_rotation
+	discover_innovation = innovation_plenary_assemblies
+
+}
+
+8900.1.1 = {
+	discover_innovation = innovation_ledger
+	
+	discover_innovation = innovation_city_planning
+	
+}
