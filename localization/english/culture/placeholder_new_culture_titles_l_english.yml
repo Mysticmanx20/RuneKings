@@ -32,6 +32,8 @@
  emir_female:0 "Emira"
  mageking:0 "Mage-King"
  magequeen:0 "Mage-Queen"
+ kcouncil_male:0 "High Councillor"
+ kcouncil_female:0 "High Councillor"
  pharaoh_male:0 "Pharaoh"
  pharaoh_female:0 "Pharaoh"
  mayor_male:0 "Mayor"
