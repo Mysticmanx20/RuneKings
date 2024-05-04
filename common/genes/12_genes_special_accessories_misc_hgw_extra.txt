@@ -48,6 +48,14 @@
 				boy = male
 				girl = female
 			}
+
+			rk_monkey = {
+				index = 7
+				male = { 1 = rk_monkey }
+				female = { 1 = rk_monkey }
+				boy = male
+				girl = female
+			}
 			
 		}
 	}

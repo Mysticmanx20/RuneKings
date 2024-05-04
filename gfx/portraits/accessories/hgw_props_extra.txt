@@ -21,3 +21,7 @@ hgw_prophet_icetroll = {
 rk_kalphite_queen = {
 	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "rk_kalphite_queen_entity" }
 }
+
+rk_monkey = {
+	entity = {	required_tags = "" 	node = "bn_h_head_mid"	entity = "rk_monkey_entity" }
+}
