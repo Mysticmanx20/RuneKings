@@ -69,6 +69,60 @@
         }
     }
 
+    ksb_a = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = rtt_hairstyles
+                value =  0.1
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                this = character:ani001
+            }
+       }
+    }
+
+    nier = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = rtt_hairstyles
+                value =  0.5
+            }
+            accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = special_headgear_blindfold
+				template = blindfold
+				value = 0.98
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                this = character:wild028
+            }
+       }
+    }
+
     head_monk = {
         dna_modifiers = {
             accessory = {

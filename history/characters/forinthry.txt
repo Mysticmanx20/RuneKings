@@ -302,3 +302,20 @@ wild027 = {
 	}
 
 }
+
+wild028 = {
+	name = "2B"
+	female = yes
+	religion = godless
+	culture = wild
+	trait = education_martial_4
+	trait = loyal
+	trait = wrathful
+	trait = just
+	9143.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = wild027
+	}
+}

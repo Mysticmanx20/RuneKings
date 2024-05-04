@@ -1292,10 +1292,12 @@ special_genes = {
 			blindfold = {
 				index = 1
 				male = {
-					100 = male_headgear_special_blindfold_01
+					1 = male_headgear_special_blindfold_01
+					1 = male_headgear_special_blindfold_02
 				}
 				female = {
-					100 = female_headgear_special_blindfold_01
+					1 = female_headgear_special_blindfold_01
+					1 = female_headgear_special_blindfold_02
 				}
 				boy = male
 				girl = female

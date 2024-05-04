@@ -1,5 +1,6 @@
 ﻿#Historical Characters
 
+
 gabi_dna={
 	portrait_info = {
 		genes={ 		

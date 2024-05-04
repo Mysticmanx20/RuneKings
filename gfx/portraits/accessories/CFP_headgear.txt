@@ -58,6 +58,14 @@
 # set_tags = "headdress"
 # set_tags = "no_hair,mask_hat,hood"
 
+##Runekings
+male_headgear_special_blindfold_02 = {	
+	entity = { required_tags = ""				shared_pose_entity = head		entity = male_headgear_special_blindfold_02_entity 	 }		
+}
+female_headgear_special_blindfold_02 = {	
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_blindfold_02_entity 	 }		
+}
+
 ## Vanilla edits
 female_headgear_secular_western_imperial_01 = {
 	set_tags = "crown"
