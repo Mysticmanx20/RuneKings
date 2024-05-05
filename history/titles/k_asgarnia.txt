@@ -175,6 +175,13 @@ c_edgemon = {
 	}
 }
 
+c_bodyaltar = {
+	9167.1.1 = {
+		holder = 900308
+		change_development_level = 6
+	}
+}
+
 
 c_camdozaal = {
 	9169.1.1 = {
@@ -257,15 +264,16 @@ c_taverley = {
 	}
 }
 
-b_witchhouse = {
-	9152.1.1 = {
-		holder = asgarn010
+c_eweans = {
+	9165.1.1 = {
+		holder = 900373
+		change_development_level = 8
 	}
 }
 
-b_tavcircle = {
-	9140.1.1 = {
-		holder = druid001
+b_witchhouse = {
+	9152.1.1 = {
+		holder = asgarn010
 	}
 }
 
@@ -316,15 +324,19 @@ c_burthorpe = {
 	}
 }
 
-b_heroes = {
-	9159.1.1 ={
+c_heroes = {
+	9159.1.2 ={
+		liege = d_burthorpe
 		holder = 900376
+		change_development_level = 9
 	}
 }
 
-b_warrior = {
+c_outerburth = {
 	9163.1.1 = {
+		liege = d_burthorpe
 		holder = asgarn011
+		change_development_level = 8
 	}
 }
 

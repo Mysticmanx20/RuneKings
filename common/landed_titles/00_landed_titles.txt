@@ -768,10 +768,16 @@ e_zaros = {
 					province = 165
 				}
 
+			}
+
+			c_eweans = {
+				color = { 81 78 0}
+
 				b_tavcircle = {
 					color = { 81 78 0}
 					province = 166
 				}
+
 			}
 
 			c_tavdun = {
@@ -810,20 +816,30 @@ e_zaros = {
 					province = 170
 				}
 
+				b_rogues = {
+					color = {24 0 84 }
+					province = 173
+				}
+			}
+
+			c_outerburth = {
+				color = { 162 51 0}
+
 				b_warrior = {
 					color = {162 51 0}
 					province = 171
 				}
+
+			}
+
+			c_heroes = {
+				color = { 105 209 31}
 
 				b_heroes = {
 					color = {105 209 31}
 					province = 168
 				}
 
-				b_rogues = {
-					color = {24 0 84 }
-					province = 173
-				}
 			}
 
 		}
@@ -922,11 +938,17 @@ e_zaros = {
 					province = 34
 				}
 
+			}
+
+			c_bodyaltar = {
+				color = { 34 32 153 }
+
 				b_bodyaltar = {
 					color = { 34 32 153 }
 					definite_form = yes
 					province = 38
 				}
+
 			}
 
 			c_camdozaal = {
