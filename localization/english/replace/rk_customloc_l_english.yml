@@ -2,6 +2,7 @@
 
  game_concept_gold:0 "gp"
  game_concept_gold_desc:0 "Gold pieces or 'gp' really represents all liquid assets of a Character; their wealth. It can be spent on many things, most notably constructing [buildings|E], paying for [regiments|E], and creating [titles|E]."
+ LOADSCREEN_INITIALIZING_GAME:0 "Loading - Please wait..."
 
  #GAME_DATE_STRING:0 "$DAY$ $MONTH$, $YEAR$"
  #GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $YEAR$"
