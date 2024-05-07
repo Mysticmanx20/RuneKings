@@ -442,11 +442,6 @@ widget = {
 				position_x = -100
 			}
 
-			icon = {
-				size = { 100% 100% }
-				texture = "gfx/interface/frontend/frontend_main_menu_frame.dds"
-			}
-
 			vbox = {
 				datacontext = "[FrontEndMainView.AccessLoadView]"
 				margin = { 90 0 }

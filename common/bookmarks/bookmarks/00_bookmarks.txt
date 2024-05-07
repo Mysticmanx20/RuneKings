@@ -26,7 +26,7 @@
 
 	character = {
 		name = "Count Draynor"
-		dynasty = 100903
+		dynasty_house = house_drakan
 		dynasty_splendor_level = 1
 		type = male
 		birth = 9138.1.1
