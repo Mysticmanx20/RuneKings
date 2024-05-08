@@ -147,6 +147,24 @@ k_camelot = {
 	
 }
 
+k_eastardy = {
+	color = {255 165 104 }
+	capital = c_ardy
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+	
+}
+
+k_westardy = {
+	color = {210 67 112 }
+	capital = c_westardy
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+	
+}
+
 
 k_gnome1 = {
 	color = {104 227 27}

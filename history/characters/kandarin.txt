@@ -190,6 +190,7 @@ kand017 = {
 	trait = education_intrigue_2
 	disallow_random_traits = yes
 	father = kand019
+	mother = kand092
 	9126.1.1 = {
 		birth = yes
 	}
@@ -206,6 +207,7 @@ kand018 = {
 	trait = education_martial_2
 	disallow_random_traits = yes
 	father = kand019
+	mother = kand092
 	9130.1.1 = {
 		birth = yes
 	}
@@ -219,7 +221,8 @@ kand019 = {
 	trait = generous
 	trait = education_stewardship_3
 	father = kand020
-	11547.1.1 = {
+	mother = kand091
+	9086.1.1 = {
 		birth = yes
 	}
 	9136.1.1 = {
@@ -234,10 +237,10 @@ kand020 = {
 	culture = kandarin
 	trait = lunatic_1
 	trait = education_intrigue_4
-	11524.1.1 = {
+	9063.1.1 = {
 		birth = yes
 	}
-	9133.1.1 = {
+	9130.1.1 = {
 		death = yes
 	}
 }
@@ -1109,6 +1112,40 @@ kand090 = {
 	}
 	9168.1.1 = {
 		employer = kand017
+	}
+}
+
+kand091 = {
+	name = "Eleanor"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_3
+	9065.1.1 = {
+		birth = yes
+	}
+	9081.1.1 = {
+		add_spouse = kand020
+	}
+	9130.1.1 = {
+		death = yes
+	}
+}
+
+kand092 = {
+	name = "Alexandra"
+	female = yes
+	religion = saradomin
+	culture = kandarin
+	trait = education_diplomacy_2
+	9085.1.1 = {
+		birth = yes
+	}
+	9103.1.1 = {
+		add_spouse = kand019
+	}
+	9145.1.1 = {
+		death = yes
 	}
 }
 

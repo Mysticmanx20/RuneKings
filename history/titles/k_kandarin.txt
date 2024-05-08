@@ -1,4 +1,16 @@
 
+k_kandarin = {
+	9083.1.1 = {
+		holder = kand020
+	}
+	9130.1.1 = {
+		holder = kand019
+	}
+	9136.1.1 = {
+		holder = 0
+	}
+}
+
 c_seers = {
 	9153.1.1 = {
 		liege = 0
@@ -56,7 +68,7 @@ c_lefaye = {
 
 c_ardyfarm = {
 	9168.1.1 = {
-		liege = k_kandarin
+		liege = k_eastardy
 		holder = kand016
 		change_development_level = 15
 	}
@@ -77,7 +89,6 @@ d_ardy = {
 
 c_westardy = {
 	9136.1.1 = {
-		liege = 0
 		holder = kand018
 		change_development_level = 12
 	}
@@ -280,7 +291,7 @@ c_eagles = {
 
 c_outpost = {
 	9166.1.1 = {
-		liege = 0
+		liege = k_westardy
 		holder = kand051
 		change_development_level = 4
 	}

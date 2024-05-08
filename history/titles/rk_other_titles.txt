@@ -132,3 +132,15 @@ d_gnomevil = {
 		holder = gnome003
 	}
 }
+
+k_eastardy = {
+	9136.1.1 = {
+		holder = kand017
+	}
+}
+
+k_westardy = {
+	9136.1.1 = {
+		holder = kand018
+	}
+}
