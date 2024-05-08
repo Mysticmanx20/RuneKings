@@ -239,6 +239,7 @@
 	trait = brave
     trait = ambitious
     trait = fickle
+	trait = viking
 	trait = education_martial_1
 	disallow_random_traits = yes
 	father = 900121
