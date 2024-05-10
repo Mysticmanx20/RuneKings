@@ -80,10 +80,10 @@ widget = {
 			alpha = 0
 			texture = "gfx/interface/frontend/frontend_main_menu_bg.dds"
 
-			modify_texture = {
-				texture = "gfx/interface/frontend/frontend_main_menu_bg_mask.dds"
-				blend_mode = mask
-			}
+			# modify_texture = {
+			# 	texture = "gfx/interface/frontend/frontend_main_menu_bg_mask.dds"
+			# 	blend_mode = mask
+			# }
 
 			modify_texture = {
 				name = "glow_main"
@@ -459,7 +459,7 @@ widget = {
 							layoutpolicy_horizontal = expanding
 							margin_left = 5
 							text = "SINGLE_PLAYER"
-							default_format = "#weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "#true_white"
 						}
 
 						vbox = {
@@ -622,7 +622,7 @@ widget = {
 							layoutpolicy_horizontal = expanding
 							margin_left = 5
 							text = "MULTI_PLAYER"
-							default_format = "#weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "#true_white"
 						}
 
 						spacer = {
