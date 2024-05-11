@@ -122,11 +122,11 @@
 	dynasty = 100906
 	female = yes
 	sexuality = bisexual
+	fertility = 0
 	religion = godless
 	culture = morytania
 	trait = compassionate
 	trait = diligent
-	trait = infertile
 	trait = lifestyle_herbalist
 	trait = education_diplomacy_3
 	diplomacy = 10
