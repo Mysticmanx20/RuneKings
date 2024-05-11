@@ -1537,7 +1537,7 @@ terrain_travel = {
 		trigger = {
 			location = {
 				is_riverside_province = yes
-				geographical_region = world_europe
+				geographical_region = world_humankingdoms
 				OR = {
 					terrain = farmlands
 					terrain = plains
@@ -1558,7 +1558,7 @@ terrain_travel = {
 				exists = province_owner
 			}
 		}
-		reference = "gfx/interface/illustrations/event_scenes/ep2_travel_farm.dds"
+		reference = "gfx/interface/illustrations/event_scenes/farms.dds"
 		environment = "environment_travel_farmlands"
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
@@ -1569,7 +1569,7 @@ terrain_travel = {
 				NOT = { exists = province_owner }
 			}
 		}
-		reference = "gfx/interface/illustrations/event_scenes/farms.dds"
+		reference = "gfx/interface/illustrations/event_scenes/farmlands.dds"
 		environment = "environment_travel_farmlands"
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}

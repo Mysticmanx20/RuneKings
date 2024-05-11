@@ -3632,7 +3632,7 @@ character_view_bg = {
 	#Farmland, unsettled
 	#####
 	texture = {
-		reference = "event_scenes/farms.dds"
+		reference = "event_scenes/farmlands.dds"
 
 		trigger = {
 			exists = location
@@ -3747,7 +3747,7 @@ character_view_bg = {
 	#Farmland, settled
 	#####
 	texture = {
-		reference = "event_scenes/ep2_travel_farm.dds"
+		reference = "event_scenes/farms.dds"
 
 		trigger = {
 			exists = location
