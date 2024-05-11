@@ -6155,31 +6155,27 @@ character_religion_interior = {
 		reference = "environment_event_fp3_temple"
 	}
 
-	# Christianity
+	# Zamorak
 
 	texture = {
-		trigger = {
-			liege.culture ?= { has_building_gfx = iberian_building_gfx }
-		}
+		trigger = { religion = religion:zam_religion }
 		reference = "event_scenes/fp2_temple.dds"
 	}
 
 	environment = {
-		trigger = {
-			liege.culture ?= { has_building_gfx = iberian_building_gfx }
-		}
+		trigger = { religion = religion:zam_religion }
 		reference = "environment_event_fp2_temple"
 	}
 
-	# Christianity
+	# Saradomin
 
 	texture = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:sara_religion }
 		reference = "event_scenes/church.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:sara_religion }
 		reference = "environment_event_church"
 	}
 
@@ -6198,12 +6194,12 @@ character_religion_interior = {
 	# FP1
 
 	texture = { # FP1
-		trigger = { religion = religion:germanic_religion }
+		trigger = { religion = religion:fremennik_religion }
 		reference = "event_scenes/fp1_tribal_temple.dds"
 	}
 
 	environment = { # FP1
-		trigger = { religion = religion:germanic_religion }
+		trigger = { religion = religion:fremennik_religion }
 		reference = "environment_event_fp1_tribal_temple"
 	}
 
