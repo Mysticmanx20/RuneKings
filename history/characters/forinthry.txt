@@ -319,3 +319,33 @@ wild028 = {
 		employer = wild027
 	}
 }
+
+wild029 = {
+	name = "Zemouregal"
+	religion = zamorak
+	culture = mahjarrat
+	trait = wrathful
+	trait = vengeful
+	trait = stubborn
+	trait = education_intrigue_4
+	disallow_random_traits = yes
+	9133.1.1 = {
+		birth = yes
+	}
+
+}
+
+wild030 = {
+	name = "Jhallan"
+	religion = zaros
+	culture = mahjarrat
+	trait = content
+	trait = patient
+	trait = calm
+	trait = education_learning_3
+	disallow_random_traits = yes
+	9133.1.1 = {
+		birth = yes
+	}
+
+}
