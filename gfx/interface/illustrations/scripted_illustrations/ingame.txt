@@ -4327,6 +4327,25 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
+
+	###
+	# Wilderness wandering
+	texture = {
+		reference = "character_view/wild.dds"
+
+		trigger = {
+			exists = location
+			location = {
+				geographical_region = world_wilderness
+			}
+			NOR = {
+				exists = liege
+				exists = host
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
 	
 	# Wandering fallback
 	texture = {
@@ -4402,12 +4421,12 @@ character_view_bg = {
 	##########################################
 	# TEMPLES
 	
-	texture = { # Zoroastrian
-		reference = "event_scenes/fp3_temple.dds"
+	texture = { # Guthix
+		reference = "event_scenes/guthix_temple.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:zoroastrianism_religion
+			religion = religion:guthix_religion
 		}
 	}
 
@@ -4416,7 +4435,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:zoroastrianism_religion
+			religion = religion:guthix_religion
 			is_character_window_main_character = yes
 		}
 	}
@@ -4428,17 +4447,17 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:zoroastrianism_religion
+					religion = religion:guthix_religion
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:zoroastrianism_religion
+					religion = religion:guthix_religion
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						religion = religion:zoroastrianism_religion
+						religion = religion:guthix_religion
 					}
 				}
 			}
@@ -6143,15 +6162,15 @@ character_location_exterior = {
 ### Religious interior - Character Scope
 character_religion_interior = { 
 
-	# FP3
+	# Guthix
 
 	texture = { 
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "event_scenes/fp3_temple.dds"
+		trigger = { religion = religion:guthix_religion }
+		reference = "event_scenes/guthix_temple.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:zoroastrianism_religion }
+		trigger = { religion = religion:guthix_religion }
 		reference = "environment_event_fp3_temple"
 	}
 
@@ -6179,7 +6198,7 @@ character_religion_interior = {
 		reference = "environment_event_church"
 	}
 
-	# Islam
+	# Menaphite Pantheon
 
 	texture = {
 		trigger = { religion = religion:desert_religion }
@@ -6191,15 +6210,27 @@ character_religion_interior = {
 		reference = "environment_event_mosque"
 	}
 
-	# FP1
+	# Fremennik
 
-	texture = { # FP1
+	texture = { 
 		trigger = { religion = religion:fremennik_religion }
 		reference = "event_scenes/fp1_tribal_temple.dds"
 	}
 
-	environment = { # FP1
+	environment = { 
 		trigger = { religion = religion:fremennik_religion }
+		reference = "environment_event_fp1_tribal_temple"
+	}
+
+	# Karamja 
+
+	texture = { 
+		trigger = { religion = religion:karamja_religion }
+		reference = "event_scenes/tribal_temple.dds"
+	}
+
+	environment = { 
+		trigger = { religion = religion:karamja_religion }
 		reference = "environment_event_fp1_tribal_temple"
 	}
 
@@ -6240,15 +6271,15 @@ character_religion_interior = {
 ### Religious interior - Faith Scope
 religion_interior = { 
 
-	# FP3
+	# Guthix
 
 	texture = { 
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "event_scenes/fp3_temple.dds"
+		trigger = { religion = religion:guthix_religion }
+		reference = "event_scenes/guthix_temple.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:zoroastrianism_religion }
+		trigger = { religion = religion:guthix_religion }
 		reference = "environment_event_fp3_temple"
 	}
 
