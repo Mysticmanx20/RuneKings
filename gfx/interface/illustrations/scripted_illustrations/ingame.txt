@@ -94,7 +94,7 @@ character_view_bg = {
 					geographical_region = graphical_mena
 					AND = {
 			 			geographical_region = world_europe_west_iberia
-			 			root = { faith = { religion = religion:islam_religion } }
+			 			root = { faith = { religion = religion:desert_religion } }
 			 		}
 				}
 			}
@@ -112,7 +112,7 @@ character_view_bg = {
 					geographical_region = graphical_mena
 					AND = {
 			 			geographical_region = world_europe_west_iberia
-			 			root = { faith = { religion = religion:islam_religion } }
+			 			root = { faith = { religion = religion:desert_religion } }
 			 		}
 				}
 			}
@@ -135,7 +135,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 						 			geographical_region = world_europe_west_iberia
-						 			root = { faith = { religion = religion:islam_religion } }
+						 			root = { faith = { religion = religion:desert_religion } }
 						 		}
 							}
 						}
@@ -151,7 +151,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 						 			geographical_region = world_europe_west_iberia
-						 			root = { faith = { religion = religion:islam_religion } }
+						 			root = { faith = { religion = religion:desert_religion } }
 						 		}
 							}
 						}
@@ -167,7 +167,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 						 			geographical_region = world_europe_west_iberia
-						 			root = { faith = { religion = religion:islam_religion } }
+						 			root = { faith = { religion = religion:desert_religion } }
 						 		}
 							}
 						}
@@ -4448,22 +4448,12 @@ character_view_bg = {
 
 	##########################################
 
-	texture = { # Iberian
+	texture = { # Zamorak
 		reference = "event_scenes/fp2_temple.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			OR = {
-				religion = religion:christianity_religion
-				religion = religion:islam_religion
-			}
-			trigger_if = {
-				limit = { exists = liege }
-				liege.culture = { has_building_gfx = iberian_building_gfx }
-			}
-			trigger_else = {
-				culture = { has_building_gfx = iberian_building_gfx }
-			}
+			religion = religion:zam_religion
 		}
 	}
 
@@ -4472,17 +4462,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			OR = {
-				religion = religion:christianity_religion
-				religion = religion:islam_religion
-			}
-			trigger_if = {
-				limit = { exists = liege }
-				liege.culture = { has_building_gfx = iberian_building_gfx }
-			}
-			trigger_else = {
-				culture = { has_building_gfx = iberian_building_gfx }
-			}
+			religion = religion:zam_religion
 		}
 	}
 
@@ -4493,48 +4473,17 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					OR = {
-						religion = religion:christianity_religion
-						religion = religion:islam_religion
-					}
-					trigger_if = {
-						limit = { exists = liege }
-						liege.culture = { has_building_gfx = iberian_building_gfx }
-					}
-					trigger_else = {
-						culture = { has_building_gfx = iberian_building_gfx }
-					}
+					religion = religion:zam_religion
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					OR = {
-						religion = religion:christianity_religion
-						religion = religion:islam_religion
-					}
-					trigger_if = {
-						limit = { exists = liege }
-						liege.culture = { has_building_gfx = iberian_building_gfx }
-					}
-					trigger_else = {
-						culture = { has_building_gfx = iberian_building_gfx }
-					}
+					religion = religion:zam_religion
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						OR = {
-							religion = religion:christianity_religion
-							religion = religion:islam_religion
-						}
-						trigger_if = {
-							limit = { exists = liege }
-							liege.culture = { has_building_gfx = iberian_building_gfx }
-						}
-						trigger_else = {
-							culture = { has_building_gfx = iberian_building_gfx }
-						}
-						religion = religion:zoroastrianism_religion
+						religion = religion:zam_religion
 					}
 				}
 			}
@@ -4544,12 +4493,12 @@ character_view_bg = {
 
 	##########################################
 
-	texture = { # Christian
+	texture = { # Saradomin
 		reference = "event_scenes/church.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:christianity_religion
+			religion = religion:sara_religion
 		}
 	}
 
@@ -4558,7 +4507,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:christianity_religion
+			religion = religion:sara_religion
 			is_character_window_main_character = yes
 		}
 	}
@@ -4570,19 +4519,19 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:christianity_religion
+					religion = religion:sara_religion
 					is_character_window_main_character = yes
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:christianity_religion
+					religion = religion:sara_religion
 					is_character_window_main_character = yes
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						religion = religion:christianity_religion
+						religion = religion:sara_religion
 					}
 				}
 			}
@@ -4592,12 +4541,12 @@ character_view_bg = {
 
 	##########################################
 
-	texture = { # Islam
+	texture = { # Menahpite Pantheon
 		reference = "event_scenes/mosque.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:islam_religion
+			religion = religion:desert_religion
 		}
 	}
 
@@ -4606,7 +4555,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:islam_religion
+			religion = religion:desert_religion
 			is_character_window_main_character = yes
 		}
 	}
@@ -4618,17 +4567,17 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:islam_religion
+					religion = religion:desert_religion
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:islam_religion
+					religion = religion:desert_religion
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						religion = religion:islam_religion
+						religion = religion:desert_religion
 					}
 				}
 			}
@@ -4643,7 +4592,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:germanic_religion
+			religion = religion:fremennik_religion
 		}
 	}
 
@@ -4652,7 +4601,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:germanic_religion
+			religion = religion:fremennik_religion
 			is_character_window_main_character = yes
 		}
 	}
@@ -4664,23 +4613,70 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:germanic_religion
+					religion = religion:fremennik_religion
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:germanic_religion
+					religion = religion:fremennik_religion
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						religion = religion:germanic_religion
+						religion = religion:fremennik_religion
 					}
 				}
 			}
 			is_character_window_main_character = no
 		}
 	}
+
+	#########################################
+
+texture = { # Karamjan
+	reference = "event_scenes/tribal_temple.dds"
+
+	trigger = {
+		should_use_temple_character_background_trigger = yes
+		religion = religion:karamja_religion
+	}
+}
+
+environment = {
+	reference = "environment_event_fp1_tribal_temple"
+
+	trigger = {
+		should_use_temple_character_background_trigger = yes
+		religion = religion:karamja_religion
+		is_character_window_main_character = yes
+	}
+}
+
+environment = {
+	reference = "environment_event_fp1_tribal_temple"
+
+	trigger = {
+		OR = {
+			primary_spouse ?= {
+				should_use_temple_character_background_trigger = yes
+				religion = religion:karamja_religion
+			}
+			betrothed ?= {
+				should_use_temple_character_background_trigger = yes
+				religion = religion:karamja_religion
+			}
+			AND = {
+				liege.diarch ?= this
+				liege ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:karamja_religion
+				}
+			}
+		}
+		is_character_window_main_character = no
+	}
+}
+
 
 	##########################################
 
@@ -6190,12 +6186,12 @@ character_religion_interior = {
 	# Islam
 
 	texture = {
-		trigger = { religion = religion:islam_religion }
+		trigger = { religion = religion:desert_religion }
 		reference = "event_scenes/mosque.dds"
 	}
 
 	environment = {
-		trigger = {	religion = religion:islam_religion }
+		trigger = {	religion = religion:desert_religion }
 		reference = "environment_event_mosque"
 	}
 
@@ -6297,12 +6293,12 @@ religion_interior = {
 	# Islam
 
 	texture = {
-		trigger = { religion = religion:islam_religion }
+		trigger = { religion = religion:desert_religion }
 		reference = "event_scenes/mosque.dds"
 	}
 
 	environment = {
-		trigger = {	religion = religion:islam_religion }
+		trigger = {	religion = religion:desert_religion }
 		reference = "environment_event_mosque"
 	}
 
@@ -6363,7 +6359,7 @@ religion_holding = {
 
 	texture = {
 		trigger = {
-			religion = religion:islam_religion
+			religion = religion:desert_religion
 		}
 		reference = "holding_types/temple_islamic.dds"
 	}
@@ -6592,7 +6588,7 @@ title_holding = {
 			title_illustration_save_province_temporary = yes
 			scope:province = {
 				has_holding_type = church_holding
-				faith.religion = religion:islam_religion
+				faith.religion = religion:desert_religion
 			}
 		}
 		reference = "holding_types/temple_islamic.dds"
