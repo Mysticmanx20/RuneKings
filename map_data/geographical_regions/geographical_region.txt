@@ -82,6 +82,29 @@ world_misthalin = {
 		d_wizard d_tutor
 	}
 }
+
+world_asgarnia = {
+	duchies = {
+		d_falador d_taverley d_burthorpe d_gobvil d_icemount
+		d_entrana d_portsarim d_rim d_crandor 
+	}
+}
+
+world_kandarin = {
+	duchies = {
+		d_ardy d_witchaven d_hemenster d_ranger d_seers d_catherby
+		d_baxtorian d_gnomestrong d_gnomevil d_khazard d_yanille
+		d_pisc 
+	}
+}
+
+world_humankingdoms = {
+	regions = {
+		world_misthalin world_asgarnia world_kandarin
+	}
+}
+
+
 world_europe_west_germania = {}
 world_europe_west_francia = {}
 world_europe_west_iberia = {}

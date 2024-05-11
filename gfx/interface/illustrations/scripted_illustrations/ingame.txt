@@ -2027,7 +2027,7 @@ character_view_bg = {
 			}
 			location = {
 				is_riverside_province = yes
-				geographical_region = world_europe
+				geographical_region = world_humankingdoms
 				OR = {
 					terrain = farmlands
 					terrain = plains
@@ -4040,14 +4040,14 @@ character_view_bg = {
 		}
 	}
 	
-	# Wandering europe
+	# Wandering human kingdoms
 	texture = {
 		reference = "character_view/crossroads_inn.dds"
 
 		trigger = {
 			exists = location
 			location = {
-				geographical_region = world_europe
+				geographical_region = world_humankingdoms
 			}
 			NOR = {
 				exists = liege
@@ -4064,7 +4064,7 @@ character_view_bg = {
 		trigger = {
 			exists = location
 			location = {
-				geographical_region = world_europe
+				geographical_region = world_humankingdoms
 			}
 			NOR = {
 				exists = liege
@@ -4086,7 +4086,7 @@ character_view_bg = {
 					primary_spouse = {
 						exists = location
 						location = {
-							geographical_region = world_europe
+							geographical_region = world_humankingdoms
 						}
 						NOR = {
 							exists = liege
@@ -4101,7 +4101,7 @@ character_view_bg = {
 					betrothed = {
 						exists = location
 						location = {
-							geographical_region = world_europe
+							geographical_region = world_humankingdoms
 						}
 						NOR = {
 							exists = liege
@@ -4116,7 +4116,7 @@ character_view_bg = {
 					liege ?= {
 						exists = location
 						location = {
-							geographical_region = world_europe
+							geographical_region = world_humankingdoms
 						}
 						NOR = {
 							exists = liege
