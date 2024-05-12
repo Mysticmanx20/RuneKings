@@ -407,3 +407,9 @@
 	name = "dynn_Leucurte"
 	culture = vampyre
 }
+
+100980 = {
+	prefix = "dynnp_of"
+	name = "dynn_barrows"
+	culture = ghost
+}

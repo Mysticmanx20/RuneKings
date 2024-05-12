@@ -777,3 +777,99 @@ mort021 = {
 	}
 }
 
+mort022 = {
+	name = "Ahrim"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_learning_3
+	prowess = 15
+	9136.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
+mort023 = {
+	name = "Dharok"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_martial_3
+	prowess = 15
+	9137.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
+mort024 = {
+	name = "Guthan"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_learning_2
+	prowess = 15
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
+mort025 = {
+	name = "Karil"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_martial_2
+	prowess = 15
+	9143.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
+mort026 = {
+	name = "Torag"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_martial_1
+	prowess = 15
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
+mort027 = {
+	name = "Verac"
+	dynasty = 100980
+	culture = ghost
+	religion = zaros
+	trait = education_martial_3
+	prowess = 15
+	9146.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		set_knight_status = force
+	}
+}
+
