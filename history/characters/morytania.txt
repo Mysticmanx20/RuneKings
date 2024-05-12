@@ -753,3 +753,27 @@ mort019 = {
 	}
 }
 
+mort020 = {
+	name = "Amblor"
+	culture = vampyre
+	religion = zamorak
+	9143.1.1 = {
+		birth = yes
+	}
+}
+
+mort021 = {
+	name = "Sliske"
+	culture = mahjarrat
+	religion = zaros
+	trait = deceitful
+	trait = arbitrary
+	trait = fickle
+	trait = witch
+	trait = education_intrigue_4
+	disallow_random_traits = yes
+	9139.1.1 = {
+		birth = yes
+	}
+}
+

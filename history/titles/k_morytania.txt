@@ -93,9 +93,10 @@ c_nature = {
 	}
 }
 
-c_graveyard = {
-	9048.1.1 = {
-		
+c_barrows = {
+	9165.1.1 = {
+		liege = 0
+		holder = mort021
 		change_development_level = 2
 	}
 }
@@ -155,6 +156,14 @@ c_vers = {
 b_darkmeyer = {
 	9142.1.1 = {
 		holder = 900500
+	}
+}
+
+c_deadfields = {
+	9165.1.1 = {
+		liege = k_morytania
+		holder = mort020
+		change_development_level = 2
 	}
 }
 

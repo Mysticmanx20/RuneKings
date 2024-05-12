@@ -66,7 +66,7 @@
 			culture = kharidian
 			religion = menaph
 			history_id = 900801
-			animation = worry
+			animation = boredom
 		}
 	}
 
@@ -101,6 +101,18 @@
 		position = { 1314 158 }
 
 		animation = personality_rational
+
+		character = { # Queen Ellamaria, wife
+			name = "Queen Ellamaria" 
+			relation = "BOOKMARK_RELATION_WIFE"
+			type = female 
+			birth = 9142.1.1
+			culture = misthalin
+			religion = saradomin
+			history_id = 900107
+			
+			animation = personality_bold	
+		}
 	}
 
 
