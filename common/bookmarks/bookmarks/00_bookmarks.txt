@@ -1,7 +1,7 @@
 ﻿bm_1000_test = {
 	start_date = 9169.1.1
 	is_playable = yes
-	group = bm_group_1066 
+	group = bm_group_169
 
 	weight = { value = 100 }
 
@@ -38,7 +38,7 @@
 		history_id = 20843
 		position = { 847 419 }
 
-		animation = personality_zealous
+		animation = personality_callous
 	}
 
 	character = {
@@ -56,6 +56,18 @@
 		position = { 1553 999 }
 
 		animation = worry
+
+		character = {
+			name = "Ali Mirza"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 100905
+			type = male
+			birth = 9153.1.1
+			culture = kharidian
+			religion = menaph
+			history_id = 900801
+			animation = worry
+		}
 	}
 
 	character = {
@@ -88,7 +100,7 @@
 		history_id = 6000002
 		position = { 1314 158 }
 
-		animation = boredom
+		animation = personality_rational
 	}
 
 
