@@ -1056,7 +1056,7 @@ kand083 = {
 }
 
 kand084 = {
-	name = "Hunter"
+	name = "Ayleth"
 	female = yes
 	religion = saradomin
 	culture = kandarin
