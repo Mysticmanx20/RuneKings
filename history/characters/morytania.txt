@@ -775,6 +775,33 @@ mort021 = {
 	9139.1.1 = {
 		birth = yes
 	}
+	9146.1.1 = {
+		#Controls the Barrows Brothers as his personal wights
+		add_hook = {
+			target = character:mort022
+			type = hostage_loyalty
+		}
+		add_hook = {
+			target = character:mort023
+			type = hostage_loyalty
+		}
+		add_hook = {
+			target = character:mort024
+			type = hostage_loyalty
+		}
+		add_hook = {
+			target = character:mort025
+			type = hostage_loyalty
+		}
+		add_hook = {
+			target = character:mort026
+			type = hostage_loyalty
+		}
+		add_hook = {
+			target = character:mort027
+			type = hostage_loyalty
+		}
+	}
 }
 
 mort022 = {
@@ -783,6 +810,8 @@ mort022 = {
 	culture = ghost
 	religion = zaros
 	trait = education_learning_3
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9136.1.1 = {
 		birth = yes
@@ -799,6 +828,8 @@ mort023 = {
 	culture = ghost
 	religion = zaros
 	trait = education_martial_3
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9137.1.1 = {
 		birth = yes
@@ -815,6 +846,8 @@ mort024 = {
 	culture = ghost
 	religion = zaros
 	trait = education_learning_2
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9141.1.1 = {
 		birth = yes
@@ -831,6 +864,8 @@ mort025 = {
 	culture = ghost
 	religion = zaros
 	trait = education_martial_2
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9143.1.1 = {
 		birth = yes
@@ -847,6 +882,8 @@ mort026 = {
 	culture = ghost
 	religion = zaros
 	trait = education_martial_1
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9144.1.1 = {
 		birth = yes
@@ -863,6 +900,8 @@ mort027 = {
 	culture = ghost
 	religion = zaros
 	trait = education_martial_3
+	trait = wrathful
+	trait = zealous
 	prowess = 15
 	9146.1.1 = {
 		birth = yes
@@ -873,3 +912,18 @@ mort027 = {
 	}
 }
 
+mort028 = {
+	name = "Garren"
+	health = 6.9
+	culture = morytania
+	religion = zaros
+	trait = content
+	trait = education_learning_2
+	9125.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = mort021
+		give_council_position = councillor_court_chaplain
+	}
+}
