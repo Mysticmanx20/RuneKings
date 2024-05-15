@@ -274,8 +274,8 @@ zaros_religion = {    #Zaros
 	doctrine = doctrine_funeral_stoic
 
 	traits = {
-		virtues = { vengeful arbitrary callous sadistic }
-		sins = { forgiving just compassionate }
+		virtues = { calm patient just }
+		sins = { vengeful impatient arbitrary }
 	}
 
 	reserved_male_names = {
@@ -316,67 +316,67 @@ zaros_religion = {    #Zaros
 		HighGodName = ZAROS_NAME
 		HighGodName2 = ZAROS_NAME
 		HighGodNamePossessive = ZAROS_POSSESSIVE
-		HighGodNameSheHe = CHARACTER_SHEHE_IT
-		HighGodHerselfHimself = CHARACTER_ITSELF
-		HighGodHerHis = CHARACTER_HERHIS_ITS
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
 		HighGodNameAlternate = ZAROS_NAME2
 		HighGodNameAlternatePossessive = ZAROS_POSSESSIVE2
 	
 		#Creator
 		CreatorName = ZAROS_NAME
 		CreatorNamePossessive = ZAROS_POSSESSIVE
-		CreatorSheHe = CHARACTER_SHEHE_IT
-		CreatorHerHis = CHARACTER_HERHIS_ITS
-		CreatorHerHim = CHARACTER_HERHIM_IT
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
 	
 		#HealthGod
 		HealthGodName = ZAROS_NAME
 		HealthGodNamePossessive = ZAROS_POSSESSIVE
-		HealthGodSheHe = CHARACTER_SHEHE_IT
-		HealthGodHerHis = CHARACTER_HERHIS_ITS
-		HealthGodHerHim = CHARACTER_HERHIM_IT
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
 		FertilityGodName = ZAROS_NAME
 		FertilityGodNamePossessive = ZAROS_POSSESSIVE
-		FertilityGodSheHe = CHARACTER_SHEHE_IT
-		FertilityGodHerHis = CHARACTER_HERHIS_ITS
-		FertilityGodHerHim = CHARACTER_HERHIM_IT
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#WealthGod
 		WealthGodName = ZAROS_NAME
 		WealthGodNamePossessive = ZAROS_POSSESSIVE
-		WealthGodSheHe = CHARACTER_SHEHE_IT
-		WealthGodHerHis = CHARACTER_HERHIS_ITS
-		WealthGodHerHim = CHARACTER_HERHIM_IT
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#HouseholdGod
 		HouseholdGodName = ZAROS_NAME
 		HouseholdGodNamePossessive = ZAROS_POSSESSIVE
-		HouseholdGodSheHe = CHARACTER_SHEHE_IT
-		HouseholdGodHerHis = CHARACTER_HERHIS_ITS
-		HouseholdGodHerHim = CHARACTER_HERHIM_IT
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#FateGod
 		FateGodName = ZAROS_NAME
 		FateGodNamePossessive = ZAROS_POSSESSIVE
-		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
-		FateGodHerHim = CHARACTER_HERHIM_IT
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#KnowledgeGod
 		KnowledgeGodName = ZAROS_NAME
 		KnowledgeGodNamePossessive = ZAROS_POSSESSIVE
-		KnowledgeGodSheHe = CHARACTER_SHEHE_IT
-		KnowledgeGodHerHis = CHARACTER_HERHIS_ITS
-		KnowledgeGodHerHim = CHARACTER_HERHIM_IT
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#WarGod
 		WarGodName = ZAROS_NAME
 		WarGodNamePossessive = ZAROS_POSSESSIVE
-		WarGodSheHe = CHARACTER_SHEHE_IT
-		WarGodHerHis = CHARACTER_HERHIS_ITS
-		WarGodHerHim = CHARACTER_HERHIM_IT
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#TricksterGod
 		TricksterGodName = ZAROS_NAME
@@ -388,16 +388,16 @@ zaros_religion = {    #Zaros
 		#NightGod
 		NightGodName = ZAROS_NAME
 		NightGodNamePossessive = ZAROS_POSSESSIVE
-		NightGodSheHe = CHARACTER_SHEHE_IT
-		NightGodHerHis = CHARACTER_HERHIS_ITS
-		NightGodHerHim = CHARACTER_HERHIM_IT
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
 	
 		#WaterGod
 		WaterGodName = ZAROS_NAME
 		WaterGodNamePossessive = ZAROS_POSSESSIVE
-		WaterGodSheHe = CHARACTER_SHEHE_IT
-		WaterGodHerHis = CHARACTER_HERHIS_ITS
-		WaterGodHerHim = CHARACTER_HERHIM_IT
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
 	
 		PantheonTerm = ZAROS_NAME
 		PantheonTerm2 = ZAROS_NAME
@@ -416,10 +416,10 @@ zaros_religion = {    #Zaros
 			ZAM_NAME
 			
 		}
-		HouseOfWorship = christianity_house_of_worship
-		HouseOfWorship2 = christianity_house_of_worship_2
-		HouseOfWorship3 = christianity_house_of_worship_3
-		HouseOfWorshipPlural = christianity_house_of_worship_plural
+		HouseOfWorship = buddhism_house_of_worship
+		HouseOfWorship2 = buddhism_house_of_worship
+		HouseOfWorship3 = buddhism_house_of_worship
+		HouseOfWorshipPlural = buddhism_house_of_worship_plural
 		ReligiousSymbol = ZAROS_CREST_NAME
 		ReligiousSymbol2 = ZAROS_CREST_NAME
 		ReligiousSymbol3 = ZAROS_CREST_NAME
@@ -427,7 +427,7 @@ zaros_religion = {    #Zaros
 		ReligiousText2 = ZAROS_SCRIPTURES_NAME
 		ReligiousText3 = ZAROS_SCRIPTURES_NAME
 		ReligiousHeadName = ZAROS_HEAD_NAME
-		ReligiousHeadTitleName = christianity_religious_head_title_name
+		ReligiousHeadTitleName = ZAROS_HEAD_TITLE
 		DevoteeMale = christianity_devotee_male
 		DevoteeMalePlural = christianity_devotee_male_plural
 		DevoteeFemale = christianity_devotee_female

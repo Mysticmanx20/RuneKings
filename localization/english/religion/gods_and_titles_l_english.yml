@@ -115,6 +115,7 @@ l_english:
 	ZAROS_CREST_NAME:0 "Ancient Sigil"
 
  	ZAROS_HEAD_NAME:0 "Pontifex Maximus"
+	ZAROS_HEAD_TITLE:0 "Church of Zaros"
 
  	ZAROS_AFTERLIFE:0 "Erebus"
   	ZAROS_DIVINE:0 "the Shadow Realm"
