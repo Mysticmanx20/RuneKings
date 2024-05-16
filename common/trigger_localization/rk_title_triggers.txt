@@ -1,0 +1,4 @@
+﻿
+form_zaros_empire_trigger = {
+	first_not = FORM_ZAROS_EMPIRE_TITLE
+}

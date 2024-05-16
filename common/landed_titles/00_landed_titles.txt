@@ -129,9 +129,13 @@ e_zaros = {
 	definite_form = yes
 
 	can_create = {
-		OR = {
-			faith = { religion_tag = zaros_religion }
-			culture = { has_cultural_pillar = heritage_fren }
+		custom_description = {
+			text = form_zaros_empire_trigger
+
+			OR = {
+				faith = { religion_tag = zaros_religion }
+				culture = { has_cultural_pillar = heritage_fren }
+			}
 		}
 		
 	}
