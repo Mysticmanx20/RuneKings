@@ -1129,16 +1129,20 @@ e_zaros = {
 
 	k_forinthry = {
 		color = { 16 27 40 }
-	
 		capital = c_ferox
-	
-	
-		d_forinthry= {
-			color = { 40 50 85 }
-	
-			capital = c_ferox
-			
-			
+
+		cultural_names = {
+			name_list_mahjarrat = cn_forinthry
+		}
+
+		d_frozenwaste = {
+			color = { 165 205 213 }
+			capital = c_frozenwaste
+
+			cultural_names = {
+				name_list_mahjarrat = cn_ghor
+			}
+
 			c_frozenwaste = {
 				color = { 165 205 213 }
 
@@ -1154,7 +1158,181 @@ e_zaros = {
 					
 				}
 			}
+
+		}
+
+		d_dareeyak = {
+			color = { 67 105 234 }
+			capital = c_wwruins
+
+			cultural_names = {
+				name_list_mahjarrat = cn_dare
+			}
+
+			c_wwruins = {
+				color = { 67 105 234 }
+				
+				cultural_names = {
+					name_list_mahjarrat = cn_dare
+				}
 	
+				b_wwruins = {
+					province = 155
+	
+					color = { 67 105 234 }
+
+					cultural_names = {
+						name_list_mahjarrat = cn_dare
+					}
+					
+				}
+			}
+
+			c_fcem = {
+				color = { 162 112 169 }
+	
+				b_fcem = {
+					province = 156
+	
+					color = { 162 112 169 }
+				}
+			}
+
+			c_dwarr = {
+				color = { 255 0 195 }
+				
+	
+				b_dwarr = {
+					province = 144
+	
+					color = { 255 0 195 }
+					
+				}
+			}
+
+			c_wband = {
+				color = { 90 13 54 }
+				
+	
+				b_wband = {
+					province = 154
+	
+					color = { 90 13 54 }
+					
+				}
+			}
+
+		}
+
+		d_carallanger = {
+			color = {99 89 89 }
+			capital = c_gshadow
+
+			cultural_names = {
+				name_list_mahjarrat = cn_carl
+			}
+
+			c_gshadow = {
+				color = { 99 89 89 }
+
+				cultural_names = {
+					name_list_mahjarrat = cn_carl
+				}
+				
+				b_gshadow = {
+					province = 153
+					color = { 99 89 89 }
+
+					cultural_names = {
+						name_list_mahjarrat = cn_carl
+					}
+					
+				}
+			}
+
+			c_ferox = {
+				color = { 44 0 0 }
+				
+	
+				b_ferox = {
+					province = 145
+	
+					color = { 44 0 0 }
+					
+				}
+			}
+
+			c_wruins = {
+				color = { 117 166 0 }
+				
+	
+				b_wruins = {
+					province = 152
+	
+					color = { 117 166 0 }
+					
+				}
+			}
+
+		}
+
+		d_annak = {
+			color = { 155 216 0 }
+			capital = c_highwild
+
+			cultural_names = {
+				name_list_mahjarrat = cn_anna
+			}
+
+			c_bears = {
+				color = { 155 216 0 }
+				
+				cultural_names = {
+					name_list_mahjarrat = cn_anna
+				}
+	
+				b_bears = {
+					province = 148
+					color = { 155 216 0 }
+
+					cultural_names = {
+						name_list_mahjarrat = cn_anna
+					}
+					
+				}
+			}
+
+			c_frune = {
+				color = { 48 48 48 }
+				
+	
+				b_frune = {
+					province = 149
+	
+					color = { 48 48 48}
+					
+				}
+			}
+
+			c_byard = {
+				color = { 117 166 173 }
+				
+	
+				b_byard = {
+					province = 147
+	
+					color = { 117 166 173 }
+					
+				}
+			}
+
+		}
+
+		d_wildcoast = {
+			color = { 16 27 40 }
+			capital = c_highwild
+
+
 			c_highwild = {
 				color = {16 27 40 }
 	
@@ -1163,6 +1341,40 @@ e_zaros = {
 					province = 150
 				}
 			}
+		}
+
+		d_lavamaze = {
+			color = { 255 180 0}
+			capital = c_lmaze
+
+			c_lmaze = {
+				color = { 255 180 0 }
+	
+				b_lmaze = {
+					province = 157
+	
+					color = { 255 180 0 }
+				}
+			}
+
+			c_ldrag = {
+				color = { 255 0 0 }
+				
+	
+				b_ldrag = {
+					province = 151
+	
+					color = { 255 0 0 }
+				}
+			}
+
+		}
+	
+	
+		d_forinthry= {
+			color = { 40 50 85 }
+			capital = c_wcaltar
+			
 	
 			c_wwild = {
 				color = { 102 125 86 }
@@ -1187,129 +1399,6 @@ e_zaros = {
 				}
 			}
 			
-			c_ferox = {
-				color = { 44 0 0 }
-				
-	
-				b_ferox = {
-					province = 145
-	
-					color = { 44 0 0 }
-					
-				}
-			}
-			
-			
-			c_dwarr = {
-				color = { 255 0 195 }
-				
-	
-				b_dwarr = {
-					province = 144
-	
-					color = { 255 0 195 }
-					
-				}
-			}
-			
-			
-			c_wruins = {
-				color = { 117 166 0 }
-				
-	
-				b_wruins = {
-					province = 152
-	
-					color = { 117 166 0 }
-					
-				}
-			}
-			
-			c_gshadow = {
-				color = { 99 89 89 }
-
-				cultural_names = {
-					name_list_mahjarrat = cn_carl
-				}
-				
-				b_gshadow = {
-					province = 153
-	
-					color = { 99 89 89 }
-					
-				}
-			}
-			
-			c_wband = {
-				color = { 90 13 54 }
-				
-	
-				b_wband = {
-					province = 154
-	
-					color = { 90 13 54 }
-					
-				}
-			}
-			
-			c_byard = {
-				color = { 117 166 173 }
-				
-	
-				b_byard = {
-					province = 147
-	
-					color = { 117 166 173 }
-					
-				}
-			}
-			
-			c_wwruins = {
-				color = { 67 105 234 }
-				
-	
-				b_wwruins = {
-					province = 155
-	
-					color = { 67 105 234 }
-					
-				}
-			}
-			
-			c_frune = {
-				color = { 48 48 48 }
-				
-	
-				b_frune = {
-					province = 149
-	
-					color = { 48 48 48}
-					
-				}
-			}
-			
-			c_bears = {
-				color = { 155 216 0 }
-				
-	
-				b_bears = {
-					province = 148
-	
-					color = { 155 216 0 }
-					
-				}
-			}
-			
-			c_ldrag = {
-				color = { 255 0 0 }
-				
-	
-				b_ldrag = {
-					province = 151
-	
-					color = { 255 0 0 }
-				}
-			}
 			
 			c_wcaltar = {
 				color = { 40 50 85 }
@@ -1323,25 +1412,6 @@ e_zaros = {
 				}
 			}
 			
-			c_lmaze = {
-				color = { 255 180 0 }
-	
-				b_lmaze = {
-					province = 157
-	
-					color = { 255 180 0 }
-				}
-			}
-			
-			c_fcem = {
-				color = { 162 112 169 }
-	
-				b_fcem = {
-					province = 156
-	
-					color = { 162 112 169 }
-				}
-			}
 			
 		}
 		
