@@ -240,7 +240,7 @@ zam_religion = {    #Zamorak
 zaros_religion = {    #Zaros 
 	family = rf_transcendent
 
-	doctrine = major_hostility_doctrine
+	doctrine = zaros_hostility_doctrine
 
 
 	#Main Group
