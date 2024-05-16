@@ -127,6 +127,14 @@ e_zeah = {
 
 e_zaros = { 
 	definite_form = yes
+
+	can_create = {
+		OR = {
+			faith = { religion_tag = zaros_religion }
+			culture = { has_cultural_pillar = heritage_fren }
+		}
+		
+	}
    
     k_misthalin = {
         color = { 170 175 10 }
