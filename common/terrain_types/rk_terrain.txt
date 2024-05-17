@@ -1,0 +1,19 @@
+﻿
+wasteland = {
+	color = { 220 45 120 }
+	travel_danger_color = hsv { 0.16 0.7 0.8 }
+	travel_danger_score = 75
+	
+	province_modifier = {
+		supply_limit_mult = -0.3
+		travel_danger = 75
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.05
+	}
+
+	movement_speed = 0.8
+	
+	audio_parameter = 1.0
+}
