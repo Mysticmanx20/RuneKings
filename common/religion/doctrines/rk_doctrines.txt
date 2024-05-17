@@ -36,9 +36,21 @@
 			hostility_same_family = 2
 			hostility_others = 2
 			
+			hostility_override_godless_hostility_doctrine = 1
+			hostility_override_v_hostility_doctrine = 1
 			
 			#Pure evil religions
 			hostility_override_zam_hostility_doctrine = 3
+			
+		}
+	}
+	godless_hostility_doctrine = {
+		visible = no
+		parameters = {
+			hostility_same_religion = 1
+			hostility_same_family = 1
+			hostility_others = 2
+			
 			
 		}
 	}
