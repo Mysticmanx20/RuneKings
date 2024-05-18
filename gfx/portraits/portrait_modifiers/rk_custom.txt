@@ -300,7 +300,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 110
+                add = 120
                 exists = this
                 is_adult = yes
                 portrait_religious_catholic_trigger = yes
