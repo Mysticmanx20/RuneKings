@@ -413,3 +413,9 @@
 	name = "dynn_barrows"
 	culture = ghost
 }
+
+100981 = {
+	prefix = "dynnp_of"
+	name = "dynn_mahjarrat"
+	culture = mahjarrat
+}

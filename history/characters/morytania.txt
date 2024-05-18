@@ -764,6 +764,7 @@ mort020 = {
 
 mort021 = {
 	name = "Sliske"
+	dynasty = 100981
 	culture = mahjarrat
 	religion = zaros
 	trait = deceitful

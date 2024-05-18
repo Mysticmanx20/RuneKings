@@ -830,6 +830,7 @@ kand064 = {
 
 kand065 = {
 	name = "Khazard"
+	dynasty = 100981
 	religion = zamorak
 	culture = mahjarrat 
 	trait = wrathful

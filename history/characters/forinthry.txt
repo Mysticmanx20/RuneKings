@@ -322,6 +322,7 @@ wild028 = {
 
 wild029 = {
 	name = "Zemouregal"
+	dynasty = 100981
 	religion = zamorak
 	culture = mahjarrat
 	trait = wrathful
@@ -337,6 +338,7 @@ wild029 = {
 
 wild030 = {
 	name = "Jhallan"
+	dynasty = 100981
 	religion = zaros
 	culture = mahjarrat
 	trait = content

@@ -1163,6 +1163,7 @@
 
 900175 = {
     name = "Lucien"
+	dynasty = 100981
     culture = mahjarrat
     religion = zamorak
 	trait = arrogant
@@ -1175,6 +1176,7 @@
 
 900176 = {
     name = "Moia"
+	dynasty = 100981
     female = yes
     father = 900175
 	trait = deceitful
