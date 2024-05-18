@@ -31,7 +31,7 @@
 
 180 = { #SeersVil
 	religion = saradomin
-	culture = kandarin
+	culture = seer
 	holding = castle_holding
 }
 

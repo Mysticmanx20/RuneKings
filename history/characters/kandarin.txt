@@ -2,7 +2,7 @@
 kand001 = {
 	name = "Phantuwti"
 	#dynasty Farsight
-	culture = kandarin
+	culture = seer
 	religion = saradomin
 	trait = calm
 	trait = humble

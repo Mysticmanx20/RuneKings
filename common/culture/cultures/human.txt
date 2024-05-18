@@ -109,6 +109,32 @@ kandarin = {  #kandarin
 	}
 }
 
+seer = {  #seers
+	color = { 0.5 1.0 0.83 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_fp3_beacon_of_learning
+		tradition_legalistic
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
 khazard = {  
 	color = { 0.55 0.57 0.67 }
 	
