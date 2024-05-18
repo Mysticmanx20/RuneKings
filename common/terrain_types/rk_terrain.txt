@@ -1,6 +1,6 @@
 ﻿
 wasteland = {
-	color = { 220 45 120 }
+	color = { 16 27 40 }
 	travel_danger_color = hsv { 0.16 0.7 0.8 }
 	travel_danger_score = 75
 	
