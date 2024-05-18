@@ -2117,6 +2117,7 @@ misth006 = {
 misth007 = {
 	name = "Unaia"
 	dynasty_house = house_blue
+	female = yes
 	culture = misthalin
 	religion = saradomin
 	trait = education_learning_4
@@ -2124,7 +2125,9 @@ misth007 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2138,7 +2141,9 @@ misth008 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2166,7 +2171,9 @@ misth010 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2180,7 +2187,9 @@ misth011 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2194,7 +2203,9 @@ misth012 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2208,7 +2219,9 @@ misth013 = {
 		birth = yes
 	}
 	9070.1.1 = {
-		death = yes
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -2411,6 +2424,24 @@ misth026 = {
 	9168.1.1 = {
 		employer = 900115
 		create_betrothal = character:misth025
+	}
+}
+
+misth027 = {
+	name = "Ariane"
+	female = yes
+	culture = kandarin #seer
+	religion = godless
+	trait = diligent
+	trait = just
+	trait = ambitious
+	trait = intellect_good_1
+	trait = education_learning_3
+	9144.1.1 = {
+		birth = yes
+	}
+	9164.1.1 ={
+		employer = misth015
 	}
 }
 
