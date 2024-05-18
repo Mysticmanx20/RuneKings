@@ -2594,6 +2594,7 @@ special_genes = {
 				}
 				female = {
 					1 = female_wizard_robes_01
+					1 = female_archmage_robes_01
 				}
 				boy = male
 				girl = female
