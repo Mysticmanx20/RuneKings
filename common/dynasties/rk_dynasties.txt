@@ -419,3 +419,23 @@
 	name = "dynn_mahjarrat"
 	culture = mahjarrat
 }
+
+100982 = {
+	name = "dynn_Lefaye"
+	culture = briton
+}
+
+100983 = {
+	name = "dynn_Pendragon"
+	culture = briton
+}
+
+100984 = {
+	name = "dynn_Sinclair"
+	culture = kandarin
+}
+
+100985 = {
+	name = "dynn_Farsight"
+	culture = seer
+}

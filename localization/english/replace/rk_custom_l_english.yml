@@ -237,6 +237,10 @@
  dynn_Leucurte:0 "Leucurte"
  dynn_barrows:0 "the Barrows"
  dynn_mahjarrat:0 "the Mahjarrat"
+ dynn_Lefaye:0 "Le Faye"
+ dynn_Pendragon:0 "Pendragon"
+ dynn_Sinclair:0 "Sinclair"
+ dynn_Farsight:0 "Farsight"
 
 
 ###Dwarf
@@ -944,6 +948,9 @@
  khazard:0 "Khazard"
  khazard_prefix:0 "Khazard"
  khazard_collective_noun:0 "Khazard"
+ briton:0 "Briton"
+ briton_prefix:0 "Briton"
+ briton_collective_noun:0 "Britons"
  mahjarrat:0 "Mahjarrat"
  mahjarrat_prefix:0 "Mahjarrat"
  mahjarrat_collective_noun:0 "Mahjarrat"

@@ -175,6 +175,14 @@ on_game_start_after_lobby = {
 			}
 		}
 
+		culture:briton = {
+			change_cultural_acceptance = {
+				target = culture:kandarin
+				value = 25
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
 		culture:fremennik = {
 			change_cultural_acceptance = {
 				target = culture:moonclan

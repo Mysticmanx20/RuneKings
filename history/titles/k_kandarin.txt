@@ -39,7 +39,7 @@ c_westwolf = {
 
 
 c_camelot = {
-	9127.1.1 ={
+	9125.1.1 ={
 		liege = 0
 		holder = kand005
 	}

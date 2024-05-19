@@ -1,7 +1,7 @@
 ﻿
 kand001 = {
 	name = "Phantuwti"
-	#dynasty Farsight
+	dynasty = 100985
 	culture = seer
 	religion = saradomin
 	trait = calm
@@ -18,8 +18,9 @@ kand001 = {
 
 kand004 = {
 	name = "Arthur"
+	dynasty = 100983
 	religion = saradomin
-	culture = welsh
+	culture = briton
 	trait = just
 	trait = brave
 	trait = patient
@@ -32,27 +33,35 @@ kand004 = {
 
 kand005 = {
 	name = "Sinclair"
-	#dynasty Sinclair
+	dynasty = 100984
 	religion = saradomin
 	culture = kandarin
 	trait = generous
-	9127.1.1 = {
+	9115.1.1 = {
 		birth = yes
 	}
 }
 
 kand006 = {
 	name = "Morgan"
-	#dynasty Le Faye
+	dynasty = 100982
 	female = yes
 	religion = zamorak
-	culture = welsh
+	culture = briton
 	trait = deceitful
 	trait = stubborn
 	trait = vengeful
 	trait = education_intrigue_1
 	9132.1.1 = {
 		birth = yes
+	}
+	9168.1.1 = {
+		effect = {
+			imprison = {
+				target = character:kand093
+				type = house_arrest
+			}
+		}
 	}
 }
 
@@ -1165,6 +1174,113 @@ kand092 = {
 		death = yes
 	}
 }
+
+kand093 = {
+	name = "Merlin"
+	religion = saradomin
+	culture = briton
+	trait = education_learning_4
+	9119.1.1 = {
+		birth = yes
+	}
+	9132.1.1 = {
+		employer = kand004
+	}
+
+}
+
+kand094 = {
+	name = "Anna"
+	female = yes
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	trait = greedy
+	trait = lustful
+	trait = vengeful
+	trait = lifestyle_gardener
+	trait = education_stewardship_1
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand095 = {
+	name = "David"
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand096 = {
+	name = "Bob"
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand097 = {
+	name = "Carol"
+	female = yes
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand098 = {
+	name = "Elizabeth"
+	female = yes
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand099 = {
+	name = "Frank"
+	father = kand005
+	dynasty = 100984
+	religion = saradomin
+	culture = kandarin
+	9126.1.1 = {
+		birth = yes
+	}
+
+}
+
+kand100 = {
+	name = "Mordred"
+	mother = kand006
+	dynasty = 100982
+	religion = zamorak
+	culture = briton
+	9151.1.1 = {
+		birth = yes
+	}
+
+}
+
 
 
 
