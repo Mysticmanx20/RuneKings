@@ -439,3 +439,8 @@
 	name = "dynn_Farsight"
 	culture = seer
 }
+
+100986 = {
+	name = "dynn_dulac"
+	culture = briton
+}

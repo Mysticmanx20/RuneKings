@@ -1281,6 +1281,32 @@ kand100 = {
 
 }
 
+kand101 = {
+	name = "Viviane"
+	dynasty = 100986
+	female = yes
+	religion = saradomin
+	culture = briton
+	9140.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900373
+	}
+}
+
+kand102 = {
+	name = "Percival"
+	religion = saradomin
+	culture = briton
+	9142.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = kand004
+	}
+}
+
 
 
 

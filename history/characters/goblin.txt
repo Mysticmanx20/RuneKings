@@ -38,6 +38,14 @@ gob002 = {
 	}
 	9168.1.1 = {
 		add_realm_law = male_only_law
+		
+		effect = {
+			imprison = {
+				target = character:kand102
+				type = house_arrest
+			}
+		}
+
 	}
 }
 
