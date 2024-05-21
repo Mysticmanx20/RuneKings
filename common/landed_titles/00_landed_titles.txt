@@ -1916,10 +1916,32 @@ e_kandarin = {
 					province = 175
 				}
 
+				b_cathfish = {
+					color = { 148 156 185}
+					province = 476
+				}
+
+				b_cathfarm = {
+					color = {167 163 175}
+					province = 477
+				}
+
+			}
+
+			c_flax = {
+				color = { 255 216 60}
+
+				b_flax = {
+					color = { 240 216 66 }
+					province = 478
+				}
+				
 				b_bees = {
 					color = {255 216 60 }
 					province = 177
 				}
+
+
 			}
 
 			c_westwolf = {
@@ -1929,6 +1951,11 @@ e_kandarin = {
 					color = { 38 19 103}
 					province = 176
 				}
+
+				b_westwolfhills = {
+					color = { 38 36 103 }
+					province = 479
+				}
 			}
 
 			c_lefaye = {
@@ -1937,6 +1964,11 @@ e_kandarin = {
 				b_lefaye = {
 					color = {108 93 93}
 					province = 178
+				}
+
+				b_fayeforest = {
+					color = { 128 80 93}
+					province = 480
 				}
 			}
 		}

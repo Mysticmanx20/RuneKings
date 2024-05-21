@@ -436,3 +436,34 @@
 	culture = kandarin
 	holding = none
 }
+
+476 = { #Cathfish
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+477 = { #cathfarm
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+478 = { #Flaxfield
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+479 = { #West Wolf HIlls
+	religion = guthix
+	culture = dwarf
+	holding = none
+}
+
+480 = { #Faye Forest
+	religion = zamorak
+	culture = kandarin
+	holding = none
+}
+

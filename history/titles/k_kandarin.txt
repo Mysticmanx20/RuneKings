@@ -50,6 +50,14 @@ c_camelot = {
 	}
 }
 
+c_flax = {
+	9166.1.1 = {
+		liege = 0
+		holder = kand013
+		change_development_level = 4
+	}
+}
+
 c_sinclair = {
 	9132.1.1 = {
 		liege = 0
