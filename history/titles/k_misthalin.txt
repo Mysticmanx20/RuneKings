@@ -366,6 +366,16 @@ c_tutor = {
 	}
 }
 
+d_wizard = {
+	9028.1.1 = {
+		holder = misth007
+		liege = k_asgarnia
+	}
+	9070.10.16 = {
+		holder = 0
+	}
+}
+
 c_wizard = {
 	9070.1.1 = {
 		holder = misth006

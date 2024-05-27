@@ -269,5 +269,35 @@ frem021 = {
 	}
 }
 
+frem022 = {
+	name = "Viljar"
+	father = frem023
+	religion = v
+	culture = fremennik
+	trait = arrogant
+	trait = education_diplomacy_2
+	8968.1.1 = {
+		birth = yes
+	}
+	9042.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 900122
+		}
+	}
+}
+
+frem023 = {
+	name = "Olef"
+	religion = v
+	culture = fremennik
+	8948.1.1 = {
+		birth = yes
+	}
+	9005.1.1 = {
+		death = yes
+	}
+}
+
 
 

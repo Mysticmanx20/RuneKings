@@ -1307,6 +1307,21 @@ kand102 = {
 	}
 }
 
+kand103 = {
+	name = "Ozzikan"
+	dynasty = 100946
+	religion = guthix
+	culture = kandarin
+	learning = 10
+	trait = education_learning_3
+	3000.1.1 = {
+		birth = yes
+	}
+	3068.1.1 = {
+		death = yes
+	}
+}
+
 
 
 
