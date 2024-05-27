@@ -3918,6 +3918,7 @@ e_fremennik = {
 	k_fremennik = {
 		color = { 152 115 39}
 		capital = c_rellekka
+		definite_form = yes
 
 		d_rellekka = {
 			color = { 152 115 39 }

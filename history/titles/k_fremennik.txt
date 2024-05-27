@@ -2,6 +2,7 @@
 d_rellekka = {
 	9000.1.1 = {
 		holder = frem022
+		government = tribal_government
 	}
 	9042.1.1 = {
 		holder = 900122
@@ -71,6 +72,13 @@ c_lighthouse = {
 	9168.1.1 = {
 		holder = frem007
 		change_development_level = 8
+	}
+}
+
+c_waterb = {
+	9163.1.1 = {
+		holder = frem029
+		change_development_level = 1
 	}
 }
 

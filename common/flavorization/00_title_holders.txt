@@ -525,7 +525,56 @@ emperor_goblin = {
 	priority = 102
 	name_lists = { name_list_goblin }
 }
-
+duchy_frem_holder_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+duchy_frem_holder_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+empire_frem = {
+	type = title
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+duchy_frem = {
+	type = title
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+emperor_frem_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+emperor_frem_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
 
 
 

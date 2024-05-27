@@ -47,8 +47,13 @@
  abbey_male:0 "Abbot"
  abbey_female:0 "Abbess"
  vamp:0 "Lady"
+ duchy_frem:0 "Jarldom"
+ emperor_frem_male:0 "High King"
+ emperor_frem_female:0 "High Queen"
 
-
+ duchy_frem_holder_male:0 "Jarl"
+ duchy_frem_holder_female:0 "Jarl"
+ empire_frem:0 "High Kingdom"
  baron_clan_male_vamp:0 "Vyrelord"
  baron_clan_female_vamp:0 "Vyrelady"
  barony_clan_vamp:0 "Barony"

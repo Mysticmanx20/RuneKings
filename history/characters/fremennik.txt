@@ -116,10 +116,12 @@ frem008 = {
 		birth = yes
 	}
 	#imprisoned by daggermouths (Waterbirth?)
+	
 }
 
 frem009 = {
 	name = "Svidi"
+	dynasty = 8009
 	religion = oldfrem
 	culture = oldfremennik
 	trait = craven
@@ -376,8 +378,27 @@ frem028 = {
 		birth = yes
 	}
 	9121.1.1 = {
-		death = death_sea_storm
+		death = {
+			death_reason = death_sea_storm
+		}
 	}
 }
 
+frem029 = {
+	name = "Dagannoth Supreme"
+	religion = bandos #serpent?
+	culture = troll #dagannoth
+	trait = education_martial_4
+	9149.1.1 = {
+		birth = yes
+	}
+	9168.12.15 = { 
+		effect = {
+			imprison = {
+				target = character:frem008
+				type = dungeon
+			}
+		}
+	}
+}
 
