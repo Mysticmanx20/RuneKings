@@ -15,6 +15,7 @@ frem001 = {
 
 frem002 = {
 	name = "Thorodin"
+	dynasty = 8004
 	religion = v
 	culture = fremennik
 	trait = diligent
@@ -26,6 +27,7 @@ frem002 = {
 
 frem003 = {
 	name = "Hamal"
+	dynasty = 8009
 	religion = oldfrem
 	culture = oldfremennik
 	trait = humble
@@ -38,6 +40,7 @@ frem003 = {
 
 frem004 = {
 	name = "Asleif"
+	dynasty = 8009
 	female = yes
 	religion = oldfrem
 	culture = oldfremennik
@@ -89,6 +92,7 @@ frem006 = {
 
 frem007 = {
 	name = "Larrissa"
+	dynasty = 8005
 	female = yes
 	religion = armadyl
 	culture = fremennik
@@ -128,7 +132,8 @@ frem009 = {
 
 frem010 = {
 	name = "Olaf"
-	#dynasty Hradson
+	dynasty = 8003
+	father = frem027
 	religion = v
 	culture = fremennik
 	trait = deceitful
@@ -146,7 +151,6 @@ frem010 = {
 frem011 = {
 	name = "Ingrid"
 	female = yes
-	#dynasty Hradson
 	religion = v
 	culture = fremennik
 	9136.1.1 = {
@@ -156,7 +160,7 @@ frem011 = {
 
 frem012 = {
 	name = "Volf"
-	#dynasty Hradson
+	dynasty = 8003
 	religion = v
 	culture = fremennik
 	father = frem010
@@ -195,6 +199,7 @@ frem014 = {
 
 frem015 = {
 	name = "Connad"
+	dynasty = 8007
 	religion = v
 	culture = fremennik
 	trait = education_martial_2
@@ -249,6 +254,7 @@ frem019 = {
 
 frem020 = {
 	name = "Luna"
+	dynasty = 8001
 	female = yes
 	religion = guthix
 	culture = moonclan
@@ -271,6 +277,7 @@ frem021 = {
 
 frem022 = {
 	name = "Viljar"
+	dynasty = 100904
 	father = frem023
 	religion = v
 	culture = fremennik
@@ -289,6 +296,7 @@ frem022 = {
 
 frem023 = {
 	name = "Olef"
+	dynasty = 100904
 	religion = v
 	culture = fremennik
 	8948.1.1 = {
@@ -299,5 +307,77 @@ frem023 = {
 	}
 }
 
+frem024 = {
+	name = "Ott"
+	dynasty = 100904
+	religion = v
+	culture = fremennik
+	father = frem022
+	8994.1.1 = {
+		birth = yes
+	}
+	9041.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = frem022
+		}
+	}
+}
+
+frem025 = {
+	name = "Reigo"
+	dynasty = 100904
+	religion = v
+	culture = fremennik
+	father = frem022
+	8993.1.1 = {
+		birth = yes
+	}
+	9031.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+frem026 = {
+	name = "Orvar"
+	dynasty = 8000
+	religion = v
+	culture = fremennik
+	9012.1.1 = {
+		birth = yes
+	}
+	9080.1.1 = {
+		death = yes
+	}
+}
+
+frem027 = {
+	name = "Hrad"
+	dynasty = 8003
+	religion = v
+	culture = fremennik
+	father = frem028
+	9114.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+		death = yes
+	}
+}
+
+frem028 = {
+	name = "Sven"
+	dynasty = 8003
+	religion = v
+	culture = fremennik
+	9095.1.1 = {
+		birth = yes
+	}
+	9121.1.1 = {
+		death = death_sea_storm
+	}
+}
 
 

@@ -20,7 +20,8 @@
 }
 
 100904 = {
-	name = "dynn_Gunnar"
+	prefix = "dynnp_of"
+	name = "dynn_Fremwolf"
 	culture = fremennik
 }
 

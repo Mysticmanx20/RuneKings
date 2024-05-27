@@ -1,4 +1,17 @@
 
+d_rellekka = {
+	9000.1.1 = {
+		holder = frem022
+	}
+	9042.1.1 = {
+		holder = 900122
+	}
+	9062.1.1 = {
+		holder = 0
+	}
+}
+
+
 c_keldagrim = {
 	9168.1.1 = {
 		holder = dwarf001
@@ -14,6 +27,12 @@ c_goldtree = {
 }
 
 c_rellekka = {
+	9000.1.1 = {
+		holder = frem022
+	}
+	9042.1.1 = {
+		holder = 900122
+	}
 	9156.1.1 = {
 		holder = frem001
 		change_development_level = 12

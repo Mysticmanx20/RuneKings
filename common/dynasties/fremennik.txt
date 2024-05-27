@@ -1,0 +1,60 @@
+﻿
+8000 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremsalmon"
+	culture = fremennik
+}
+
+8001 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremmoon"
+	culture = moonclan
+}
+
+8002 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremox"
+	culture = fremennik
+}
+
+8003 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremseal"
+	culture = fremennik
+}
+
+8004 = {
+    prefix = "dynnp_of"
+	name = "dynn_Frembear"
+	culture = fremennik
+}
+
+8005 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremfalcon"
+	culture = fremennik
+}
+
+8006 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremmammoth"
+	culture = fremennik
+}
+
+8007 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremsturgeon"
+	culture = fremennik
+}
+
+8008 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremlarch"
+	culture = fremennik
+}
+
+8009 = {
+    prefix = "dynnp_of"
+	name = "dynn_Fremmount"
+	culture = oldfremennik
+}
