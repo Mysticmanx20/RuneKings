@@ -402,10 +402,10 @@
 	religion = v
 	father = 900122
 	mother = 900137
-	9072.1.1 = {
+	9032.1.1 = {
 		birth = yes
 	}
-	9090.1.1 = {
+	9048.1.1 = {
 		add_spouse = 900138
 	}
 	9143.1.1 = {
@@ -630,10 +630,10 @@
     religion = v
     culture = fremennik
 	father = frem026
-    9075.1.1 = {
+    9021.1.1 = {
         birth = yes
     }
-    9139.1.1 = {
+    9057.1.1 = {
         death = {
 			death_reason = death_murder_known
 			killer = 900122
