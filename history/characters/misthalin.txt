@@ -402,13 +402,13 @@
 	religion = v
 	father = 900122
 	mother = 900137
-	9032.1.1 = {
+	9018.1.1 = {
 		birth = yes
 	}
-	9048.1.1 = {
-		add_spouse = 900138
+	9033.1.1 = {
+		add_matrilineal_spouse = 900138
 	}
-	9143.1.1 = {
+	9082.1.1 = {
 		death = yes
 	}
 }
@@ -420,10 +420,10 @@
 	religion = v
 	martial = 20
 	father = frem022
-	8995.1.1 = {
+	8994.1.1 = {
 		birth = yes
 	}
-	9048.1.1 = {
+	9018.1.1 = {
 		add_spouse = 900137
 	}
 	9062.1.1 = {
@@ -613,11 +613,11 @@
     female = yes
     religion = v
     culture = fremennik
-    9033.1.1 = {
+    8996.1.1 = {
         birth = yes
     }
 	
-    9097.1.1 = {
+    9033.1.1 = {
         death = {
 			death_reason = death_ill
 		}
