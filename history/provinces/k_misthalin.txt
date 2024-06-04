@@ -201,6 +201,9 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
+	9000.1.1 = {
+		special_building = generic_university
+	}
 }
 
 62 = {    #VarChurch
@@ -349,6 +352,9 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
+	9000.1.1 = {
+		special_building = nishapur_mines_01
+	}
 }
 
 307= { #tolna

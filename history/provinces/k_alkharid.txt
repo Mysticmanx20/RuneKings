@@ -80,6 +80,9 @@
 	culture = kharidian
 	religion = menaph
 	holding = tribal_holding
+	9000.1.1 = {
+		special_building = ijil_mines_01
+	}
 }
 
 115 = {  #AncientP
@@ -236,7 +239,7 @@
 	culture = menaphite
 	religion = menaph
 	holding = castle_holding
-	9500.1.1 = {
+	9000.1.1 = {
 		special_building = generic_university
 	}
 }

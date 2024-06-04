@@ -45,6 +45,9 @@
 	religion = v
 	culture = fremennik
 	holding = tribal_holding
+	9000.1.1 = { 
+		special_building = tower_of_hercules_01
+	}
 }
 
 192 = {  #trollweiss
@@ -57,8 +60,10 @@
 	religion = guthix
 	culture = dwarf
 	holding = castle_holding
-	9500.1.1 = {
+	900.1.1 = {
 		special_building = generic_university
+		#special_building = khetri_mines_01
+	
 	}
 	9169.1.1 = {
 		buildings = {

@@ -38,6 +38,9 @@
 	religion = guthix
 	culture = dwarf
 	holding = castle_holding
+	9168.1.1 = {
+		special_building = ratnapura_mines_01
+	}
 	9169.1.1 = {
 		buildings = {
 			quarries_02

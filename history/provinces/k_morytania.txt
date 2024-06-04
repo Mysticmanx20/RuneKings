@@ -122,6 +122,9 @@
 	culture = vampyre
 	religion = zamorak
 	holding = tribal_holding
+	9000.1.1 = {
+		special_building = sar_i_sang_mines_01 #haunted mine
+	}
 }
 
 94 = {  
