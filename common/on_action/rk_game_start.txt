@@ -293,6 +293,7 @@ wizards = {
 				OR = {
 					has_primary_title = title:c_wizard
 					has_primary_title = title:d_wizard
+					has_primary_title = title:c_magetrain
 				}
 			}
 			every_courtier = {
