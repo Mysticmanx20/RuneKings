@@ -445,3 +445,8 @@
 	name = "dynn_dulac"
 	culture = briton
 }
+
+100987 = {
+	name = "dynn_Ramessid"
+	culture = menaphite
+}
