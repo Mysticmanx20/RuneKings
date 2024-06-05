@@ -267,6 +267,7 @@
 
 900818 = {
 	name = "Kemesis"
+	dynasty = 100987
 	trait = possessed_1
 	trait = wrathful
 	trait = greedy
