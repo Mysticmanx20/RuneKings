@@ -23,6 +23,7 @@
 
 900802 = {
 	name = "Shug"
+	dynasty_house = house_blue
 	religion = saradomin
 	culture = misthalin
 	9101.1.1 = {
