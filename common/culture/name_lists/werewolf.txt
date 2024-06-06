@@ -214,6 +214,7 @@
 	mother_name_chance = 0
 
 	mercenary_names = {
-        { name = "mercenary_company_sheperds_of_the_romans" }
+        { name = "mercenary_company_wolfpack" }
+	{ name = "mercenary_company_werewolves" }
     }
 }
