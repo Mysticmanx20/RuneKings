@@ -94,7 +94,7 @@ name_list_english = {
 	
 
 	mercenary_names = {
-		{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
-		{ name = "mercenary_company_hawkwoods_band" }
+		{ name = "mercenary_company_britons" }
+		{ name = "mercenary_company_renegades" }
 	}
 }
