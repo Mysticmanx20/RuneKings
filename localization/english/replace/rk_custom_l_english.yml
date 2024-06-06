@@ -67,7 +67,15 @@
  holy_order_monhun:0 "Monster Hunters"
  holy_order_exterminate:0 "Holy Exterminators"
  holy_order_purify:0 "H.A.M. Purifiers"
- 
+
+ mercenary_company_britons:0 "Briton Mercenaries"
+ mercenary_company_renegades:0 "Renegade Knights"
+ mercenary_company_vyrewatch:0 "Vyrewatch"
+ mercenary_company_vyrewatch_article:0 "the "
+ mercenary_company_vyresent:0 "Vyrewatch Sentinels"
+ mercenary_company_juvy:0 "Vampyre Juvinates of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_wolfpack:0 "Wolfpack of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_werewolves:0 "Werewolf Warriors"
  mercenary_company_varrock_guard:0 "Varrock Guard"
  mercenary_company_varrock_guard_article:0 "the "
  mercenary_company_wizards:0 "Wizards of [TITLE.GetNameNoTierNoTooltip]"
