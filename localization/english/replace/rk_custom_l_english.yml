@@ -68,6 +68,10 @@
  holy_order_exterminate:0 "Holy Exterminators"
  holy_order_purify:0 "H.A.M. Purifiers"
 
+ mercenary_company_ogres:0 "Ogre Skulltakers"
+ mercenary_company_chompy:0 "Big Chompy Bird Hunters"
+ mercenary_company_lightbring:0 "Lightbringers"
+ mercenary_company_everlight:0 "Everlight Champions"
  mercenary_company_britons:0 "Briton Mercenaries"
  mercenary_company_renegades:0 "Renegade Knights"
  mercenary_company_vyrewatch:0 "Vyrewatch"
