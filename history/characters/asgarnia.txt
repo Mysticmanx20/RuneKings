@@ -573,7 +573,7 @@
         birth = yes
     }
     9164.12.21 = {
-        employer = 900360
+        employer = 900303
     }
     9164.12.21 = {
         give_council_position = councillor_court_chaplain
@@ -588,7 +588,7 @@
         birth = yes
     }
     9164.12.21 = {
-        employer = 900360
+        employer = 900303
     }
 }
 
@@ -602,7 +602,7 @@
         birth = yes
     }
     9164.12.21 = {
-        employer = 900360
+        employer = 900303
     }
     9164.12.21 = {
         give_council_position = councillor_spymaster
@@ -624,6 +624,10 @@
     trait = education_intrigue_1
     9135.1.1 = {
         birth = yes
+    }
+    9164.12.21 = {
+        employer = 900303
+        give_council_position = councillor_marshal
     }
     
     11626.6.15 = {

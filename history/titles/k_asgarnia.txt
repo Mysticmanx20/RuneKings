@@ -119,7 +119,7 @@ c_blkfort = {
 		holder = 900380 #Sulla
 	}
 	9164.12.21 = {
-		holder = 900360
+		holder = 900303
 		change_development_level = 8
 	}
 	
@@ -349,8 +349,8 @@ c_deathpla = {
 }
 
 b_blkfortlow = {
-	9004.1.1 = {
-		holder = 900377
+	9164.12.21 = {
+		holder = 900303
 	}
 }
 

@@ -368,11 +368,15 @@ start_whiteknights = {
 				LEADER = character:asgarn023
 				CAPITAL = title:b_blkfortlow
 				NEW_HO_SCOPE = new_holy_order_2
-				FOUNDER = character:900377
+				FOUNDER = character:900303
 			}
 
 			scope:new_holy_order = {
                 copy_title_history = title:d_whiteknights
+            }
+
+			scope:new_holy_order = {
+                copy_title_history = title:c_blackknights
             }
 			
 		}

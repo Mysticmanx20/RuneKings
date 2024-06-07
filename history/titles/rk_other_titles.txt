@@ -28,6 +28,13 @@ d_whiteknights = {
 	}
 }
 
+c_blackknights = {
+	9004.1.1 = {
+		liege = d_kinshra
+		holder = 900377
+	}
+}
+
 e_vamp = {
 	9143.1.1 = {
 		holder = vamp001
