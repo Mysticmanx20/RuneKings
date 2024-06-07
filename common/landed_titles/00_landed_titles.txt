@@ -940,6 +940,16 @@ e_zaros = {
 					color = { 43 36 0 }
 					province = 33
 				}
+
+				b_blkfortup = {
+					color = { 73 62 0}
+					province = 481
+				}
+
+				b_blkfortlow = {
+					color = { 58 50 0}
+					province = 482
+				}
 			}
 
 			c_edgemon = {

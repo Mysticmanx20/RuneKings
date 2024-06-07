@@ -481,3 +481,5 @@ default_coastal_sea=coastal_sea
 478=plains
 479=hills
 480=forest
+481=mountains
+482=mountains

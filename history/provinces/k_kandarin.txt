@@ -99,6 +99,7 @@
 	religion = bandos
 	culture = goblin
 	holding = tribal_holding
+	special_building = holy_site_pagan_grand_temple_01
 }
 
 203 = { #ardyFarm

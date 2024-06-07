@@ -3,6 +3,7 @@
 	religion = saradomin
 	culture = asgarnia
 	holding = church_holding
+	special_building = holy_site_cathedral_01
 }
 
 28 = {  #Fally
@@ -309,4 +310,16 @@
 			war_camps_01
 		}
 	}
+}
+
+481 = {  #Iceoverlook
+	religion = zamorak
+	culture = asgarnia
+	holding = none
+}
+
+482 = {  #Kinshra Hills
+	religion = zamorak
+	culture = asgarnia
+	holding = castle_holding
 }

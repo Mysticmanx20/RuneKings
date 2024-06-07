@@ -27,14 +27,12 @@ citharade = {
 	flag = cordoba_conversion_bonus # +20% county conversion speed
 }
 
-saranthium = {
-	county = c_digsite
-	barony = b_digsite
+paterdomus = {
+	county = c_silvarea
 	
 	character_modifier = {
-		name = holy_site_saranthium_effect_name
-		cultural_head_fascination_mult = 0.05
-		monthly_county_control_growth_factor = 0.05
+		name = holy_site_esztergom_effect_name
+		county_opinion_add = 10
 	}
 }
 
@@ -192,6 +190,7 @@ warforge = {
 
 dorgshun = {
 	county = c_lumswamp
+	barony = b_eastlumswamp
 
 	character_modifier = {
 		name = holy_site_cologne_effect_name

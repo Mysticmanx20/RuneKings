@@ -1507,7 +1507,7 @@ sara_religion = {
 			holy_site = entrana
 			holy_site = falador
 			holy_site = citharade
-			holy_site = saranthium
+			holy_site = paterdomus
 			
 
 			#Tenets
@@ -1525,7 +1525,7 @@ sara_religion = {
 			holy_site = entrana
 			holy_site = falador
 			holy_site = citharade
-			holy_site = saranthium
+			holy_site = paterdomus
 			holy_site = ham
 
 			doctrine = doctrine_theocracy_temporal              #because they occupy monster caves?

@@ -824,9 +824,13 @@
 900377 = {
     name = "Sanafin"
     #dynasty Valzin
+    female = yes
     culture = misthalin
     religion = zamorak
     trait = generous
+    trait = deceitful
+    trait = brave
+    trait = education_martial_5
     8969.6.29 = {
         birth = yes
     }
@@ -1264,3 +1268,14 @@ asgarn022 = {
     }
 }
 
+asgarn023 = {
+    name = "Blacklock"
+    religion = zamorak
+    culture = asgarnia
+    trait = wrathful
+    trait = education_martial_3
+    9135.1.1 = {
+        birth = yes
+    }
+    
+}

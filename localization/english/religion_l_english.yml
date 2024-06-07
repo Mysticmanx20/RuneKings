@@ -15,7 +15,7 @@ holy_site_citharade_effect_name:0 "From [holy_site|E] #weak ($holy_site_citharad
 holy_site_citharade_effects:0 "County Conversion Speed: #P +20%#!"
 
 
-holy_site_saranthium_name:0 "Saranthium"
+holy_site_saranthium_name:0 "Paterdomus"
 holy_site_saranthium_effect_name:0 "From [holy_site|E] #weak ($holy_site_saranthium_name$)#!"
 
 holy_site_senntisten_name:0 "Senntisten Temple"

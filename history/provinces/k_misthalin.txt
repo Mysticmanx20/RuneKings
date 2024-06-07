@@ -79,6 +79,7 @@
 	religion = saradomin
 	culture = misthalin
 	holding = castle_holding
+	special_building = holy_site_cathedral_01
 }
 
 14 = {    #Edge
