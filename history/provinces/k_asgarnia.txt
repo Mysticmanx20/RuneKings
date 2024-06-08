@@ -130,7 +130,7 @@
 65 = { #North Fal
 	religion = saradomin
 	culture = asgarnia
-	holding = castle_holding
+	holding = city_holding
 }
 
 66 = { #Party Room

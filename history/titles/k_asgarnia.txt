@@ -88,9 +88,13 @@ b_partyroom = {
 	}
 }
 
-b_northfal = {
+c_faladornorth = {
+	9000.1.1 = {
+		liege = k_asgarnia
+	}
 	9138.1.1 = {
 		holder = 900325
+		change_development_level = 15
 	}
 }
 

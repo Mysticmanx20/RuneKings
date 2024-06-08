@@ -45,6 +45,7 @@ zam_religion = {    #Zamorak
 	}
 
 	holy_order_names = {
+		{ name = "holy_order_kinshra" }
 		{ name = "holy_order_guardians_of_divinerealm" }
 		{ name = "holy_order_faithful_of_highgod" }
 		{ name = "holy_order_warriors_of_the_symbol" }
@@ -1326,8 +1327,8 @@ sara_religion = {
 	}
 
 	holy_order_names = { 
-		{ name = "holy_order_temple_knights" }
 		{ name = "holy_order_white_knights" }
+		{ name = "holy_order_temple_knights" }
 		{ name = "holy_order_paladins" }
 		{ name = "holy_order_warriors_of_the_symbol" }
 	}

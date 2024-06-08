@@ -1,0 +1,106 @@
+﻿namespace = wc_holy_order
+
+# White Knights history
+wc_holy_order.10 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		game_start_date >= 9000.1.1
+	}
+
+	immediate = {
+		title:c_faladorwest = { save_scope_as = county }
+		if = {
+			limit = { exists = title:k_asgarnia.holder }
+			title:k_asgarnia.holder = { save_temporary_scope_as = sponsor }
+		}
+		else = {
+			scope:county.holder = { save_temporary_scope_as = sponsor }
+		}
+		
+		if = {
+			limit = { game_start_date >= 9160.1.1 }
+			character:900305 = { save_scope_as = leader }	# Sir Amik Varze
+		}
+		else = {
+			character:asgarn014 = { save_scope_as = leader }	# Sir Perior
+		}
+		
+		scope:leader = {
+			create_historical_holy_order_effect = { SPONSOR = scope:sponsor COUNTY = scope:county ORDER = d_whiteknights }
+			#historical_lease_out_effect = { COUNTY = title:c_whispering_gardens ORDER = scope:new_holy_order }
+			
+		}
+	}
+}
+
+# Black Knights history
+wc_holy_order.11 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		game_start_date >= 9000.1.1
+	}
+
+	immediate = {
+		title:c_blkfort = { save_scope_as = county }
+		if = {
+			limit = { exists = title:d_kinshra.holder }
+			title:d_kinshra.holder = { save_temporary_scope_as = sponsor }
+		}
+		else = {
+			scope:county.holder = { save_temporary_scope_as = sponsor }
+		}
+		
+		if = {
+			limit = { game_start_date >= 9160.1.1 }
+			character:asgarn023 = { save_scope_as = leader }	# Blacklock
+		}
+		else = {
+			character:asgarn014 = { save_scope_as = leader }	# Sir Perior
+		}
+		
+		scope:leader = {
+			create_historical_holy_order_effect = { SPONSOR = scope:sponsor COUNTY = scope:county ORDER = d_kinshra }
+			#historical_lease_out_effect = { COUNTY = title:c_whispering_gardens ORDER = scope:new_holy_order }
+			
+		}
+	}
+}
+
+#add Sir to white knights
+wc_holy_order.12 = {
+	
+	hidden = yes
+
+	trigger = {
+		scope:new_employer = {
+			AND = {
+				government_has_flag = government_is_holy_order
+				has_title = b_whiteknight
+			}
+		}
+	}
+
+	immediate = {
+		every_courtier = {
+			limit = { 
+				is_female = no
+				has_faith = faith:saradomin
+			}
+			give_nickname = nick_sir
+
+		}
+		every_courtier = {
+			limit = {
+				is_female = yes
+				has_faith = faith:saradomin
+			}
+			give_nickname = nick_lady
+		}
+		
+	}
+
+}

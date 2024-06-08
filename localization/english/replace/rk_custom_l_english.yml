@@ -52,8 +52,9 @@
  language_scabarite_name:0 "Scabarite"
 
  holy_order_temple_knights:0 "Temple Knights"
- holy_order_white_knights:0 "White Knights of Falador"
+ holy_order_white_knights:0 "White Knights"
  holy_order_paladins:0 "Paladins of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_kinshra:0 "Black Knights"
  holy_order_void:0 "Void Knights"
  holy_order_crux_eqal:0 "Crux Eqal"
  holy_order_guthix:0 "Guardians of Guthix"

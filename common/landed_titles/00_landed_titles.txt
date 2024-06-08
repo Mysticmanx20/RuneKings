@@ -728,15 +728,21 @@ e_zaros = {
 					province = 28
 				}
 
-				b_northfal = {
-					color = { 255 136 33 }
-					province = 65
-				}
 
 				b_southfal = {
 					color = { 173 200 0 }
 					province = 68
 				}
+			}
+
+			c_faladornorth = {
+				color = { 255 136 33}
+
+				b_northfal = {
+					color = { 255 136 33 }
+					province = 65
+				}
+
 			}
 
 			c_faladoreast = {
