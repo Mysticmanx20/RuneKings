@@ -375,7 +375,7 @@ start_whiteknights = {
                 copy_title_history = title:d_whiteknights
             }
 
-			scope:new_holy_order = {
+			scope:new_holy_order_2 = {
                 copy_title_history = title:c_blackknights
             }
 			

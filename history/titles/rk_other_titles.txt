@@ -21,19 +21,6 @@ d_kinshra = {
     }
 }
 
-d_whiteknights = {
-	9004.1.1 = {
-		liege = k_asgarnia
-		holder = asgarn014
-	}
-}
-
-c_blackknights = {
-	9004.1.1 = {
-		liege = d_kinshra
-		holder = 900377
-	}
-}
 
 e_vamp = {
 	9143.1.1 = {
