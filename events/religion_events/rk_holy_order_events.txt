@@ -79,7 +79,7 @@ wc_holy_order.12 = {
 		scope:new_employer = {
 			AND = {
 				government_has_flag = government_is_holy_order
-				has_title = b_whiteknight
+				has_title = title:b_whiteknight
 			}
 		}
 	}
