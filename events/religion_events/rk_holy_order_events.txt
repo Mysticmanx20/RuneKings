@@ -104,3 +104,38 @@ wc_holy_order.12 = {
 	}
 
 }
+
+# Void Knights history
+wc_holy_order.13 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		game_start_date >= 9000.1.1
+	}
+
+	immediate = {
+		title:c_voidout = { save_scope_as = county }
+		if = {
+			limit = { exists = title:c_voidout.holder }
+			title:c_voidout.holder = { save_temporary_scope_as = sponsor }
+		}
+		else = {
+			scope:county.holder = { save_temporary_scope_as = sponsor }
+		}
+		
+		if = {
+			limit = { game_start_date >= 9160.1.1 }
+			character:asgarn024 = { save_scope_as = leader }	# Dorel
+		}
+		else = {
+			character:asgarn014 = { save_scope_as = leader }	# Sir Perior
+		}
+		
+		scope:leader = {
+			create_historical_holy_order_effect = { SPONSOR = scope:sponsor COUNTY = scope:county ORDER = d_voidknights }
+			#historical_lease_out_effect = { COUNTY = title:c_whispering_gardens ORDER = scope:new_holy_order }
+			
+		}
+	}
+}

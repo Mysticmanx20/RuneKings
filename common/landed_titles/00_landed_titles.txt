@@ -3415,24 +3415,36 @@ e_karamja = {
 			c_voidout = {
 				color ={20 40 18}
 
+				b_voidnorth = {
+					color = { 20 45 18}
+					province = 483
+				}
+
 				b_voidout = {
 					color= {20 40 18}
 					province = 256
 				}
+
+				b_voidwest = {
+					color = {20 55 18 }
+					province = 484
+				}
+				
 			}
 
 			c_pestisle = {
 				color = { 25 69 35}
 
+				b_southpest = {
+					color = { 25 75 29}
+					province = 464
+				}
+				
 				b_pestnorth = {
 					color = { 25 69 35}
 					province = 463
 				}
 
-				b_southpest = {
-					color = { 25 75 29}
-					province = 464
-				}
 			}
 
 		}

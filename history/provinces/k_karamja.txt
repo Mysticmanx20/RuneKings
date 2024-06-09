@@ -206,3 +206,16 @@
 	holding = tribal_holding
 }
 
+483 = {
+	religion = guthix
+	culture = asgarnia
+	holding = castle_holding
+}
+
+484 = {
+	religion = guthix
+	culture = asgarnia
+	holding = none
+}
+
+

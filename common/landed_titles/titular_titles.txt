@@ -122,6 +122,12 @@ d_whiteknights = {
 	
 }
 
+d_voidknights = {
+	color = { 20 40 18 }
+
+	capital = c_voidout
+}
+
 d_ham = {
 	color={ 212 0 127 }
 	capital = c_lumpass

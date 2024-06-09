@@ -308,8 +308,9 @@ on_game_start_after_lobby = {
 	}
 
 	events = {
-		wc_holy_order.10
-		wc_holy_order.11
+		wc_holy_order.10  #White knights
+		wc_holy_order.11  #Black Knights
+		wc_holy_order.13  #Void knights
 	}
 	
 }

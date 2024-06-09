@@ -1280,3 +1280,17 @@ asgarn023 = {
     }
     
 }
+
+asgarn024 = {
+    name = "Dorel"
+    #dynasty Ellerian
+    religion = guthix
+    culture = asgarnia
+    trait = cynical
+    trait = brave
+    trait = ambitious
+    trait = education_martial_2
+    9135.1.1 = {
+        birth = yes
+    }
+}
