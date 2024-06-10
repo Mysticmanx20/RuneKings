@@ -201,8 +201,14 @@
 }
 
 463 = {
-	religion = marimbo
+	religion = zamorak
 	culture = monkey
+	holding = none
+}
+
+464 = {
+	religion = zamorak
+	culture = monkey  #pest/demon?
 	holding = tribal_holding
 }
 

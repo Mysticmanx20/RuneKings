@@ -1,1 +1,14 @@
 ﻿# RuneKings
+
+house_blue={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=orange
+	color3=yellow
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_ordinary_pile_inverted.dds"
+	}
+
+}
