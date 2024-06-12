@@ -1,0 +1,25 @@
+﻿
+namespace = court_maintenance
+
+court_maintenance.1005 = {
+	hidden = yes
+
+	trigger = {
+		scope:new_employer = {
+			government_has_flag = government_is_holy_order
+			has_faith = faith:saradomin
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { 
+				is_female = no
+			}
+			give_nickname = nick_sir
+		}
+		else = {
+			give_nickname = nick_lady
+		}
+	}
+}

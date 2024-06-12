@@ -65,6 +65,25 @@ on_title_gain = {
 			title:d_digsite = { set_title_name = cn_sent }
 				
 		}
+		if = {
+			limit = {
+				scope:title = title:k_marim
+			}
+			if = { 
+				limit = { 
+					NOR = {
+						has_faith = faith:marimbo
+						has_culture = culture:monkey
+					}
+				}
+				title:k_marim = { set_title_name = k_southsea }
+			}
+			
+			else = {
+				title:k_marim = { set_title_name = k_marim }
+			}
+				
+		}
 
 		if = {
 			limit = {
@@ -78,15 +97,6 @@ on_title_gain = {
 			remove_nickname = yes
 		}
 
-		
-		if = {
-			limit = {
-				scope:title = { is_holy_order = yes }
-				NOT = { has_trait = order_member }
-				government_has_flag = government_is_holy_order
-			}
-			add_trait = order_member
-		}
 
 		#Did I receive a title from my sibling?
 		if = {

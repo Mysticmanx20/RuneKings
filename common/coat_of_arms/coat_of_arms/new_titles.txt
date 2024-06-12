@@ -1636,14 +1636,19 @@ c_gut={
 		texture="ce_block_03.dds"
 		instance={
 			position={ 0.500000 0.360000 }
-			scale={ 0.650000 0.430000 }
+			scale={ 0.570000 0.450000 }
 		}
 
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_mena_fess.dds"
 		instance={
 			position={ 0.510000 0.670000 }
-			scale={ 0.450000 0.220000 }
+			scale={ 0.410000 0.260000 }
 			depth=3.010000
-			rotation=157
+			rotation=158
 		}
 
 	}
@@ -1653,7 +1658,7 @@ c_gut={
 		texture="ce_religion_christianity_generic.dds"
 		instance={
 			position={ 0.500000 0.460000 }
-			scale={ 0.880000 1.000000 }
+			scale={ 0.930000 0.970000 }
 			depth=1.010000
 		}
 
@@ -1672,6 +1677,7 @@ c_gut={
 	}
 
 }
+
 
 
 c_portkhaz={
