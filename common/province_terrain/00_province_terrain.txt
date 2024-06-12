@@ -485,3 +485,4 @@ default_coastal_sea=coastal_sea
 482=mountains
 483=floodplains
 484=jungle
+485=sea

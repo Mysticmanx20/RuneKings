@@ -27,6 +27,8 @@ sea_zones = LIST { 386 }
 
 sea_zones = RANGE { 402 415 } #Lunar Sea
 
+sea_zones = LIST { 485 }  #Western Sea
+
 ###############
 # MAJOR RIVERS
 ###############
