@@ -375,60 +375,43 @@ martial_strategy.2000 = {
 	desc = {
 		desc = martial_strategy.2000.start.desc
 		random_valid = {
-			# triggered_desc = {
-				# trigger = {
-					# game_start_date >= 1066.10.15
-					# location = { geographical_region = world_europe }
-				# }
-				# desc = martial_strategy.2000.hastings.desc
-			# }
-			# triggered_desc = {
-				# trigger = {
-					# location = {
-						# NOR = {
-							# geographical_region = world_india
-							# geographical_region = world_steppe
-						# }
-					# }
-					# NOT = { faith = { religion_tag = islam_religion } }
-				# }
-				# desc = martial_strategy.2000.tours.desc
-			# }
-			# triggered_desc = {
-				# trigger = {
-					# location = {
-						# NOR = {
-							# geographical_region = world_india
-							# geographical_region = world_steppe
-						# }
-					# }
-					# faith = { religion_tag = islam_religion }
-				# }
-				# desc = martial_strategy.2000.palaceofthemartyrs.desc #(tours but arabic name!)
-			# }
-			# triggered_desc = {
-				# trigger = {
-					# location = {
-						# NOR = {
-							# geographical_region = world_india
-							# geographical_region = world_steppe
-						# }
-					# }
-				# }
-				# desc = martial_strategy.2000.catalaunianplains.desc #Not India/plains
-			# }
+			triggered_desc = {
+				trigger = {
+					location = { geographical_region = world_humankingdoms }
+					has_cultural_pillar = heritage_human
+				}
+				desc = martial_strategy.2000.hastings.desc    #Battle of Falador
+			}
+			triggered_desc = {
+				trigger = {
+					location = { geographical_region = world_desert }
+				}
+				desc = martial_strategy.2000.tours.desc   #BAttle of Uzer
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						culture = culture:troll
+						culture = culture:icetroll
+						culture = culture:dwarf
+					}
+					
+				}
+				desc = martial_strategy.2000.palaceofthemartyrs.desc  #Barendir
+			}
+			triggered_desc = {
+				trigger = {
+					location = { geographical_region = world_frem }
+				}
+				desc = martial_strategy.2000.catalaunianplains.desc #Invasion of Relekka
+			}
 			desc = martial_strategy.2000.constantinople.desc
-			# triggered_desc = {
-				# trigger = {
-					# location = {
-						# NOR = {
-							# geographical_region = world_europe
-							# geographical_region = world_africa
-						# }
-					# }
-				# }
-				# desc = martial_strategy.2000.vapati.desc
-			# }
+			triggered_desc = {
+				trigger = {
+					culture = culture:piratecul
+				}
+				desc = martial_strategy.2000.vapati.desc  #Battle of the Archipelago
+			}
 		}
 		desc = martial_strategy.2000.end.desc
 	}

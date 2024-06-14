@@ -75,6 +75,13 @@ world_wilderness = {
 	}
 }
 
+world_frem = {
+	duchies = {
+		d_rellekka d_mountfrem d_waterb d_neitz d_jat d_icetroll
+		d_misc d_ect d_lunar d_piratecove
+	}
+}
+
 world_misthalin = {
 	duchies = {
 		d_edgeville d_varrock d_southmis d_westmis d_jollyb d_silv
