@@ -113,6 +113,7 @@
 
 900106 = {
 	name = "Roald" #The Third - current
+	dna = roald_dna
 	dynasty = 100901
 	religion = saradomin
 	culture = misthalin
@@ -138,6 +139,7 @@
 
 900107 = {
 	name = "Ellamaria"
+	dna = ellamaria_dna
 	female = yes
 	religion = saradomin
 	culture = misthalin
