@@ -1,0 +1,6 @@
+﻿l_english:
+
+ building_type_wizard_tower:0 "Wizards' Tower"
+ building_type_wizard_tower_desc:0 "$building_type_generic_university_desc$\n\nThe Wizard's Tower is an important hub for the study of magic and attracts aspiring wizards from as far away as Kandarin and Al Kharid."
+ building_wizard_tower:0 "$building_type_wizard_tower$"
+ building_wizard_tower_desc:0 "$building_type_wizard_tower_desc$"
