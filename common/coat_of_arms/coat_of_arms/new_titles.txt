@@ -839,6 +839,73 @@ c_darkwiztow={
 
 }
 
+d_draynor = {
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=black
+	color3=green
+	colored_emblem={
+		color1=red
+		texture="ce_ordinary_pile_02_inverted.dds"
+		instance={
+			position={ 0.510000 0.400000 }
+			scale={ 0.200000 -0.200000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_ordinary_pile.dds"
+		instance={
+			position={ 0.720000 0.240000 }
+			scale={ 0.180000 0.180000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.310000 0.230000 }
+			scale={ 0.170000 0.170000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_chevron_in_chief.dds"
+		instance={
+			position={ 0.510000 0.500000 }
+			scale={ 1.000000 -0.610000 }
+		}
+
+		instance={
+			position={ 0.510000 0.430000 }
+			scale={ 1.000000 -0.540000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_chevron_in_chief.dds"
+		instance={
+			position={ 0.510000 0.410000 }
+			scale={ 1.000000 -0.540000 }
+			depth=2.010000
+			rotation=360
+		}
+
+		instance={
+			position={ 0.510000 0.560000 }
+			scale={ 0.900000 -0.520000 }
+			depth=3.010000
+		}
+
+	}
+}
 
 
 c_draynor = {
