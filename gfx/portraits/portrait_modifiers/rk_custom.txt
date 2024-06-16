@@ -29,6 +29,44 @@
         }
     }
 
+    gnome_hats = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                value = 0
+            }
+
+            accessory = {
+                mode = add
+                gene = headgear
+                template = monarchs_journey_low
+                type = female
+                value = 0.62
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10005
+                is_female = yes
+                OR = {
+                    is_landed = no
+                    any_held_title = { tier < kingdom }
+                }
+                OR = { 
+                    culture = culture:gnome
+                    culture = { 
+                        any_parent_culture = {
+                            this = culture:gnome
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     dna_ogre_male = {
         dna_modifiers = {
             accessory = {
