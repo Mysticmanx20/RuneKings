@@ -87,6 +87,7 @@ k_gnome1 = {
 	8932.1.1 = {
 		liege = 0
 		holder = gnome006
+		succession_laws = { feudal_elective_succession_law }
 	}
 	8998.1.1 = {
 		holder = gnome008
@@ -112,6 +113,7 @@ d_gnomestrong = {
 k_gnome2 = {
 	9137.1.1 = {
 		holder = gnome010
+		succession_laws = { feudal_elective_succession_law }
 	}
 	9159.1.1 = {
 		holder = gnome003
