@@ -3456,7 +3456,7 @@ e_karamja = {
 
 e_morytania = {
 	color = {221 0 12 }
-	capital = c_darkmeyer
+	capital = c_drakan
 
 	ai_primary_priority = {
 		if = {
@@ -3614,6 +3614,15 @@ e_morytania = {
 
 			}
 
+			c_polypore = {
+				color = { 73 73 90}
+
+				b_polypore = {
+					color = { 73 73 90 }
+					province = 486
+				}
+			}
+
 		}
 
 		d_burgderot = {
@@ -3645,6 +3654,11 @@ e_morytania = {
 					color = {202 64 0}
 					province = 94
 					definite_form = yes
+				}
+
+				b_rothills = {
+					color = {192 63 0}
+					province = 497
 				}
 			}
 			
@@ -3681,6 +3695,11 @@ e_morytania = {
 					province = 106
 				}
 
+				b_swamphunt = {
+					color = { 110 30 24}
+					province = 487
+				}
+
 			}
 
 			c_nature = {
@@ -3699,7 +3718,7 @@ e_morytania = {
 
 	k_morytania = {
 		color = { 173 61 0 }
-		capital = c_darkmeyer
+		capital = c_drakan
 
 		cultural_names = {
 			name_list_icyene = cn_hallow
@@ -3714,22 +3733,110 @@ e_morytania = {
 			}
 		}
 
+		d_darkmeyer = {
+			color = { 129 32 138 }
+			capital = c_drakan
 
-		d_sang = {
-			color = {58 45 101 }
-			capital = c_darkmeyer
-
-			c_darkmeyer = {
-				color = { 58 45 101 }
+			c_drakan = {
+				color = { 129 32 138 }
 
 				b_drakan = {
 					color ={129 32 138}
 					province = 100
 				}
+
+				b_drakanyard = {
+					color = { 129 32 129}
+					province = 506
+				}
+
+				b_drakanout = {
+					color = { 129 32 118}
+					province = 507
+				}
+
+			}
+
+			c_darkmeyer = {
+				color = { 58 45 101 }
+
+				b_crypt = {
+					color = { 68 45 101}
+					province = 502
+				}
 				
 				b_darkmeyer = {
 					color = { 58 45 101}
 					province = 69
+				}
+
+				b_sepul = {
+					color = { 78 45 101}
+					province = 501
+				}
+
+			}
+
+			c_blisterwood = {
+				color = { 58 90 112}
+
+				b_vyrehome = {
+					color = { 78 90 112}
+					province = 505
+				}
+
+				b_upperdark = {
+					color = { 68 90 112}
+					province = 504
+				}
+
+				b_blisterwood = {
+					color = { 58 90 112}
+					province = 503
+				}
+			}
+
+			c_lowdark = {
+				color = { 78 56 101 }
+
+				b_darkshop = {
+					color = { 78 67 101 }
+					province = 499
+				}
+
+				b_lowdark = {
+					color = { 78 56 101 }
+					province = 500
+				}
+
+				b_darkmines = {
+					color = { 78 77 101}
+					province = 498
+				}
+			}
+
+		}
+
+		d_sang = {
+			color = {58 45 101 }
+			capital = c_vers
+
+			c_uppermditch = {
+				color = { 129 148 66 }
+
+				b_m6 = {
+					color = {129 148 66}
+					province = 101
+				}
+
+				b_m5 ={
+					color= {129 104 66}
+					province = 99
+				}
+
+				b_m3 ={
+					color= {129 83 66}
+					province = 97
 				}
 
 			}
@@ -3747,33 +3854,34 @@ e_morytania = {
 					province = 96
 				}
 
-				b_m3 ={
-					color= {129 83 66}
-					province = 97
-				}
-
 				b_m4 ={
 					color= {182 83 34}
 					province = 98
 				}
 
-				b_m5 ={
-					color= {129 104 66}
-					province = 99
-				}
-
-				b_m6 = {
-					color = {129 148 66}
-					province = 101
-				}
 			}
 
 			c_vers = {
 				color = { 119 66 115 }
 
+				b_tob = {
+					color = { 139 66 115}
+					province = 496
+				}
+
 				b_vers = {
 					color= {119 66 115}
 					province = 102
+				}
+
+				b_verscoast = {
+					color = { 119 76 115}
+					province = 494
+				}
+
+				b_icegrave = {
+					color = { 109 66 115}
+					province = 495
 				}
 
 			}
@@ -3797,10 +3905,16 @@ e_morytania = {
 					province = 104
 				}
 
-				b_slepe = {
-					color = {93 114 88}
-					province = 72
+				b_sisterhood = {
+					color = { 255 82 58}
+					province = 492
 				}
+
+				b_slepeswamp = {
+					color = { 244 83 59}
+					province = 491
+				}
+
 			}
 
 			c_cromb = {
@@ -3811,6 +3925,38 @@ e_morytania = {
 					province = 105
 				}
 
+				b_crombout = {
+					color = { 156 155 95}
+					province = 493
+				}
+
+			}
+
+			c_spiders = {
+				color = { 93 102 90 }
+
+				b_spiderhive = {
+					color = { 93 102 90}
+					province = 488
+				}
+
+				b_slepe = {
+					color = {93 114 88}
+					province = 72
+				}
+			}
+
+			c_slepecoast = {
+				color = { 93 110 108}
+
+				b_slepecoast = {
+					color = { 93 110 108}
+					province = 490
+				}
+				b_sleepwalk = {
+					color = { 93 110 98}
+					province = 489
+				}
 			}
 
 		}

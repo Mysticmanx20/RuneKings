@@ -12,10 +12,31 @@ d_sang ={
 	}
 }
 
-c_darkmeyer = {
+c_drakan = {
 	9054.1.1 = {
 		holder = 900500
 		change_development_level = 10
+	}
+}
+
+c_blisterwood = {
+	9054.1.1 = {
+		holder = 900500
+		change_development_level = 9
+	}
+}
+
+c_darkmeyer = {
+	9054.1.1 = {
+		holder = 900500
+		change_development_level = 8
+	}
+}
+
+c_lowdark = {
+	9054.1.1 = {
+		holder = 900500
+		change_development_level = 7
 	}
 }
 
@@ -27,6 +48,19 @@ c_graveyard = {
 	}
 }
 
+c_spiders = {
+	9054.1.2 = {
+		holder = 900502
+		change_development_level = 4
+	}
+}
+
+c_slepecoast = {
+	9054.1.2 = {
+		holder = 900502
+		change_development_level = 5
+	}
+}
 
 c_portphas = {
 	9138.1.1 ={ 
@@ -139,7 +173,7 @@ c_mditch = {
 	1000.1.1 = {
 		liege = k_morytania
 	}
-	9142.1.1 = {
+	9160.1.1 = {
 		holder = 900512
 		government = clan_government
 		change_development_level = 5
@@ -147,15 +181,12 @@ c_mditch = {
 }
 
 c_vers = {
+	6000.1.1 = {
+		liege = k_morytania
+	}
 	9148.1.1 = {
 		holder = 900512
 		change_development_level = 8
-	}
-}
-
-b_darkmeyer = {
-	9142.1.1 = {
-		holder = 900500
 	}
 }
 

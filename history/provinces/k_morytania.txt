@@ -1,7 +1,7 @@
-﻿69 = {		#Darkmeye
+﻿69 = {		#Darkmeyer
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 70 = {  #Burg
@@ -16,10 +16,10 @@
 	holding = castle_holding
 }
 
-72 = {  #Slepe
+72 = {  #Swamp Lizards (slepe)
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = none
 }
 
 73 = {  #PortPhas
@@ -210,4 +210,137 @@
 	religion = saradomin
 	holding = castle_holding
 }
+
+486 = {  
+	culture = morytania
+	religion = saradomin
+	holding = tribal_holding
+}
+
+487 = {  
+	culture = morytania
+	religion = godless
+	holding = tribal_holding
+}
+
+488 = {  
+	culture = morytania
+	religion = godless
+	holding = tribal_holding
+}
+
+489 = {  
+	culture = morytania
+	religion = zamorak
+	holding = none
+}
+
+490 = {  
+	culture = morytania
+	religion = zamorak
+	holding = castle_holding
+}
+
+491 = {  
+	culture = morytania
+	religion = zamorak
+	holding = none
+}
+
+492 = {  
+	culture = morytania
+	religion = zamorak
+	holding = church_holding
+}
+
+493 = {  
+	culture = morytania
+	religion = zamorak
+	holding = none
+}
+
+494 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+495 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+496 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+497 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+498 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+499 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+500 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+501 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+502 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+503 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+504 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+505 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = castle_holding
+}
+
+506 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
+507 = {  
+	culture = vampyre
+	religion = zamorak
+	holding = none
+}
+
 

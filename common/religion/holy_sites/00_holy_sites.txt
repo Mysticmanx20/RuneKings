@@ -48,7 +48,7 @@ ham = {
 #Zammy
 
 drakan = {
-	county = c_darkmeyer
+	county = c_drakan
 	barony = b_drakan
 
 	character_modifier = {
