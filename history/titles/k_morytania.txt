@@ -64,8 +64,8 @@ c_spiders = {
 }
 
 c_slepecoast = {
-	9168.3.2 = {
-		holder = 900502
+	9164.1.1 = {
+		holder = mort010
 		change_development_level = 5
 	}
 }
@@ -95,8 +95,8 @@ c_slepe = {
 		liege = k_morytania
 	}
 
-	9168.1.2 = {
-		holder = 900502
+	9160.1.1 = {
+		holder = mort010
 		government = clan_government
 		change_development_level = 8
 	}
@@ -112,10 +112,10 @@ c_cromb = {
 	3000.1.1 = {
 		liege = k_morytania
 	}
-	9167.1.1 = {
+	9160.1.1 = {
 		holder = mort010
 	}
-	9168.1.1 = {
+	9169.1.1 = {
 		holder = 900502
 		change_development_level = 6
 		government = clan_government

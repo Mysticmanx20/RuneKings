@@ -976,6 +976,7 @@ mort032 = {
 	trait = content
 	trait = callous
 	trait = diligent
+	trait = lifestyle_herbalist
 	trait = education_learning_3
 	9138.1.1 = {
 		birth = yes
