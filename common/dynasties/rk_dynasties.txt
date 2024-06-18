@@ -450,3 +450,19 @@
 	name = "dynn_Ramessid"
 	culture = menaphite
 }
+
+100988 = {
+	name = "dynn_Callidra"
+	culture = vampyre
+}
+
+100989 = {
+	prefix = "dynnp_of"
+	name = "dynn_Sisterhood"
+	culture = morytania
+}
+
+100990 = {
+	name = "dynn_Araxyte"
+	culture = morytania #spider
+}

@@ -928,3 +928,74 @@ mort028 = {
 		give_council_position = councillor_court_chaplain
 	}
 }
+
+mort029 = {
+	name = "Despoina"
+	dynasty = 100988
+	female = yes
+	culture = vampyre
+	religion = zamorak
+	trait = arrogant
+	trait = education_stewardship_2
+	9139.1.1 = {
+		birth = yes
+	}
+
+}
+
+mort030 = {
+	name = "Senga"
+	dynasty = 100989
+	female = yes
+	culture = morytania
+	religion = zamorak
+	trait = zealous
+	trait = patient
+	trait = education_learning_2
+	9139.1.1 = {
+		birth = yes
+	}
+}
+
+mort031 = {
+	name = "Carl"
+	culture = vampyre
+	religion = zamorak
+	trait = deceitful
+	trait = craven
+	trait = education_intrigue_1
+	9136.1.1 = {
+		birth = yes
+	}
+}
+
+mort032 = {
+	name = "Kroy"
+	culture = vampyre
+	religion = zamorak
+	trait = content
+	trait = callous
+	trait = diligent
+	trait = education_learning_3
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900502
+		give_council_position = councillor_spymaster
+	}
+}
+
+mort033 = {
+	name = "Araxxor"
+	dynasty = 100990
+	culture = morytania
+	religion = godless
+	trait = arbitrary
+	trait = sadistic
+	trait = gluttonous
+	trait = education_diplomacy_2
+	9130.1.1 = {
+		birth = yes
+	}
+}

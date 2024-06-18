@@ -33,6 +33,12 @@ c_darkmeyer = {
 	}
 }
 
+b_crypt = {
+	9160.1.1 = {
+		holder = mort029
+	}
+}
+
 c_lowdark = {
 	9054.1.1 = {
 		holder = 900500
@@ -45,20 +51,28 @@ c_graveyard = {
 		liege = k_morytania
 		holder = mort007
 		change_development_level = 5
+		government = clan_government
 	}
 }
 
 c_spiders = {
-	9054.1.2 = {
-		holder = 900502
+	9160.1.1 = {
+		liege = 0
+		holder = mort033
 		change_development_level = 4
 	}
 }
 
 c_slepecoast = {
-	9054.1.2 = {
+	9168.3.2 = {
 		holder = 900502
 		change_development_level = 5
+	}
+}
+
+b_sisterhood = {
+	9165.1.1 = {
+		holder = mort030
 	}
 }
 
@@ -81,20 +95,30 @@ c_slepe = {
 		liege = k_morytania
 	}
 
-	9054.1.1 = {
+	9168.1.2 = {
 		holder = 900502
 		government = clan_government
 		change_development_level = 8
 	}
 }
 
+b_ratbat = {
+	9168.1.2 = {
+		holder = mort031
+	}
+}
+
 c_cromb = {
+	3000.1.1 = {
+		liege = k_morytania
+	}
 	9167.1.1 = {
 		holder = mort010
 	}
 	9168.1.1 = {
 		holder = 900502
 		change_development_level = 6
+		government = clan_government
 	}
 }
 
@@ -159,6 +183,7 @@ c_canifis = {
 		liege = k_morytania
 		holder = 900505
 		change_development_level = 7
+		government = clan_government
 	}
 }
 
@@ -183,6 +208,7 @@ c_mditch = {
 c_vers = {
 	6000.1.1 = {
 		liege = k_morytania
+		government = clan_government
 	}
 	9148.1.1 = {
 		holder = 900512

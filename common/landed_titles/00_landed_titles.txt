@@ -3760,14 +3760,14 @@ e_morytania = {
 			c_darkmeyer = {
 				color = { 58 45 101 }
 
-				b_crypt = {
-					color = { 68 45 101}
-					province = 502
-				}
-				
 				b_darkmeyer = {
 					color = { 58 45 101}
 					province = 69
+				}
+
+				b_crypt = {
+					color = { 68 45 101}
+					province = 502
 				}
 
 				b_sepul = {
@@ -3824,14 +3824,14 @@ e_morytania = {
 			c_uppermditch = {
 				color = { 129 148 66 }
 
-				b_m6 = {
-					color = {129 148 66}
-					province = 101
-				}
-
 				b_m5 ={
 					color= {129 104 66}
 					province = 99
+				}
+
+				b_m6 = {
+					color = {129 148 66}
+					province = 101
 				}
 
 				b_m3 ={
@@ -3844,6 +3844,10 @@ e_morytania = {
 			c_mditch = {
 				color = {119 66 115}
 
+				b_m4 ={
+					color= {182 83 34}
+					province = 98
+				}
 				b_m1 ={
 					color= {255 44 129}
 					province = 95
@@ -3852,11 +3856,6 @@ e_morytania = {
 				b_m2 ={
 					color= {255 44 34}
 					province = 96
-				}
-
-				b_m4 ={
-					color= {182 83 34}
-					province = 98
 				}
 
 			}
@@ -3895,14 +3894,14 @@ e_morytania = {
 			c_slepe = {
 				color = {93 114 88}
 
-				b_ratbat = {
-					color = {255 92 58 }
-					province = 103
-				}
-
 				b_slepesq = {
 					color= {255 164 58}
 					province = 104
+				}
+				
+				b_ratbat = {
+					color = {255 92 58 }
+					province = 103
 				}
 
 				b_sisterhood = {

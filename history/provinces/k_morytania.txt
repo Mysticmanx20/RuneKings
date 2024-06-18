@@ -1,7 +1,7 @@
 ﻿69 = {		#Darkmeyer
 	culture = vampyre
 	religion = zamorak
-	holding = none
+	holding = castle_holding
 }
 
 70 = {  #Burg
@@ -154,13 +154,13 @@
 98 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = city_holding
+	holding = castle_holding
 }
 
 99 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = none
+	holding = castle_holding
 }
 
 100 = {  
@@ -182,15 +182,15 @@
 }
 
 103 = {  
-	culture = vampyre
+	culture = morytania
 	religion = zamorak
-	holding = castle_holding
+	holding = city_holding
 }
 
 104 = {  
-	culture = vampyre
+	culture = morytania
 	religion = zamorak
-	holding = city_holding
+	holding = castle_holding
 }
 
 105 = {  
@@ -219,8 +219,8 @@
 
 487 = {  
 	culture = morytania
-	religion = godless
-	holding = tribal_holding
+	religion = zamorak
+	holding = none_holding
 }
 
 488 = {  
@@ -310,7 +310,7 @@
 502 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = castle_holding
+	holding = city_holding
 }
 
 503 = {  
