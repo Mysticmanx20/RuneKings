@@ -14,6 +14,10 @@ raid_event.0001 = {
 			culture = culture:vampyre
 			dynasty = none
 			faith = faith:zamorak
+			trait = greedy
+			trait = gluttonous
+			trait = wrathful
+			trait = education_martial_3
 			trait = vampire_character
 			save_scope_as = fighter_mc_fighter_chap
 		}
