@@ -1,0 +1,51 @@
+﻿namespace = raid_event
+
+raid_event.0001 = {
+	hidden = yes
+	scope = none
+	
+
+	immediate = {
+		create_character = {
+			location = title:c_vers.holder.capital_province
+			template = accolade_huntsmaster_character
+			name = "Verzik Vitur"
+			gender = female
+			culture = culture:vampyre
+			dynasty = none
+			faith = faith:zamorak
+			trait = vampire_character
+			save_scope_as = fighter_mc_fighter_chap
+		}
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:fighter_mc_fighter_chap
+			FATALITY = possible
+			FIXED = no
+			LOCALE = throne_room
+			INVALIDATION_EVENT = single_combat.1006
+			OUTPUT_EVENT = raid_event.0100
+		}
+	}
+
+}
+
+raid_event.0100 = {
+	hidden = yes
+	scope = none
+
+	immediate = {
+		current_travel_plan ?= {
+			if = {
+				limit = { is_paused = yes }
+				resume_travel_plan = yes 
+			}
+		}
+
+		scope:fighter_mc_fighter_chap = {
+			death = { death_reason = death_vanished }
+		}
+	}
+
+}

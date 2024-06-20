@@ -7,9 +7,14 @@
 
   bloodpact_decision:0 "Unleash the wrath of Dragith Nurn"
   bloodpact_decision_desc:0 "Old tomes tell of a powerful necromancer who once studied the dark arts somewhere underneath the town of Lumbridge. If one can find a way to unlock the crypts full of undead, Lumbridge could potentially fall under Zamorakian control."
-  bloodpact_decision_tooltip:0 "Spill blood in the name of Zamorak to raise the undead army of Dragith Nurn"
+  bloodpact_decision_tooltip:0 "Spill blood in the name of Zamorak to raise the undead army of Dragith Nurn."
   bloodpact_decision_confirm:0 "Activate the Blood Pact"
   has_blood_sacrifice:0 "Have at least one [prisoners|E] of a different faith"
+
+  tob_decision:0 "Challenge the Theater of Blood"
+  tob_decision_desc:0 "Attempt the Theater of Blood in Morytania."
+  tob_decision_tooltip:0 "Attempt the Theater of Blood in Morytania"
+  tob_decision_confirm:0 "Set out for Ver Sinhaza"
 
   goblin_village_decision:0 "Goblin Diplomacy"
   goblin_village_decision_desc:0 "After countless squabbles amongst ourselves, it is time for goblins to establish a proper settlement."

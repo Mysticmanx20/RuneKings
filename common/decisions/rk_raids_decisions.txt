@@ -1,0 +1,36 @@
+﻿tob_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_knight_kneeling.dds"
+	major = yes
+
+	cost = {
+		prestige = standard_activity_cost
+	}
+
+	cooldown = {
+		days = standard_petition_liege_cooldown_time
+	}
+
+	is_shown = {
+		is_landed = yes
+		NOT = { has_culture = culture:vampyre } 
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		
+		start_travel_plan = {
+			destination = province:496
+			on_arrival_event = raid_event.0001
+			on_arrival_destinations = all_but_last
+		}
+	}
+	
+	ai_potential = {
+		always = no # Only players can do this. 
+	}
+}
