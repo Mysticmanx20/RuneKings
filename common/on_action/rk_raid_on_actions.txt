@@ -1,0 +1,39 @@
+﻿raid_start = {
+	effect = {
+		add_character_flag = raid_character_flag
+		set_variable = {
+			name = raid_scope
+			value = tob
+		}
+		switch = {
+			trigger = has_trait 
+			craven = { add_stress = medium_stress_impact_gain }
+
+		}
+	}
+}
+
+raid_travel_planner_exit = {
+	effect = {
+		send_interface_toast = {
+			title = raid_costs_refunded
+			left_icon = root 
+			remove_decision_cooldown = tob_decision
+			# refund prestige cost
+			add_gold = 150
+			switch = {
+				trigger = has_trait 
+				craven = { add_stress = medium_stress_impact_loss }
+	
+			}
+		}
+		if = {
+			limit = { has_variable = raid_scope }
+			remove_variable = raid_scope
+		}
+		if = {
+			limit = { has_character_flag = raid_character_flag }
+			remove_character_flag = raid_character_flag
+		}
+	}
+}

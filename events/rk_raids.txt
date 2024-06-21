@@ -43,9 +43,25 @@ raid_event.0100 = {
 			}
 		}
 
+		trigger_event = {
+			id = raid_event.0101
+			days = 1
+		}
+
+	}
+
+}
+
+raid_event.0101 = {
+	hidden = yes
+
+	immediate = {
 		scope:fighter_mc_fighter_chap = {
 			death = { death_reason = death_vanished }
 		}
-	}
 
+		scope:sc_victor = {
+			create_artifact_rk_scythe_effect = { OWNER = this }
+		}
+	}
 }

@@ -1,19 +1,23 @@
 ﻿tob_decision = {
 	ai_check_interval = 0
-	picture = "gfx/interface/illustrations/decisions/decision_knight_kneeling.dds"
-	major = yes
+	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	major = no
 
 	cost = {
-		prestige = standard_activity_cost
+		gold = 150
 	}
 
 	cooldown = {
-		days = standard_petition_liege_cooldown_time
+		years = 10
 	}
 
 	is_shown = {
 		is_landed = yes
 		NOT = { has_culture = culture:vampyre } 
+		title:c_vers.holder = {
+			has_faith = faith:zamorak
+			has_culture = culture:vampyre
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -22,9 +26,12 @@
 	}
 
 	effect = {
+		custom_tooltip = raid_decision_effects
 		
 		start_travel_plan = {
 			destination = province:496
+			on_start_on_action = raid_start
+			on_travel_planner_cancel_on_action = raid_travel_planner_exit 
 			on_arrival_event = raid_event.0001
 			on_arrival_destinations = all_but_last
 		}
