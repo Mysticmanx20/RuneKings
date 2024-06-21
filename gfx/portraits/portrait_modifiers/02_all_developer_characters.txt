@@ -86,6 +86,12 @@
                 template = western_royalty
                 value = 0.83
             }
+            accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
+				range = { 0 1 }
+			}
         }
         weight = {
             base = 0

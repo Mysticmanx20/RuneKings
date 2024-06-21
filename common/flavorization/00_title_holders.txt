@@ -324,10 +324,11 @@ wiz_male = {
 	type = character
 	gender = male
 	special = holder
-	tier = barony
-	priority = 7
+	tier = county
+	priority = 18
 	top_liege = no
-	titles = { b_magetrain }
+	faiths = { saradomin zamorak guthix menaph armadyl }
+	titles = { c_magetrain }
 	governments = { feudal_government }
 }
 
@@ -335,10 +336,11 @@ wiz_female = {
 	type = character
 	gender = female
 	special = holder
-	tier = barony
-	priority = 7
+	tier = county
+	priority = 18
 	top_liege = no
-	titles = { b_magetrain }
+	faiths = { saradomin zamorak guthix menaph armadyl }
+	titles = { c_magetrain }
 	governments = { feudal_government }
 }
 

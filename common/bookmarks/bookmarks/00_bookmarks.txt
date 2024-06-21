@@ -72,6 +72,7 @@
 
 	character = {
 		name = "Archmage Sedridor"
+		dynasty_house = house_blue
 		dynasty_splendor_level = 1
 		type = male
 		birth = 9113.1.1 
