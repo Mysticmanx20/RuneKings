@@ -189,7 +189,7 @@ create_artifact_rk_ghostspeak_effect = {
 		description = ghostspeak_desc
 		template = rk_ghostspeak_template
 		type = miscellaneous
-		visuals = necklace
+		visuals = ghost
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
@@ -220,14 +220,11 @@ create_artifact_rk_scythe_effect = {
 		description = scythe_desc
 		template = rk_scythe_template
 		type = axe
-		visuals = axe
+		visuals = vitur
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
-			type = created
-			date = 9168.10.29
-			recipient = root
-			location = scope:location
+			type = created_before_history
 		}
 		modifier = artifact_prowess_1_modifier
 		save_scope_as = newly_created_artifact
@@ -236,7 +233,17 @@ create_artifact_rk_scythe_effect = {
 
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
-		
+		add_artifact_history = {
+			type = inherited
+			date = 7000.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
 	}
 }
 
@@ -251,7 +258,7 @@ create_artifact_rk_charos_effect = {
 		description = charos_desc
 		template = rk_charos_template
 		type = miscellaneous
-		visuals = ring
+		visuals = charos
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
@@ -321,7 +328,7 @@ create_artifact_rk_kharidib_effect = {
 		description = kharidib_desc
 		template = rk_kharidib_template
 		type = pedestal
-		visuals = reliquary
+		visuals = kharidib
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {

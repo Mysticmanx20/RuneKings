@@ -1,0 +1,20 @@
+﻿kharidib = {
+	icon = "artifact_kharidib.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+ghost = {
+	icon = "artifact_ghost.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+charos = {
+	icon = "artifact_charos.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+vitur = {
+	icon = "artifact_vitur.dds"
+	asset = ep1_steppe_axe_01_a_portrait_entity
+}

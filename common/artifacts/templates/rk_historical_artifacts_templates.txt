@@ -20,6 +20,9 @@ rk_scythe_template = {
 	can_benefit = {
 		always = yes
 	}
+	can_reforge = {
+		always = yes
+	}
 
 	fallback = {
 		monthly_piety = 0.1
