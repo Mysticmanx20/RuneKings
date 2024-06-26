@@ -4,6 +4,12 @@
 	religion = menaph
 	culture = kharidian
 	health = 2.5
+	trait = stubborn
+	trait = vengeful
+	trait = humble
+	trait = education_diplomacy_2
+	#trait = lifestyle_diplomat
+	#reclusive
 	9104.1.1 = {
 		birth = yes
 	}
@@ -34,10 +40,15 @@
 900803 = {
 	name = "Koriff"
 	female = yes
-	martial = 12
-	intrigue = 14
+	martial = 11
+	intrigue = 10
 	religion = menaph
 	culture = kharidian
+	trait = deceitful
+	trait = greedy
+	trait = gregarious
+	trait = education_intrigue_1
+	disallow_random_traits = yes
 	9139.1.1 = {
 		birth = yes
 		give_nickname = nick_the_crowd_pleaser
@@ -48,6 +59,11 @@
 	name = "Hassan"
 	religion = menaph
 	culture = kharidian
+	trait = patient
+	trait = diligent
+	trait = generous
+	trait = education_diplomacy_2
+	disallow_random_traits = yes
 	9118.1.1 = {
 		birth = yes
 	}
@@ -62,6 +78,11 @@
 	dynasty = 100966
 	religion = menaph
 	culture = kharidian
+	trait = calm
+	trait = brave
+	trait = gluttonous
+	trait = education_intrigue_3
+	disallow_random_traits = yes
 	9134.1.1 = {
 		birth = yes
 		employer = 900800
