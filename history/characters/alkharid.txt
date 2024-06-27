@@ -280,6 +280,10 @@
 	name = "Awusah"
 	religion = menaph
 	culture = menaphite
+	trait = cynical
+	trait = humble
+	trait = compassionate
+	trait = education_diplomacy_3
 	9134.1.1 = {
 		birth = yes
 	}
@@ -293,6 +297,7 @@
 	trait = wrathful
 	trait = greedy
 	trait = cynical
+	trait = education_intrigue_2
 	religion = menaph
 	culture = menaphite
 	9130.1.1 = {
@@ -346,8 +351,12 @@
 
 900823 = {
 	name = "Clay"
-	religion = menaph
-	culture = menaphite
+	religion = saradomin
+	culture = menaphite #golem?
+	trait = humble
+	trait = just
+	trait = chaste
+	trait = education_martial_2
 	9127.1.1 = {
 		birth = yes
 	}
@@ -834,6 +843,10 @@
 	learning = 13
 	religion = menaph
 	culture = menaphite
+	trait = zealous
+	trait = calm
+	trait = patient
+	trait = education_learning_4
 	9133.1.1 = {
 		birth = yes
 	}
@@ -901,6 +914,7 @@
 	trait = brave
 	trait = wrathful
 	trait = impatient
+	trait = education_martial_2
 	religion = menaph
 	culture = menaphite
 	9142.1.1 = {
@@ -1033,6 +1047,10 @@
 	name = "Shantay"
 	religion = menaph
 	culture = kharidian
+	trait = greedy
+	trait = wrathful
+	trait = paranoid
+	trait = education_martial_1
 	9132.1.1 = {
 		birth = yes
 	}
