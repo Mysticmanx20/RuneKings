@@ -134,8 +134,8 @@
 }
 
 123 = {  #Uzer
-	culture = menaphite
-	religion = menaph
+	culture = ghost
+	religion = saradomin
 	holding = castle_holding
 }
 
