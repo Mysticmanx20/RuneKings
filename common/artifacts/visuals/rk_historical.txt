@@ -18,3 +18,19 @@ vitur = {
 	icon = "artifact_vitur.dds"
 	asset = ep1_steppe_axe_01_a_portrait_entity
 }
+
+sangstaff = {
+	icon = "artifact_sangstaff.dds"
+	asset = ep1_steppe_axe_01_a_portrait_entity
+}
+
+ghrazi = {
+	icon = "artifact_ghrazi.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+justicar = {
+	icon = "artifact_justicar.dds"
+	support_type = "tall_pillow"
+	asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
+}

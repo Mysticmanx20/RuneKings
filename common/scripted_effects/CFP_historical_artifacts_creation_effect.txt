@@ -247,6 +247,126 @@ create_artifact_rk_scythe_effect = {
 	}
 }
 
+create_artifact_rk_sangstaff_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = sangstaff_name
+		description = sangstaff_desc
+		template = rk_scythe_template
+		type = spear
+		visuals = sangstaff
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 7000.1.1
+			recipient = character:900500 #Drakan
+			location = province:100 #CastleDrakan
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7500.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+
+create_artifact_rk_ghrazi_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = ghrazi_name
+		description = ghrazi_desc
+		template = rk_scythe_template
+		type = sword
+		visuals = ghrazi
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 7000.1.1
+			recipient = character:900500 #Drakan
+			location = province:100 #CastleDrakan
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7500.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+
+create_artifact_rk_justicar_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = justicar_name
+		description = justicar_desc
+		template = rk_scythe_template
+		type = helmet
+		visuals = justicar
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7500.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+
 create_artifact_rk_charos_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }

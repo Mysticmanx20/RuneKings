@@ -61,7 +61,21 @@ raid_event.0101 = {
 		}
 
 		scope:sc_victor = {
-			create_artifact_rk_scythe_effect = { OWNER = this }
+			random_list = {
+				25 = {
+					create_artifact_rk_scythe_effect = { OWNER = this }
+				}
+				25 = {
+					create_artifact_rk_sangstaff_effect = { OWNER = this }
+				}
+				25 = {
+					create_artifact_rk_ghrazi_effect = { OWNER = this }
+				}
+				25 = {
+					create_artifact_rk_justicar_effect = { OWNER = this }
+				}
+			}
+			
 		}
 	}
 }
