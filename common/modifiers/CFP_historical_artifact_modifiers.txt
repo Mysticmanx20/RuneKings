@@ -32,6 +32,7 @@ cfp_kure_skull_cup_modifier = {
 rk_ghostspeak = {
 	monthly_piety = 0.2
 	monthly_learning_lifestyle_xp_gain_mult = 0.10
+	ghost_opinion = 10
 }
 
 rk_charos = {

@@ -1,0 +1,145 @@
+﻿misthalin_opinion = {
+	decimals = 0
+}
+
+icyene_opinion = {
+	decimals = 0
+}
+
+asgarnia_opinion = {
+	decimals = 0
+}
+
+kandarin_opinion = {
+	decimals = 0
+}
+
+briton_opinion = {
+	decimals = 0
+}
+
+seer_opinion = {
+	decimals = 0
+}
+
+khazard_opinion = {
+	decimals = 0
+}
+
+piratecul_opinion = {
+	decimals = 0
+}
+
+waterspirit_opinion = {
+	decimals = 0
+}
+
+fremennik_opinion = {
+	decimals = 0
+}
+
+oldfremennik_opinion = {
+	decimals = 0
+}
+
+moonclan_opinion = {
+	decimals = 0
+}
+
+kalphite_opinion = {
+	decimals = 0
+}
+
+kharidian_opinion = {
+	decimals = 0
+}
+
+bedabin_opinion = {
+	decimals = 0
+}
+
+menaphite_opinion = {
+	decimals = 0
+}
+
+karamja_opinion = {
+	decimals = 0
+}
+
+goblin_opinion = {
+	decimals = 0
+}
+
+hillgiant_opinion = {
+	decimals = 0
+}
+
+ogre_opinion = {
+	decimals = 0
+}
+
+mogre_opinion = {
+	decimals = 0
+}
+
+jogre_opinion = {
+	decimals = 0
+}
+
+troll_opinion = {
+	decimals = 0
+}
+
+icetroll_opinion = {
+	decimals = 0
+}
+
+dwarf_opinion = {
+	decimals = 0
+}
+
+imcando_opinion = {
+	decimals = 0
+}
+
+gnome_opinion = {
+	decimals = 0
+}
+
+vampyre_opinion = {
+	decimals = 0
+}
+
+werewolf_opinion = {
+	decimals = 0
+}
+
+morytania_opinion = {
+	decimals = 0
+}
+
+ghost_opinion = {
+	decimals = 0
+}
+
+elf_opinion = {
+	decimals = 0
+}
+
+dragon_opinion = {
+	decimals = 0
+}
+
+mahjarrat_opinion = {
+	decimals = 0
+}
+
+monkey_opinion = {
+	decimals = 0
+}
+
+wild_opinion = {
+	decimals = 0
+}
+
+

@@ -193,10 +193,7 @@ create_artifact_rk_ghostspeak_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
-			type = created
-			date = 9168.10.29
-			recipient = character:900101 #Urhney 
-			location = province:3 #Lum Swamp
+			type = created_before_history
 		}
 		modifier = rk_ghostspeak
 		save_scope_as = newly_created_artifact
@@ -246,6 +243,37 @@ create_artifact_rk_scythe_effect = {
 		}
 	}
 }
+create_artifact_rk_scythetrue_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = scythe_name
+		description = scythe_desc
+		template = rk_scythe_template
+		type = axe
+		visuals = vitur
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7000.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+	}
+}
 
 create_artifact_rk_sangstaff_effect = {
 	# Get the character the artifact is being made for.
@@ -263,8 +291,9 @@ create_artifact_rk_sangstaff_effect = {
 		quality = scope:quality
 		history = {
 			type = created
-			date = 7000.1.1
-			recipient = character:900500 #Drakan
+			actor = character:900500 #Drakan
+			date = 7500.1.1
+			recipient = character:900512 #Verzik
 			location = province:100 #CastleDrakan
 		}
 		modifier = artifact_prowess_1_modifier
@@ -275,16 +304,41 @@ create_artifact_rk_sangstaff_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		add_artifact_history = {
-			type = inherited
-			date = 7500.1.1
-			recipient = character:900512 #Verzik Vitur
-		}
-		add_artifact_history = {
 			type = stolen
 			actor = character:900512 #stolen from
 			recipient = scope:owner #stealer
 			location = province:496
 		}
+	}
+}
+create_artifact_rk_sangstafftrue_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = sangstaff_name
+		description = sangstaff_desc
+		template = rk_scythe_template
+		type = spear
+		visuals = sangstaff
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			actor = character:900500 #Drakan
+			date = 7500.1.1
+			recipient = character:900512 #Verzik
+			location = province:100 #CastleDrakan
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
 	}
 }
 
@@ -303,10 +357,7 @@ create_artifact_rk_ghrazi_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
-			type = created
-			date = 7000.1.1
-			recipient = character:900500 #Drakan
-			location = province:100 #CastleDrakan
+			type = created_before_history
 		}
 		modifier = artifact_prowess_1_modifier
 		save_scope_as = newly_created_artifact
@@ -354,7 +405,7 @@ create_artifact_rk_justicar_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		add_artifact_history = {
-			type = inherited
+			type = stolen
 			date = 7500.1.1
 			recipient = character:900512 #Verzik Vitur
 		}
@@ -428,7 +479,7 @@ create_artifact_rk_charos_effect = {
 			recipient = character:mort001 # Rologarth
 		}
 		add_artifact_history = {
-			type = inherited
+			type = stolen
 			date = 9168.6.6
 			actor = character:mort001 # garth
 			recipient = character:900506 # Fenk
@@ -452,10 +503,7 @@ create_artifact_rk_kharidib_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
-			type = created
-			date = 9168.10.29
-			recipient = character:900800 #Emir Shah
-			location = province:21 #Alkarid
+			type = created_before_history
 		}
 		modifier = artifact_monthly_piety_3_modifier
 		save_scope_as = newly_created_artifact
