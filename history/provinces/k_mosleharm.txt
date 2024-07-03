@@ -61,11 +61,83 @@
 388 = {		#Brain Volcano
 	culture = piratecul
 	religion = godless
-	holding = tribal_holding
+	holding = none
 }
 
 389 = {		#Harmony
 	culture = misthalin
 	religion = saradomin
 	holding = church_holding
+}
+
+508 = {		#North Harmony
+	culture = misthalin
+	religion = saradomin
+	holding = none
+}
+
+509 = {		#Brain farm
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+510 = {		#Braincoast
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+511 = {		#Brainjung
+	culture = piratecul
+	religion = zamorak
+	holding = none
+}
+
+512 = {		#'Rum'geon
+	culture = piratecul
+	religion = zamorak
+	holding = tribal_holding
+}
+
+513 = {		#JungleHorros
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+514 = {		#eastharmless
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+515 = {		#blueisles
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+516 = {		#bluejung
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+517 = {		#redjung
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+518 = {		#redisles
+	culture = piratecul
+	religion = godless
+	holding = none
+}
+
+519 = {		#Easthorrors
+	culture = piratecul
+	religion = godless
+	holding = none
 }

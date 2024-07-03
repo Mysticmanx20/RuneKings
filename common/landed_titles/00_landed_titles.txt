@@ -3977,6 +3977,11 @@ e_morytania = {
 					color = { 194 181 0}
 					province = 359
 				}
+
+				b_eastharm = {
+					color = { 184 185 0}
+					province = 514
+				}
 		
 				b_mosport = {
 					color = { 194 181 107}
@@ -4004,6 +4009,11 @@ e_morytania = {
 					color = { 148 155 163 }
 					province = 363
 				}
+
+				b_junglehorrors = {
+					color = { 137 155 163}
+					province = 513
+				}
 			}
 
 			c_harmony = {
@@ -4012,6 +4022,11 @@ e_morytania = {
 				b_harmony = {
 					color = { 0 255 255 }
 					province = 389
+				}
+
+				b_northharmony = {
+					color = { 0 250 240 }
+					province = 508
 				}
 			}
 		}
@@ -4029,6 +4044,16 @@ e_morytania = {
 					province =365
 					definite_form = yes
 				}
+
+				b_redjungle = {
+					color = { 180 155 137}
+					province = 517
+				}
+
+				b_redisles = {
+					color = { 180 130 137}
+					province = 518
+				}
 		
 			}
 
@@ -4041,6 +4066,16 @@ e_morytania = {
 					province = 364
 					definite_form = yes
 				}
+
+				b_bluejungle = {
+					color = { 180 168 88}
+					province = 516
+				}
+
+				b_blueisles = {
+					color = { 180 168 108}
+					province = 515
+				}
 			}
 		
 			c_eastjungle = {
@@ -4049,6 +4084,12 @@ e_morytania = {
 				b_eastjungle = {
 					color = { 131 155 66}
 					province = 366
+					definite_form = yes
+				}
+
+				b_easthorrors = {
+					color = { 131 145 46}
+					province = 519
 				}
 		
 				b_mosisles = {
@@ -4069,10 +4110,31 @@ e_morytania = {
 					color = { 85 158 126 }
 					province = 387
 				}
+
+				b_brainfarm = {
+					color = { 85 160 116}
+					province = 509
+				}
+
+				b_braincoast = {
+					color = { 85 140 118 }
+					province = 510
+				}
 			}
 
 			c_brainvolcano = {
 				color = { 223 211 87 }
+
+				b_rumgeon = {
+					color = { 173 225 80}
+					province = 512
+					definite_form = yes
+				}
+
+				b_brainjung = {
+					color = { 193 221 87 }
+					province = 511
+				}
 
 				b_brainvolcano = {
 					color = { 223 211 87 }
