@@ -187,6 +187,14 @@ battlefield = {
 
 ### TEMPLE ###
 temple = {
+	background = {	# Pirates
+		trigger = { 
+			culture = culture:piratecul
+		}
+		reference = "gfx/interface/illustrations/event_scenes/tavern.dds"
+		environment = "environment_cw_tavern"
+		ambience = "event:/SFX/Events/Backgrounds/corner_of_tavern"
+	}
 	background = {	# Guthix
 		trigger = { 
 			faith =  { religion = religion:guthix_religion }

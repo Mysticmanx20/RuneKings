@@ -4420,7 +4420,55 @@ character_view_bg = {
 
 	##########################################
 	# TEMPLES
+
+	#Pirates
+
+	texture = { 
+		reference = "event_scenes/tavern.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			culture = culture:piratecul
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_tavern"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			culture = culture:piratecul
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_tavern"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					culture = culture:piratecul
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					culture = culture:piratecul
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						culture = culture:piratecul
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
 	
+
+
 	texture = { # Guthix
 		reference = "event_scenes/guthix_temple.dds"
 
@@ -6161,6 +6209,18 @@ character_location_exterior = {
 
 ### Religious interior - Character Scope
 character_religion_interior = { 
+
+	#Pirates
+
+	texture = { 
+		trigger = { culture = culture:piratecul }
+		reference = "event_scenes/tavern.dds"
+	}
+
+	environment = {
+		trigger = { culture = culture:piratecul }
+		reference = "environment_cw_tavern"
+	}
 
 	# Guthix
 
