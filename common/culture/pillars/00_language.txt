@@ -163,6 +163,24 @@ language_monkey = {
 	color = qiang
 }
 
+language_mwanu = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mwanu
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mwanu }
+			multiply = 10
+		}
+	}
+	
+	color = afghan
+}
+
 language_dragonkin = {
 	type = language
 	is_shown = {

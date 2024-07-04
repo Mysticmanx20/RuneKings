@@ -120,6 +120,35 @@ l_english:
  	ZAROS_AFTERLIFE:0 "Erebus"
   	ZAROS_DIVINE:0 "the Shadow Realm"
 
+################################
+# Xau-Tak
+
+xautak_religion:1 "Corrupt"
+ xautak_religion_adj:1 "Corrupt"
+ xautak_religion_adherent:1 "Servant of corruption"
+ xautak_religion_adherent_plural:1 "Servants of corruption"
+ xautak_religion_desc:0 "A mysterious horror from the deep, Xau-Tak's claw pulls the unsuspecting below the waves.\n\nXau-Tak is followed by the jungle and cave horrors of Mos Le' Harmless."
+
+ xautak:0 "Cult of Xau-Tak"
+ xautak_adj:0 "Corrupt"
+ xautak_adherent:0 "Servant of corruption"
+ xautak_adherent_plural:0 "Servants of corruption"
+
+  XAUTAK_NAME:0 "Xau-Tak"
+	XAUTAK_POSSESSIVE:0 "Xau-Tak's"
+	XAUTAK_NAME2:0 "The hundred-handed one"
+	XAUTAK_POSSESSIVE2:0 "The hundred-handed one's"
+
+  XAUTAK_SCRIPTURES_NAME:0 "Umbral Diplomacy"
+	XAUTAK_CREST_NAME:0 "Black Stone"
+
+ 	XAUTAK_HEAD_NAME:0 "Pontifex Maximus"
+	XAUTAK_HEAD_TITLE:0 "Church"
+
+ 	XAUTAK_AFTERLIFE:0 "Erebus"
+  XAUTAK_DIVINE:0 "the Shadow Realm"
+ 
+
 #############################
 #Elder Gods
 

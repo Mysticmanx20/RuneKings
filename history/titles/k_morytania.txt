@@ -262,7 +262,6 @@ c_harmless = {
 
 c_westjungle = {
 	9139.1.1 = {
-		holder = pirate001
 		change_development_level = 3
 	}
 }

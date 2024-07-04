@@ -11,20 +11,20 @@
 }
 
 361 = {		#west jung
-	culture = piratecul
-	religion = godless
+	culture = mwanu
+	religion = xautak
 	holding = tribal_holding
 }
 
 362 = {		#Mos swamp
-	culture = piratecul
-	religion = godless
+	culture = mwanu
+	religion = xautak
 	holding = none
 }
 
 363 = {		#Mos cave
-	culture = piratecul
-	religion = godless
+	culture = mwanu
+	religion = xautak
 	holding = tribal_holding
 }
 
