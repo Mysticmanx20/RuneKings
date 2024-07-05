@@ -497,8 +497,9 @@ zaros_religion = {    #Zaros
 xautak_religion = {    #Zaros 
 	family = rf_transcendent
 
-	doctrine = zaros_hostility_doctrine
+	doctrine = bandos_hostility_doctrine
 
+	pagan_roots = yes
 
 	#Main Group
 	doctrine = doctrine_spiritual_head
@@ -735,12 +736,14 @@ xautak_religion = {    #Zaros
 	faiths = {           
 		xautak = {
 			color = { 0.6 0.2 0.8 }
-			icon = zaros
+			icon = xautak
 			
 
 			doctrine = tenet_fp3_fedayeen
 			doctrine = tenet_adorcism
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_blackstone
+
+			doctrine = unreformed_faith_doctrine
 
 
 		}

@@ -123,16 +123,16 @@ l_english:
 ################################
 # Xau-Tak
 
-xautak_religion:1 "Corrupt"
+ xautak_religion:1 "Corrupt"
  xautak_religion_adj:1 "Corrupt"
- xautak_religion_adherent:1 "Servant of corruption"
- xautak_religion_adherent_plural:1 "Servants of corruption"
- xautak_religion_desc:0 "A mysterious horror from the deep, Xau-Tak's claw pulls the unsuspecting below the waves.\n\nXau-Tak is followed by the jungle and cave horrors of Mos Le' Harmless."
+ xautak_religion_adherent:1 "Corrupt"
+ xautak_religion_adherent_plural:1 "Corrupted"
+ xautak_religion_desc:0 "A mysterious horror from the deep, Xau-Tak's claw pulls the unsuspecting below the waves.\n\nXau-Tak is followed by the jungle and cave horrors of Mos Le' Harmless as well as some pirates."
 
  xautak:0 "Cult of Xau-Tak"
  xautak_adj:0 "Corrupt"
- xautak_adherent:0 "Servant of corruption"
- xautak_adherent_plural:0 "Servants of corruption"
+ xautak_adherent:0 "Corrupt"
+ xautak_adherent_plural:0 "Corrupted"
 
   XAUTAK_NAME:0 "Xau-Tak"
 	XAUTAK_POSSESSIVE:0 "Xau-Tak's"
