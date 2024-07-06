@@ -295,8 +295,9 @@ c_southtrouble = {
 }
 
 c_harmony = {
-	9168.1.1 = {
+	9160.1.1 = {
 		government = theocracy_government
+		holder = pirate015
 		change_development_level = 5
 	}
 }
@@ -314,5 +315,6 @@ c_brainvolcano = {
 		change_development_level = 1
 	}
 }
+
 
 

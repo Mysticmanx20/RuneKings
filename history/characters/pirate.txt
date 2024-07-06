@@ -169,4 +169,18 @@ pirate014 = {
 	}
 }
 
+pirate015 = {
+	name = "Tranquility"
+	culture = misthalin
+	religion = saradomin
+	trait = education_learning_3
+	trait = calm
+	trait = patient
+	trait = humble
+	trait = devoted
+	9135.1.1 = {
+		birth = yes
+	}
+}
+
 

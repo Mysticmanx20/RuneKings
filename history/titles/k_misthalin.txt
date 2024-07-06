@@ -361,7 +361,7 @@ d_tutor = {
 
 c_tutor = {
 	9162.1.1 = {
-	holder = 900119
+	holder = misth028
 	change_development_level = 15
 	}
 }
