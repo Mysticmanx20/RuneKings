@@ -2466,6 +2466,7 @@ misth027 = {
 
 misth028 = {
 	name = "Reginald"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = compassionate
@@ -2481,6 +2482,7 @@ misth028 = {
 
 misth029 = {
 	name = "Vannaka"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = brave
@@ -2499,6 +2501,7 @@ misth029 = {
 
 misth030 = {
 	name = "Brace"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = gregarious
@@ -2517,6 +2520,7 @@ misth030 = {
 
 misth031 = {
 	name = "Brynna"
+	dynasty = 100930
 	female = yes
 	culture = misthalin
 	religion = saradomin
@@ -2535,6 +2539,7 @@ misth031 = {
 
 misth032 = {
 	name = "Dezzick"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = diligent
@@ -2552,6 +2557,7 @@ misth032 = {
 
 misth033 = {
 	name = "Lev"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = gregarious
@@ -2569,6 +2575,7 @@ misth033 = {
 
 misth034 = {
 	name = "Terrova"
+	dynasty = 100930
 	culture = misthalin
 	religion = saradomin
 	trait = chaste
