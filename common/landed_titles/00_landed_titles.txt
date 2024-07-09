@@ -896,6 +896,7 @@ e_zaros = {
 
 				b_gobvilgreen = {
 					color = { 47 165 63 }
+					definite_form = yes
 					province = 430
 
 					cultural_names = { 
