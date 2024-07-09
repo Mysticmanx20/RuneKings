@@ -14,6 +14,10 @@ goblin_village_scripted_effect = {
 	}
 	resolve_title_and_vassal_change = scope:title_change
 	
+	hidden_effect = {
+		title:k_gobvil = { set_de_jure_liege_title = title:e_zaros }
+	}
+	
 	# Make it your capital if it wasn't already.
 	if = {
 		limit = {

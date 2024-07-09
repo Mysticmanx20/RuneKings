@@ -864,16 +864,24 @@ e_zaros = {
 
 		d_gobvil = {
 			color = { 47 165 63 }
-			capital = c_gobvil
+			capital = c_miztower
 
 			c_gobvil = {
 				color = { 112 138 63 }
 				definite_form = yes
 
+				cultural_names = { 
+					name_list_goblin = cn_gobvilw
+				}
+
 				b_gobvil = {
 					color = { 112 138 63 }
 					definite_form = yes
 					province = 29
+
+					cultural_names = { 
+						name_list_goblin = cn_gobvilw
+					}
 				}
 			}
 
@@ -881,9 +889,18 @@ e_zaros = {
 				color = {  47 165 63 }
 				definite_form = yes
 
+				
+				cultural_names = { 
+					name_list_goblin = cn_gobvile
+				}
+
 				b_gobvilgreen = {
 					color = { 47 165 63 }
 					province = 430
+
+					cultural_names = { 
+					name_list_goblin = cn_gobvile
+				}
 				}
 			}
 
