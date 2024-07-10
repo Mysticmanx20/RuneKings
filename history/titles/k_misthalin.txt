@@ -361,8 +361,36 @@ d_tutor = {
 
 c_tutor = {
 	9162.1.1 = {
-	holder = misth028
-	change_development_level = 15
+		holder = misth028
+		change_development_level = 13
+	}
+}
+
+c_tutormage = {
+	9162.1.1 = {
+		holder = misth034
+		change_development_level = 10
+	}
+}
+
+c_tutorcook = {
+	9162.1.1 = {
+		holder = misth033
+		change_development_level = 10
+	}
+}
+
+c_tutorbank = {
+	9162.1.1 = {
+		holder = misth028
+		change_development_level = 10
+	}
+}
+
+c_tutorquest = {
+	9162.1.1 = {
+		holder = misth032
+		change_development_level = 9
 	}
 }
 

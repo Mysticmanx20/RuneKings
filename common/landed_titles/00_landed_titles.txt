@@ -690,6 +690,68 @@ e_zaros = {
 					color = { 173 215 153 }
 					province = 20
 				}
+
+				b_tutorpond = {
+					color = { 173 215 163 }
+					province = 520
+				}
+			}
+
+			c_tutorcook = {
+				color = { 164 212 127 }
+
+				b_tutorcook = { 
+					color = { 164 212 127 }
+					province = 522
+				}
+
+				b_tutoreast = {
+					color = { 164 212 117}
+					province = 521
+				}
+			}
+
+			c_tutorquest = {
+				color = { 136 212 147}
+
+				b_tutorquest = {
+					color = { 136 212 147 }
+					province = 524
+				}
+
+				b_southquest = {
+					color = { 136 202 147 }
+					province = 523
+				}
+				
+			}
+
+			c_tutorbank = {
+				color = { 188 212 136}
+
+				b_tutorbank = {
+					color = { 188 212 136 }
+					province = 525
+				}
+
+				b_tutorpray = {
+					color = { 198 219 136}
+					province = 526
+				}
+			}
+
+			c_tutormage = {
+				color = { 130 165 151}
+
+				b_tutormage = { 
+					color = { 130 165 151}
+					province = 528
+				}
+
+				b_tutorwest = {
+					color = { 136 175 151}
+					province = 527
+				}
 			}
 
 		}

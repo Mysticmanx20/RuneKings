@@ -394,3 +394,57 @@
 	holding = tribal_holding
 }
 
+520 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+521 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+522 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
+523 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+524 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
+525 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
+526 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = church_holding
+}
+
+527 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+528 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
