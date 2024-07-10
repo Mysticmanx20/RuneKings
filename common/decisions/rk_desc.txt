@@ -174,9 +174,8 @@ goblin_village_decision = {
 		is_independent_ruler = yes
 		
 		completely_controls = title:c_gobvil
-		has_title = title:c_gobvil
 		completely_controls = title:c_gobvilgreen
-		has_title = title:c_gobvilgreen
+
 	}
 
 	is_valid_showing_failures_only = {
