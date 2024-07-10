@@ -2830,14 +2830,14 @@ e_kharid = {
 			c_magetrain = {
 				color = { 140 238 255 }
 
-				b_magetrain = {
-					color = { 140 238 255 }
-					province = 26
-				}
-
 				b_mageupper = {
 					color = { 140 228 245 }
 					province = 473
+				}
+				
+				b_magetrain = {
+					color = { 140 238 255 }
+					province = 26
 				}
 
 			}

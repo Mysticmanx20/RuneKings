@@ -31,7 +31,7 @@
 26 = {		#MageArena
 	culture = misthalin
 	religion = saradomin
-	holding = castle_holding
+	holding = none
 }
 
 27 = {		#DuelArena
@@ -295,7 +295,7 @@
 473 = {  #Upper Mage arena
 	culture = misthalin
 	religion = saradomin
-	holding = none
+	holding = castle_holding
 }
 
 474 = {  #GArdne Kharid
