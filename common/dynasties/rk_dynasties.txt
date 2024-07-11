@@ -466,3 +466,9 @@
 	name = "dynn_Araxyte"
 	culture = morytania #spider
 }
+
+100991 = {
+	prefix = "dynnp_of"
+	name = "dynn_Tisland"
+	culture = misthalin
+}
