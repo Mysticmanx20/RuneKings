@@ -403,8 +403,8 @@
     9142.1.1 = {
         birth = yes
     }
-	9166.1.1 = {
-		employer = 900306
+	9168.1.1 = {
+		employer = dwarf001
 	}
 }
 

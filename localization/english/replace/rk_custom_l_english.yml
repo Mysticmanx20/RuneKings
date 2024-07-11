@@ -109,6 +109,8 @@
  bm_group_169:0 "169 V"
  bm_1000_test:0 "Breadbasket of Misthalin"
  bm_1000_test_desc:0 "Starting from the development of the city of Avarrocka in the early Fourth Age, the region has grown into a prosperous agricultural hub for humankind. Human settlements spread across the land as they expanded their influence down the River Lum, leading to the creation of the great Kingdom of Misthalin. By the Fifth Age, farming capacity was boosted even futher with the usage of magic to more easily defend valuable farmland, however, there are still those who would seek to take the fertile lands of Misthalin for themselves\n\n#bold Will the noble people of Misthalin continue to control the vast farmlands that helped build their kingdom or will some evil force ultimately steal it from them?#!"
+
+ war_KhazardGnome_war:0 "Khazard-Gnome War"
  
 
  CHARACTER_FULL_NAME_NICKNAMED_PREFIX:2 "$NICK$ $TIER$ $NAME$ of $TITLE$"

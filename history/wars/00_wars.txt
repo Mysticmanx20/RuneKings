@@ -1,0 +1,13 @@
+
+#Khazard-Gnome War
+war = {
+	name = "war_KhazardGnome_war"
+	start_date = 8989.1.1
+	end_date = 9171.1.1
+	targeted_titles = {
+		k_gnome2
+	}
+	casus_belli = flowery_war_cb
+	attackers = { kand065 }
+	defenders = { gnome003 }
+}
