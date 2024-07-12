@@ -3777,7 +3777,7 @@ ep2_hunt_activity_camp = {
 		trigger = {
 			scope:activity.activity_location = { graphical_wilderness_desert_trigger = yes }
 		}
-		reference = "gfx/interface/illustrations/event_scenes/desert.dds"
+		reference = "gfx/interface/illustrations/event_scenes/hunt_desert.dds"
 		environment = "environment_event_bp1_desert"
 		ambience = "event:/DLC/EP2/SFX/Events/Grand_Activities/Hunts/ep2_event_grand_hunt_desert"
 	}
@@ -3795,7 +3795,7 @@ ep2_hunt_activity_camp = {
 		trigger = {
 			scope:activity.activity_location = { graphical_drylands_trigger = yes }
 		}
-		reference = "gfx/interface/illustrations/event_scenes/drylands.dds"
+		reference = "gfx/interface/illustrations/event_scenes/hunt_desert.dds"
 		environment = "environment_event_desert"
 		ambience = "event:/DLC/EP2/SFX/Events/Grand_Activities/Hunts/ep2_event_grand_hunt_praire"
 	}
