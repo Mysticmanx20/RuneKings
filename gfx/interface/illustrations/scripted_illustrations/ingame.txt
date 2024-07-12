@@ -937,8 +937,64 @@ character_view_bg = {
 	}
 
 	####
-	# hunt
+	# hunt bgs
 	####
+	#desert hunt
+	texture = {
+		reference = "event_scenes/hunt_desert.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_hunt }
+			location ?= involved_activity.activity_location
+			OR = {
+				involved_activity.activity_location = { graphical_wilderness_desert_trigger = yes }
+				involved_activity.activity_location = { graphical_drylands_trigger = yes }
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_forest_pine"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_hunt }
+			location ?= involved_activity.activity_location
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_forest_pine"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_hunt }
+						location ?= involved_activity.activity_location
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_hunt }
+						location ?= involved_activity.activity_location
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_hunt }
+						location ?= involved_activity.activity_location
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+
 	texture = {
 		reference = "event_scenes/ep2_hunt_poachers_camp.dds"
 
