@@ -19,6 +19,19 @@ c_alkharid = {
 	}
 }
 
+b_alkharid = {
+	9168.1.1 = {
+		holder = 900848
+	}
+}
+
+c_westk = {
+	9128.1.1 = {
+		holder = 900800
+		change_development_level = 10
+	}
+}
+
 c_duelarena = {
 	9128.1.1 = {
 		liege = k_alkharid

@@ -2715,14 +2715,14 @@ e_kharid = {
 					name_list_mahjarrat = cn_kharid
 				}
 
+				b_alkpalace = {
+					color = { 198 197 108 }
+					province = 531
+				}
+
 				b_alkharid = {
 					color = { 187 197 108 }
 					province = 21
-				}
-
-				b_gatek = {
-					color = { 197 197 108}
-					province = 467
 				}
 
 				b_eastk = {
@@ -2730,12 +2730,32 @@ e_kharid = {
 					province = 466
 				}
 
+				b_southk = {
+					color = { 208 208 108 }
+					province = 530
+				}
+
+		    }
+
+			c_westk = {
+				color = { 208 197 108 }
+
 				b_coastk = {
 					color = { 200 197 118}
 					province = 465
 				}
 
-		    }
+				b_westk = { 
+					color = { 200 197 139 }
+					province = 529
+				}
+
+				b_gatek = {
+					color = { 197 197 108}
+					province = 467
+				}
+
+			}
 
 			c_shantay = {
 				color = { 227 114 0 }
@@ -2746,25 +2766,12 @@ e_kharid = {
 				}
 			}
 
-			c_giants = {
-				color = { 104 54 44 }
 
-				b_giants = {
-					color = { 104 54 44 }
-					province = 22
-				}
+		}
 
-				b_giantapp = {
-					color = { 100 54 44}
-					province = 468
-				}
-
-				b_giantplat = {
-					color = { 95 54 44}
-					province = 469
-				}
-
-			}
+		d_citharade = {
+			color = { 66 0 140 }
+			capital = c_citharade
 
 			c_citharade = {
 				color = { 66 0 140 }
@@ -2777,6 +2784,26 @@ e_kharid = {
 				b_cithmine = {
 					color = { 66 15 140}
 					province = 470
+				}
+
+				b_giantapp = {
+					color = { 100 54 44}
+					province = 468
+				}
+
+			}
+
+			c_giants = {
+				color = { 104 54 44 }
+
+				b_giants = {
+					color = { 104 54 44 }
+					province = 22
+				}
+
+				b_giantplat = {
+					color = { 95 54 44}
+					province = 469
 				}
 
 			}

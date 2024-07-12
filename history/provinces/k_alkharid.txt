@@ -1,7 +1,7 @@
-21 = {		#AlK
+21 = {		#AlK Center
 	culture = kharidian
 	religion = menaph
-	holding = castle_holding
+	holding = city_holding
 }
 
 22 = {		#Giant
@@ -244,10 +244,10 @@
 	}
 }
 
-465 = {  #Kharid Coast
+465 = {  #West Kharid
 	culture = kharidian
 	religion = menaph
-	holding = none
+	holding = castle_holding
 }
 
 466 = {  #East Kharid 
@@ -310,4 +310,20 @@
 	holding = none
 }
 
+529 = {  #Kharid coast
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
 
+530 = {  #South kharid
+	culture = kharidian
+	religion = menaph
+	holding = none
+}
+
+531 = {  #Alkarid palace
+	culture = kharidian
+	religion = menaph
+	holding = castle_holding
+}
