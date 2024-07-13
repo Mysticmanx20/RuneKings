@@ -1,0 +1,11 @@
+﻿steal_gold_success = {
+	random_events = {
+		100 = steal_gold_outcome.1001 # Standard Event: Success
+	}
+}
+
+steal_gold_failure = {
+	random_events = {
+		100 = steal_gold_outcome.2001 # Standard Event: Failure 
+	}
+}

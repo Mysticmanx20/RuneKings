@@ -1,0 +1,31 @@
+﻿l_english:
+
+  # Steal Back Artifact 
+ steal_gold:1 "Steal gp"
+ steal_gold_event_title:1 "Steal gp:"
+ start_stealing_gold:0 "Steal gp #weak (Scheme)#!"
+ steal_gold_general_desc:1 "A [scheme|E] where a character organizes a heist to steal [gold|e] directly from another character"
+ # In the game, the scheme window shows [action] [target], hence the added 'from'
+ steal_gold_action:0 "Steal gp from"
+ steal_gold_desc:0 "I will attempt to steal some gp from [SCHEME.GetTarget.GetShortUINameNoTooltip]."
+ steal_gold_desc_general:1 "Attempt to steal gp from the target."
+ scheme_interaction_tt_steal_gold_approved:0 "[recipient.GetShortUIName]'s treasury will soon be a little lighter!"
+ steal_gold_success_message:0 "[target.GetShortUINameNoTooltip]'s gp is Yours!"
+ steal_gold_failed_message:0 "Gold remains With [target.GetShortUINameNoTooltip]"
+ scheme_interaction_tt_steal_gold_desc:0 "I will steal gp from [recipient.GetShortUINameNoTooltip]!"
+ steal_gold_foreign_target:0 "Target is in Foreign Realm: $VALUE|=+0$"
+ steal_gold_my_intrigue:0 "Your Intrigue: $VALUE|=+0$"
+ steal_gold_complete:0 "You have stolen gp from [target.GetShortUIName]"
+ steal_gold_invalidated_title:0 "@scheme_icon! Steal gp Scheme Ends"
+ start_stealing_gold_notification:0 "Start Heist to Steal gp"
+ they_steal_gold_must_have_claim_blocker:0 "[CHARACTER.GetShortUIName|U] does not own an artifact that [TARGET_CHARACTER.GetShortUIName] has a claim on"
+ i_steal_gold_must_have_claim_blocker:0 "[TARGET_CHARACTER.GetShortUIName] does not own an artifact that I have a claim on"
+
+ STEAL_GOLD_SUCCESS_DESC:1 "You will steal gp from [TARGET_CHARACTER.GetShortUIName]"
+ steal_gold_invalidated_war:0 "Due to the War between you, you can no longer $steal_gold_action$ [target.GetShortUIName]"
+ steal_gold_invalidated_dead:0 "[target.GetShortUIName|U] has passed away. You can no longer $steal_gold_action$ [target.GetHerHim]"
+ steal_gold_can_start_scheme:0 "I cannot $steal_gold_action$ at this time"
+
+ start_theft_interaction:0 "Steal gp #weak (Scheme)#!"
+ start_theft_interaction_notification:0 "Thieving"
+ scheme_interaction_tt_theft_approved:1 "Attempt to thieve from [recipient.GetShortUINameNoTooltip]"

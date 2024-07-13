@@ -47,3 +47,35 @@ goblin_village_scripted_effect = {
 	add_legitimacy = minor_legitimacy_gain
 	
 }
+
+
+##########################################################################################
+#Scripted effects relating to Stealing Schemes
+
+#Used in the immediate of the Scheme Owner's success event
+steal_gold_success_effect = {
+	scope:target = {
+		pay_short_term_gold = {
+			target = scope:owner
+			gold = medium_treasury_value
+		}
+	}
+}
+
+steal_gold_failure_effect = {
+	#Add thief trait to the target
+	scope:target = {	
+		add_character_modifier = {
+			modifier = watchful_modifier
+			days = watchful_modifier_duration
+		}
+
+	scope:owner = {
+		add_secret = {
+			type = secret_murder_attempt
+			target = scope:target
+		}
+	}
+
+	}
+}
