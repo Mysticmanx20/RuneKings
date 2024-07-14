@@ -60,6 +60,24 @@ steal_gold_success_effect = {
 			gold = medium_treasury_value
 		}
 	}
+
+	if = {
+		limit = {
+			scope:scheme = {
+				is_scheme_exposed = yes
+			}
+		}
+
+		scope:owner = {
+			hidden_effect = {
+				add_secret = {
+					type = secret_thief
+					target = scope:target
+				}
+			}
+		}
+
+	}
 }
 
 steal_gold_failure_effect = {
@@ -69,13 +87,6 @@ steal_gold_failure_effect = {
 			modifier = watchful_modifier
 			days = watchful_modifier_duration
 		}
-
-	scope:owner = {
-		add_secret = {
-			type = secret_murder_attempt
-			target = scope:target
-		}
 	}
 
-	}
 }

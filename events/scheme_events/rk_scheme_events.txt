@@ -50,11 +50,6 @@ steal_gold_outcome.1001 = {
 		name = steal_gold_outcome.1001.a
 		steal_gold_success_effect = yes
 
-		show_as_tooltip = { 
-			scope:owner = {
-				add_gold = scope:target.medium_treasury_value
-			}
-		}
 		scope:scheme = {
 			end_scheme = yes
 		}
