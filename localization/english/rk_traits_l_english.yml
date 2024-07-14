@@ -9,6 +9,7 @@
 
  trait_thief:0 "Thief"
  trait_thief_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to take things that don't belong to them."
+ secret_thief:0 "Thief"
  secret_thief_desc:0 "Is a thief"
  secret_thief_tooltip_desc:0 "This character is a gold thief."
  secret_thief_type_desc:0 "$secret_murder_tooltip_desc$"

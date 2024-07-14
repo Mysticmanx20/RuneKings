@@ -63,6 +63,7 @@ vampire_character = {
 thief = {
 
 	general_opinion = -10
+	same_opinion = 20
 	category = fame
 	
 	ruler_designer_cost = -5

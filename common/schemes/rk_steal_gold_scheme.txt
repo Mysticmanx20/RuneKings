@@ -101,14 +101,30 @@
 	}
 
 	on_ready = {
+		# Do the Success Roll
 		random = {
-			chance = scope:scheme.scheme_success_chance
-
+			chance = scheme_success_chance
 			save_scope_value_as = {
 				name = scheme_successful
 				value = yes
 			}
 		}
+		# Do the Secrecy Roll
+		save_scope_value_as = {
+			name = discovery_chance
+			value = {
+				value = 100
+				subtract = scheme_secrecy
+			}
+		}
+		random = {
+			chance = scope:discovery_chance
+			save_scope_value_as = {
+				name = scheme_discovered
+				value = yes
+			}
+		}
+			
 		scope:owner = {			
 			if = {
 				limit = {

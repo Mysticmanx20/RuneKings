@@ -55,37 +55,69 @@ goblin_village_scripted_effect = {
 #Used in the immediate of the Scheme Owner's success event
 steal_gold_success_effect = {
 	scope:target = {
-		pay_short_term_gold = {
-			target = scope:owner
-			gold = medium_treasury_value
-		}
+		remove_short_term_gold = medium_treasury_value
 	}
 
-	if = {
-		limit = {
-			scope:scheme = {
-				is_scheme_exposed = yes
+	#scheme owner gets the theif trait/secret for successful theft
+	scope:owner = {
+		add_gold = scope:target.medium_treasury_value
+		if = {
+			limit = {
+				exists = scope:scheme_discovered
+			}
+			scope:target = {
+				add_opinion = {
+					target = scope:owner
+					modifier = stole_artifact_from_me
+				}
+			}
+			if = {
+				limit = {
+					scope:owner = { NOT = { has_trait = thief } }
+				}
+				add_trait = thief
 			}
 		}
 
-		scope:owner = {
-			hidden_effect = {
-				add_secret = {
-					type = secret_thief
-					target = scope:target
+		else = {
+			if = {
+				limit = {
+					scope:owner = {
+						NOT = { any_secret = { secret_type = secret_thief } }
+					}
+				}
+				hidden_effect = {
+					add_secret = {
+						type = secret_thief
+						target = scope:target
+					}
 				}
 			}
 		}
-
 	}
 }
 
 steal_gold_failure_effect = {
-	#Add thief trait to the target
+
 	scope:target = {	
 		add_character_modifier = {
 			modifier = watchful_modifier
 			days = watchful_modifier_duration
+		}
+	}
+
+	scope:owner = {
+		if = {
+			limit = {
+				exists = scope:scheme_discovered
+			}
+			scope:target = {
+				add_opinion = {
+					target = scope:owner
+					modifier = attempted_to_steal_artifact_from_me
+				}
+			}
+
 		}
 	}
 
