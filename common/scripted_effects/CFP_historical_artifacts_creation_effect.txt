@@ -27,6 +27,38 @@ create_artifact_rk_ghostspeak_effect = {
 	}
 }
 
+create_artifact_rk_tasty_book_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = tasty_book_name
+		description = tasty_book_desc
+		template = rk_scythe_template
+		type = miscellaneous
+		visuals = charos
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			actor = character:900500 #Drakan
+			date = 7000.1.1
+			recipient = character:900500
+			location = province:100 #CastleDrakan
+		}
+		modifier = rk_charos
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
+
 create_artifact_rk_scythe_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
