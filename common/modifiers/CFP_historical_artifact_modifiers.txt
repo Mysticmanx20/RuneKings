@@ -19,6 +19,6 @@ rk_elid_statue = {
 
 rk_tasty_book = {
 	monthly_prestige = 0.5
-	monthly_dynasty_prestige_mult = 0.05
+	monthly_dynasty_prestige_mult = 0.03
 	dread_gain_mult = 0.2
 }
