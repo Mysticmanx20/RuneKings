@@ -4,6 +4,11 @@
 	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
+elid_statue = {
+	icon = "artifact_charos.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
 ghost = {
 	icon = "artifact_ghost.dds"
 	asset = ep1_generic_jewelry_01_a_entity
