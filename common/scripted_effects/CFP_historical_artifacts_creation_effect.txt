@@ -30,7 +30,7 @@ create_artifact_rk_ghostspeak_effect = {
 create_artifact_rk_tasty_book_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
+	set_artifact_rarity_famed = yes
 
 	# Create the artifact
 	create_artifact = {	
@@ -38,7 +38,7 @@ create_artifact_rk_tasty_book_effect = {
 		description = tasty_book_desc
 		template = ﻿rk_vamp_item_template
 		type = miscellaneous
-		visuals = charos
+		visuals = book
 		wealth = scope:wealth
 		quality = scope:quality
 		history = {
