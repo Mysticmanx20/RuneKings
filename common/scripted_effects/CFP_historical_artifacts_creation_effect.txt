@@ -48,7 +48,7 @@ create_artifact_rk_tasty_book_effect = {
 			recipient = character:900500
 			location = province:100 #CastleDrakan
 		}
-		modifier = rk_charos
+		modifier = rk_tasty_book
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
