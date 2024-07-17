@@ -13,6 +13,6 @@ rk_charos = {
 
 rk_elid_statue = {
 	monthly_piety = 0.3
-	same_faith_opinion = 5
-	development_growth_factor = 0.1
+	clergy_opinion = 10
+	health = medium_health_bonus
 }
