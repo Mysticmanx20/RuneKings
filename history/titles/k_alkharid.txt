@@ -94,14 +94,14 @@ c_nardah = {
 	9150.1.1 = {
 		holder = 900817
 		liege = 0
-		change_development_level = 7
+		change_development_level = 6
 	}
 }
 
 c_southdesert = {
 	9150.1.1 = {
-		holder = 900817
-		change_development_level = 4
+		holder = desert007
+		change_development_level = 2
 	}
 }
 
@@ -109,6 +109,7 @@ c_agility = {
 	9168.1.1 = {
 		liege = 0
 		holder = 900862
+		change_development_level = 2
 	}
 }
 
