@@ -17,16 +17,28 @@
 			gold > 0
 		}
 
+		# scope:actor = {
+		# 	can_start_scheme = {
+		# 		type = steal_gold
+		# 		target = scope:recipient
+		# 	}
+		# }
+
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = {
-			can_start_scheme = {
-				type = steal_gold
-				target = scope:recipient
+		custom_tooltip = {
+			text = valid_theft
+			scope:actor = {
+				can_start_scheme = {
+					type = steal_gold
+					target = scope:recipient
+				}
 			}
 		}
+		
 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+		
 	}
 
 	desc = {
@@ -90,6 +102,7 @@
 	}
 	
 	auto_accept = yes
+
 
 	ai_will_do = {
 		base = 0

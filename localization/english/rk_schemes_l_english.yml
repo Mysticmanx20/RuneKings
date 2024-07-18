@@ -22,6 +22,7 @@
  i_steal_gold_must_have_claim_blocker:0 "[TARGET_CHARACTER.GetShortUIName] does not own an artifact that I have a claim on"
 
  STEAL_GOLD_SUCCESS_DESC:1 "You will steal gp from [TARGET_CHARACTER.GetShortUIName]"
+ STEAL_GOLD_DISCOVER_DESC:1 "You are not exposed for the [crime|E] of theft"
  steal_gold_invalidated_war:0 "Due to the War between you, you can no longer $steal_gold_action$ [target.GetShortUIName]"
  steal_gold_invalidated_dead:0 "[target.GetShortUIName|U] has passed away. You can no longer $steal_gold_action$ [target.GetHerHim]"
  steal_gold_can_start_scheme:0 "I cannot $steal_gold_action$ at this time"
@@ -29,3 +30,4 @@
  start_theft_interaction:0 "Steal gp #weak (Scheme)#!"
  start_theft_interaction_notification:0 "Thieving"
  scheme_interaction_tt_theft_approved:1 "Attempt to thieve from [recipient.GetShortUINameNoTooltip]"
+ valid_theft:0 "Target must be within your realm or a neighboring de jure title"

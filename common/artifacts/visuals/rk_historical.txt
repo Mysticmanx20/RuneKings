@@ -5,8 +5,8 @@
 }
 
 elid_statue = {
-	icon = "artifact_charos.dds"
-	asset = ep1_generic_jewelry_01_a_entity
+	icon = "artifact_elid_statue.dds"
+	asset = ep1_western_statue_01_male_entity
 }
 
 ghost = {
