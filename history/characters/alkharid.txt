@@ -287,6 +287,14 @@
 	9134.1.1 = {
 		birth = yes
 	}
+	9168.10.10 = {
+		effect = {
+			add_character_modifier = {
+			modifier = known_non_believer
+			days = 3650
+			}
+		}
+	}
 
 }
 
