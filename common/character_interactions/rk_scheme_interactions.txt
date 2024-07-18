@@ -17,23 +17,13 @@
 			gold > 0
 		}
 
-		# scope:actor = {
-		# 	can_start_scheme = {
-		# 		type = steal_gold
-		# 		target = scope:recipient
-		# 	}
-		# }
-
 	}
 
 	is_valid_showing_failures_only = {
-		custom_tooltip = {
-			text = valid_theft
-			scope:actor = {
-				can_start_scheme = {
-					type = steal_gold
-					target = scope:recipient
-				}
+		scope:actor = {
+			can_start_scheme = {
+				type = steal_gold
+				target = scope:recipient
 			}
 		}
 		

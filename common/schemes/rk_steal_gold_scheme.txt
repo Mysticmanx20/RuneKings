@@ -39,21 +39,14 @@
 		scope:target = {
 			AND = {
 				gold > 0
-				OR = {
-					is_courtier_of = scope:owner
-					is_vassal_or_below_of = scope:owner
-					any_held_title = {
-						is_neighbor_to_realm = scope:owner
+				scope:target = {
+					OR = {
+						exists = location
+						in_diplomatic_range = scope:owner
 					}
 				}
 			}
 			
-		}
-
-		scope:owner = {
-			any_realm_county = {
-				is_neighbor_to_realm = scope:target
-			}
 		}
 
 	}

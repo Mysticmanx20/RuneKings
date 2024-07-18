@@ -54,13 +54,21 @@ goblin_village_scripted_effect = {
 
 #Used in the immediate of the Scheme Owner's success event
 steal_gold_success_effect = {
-	scope:target = {
-		remove_short_term_gold = medium_treasury_value
-	}
 
 	#scheme owner gets the theif trait/secret for successful theft
 	scope:owner = {
-		add_gold = scope:target.medium_treasury_value
+		if = {
+			limit = {
+				scope:target = {
+					gold < medium_treasury_value
+				}
+			}
+			add_gold = scope:target.gold
+		}
+		else = {
+			add_gold = scope:target.medium_treasury_value
+		}
+
 		if = {
 			limit = {
 				exists = scope:scheme_discovered
@@ -94,6 +102,19 @@ steal_gold_success_effect = {
 				}
 			}
 		}
+	}
+
+	scope:target = {
+		if = {
+			limit = {
+				gold < medium_treasury_value
+			}
+			remove_short_term_gold = gold
+		}
+		else = {
+			remove_short_term_gold = medium_treasury_value
+		}
+		
 	}
 }
 
