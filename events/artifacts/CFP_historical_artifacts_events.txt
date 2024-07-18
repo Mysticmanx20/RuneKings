@@ -33,7 +33,7 @@ cfp_historical_artifacts.0001 = {
 			}
 		}
 		if = {
-			title:c_nardah.holder = {
+			title:c_southdesert.holder = {
 				create_artifact_rk_elid_statue_effect = { OWNER = this }
 			}
 		}
