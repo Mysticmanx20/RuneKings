@@ -1200,3 +1200,19 @@ desert006 = {
 		death = yes
 	}
 }
+
+desert007 = {
+	name = "Genie"
+	#dynasty 'of the lamp'
+	culture = menaphite
+	religion = menaph
+	trait = greedy
+	trait = callous
+	trait = arrogant
+	trait = education_learning_3
+	disallow_random_traits = yes
+	9134.1.1 = {
+		birth = yes
+	}
+
+}
