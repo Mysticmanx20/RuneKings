@@ -68,6 +68,14 @@ c_icepath = {
 	}
 }
 
+c_trollweiss = {
+	9163.1.1 = {
+		liege = 0
+		holder = troll019
+		change_development_level = 1
+	}
+}
+
 c_trollwild = {
 	9163.1.1 = {
 		liege = 0

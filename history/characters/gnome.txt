@@ -243,3 +243,141 @@ gnome016 = {
 		birth = yes
 	}
 }
+
+gnome017 = {
+	name = "Wingstone"
+	culture = gnome
+	religion = guthix
+	trait = brave
+	trait = patient
+	trait = calm
+	trait = education_martial_2
+	trait = lifestyle_traveler
+	9141.1.1 = {
+		birth = yes
+	}
+	9167.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
+}
+
+gnome018 = {
+	name = "Ferrnook"
+	culture = gnome
+	religion = guthix
+	trait = honest
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = 900106
+	}
+}
+
+gnome019 = {
+	name = "Gimblewap"
+	culture = gnome
+	religion = guthix
+	trait = honest
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand017
+	}
+}
+
+gnome023 = {
+	name = "Spanfipple"
+	culture = gnome
+	religion = guthix
+	trait = honest
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900301
+	}
+}
+
+gnome024 = {
+	name = "Manglethorp"
+	culture = gnome
+	religion = guthix
+	trait = eccentric
+	trait = patient
+	trait = content
+	trait = education_learning_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = dwarf001
+	}
+}
+
+gnome020 = {
+	name = "Imblewyn"
+	culture = gnome
+	religion = guthix
+	trait = eccentric
+	trait = patient
+	trait = content
+	trait = education_learning_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand086
+	}
+}
+
+gnome021 = {
+	name = "Penwie"
+	culture = gnome
+	religion = guthix
+	trait = brave
+	trait = patient
+	trait = calm
+	trait = education_martial_2
+	trait = lifestyle_traveler
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
+}
+
+gnome022 = {
+	name = "Brambickle"
+	culture = gnome
+	religion = guthix
+	trait = brave
+	trait = patient
+	trait = calm
+	trait = education_martial_2
+	trait = lifestyle_traveler
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		effect = {
+			move_to_pool = yes
+		}
+	}
+}
+

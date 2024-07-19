@@ -1214,5 +1214,10 @@ desert007 = {
 	9134.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		effect = {
+			add_visiting_courtier = character:gnome017
+		}
+	}
 
 }

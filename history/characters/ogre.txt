@@ -238,6 +238,11 @@ ogre019 = {
 	9131.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		effect = {
+			add_visiting_courtier = character:gnome021
+		}
+	}
 }
 
 ogre020 = {

@@ -228,4 +228,16 @@ troll018 = {
 	}
 }
 
-
+troll019 = {
+	name = "Branch"
+	religion = bandos
+	culture = troll
+	9134.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		effect = {
+			add_visiting_courtier = character:gnome022
+		}
+	}
+}
