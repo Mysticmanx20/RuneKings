@@ -822,6 +822,7 @@
     religion = guthix
     trait = lifestyle_herbalist
     trait = compassionate
+    trait = education_learning_2
     9120.1.1 = {
         birth = yes
     }
@@ -837,6 +838,8 @@
     religion = saradomin
     trait = brave
     trait = just
+    trait = compassionate
+    trait = education_martial_2
     9141.1.1 = {
         birth = yes
     }
