@@ -502,6 +502,7 @@
 	dynasty = 100935
 	culture = misthalin
 	religion = saradomin
+	trait = drunkard
 	martial = 13
 	9140.1.1 = {
 		birth = yes
@@ -513,6 +514,8 @@
 	dynasty = 100936
 	culture = misthalin
 	religion = saradomin
+	trait = drunkard
+	trait = humble
 	learning = 13
 	9139.1.1 = {
 		birth = yes
