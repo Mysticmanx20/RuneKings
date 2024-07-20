@@ -532,3 +532,5 @@ default_coastal_sea=coastal_sea
 529=drylands
 530=drylands
 531=drylands
+532=mountains
+533=mountains

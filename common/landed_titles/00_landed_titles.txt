@@ -910,6 +910,16 @@ e_zaros = {
 					province = 171
 				}
 
+				b_sherpa = {
+					color = { 107 90 107}
+					province = 533
+				}
+
+				b_outerburth = {
+					color = { 114 96 94 }
+					province = 532
+				}
+
 			}
 
 			c_heroes = {

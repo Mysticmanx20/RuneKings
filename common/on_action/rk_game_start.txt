@@ -273,6 +273,14 @@ on_game_start_after_lobby = {
 			}
 		}
 
+		culture:asgarnia = {
+			change_cultural_acceptance = {
+				target = culture:dwarf
+				value = 50
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
 		culture:briton = {
 			change_cultural_acceptance = {
 				target = culture:kandarin

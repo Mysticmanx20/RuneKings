@@ -16,9 +16,13 @@
 
 900301 = {
 	name = "Vallance"
+    dynasty = 100996
 	religion = saradomin	
 	culture = asgarnia
-	health = 2
+    trait = trusting
+    trait = chaste
+    trait = weak
+	health = 2.5
 	9097.1.1 = {
 		birth = yes
 	}
@@ -26,6 +30,7 @@
 
 900303 = {
 	name = "Daquarius"
+    dynasty_house = house_rennard
 	culture = asgarnia
     religion = zamorak
     trait = humble
@@ -41,8 +46,12 @@
 
 900304 = {
     name = "Anlaf"
+    dynasty = 100996
     religion = saradomin
     culture = asgarnia
+    trait = cynical
+    trait = paranoid
+    trait = wrathful
     father = 900301
     9143.1.1 = {
         birth = yes
@@ -51,8 +60,13 @@
 
 900305 = {
     name = "Amik"
+    dynasty_house = house_varze
     religion = saradomin
     culture = asgarnia
+    trait = just
+    trait = brave
+    trait = zealous
+    trait = honest
     9144.1.1 = {
         birth = yes
         employer = 900301
@@ -262,6 +276,7 @@
 
 900322 = {
     name = "Zandar"
+    dynasty_house = house_darkwiz
     religion = zamorak
     culture = asgarnia
     9142.1.1 = {
@@ -295,6 +310,7 @@
 
 900325 = {
     name = "Tiffy"
+    dynasty_house = house_cashien
     religion = saradomin
     culture = asgarnia
     9113.1.1 = {
@@ -591,6 +607,7 @@
 
 900359 = {
     name = "Lensig"
+    dynasty = 100998
     female = yes
     religion = zamorak
     culture = asgarnia
@@ -616,6 +633,7 @@
 
 900360 = {
     name = "Dulcin"
+    dynasty = 100998
     religion = zamorak
     culture = asgarnia
     trait = education_intrigue_1
@@ -812,7 +830,9 @@
 
 900376 = {
     name ="Achietties"
+    dynasty = 100994
     female = yes
+    sexuality = homosexual
     culture = asgarnia
     religion = saradomin
     trait = brave
@@ -824,7 +844,7 @@
 
 900377 = {
     name = "Sanafin"
-    #dynasty Valzin
+    dynasty = 100999
     female = yes
     culture = misthalin
     religion = zamorak
@@ -844,6 +864,7 @@
 
 900378 = {
     name = "Shadwell"
+    dynasty = 100998
     culture = asgarnia
     religion = zamorak
     trait = wrathful
@@ -859,6 +880,7 @@
 
 900379 = {
     name = "Milton"
+    dynasty = 100998
     culture = asgarnia
     religion = zamorak
     trait = vengeful
@@ -874,6 +896,7 @@
 
 900380 = {
     name = "Sulla"
+    dynasty = 100998
     culture = asgarnia
     religion = zamorak
     trait = wrathful
@@ -881,7 +904,7 @@
     trait = vengeful
     trait = scarred
     trait = maimed
-    9094.5.10 = {
+    9114.5.10 = {
         birth = yes
     }
     9165.6.6 = {
@@ -984,7 +1007,7 @@ asgarn006 = {
 		birth = yes
 	}
     9159.1.1 = {
-        employer = 900304
+        employer = asgarn011
     }
 }
 
@@ -993,12 +1016,16 @@ asgarn007 = {
 	religion = guthix
 	culture = dwarf
 	trait = reclusive
-	trait = education_learning_1
+    trait = stubborn
+	trait = education_stewardship_1
 	9122.1.1 = {
 		birth = yes
 	}
+    9142.1.1 = {
+        add_spouse = character:asgarn008
+    }
     9159.1.1 = {
-        employer = 900304
+        employer = asgarn011
     }
 }
 
@@ -1013,7 +1040,7 @@ asgarn008 = {
 		birth = yes
 	}
     9159.1.1 = {
-        employer = 900304
+        employer = asgarn011
     }
 }
 
@@ -1024,12 +1051,12 @@ asgarn009 = {
 	trait = education_stewardship_1
 	trait = brave
 	trait = compassionate
-	#steward of Heroes' Guild
 	9122.1.1 = {
 		birth = yes
 	}
     9159.1.2 = {
         employer = 900376
+        give_council_position = councillor_steward
     }
 }
 
@@ -1049,10 +1076,12 @@ asgarn010 = {
 
 asgarn011 = {
 	name = "Harrallak"
-	#dynasty Menarous
+	dynasty = 100992
 	religion = saradomin
 	culture = asgarnia
 	trait = generous
+    trait = brave
+    trait = arrogant
 	trait = education_martial_3
 	9138.1.1 = {
 		birth = yes
@@ -1101,7 +1130,7 @@ driud002 = {
 
 driud003 = {
 	name = "Ivy"
-	#dynasty Sophista
+	dynasty = 100993
 	female = yes
 	religion = guthix
 	culture = asgarnia
@@ -1119,6 +1148,7 @@ driud003 = {
 driud004 = {
 	name = "Runestax"
 	female = yes
+    sexuality = homosexual
 	religion = guthix
 	culture = asgarnia
 	trait = lifestyle_herbalist
@@ -1134,6 +1164,7 @@ driud004 = {
 
 asgarn014 = {
     name = "Perior"
+    dynasty = 100997
     religion = saradomin
     culture = asgarnia
     trait = education_martial_5
@@ -1208,6 +1239,7 @@ asgarn018 = {
 
 asgarn019 = {
     name = "Matthias"
+    dynasty = 100995
     religion = guthix
     culture = asgarnia
     trait = education_martial_3
@@ -1219,6 +1251,7 @@ asgarn019 = {
 
 asgarn020 = {
     name = "Tyr"
+    dynasty = 100995
     religion = guthix
     culture = asgarnia
     trait = education_martial_3
@@ -1234,6 +1267,7 @@ asgarn020 = {
 
 asgarn021 = {
     name = "Korasi"
+    dynasty = 100995
     female = yes
     religion = guthix
     culture = asgarnia
@@ -1271,6 +1305,7 @@ asgarn022 = {
 
 asgarn023 = {
     name = "Blacklock"
+    dynasty = 100998
     religion = zamorak
     culture = asgarnia
     trait = wrathful

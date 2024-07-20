@@ -55,3 +55,34 @@ house_firestaff = {
 	name = "dynn_firestaff"
 	dynasty = 100946
 }
+
+house_darkwiz = {
+	prefix = "dynnp_of"
+	name = "dynn_darkwiz"
+	dynasty = 100946
+}
+
+#Holy Orders
+#zam
+
+house_rennard = {
+	name = "dynn_Rennard"
+	dynasty = 100998
+}
+
+#sara
+house_varze = {
+	name = "dynn_Varze"
+	dynasty = 100997
+}
+
+house_cashien = {
+	name = "dynn_Cashien"
+	dynasty = 100997
+}
+
+#guthix
+house_ellerian = {
+	name = "dynn_Ellerian"
+	dynasty = 100995
+}

@@ -323,3 +323,16 @@
 	culture = asgarnia
 	holding = castle_holding
 }
+
+532 = {
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+
+}
+
+533 = {
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}

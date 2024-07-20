@@ -1803,6 +1803,7 @@ ham001 = {
 
 900219 = {
     name = "Denath"
+	dynasty_house = house_darkwiz
     culture = misthalin
     religion = zamorak
 	prowess = 4
