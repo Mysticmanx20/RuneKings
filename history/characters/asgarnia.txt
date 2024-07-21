@@ -1161,8 +1161,11 @@ driud004 = {
 	}
 	9168.1.1 = {
 		employer = 900373
+        effect = {
+			set_relation_lover = { reason = lover_history target = character:900376 }
+		}
 	}
-	#lover of Acheitties
+	
 }
 
 asgarn014 = {
