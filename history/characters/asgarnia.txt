@@ -1050,7 +1050,6 @@ asgarn008 = {
 
 asgarn009 = {
 	name = "Helemos"
-    dynasty = 100994
 	religion = saradomin
 	culture = asgarnia
 	trait = education_stewardship_1
