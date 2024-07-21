@@ -147,7 +147,7 @@
 	}
 	9168.1.1 = {
 		effect = {
-			set_relation_lover = { reason = lover_history target = character:900147 }
+			set_relation_best_friend = { reason = lover_history target = character:900147 }
 		}
 	}
 

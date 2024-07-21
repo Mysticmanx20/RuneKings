@@ -96,29 +96,29 @@ minor_disease_frequency = {
 	}
 }
 
-black_death_occurrence = {
+# black_death_occurrence = {
 	
-	categories = {
-		difficulty health historicity
-	}
+# 	categories = {
+# 		difficulty health historicity
+# 	}
 	
-	default = bd_occurrence_historical
-	bd_occurrence_historical = {}
-	bd_occurrence_organic = {}
-	bd_occurrence_random = {}
-}
+# 	default = bd_occurrence_historical
+# 	bd_occurrence_historical = {}
+# 	bd_occurrence_organic = {}
+# 	bd_occurrence_random = {}
+# }
 
-black_death_frequency = {
+# black_death_frequency = {
 	
-	categories = {
-		difficulty health historicity
-	}
+# 	categories = {
+# 		difficulty health historicity
+# 	}
 	
-	default = bd_frequency_once
-	bd_frequency_once = {}
-	bd_frequency_unlimited = {}
-	bd_frequency_never = { flag = blocks_achievements }
-}
+# 	default = bd_frequency_once
+# 	bd_frequency_once = {}
+# 	bd_frequency_unlimited = {}
+# 	bd_frequency_never = { flag = blocks_achievements }
+# }
 
 other_epidemic_frequency = {
 	
@@ -244,7 +244,7 @@ hybrid_culture_ai_frequency = {
 		ai culture
 	}
 	
-	default = default_hybrid_culture_ai_frequency
+	default = less_common_hybrid_culture_ai_frequency
 	#dlc = "The Royal Court"
 
 	default_hybrid_culture_ai_frequency = {
@@ -288,7 +288,7 @@ divergent_culture_ai_frequency = {
 		ai culture
 	}
 	
-	default = default_divergent_culture_ai_frequency
+	default = less_common_divergent_culture_ai_frequency
 	#dlc = "The Royal Court"
 
 	default_divergent_culture_ai_frequency = {
@@ -355,26 +355,26 @@ regional_heresy = {
 	}
 }
 
-mongol_invasion = {
+# mongol_invasion = {
 	
-	categories = {
-		difficulty historicity
-	}
+# 	categories = {
+# 		difficulty historicity
+# 	}
 	
-	default = default_mongol_invasion
+# 	default = default_mongol_invasion
 
-	default_mongol_invasion = {
+# 	default_mongol_invasion = {
 	
-	}
+# 	}
 	
-	never_mongol_invasion = {
-		flag = blocks_achievements
-	}
+# 	never_mongol_invasion = {
+# 		flag = blocks_achievements
+# 	}
 	
-	random_mongol_invasion = {
+# 	random_mongol_invasion = {
 	
-	}
-}
+# 	}
+# }
 
 random_harm = {
 		
@@ -513,7 +513,7 @@ diplomatic_range = {
 		tweaks historicity
 	}
 	
-	default = default_diplomatic_range
+	default = restricted_diplomatic_range
 
 	default_diplomatic_range = {
 	
@@ -807,59 +807,59 @@ domain_limit_tweaks = {
 	}
 }
 
-hungarian_migration = {
+# hungarian_migration = {
 	
-	categories = {
-		historicity flavor
-	}
+# 	categories = {
+# 		historicity flavor
+# 	}
 	
-	default = launch_immediate
-	launch_historical = {}
-	launch_immediate = {}
-	launch_random = {}
-	launch_off = { flag = blocks_achievements }
-}
+# 	default = launch_immediate
+# 	launch_historical = {}
+# 	launch_immediate = {}
+# 	launch_random = {}
+# 	launch_off = { flag = blocks_achievements }
+# }
 
-dlc_fp1_scandinavian_adventurers = {
+# dlc_fp1_scandinavian_adventurers = {
 	
-	categories = {
-		difficulty historicity flavor
-	}
+# 	categories = {
+# 		difficulty historicity flavor
+# 	}
 	
-	default = fp1_scandi_adventurers_frequent
-	#dlc = "The Northern Lords"
-	fp1_scandi_adventurers_rare = { flag = blocks_achievements }
-	fp1_scandi_adventurers_occasional = {}
-	fp1_scandi_adventurers_frequent = {}
-	fp1_scandi_adventurers_apocalyptic = {}
-	fp1_scandi_adventurers_off = { flag = blocks_achievements }
-}
+# 	default = fp1_scandi_adventurers_frequent
+# 	#dlc = "The Northern Lords"
+# 	fp1_scandi_adventurers_rare = { flag = blocks_achievements }
+# 	fp1_scandi_adventurers_occasional = {}
+# 	fp1_scandi_adventurers_frequent = {}
+# 	fp1_scandi_adventurers_apocalyptic = {}
+# 	fp1_scandi_adventurers_off = { flag = blocks_achievements }
+# }
 
-dissolution_umayyad = {
+# dissolution_umayyad = {
 	
-	categories = {
-		historicity flavor
-	}
+# 	categories = {
+# 		historicity flavor
+# 	}
 	
-	default = dissolution_unconstrained
-	dissolution_unconstrained = {}
-	dissolution_after_caliph_death = {}
-	dissolution_historical_date = {}
-}
+# 	default = dissolution_unconstrained
+# 	dissolution_unconstrained = {}
+# 	dissolution_after_caliph_death = {}
+# 	dissolution_historical_date = {}
+# }
 
-dlc_fp3_seljuk_invasion = {
+# dlc_fp3_seljuk_invasion = {
 
-	categories = {
-		difficulty historicity
-	}
+# 	categories = {
+# 		difficulty historicity
+# 	}
 	
-	default = default_seljuk_invasion
+# 	default = default_seljuk_invasion
 
-	default_seljuk_invasion = {}
+# 	default_seljuk_invasion = {}
 	
-	never_seljuk_invasion = {
-		flag = blocks_achievements
-	}
+# 	never_seljuk_invasion = {
+# 		flag = blocks_achievements
+# 	}
 
-	random_seljuk_invasion = {}
-}
+# 	random_seljuk_invasion = {}
+# }

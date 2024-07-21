@@ -328,6 +328,12 @@ c_burthorpe = {
 	}
 }
 
+b_burthshop = {
+	9160.1.1 = {
+		holder = asgarn025
+	}
+}
+
 c_heroes = {
 	9159.1.2 ={
 		liege = d_burthorpe

@@ -885,7 +885,7 @@
     }
 	9165.1.1 = {
 		effect = {
-			set_relation_lover = { reason = lover_friend_to_lover target = character:900158 }
+			set_relation_best_friend = { reason = lover_friend_to_lover target = character:900158 }
 		}
 	}
 }
@@ -1148,7 +1148,7 @@
 	}
 	9167.1.1 = {
 		effect = {
-			set_relation_lover = { reason = lover_history target = character:900171 }
+			set_relation_best_friend = { reason = lover_history target = character:900171 }
 		}
 		employer = 900114
 	}

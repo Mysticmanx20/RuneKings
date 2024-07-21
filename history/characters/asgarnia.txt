@@ -1162,7 +1162,7 @@ driud004 = {
 	9168.1.1 = {
 		employer = 900373
         effect = {
-			set_relation_lover = { reason = lover_history target = character:900376 }
+			set_relation_best_friend = { reason = lover_history target = character:900376 }
 		}
 	}
 	
@@ -1324,13 +1324,23 @@ asgarn023 = {
 
 asgarn024 = {
     name = "Dorel"
-    #dynasty Ellerian
+    dynasty_house = house_ellerian
     religion = guthix
     culture = asgarnia
     trait = cynical
     trait = brave
     trait = ambitious
     trait = education_martial_2
+    9135.1.1 = {
+        birth = yes
+    }
+}
+
+asgarn025 = {
+    name = "Wistan"
+    religion = saradomin
+    culture = asgarnia
+    trait = education_stewardship_2
     9135.1.1 = {
         birth = yes
     }
