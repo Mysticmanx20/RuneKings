@@ -196,8 +196,9 @@
  dynn_Burgiss:0 "Burgiss"
  dynn_Jones:0 "Jones"
  dynn_Magis:0 "Magis"
- dynn_BlackArm:0 "Black Arm"
+ dynn_BlackArm:0 "the Black Arm Gang"
  dynn_Raven:0 "Raven"
+ dynn_Phoenix:0 "the Phoenix Gang"
  dynn_Enroy:0 "Enroy"
  dynn_Brigson:0 "Brigson"
  dynn_Trimmly:0 "Trimmly"
@@ -286,6 +287,7 @@
  dynn_darkwiz:0 "the Dark Wizards"
  dynn_Voidknight:0 "the Void Knights"
  dynn_Ellerian:0 "Ellerian"
+ dynn_Montana:0 "Montana"
 
 
 ###Dwarf

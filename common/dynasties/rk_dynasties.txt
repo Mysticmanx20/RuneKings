@@ -97,25 +97,27 @@
 	culture = misthalin
 }
 
-100920 = {
+# 100920 = {
+# 	name = "dynn_BlackArm"
+# 	culture = misthalin
+# }
+
+100921 = {
+	prefix = "dynnp_of"
 	name = "dynn_BlackArm"
 	culture = misthalin
 }
 
-100921 = {
-	name = "dynn_Raven"
-	culture = misthalin
-}
-
 100922 = {
-	name = "dynn_Enroy"
+	prefix = "dynnp_of"
+	name = "dynn_Phoenix"
 	culture = misthalin
 }
 
-100923 = {
-	name = "dynn_Brigson"
-	culture = misthalin
-}
+# 100923 = {
+# 	name = "dynn_Brigson"
+# 	culture = misthalin
+# }
 
 100924 = {
 	name = "dynn_Trimmly"
@@ -516,5 +518,10 @@
 100999 = {
 	name = "dynn_Valzin"
 	culture = misthalin
+}
+
+101000 = {
+	name = "dynn_Montana"
+	culture = pirate
 }
 

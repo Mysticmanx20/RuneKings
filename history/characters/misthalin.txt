@@ -1834,59 +1834,68 @@ ham001 = {
 
 900221 = {
     name = "Baraek"
-    dynasty = 100923
+    dynasty_house = house_brigson
     culture = misthalin
     religion = zamorak
-    9139.1.1 = {
+	trait = greedy
+	trait = deceitful
+    9140.1.1 = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900127
 	}
 }
 
 900222 = {
     name = "Straven"
-    dynasty = 100922
+    dynasty_house = house_enroy
     culture = misthalin
     religion = saradomin
-    9140.1.1 = {
+	trait = greedy
+	trait = thief
+	trait = education_intrigue_1
+    9139.1.1 = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900126
 	}
 }
 
 900223 = {
     name = "Katrine"
-    dynasty = 100921
+    dynasty_house = house_raven
 	female = yes
     culture = misthalin
     religion = saradomin
+	trait = thief
+	trait = callous
+	trait = education_intrigue_1
     9140.1.1  = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900127
 	}
 }
 
 900224 = {
     name = "Jonny"
     #nickname The Beard
-    dynasty = 100920
+    dynasty_house = house_blackarm
     culture = misthalin
     religion = saradomin
-    9139.1.1 = {
+	trait = thief
+    9144.1.1 = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900127
 	}
 }
 
@@ -1945,8 +1954,8 @@ ham001 = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900127
 	}
 }
 
@@ -1960,8 +1969,8 @@ ham001 = {
         birth = yes
 		employer = 900108
     }
-	9160.1.1 = {
-		employer = 900106
+	9168.1.1 = {
+		employer = 900127
 	}
 }
 
@@ -2083,7 +2092,7 @@ misth003 = {
 misth004 = {
 	name = "Keli"
 	female = yes
-	dynasty = 100921
+	dynasty_house = house_raven
 	religion = saradomin
 	culture = misthalin
 	trait = arrogant
@@ -2595,6 +2604,39 @@ misth034 = {
 	}
 }
 
+misth035 = {
+	name = "Straven"
+	dynasty = 100922
+	culture = misthalin
+	religion = saradomin
+	trait = greedy
+	trait = thief
+	trait = education_intrigue_1
+	9139.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		death = yes
+	}
 
+}
+
+misth036 = {
+    name = "Katrine"
+    dynasty = 100921
+	female = yes
+    culture = misthalin
+    religion = saradomin
+	trait = thief
+	trait = callous
+	trait = education_intrigue_1
+    9140.1.1  = {
+        birth = yes
+		employer = 900108
+    }
+	9168.1.1 = {
+		death = yes
+	}
+}
 
 

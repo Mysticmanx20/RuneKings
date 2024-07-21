@@ -293,3 +293,49 @@ karam023 = {
 		give_council_position = councillor_court_chaplain
 	}
 }
+
+karam024 = {
+	name = "Pete"
+	dynasty = 101000
+	religion = godless
+	culture = piratecul 
+	trait = deceitful
+	trait = paranoid
+	trait = thief
+	trait = education_intrigue_3
+	9143.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = karam014
+	}
+
+}
+
+karam025 = {
+	name = "Grip"
+	culture = piratecul 
+	religion = godless
+	trait = thief
+	trait = education_intrigue_2
+	9148.1.1 = {
+		birth = yes
+	}
+	9167.1.1 = {
+		employer = karam014
+	}
+}
+
+karam026 = {
+	name = "Garv"
+	culture = piratecul 
+	religion = godless
+	trait = thief
+	trait = education_martial_2
+	9148.1.1 = {
+		birth = yes
+	}
+	9167.1.1 = {
+		employer = karam014
+	}
+}

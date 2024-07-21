@@ -86,3 +86,34 @@ house_ellerian = {
 	name = "dynn_Ellerian"
 	dynasty = 100995
 }
+
+#Thieving gangs
+
+#Phoenix gang
+house_brigson = {
+	name = "dynn_Brigson"
+	dynasty = 100922
+}
+
+house_enroy = {
+	name = "dynn_Enroy"
+	dynasty = 100922
+}
+
+house_phoenix = {
+	prefix = "dynnp_of"
+	name = "dynn_Phoenix"
+	dynasty = 100922
+}
+
+#Black Arm Gang
+house_raven = {
+	name = "dynn_Raven"
+	dynasty = 100921
+}
+
+house_blackarm = {
+	prefix = "dynnp_of"
+	name = "dynn_BlackArm"
+	dynasty = 100921
+}
