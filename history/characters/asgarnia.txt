@@ -957,6 +957,7 @@ asgarn002 = {
 	}
     9159.1.1 = {
         employer = 900304
+        give_council_position = councillor_chancellor
     }
 }
 
@@ -1009,7 +1010,7 @@ asgarn006 = {
 	9119.1.1 = {
 		birth = yes
 	}
-    9159.1.1 = {
+    9165.1.1 = {
         employer = asgarn011
     }
 }
@@ -1027,7 +1028,7 @@ asgarn007 = {
     9142.1.1 = {
         add_spouse = character:asgarn008
     }
-    9159.1.1 = {
+    9165.1.1 = {
         employer = asgarn011
     }
 }
@@ -1042,13 +1043,14 @@ asgarn008 = {
 	9123.1.1 = {
 		birth = yes
 	}
-    9159.1.1 = {
+    9165.1.1 = {
         employer = asgarn011
     }
 }
 
 asgarn009 = {
 	name = "Helemos"
+    dynasty = 100994
 	religion = saradomin
 	culture = asgarnia
 	trait = education_stewardship_1
