@@ -200,7 +200,15 @@ e_zaros = {
 					province = 53
 					definite_form = yes
 				}
+			}
 
+			c_varalley = {
+				color = { 157 82 62 }
+
+				b_varalley = {
+					color = { 157 82 62}
+					province = 534
+				}
 			}
 
 			c_var = {
@@ -215,6 +223,15 @@ e_zaros = {
 					color = {25 120 233 }
 					province = 54
 					definite_form = yes
+				}
+			}
+
+			c_southvar = {
+				color = { 255 137 179 }
+
+				b_blackarm = {
+					color = { 255 137 179 }
+					province = 535
 				}
 			}
 		}

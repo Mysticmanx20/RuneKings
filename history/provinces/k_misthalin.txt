@@ -448,3 +448,15 @@
 	holding = castle_holding
 }
 
+534 = {
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
+535 = {
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+

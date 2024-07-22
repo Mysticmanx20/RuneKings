@@ -47,8 +47,8 @@ c_eastvar = {
 		liege = k_misthalin
 	}
 	9168.1.1 = {
-	holder = 900126
-	change_development_level = 18
+		holder = 900126
+		change_development_level = 18
 	}
 }
 
@@ -57,14 +57,34 @@ c_var = {
 		liege = k_misthalin
 	}
 	9168.1.1 = {
-	holder = 900127
-	change_development_level = 21
+		holder = 900127
+		change_development_level = 21
 	}
 }
 
 b_bluemoon = {
 	9168.1.1 = {
 	holder = 900128
+	}
+}
+
+c_varalley = {
+	5000.1.1 = {
+		liege = k_misthalin
+	}
+	9165.1.1 = {
+		holder = 900222
+		change_development_level = 9
+	}
+}
+
+c_southvar = { 
+	5000.1.1 = {
+		liege = k_misthalin
+	}
+	9165.1.1 = {
+		holder = 900223
+		change_development_level = 9
 	}
 }
 

@@ -534,3 +534,5 @@ default_coastal_sea=coastal_sea
 531=drylands
 532=mountains
 533=mountains
+534=plains
+535=plains

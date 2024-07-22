@@ -1858,11 +1858,7 @@ ham001 = {
 	trait = education_intrigue_1
     9139.1.1 = {
         birth = yes
-		employer = 900108
     }
-	9168.1.1 = {
-		employer = 900126
-	}
 }
 
 900223 = {
@@ -1879,7 +1875,7 @@ ham001 = {
 		employer = 900108
     }
 	9168.1.1 = {
-		employer = 900127
+		set_relation_rival = { target = character:900222 reason = rival_historical }
 	}
 }
 
@@ -2098,6 +2094,7 @@ misth004 = {
 	trait = arrogant
 	trait = greedy
 	trait = callous
+	trait = thief
 	trait = education_intrigue_1
 	disallow_random_traits = yes
 	9141.1.1 = {
