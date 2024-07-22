@@ -574,6 +574,7 @@
 	dynasty = 100911
 	culture = misthalin
 	religion = saradomin
+	trait = compassionate
 	9135.1.1 = {
 		birth = yes
 	}
@@ -584,11 +585,9 @@
 	dynasty = 100908
 	culture = misthalin
 	religion = saradomin
+	trait = arrogant
 	9133.1.1 = {
 		birth = yes
-	}
-	9168.1.1 = {
-		add_courtier = character:900136
 	}
 }
 
@@ -599,6 +598,7 @@
 	father = 900134
 	culture = misthalin
 	religion = saradomin
+	trait = lustful
 	9153.1.1 = {
 		birth = yes
 	}
@@ -610,26 +610,34 @@
 	dynasty = 100910
 	culture = misthalin
 	religion = saradomin
+	trait = honest
+	trait = lustful
+	trait = trusting
+	trait = education_intrigue_1
+	disallow_random_traits = yes
 	9149.1.1 = {
 		birth = yes
+	}
+	9168.1.1= {
+		employer = 900134
 	}
 }
 
 900137 = {
-    name = "Fiera"
+    	name = "Fiera"
 	dynasty = 8000
-    female = yes
-    religion = v
-    culture = fremennik
-    8996.1.1 = {
-        birth = yes
-    }
+    	female = yes
+   	religion = v
+    	culture = fremennik
+    	8996.1.1 = {
+        	birth = yes
+    	}
 	
-    9033.1.1 = {
-        death = {
+    	9033.1.1 = {
+        	death = {
 			death_reason = death_ill
 		}
-    }
+    	}
 }
 
 900138 = {
