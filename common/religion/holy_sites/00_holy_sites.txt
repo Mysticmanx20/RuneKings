@@ -103,8 +103,7 @@ demon = {
 #Guthix
 
 tavcircle = {
-	county = c_taverley
-	barony = b_tavcircle
+	county = c_eweans
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -310,8 +309,7 @@ mosleharm = {
 ### Menaphites
 
 magic = {
-	county = c_bandit
-	barony = b_ancientp
+	county = c_deserttreasure
 
 	character_modifier = {
 		name = holy_site_dwin_effect_name
