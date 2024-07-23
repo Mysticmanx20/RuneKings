@@ -378,7 +378,7 @@ martial_strategy.2000 = {
 			triggered_desc = {
 				trigger = {
 					location = { geographical_region = world_humankingdoms }
-					has_cultural_pillar = heritage_human
+					culture = { has_cultural_pillar = heritage_human }
 				}
 				desc = martial_strategy.2000.hastings.desc    #Battle of Falador
 			}
