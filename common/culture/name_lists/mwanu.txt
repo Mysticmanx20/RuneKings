@@ -1,4 +1,4 @@
-name_list_mwanu = {
+﻿name_list_mwanu = {
     dynasty_names = {
 		"dynn_Sartaq"
 		"dynn_Mengu-Timur"
