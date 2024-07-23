@@ -147,7 +147,10 @@ can_contract_disease_trigger = {
 	save_temporary_scope_as = sick_character_check
 
 	# Is not immune to disease
-	NOT = { has_character_flag = immune_to_disease }
+	NOR = { 
+		has_character_flag = immune_to_disease 
+		has_trait = vampire_character   #RK edit
+	}
 
 	#Doesn't already have the trait
 	NOT = { has_trait = $DISEASE$ }
