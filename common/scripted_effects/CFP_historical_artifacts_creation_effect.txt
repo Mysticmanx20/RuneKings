@@ -1,4 +1,4 @@
-
+﻿
 create_artifact_rk_ghostspeak_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
