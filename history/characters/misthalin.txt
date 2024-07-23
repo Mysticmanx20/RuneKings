@@ -1782,14 +1782,15 @@ ham001 = {
     dynasty = 100926
     culture = misthalin
     religion = saradomin
+	trait = humble
     9143.1.1 = {
         birth = yes
 		employer = 900108
     }
 	9160.1.1 = {
 		employer = 900106
+		set_knight_status = force
 	}
-    #set as Knight
 }
 
 900218 = {
@@ -2640,6 +2641,23 @@ misth036 = {
 		employer = 900108
     }
 	9168.1.1 = {
+		death = yes
+	}
+}
+
+misth037 = {
+	name = "Wally"
+	dynasty = 100926
+	culture = misthalin
+	religion = saradomin
+	trait = brave
+	trait = just
+	trait = ambitious
+	trait = education_martial_4
+	8999.1.1 = {
+		birth = yes
+	}
+	9052.1.1 = {
 		death = yes
 	}
 }

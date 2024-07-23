@@ -22,3 +22,8 @@ rk_tasty_book = {
 	monthly_dynasty_prestige_mult = 0.03
 	dread_gain_mult = 0.2
 }
+
+rk_silverlight = {
+	martial = 2
+	monthly_piety = 0.5
+}

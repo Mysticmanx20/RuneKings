@@ -27,6 +27,43 @@ create_artifact_rk_ghostspeak_effect = {
 	}
 }
 
+create_artifact_rk_silverlight_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = silverlight_name
+		description = silverlight_desc
+		template = rk_saradomin_template
+		type = sword
+		visuals = silverlight
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_silverlight
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 9019.1.1
+			recipient = character:misth037
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9159.1.1
+			recipient = character:900217 
+		}
+	}
+}
+
 create_artifact_rk_tasty_book_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }

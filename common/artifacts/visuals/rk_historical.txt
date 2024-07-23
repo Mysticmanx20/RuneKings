@@ -34,6 +34,11 @@ ghrazi = {
 	asset = ep1_western_sword_01_a_portrait_entity
 }
 
+silverlight = {
+	icon = "artifact_silverlight.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
 justicar = {
 	icon = "artifact_justicar.dds"
 	support_type = "tall_pillow"

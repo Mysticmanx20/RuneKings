@@ -13,7 +13,20 @@
 	}
 }
 
-﻿rk_vamp_item_template = {
+rk_saradomin_template = {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		faith = faith:saradomin
+	}
+	fallback = {
+		monthly_piety = 0.1
+	}
+}
+
+rk_vamp_item_template = {
 	can_equip = {
 		always = yes
 	}
