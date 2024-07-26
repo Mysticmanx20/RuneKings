@@ -1,0 +1,5 @@
+﻿
+steal_gold_scheme_power_mult = {
+	decimals = 0
+	percent = yes
+}

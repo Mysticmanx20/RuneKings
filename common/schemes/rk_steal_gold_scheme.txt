@@ -17,17 +17,16 @@
 	
 	cooldown = { years = 10 }
 	is_secret = yes
-	base_secrecy = 20
+	base_secrecy = 15
 
 	agent_leave_threshold = -25
 
 	allow = {
 		is_ai = no
-		is_adult = yes
+		age >= 14
 		is_imprisoned = no
 
 		scope:target = {
-			is_adult = yes
 			is_imprisoned = no
 		}
 
@@ -38,7 +37,7 @@
 		NOT = { is_at_war_with = scope:target }
 		scope:target = {
 			AND = {
-				gold > 0
+				gold > 20
 				scope:target = {
 					OR = {
 						exists = location
@@ -80,17 +79,43 @@
 
 		#Default Hostile Scheme modifiers
 		hostile_scheme_agent_base_join_chance_modifier = yes 
+
+		#Scope:target has caused internal strife in the realm
+		character_hates_scope_due_to_strife_plus_desc_modifier = { TARGET = scope:target }
+
+		#Family Feud
+		house_feud_hostile_scheme_agent_modifier = yes
 	}
 
 	base_success_chance = {
 		base = 10
-		#SCHEME OWNER#
-		compare_modifier = {
-			desc = SCHEME_IS_A_SCHEMER
-			target = scope:owner
-			value = intrigue
-			multiplier = 2
+
+		hostile_scheme_base_chance_modifier = yes
+
+		# Diarchs are better at schemes within their liege's realm
+		diarch_scheming_within_realm_bonus_modifier = yes
+
+		# Spiritual Head of Faith
+		modifier = {
+			add = -50
+			desc = "SCHEME_VS_SPIRITUAL_HOF"
+			scope:target = {
+				faith = scope:owner.faith
+				faith = {
+					has_doctrine = doctrine_spiritual_head
+				}
+				faith = {
+					exists = religious_head
+					religious_head = {
+						this = scope:target
+					}
+				}
+			}
 		}
+
+		# Family Feud
+		house_feud_hostile_scheme_success_modifier = yes
+
 	}
 
 	agent_success_chance = {

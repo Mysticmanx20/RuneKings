@@ -13,10 +13,6 @@
 	is_shown = {
 		NOT = { scope:recipient = scope:actor }
 
-		scope:recipient = {
-			gold > 0
-		}
-
 	}
 
 	is_valid_showing_failures_only = {
@@ -28,6 +24,19 @@
 		}
 		
 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+
+		custom_description = {
+			object = scope:recipient
+			text = you_have_been_caught_trying_to_steal_artifact_from_target
+			scope:recipient = {
+				NOT = {
+					has_opinion_modifier = {
+						target = scope:actor
+						modifier = attempted_to_steal_artifact_from_me
+					}
+				}
+			}
+		}
 		
 	}
 
