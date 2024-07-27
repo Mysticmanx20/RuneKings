@@ -1,0 +1,4 @@
+﻿l_english:
+
+  steal_gold_scheme_power_add:0 "$steal_gold_scheme_power_mult$"
+  steal_gold_scheme_power_mult:1 "[GetScheme('steal_gold').GetTypeName] [scheme_power|E]"

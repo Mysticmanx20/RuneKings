@@ -525,3 +525,13 @@
 	culture = pirate
 }
 
+101001 = {
+	name = "dynn_Iorwerth"
+	culture = elf
+}
+
+101002 = {
+	name = "dynn_Cadarn"
+	culture = elf
+}
+
