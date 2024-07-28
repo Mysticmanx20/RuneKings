@@ -257,6 +257,17 @@ on_game_start = {
 
 
 		}
+
+		### Unique starting conditions ###
+		if = {
+			limit = { game_start_date = 9169.1.1 }
+
+			title:c_prif = {
+				add_county_modifier = {
+					modifier = crystal_seed_modifier
+				}
+			}
+		}
 	}
 }
 

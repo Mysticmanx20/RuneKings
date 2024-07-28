@@ -1,0 +1,6 @@
+﻿
+crystal_seed_modifier = {
+	icon = county_modifier_development_negative
+	development_growth_factor = -5
+	monthly_county_control_growth_factor = -5.0 # should reasonably negate all growth
+}
