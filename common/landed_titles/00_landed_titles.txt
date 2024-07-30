@@ -1814,6 +1814,171 @@ e_kandarin = {
 	color = { 17 24 159 }
 	capital = c_ardy
 
+	k_camelot = {
+		color = { 198 190 161 }
+		capital = c_camelot
+
+		d_seers = {
+			color = {198 190 161 }
+			capital = c_seers
+		
+			c_seers = {
+				color = {198 190 161 }
+		
+				b_seers = {
+					color = {198 190 161}
+					province = 180
+				}
+			}
+		
+			c_mcwoods = {
+				color = {63 97 18}
+		
+				b_mcwoods = {
+					color = {63 97 18}
+					province = 181
+				}
+						
+			}
+		
+			c_camelot = {
+				color = {128 201 200}
+		
+				b_camelot = {
+					color = { 128 201 200}
+					province = 179
+				}
+			}
+		
+			c_sinclair = {
+				color = {165 66 83 }
+				definite_form = yes
+		
+				b_sinclair = {
+					color = {165 66 83}
+					definite_form = yes
+					province = 182
+				}
+		
+				b_seersforest = {
+					color = {107 66 101}
+					province = 183
+				}
+			}
+		}
+
+		d_ranger = {
+			color = {107 177 31}
+			capital = c_ranger 
+
+			c_ranger = {
+				color = {107 177 31}
+
+				b_ranger = {
+					color ={107 177 31}
+					province = 198
+				}
+			}
+
+			c_fireforest = {
+				color = {222 157 179 }
+
+				b_fireforest = {
+					color ={222 157 179}
+					province = 199
+				}
+			}
+
+			c_sorctow = {
+				color = {206 75 43}
+
+				b_sorctow = {
+					color ={206 75 43}
+					province = 200
+				}
+			}
+
+			c_ikov = {
+				color = {132 194 215}
+
+				b_ikov = {
+					color ={132 194 215}
+					province = 201
+				}
+			}
+		}
+
+
+		d_catherby = {
+			color = {167 156 185 }
+			capital = c_catherby
+
+			c_catherby = {
+				color = { 167 156 185 }
+
+				b_catherby = {
+					color = { 167 156 185 }
+					province = 175
+				}
+
+				b_cathfish = {
+					color = { 148 156 185}
+					province = 476
+				}
+
+				b_cathfarm = {
+					color = {167 163 175}
+					province = 477
+				}
+
+			}
+
+			c_flax = {
+				color = { 255 216 60}
+
+				b_flax = {
+					color = { 240 216 66 }
+					province = 478
+				}
+				
+				b_bees = {
+					color = {255 216 60 }
+					province = 177
+				}
+
+
+			}
+
+			c_westwolf = {
+				color = {38 19 103 }
+				
+				b_westwolf = {
+					color = { 38 19 103}
+					province = 176
+				}
+
+				b_westwolfhills = {
+					color = { 38 36 103 }
+					province = 479
+				}
+			}
+
+			c_lefaye = {
+				color = {108 93 93 }
+
+				b_lefaye = {
+					color = {108 93 93}
+					province = 178
+				}
+
+				b_fayeforest = {
+					color = { 128 80 93}
+					province = 480
+				}
+			}
+		}
+
+	}
 
 	k_kandarin = {
 		color = { 152 46 38 }
@@ -1936,165 +2101,6 @@ e_kandarin = {
 			}
 		}
 
-		d_ranger = {
-			color = {107 177 31}
-			capital = c_ranger 
-
-			c_ranger = {
-				color = {107 177 31}
-
-				b_ranger = {
-					color ={107 177 31}
-					province = 198
-				}
-			}
-
-			c_fireforest = {
-				color = {222 157 179 }
-
-				b_fireforest = {
-					color ={222 157 179}
-					province = 199
-				}
-			}
-
-			c_sorctow = {
-				color = {206 75 43}
-
-				b_sorctow = {
-					color ={206 75 43}
-					province = 200
-				}
-			}
-
-			c_ikov = {
-				color = {132 194 215}
-
-				b_ikov = {
-					color ={132 194 215}
-					province = 201
-				}
-			}
-		}
-
-
-		d_seers = {
-			color = {198 190 161 }
-			capital = c_seers
-
-			c_seers = {
-				color = {198 190 161 }
-
-				b_seers = {
-					color = {198 190 161}
-					province = 180
-				}
-			}
-
-			c_mcwoods = {
-				color = {63 97 18}
-
-				b_mcwoods = {
-					color = {63 97 18}
-					province = 181
-				}
-				
-			}
-
-			c_camelot = {
-				color = {128 201 200}
-
-				b_camelot = {
-					color = { 128 201 200}
-					province = 179
-				}
-			}
-
-			c_sinclair = {
-				color = {165 66 83 }
-				definite_form = yes
-
-				b_sinclair = {
-					color = {165 66 83}
-					definite_form = yes
-					province = 182
-				}
-
-				b_seersforest = {
-					color = {107 66 101}
-					province = 183
-				}
-			}
-		}
-
-		d_catherby = {
-			color = {167 156 185 }
-			capital = c_catherby
-
-			c_catherby = {
-				color = { 167 156 185 }
-
-				b_catherby = {
-					color = { 167 156 185 }
-					province = 175
-				}
-
-				b_cathfish = {
-					color = { 148 156 185}
-					province = 476
-				}
-
-				b_cathfarm = {
-					color = {167 163 175}
-					province = 477
-				}
-
-			}
-
-			c_flax = {
-				color = { 255 216 60}
-
-				b_flax = {
-					color = { 240 216 66 }
-					province = 478
-				}
-				
-				b_bees = {
-					color = {255 216 60 }
-					province = 177
-				}
-
-
-			}
-
-			c_westwolf = {
-				color = {38 19 103 }
-				
-				b_westwolf = {
-					color = { 38 19 103}
-					province = 176
-				}
-
-				b_westwolfhills = {
-					color = { 38 36 103 }
-					province = 479
-				}
-			}
-
-			c_lefaye = {
-				color = {108 93 93 }
-
-				b_lefaye = {
-					color = {108 93 93}
-					province = 178
-				}
-
-				b_fayeforest = {
-					color = { 128 80 93}
-					province = 480
-				}
-			}
-		}
 
 		d_baxtorian = {
 			color = {204 133 78}
