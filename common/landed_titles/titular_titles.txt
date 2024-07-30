@@ -144,15 +144,6 @@ d_khazard2 = {
 	can_be_named_after_dynasty = no
 }
 
-k_camelot = {
-	color = {173 165 134 }
-	capital = c_camelot
-	definite_form = yes
-	no_automatic_claims = yes
-	can_be_named_after_dynasty = no
-	
-}
-
 k_eastardy = {
 	color = {255 165 104 }
 	capital = c_ardy
