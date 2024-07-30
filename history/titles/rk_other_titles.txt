@@ -43,12 +43,6 @@ d_khazard2 = {
 	}
 }
 
-k_camelot = {
-	9132.1.1 = {
-		holder = kand004
-	}
-}
-
 d_greengob = {
 	9147.1.1 = {
 		holder = 900302
