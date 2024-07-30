@@ -11,6 +11,12 @@ k_kandarin = {
 	}
 }
 
+k_camelot = {
+	9132.1.1 = {
+		holder = kand004
+	}
+}
+
 c_seers = {
 	9153.1.1 = {
 		liege = 0
