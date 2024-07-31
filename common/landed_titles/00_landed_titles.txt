@@ -1978,77 +1978,6 @@ e_kandarin = {
 			}
 		}
 
-	}
-
-	k_kandarin = {
-		color = { 152 46 38 }
-		capital = c_ardy
-
-		d_ardy = {
-			color = {255 165 104 }
-			capital = c_ardy
-
-			c_ardy = {
-				color = {255 165 104}
-
-				b_ardy = {
-					color = { 255 165 104}
-					province = 208
-				}
-			}
-
-			c_westardy = {
-				color = {210 67 112}
-
-				b_westardy = {
-					color = {210 67 112}
-					province = 209
-				}
-			}
-
-			c_ardyfarm = {
-				color= {139 92 171 }
-
-				b_ardyfarm = {
-					color = {139 92 171}
-					province = 203
-				}
-			}
-		}
-
-		d_witchaven = {
-			color = {84 0 104}
-			capital = c_witchaven
-
-			c_witchaven = {
-				color = {84 0 104}
-				
-				b_witchaven = {
-					color ={84 0 104}
-					province = 207
-				}
-			}
-
-			c_legends = {
-				color ={40 168 215 }
-
-				b_legends = {
-					color = {40 168 215}
-					province = 205
-				}
-
-				b_legendmine = {
-					color = {84 83 104}
-					province = 206
-				}
-
-				b_legendforest = {
-					color = {84 141 104 }
-					province = 204
-				}
-			}
-		}
-
 		d_hemenster = {
 			color = {227 168 81 }
 			capital = c_hemenster 
@@ -2100,6 +2029,141 @@ e_kandarin = {
 				}
 			}
 		}
+
+	}
+
+	k_kandarin = {
+		color = { 152 46 38 }
+		capital = c_ardy
+
+		d_ardy = {
+			color = {255 165 104 }
+			capital = c_ardy
+
+			c_ardy = {
+				color = {255 165 104}
+
+				b_ardy = {
+					color = { 255 165 104}
+					province = 208
+				}
+			}
+
+
+			c_ardyfarm = {
+				color= {139 92 171 }
+
+				b_ardyfarm = {
+					color = {139 92 171}
+					province = 203
+				}
+			}
+
+			c_clock = {
+				color = {249 255 75}
+
+				b_clock = {
+					color = {249 255 75}
+					province = 234
+				}
+			}
+
+			c_ardymon = {
+				color = { 199 108 158}
+
+				b_ardymon = {
+					color = {199 108 158}
+					province = 233
+				}
+			}
+
+
+			c_chaostower = {
+				color= {213 64 0}
+
+				b_chaostower = {
+					color = {213 64 0}
+					province = 229
+				}
+			}
+
+
+		}
+
+		d_westardy = {
+			color = { 210 67 112}
+			capital = c_westardy
+
+			c_westardy = {
+				color = {210 67 112}
+
+				b_westardy = {
+					color = {210 67 112}
+					province = 209
+				}
+			}
+
+			c_combat = {
+				color = {65 110 25}
+
+				b_combat = {
+					color = {65 110 25 }
+					province = 230
+				}
+			}
+
+			c_outpost = {
+				color = {163 134 96 }
+
+				b_outpost = {
+					color = {163 134 96 }
+					province = 231
+				}
+			}
+
+			c_fortkhaz = {
+				color = {71 64 56 }
+
+				b_fortkhaz = {
+					color = {71 64 53}
+					province = 235
+				}
+			}
+		}
+
+		d_witchaven = {
+			color = {84 0 104}
+			capital = c_witchaven
+
+			c_witchaven = {
+				color = {84 0 104}
+				
+				b_witchaven = {
+					color ={84 0 104}
+					province = 207
+				}
+			}
+
+			c_legends = {
+				color ={40 168 215 }
+
+				b_legends = {
+					color = {40 168 215}
+					province = 205
+				}
+
+				b_legendmine = {
+					color = {84 83 104}
+					province = 206
+				}
+
+				b_legendforest = {
+					color = {84 141 104 }
+					province = 204
+				}
+			}
+		}
+
 
 
 		d_baxtorian = {
@@ -2155,148 +2219,6 @@ e_kandarin = {
 					province = 232
 				}
 			}
-
-			c_combat = {
-				color = {65 110 25}
-
-				b_combat = {
-					color = {65 110 25 }
-					province = 230
-				}
-			}
-
-			c_outpost = {
-				color = {163 134 96 }
-
-				b_outpost = {
-					color = {163 134 96 }
-					province = 231
-				}
-			}
-
-			c_chaostower = {
-				color= {213 64 0}
-
-				b_chaostower = {
-					color = {213 64 0}
-					province = 229
-				}
-			}
-		}
-
-		d_gnomevil = {
-			color = {73 129 104}
-			capital = c_gnomevil
-
-			c_gnomevil = {
-				color ={73 129 104}
-
-				b_gnomevil = {
-					color = { 73 129 104}
-					province = 237
-				}
-			}
-
-			c_observe = {
-				color = {125 148 145 }
-
-				b_observe = {
-					color ={125 148 145 }
-					province = 240
-				}
-			}
-
-			c_zmi = {
-				color = {229 148 34}
-
-				b_zmi = {
-					color= {229 148 34}
-					province = 236
-				}
-			}
-
-			c_fortkhaz = {
-				color = {71 64 56 }
-
-				b_fortkhaz = {
-					color = {71 64 53}
-					province = 235
-				}
-			}
-		}
-
-		d_khazard = {
-			color = {102 0 26}
-			capital = c_khazard
-
-			c_khazard = {
-				color = {102 0 26}
-
-				b_khazard = {
-					color = {102 0 26}
-					province = 238
-					definite_form = yes
-				}
-			}
-
-			c_portkhaz = {
-				color = {26 32 95}
-
-				b_portkhaz = {
-					color = {26 32 95}
-					province = 239
-				}
-			}
-
-			c_clock = {
-				color = {249 255 75}
-
-				b_clock = {
-					color = {249 255 75}
-					province = 234
-				}
-			}
-
-			c_ardymon = {
-				color = { 199 108 158}
-
-				b_ardymon = {
-					color = {199 108 158}
-					province = 233
-				}
-			}
-		}
-
-		d_yanille = {
-			color = {166 192 0}
-			capital = c_yanille
-
-			c_yanille = {
-				color = { 166 192 0}
-
-				b_yanille = {
-					color = { 166 192 0}
-					province = 241
-				}
-			}
-
-			c_hazelmere = {
-				color = {166 73 0}
-
-				b_hazelmere = { 
-					color = {166 73 0}
-					province = 244
-				}
-			}
-
-			c_ogrenorth = {
-				color = { 117 59 91 }
-
-				b_ogrenorth = {
-					color = { 117 59 91}
-					province = 279
-				}
-			}
 		}
 
 		d_pisc = {
@@ -2333,6 +2255,121 @@ e_kandarin = {
 		}
 	}
 
+	k_ourania = {
+		color = { 229 148 34 }
+		capital = c_zmi
+
+		d_gnomevil = {
+			color = {73 129 104}
+			capital = c_gnomevil
+
+			c_gnomevil = {
+				color ={73 129 104}
+
+				b_gnomevil = {
+					color = { 73 129 104}
+					province = 237
+				}
+			}
+
+			c_observe = {
+				color = {125 148 145 }
+
+				b_observe = {
+					color ={125 148 145 }
+					province = 240
+				}
+			}
+
+			c_zmi = {
+				color = {229 148 34}
+
+				b_zmi = {
+					color= {229 148 34}
+					province = 236
+				}
+			}
+
+			c_castlewars = {
+				color = {11 131 53}
+
+				b_castlewars = {
+					color = {11 131 53}
+					province = 243
+				}
+			}
+
+		}
+
+		d_khazard = {
+			color = {102 0 26}
+			capital = c_khazard
+
+			c_khazard = {
+				color = {102 0 26}
+
+				b_khazard = {
+					color = {102 0 26}
+					province = 238
+					definite_form = yes
+				}
+			}
+
+			c_portkhaz = {
+				color = {26 32 95}
+
+				b_portkhaz = {
+					color = {26 32 95}
+					province = 239
+				}
+			}
+
+		}
+
+		d_yanille = {
+			color = {166 192 0}
+			capital = c_yanille
+
+			c_yanille = {
+				color = { 166 192 0}
+
+				b_yanille = {
+					color = { 166 192 0}
+					province = 241
+				}
+			}
+
+			c_hazelmere = {
+				color = {166 73 0}
+
+				b_hazelmere = { 
+					color = {166 73 0}
+					province = 244
+				}
+			}
+
+			c_ogresouth = {
+				color = { 56 70 75 }
+
+				b_ogresouth = {
+					color = { 56 70 75}
+					province = 280
+				}
+			}
+
+			c_ogrenorth = {
+				color = { 117 59 91 }
+
+				b_ogrenorth = {
+					color = { 117 59 91}
+					province = 279
+				}
+			}
+		}
+
+
+	}
+
 	k_feldip = {
 		color = {83 63 36 }
 		capital = c_gut
@@ -2361,15 +2398,6 @@ e_kandarin = {
 				b_ogreisle = {
 					color = { 146 141 0}
 					province = 282
-				}
-			}
-
-			c_ogresouth = {
-				color = { 56 70 75 }
-
-				b_ogresouth = {
-					color = { 56 70 75}
-					province = 280
 				}
 			}
 
@@ -2543,14 +2571,6 @@ e_kandarin = {
 				}
 			}
 
-			c_castlewars = {
-				color = {11 131 53}
-
-				b_castlewars = {
-					color = {11 131 53}
-					province = 243
-				}
-			}
 		}
 
 	}
