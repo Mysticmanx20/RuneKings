@@ -2164,7 +2164,11 @@ e_kandarin = {
 			}
 		}
 
+	}
 
+	k_pisc = {
+		color = {62 37 48 }
+		capital = c_gnomestrong
 
 		d_baxtorian = {
 			color = {204 133 78}
@@ -2252,7 +2256,8 @@ e_kandarin = {
 				}
 			}
 
-		}
+		}		
+
 	}
 
 	k_ourania = {
