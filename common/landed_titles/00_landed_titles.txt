@@ -2019,15 +2019,6 @@ e_kandarin = {
 				}
 			}
 
-			c_gobtemple = {
-				color = {117 112 54 }
-				definite_form = yes
-
-				b_gobtemple = {
-					color ={117 112 54 }
-					province = 202
-				}
-			}
 		}
 
 	}
@@ -2056,6 +2047,16 @@ e_kandarin = {
 				b_ardyfarm = {
 					color = {139 92 171}
 					province = 203
+				}
+			}
+
+			c_gobtemple = {
+				color = {117 112 54 }
+				definite_form = yes
+
+				b_gobtemple = {
+					color ={117 112 54 }
+					province = 202
 				}
 			}
 
