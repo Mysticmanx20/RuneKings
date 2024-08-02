@@ -109,3 +109,57 @@
 	holding = none
 }
 
+536 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+537 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+538 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+
+539 = { #Tower
+	religion = seren
+	culture = elf
+	holding = church_holding
+}
+
+540 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+541 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+542 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+543 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+
+
+
+
+

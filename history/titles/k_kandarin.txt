@@ -108,6 +108,12 @@ c_westardy = {
 	}
 }
 
+d_westardy = {
+	9136.1.1 = {
+		holder = kand018
+	}
+}
+
 c_combat = {
 	9168.1.1 = {
 		liege = d_ardy

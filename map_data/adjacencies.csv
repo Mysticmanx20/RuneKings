@@ -16,7 +16,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 226;227;river_large;262;-1;-1;-1;-1;BaxtorianCrossing
 190;191;river_large;193;-1;-1;-1;-1;LighthouseBridge
 242;282;sea;2;-1;-1;-1;-1;OgreIsleBridge
-248;250;river_large;263;-1;-1;-1;-1;ElfBridge
+248;542;river_large;263;-1;-1;-1;-1;ElfBridge
 400;391;river_large;398;-1;-1;-1;-1;EastShiloGap
 261;393;river_large;397;-1;-1;-1;-1;EastTaiBwoLog
 515;364;sea;376;-1;-1;-1;-1;BlueteamBridge
