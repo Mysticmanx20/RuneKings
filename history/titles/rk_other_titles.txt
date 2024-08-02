@@ -114,15 +114,6 @@ k_gnome2 = {
 	}
 }
 
-d_gnomevil = {
-	9137.1.1 = {
-		holder = gnome010
-	}
-	9159.1.1 = {
-		holder = gnome003
-	}
-}
-
 k_eastardy = {
 	9136.1.1 = {
 		holder = kand017

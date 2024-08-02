@@ -2259,7 +2259,7 @@ e_kandarin = {
 		color = { 229 148 34 }
 		capital = c_zmi
 
-		d_gnomevil = {
+		d_ourania = {
 			color = {73 129 104}
 			capital = c_gnomevil
 

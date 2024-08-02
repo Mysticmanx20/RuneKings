@@ -100,7 +100,7 @@ world_asgarnia = {
 world_kandarin = {
 	duchies = {
 		d_ardy d_witchaven d_hemenster d_ranger d_seers d_catherby
-		d_baxtorian d_gnomestrong d_gnomevil d_khazard d_yanille
+		d_baxtorian d_gnomestrong d_ourania d_khazard d_yanille
 		d_pisc 
 	}
 }
