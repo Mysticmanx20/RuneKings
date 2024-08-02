@@ -2019,15 +2019,6 @@ e_kandarin = {
 				}
 			}
 
-			c_gobtemple = {
-				color = {117 112 54 }
-				definite_form = yes
-
-				b_gobtemple = {
-					color ={117 112 54 }
-					province = 202
-				}
-			}
 		}
 
 	}
@@ -2056,6 +2047,16 @@ e_kandarin = {
 				b_ardyfarm = {
 					color = {139 92 171}
 					province = 203
+				}
+			}
+
+			c_gobtemple = {
+				color = {117 112 54 }
+				definite_form = yes
+
+				b_gobtemple = {
+					color ={117 112 54 }
+					province = 202
 				}
 			}
 
@@ -2164,7 +2165,11 @@ e_kandarin = {
 			}
 		}
 
+	}
 
+	k_pisc = {
+		color = {62 37 48 }
+		capital = c_gnomestrong
 
 		d_baxtorian = {
 			color = {204 133 78}
@@ -2252,7 +2257,8 @@ e_kandarin = {
 				}
 			}
 
-		}
+		}		
+
 	}
 
 	k_ourania = {
