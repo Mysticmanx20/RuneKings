@@ -43,3 +43,12 @@
  building_nishapur_mines_03_desc:0 "A village has sprung up around the many mining pits, and the workers find high quality Turquoise regularly."
  building_nishapur_mines_04:0 "Silvarea Mining Complex"
  building_nishapur_mines_04_desc:0 "The extraction of Turquoise have reached a near-industrial scale, with the amount of workers now ranging in the thousands. Endless riches seemingly flow from the mines."
+
+
+#Special Holy Buildings
+
+ building_type_ananda_temple_01:1 "Tower of Voices"
+ building_type_ananda_temple_01_desc:0 "The Tower of Voices is a large tower found in the center of Prifddinas, and is named as such because within the tower, it is said that the elves can speak directly to one of the fragments of their goddess, Seren. The tower, formed from pure crystal, is the most important part of elven society."
+ building_ananda_temple_01:0 "$building_type_ananda_temple_01$"
+ building_ananda_temple_01_desc:0 "$building_type_ananda_temple_01_desc$"
+ NOT_ELF_TOWER_ENABLED:1 "The [holder|E] must be of the $seren_religion$ [religion|E] and the $crystal_seed_modifier$ modifier must not be active."

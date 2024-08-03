@@ -1,0 +1,59 @@
+﻿
+ananda_temple_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_shwedagon_pagoda.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = elf_tower_trigger
+			AND = {
+				scope:holder = {
+					has_religion = religion:seren_religion
+				}
+				title:c_prif = {
+					NOT = { has_county_modifier = crystal_seed_modifier }
+				}
+			}
+			
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning = 2
+		monthly_piety_gain_mult = 0.05
+		county_opinion_add = 5
+		monthly_county_control_growth_factor = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	province_modifier = {
+		monthly_income = 3
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}

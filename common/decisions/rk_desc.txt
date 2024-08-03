@@ -213,3 +213,65 @@ goblin_village_decision = {
 		base = 100
 	}
 }
+
+iorwerth_prif_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = iorwerth_prif_decision_desc
+
+	is_shown = {
+		culture = culture:elf
+
+
+		#Not repeatable.
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_iorwerth_prif
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		is_independent_ruler = yes
+		
+		completely_controls = title:c_prif
+		completely_controls = title:c_westardy
+
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		piety = 300
+	}
+
+	effect = {
+		
+		title:c_prif = {
+			remove_county_modifier = crystal_seed_modifier
+			change_development_level = 20
+		}
+
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_iorwerth_prif
+			}
+		}
+
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

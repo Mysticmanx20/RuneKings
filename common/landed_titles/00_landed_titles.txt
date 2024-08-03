@@ -2638,15 +2638,6 @@ e_kandarin = {
 				}
 			}
 
-			c_poison = {
-				color= {95 21 92}
-
-				b_poison = {
-					color = {95 21 92}
-					province = 246
-				}
-			}
-
 			c_arandar = {
 				color ={101 35 16 }
 
@@ -2716,6 +2707,15 @@ e_kandarin = {
 				b_catapult = {
 					color = { 172 103 49 }
 					province = 438
+				}
+			}
+
+			c_poison = {
+				color= {95 21 92}
+
+				b_poison = {
+					color = {95 21 92}
+					province = 246
 				}
 			}
 		}

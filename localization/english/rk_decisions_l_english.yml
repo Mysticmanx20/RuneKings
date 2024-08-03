@@ -22,6 +22,11 @@
   goblin_village_decision_tooltip:0 "Create a secure homeland for goblins"
   goblin_village_decision_confirm:0 "Secure Goblin Village"
 
+  iorwerth_prif_decision:0 "Revive the Crystal Goddess"
+  iorwerth_prif_decision_desc:0 "After Lord Iorwerth learned about a sole remaining fragment of Seren, the idea of using the fragment to fully revive Seren has lingered in the minds of many elves. One particular ancient text mentions a secret temple located somewhere underneath the Galarpos Mountains to the east. If one can find this temple, they could quite possibly bring Seren back to Gielinor."
+  iorwerth_prif_decision_tooltip:0 "Return the Goddess of the Elves to Gielinor"
+  iorwerth_prif_decision_confirm:0 "Enter the Temple of Light"
+
   select_personal_deity_germanic_decision.select_tumeken:0 "Tumeken, God of the Sun"
   select_personal_deity_germanic_decision.select_elid:0 "Elidinis, Goddess of Fertility"
   select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"

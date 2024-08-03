@@ -22,13 +22,10 @@
 	holding = castle_holding
 }
 
-250 = { #Priffdinas
+250 = { #West Priffdinas
 	religion = seren
 	culture = elf
-	holding = castle_holding
-	5500.1.1 = {
-		special_building = generic_university
-	}
+	holding = none
 }
 
 251 = { #Gwinth
@@ -132,6 +129,7 @@
 	religion = seren
 	culture = elf
 	holding = church_holding
+	special_building = ananda_temple_01
 }
 
 540 = { 
