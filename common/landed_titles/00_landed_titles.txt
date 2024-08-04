@@ -2638,6 +2638,25 @@ e_kandarin = {
 				}
 			}
 
+			c_lowerprif = {
+				color = { 10 176 136 }
+
+				b_icamp = {
+					color = { 10 176 136}
+					province = 544
+				}
+
+				b_prifgate = {
+					color = { 10 217 126}
+					province = 545
+				}
+
+				b_eastlowprif = {
+					color = { 10 187 126}
+					province = 546
+				}
+			}
+
 			c_arandar = {
 				color ={101 35 16 }
 
@@ -2671,12 +2690,46 @@ e_kandarin = {
 				}
 			}
 
+			c_upperelf = {
+				color = { 134 168 132 }
+
+				b_middleelf = {
+					color = { 134 168 132}
+					province = 548
+				}
+
+				b_westelf = {
+					color = { 134 148 153}
+					province = 547
+				}
+
+				b_eastelf = {
+					color = { 185 255 153}
+					province = 549
+				}
+			}
+
 			c_isafdar = {
 				color= {134 224 132}
 
 				b_isafdar = {
 					color = {134 224 132}
 					province = 248
+				}
+
+				b_centerelf = {
+					color = { 219 204 132}
+					province = 550
+				}
+
+				b_passexit = {
+					color = { 177 165 107}
+					province = 551
+				}
+
+				b_southelf = {
+					color = { 80 119 54}
+					province = 552
 				}
 			}
 
@@ -2716,6 +2769,25 @@ e_kandarin = {
 				b_poison = {
 					color = {95 21 92}
 					province = 246
+				}
+
+				b_zulrah = {
+					color = { 255 255 160}
+					province = 555
+				}
+			}
+
+			c_poisonisles = {
+				color = { 172 211 0}
+
+				b_eastwaste = {
+					color = { 172 211 0}
+					province = 554
+				}
+
+				b_westwaste = {
+					color = { 46 43 70}
+					province = 553
 				}
 			}
 		}

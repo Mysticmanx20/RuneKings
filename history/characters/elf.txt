@@ -44,6 +44,9 @@ elf003 = {
 	9139.1.1 = {
 		birth = yes
 	}
+	9165.1.1 = {
+		employer = elf010
+	}
 }
 
 elf004 = {
@@ -197,5 +200,22 @@ elf013 = {
 		death = {
 			death_reason = death_disappearance
 		}
+	}
+}
+
+elf014 = {
+	name = "Carys"
+	female = yes
+	dynasty = 101003
+	religion = seren
+	culture = elf
+	trait = calm
+	trait = humble
+	trait = diligent
+	trait = athletic
+	trait = blind
+	trait = education_learning_4
+	9138.1.1 = {
+		birth = yes
 	}
 }

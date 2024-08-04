@@ -29,6 +29,8 @@ sea_zones = RANGE { 402 415 } #Lunar Sea
 
 sea_zones = LIST { 485 }  #Western Sea
 
+sea_zones = LIST { 556 }  #Poison Waste
+
 ###############
 # MAJOR RIVERS
 ###############

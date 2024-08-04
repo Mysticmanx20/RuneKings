@@ -542,7 +542,19 @@
 541;102;202;212;southeastprif;x;
 542;126;200;212;southprif;x;
 543;156;198;212;southwestprif;x;
-
+544;10;176;136;iorwerthcamp;x;
+545;10;217;126;prifgate;x;
+546;10;187;126;eastouterprif;x;
+547;134;148;153;westupisafdar;x;
+548;134;168;132;middleisafdar;x;
+549;185;255;153;eastisafdar;x;
+550;219;204;132;centerisafdar;x;
+551;177;165;107;passexit;x;
+552;80;119;54;southisafdar;x;
+553;46;43;70;westwaste;x;
+554;172;211;0;eastwaste;x;
+555;255;255;160;zulrah;x;
+556;160;0;255;sea_poison;x;
 
 
 

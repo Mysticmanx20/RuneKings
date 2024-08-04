@@ -156,6 +156,79 @@
 	holding = none
 }
 
+544 = { 
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+545 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+546 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+547 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+548 = { 
+	religion = seren
+	culture = elf
+	holding = castle_holding
+}
+
+549 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+550 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+551 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+552 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+553 = { 
+	religion = seren
+	culture = elf
+	holding = none
+}
+
+554 = { 
+	religion = seren
+	culture = elf
+	holding = tribal_holding
+}
+
+555 = { 
+	religion = jas
+	culture = dragon
+	holding = church_holding
+}
+
+
 
 
 

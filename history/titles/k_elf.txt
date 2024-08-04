@@ -1,6 +1,6 @@
 
 c_prif = {
-	9168.1.1 = {
+	9160.1.1 = {
 		liege = 0 
 		holder = elf001
 		government = clan_government
@@ -8,10 +8,33 @@ c_prif = {
 	}
 }
 
+c_lowerprif = {
+	9164.1.1 = {
+		holder = elf001
+		change_development_level = 5
+	}
+}
+
 c_arandar = {
-	9168.1.1 = {
+	9164.1.1 = {
 		holder = elf001
 		change_development_level = 2
+	}
+}
+
+c_isafdar = {
+	9165.1.1 = {
+		holder = elf010
+		government = clan_government
+		change_development_level = 3
+	}
+}
+
+c_upperelf = {
+	9165.1.1 = {
+		holder = elf010
+		government = clan_government
+		change_development_level = 3
 	}
 }
 
@@ -46,6 +69,15 @@ c_gorlah = {
 		holder = elf008
 		government = clan_government
 		change_development_level = 4
+	}
+}
+
+c_poisonisles = {
+	9168.1.1 = {
+		liege = 0
+		holder = elf014
+		government = clan_government
+		change_development_level = 1
 	}
 }
 
