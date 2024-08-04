@@ -1506,7 +1506,7 @@ e_zaros = {
 		}
 	
 	
-		d_forinthry= {
+		d_forinthry = {
 			color = { 40 50 85 }
 			capital = c_wcaltar
 			

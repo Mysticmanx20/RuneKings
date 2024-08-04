@@ -193,4 +193,10 @@ k_dwarf = {
 }
 
 
-
+e_free = {
+	color = { 0 121 4 }
+	capital = c_varrock
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+}

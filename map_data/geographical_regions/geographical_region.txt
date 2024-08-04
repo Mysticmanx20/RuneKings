@@ -71,7 +71,8 @@ world_desert = {
 }
 world_wilderness = {
 	duchies = {
-		d_forinthry
+		d_forinthry d_frozenwaste d_dareeyak d_carallanger
+		d_annak d_wildcoast d_lavamaze
 	}
 }
 
@@ -99,7 +100,7 @@ world_asgarnia = {
 
 world_kandarin = {
 	duchies = {
-		d_ardy d_witchaven d_hemenster d_ranger d_seers d_catherby
+		d_ardy d_westardy d_witchaven d_hemenster d_ranger d_seers d_catherby
 		d_baxtorian d_gnomestrong d_ourania d_khazard d_yanille
 		d_pisc 
 	}
@@ -108,6 +109,21 @@ world_kandarin = {
 world_humankingdoms = {
 	regions = {
 		world_misthalin world_asgarnia world_kandarin
+	}
+}
+
+world_f2p = {
+	duchies = {
+		d_edgeville d_varrock d_southmis d_westmis d_jollyb 
+		d_barbvil d_lumbridge d_lumford d_lumwood d_draynor
+		d_wizard d_tutor d_gobvil d_icemount
+		d_portsarim d_rim d_crandor d_southkharid
+		d_forinthry d_dareeyak d_carallanger d_citharade
+		d_annak d_lavamaze d_musa d_volcano
+	}
+	counties = {
+		c_northkharid c_duelarena c_faladorwest c_faladornorth
+		c_faladoreast
 	}
 }
 

@@ -38,6 +38,8 @@
 
 #titular
 e_vamp:0 "Vampyrium"
+e_free_article:0 "The "
+e_free:0 "Free Players Empire"
 
 # Default title names
 d_dareeyak:0 "West Wilderness"

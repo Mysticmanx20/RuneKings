@@ -27,6 +27,11 @@
   iorwerth_prif_decision_tooltip:0 "Return the Goddess of the Elves to Gielinor"
   iorwerth_prif_decision_confirm:0 "Enter the Temple of Light"
 
+  f2p_decision:0 "Establish the Free Players Empire"
+  f2p_decision_desc:0 "By holding all the lands that make up the entirety of free-to-play areas we can create a new empire, one based upon the ideals of those known as 'free players'."
+  f2p_decision_tooltip:0 "Form an empire over free-to-play lands"
+  f2p_decision_confirm:0 "Establish the Free Players Empire"
+
   select_personal_deity_germanic_decision.select_tumeken:0 "Tumeken, God of the Sun"
   select_personal_deity_germanic_decision.select_elid:0 "Elidinis, Goddess of Fertility"
   select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"
