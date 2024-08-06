@@ -350,19 +350,35 @@ custom_iceland = {}
 # Graphical Regions
 ###########################################################################
 
-graphical_western = {}
-
-graphical_mena = {
-	regions = {
-		world_africa
-	}
+graphical_western = {
+	graphical = yes
+	color = { 255 0 0 }
+	regions = { world_misthalin world_kandarin world_frem }
 }
 
-graphical_india = {}
+graphical_mena = {
+	graphical = yes
+	color = { 255 255 0 }
+	regions = { world_desert }
+}
 
-graphical_mediterranean = {}
+graphical_india = {
+	graphical = yes
+	color = { 0 255 0 }
+	regions = { world_feldip }
+}
 
-graphical_steppe = {}
+graphical_mediterranean = {
+	graphical = yes
+	color = { 0 0 255 }
+	regions = { world_asgarnia }
+}
+
+graphical_steppe = {
+	graphical = yes
+	color = { 0 255 255 }
+	regions = { world_wilderness}
+}
 
 ##############################
 # Misc
