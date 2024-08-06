@@ -540,3 +540,32 @@
 	culture = elf
 }
 
+101004 = {
+	name = "dynn_Amlodd"
+	culture = elf
+}
+
+101005 = {
+	name = "dynn_Crwys"
+	culture = elf
+}
+
+101006 = {
+	name = "dynn_Ithell"
+	culture = elf
+}
+
+101007 = {
+	name = "dynn_Meilyr"
+	culture = elf
+}
+
+101008 = {
+	name = "dynn_Trahaearn"
+	culture = elf
+}
+
+101009 = {
+	name = "dynn_Cywir"
+	culture = elf
+}
