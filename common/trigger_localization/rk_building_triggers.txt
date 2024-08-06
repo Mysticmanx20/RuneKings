@@ -1,4 +1,4 @@
-
+﻿
 elf_tower_trigger = {
 	global_not = NOT_ELF_TOWER_ENABLED
 }

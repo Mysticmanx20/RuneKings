@@ -635,7 +635,7 @@
 		if = {
 			limit = {
 				OR = {
-					has_culture = piratecul
+					has_culture = culture:piratecul
 					culture = { has_cultural_pillar = heritage_bandos }
 					culture = { has_cultural_pillar = heritage_troll }
 				}

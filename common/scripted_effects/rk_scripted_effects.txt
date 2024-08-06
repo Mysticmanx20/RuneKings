@@ -67,7 +67,7 @@ f2p_scripted_effect = {
 	hidden_effect = { set_primary_title_to = title:e_free }
 	
 
-	add_legitimacy = major_legitmacy_gain
+	add_legitimacy = major_legitimacy_gain
 	
 }
 

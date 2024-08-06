@@ -1,0 +1,773 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+
+	on_actions = {
+		vamps
+		vampyres
+		start_religion
+		wizards
+		whiteknights
+		#start_whiteknights
+	}
+
+
+
+	events = {
+
+		#Guaranteed historical artifacts fixed spawning
+		debug_portraits.1 					# Debug portraits for animation testing
+		
+	}
+
+	effect = {
+		#Epidemics 3 months grace
+		set_global_variable = {
+			name = start_epidemic_grace
+			value = yes
+			months = 3
+		}
+		
+		### UNIVERSITIES ###
+		title:b_wizard.title_province = { add_special_building_slot = generic_university }
+		title:b_varmu.title_province = { add_special_building_slot = generic_university }
+		title:b_mageupper.title_province = { add_special_building_slot = generic_university }
+
+		### RELIGIOUS THINGS ###
+		# Set up Holy Site Buildings to be buildable in Holy Sites
+		religion:monkey_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_indian_grand_temple_01
+					}
+				}
+			}
+		}
+		religion:fremennik_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_mosque_01
+					}
+				}
+			}
+		}
+		religion:karamja_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_fire_temple_01
+					}
+				}
+			}
+		}
+
+		religion:zaros_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_cathedral_01
+					}
+				}
+			}
+		}
+		religion:seren_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_cathedral_01
+					}
+				}
+			}
+		}
+		religion:arm_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_cathedral_01
+					}
+				}
+			}
+		}
+		religion:sara_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_cathedral_01
+					}
+				}
+			}
+		}
+		religion:guthix_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_indian_grand_temple_01
+					}
+				}
+			}
+		}		
+		religion:desert_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_indian_grand_temple_01
+					}
+				}
+			}
+		}
+		religion:bandos_religion = {	
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_pagan_grand_temple_01
+					}
+				}
+			}
+		}
+		religion:elder_religion = {	
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_pagan_grand_temple_01
+					}
+				}
+			}
+		}
+		religion:zam_religion = {
+			every_faith = {
+				every_holy_site = {
+					limit = {
+						title_province = {
+							has_special_building_slot = no
+						}
+					}
+					title_province = {
+						add_special_building_slot = holy_site_other_grand_temple_01
+					}
+				}
+			}
+		}
+
+		#historical inspirations
+		if = {
+			limit = { exists = title:c_keldagrim.holder }
+			title:c_keldagrim.holder = {
+				every_courtier = {
+					limit = {
+						this = character:900344
+					}
+					create_inspiration = weapon_inspiration
+				}
+			}
+		}
+
+		
+		### GRANDEUR ###
+		#Royal Court: Set starting Grandeur to be the same as Expected
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+			}
+			every_character_with_royal_court = {
+				set_current_court_grandeur = court_grandeur_minimum_expected
+				apply_hold_court_grace_effect = yes
+				# Stops Hold Court reminders at game start
+				set_variable = {
+					name = last_hold_court_date
+					value = current_year
+				}
+			}
+		}
+		## If you start as a child, incapable, or imprisoned, you get a regency.
+		every_ruler = {
+			limit = {
+				OR = {
+					is_adult = no
+					is_incapable = yes
+					is_imprisoned = yes
+				}
+			}
+			# We don't want to check over so many characters *twice*, so we check again inside the block to determine what type of regency to put 'em in.
+			## Temporary Regencies.
+			if = {
+				limit = { is_imprisoned = yes }
+				trigger_event = {
+					id = diarchy.0001
+					delayed = yes
+				}
+			}
+			## Entrenched Regencies.
+			else = {
+				trigger_event = {
+					id = diarchy.0011
+					delayed = yes
+				}
+			}
+		}
+
+		### REGENCIES ###
+		# Pre-defined historic regencies setup.
+		## NOTE: we do these first to avoid feed messages getting weird due to regents being replaced immediately after getting their position.
+		
+		if = {
+			limit = { game_start_date = 9169.1.1 }
+			# Designate some regents.
+			
+			character:900301 = { 
+				designate_diarch = character:900305 
+				start_diarchy = regency
+				set_diarchy_swing = 86
+			}
+			
+			
+			# character:3040 = {
+			# 	designate_diarch = character:3050
+			# 	# This is a vizierate as well, so start the diarchy manually.
+			# 	start_diarchy = vizierate
+			# 	# Tell Alp that he appointed Hassan so he remembers not to dismiss him.
+			# 	set_variable = {
+			# 		name = my_vizier
+			# 		value = character:3050
+			# 	}
+			# }
+
+
+		}
+
+		### Unique starting conditions ###
+		if = {
+			limit = { game_start_date = 9169.1.1 }
+
+			title:c_prif = {
+				add_county_modifier = {
+					modifier = crystal_seed_modifier
+				}
+			}
+		}
+	}
+}
+
+on_game_start_after_lobby = {
+	effect = {
+
+		# Make sure that Realm Priests are landed theocrats where it makes sense
+		every_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_duchy
+			}
+			if = {
+				limit = {
+					exists = cp:councillor_court_chaplain
+					cp:councillor_court_chaplain = {
+						is_ruler = no
+					}
+					faith = { has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
+					any_vassal = {
+						is_physically_able_adult = yes
+						is_councillor = no
+						government_has_flag = government_is_theocracy
+						can_be_court_chaplain_trigger = { COURT_OWNER = liege }
+						faith = liege.faith
+					}
+				}
+				random_vassal = {
+					limit = {
+						is_physically_able_adult = yes
+						is_councillor = no
+						government_has_flag = government_is_theocracy
+						can_be_court_chaplain_trigger = { COURT_OWNER = liege }
+						faith = liege.faith
+					}
+					weight = {
+						base = 1
+						modifier = {
+							add = 1000
+							faith.religious_head ?= this
+						}
+						modifier = {
+							add = learning
+						}
+						modifier = {
+							add = primary_title.tier
+						}
+					}
+					liege = {
+						assign_councillor_type = {
+							type = councillor_court_chaplain
+							remove_existing_councillor = yes
+							target = prev
+						}
+					}
+				}
+			}
+		}
+	
+		### GAME RULE: VIEW ON SAME-SEX RELATIONS
+		if = {
+			limit = { has_game_rule = accepted_same_sex_relations }
+			game_rule_accepted_same_sex_relations_effect = yes
+		}
+
+		### GAME RULE: RANDOM RULER PLACEMENT
+		if = {
+			limit = { NOT = { has_game_rule = random_ruler_placement_off } }
+			game_rule_random_ruler_placement_effect = yes
+		}
+
+		### GAME RULE: RANDOMIZE FAITH
+		if = {
+			limit = { has_game_rule = randomized_faiths_on }
+			game_rule_randomize_faith_effect = yes
+		}
+
+		### GAME RULE: FAITH ACCEPTANCE
+		if = {
+			limit = { has_game_rule = full_faith_acceptance }
+			game_rule_faith_acceptance_effect = yes
+		}
+
+		### GAME RULE: GENDER EQUALITY ###
+		if = {
+			limit = { has_game_rule = full_gender_equality }
+			game_rule_full_gender_equality_effect = yes
+		}
+		else_if = {
+			limit = { has_game_rule = inversed_gender_equality }
+			game_rule_inversed_gender_equality_effect = yes
+		}
+
+		### GAME RULE: SEXUALITY DISTRIBUTION ###
+		if = {
+			limit = { NOT = { has_game_rule = sexuality_distribution_default } }
+			game_rule_sexuality_distribution_effect = yes
+		}
+		else = { # So that children 10+ starts with a sexuality
+			child_sexuality_distribution_effect = yes
+		}
+
+		# Give Ruler Designer characters regencies.
+		every_in_global_list = {
+			variable = rd_chars_needing_regencies
+			trigger_event = diarchy.0011
+			# Aaaand clean the list.
+			save_temporary_scope_as = char_temp
+			remove_list_global_variable = {
+				name = rd_chars_needing_regencies
+				target = scope:char_temp
+			}
+		}
+
+		### ACHIEVEMENT: FROM RAGS TO RICHES
+		every_player = {
+			limit = { highest_held_title_tier = tier_county }
+			add_achievement_global_variable_effect = {
+				VARIABLE = achievement_rags_to_riches_valid
+				VALUE = yes
+			}
+		}
+		### ACHIEVEMENT TRACKING FOR STARTING CHARACTERS
+		if = { 
+			limit = { has_multiple_players = no }
+			every_player = {
+				### saga_in_stone_achievement
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_saga_in_stone_achievement
+					VALUE = yes
+				}
+				
+				##1 Patronage
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_patronage_achievement
+					VALUE = yes
+				}
+				##2 Converging Paths
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_converging_paths_achievement
+					VALUE = yes
+				}
+				##3 Changing course
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_changing_course_achievement
+					VALUE = yes
+				}
+				##4 Hoarder
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_hoarder_achievement
+					VALUE = yes
+				}
+				##5 creme de la creme
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_creme_de_la_creme_achievement
+					VALUE = yes
+				}
+				##6 Give it back!
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_polyglot_achievement
+					VALUE = yes
+				}
+				##7 Inspirational
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_inspirational_achievement
+					VALUE = yes
+				}
+				##8 One of a Kind
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_one_of_a_kind_achievement
+						VALUE = yes
+				}
+				##9 True Tolerance
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_true_tolerance_achievement
+					VALUE = yes
+				}
+				##10 Delusions of Grandeur
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_delusions_of_grandeur_achievement_achievement
+					VALUE = yes
+				}
+				
+				###15 Lingua Franca
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_lingua_franca_achievement
+					VALUE = yes
+				}
+				###16 Beta Israel
+				#add_achievement_global_variable_effect = {
+				#	VARIABLE = started_beta_israel_achievement
+				#	VALUE = yes
+				#}
+				## 17 They belong in a museum!
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_they_belong_in_a_museum_achievement
+					VALUE = yes
+				}
+				##18 I made this!
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_i_made_this_achievement
+					VALUE = yes
+				}
+				
+				## 20 The True Royal Court
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_the_true_royal_court_achievement
+						VALUE = yes
+				}
+				# EP2
+				## 01. The Grandest Tour
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_the_grandest_tour_achievement
+					VALUE = yes
+				}
+				## 02. Your Eternal Reward
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_your_eternal_reward_achievement
+					VALUE = yes
+				}
+				## 03. Imperial March
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_imperial_march_achievement
+					VALUE = yes
+				}
+				## 04. Black Dinner
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_black_dinner_achievement
+					VALUE = yes
+				}
+				## 05. There and Back Again
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_there_and_back_again_achievement
+					VALUE = yes
+				}
+				## 06. The Very Best
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_the_very_best_achievement
+					VALUE = yes
+				}
+				## 07. Like No One Ever Was
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_like_no_one_ever_was_achievement
+					VALUE = yes
+				}
+				## 08. A Thousand and One Night
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_a_thousand_and_one_nights_achievement
+					VALUE = yes
+				}
+				## 09. A Knight's Tale
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_a_knights_tale_achievement
+					VALUE = yes
+				}
+				## 10. Hunting Accident
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_hunting_accident_achievement
+					VALUE = yes
+				}
+				## 11. Lions and Tigers and Bears, Oh My!
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_lions_and_tigers_and_bears_oh_my_achievement
+					VALUE = yes
+				}
+				## 12. Fly, my Pretty!
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_fly_my_pretty_achievement
+					VALUE = yes
+				}
+				## 13. Pathway to Heaven
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_pathway_to_heaven_achievement
+					VALUE = yes
+				}
+				## 14. Sir Lance-a-Lot
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_sir_lance_a_lot_achievement
+					VALUE = yes
+				}
+				## 15. I'm in my Element(s)
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_im_in_my_elements_achievement
+					VALUE = yes
+				}
+				## 16. Ahab
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_ahab_achievement
+					VALUE = yes
+				}
+				## 17. Little William Marshal
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_little_william_marshal_achievement
+					VALUE = 0
+				}
+				add_achievement_global_variable_effect = {
+					VARIABLE = little_william_marshal_achievement_tally
+					VALUE = 0
+				}
+				## 18. A True & Perfect Knight
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_a_true_and_perfect_knight_achievement
+					VALUE = yes
+				}
+				
+				## 20. The Iron and Golden King
+				add_achievement_global_variable_effect = {
+					VARIABLE = started_the_iron_and_golden_king_achievement
+					VALUE = yes
+				}
+
+				### RULER DESIGNER ACHIEVEMENT BLOCKS ###
+				if = {
+					limit = {
+						num_virtuous_traits >= 3
+					}
+					add_achievement_flag_effect = { FLAG = rd_character_blocked_paragon_of_virtue_achievement_flag	}	
+				}
+				if = {
+					limit = {
+						any_child = {
+							count >= 10
+							is_alive = yes
+						}
+					}
+					add_achievement_flag_effect = { FLAG = rd_character_blocked_the_succession_is_safe_achievement_flag }	
+				}
+				if = {
+					limit = {
+						any_child = {
+							has_trait = inbred
+						}	
+					}
+					add_achievement_flag_effect = { FLAG = rd_character_blocked_keeping_it_in_the_family_achievement_flag }
+				}
+				if = {
+					limit = {
+						highest_held_title_tier >= tier_empire
+						should_be_naked_trigger = yes	
+					}
+					add_achievement_flag_effect = { FLAG = rd_character_blocked_the_emperors_new_clothes_achievement_flag }
+				}
+				
+				if = {
+					limit = {
+						any_ruler = {
+							is_from_ruler_designer = yes
+						}
+					}
+					#add_to_global_unavailable_achievements_list_effect = { FLAG = flag:rd_character_blocked_iberia_or_iberia_achievement }
+					#add_to_global_unavailable_achievements_list_effect = { FLAG = flag:rd_character_blocked_el_cid_achievement }
+					add_achievement_global_variable_effect = {
+						VARIABLE = any_ruler_designed_character_achievement
+						VALUE = yes
+					}
+				}
+			}
+		}
+
+		### HOLD COURT STARTING GRACE
+		every_character_with_royal_court = {
+			set_variable = {
+				name = hold_court_cooldown
+	 			days = standard_hold_court_cooldown_time
+	 		}
+		}
+		
+		#starting cultural acceptance
+		culture:vampyre = {
+			change_cultural_acceptance = {
+				target = culture:werewolf
+				value = 85
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
+		culture:asgarnia = {
+			change_cultural_acceptance = {
+				target = culture:dwarf
+				value = 50
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
+		culture:briton = {
+			change_cultural_acceptance = {
+				target = culture:kandarin
+				value = 25
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
+		culture:fremennik = {
+			change_cultural_acceptance = {
+				target = culture:moonclan
+				value = -50
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:oldfremennik
+				value = -50
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
+		culture:moonclan = {
+			change_cultural_acceptance = {
+				target = culture:oldfremennik
+				value = -50
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+
+		### CE1 LEGITIMACY SETUP ###
+		every_ruler = {
+			limit = {
+				exists = dynasty
+				highest_held_title_tier >= tier_county
+				# Exclude unplayable for now
+				NOR = {
+					government_has_flag = government_is_republic
+					government_has_flag = government_is_theocracy
+				}
+				is_landed = yes
+			}
+			add_legitimacy = base_legitimacy_value
+		}
+	}
+
+	events = {
+		wc_holy_order.10  #White knights
+		wc_holy_order.11  #Black Knights
+		wc_holy_order.13  #Void knights
+	}
+	
+}
+
+
+
+on_join_court = {
+
+	on_actions = {
+		whiteknights
+	}
+
+	events = {
+		court_maintenance.0005 # Add 'Order member' trait to courtiers who join holy order court
+		court_maintenance.1005 #Sir/Lady for Saradominist order members
+	}
+	effect = {
+		if = {
+			limit = {
+				is_adult = yes
+				NOT = { has_council_position = councillor_court_chaplain } 
+				scope:new_employer = {
+					NOT = {is_spouse_of = root }
+					OR = {
+						has_primary_title = title:c_wizard
+						has_primary_title = title:d_wizard
+					}
+				}
+			}
+			give_nickname = nick_wizard
+			add_character_flag = {
+				flag = wizard
+			}
+		}
+
+	}
+}
+
