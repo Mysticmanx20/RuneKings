@@ -37,6 +37,7 @@ elf002 = {
 
 elf003 = {
 	name = "Eluned"
+	dynasty = 101006
 	female = yes
 	religion = seren #seren
 	culture = elf
@@ -293,5 +294,50 @@ elf019 = {
 	}
 	9168.1.1 = {
 		employer = elf002
+	}
+}
+
+elf020 = {
+	name = "Ilfeen"
+	dynasty = 101006
+	female = yes
+	religion = seren 
+	culture = elf
+	trait = education_stewardship_2
+	9139.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+		employer = elf010
+	}
+}
+
+elf021 = {
+	name = "Morvran"
+	dynasty = 101001
+	religion = seren
+	culture = elf
+	trait = zealous
+	trait = education_martial_1
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf001
+	}
+}
+
+elf022 = {
+	name = "Iestin"
+	dynasty = 101001
+	religion = seren
+	culture = elf
+	trait = zealous
+	trait = education_learning_2
+	9139.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf001
 	}
 }
