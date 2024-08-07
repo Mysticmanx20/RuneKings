@@ -1322,6 +1322,18 @@ kand103 = {
 	}
 }
 
-
+kand10 = {
+	name = "Hining"
+	religion = saradomin
+	culture = kandarin
+	martial = 8
+	trait = education_martial_2
+	9139.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand018
+	}
+}
 
 
