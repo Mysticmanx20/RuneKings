@@ -219,3 +219,79 @@ elf014 = {
 		birth = yes
 	}
 }
+
+elf015 = {
+	name = "Ieuan"
+	dynasty = 101004
+	religion = seren
+	culture = elf
+	trait = calm
+	trait = humble
+	trait = zealous
+	trait = education_martial_3
+	9138.1.1 = {
+		birth = yes
+	}
+}
+
+elf016 = {
+	name = "Piquan"
+	dynasty = 101005
+	religion = seren
+	culture = elf
+	trait = calm
+	trait = content
+	trait = patient
+	trait = education_learning_3
+	9130.1.1 = {
+		birth = yes
+	}
+}
+
+elf017 = {
+	name = "Tangwen"
+	female = yes
+	dynasty = 101008
+	religion = seren
+	culture = elf
+	trait = wrathful
+	trait = diligent
+	trait = impatient
+	trait = education_learning_4
+	9125.1.1 = {
+		birth = yes
+	}
+}
+
+elf018 = {
+	name = "Ffion"
+	female = yes
+	dynasty = 101007
+	religion = seren
+	culture = elf
+	trait = brave
+	trait = diligent
+	trait = ambitious
+	trait = education_learning_4
+	9138.1.1 = {
+		birth = yes
+	}
+}
+
+elf019 = {
+	name = "Kelyn"
+	female = yes
+	dynasty = 101006
+	religion = seren
+	culture = elf
+	trait = calm
+	trait = diligent
+	trait = humble
+	trait = education_stewardship_3
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf002
+	}
+}
