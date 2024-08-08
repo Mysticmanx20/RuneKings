@@ -284,6 +284,7 @@ kand022 = {
 	}
 	9168.1.1 = {
 		employer = kand018
+		give_council_position = councillor_chancellor
 	}
 }
 
@@ -1333,6 +1334,7 @@ kand104 = {
 	}
 	9168.1.1 = {
 		employer = kand018
+		give_council_position = councillor_marshal
 	}
 }
 
