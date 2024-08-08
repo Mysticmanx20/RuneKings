@@ -107,6 +107,7 @@ c_westardy = {
 		change_development_level = 12
 	}
 	9166.1.1 = {
+		liege = kand018
 		holder = kand022
 	}
 }
