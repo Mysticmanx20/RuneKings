@@ -64,7 +64,7 @@ start_whiteknights = {
             }
 
 			scope:new_holy_order_2 = {
-                copy_title_history = title:c_blackknights
+                copy_title_history = title:d_kinshra
             }
 			
 		}

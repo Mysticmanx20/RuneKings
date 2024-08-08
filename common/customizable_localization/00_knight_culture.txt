@@ -3,13 +3,6 @@
 
 	text = {
 		trigger = {
-			culture = { has_cultural_pillar = language_greek }
-		}
-		localization_key = knight_hetaeria
-	}
-
-	text = {
-		trigger = {
 			culture = culture:piratecul
 		}
 		localization_key = knight_pirate
