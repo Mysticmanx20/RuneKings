@@ -224,6 +224,9 @@ kand018 = {
 	9130.1.1 = {
 		birth = yes
 	}
+	9166.1.1 = {
+		capital = c_tyras
+	}
 }
 
 kand019 = {
@@ -282,7 +285,7 @@ kand022 = {
 	9126.1.1 = {
 		birth = yes
 	}
-	9168.1.1 = {
+	9140.1.1 = {
 		employer = kand018
 		give_council_position = councillor_chancellor
 	}
@@ -297,7 +300,7 @@ kand023 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
@@ -306,6 +309,7 @@ kand024 = {
 	female = yes
 	religion = saradomin
 	culture = kandarin
+	learning = 9
 	trait = education_learning_1
 	trait = lifestyle_physician
 	trait = beauty_good_1
@@ -313,7 +317,7 @@ kand024 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
@@ -327,7 +331,7 @@ kand025 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
@@ -340,7 +344,7 @@ kand026 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
@@ -366,7 +370,7 @@ kand028 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
@@ -380,7 +384,7 @@ kand029 = {
 		birth = yes
 	}
 	9136.1.1 = {
-		employer = kand018
+		employer = kand022
 	}
 }
 
