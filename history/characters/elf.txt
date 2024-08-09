@@ -233,6 +233,9 @@ elf015 = {
 	9138.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		employer = elf002
+	}
 }
 
 elf016 = {
@@ -246,6 +249,9 @@ elf016 = {
 	trait = education_learning_3
 	9130.1.1 = {
 		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf010
 	}
 }
 
@@ -262,6 +268,9 @@ elf017 = {
 	9125.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		employer = elf010
+	}
 }
 
 elf018 = {
@@ -276,6 +285,9 @@ elf018 = {
 	trait = education_learning_4
 	9138.1.1 = {
 		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf010
 	}
 }
 
@@ -341,3 +353,69 @@ elf022 = {
 		employer = elf001
 	}
 }
+
+elf023 = {
+	name = "Ysgawyn"
+	religion = seren
+	culture = elf
+	sexuality = homosexual
+	trait = vengeful
+	trait = education_diplomacy_2
+	9140.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf002
+	}
+}
+
+elf024 = {
+	name = "Mawrth"
+	female = yes
+	culture = elf
+	religion = seren
+	trait = compassionate
+	trait = education_diplomacy_1
+	9135.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf002
+	}
+}
+
+elf025 = {
+	name = "Iona" #child 
+	female = yes
+	culture = elf
+	religion = seren
+	mother = elf024
+	9158.1.1 = {
+		birth = yes
+	}
+}
+
+elf025 = {
+	name = "Eoin" #child 
+	culture = elf
+	religion = seren
+	mother = elf024
+	9158.1.1 = {
+		birth = yes
+	}
+}
+
+elf026 = {
+	name = "Essyllt"
+	dynasty = 101001
+	culture = elf
+	religion = seren
+	trait = education_martial_3
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = elf001
+	}
+}
+

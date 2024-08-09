@@ -243,7 +243,9 @@ kand019 = {
 		birth = yes
 	}
 	9136.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_hunting_accident
+		}
 	}
 }
 
@@ -270,6 +272,9 @@ kand021 = {
 	culture = kandarin
 	9128.1.1 = {
 		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand017
 	}
 }
 
@@ -301,6 +306,7 @@ kand023 = {
 	}
 	9168.1.1 = {
 		employer = kand022
+		give_council_position = councillor_steward
 	}
 }
 
@@ -340,6 +346,7 @@ kand026 = {
 	religion = saradomin
 	culture = kandarin
 	trait = education_diplomacy_1
+	trait = cynical
 	9124.1.1 = {
 		birth = yes
 	}
@@ -435,10 +442,11 @@ kand033 = {
 	trait = compassionate
 	trait = education_diplomacy_2
 	9138.1.1 = {
-		birth = yes #chancillor
+		birth = yes 
 	}
 	9168.1.1 = {
 		employer = kand017
+		give_council_position = councillor_chancellor
 	}
 }
 
@@ -777,6 +785,7 @@ kand059 = {
 	name = "Armacus"
 	religion = armadyl
 	culture = kandarin
+	trait = zealous
 	trait = education_martial_2
 	9141.1.1 = {
 		birth = yes
