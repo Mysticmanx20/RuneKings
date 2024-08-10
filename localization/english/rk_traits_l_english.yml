@@ -7,6 +7,9 @@
  trait_vampire_character:0 "Vampyre"
  trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that must drink the blood of the living to survive."
 
+ trait_elf_lifespan:0 "Elf"
+ trait_elf_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an elf, a long-lived race of tall, graceful humanoids with noticably elongated ears."
+
  trait_thief:0 "Thief"
  trait_thief_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to take things that don't belong to them."
  secret_thief:0 "Thief"
