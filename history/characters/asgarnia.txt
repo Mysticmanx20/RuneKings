@@ -284,20 +284,6 @@
     }
 }
 
-900323 = {
-    name = "Elvarg"
-    female = yes
-    culture = dragon
-    religion = jas
-    trait = wrathful
-    trait = arbitrary
-    trait = sadistic
-    trait = education_martial_4
-    9114.1.1 = {
-        birth = yes
-    }
-}
-
 900324 = {
     name = "Party Pete"
     religion = saradomin

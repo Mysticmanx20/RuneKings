@@ -148,6 +148,26 @@ l_english:
  	XAUTAK_AFTERLIFE:0 "Erebus"
   XAUTAK_DIVINE:0 "the Shadow Realm"
  
+#############################
+#Zulrah
+
+ zulrah_religion:1 "Serpentine"
+ zulrah_religion_adj:1 "Serpentine"
+ zulrah_religion_adherent:1 "Zulrah Cultist"
+ zulrah_religion_adherent_plural:1 "Zulrah Cultists"
+ zulrah_religion_desc:0 "Zulrah is a powerful, large serpent that lurks within the Posion Waste in southern Tirannwn, originally created by an unknown dragonkin."
+
+ zulrah:0 "Cult of Zulrah"
+ zulrah_adj:0 "Zulrah Cult"
+ zulrah_adherent:0 "Zulrah cultist"
+ zulrah_adherent_plural:0 "Zulrah cultists"
+ zulrah_desc:0 "Zulrah is a powerful, large serpent that lurks within the Posion Waste in southern Tirannwn, originally created by an unknown dragonkin. Some have taken to devote themselves to Zulrah, viewing the creature as a benevolent god that provides life for those in the poison wastes."
+
+ ZUL_NAME:0 "Zulrah"
+ ZUL_NAME_POS:0 "Zulrah's"
+ ZUL_NAME2:0 "The Hooded Serpent"
+ ZUL_NAME2_POS:0 "The Hooded Serpent's"
+
 
 #############################
 #Elder Gods

@@ -101,20 +101,20 @@ d_ardy = {
 	}
 }
 
+d_westardy = {
+	9136.1.1 = {
+		holder = kand018
+	}
+}
+
 c_westardy = {
 	9136.1.1 = {
 		holder = kand018
 		change_development_level = 12
 	}
 	9166.1.1 = {
-		liege = kand018
+		liege = d_westardy
 		holder = kand022
-	}
-}
-
-d_westardy = {
-	9136.1.1 = {
-		holder = kand018
 	}
 }
 

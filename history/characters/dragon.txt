@@ -1,0 +1,28 @@
+
+900323 = {
+    name = "Elvarg"
+    female = yes
+    culture = dragon
+    religion = jas
+    trait = wrathful
+    trait = arbitrary
+    trait = sadistic
+    trait = education_martial_4
+    9114.1.1 = {
+        birth = yes
+    }
+}
+
+dragon001 = {
+	name = "Zulrah"
+	sexuality = asexual
+	culture = dragon
+	religion = zulrah
+	trait = arbitrary
+	trait = greedy
+	trait = wrathful
+	trait = education_martial_4
+	9135.1.1 = {
+		birth = yes
+	}
+}

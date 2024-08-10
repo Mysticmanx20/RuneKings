@@ -1,5 +1,5 @@
 ﻿246 = { #Poison
-	religion = guthix #zulrah
+	religion = zulrah
 	culture = gnome
 	holding = tribal_holding
 }
@@ -223,7 +223,7 @@
 }
 
 555 = { 
-	religion = jas
+	religion = zulrah
 	culture = dragon
 	holding = church_holding
 }

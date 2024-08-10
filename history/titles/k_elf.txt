@@ -82,11 +82,18 @@ c_poisonisles = {
 }
 
 c_poison = {
-	9168.1.1 = {
+	9165.1.1 = {
 		liege = 0
 		holder = gnome002
-		government = clan_government
+		effect = { set_title_name = cn_zulrah }
+		government = tribal_government
 		change_development_level = 2
+	}
+}
+
+b_zulrah = {
+	9165.1.1 = {
+		holder = dragon001
 	}
 }
 

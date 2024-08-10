@@ -94,7 +94,7 @@ elf006 = {
 elf007 = {
 	name = "Gwenwynig"
 	female = yes
-	religion = seren #seren
+	religion = zulrah
 	culture = elf
 	trait = education_diplomacy_1
 	9138.1.1 = {
@@ -395,7 +395,7 @@ elf025 = {
 	}
 }
 
-elf025 = {
+elf026 = {
 	name = "Eoin" #child 
 	culture = elf
 	religion = seren
@@ -405,7 +405,7 @@ elf025 = {
 	}
 }
 
-elf026 = {
+elf027 = {
 	name = "Essyllt"
 	dynasty = 101001
 	culture = elf

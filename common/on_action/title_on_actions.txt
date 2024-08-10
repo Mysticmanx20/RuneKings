@@ -67,6 +67,15 @@ on_title_gain = {
 		}
 		if = {
 			limit = {
+				scope:title = title:c_poison
+				NOT = { has_faith = faith:zulrah }
+			}
+				
+			title:c_poison= { set_title_name = c_poison }
+				
+		}
+		if = {
+			limit = {
 				scope:title = title:k_marim
 			}
 			if = { 
