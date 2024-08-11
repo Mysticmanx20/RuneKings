@@ -3,8 +3,8 @@
 on_game_start = {
 
 	on_actions = {
-		vamps
 		vampyres
+		elves
 		start_religion
 		wizards
 		whiteknights

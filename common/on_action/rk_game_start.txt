@@ -1,15 +1,4 @@
 ﻿
-vamps = {
-	effect = {
-		every_ruler = {
-			limit = {
-				culture = culture:vampyre
-				NOT = { has_trait = cannibal }
-			}
-			add_trait = cannibal
-		}
-	}
-}
 
 vampyres = {
 	effect = {
@@ -19,6 +8,18 @@ vampyres = {
 				NOT = { has_trait = vampire_character }
 			}
 			add_trait = vampire_character
+		}
+	}
+}
+
+elves = {
+	effect = {
+		every_living_character = {
+			limit = {
+				culture = culture:elf
+				NOT = { has_trait = elf_lifespan }
+			}
+			add_trait = elf_lifespan
 		}
 	}
 }

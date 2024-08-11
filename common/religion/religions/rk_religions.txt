@@ -229,8 +229,8 @@ zam_religion = {    #Zamorak
 			
 
 			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_human_sacrifice
-			doctrine = tenet_ritual_cannibalism
+			doctrine = tenet_blood_pact
+			doctrine = tenet_sacred_shadows
 
 
 		}
