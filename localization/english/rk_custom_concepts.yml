@@ -1,0 +1,8 @@
+﻿l_english:
+
+ game_concept_ek_age_modifiers:0 "Aging Modifiers"
+ game_concept_ek_age_modifier:0 "Aging Modifier"
+ game_concept_ek_age_modifiers_aging:0 "Aging"
+ game_concept_ek_age_modifiers_advanced:0 "Advanced Age"
+ game_concept_ek_age_modifiers_borrowed:0 "Borrowed Time"
+ game_concept_ek_age_modifiers_desc:0 "Aging modifiers represent a character's declining health as they age. The number next to the modifier indicates the equivalent to the current modifier in human years."
