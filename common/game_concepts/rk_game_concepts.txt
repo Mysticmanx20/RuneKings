@@ -1,0 +1,4 @@
+﻿
+ek_age_modifiers = {
+	alias = {ek_age_modifier ek_age_modifiers_aging ek_age_modifiers_advanced ek_age_modifiers_borrowed }
+}
