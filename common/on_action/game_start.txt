@@ -5,6 +5,7 @@ on_game_start = {
 	on_actions = {
 		vampyres
 		elves
+		undead
 		start_religion
 		wizards
 		whiteknights

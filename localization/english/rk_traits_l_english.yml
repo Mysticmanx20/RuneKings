@@ -5,10 +5,13 @@
  trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will not die of old age, but that comes at a cost to both [ROOT.GetCharacter.GetHerHis] body and mind."
 
  trait_vampire_character:0 "Vampyre"
- trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that consumes the blood of the living to survive."
+ trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that consumes the blood of the living to survive. True-born vampyres are effectively immortal, they are immune to disease and will not die of natural causes such as old age."
 
  trait_elf_lifespan:0 "Elf"
- trait_elf_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an elf, a long-lived race of tall, graceful humanoids with noticably elongated ears."
+ trait_elf_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an elf, a long-lived race of tall, graceful humanoids with noticably elongated ears. Elves typically live into their mid 500s. Women with this trait will become infertile at around age 345."
+
+ trait_undead_character:0 "Undead"
+ trait_undead_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an undead creature, dead but not yet gone. Various creatures such as ghosts and zombies as well as other kinds of reanimated monsters are classified as undead. The undead are immune to disease and will not die of natural causes such as old age."
 
  trait_thief:0 "Thief"
  trait_thief_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to take things that don't belong to them."

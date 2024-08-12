@@ -69,8 +69,8 @@ vampire_character = {
 elf_lifespan = {
 	flag = lifespan_5_flag
 
-	life_expectancy = 450
-	years_of_fertility = 345 #390 years old
+	life_expectancy = 460
+	years_of_fertility = 300 #345 years old
 	monthly_lifestyle_xp_gain_mult = -0.5
 	monthly_prestige_gain_mult = -0.35
 	monthly_piety_gain_mult = -0.35
@@ -81,6 +81,20 @@ elf_lifespan = {
 	genetic = yes
 	physical = yes
 
+}
+
+undead_character = {
+	flag = lifespan_6_flag
+	flag = immune_to_disease
+
+	immortal = yes
+
+	monthly_lifestyle_xp_gain_mult = -0.5
+	monthly_prestige_gain_mult = -0.45
+	monthly_piety_gain_mult = -0.45
+	stress_loss_mult = -0.35
+	stress_gain_mult = -0.35
+	can_have_children = no
 }
 
 thief = {

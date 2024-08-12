@@ -24,6 +24,18 @@ elves = {
 	}
 }
 
+undead = {
+	effect = {
+		every_living_character = {
+			limit = {
+				culture = culture:ghost
+				NOT = { has_trait = undead_character }
+			}
+			add_trait = undead_character
+		}
+	}
+}
+
 start_religion = {
 	effect = {
 		if = {
