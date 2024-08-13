@@ -81,6 +81,7 @@ c_portphas = {
 		liege = 0
 		holder = 900501
 		change_development_level = 6
+		government = undead_government
 	}
 }
 
@@ -141,6 +142,7 @@ c_swamptrail = {
 		liege = 0
 		holder = mort009
 		change_development_level = 1
+		government = undead_government
 	}
 }
 
@@ -313,6 +315,7 @@ c_brainvolcano = {
 	9163.1.1 = {
 		holder = pirate013
 		change_development_level = 1
+		government = undead_government
 	}
 }
 

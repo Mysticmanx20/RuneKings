@@ -1,5 +1,9 @@
 ﻿l_english:
 
+
+ undead_government:0 "Undead"
+ undead_government_desc:1 "Undead governments consist primarily of undead creatures. These rather unsettling realms tend to terrorize nearby lands."
+
  game_concept_ek_age_modifiers:0 "Aging Modifiers"
  game_concept_ek_age_modifier:0 "Aging Modifier"
  game_concept_ek_age_modifiers_aging:0 "Aging"
