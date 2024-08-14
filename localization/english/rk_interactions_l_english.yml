@@ -1,5 +1,8 @@
 ﻿l_english:
 
   activate_prayer_interaction:0 "Activate Prayer"
-  activate_thick_skin:0 "Activate Thick Skin"
-  activate_burst_str:0 "Activate Burst of Strength"
+  activate_thick_skin:0 "Defense Prayer"
+  activate_burst_str:0 "Strength Prayer"
+  activate_clarity:0 "Attack Prayer"
+  activate_sharp_eye:0 "Ranged Prayer"
+  activate_mystic_will:0 "Magic Prayer"
