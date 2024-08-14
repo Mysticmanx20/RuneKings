@@ -1,0 +1,38 @@
+﻿
+# Prayer interaction 
+activate_prayer_interaction = {
+	interface_priority = 1
+	category = interaction_category_friendly
+	common_interaction = yes
+	
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:recipient = scope:actor
+	}
+
+	send_option = {
+		flag = thick_skin
+		localization = activate_thick_skin
+	}
+	send_option = {
+		flag = burst_str
+		localization = activate_burst_str
+	}
+	
+	auto_accept = yes
+
+	on_accept = {
+		scope:actor = {
+			switch = {
+				trigger = yes
+				scope:thick_skin = {
+					add_character_modifier = { modifier = prayer_thick_skin }
+				}
+				scope:burst_str = {
+					add_character_modifier = { modifier = prayer_burst_str }
+				}
+			}
+		}
+	}
+}

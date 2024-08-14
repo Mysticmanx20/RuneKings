@@ -30,3 +30,18 @@ bhakti_mena_scabaras = {	# Demigod of isolation and tranqility
 	stress_gain_mult = -0.15
 	stress_loss_mult = 0.15
 }
+
+
+#Prayers
+
+prayer_thick_skin = {
+	icon = thickskin
+	hard_casualty_modifier = -0.1
+	army_toughness_mult = 0.1
+}
+
+prayer_burst_str = {
+	icon = burststr
+	martial = 1
+	army_damage_mult = 0.1
+}
