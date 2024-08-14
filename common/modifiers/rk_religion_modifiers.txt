@@ -45,3 +45,21 @@ prayer_burst_str = {
 	martial = 1
 	army_damage_mult = 0.1
 }
+
+prayer_clarity = {
+	icon = burststr
+	prowess = 1
+	knight_effectiveness_mult = 0.05
+}
+
+prayer_sharp_eye = {
+	icon = thickskin
+	archers_damage_mult = 0.1
+	archer_cavalry_damage_mult = 0.1
+}
+
+prayer_mystic_will = {
+	icon = thickskin
+	learning = 1
+	#magic = 1
+}
