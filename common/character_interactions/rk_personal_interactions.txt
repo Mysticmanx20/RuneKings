@@ -12,12 +12,24 @@ activate_prayer_interaction = {
 	}
 
 	send_option = {
-		flag = thick_skin
+		flag = def_prayer
 		localization = activate_thick_skin
 	}
 	send_option = {
-		flag = burst_str
+		flag = str_prayer
 		localization = activate_burst_str
+	}
+	send_option = {
+		flag = atk_prayer
+		localization = activate_clarity
+	}
+	send_option = {
+		flag = range_prayer
+		localization = activate_sharp_eye
+	}
+	send_option = {
+		flag = magic_prayer
+		localization = activate_mystic_will
 	}
 	
 	auto_accept = yes
@@ -26,11 +38,20 @@ activate_prayer_interaction = {
 		scope:actor = {
 			switch = {
 				trigger = yes
-				scope:thick_skin = {
+				scope:def_prayer = {
 					add_character_modifier = { modifier = prayer_thick_skin }
 				}
-				scope:burst_str = {
+				scope:str_prayer = {
 					add_character_modifier = { modifier = prayer_burst_str }
+				}
+				scope::atk_prayer = {
+					add_character_modifier = { modifier = prayer_clarity }
+				}
+				scope:range_prayer = {
+					add_character_modifier = { modifier = prayer_sharp_eye }
+				}
+				scope:magic_prayer = {
+					add_character_modifier = { modifier = prayer_mystic_will }
 				}
 			}
 		}
