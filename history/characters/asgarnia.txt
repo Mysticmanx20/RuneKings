@@ -1332,3 +1332,16 @@ asgarn025 = {
         birth = yes
     }
 }
+
+asgarn026 = {
+	name = "Hotpheex"
+	religion = guthix
+	culture = asgarnia
+	trait = education_learning_1
+	9136.1.1 = {
+		birth = yes
+	}
+	9165.1.1 = {
+        	employer = 900373
+    	}
+}
