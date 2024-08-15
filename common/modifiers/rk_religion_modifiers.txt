@@ -53,13 +53,13 @@ prayer_clarity = {
 }
 
 prayer_sharp_eye = {
-	icon = thickskin
+	icon = sharpeye
 	archers_damage_mult = 0.1
 	archer_cavalry_damage_mult = 0.1
 }
 
 prayer_mystic_will = {
-	icon = thickskin
+	icon = mysticwill
 	learning = 1
 	#magic = 1
 }
