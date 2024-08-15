@@ -47,7 +47,7 @@ prayer_burst_str = {
 }
 
 prayer_clarity = {
-	icon = burststr
+	icon = clarity
 	prowess = 1
 	knight_effectiveness_mult = 0.05
 }

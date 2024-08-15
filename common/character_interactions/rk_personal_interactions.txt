@@ -4,12 +4,21 @@ activate_prayer_interaction = {
 	interface_priority = 1
 	category = interaction_category_friendly
 	common_interaction = yes
+	icon = prayer
 	
 	ignores_pending_interaction_block = yes
 
 	is_shown = {
 		scope:recipient = scope:actor
 	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			piety > minor_piety_value
+		}
+	}
+
+	cost = { piety = { value = minor_piety_value } }
 
 	send_option = {
 		flag = def_prayer
@@ -39,21 +48,77 @@ activate_prayer_interaction = {
 			switch = {
 				trigger = yes
 				scope:def_prayer = {
+					
 					add_character_modifier = { modifier = prayer_thick_skin }
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_thick_skin }
+							}
+						}
+					}
 				}
 				scope:str_prayer = {
+					
 					add_character_modifier = { modifier = prayer_burst_str }
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_burst_str }
+							}
+						}
+					}
 				}
-				scope::atk_prayer = {
+				scope:atk_prayer = {
+					
 					add_character_modifier = { modifier = prayer_clarity }
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_clarity }
+							}
+						}
+					}
 				}
 				scope:range_prayer = {
+					
 					add_character_modifier = { modifier = prayer_sharp_eye }
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_sharp_eye }
+							}
+						}
+					}
 				}
 				scope:magic_prayer = {
+					
 					add_character_modifier = { modifier = prayer_mystic_will }
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_mystic_will }
+							}
+						}
+					}
 				}
 			}
+			
 		}
 	}
 }
