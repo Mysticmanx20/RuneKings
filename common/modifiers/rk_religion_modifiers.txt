@@ -36,30 +36,35 @@ bhakti_mena_scabaras = {	# Demigod of isolation and tranqility
 
 prayer_thick_skin = {
 	icon = thickskin
+	monthly_piety = -0.25
 	hard_casualty_modifier = -0.1
 	army_toughness_mult = 0.1
 }
 
 prayer_burst_str = {
 	icon = burststr
+	monthly_piety = -0.25
 	martial = 1
 	army_damage_mult = 0.1
 }
 
 prayer_clarity = {
 	icon = clarity
+	monthly_piety = -0.25
 	prowess = 1
 	knight_effectiveness_mult = 0.05
 }
 
 prayer_sharp_eye = {
 	icon = sharpeye
+	monthly_piety = -0.25
 	archers_damage_mult = 0.1
 	archer_cavalry_damage_mult = 0.1
 }
 
 prayer_mystic_will = {
 	icon = mysticwill
+	monthly_piety = -0.25
 	learning = 1
 	#magic = 1
 }

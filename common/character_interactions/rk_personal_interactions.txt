@@ -45,6 +45,7 @@ activate_prayer_interaction = {
 
 	on_accept = {
 		scope:actor = {
+			
 			switch = {
 				trigger = yes
 				scope:def_prayer = {
