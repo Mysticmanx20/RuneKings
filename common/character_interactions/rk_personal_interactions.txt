@@ -21,22 +21,37 @@ activate_prayer_interaction = {
 	cost = { piety = { value = minor_piety_value } }
 
 	send_option = {
+		is_valid = {
+			scope:actor = { NOT = { has_character_modifier = prayer_thick_skin } }
+		}
 		flag = def_prayer
 		localization = activate_thick_skin
 	}
 	send_option = {
+		is_valid = {
+			scope:actor = { NOT = { has_character_modifier = prayer_burst_str } }
+		}
 		flag = str_prayer
 		localization = activate_burst_str
 	}
 	send_option = {
+		is_valid = {
+			scope:actor = { NOT = { has_character_modifier = prayer_clarity } }
+		}
 		flag = atk_prayer
 		localization = activate_clarity
 	}
 	send_option = {
+		is_valid = {
+			scope:actor = { NOT = { has_character_modifier = prayer_sharp_eye } }
+		}
 		flag = range_prayer
 		localization = activate_sharp_eye
 	}
 	send_option = {
+		is_valid = {
+			scope:actor = { NOT = { has_character_modifier = prayer_mystic_will } }
+		}
 		flag = magic_prayer
 		localization = activate_mystic_will
 	}
@@ -118,6 +133,7 @@ activate_prayer_interaction = {
 						}
 					}
 				}
+
 			}
 			
 		}
