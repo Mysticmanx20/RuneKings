@@ -1,6 +1,7 @@
 ﻿l_english:
 
   activate_prayer_interaction:0 "Activate Prayer"
+  activate_prayer_desc:0 "Spend [piety|E] to activate a [prayer|E] for yourself"
   activate_thick_skin:0 "Defense Prayer"
   activate_burst_str:0 "Strength Prayer"
   activate_clarity:0 "Attack Prayer"

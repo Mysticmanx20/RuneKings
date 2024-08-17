@@ -6,3 +6,8 @@ ek_age_modifiers = {
 undead_government = {
 	parent = government
 }
+
+prayer = {
+	alias = { prayer }
+	texture = "gfx/interface/icons/character_interactions/prayer.dds"
+}

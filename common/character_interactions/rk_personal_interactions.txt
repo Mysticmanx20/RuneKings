@@ -3,6 +3,7 @@
 activate_prayer_interaction = {
 	interface_priority = 1
 	category = interaction_category_friendly
+	desc = activate_prayer_desc
 	common_interaction = yes
 	icon = prayer
 	
@@ -22,35 +23,75 @@ activate_prayer_interaction = {
 
 	send_option = {
 		is_valid = {
-			scope:actor = { NOT = { has_character_modifier = prayer_thick_skin } }
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_thick_skin 
+						has_character_modifier = prayer_rock_skin
+						has_character_modifier = prayer_steel_skin
+					}
+				} 
+			}
 		}
 		flag = def_prayer
 		localization = activate_thick_skin
 	}
 	send_option = {
 		is_valid = {
-			scope:actor = { NOT = { has_character_modifier = prayer_burst_str } }
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_burst_str
+						has_character_modifier = prayer_super_str
+						has_character_modifier = prayer_ult_str
+					}
+				} 
+			}
 		}
 		flag = str_prayer
 		localization = activate_burst_str
 	}
 	send_option = {
 		is_valid = {
-			scope:actor = { NOT = { has_character_modifier = prayer_clarity } }
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_clarity
+						has_character_modifier = prayer_reflex
+						has_character_modifier = prayer_reflex2
+					}
+				} 
+			}
 		}
 		flag = atk_prayer
 		localization = activate_clarity
 	}
 	send_option = {
 		is_valid = {
-			scope:actor = { NOT = { has_character_modifier = prayer_sharp_eye } }
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_sharp_eye
+						has_character_modifier = prayer_hawk_eye
+						has_character_modifier = prayer_eagle_eye
+					}
+				} 
+			}
 		}
 		flag = range_prayer
 		localization = activate_sharp_eye
 	}
 	send_option = {
 		is_valid = {
-			scope:actor = { NOT = { has_character_modifier = prayer_mystic_will } }
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_mystic_will
+						has_character_modifier = prayer_mystic_lore
+						has_character_modifier = prayer_mystic_might
+					}
+				} 
+			}
 		}
 		flag = magic_prayer
 		localization = activate_mystic_will
@@ -64,71 +105,246 @@ activate_prayer_interaction = {
 			switch = {
 				trigger = yes
 				scope:def_prayer = {
-					
-					add_character_modifier = { modifier = prayer_thick_skin }
-					hidden_effect = {
-						send_interface_toast = {
-							title = prayer.active
-							left_icon = scope:actor
-			
-							show_as_tooltip = {
-								add_character_modifier = { modifier = prayer_thick_skin }
+					if = {
+						limit = { piety_level >= 4 }
+						add_character_modifier = {
+							modifier = prayer_steel_skin months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_steel_skin }
+								}
 							}
 						}
 					}
+					else_if = {
+						limit = { piety_level >= 2 }
+						add_character_modifier = {
+							modifier = prayer_rock_skin months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_rock_skin }
+								}
+							}
+						}
+					}
+					
+					else = {
+						add_character_modifier = { modifier = prayer_thick_skin months = 7 }
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_thick_skin }
+								}
+							}
+						}
+					}
+					
 				}
 				scope:str_prayer = {
 					
-					add_character_modifier = { modifier = prayer_burst_str }
-					hidden_effect = {
-						send_interface_toast = {
-							title = prayer.active
-							left_icon = scope:actor
-			
-							show_as_tooltip = {
-								add_character_modifier = { modifier = prayer_burst_str }
+					if = {
+						limit = { piety_level >= 4 }
+						add_character_modifier = {
+							modifier = prayer_ult_str months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_ult_str }
+								}
+							}
+						}
+					}
+					else_if = {
+						limit = { piety_level >= 2 }
+						add_character_modifier = {
+							modifier = prayer_super_str months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_super_str }
+								}
+							}
+						}
+					}
+					
+					else = {
+						add_character_modifier = { modifier = prayer_burst_str months = 7 }
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_burst_str }
+								}
 							}
 						}
 					}
 				}
 				scope:atk_prayer = {
 					
-					add_character_modifier = { modifier = prayer_clarity }
-					hidden_effect = {
-						send_interface_toast = {
-							title = prayer.active
-							left_icon = scope:actor
-			
-							show_as_tooltip = {
-								add_character_modifier = { modifier = prayer_clarity }
+					if = {
+						limit = { piety_level >= 4 }
+						add_character_modifier = {
+							modifier = prayer_reflex2 months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_reflex2 }
+								}
+							}
+						}
+					}
+					else_if = {
+						limit = { piety_level >= 2 }
+						add_character_modifier = {
+							modifier = prayer_reflex months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_reflex }
+								}
+							}
+						}
+					}
+					
+					else = {
+						add_character_modifier = { modifier = prayer_clarity months = 7 }
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_clarity }
+								}
 							}
 						}
 					}
 				}
 				scope:range_prayer = {
 					
-					add_character_modifier = { modifier = prayer_sharp_eye }
-					hidden_effect = {
-						send_interface_toast = {
-							title = prayer.active
-							left_icon = scope:actor
-			
-							show_as_tooltip = {
-								add_character_modifier = { modifier = prayer_sharp_eye }
+					if = {
+						limit = { piety_level >= 4 }
+						add_character_modifier = {
+							modifier = prayer_eagle_eye months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_eagle_eye }
+								}
+							}
+						}
+					}
+					else_if = {
+						limit = { piety_level >= 2 }
+						add_character_modifier = {
+							modifier = prayer_hawk_eye months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_hawk_eye }
+								}
+							}
+						}
+					}
+					
+					else = {
+						add_character_modifier = { modifier = prayer_sharp_eye months = 7 }
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_sharp_eye }
+								}
 							}
 						}
 					}
 				}
 				scope:magic_prayer = {
 					
-					add_character_modifier = { modifier = prayer_mystic_will }
-					hidden_effect = {
-						send_interface_toast = {
-							title = prayer.active
-							left_icon = scope:actor
-			
-							show_as_tooltip = {
-								add_character_modifier = { modifier = prayer_mystic_will }
+					if = {
+						limit = { piety_level >= 4 }
+						add_character_modifier = {
+							modifier = prayer_mystic_might months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_mystic_might }
+								}
+							}
+						}
+					}
+					else_if = {
+						limit = { piety_level >= 2 }
+						add_character_modifier = {
+							modifier = prayer_mystic_lore months = 7
+						}
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_mystic_lore }
+								}
+							}
+						}
+					}
+					
+					else = {
+						add_character_modifier = { modifier = prayer_mystic_will months = 7 }
+						hidden_effect = {
+							send_interface_toast = {
+								title = prayer.active
+								left_icon = scope:actor
+				
+								show_as_tooltip = {
+									add_character_modifier = { modifier = prayer_mystic_will }
+								}
 							}
 						}
 					}
