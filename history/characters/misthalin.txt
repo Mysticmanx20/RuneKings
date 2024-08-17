@@ -354,6 +354,7 @@
     trait = diligent
 	trait = humble
     trait = education_learning_3
+	trait = education_magical_ability_1
 	disallow_random_traits = yes
 	9113.1.1 = {
 		birth = yes

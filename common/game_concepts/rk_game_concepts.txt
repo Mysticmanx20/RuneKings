@@ -11,3 +11,10 @@ prayer = {
 	alias = { prayer }
 	texture = "gfx/interface/icons/character_interactions/prayer.dds"
 }
+
+arcana_skill = {
+	alias = { arcana_i arcana }
+	parent = skills
+
+	texture = "gfx/interface/icons/icon_arcana.dds"
+}

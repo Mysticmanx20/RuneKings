@@ -1,0 +1,106 @@
+﻿education_magical_ability_1 = {
+	
+	flag = add_arcana_2
+
+	group = education_magical_ability
+	level = 1
+	
+	ruler_designer_cost = 40
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_education_magical_ability_1_desc
+			}
+			desc = trait_education_magical_ability_1_character_desc
+		}
+	}
+}
+education_magical_ability_2 = {
+	
+	flag = add_arcana_4
+
+	group = education_magical_ability
+	level = 2
+	
+	ruler_designer_cost = 60
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_education_magical_ability_2_desc
+			}
+			desc = trait_education_magical_ability_2_character_desc
+		}
+	}
+}
+education_magical_ability_3 = {
+	
+	flag = add_arcana_6
+
+	group = education_magical_ability
+	level = 3
+	
+	ruler_designer_cost = 80
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_education_magical_ability_3_desc
+			}
+			desc = trait_education_magical_ability_3_character_desc
+		}
+	}
+}
+education_magical_ability_4 = {
+	
+	flag = add_arcana_8
+
+	group = education_magical_ability
+	level = 4
+	
+	ruler_designer_cost = 100
+
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_education_magical_ability_4_desc
+			}
+			desc = trait_education_magical_ability_4_character_desc
+		}
+	}
+}
+education_magical_ability_5 = {
+	
+	flag = add_arcana_10
+
+	group = education_magical_ability
+	level = 5
+	
+	ruler_designer_cost = 150
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_education_magical_ability_5_desc
+			}
+			desc = trait_education_magical_ability_5_character_desc
+		}
+	}
+}

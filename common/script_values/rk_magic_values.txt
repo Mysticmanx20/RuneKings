@@ -1,0 +1,369 @@
+﻿############
+# Arcana #
+############
+
+# Education
+arcana_trait_education_magical_ability_1 = 2
+arcana_trait_education_magical_ability_2 = 4
+arcana_trait_education_magical_ability_3 = 6
+arcana_trait_education_magical_ability_4 = 8
+arcana_trait_education_magical_ability_5 = 10
+
+# Lifestyle
+arcana_trait_mystic_1 = 2
+arcana_trait_mystic_2 = 4
+arcana_trait_mystic_3 = 6
+arcana_trait_scholar = 3
+
+# Personality
+arcana_trait_lazy = -1
+arcana_trait_diligent = 1
+arcana_trait_patient = 2
+arcana_trait_impatient = -2
+arcana_trait_shy = 1
+arcana_trait_ambitious = 1
+arcana_trait_eccentric = 1
+
+# Stress
+arcana_trait_drunkard = -2
+arcana_trait_hashishiyah = -2
+arcana_trait_reclusive = 1
+arcana_trait_irritable = -2
+arcana_trait_journaller = 1
+
+
+# Health
+arcana_trait_infirm = -6
+arcana_trait_incapable = -12
+arcana_trait_lunatic = -2
+
+# Disease
+arcana_trait_ill = -2
+arcana_trait_pneumonic = -5
+arcana_trait_great_pox = -3
+arcana_trait_consumption = -2
+arcana_trait_typhus = -3
+arcana_trait_bubonic_plague = -8
+arcana_trait_smallpox = -6
+arcana_trait_measles = -3
+arcana_trait_dysentery = -3
+arcana_trait_ergotism = -3
+
+# Physical
+arcana_trait_shrewd = 3
+arcana_trait_dull = -3
+
+
+# Criminal
+arcana_trait_witch = 4
+
+
+# Other
+arcana_trait_adventurer = 1
+
+
+# Arcana Master
+arcana_base = {
+	value = 0
+	if = {
+		limit = { exists = var:arcana_base }
+		add = var:arcana_base
+	}
+}
+
+arcana = {
+	value = arcana_base
+	if = {
+		limit = { has_trait = education_magical_ability_1 }
+		add = {
+			value = arcana_trait_education_magical_ability_1
+			desc = arcana_education_magical_ability_1
+		}
+	}
+	else_if = {
+		limit = { has_trait = education_magical_ability_2 }
+		add = {
+			value = arcana_trait_education_magical_ability_2
+			desc = arcana_education_magical_ability_2
+		}
+	}
+	else_if = {
+		limit = { has_trait = education_magical_ability_3 }
+		add = {
+			value = arcana_trait_education_magical_ability_3
+			desc = arcana_education_magical_ability_3
+		}
+	}
+	else_if = {
+		limit = { has_trait = education_magical_ability_4 }
+		add = {
+			value = arcana_trait_education_magical_ability_4
+			desc = arcana_education_magical_ability_4
+		}
+	}
+	else_if = {
+		limit = { has_trait = education_magical_ability_5 }
+		add = {
+			value = arcana_trait_education_magical_ability_5
+			desc = arcana_education_magical_ability_5
+		}
+	}
+	if = {
+		limit = { 
+			has_trait = lifestyle_mystic
+			has_trait_xp = {
+				trait = lifestyle_mystic
+				value < 50
+			}
+		}
+		add = {
+			value = arcana_trait_mystic_1
+			desc = arcana_mystic_1
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_mystic
+			has_trait_xp = {
+				trait = lifestyle_mystic
+				value >= 50
+			}
+		}
+		add = {
+			value = arcana_trait_mystic_2
+			desc = arcana_mystic_2
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_mystic
+			has_trait_xp = {
+				trait = lifestyle_mystic
+				value >= 100
+			}
+		}
+		add = {
+			value = arcana_trait_mystic_3
+			desc = arcana_mystic_3
+		}
+	}
+	if = {
+		limit = { has_trait = scholar }
+		add = {
+			value = arcana_trait_scholar
+			desc = arcana_scholar
+		}
+	}
+	# Personality
+	if = {
+		limit = { has_trait = lazy }
+		add = {
+			value = arcana_trait_lazy
+			desc = arcana_lazy
+		}
+	}
+	if = {
+		limit = { has_trait = diligent }
+		add = {
+			value = arcana_trait_diligent
+			desc = arcana_diligent
+		}
+	}
+	if = {
+		limit = { has_trait = patient }
+		add = {
+			value = arcana_trait_patient
+			desc = arcana_patient
+		}
+	}
+	if = {
+		limit = { has_trait = impatient }
+		add = {
+			value = arcana_trait_impatient
+			desc = arcana_impatient
+		}
+	}
+	if = {
+		limit = { has_trait = shy }
+		add = {
+			value = arcana_trait_shy
+			desc = arcana_shy
+		}
+	}
+	if = {
+		limit = { has_trait = ambitious }
+		add = {
+			value = arcana_trait_ambitious
+			desc = arcana_ambitious
+		}
+	}
+	if = {
+		limit = { has_trait = eccentric }
+		add = {
+			value = arcana_trait_eccentric
+			desc = arcana_eccentric
+		}
+	}	
+	# Stress
+	if = {
+		limit = { has_trait = drunkard }
+		add = {
+			value = arcana_trait_drunkard
+			desc = arcana_drunkard
+		}
+	}
+	if = {
+		limit = { has_trait = hashishiyah }
+		add = {
+			value = arcana_trait_hashishiyah
+			desc = arcana_hashishiyah
+		}
+	}
+	if = {
+		limit = { has_trait = reclusive }
+		add = {
+			value = arcana_trait_reclusive
+			desc = arcana_reclusive
+		}
+	}
+	if = {
+		limit = { has_trait = irritable }
+		add = {
+			value = arcana_trait_irritable
+			desc = arcana_irritable
+		}
+	}
+	if = {
+		limit = { has_trait = journaller }
+		add = {
+			value = arcana_trait_journaller
+			desc = arcana_journaller
+		}
+	}	
+	
+	# Health
+	if = {
+		limit = { has_trait = infirm }
+		add = {
+			value = arcana_trait_infirm
+			desc = arcana_infirm
+		}
+	}
+	if = {
+		limit = { has_trait = incapable }
+		add = {
+			value = arcana_trait_incapable
+			desc = arcana_incapable
+		}
+	}
+	if = {
+		limit = { has_trait = lunatic }
+		add = {
+			value = arcana_trait_lunatic
+			desc = arcana_lunatic
+		}
+	}
+	# Disease
+	if = {
+		limit = { has_trait = ill }
+		add = {
+			value = arcana_trait_ill
+			desc = arcana_ill
+		}
+	}
+	if = {
+		limit = { has_trait = pneumonic }
+		add = {
+			value = arcana_trait_pneumonic
+			desc = arcana_pneumonic
+		}
+	}
+	if = {
+		limit = { has_trait = great_pox }
+		add = {
+			value = arcana_trait_great_pox
+			desc = arcana_great_pox
+		}
+	}
+	if = {
+		limit = { has_trait = consumption }
+		add = {
+			value = arcana_trait_consumption
+			desc = arcana_consumption
+		}
+	}
+	if = {
+		limit = { has_trait = typhus }
+		add = {
+			value = arcana_trait_typhus
+			desc = arcana_typhus
+		}
+	}
+	if = {
+		limit = { has_trait = bubonic_plague }
+		add = {
+			value = arcana_trait_bubonic_plague
+			desc = arcana_bubonic_plague
+		}
+	}
+	if = {
+		limit = { has_trait = smallpox }
+		add = {
+			value = arcana_trait_smallpox
+			desc = arcana_smallpox
+		}
+	}
+	if = {
+		limit = { has_trait = measles }
+		add = {
+			value = arcana_trait_measles
+			desc = arcana_measles
+		}
+	}
+	if = {
+		limit = { has_trait = dysentery }
+		add = {
+			value = arcana_trait_dysentery
+			desc = arcana_dysentery
+		}
+	}
+	if = {
+		limit = { has_trait = ergotism }
+		add = {
+			value = arcana_trait_ergotism
+			desc = arcana_ergotism
+		}
+	}
+	# Physical
+	if = {
+		limit = { has_trait = shrewd }
+		add = {
+			value = arcana_trait_shrewd
+			desc = arcana_shrewd
+		}
+	}
+	if = {
+		limit = { has_trait = dull }
+		add = {
+			value = arcana_trait_dull
+			desc = arcana_dull
+		}
+	}
+	if = {
+		limit = { has_trait = witch }
+		add = {
+			value = arcana_trait_witch
+			desc = arcana_witch
+		}
+	}
+	
+	# Other
+	if = {
+		limit = { has_trait = adventurer }
+		add = {
+			value = arcana_trait_adventurer
+			desc = arcana_adventurer
+		}
+	}
+
+}

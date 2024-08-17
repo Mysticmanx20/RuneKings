@@ -598,3 +598,4 @@ group_roco = {
 
 	is_valid = { has_ep1_dlc_trigger = yes }
 }
+

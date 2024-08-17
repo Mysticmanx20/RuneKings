@@ -1,0 +1,853 @@
+types Arcana
+{
+	type arcana_breakdown_widget = widget {
+		datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('arcana')]" #"[Character.MakeScope.ScriptV]"
+		alwaystransparent = no
+		using = GeneralTooltipSetup
+		widget = {
+			name = "background"
+			using = DefaultTooltipBackground
+			size = { 100% 100% }
+			alwaystransparent = no
+		}
+		vbox = {
+			set_parent_size_to_minimum = yes
+			margin = { 20 10 }
+			margin_bottom = 20
+			spacing = 3
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				text = "arcana_title"
+				align = left
+			}
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				alwaystransparent = no
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					datamodel = "[ValueBreakdown.GetSubValues]"
+					#alwaystransparent = no
+
+					text_single = { #separate as it has a different format
+						name = "base"
+						layoutpolicy_horizontal = expanding
+						text = arcana_base
+						margin_bottom = -1
+					}
+
+					item = {
+						hbox = {
+							name = "value_breakdown"
+							visible = "[Not(EqualTo_string( ValueBreakdown.GetName, 'artifact_arcana' ))]"
+
+							layoutpolicy_horizontal = expanding
+
+							text_single = {
+								name = "name"
+								raw_text = "[ValueBreakdown.GetName]:"
+							}
+
+							# text_single = {
+							#     visible = "[And(ValueBreakdown.HasTooltip, ValueBreakdown.ShouldShowValue)]"
+							#     name = "value_with_tooltip"
+							#     layoutpolicy_horizontal = expanding
+							#     text = "[ValueBreakdown.GetValue|L]"
+							#     #align = right
+							#     #fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+							#     using = tooltip_below
+
+							#     tooltipwidget = {
+							#         recursive = yes
+
+							#         widget_value_breakdown_tooltip = {}
+							#     }
+							# }
+
+							text_single = {
+								#visible = "[And( Not(ValueBreakdown.HasTooltip), ValueBreakdown.ShouldShowValue )]" #dont know what shouldshowvalue does
+								name = "value_with_no_tooltip"
+								layoutpolicy_horizontal = expanding
+								raw_text = " [arcana_i][ValueBreakdown.GetFixedPointValue|+=0]"
+							}
+						}
+					}
+				}
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					datacontext = "[Character.GetInventory]"
+					datamodel = "[Character.GetInventory.GetArtifacts]"
+					#alwaystransparent = no
+
+					item = {
+						hbox = {
+							name = "value_breakdown"
+
+							visible = "[And(Artifact.MakeScope.Var('arcana_modifier').IsSet, Inventory.IsEquipped( Artifact.Self ))]"
+
+							layoutpolicy_horizontal = expanding
+
+							text_single = {
+								name = "name"
+								raw_text = "[Artifact.GetName]:"
+							}
+
+							text_single = {
+								name = "value"
+								layoutpolicy_horizontal = expanding
+								raw_text = " [arcana_i][Artifact.MakeScope.Var('arcana_modifier').GetValue|+=0]"
+							}
+						}
+					}
+				}
+			}
+
+			vbox = {
+				visible = "[Or(Character.HasPerk(GetPerk('necromancy_novice_perk') ), Or(Character.HasPerk(GetPerk('conjuration_novice_perk') ), Or(Character.HasPerk(GetPerk('destruction_novice_perk') ), Or(Character.HasPerk(GetPerk('alteration_novice_perk') ), Or(Character.HasPerk(GetPerk('illusion_novice_perk') ), Character.HasPerk(GetPerk('restoration_novice_perk') ) ) ) ) ) ) ]"
+
+				text_single = {
+					text = "MAGIC_PERKS"
+				}
+				hbox = {
+					vbox = {
+						hbox = {
+							datacontext = "[GetPerk('conjuration_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('conjuration_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('conjuration_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('conjuration_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('conjuration_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_diplomacy.dds"
+							}
+						}
+					}
+
+					vbox = {
+						hbox = {
+							datacontext = "[GetPerk('destruction_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('destruction_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('destruction_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('destruction_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('destruction_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_martial.dds"
+							}
+						}
+					}
+
+					vbox = {
+						hbox = {
+							datacontext = "[GetPerk('alteration_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('alteration_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('alteration_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('alteration_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('alteration_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_stewardship.dds"
+							}
+						}
+					}
+
+					vbox = {
+						hbox = {
+							datacontext = "[GetPerk('illusion_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('illusion_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('illusion_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('illusion_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('illusion_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_intrigue.dds"
+							}
+						}
+					}
+
+					vbox = {
+						hbox = {
+							datacontext = "[GetPerk('restoration_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('restoration_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('restoration_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('restoration_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('restoration_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_learning.dds"
+							}
+						}
+					}
+					vbox = {
+						visible = "[Character.HasTrait(GetTrait('necromancer') ) ]"
+						hbox = {
+							datacontext = "[GetPerk('necromancy_novice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('necromancy_apprentice_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('necromancy_journeyman_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+						}
+						
+						hbox = {
+							datacontext = "[GetPerk('necromancy_expert_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+						}
+
+						hbox = {
+							datacontext = "[GetPerk('necromancy_master_perk')]"
+
+							tooltipwidget = {
+								using = perk_tooltip_contents
+							}
+
+							icon = {
+								visible = "[Not(Character.HasPerk(Perk.Self))]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 3
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+
+							icon = {
+								visible = "[Character.HasPerk(Perk.Self)]"
+								size = { 30 30 }
+								framesize = { 60 60 }
+								frame = 2
+								texture = "gfx/interface/icons/lifestyles_perks/node_necromancy.dds"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}

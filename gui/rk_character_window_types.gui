@@ -1,0 +1,30 @@
+types CharWindow
+{
+	
+	type ek_arcana = vbox
+	{
+		tooltipwidget = {
+			arcana_breakdown_widget = { #yay script value breakdown
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+		}
+		using = tooltip_ne
+
+		spacing = -3
+
+		using = Animation_Character_Window_Refresh
+
+		icon = {
+			name = "arcana_icon"
+			size = { 32 32 }
+			texture = "gfx/interface/icons/icon_arcana.dds"
+		}
+
+		text_single = {
+			name = "arcana_value"
+			text = "[CharacterWindow.GetCharacter.MakeScope.ScriptValue('arcana')|0]"
+			align = nobaseline
+		}
+	}
+	
+}

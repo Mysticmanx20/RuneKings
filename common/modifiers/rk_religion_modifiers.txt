@@ -55,7 +55,7 @@ prayer_steel_skin = {
 
 prayer_burst_str = {
 	icon = burststr
-	monthly_piety = -2
+	monthly_piety_gain_mult = -1
 	martial = 1
 	army_damage_mult = 0.1
 }
@@ -94,18 +94,21 @@ prayer_reflex2 = {
 prayer_sharp_eye = {
 	icon = sharpeye
 	monthly_piety_gain_mult = -1
+	hostile_scheme_resistance_mult = 0.3
 	archers_damage_mult = 0.1
 	archer_cavalry_damage_mult = 0.1
 }
 prayer_hawk_eye = {
 	icon = rng2
 	monthly_piety_gain_mult = -1
+	hostile_scheme_resistance_mult = 0.5
 	archers_damage_mult = 0.15
 	archer_cavalry_damage_mult = 0.15
 }
 prayer_eagle_eye = {
 	icon = rng3
 	monthly_piety_gain_mult = -1
+	hostile_scheme_resistance_mult = 0.7
 	archers_damage_mult = 0.2
 	archer_cavalry_damage_mult = 0.2
 }

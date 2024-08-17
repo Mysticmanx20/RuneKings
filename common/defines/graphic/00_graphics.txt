@@ -2,3 +2,9 @@
     PANNING_WIDTH =  8400
 	PANNING_HEIGHT = 4100
 }
+
+NCharacterWindow = {
+	MAX_TRAITS_IN_PERSONALITY_BOX = 4				# How many traits per row in the trait box
+	SKILL_LIST_ITEMS = { 0 1 2 3 4 }
+	MAX_VISIBLE_MODIFIERS = 4						# When to show the number of extra modifiers
+}

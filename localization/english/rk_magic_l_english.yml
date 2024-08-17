@@ -1,0 +1,79 @@
+﻿l_english:
+
+ 	#try CHARACTER instead of charwindow, it needs to be Character.MakeScope.Char as just Character is not recognised
+ 	arcana_title:0 "#bold;high;size:18 [arcana|E]: [Character.MakeScope.ScriptValue('arcana')|0]#! #bold;italic;low;size:18 ([Character.Custom('ArcanaLevel')])#!"
+	arcana_base:0 "Base: #high [Character.MakeScope.ScriptValue('arcana_base')|0]#!"
+	 #education
+	arcana_education_magical_ability_1:0 "[GetTrait('education_magical_ability_1').GetName(ROOT.Char)]"
+	arcana_education_magical_ability_2:0 "[GetTrait('education_magical_ability_2').GetName(ROOT.Char)]"
+	arcana_education_magical_ability_3:0 "[GetTrait('education_magical_ability_3').GetName(ROOT.Char)]"
+	arcana_education_magical_ability_4:0 "[GetTrait('education_magical_ability_4').GetName(ROOT.Char)]"
+	arcana_education_magical_ability_5:0 "[GetTrait('education_magical_ability_5').GetName(ROOT.Char)]"
+	#lifestyle
+	#arcana_mystic:0 "[Character.Custom('arcana_mystic')]"
+	arcana_mystic_1:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
+	arcana_mystic_2:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
+	arcana_mystic_3:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
+	arcana_scholar:0 "[GetTrait('scholar').GetName(ROOT.Char)]"
+	# arcana_soul_magic:0 "[GetTrait('soul_magic').GetName(ROOT.Char)]" #unused
+	# arcana_conjurer:0 "[GetTrait('conjurer').GetName(ROOT.Char)]" #unused
+	#personality
+	arcana_lazy:0 "[GetTrait('lazy').GetName(ROOT.Char)]"
+	arcana_diligent:0 "[GetTrait('diligent').GetName(ROOT.Char)]"
+	arcana_patient:0 "[GetTrait('patient').GetName(ROOT.Char)]"
+	arcana_impatient:0 "[GetTrait('impatient').GetName(ROOT.Char)]"
+	arcana_shy:0 "[GetTrait('shy').GetName(ROOT.Char)]"
+	arcana_ambitious:0 "[GetTrait('ambitious').GetName(ROOT.Char)]"
+	arcana_eccentric:0 "[GetTrait('eccentric').GetName(ROOT.Char)]"
+	#stress
+	arcana_drunkard:0 "[GetTrait('drunkard').GetName(ROOT.Char)]"
+	arcana_hashishiyah:0 "[GetTrait('hashishiyah').GetName(ROOT.Char)]"
+	arcana_reclusive:0 "[GetTrait('reclusive').GetName(ROOT.Char)]"
+	arcana_irritable:0 "[GetTrait('irritable').GetName(ROOT.Char)]"
+	arcana_journaller:0 "[GetTrait('journaller').GetName(ROOT.Char)]"
+	#health
+	arcana_infirm:0 "[GetTrait('infirm').GetName(ROOT.Char)]"
+	arcana_incapable:0 "[GetTrait('incapable').GetName(ROOT.Char)]"
+	arcana_lunatic:0 "[GetTrait('lunatic_1').GetName(ROOT.Char)]"
+	arcana_possessed:0 "[GetTrait('possessed_1').GetName(ROOT.Char)]"
+	#disease
+	arcana_ill:0 "[GetTrait('ill').GetName(ROOT.Char)]"
+	arcana_pneumonic:0 "[GetTrait('pneumonic').GetName(ROOT.Char)]"
+	arcana_great_pox:0 "[GetTrait('great_pox').GetName(ROOT.Char)]"
+	arcana_consumption:0 "[GetTrait('consumption').GetName(ROOT.Char)]"
+	arcana_typhus:0 "[GetTrait('typhus').GetName(ROOT.Char)]"
+	arcana_bubonic_plague:0 "[GetTrait('bubonic_plague').GetName(ROOT.Char)]"
+	arcana_smallpox:0 "[GetTrait('smallpox').GetName(ROOT.Char)]"
+	arcana_measles:0 "[GetTrait('measles').GetName(ROOT.Char)]"
+	arcana_dysentery:0 "[GetTrait('dysentery').GetName(ROOT.Char)]"
+	arcana_ergotism:0 "[GetTrait('ergotism').GetName(ROOT.Char)]"
+	#physical
+	arcana_shrewd:0 "[GetTrait('shrewd').GetName(ROOT.Char)]"
+	arcana_dull:0 "[GetTrait('dull').GetName(ROOT.Char)]"
+	#criminal
+	arcana_witch:0 "[GetTrait('witch').GetName(ROOT.Char)]"
+	#other
+	arcana_adventurer:0 "[GetTrait('adventurer').GetName(ROOT.Char)]"
+
+
+	TRAIT_FLAG_DESC_add_arcana_1:0 "[arcana|E]: [arcana_i]#P +1#!"
+	TRAIT_FLAG_DESC_add_arcana_2:0 "[arcana|E]: [arcana_i]#P +2#!"
+	TRAIT_FLAG_DESC_add_arcana_3:0 "[arcana|E]: [arcana_i]#P +3#!"
+	TRAIT_FLAG_DESC_add_arcana_4:0 "[arcana|E]: [arcana_i]#P +4#!"
+	TRAIT_FLAG_DESC_add_arcana_5:0 "[arcana|E]: [arcana_i]#P +5#!"
+	TRAIT_FLAG_DESC_add_arcana_6:0 "[arcana|E]: [arcana_i]#P +6#!"
+	TRAIT_FLAG_DESC_add_arcana_7:0 "[arcana|E]: [arcana_i]#P +7#!"
+	TRAIT_FLAG_DESC_add_arcana_8:0 "[arcana|E]: [arcana_i]#P +8#!"
+	TRAIT_FLAG_DESC_add_arcana_9:0 "[arcana|E]: [arcana_i]#P +9#!"
+	TRAIT_FLAG_DESC_add_arcana_10:0 "[arcana|E]: [arcana_i]#P +10#!"
+	TRAIT_FLAG_DESC_add_arcana_11:0 "[arcana|E]: [arcana_i]#P +11#!"
+	TRAIT_FLAG_DESC_add_arcana_12:0 "[arcana|E]: [arcana_i]#P +12#!"
+	TRAIT_FLAG_DESC_subtract_arcana_1:0 "[arcana|E]: [arcana_i]#N -1#!"
+	TRAIT_FLAG_DESC_subtract_arcana_2:0 "[arcana|E]: [arcana_i]#N -2#!"
+	TRAIT_FLAG_DESC_subtract_arcana_3:0 "[arcana|E]: [arcana_i]#N -3#!"
+	TRAIT_FLAG_DESC_subtract_arcana_4:0 "[arcana|E]: [arcana_i]#N -4#!"
+	TRAIT_FLAG_DESC_subtract_arcana_5:0 "[arcana|E]: [arcana_i]#N -5#!"
+	TRAIT_FLAG_DESC_subtract_arcana_6:0 "[arcana|E]: [arcana_i]#N -6#!"
+	TRAIT_FLAG_DESC_subtract_arcana_8:0 "[arcana|E]: [arcana_i]#N -8#!"
+	TRAIT_FLAG_DESC_subtract_arcana_10:0 "[arcana|E]: [arcana_i]#N -10#!"
+	TRAIT_FLAG_DESC_subtract_arcana_12:0 "[arcana|E]: [arcana_i]#N -12#!"

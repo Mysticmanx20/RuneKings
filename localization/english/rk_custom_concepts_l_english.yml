@@ -7,6 +7,17 @@
  game_concept_prayer:0 "Prayer"
  game_concept_prayer_desc:0 "$game_concept_prayer$ is a special [character_interaction|E] in which a ruler can give themselves various [character_modifiers|E] by spending [piety|E].\n\nThe bonuses given from a prayer can be improved by having a higher [piety_level|E]."
 
+ game_concept_magicka:0 "Magicka"
+ game_concept_magicka_i:0 "@magicka_icon!"
+ game_concept_magicka_desc:1 "$game_concept_magicka$ is used to cast [spells|E]. A character's maximum magicka and monthly generation are determined by their [arcana|E] - each point adds #high 10#! to max magicka and #high 0.1#! to monthly generation."
+ game_concept_arcana:0 "Magic"
+ game_concept_arcana_i:0 "@skill_arcana_icon!"
+ game_concept_arcana_skill:0 "Magic Skill"
+ game_concept_arcana_skill_desc:1 "$game_concept_arcana$ is a secondary [skill|E] that reflects the Character's magical ability.\n\nA high Magic Skill means they have access to more powerful spells."
+ game_concept_spells:0 "Spells"
+ game_concept_spell:0 "Spell"
+ game_concept_spell_desc:0 "Spells are cast using the 'Cast Spell' Character Interaction by spending a characters runes. More spells are unlocked by having higher [arcana|E].\n\n#low The act of drawing upon the energy within runestones in order to generate some kind of effect in the physical world is called "casting a spell". It is said that no two mages weave their spells in the same way. #!"
+
  game_concept_ek_age_modifiers:0 "Aging Modifiers"
  game_concept_ek_age_modifier:0 "Aging Modifier"
  game_concept_ek_age_modifiers_aging:0 "Aging"
