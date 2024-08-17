@@ -108,7 +108,7 @@ activate_prayer_interaction = {
 					if = {
 						limit = { piety_level >= 4 }
 						add_character_modifier = {
-							modifier = prayer_steel_skin months = 7
+							modifier = prayer_steel_skin years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -124,7 +124,7 @@ activate_prayer_interaction = {
 					else_if = {
 						limit = { piety_level >= 2 }
 						add_character_modifier = {
-							modifier = prayer_rock_skin months = 7
+							modifier = prayer_rock_skin years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -139,7 +139,7 @@ activate_prayer_interaction = {
 					}
 					
 					else = {
-						add_character_modifier = { modifier = prayer_thick_skin months = 7 }
+						add_character_modifier = { modifier = prayer_thick_skin years = 1 }
 						hidden_effect = {
 							send_interface_toast = {
 								title = prayer.active
@@ -158,7 +158,7 @@ activate_prayer_interaction = {
 					if = {
 						limit = { piety_level >= 4 }
 						add_character_modifier = {
-							modifier = prayer_ult_str months = 7
+							modifier = prayer_ult_str years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -174,7 +174,7 @@ activate_prayer_interaction = {
 					else_if = {
 						limit = { piety_level >= 2 }
 						add_character_modifier = {
-							modifier = prayer_super_str months = 7
+							modifier = prayer_super_str years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -189,7 +189,7 @@ activate_prayer_interaction = {
 					}
 					
 					else = {
-						add_character_modifier = { modifier = prayer_burst_str months = 7 }
+						add_character_modifier = { modifier = prayer_burst_str years = 1 }
 						hidden_effect = {
 							send_interface_toast = {
 								title = prayer.active
@@ -207,7 +207,7 @@ activate_prayer_interaction = {
 					if = {
 						limit = { piety_level >= 4 }
 						add_character_modifier = {
-							modifier = prayer_reflex2 months = 7
+							modifier = prayer_reflex2 years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -223,7 +223,7 @@ activate_prayer_interaction = {
 					else_if = {
 						limit = { piety_level >= 2 }
 						add_character_modifier = {
-							modifier = prayer_reflex months = 7
+							modifier = prayer_reflex years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -238,7 +238,7 @@ activate_prayer_interaction = {
 					}
 					
 					else = {
-						add_character_modifier = { modifier = prayer_clarity months = 7 }
+						add_character_modifier = { modifier = prayer_clarity years = 1 }
 						hidden_effect = {
 							send_interface_toast = {
 								title = prayer.active
@@ -256,7 +256,7 @@ activate_prayer_interaction = {
 					if = {
 						limit = { piety_level >= 4 }
 						add_character_modifier = {
-							modifier = prayer_eagle_eye months = 7
+							modifier = prayer_eagle_eye years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -272,7 +272,7 @@ activate_prayer_interaction = {
 					else_if = {
 						limit = { piety_level >= 2 }
 						add_character_modifier = {
-							modifier = prayer_hawk_eye months = 7
+							modifier = prayer_hawk_eye years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -287,7 +287,7 @@ activate_prayer_interaction = {
 					}
 					
 					else = {
-						add_character_modifier = { modifier = prayer_sharp_eye months = 7 }
+						add_character_modifier = { modifier = prayer_sharp_eye years = 1 }
 						hidden_effect = {
 							send_interface_toast = {
 								title = prayer.active
@@ -305,7 +305,7 @@ activate_prayer_interaction = {
 					if = {
 						limit = { piety_level >= 4 }
 						add_character_modifier = {
-							modifier = prayer_mystic_might months = 7
+							modifier = prayer_mystic_might years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -321,7 +321,7 @@ activate_prayer_interaction = {
 					else_if = {
 						limit = { piety_level >= 2 }
 						add_character_modifier = {
-							modifier = prayer_mystic_lore months = 7
+							modifier = prayer_mystic_lore years = 1
 						}
 						hidden_effect = {
 							send_interface_toast = {
@@ -336,7 +336,7 @@ activate_prayer_interaction = {
 					}
 					
 					else = {
-						add_character_modifier = { modifier = prayer_mystic_will months = 7 }
+						add_character_modifier = { modifier = prayer_mystic_will years = 1 }
 						hidden_effect = {
 							send_interface_toast = {
 								title = prayer.active

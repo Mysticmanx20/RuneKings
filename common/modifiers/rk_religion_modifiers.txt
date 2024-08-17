@@ -36,95 +36,95 @@ bhakti_mena_scabaras = {	# Demigod of isolation and tranqility
 
 prayer_thick_skin = {
 	icon = thickskin
-	monthly_piety_gain_mult = -0.25
+	monthly_piety_gain_mult = -1
 	hard_casualty_modifier = -0.1
 	army_toughness_mult = 0.1
 }
 prayer_rock_skin = {
-	icon = thickskin
-	monthly_piety_gain_mult = -0.30
+	icon = def2
+	monthly_piety_gain_mult = -1
 	hard_casualty_modifier = -0.15
 	army_toughness_mult = 0.15
 }
 prayer_steel_skin = {
-	icon = thickskin
-	monthly_piety_gain_mult = -0.35
+	icon = def3
+	monthly_piety_gain_mult = -1
 	hard_casualty_modifier = -0.20
 	army_toughness_mult = 0.20
 }
 
 prayer_burst_str = {
 	icon = burststr
-	monthly_piety_gain_mult = -0.25
+	monthly_piety = -2
 	martial = 1
 	army_damage_mult = 0.1
 }
 prayer_super_str = {
-	icon = burststr
-	monthly_piety_gain_mult = -0.30
+	icon = str2
+	monthly_piety_gain_mult = -1
 	martial = 2
 	army_damage_mult = 0.15
 }
 prayer_ult_str = {
-	icon = burststr
-	monthly_piety_gain_mult = -0.35
+	icon = str3
+	monthly_piety_gain_mult = -1
 	martial = 3
 	army_damage_mult = 0.2
 }
 
 prayer_clarity = {
 	icon = clarity
-	monthly_piety_gain_mult = -0.25
+	monthly_piety_gain_mult = -1
 	prowess = 1
 	knight_effectiveness_mult = 0.05
 }
 prayer_reflex = {
-	icon = clarity
-	monthly_piety_gain_mult = -0.30
+	icon = atk2
+	monthly_piety_gain_mult = -1
 	prowess = 2
 	knight_effectiveness_mult = 0.1
 }
 prayer_reflex2 = {
-	icon = clarity
-	monthly_piety_gain_mult = -0.35
+	icon = atk3
+	monthly_piety_gain_mult = -1
 	prowess = 3
 	knight_effectiveness_mult = 0.15
 }
 
 prayer_sharp_eye = {
 	icon = sharpeye
-	monthly_piety_gain_mult = -0.25
+	monthly_piety_gain_mult = -1
 	archers_damage_mult = 0.1
 	archer_cavalry_damage_mult = 0.1
 }
 prayer_hawk_eye = {
-	icon = sharpeye
-	monthly_piety_gain_mult = -0.30
+	icon = rng2
+	monthly_piety_gain_mult = -1
 	archers_damage_mult = 0.15
 	archer_cavalry_damage_mult = 0.15
 }
 prayer_eagle_eye = {
-	icon = sharpeye
-	monthly_piety_gain_mult = -0.35
+	icon = rng3
+	monthly_piety_gain_mult = -1
 	archers_damage_mult = 0.2
 	archer_cavalry_damage_mult = 0.2
 }
 
 prayer_mystic_will = {
 	icon = mysticwill
-	monthly_piety_gain_mult = -0.25
+	monthly_piety_gain_mult = -1
 	learning = 1
 	#magic = 1
 }
 prayer_mystic_lore = {
-	icon = mysticwill
-	monthly_piety_gain_mult = -0.30
+	icon = mg2
+	monthly_piety_gain_mult = -1
 	learning = 2
 	#magic = 1
 }
 prayer_mystic_might = {
-	icon = mysticwill
-	monthly_piety_gain_mult = -0.35
+	icon = mg3
+	monthly_piety_gain_mult = -1
 	learning = 3
 	#magic = 1
 }
