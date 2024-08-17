@@ -54,7 +54,10 @@
 	arcana_witch:0 "[GetTrait('witch').GetName(ROOT.Char)]"
 	#other
 	arcana_adventurer:0 "[GetTrait('adventurer').GetName(ROOT.Char)]"
-
+  #modifiers
+  arcana_prayer_1:0 "[GetModifier('prayer_mystic_will').GetName]"
+  arcana_prayer_2:0 "[GetModifier('prayer_mystic_lore').GetName]"
+  arcana_prayer_3:0 "[GetModifier('prayer_mystic_might').GetName]"
 
 	TRAIT_FLAG_DESC_add_arcana_1:0 "[arcana|E]: [arcana_i]#P +1#!"
 	TRAIT_FLAG_DESC_add_arcana_2:0 "[arcana|E]: [arcana_i]#P +2#!"

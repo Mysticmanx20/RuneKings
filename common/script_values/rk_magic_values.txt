@@ -61,6 +61,11 @@ arcana_trait_witch = 4
 # Other
 arcana_trait_adventurer = 1
 
+#modifiers
+arcana_prayer_1 = 1
+arcana_prayer_2 = 2
+arcana_prayer_3 = 3
+
 
 # Arcana Master
 arcana_base = {
@@ -363,6 +368,29 @@ arcana = {
 		add = {
 			value = arcana_trait_adventurer
 			desc = arcana_adventurer
+		}
+	}
+
+	#modifiers
+	if = {
+		limit = { has_character_modifier = prayer_mystic_will }
+		add = {
+			value = arcana_prayer_1
+			desc = arcana_prayer_1
+		}
+	}
+	if = {
+		limit = { has_character_modifier = prayer_mystic_lore }
+		add = {
+			value = arcana_prayer_2
+			desc = arcana_prayer_2
+		}
+	}
+	if = {
+		limit = { has_character_modifier = prayer_mystic_might }
+		add = {
+			value = arcana_prayer_3
+			desc = arcana_prayer_3
 		}
 	}
 
