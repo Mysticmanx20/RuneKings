@@ -310,6 +310,7 @@ on_game_start_after_lobby = {
 	#RK Edit
 	on_actions = {
 		rk_on_game_start_to_elc
+		on_prayer_check
 	}
 
 	effect = {

@@ -1,4 +1,68 @@
 ﻿
+
+on_prayer_check = {
+	on_actions = {
+		delay = { months = 1}
+		on_prayer_check
+	}
+	effect = {
+		every_ruler = {
+			if = {
+				limit = { 
+					AND = {
+						piety <= 0
+						OR = {
+							has_character_modifier = prayer_burst_str
+							has_character_modifier = prayer_super_str
+							has_character_modifier = prayer_ult_str
+							has_character_modifier = prayer_clarity
+							has_character_modifier = prayer_reflex
+							has_character_modifier = prayer_reflex2
+							has_character_modifier = prayer_sharp_eye
+							has_character_modifier = prayer_hawk_eye
+							has_character_modifier = prayer_eagle_eye
+							has_character_modifier = prayer_thick_skin
+							has_character_modifier = prayer_rock_skin
+							has_character_modifier = prayer_steel_skin
+							has_character_modifier = prayer_mystic_will
+							has_character_modifier = prayer_mystic_lore
+							has_character_modifier = prayer_mystic_might
+						}
+					}
+				}
+
+				remove_character_modifier = prayer_burst_str
+				remove_character_modifier = prayer_super_str
+				remove_character_modifier = prayer_ult_str
+				remove_character_modifier = prayer_clarity
+				remove_character_modifier = prayer_reflex
+				remove_character_modifier = prayer_reflex2
+				remove_character_modifier = prayer_sharp_eye
+				remove_character_modifier = prayer_hawk_eye
+				remove_character_modifier = prayer_eagle_eye
+				remove_character_modifier = prayer_thick_skin
+				remove_character_modifier = prayer_rock_skin
+				remove_character_modifier = prayer_steel_skin
+				remove_character_modifier = prayer_mystic_will
+				remove_character_modifier = prayer_mystic_lore
+				remove_character_modifier = prayer_mystic_might
+	
+				send_interface_toast = {
+					title = prayer.lost
+					left_icon = root
+
+					custom_tooltip = prayer_lost.no_piety
+					
+				}
+				
+			}
+		}
+		
+	}
+
+}
+
+
 on_start_magic = {
 	effect = {
 		if = {

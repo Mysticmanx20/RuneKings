@@ -8,3 +8,5 @@
 
 
  prayer.active:0 "Prayer Activated"
+ prayer.lost:0 "Prayer Lost"
+ prayer_lost.no_piety:0 "All prayer modifiers have been lost."
