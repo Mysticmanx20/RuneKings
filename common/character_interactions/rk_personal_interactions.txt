@@ -20,10 +20,64 @@ activate_prayer_interaction = {
 	}
 
 	can_send = {
-		scope:actor = { piety > minor_piety_value }
+		AND = {
+			scope:actor = { piety > minor_piety_value }
+
+			scope:actor = {
+				NOT = {
+					AND = {
+						has_character_modifier = prayer_clarity
+						has_character_modifier = prayer_burst_str
+						has_character_modifier = prayer_thick_skin
+						has_character_modifier = prayer_sharp_eye
+						has_character_modifier = prayer_mystic_will
+					}
+				}
+				NOT = {
+					AND = {
+						has_character_modifier = prayer_reflex
+						has_character_modifier = prayer_super_str
+						has_character_modifier = prayer_rock_skin
+						has_character_modifier = prayer_hawk_eye
+						has_character_modifier = prayer_mystic_lore
+					}
+				}
+				NOT = {
+					AND = {
+						has_character_modifier = prayer_reflex2
+						has_character_modifier = prayer_ult_str
+						has_character_modifier = prayer_steel_skin
+						has_character_modifier = prayer_eagle_eye
+						has_character_modifier = prayer_mystic_might
+					}
+				}
+			}
+			
+		}
 	}
 
-	cost = { piety = { value = minor_piety_value } }
+	cost = { 
+		piety = { 
+			value = {
+				add = minor_piety_value
+				if = { 
+					limit = {
+						scope:actor = { piety_level >= 4 }
+					}
+					multiply = 3
+				}
+				else_if = {
+					limit = {
+						scope:actor = { piety_level >= 2 }
+					}
+					multiply = 2
+				}
+
+			}
+
+		} 
+	
+	}
 
 	send_option = {
 		is_valid = {
