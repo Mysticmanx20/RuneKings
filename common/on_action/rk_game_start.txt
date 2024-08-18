@@ -136,3 +136,16 @@ whiteknights = {
 		}
 	}
 }
+
+## so that every_living_character only gets called once
+rk_on_game_start_to_elc = {
+    effect = {
+        every_living_character = { trigger_event = { on_action = rk_on_game_start_every_char } }
+    }
+}
+rk_on_game_start_every_char = { # all on_start on_actions that need to use every_living_character get called here
+    on_actions = {
+		on_start_magic
+    }
+}
+

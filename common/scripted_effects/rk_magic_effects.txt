@@ -1,0 +1,26 @@
+﻿add_arcana_skill = {
+    save_temporary_scope_value_as = {
+        name = tmp_skill_value
+        value = $VALUE$
+    }
+    custom_description = {
+        text = add_arcana_skill
+        value = scope:tmp_skill_value
+        if = {
+            #limit = { NOT = { exists = var:arcana_base } }
+            limit = { NOT = { has_variable = arcana_base } }
+            set_variable = { name = arcana_base value = scope:tmp_skill_value }
+            if = { #this is nested to stop the error log having an aneurism if the variable doesn't exist
+                limit = { scope:tmp_skill_value < 0 }
+                set_variable = { name = arcana_base value = 0 }
+            }
+        }
+        else = {
+            change_variable = { name = arcana_base add = scope:tmp_skill_value }
+            if = {
+                limit = { var:arcana_base < 0 }
+                set_variable = { name = arcana_base value = 0 }
+            }
+        }
+    }
+}

@@ -16,6 +16,7 @@
  prayer_clarity:0 "Clarity of Thought"
  prayer_sharp_eye:0 "Sharp Eye"
  prayer_mystic_will:0 "Mystic Will"
+ prayer_mystic_will_desc:0 "[arcana|E]: [arcana_i]#P +1# "
  prayer_rock_skin:0 "Rock Skin"
  prayer_steel_skin:0 "Steel Skin"
  prayer_super_str:0 "Superhuman Strength"
@@ -26,6 +27,8 @@
  prayer_eagle_eye:0 "Eagle Eye"
  prayer_rigour:0 "Rigour"
  prayer_mystic_lore:0 "Mystic Lore"
+ prayer_mystic_lore_desc:0 "[arcana|E]: [arcana_i]#P +2# "
  prayer_mystic_might:0 "Mystic Might"
+ prayer_mystic_might_desc:0 "[arcana|E]: [arcana_i]#P +3# "
  prayer_augury:0 "Augury"
  

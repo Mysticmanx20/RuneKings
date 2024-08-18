@@ -306,6 +306,12 @@ on_game_start = {
 }
 
 on_game_start_after_lobby = {
+
+	#RK Edit
+	on_actions = {
+		rk_on_game_start_to_elc
+	}
+
 	effect = {
 
 		# Make sure that Realm Priests are landed theocrats where it makes sense

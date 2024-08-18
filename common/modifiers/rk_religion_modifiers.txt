@@ -119,18 +119,15 @@ prayer_eagle_eye = {
 prayer_mystic_will = {
 	icon = mysticwill
 	monthly_piety_gain_mult = -1
-	learning = 1
 	#flag arcana 1
 }
 prayer_mystic_lore = {
 	icon = mg2
 	monthly_piety_gain_mult = -1
-	learning = 2
 	#flag arcana 2
 }
 prayer_mystic_might = {
 	icon = mg3
 	monthly_piety_gain_mult = -1
-	learning = 3
 	#flag arcana 3
 }
