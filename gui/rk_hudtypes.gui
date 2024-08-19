@@ -65,7 +65,7 @@
 					parentanchor = vcenter
 					#position = { 13 -1 }
 					position = { 10 32 }
-					size = { 20 20 }
+					size = { 35 35 }
 					texture = "gfx/interface/icons/icon_magicka.dds"
 				}
 			}
