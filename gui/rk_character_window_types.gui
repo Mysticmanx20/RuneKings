@@ -1,6 +1,17 @@
 types CharWindow
 {
-	
+	type ek_magicka = icon
+	{
+		
+		size = { 23 23 }
+		texture = "gfx/interface/icons/icon_magicka.dds"
+		#tooltip = magicka_value_char_view
+		tooltipwidget = {
+			magicka_breakdown_widget = {
+				datacontext = "[CharacterWindow.GetCharacter]"
+			}
+		}
+	}
 	type ek_arcana = vbox
 	{
 		tooltipwidget = {

@@ -18,3 +18,8 @@ arcana_skill = {
 
 	texture = "gfx/interface/icons/icon_arcana.dds"
 }
+
+magicka = {
+	alias = { magicka_i }
+	texture = "gfx/interface/icons/icon_magicka.dds"
+}
