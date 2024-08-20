@@ -362,6 +362,30 @@ kalphite = {  #Kalphites
 	}
 }
 
+voidpest = {  #Void pests
+	color = { 0.53 0.35 0.37 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_void
+	language = language_pest
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_isolationist
+		tradition_female_only_inheritance
+	}
+	
+	name_list = name_list_visigothic
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+	}
+}
 
 
 kharidian = {  #kharidian
