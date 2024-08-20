@@ -1,0 +1,42 @@
+name_list_voidpest = {
+
+	dynasty_names = {
+		"dynn_Licchavi"
+		"dynn_Malla"
+		"dynn_Khas_Malla"
+		"dynn_Thakuri"
+		"dynn_Nuwakot_Thakuri"
+		"dynn_Suryavamsa"
+		"dynn_Katyuri"
+		"dynn_Chand"
+		"dynn_Parmar"
+		"dynn_Khasiya"
+		"dynn_Newari"
+		"dynn_Gorkha"
+		"dynn_Tamang"
+		"dynn_Gurung"
+		"dynn_Manang"
+		"dynn_Thakali"
+		"dynn_Chantyal"
+		"dynn_Ghale"
+		"dynn_Kutang"
+		"dynn_Kaike"
+	}
+	
+	male_names = {
+		Brawler Defiler Leech Ravager Shifter Spinner Splatter Torcher
+	}
+	
+	female_names = {
+		Brawler Defiler Leech Ravager Shifter Spinner Splatter Torcher
+	}
+	
+	founder_named_dynasties = no
+
+	mercenary_names = {
+		{ name = "mercenary_company_mah" }
+		{ name = "mercenary_company_judges" }
+		{ name = "mercenary_company_faceless" }
+	}
+
+}
