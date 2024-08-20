@@ -132,6 +132,46 @@ pirate_king_male = {
 	name_lists = { name_list_pirate }
 }
 
+pestqueen_baron = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_count = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_duchy = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	top_liege = no
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_kingdom = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	name_lists = { name_list_voidpest }
+}
+
 lord_male = {
 	type = character
 	gender = male
