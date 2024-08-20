@@ -48,29 +48,29 @@
 	}
 
 	male_names = {
-		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Agilbert Ailbert Aldedramn Andica Arcambald Aregisel Arnegisel Arnulf
-		Audovald Austregisel Autgari Autgeri Avremar Baldwin Barnard Berald Bernard_Bernard Berneri Berold Berthefried Bertlin Bertram Burchard
-		Ceslin Charibert Charles Chramnesind Clodio Clovis Dagobert Eberulf Ebregisel Engilbert Everard Faroard Faroin Feremund
-		Feroard Foroen Frotari Frothard Frothari Fulcari Fulcrad Galteri Garivald Gaucelm Gaudulf Gautmar Gedalbert Gedalca Genobaud Gerbert Gerhard Gerold Gislari
-		Gocelm Godalbert Grimald Gualtari Gualter Guillabert Guitard Gunthar Guntram Haldemar Hartmut Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Ingomer Lambert
-		Lantbert Lothar Mainard Marachar Marell Martin Meginhard Merogais Otbert Otgeri Otker Pharamond Ralph Ragambald Ragenard Raginari Ragnald
-		Raimbold Reginald Ramnulf Rathar Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
-		Sinop Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert Serratus Louvel Gregorio Gavin Merle Wolfram Ulfr Steven Johnson Ashnard Hrolfr Saltain Thorin Finch
-		Theudemeres Theudoald Theutbald Vuitard Vulvari Galen Ras Cedrik Christof Kryten Lucas Marley Rodolf Derald Tobias Foley Berion Anselm Thrain Federico
-		Waltgaud Werinbert Wilbert Willichar Jorrel Androd Danath Fardel Ignaeus Liam Logan Marcel Maximus Thoras Yernim Cleveland Burne Emerson Penley Marsdon
-		Robb Kevin Whitford Sherwin
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Agilbert Ailbert Aldedramn Andica Arcambald Aregisel Arnegisel Arnulf Alexander
+		Audovald Austregisel Autgari Autgeri Avremar Baldwin Barnard Berald Barnabus Berneri Berold Bartholomew Bertlin Bertram Burchard
+		Ceslin Charibert Charles James Clodio Clovis Dagobert Eberulf Ebregisel Engilbert Everard Faroard Faroin Feremund
+		Feroard Foroen Frotari Frothard Frothari Fulcrad Pieter Garivald Gaucelm Gaudulf Gautmar Gedalbert Gedalca Genobaud Gerbert Gerhard Gerold Gislari
+		Gocelm Godalbert Grimald Gualtari Gualter Guillabert Guitard Gunthar Guntram Haldemar Hartmut Horatio Hildebold Hildegaud Hildevold Hildoin Hucbert Ingomer Lambert
+		Lantbert Lothar Mainard Marachar Marell Martin Meginhard Merogais Otbert Otgeri Otker Montague Ralph Ragambald Ragenard Raginari Ragnald
+		Raimbold Reginald Ramnulf Rathar Raynold Reginari Ricchar Rignomer Roland Robert Rocko Segoin Seguin Sebastian Sichar Sicland Sicleard Siclevold
+		Sinop Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert Serratus Louvel Gregorio Gavin Merle Wolfram Jack Steven Johnson Ashnard Hrolfr Saltain Thorin Finch
+		Theudemeres Theudoald Hector Vuitard Vulvari Galen Ras Cedrik Christof Kang Lucas Marley Rodolf Derald Tobias Foley Berion Anselm Thrain Federico
+		Waltgaud Werinbert Wilbert Willichar Jorrel Androd Danath Fardel Ignaeus Liam Logan Marcel Maximus Thoras Yernim Henry Burne Emerson Percy Marsdon
+		Robb Kevin Whitford Sherwin 
 	}
 	female_names = {
-		Adallinda Airsenda Albrada Alda Aliberta Raina Habitha Leona Tetra Samantha Ellie Kathryn Eunice Liecia Sana Felicia
-		Audovera Austreberta Austrechild Balthild Begga Veronika Alice Keena Margorie Miley Venya Gem Priscilla Damsel Meril
+		Adallinda Aika Ariana Albrada Alda Anne Raina Habitha Leona Tetra Samantha Ellie Kathryn Charlotte Liecia Sana Felicia
+		Audovera Austreberta Mary Balthild Grace Veronika Alice Keena Margaret Miley Venya Gem Priscilla Damsel Meril
 		Bertilla Bertrada Celsa Cesaria Creada Marcia Sybil Vanessa Zarise Ady Clarice Sarias Gilian Noreen Isobel Eva Mierelle
-		Dagena Fastrada Framberta Frolaica Theda Gwen Gillian Kali Mercy Luana Brigitte Bela Eliza Lucille Celina Ramona
-		Frotlina Genovefa Gisela Rubia Tiffin Keira Idonea Liz Clover Mirelle Parker Camilla Cecil Clerice June Jillia Melania
+		Dagena Rachel Framberta Frolaica Theda Gwen Gillian Kalista Mercy Luana Brigitte Bela Eliza Lucille Celina Ramona
+		Frotlina Genovefa Gisela Rubia Tiffin Keira Idonea Liz Clover Mirelle Parker Camilla Justine Clerice June Jillian Melania
 		Landina Lantsida Carletta Ember Hannah Jaezel Rose Velvet Jazel Elisa Noira Elenor Kelsey Halley Anju Catriona Finnula Parella
-		Madelgarde Marcovefa Martinga Morberga Rigunth Varia Marjory Ellen Carolaine Edwina Deidra Bree Felita Ursyn Bellatrix
-		Rothaide Theodelinda Amaren Kenata Nials Elaine Beatrix Josphine Lizbeth Severina Lucretia Gwenna Ashera Trik Zofia Yenn
-		Janey Beatrice Victoria Jayde Helen Ello Ariane Cecille Carmina Eirika Bruna Rosary Jennie Mirth Seldon Althea Kailey Cecilia
-		Yuliana Kaylah Gianna Margarita Ann Wilona Kiera Amberjill Edith Elizabeth Jane Joslyn Haley Clarisse Gundred Dementia Fiona
+		Madelgarde Maladetta Martinga Morgen Rigunth Varia Marjory Ellen Carolaine Edwina Deidra Bree Felita Ursyn Bellatrix
+		Rothaide Theodelinda Amaren Kenata Nials Elaine Beatrix Josphine Lizbeth Severina Lucretia Gwenna Ashera Riscisa Zofia Yenn
+		Janey Beatrice Victoria Jayde Helen Ravenna Ariane Cecille Carmina Eirika Bruna Rosary Jennie Mirth Seldon Althea Kailey Cecilia
+		Yuliana Kaylah Gianna Margarita Ann Wilona Kiera Jill Edith Elizabeth Jane Joslyn Haley Clarisse Gundred Dementia Fiona
 	}
 	dynasty_of_location_prefix = ""
 
