@@ -28,6 +28,11 @@ heritage_scabarite = {
 	audio_parameter = mena
 }
 
+heritage_void = {
+	type = heritage
+	audio_parameter = mena
+}
+
 heritage_dwarf = {
 	type = heritage
 	audio_parameter = european
