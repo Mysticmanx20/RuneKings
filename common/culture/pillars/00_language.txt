@@ -37,6 +37,24 @@ language_scabarite = {
 	color = gaelic
 }
 
+language_pest = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_pest
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_pest }
+			multiply = 10
+		}
+	}
+	
+	color = jurchen
+}
+
 language_element = {
 	type = language
 	is_shown = {
