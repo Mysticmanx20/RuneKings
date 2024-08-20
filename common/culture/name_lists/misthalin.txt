@@ -247,10 +247,10 @@
 	}
 	female_names = {
 		Abigail Adele Adelin Adelise Agnes Alberada Alienora Aline Alisce Alison Alba Anne Aubrey Aster Avelina Berengaria Barbara
-		Busilla Clarimond Clemenza Constance Donella Egelina Eleanor Elise Eliza Elsie Elysande Ethel Emma Emonie Edwina
-		Felicia Flandina Fredesende Fressenda Fressende Geva Gertrude Giselle Gohilde Griselda Gundred Hadwis Helewisa Heria Herleve Hermessent Hermine Hugolina
-		Ida Iffie Judith Juliet Julia Katrine Lesceline Launa Mabel Marie Martina Matilda Maud Mautild Maysant Meredith Millicent Muriella Oriel Phillipa Richenda
-		Rosalind Selova Stephanie Sarah Shauna Susannah Trista Thessalia Umfreda Valdrade Wilmot Yolanda Yvonne Xenia Jacquelyn
+		Busilla Clare Caroline Clemenza Constance Diana Egelina Eleanor Elise Eliza Elizabeth Elsie Elysande Ethel Emma Evelyn Edwina
+		Felicia Flandina Fredesende Fressenda Fressende Geva Gertrude Giselle Gohilde Griselda Gundred Hadwis Helewisa Helen Herleve Hermessent Hermine Hugolina
+		Ida Iffie Joan Judith Juliet Julia Katrine Lucrecia Lesceline Launa Mabel Marie Martina Matilda Mia Madeline Myrtle Meredith Millicent Muriel Olivia Phillipa Richenda
+		Rosalind Selena Stephanie Sarah Shauna Susannah Suzanne Trista Thessalia Ursula Valdrade Willow Yolanda Yvonne Xenia Jacquelyn
 	}
 	dynasty_of_location_prefix = ""
 	
