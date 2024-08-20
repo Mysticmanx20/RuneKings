@@ -202,13 +202,13 @@
 
 463 = {
 	religion = zamorak
-	culture = monkey
+	culture = voidpest
 	holding = none
 }
 
 464 = {
 	religion = zamorak
-	culture = monkey  #pest/demon?
+	culture = voidpest
 	holding = tribal_holding
 }
 
