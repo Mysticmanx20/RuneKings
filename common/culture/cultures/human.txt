@@ -375,7 +375,7 @@ voidpest = {  #Void pests
 		tradition_female_only_inheritance
 	}
 	
-	name_list = name_list_visigothic
+	name_list = name_list_voidpest
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { mena_building_gfx } 
