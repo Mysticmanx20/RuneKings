@@ -127,10 +127,3 @@ c_voidout = {
 	}
 }
 
-c_pestisle = {
-	9146.1.1 = {
-		holder = asgarn019
-		change_development_level = 1
-	}
-}
-
