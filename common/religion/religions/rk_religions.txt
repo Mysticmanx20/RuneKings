@@ -1825,12 +1825,12 @@ sara_religion = {
 	}
 
 	reserved_male_names = {
-		Andrew Ahrim Akrisae Bartolomeus Benedict Christian Christopher Clement Constantine David Derygull Dharok Eustace George Gregory Guthan
+		Andrew Adam Ahrim Akrisae Bartolomeus Benedict Christian Christopher Clement Constantine David Derygull Dharok Eustace George Gregory Guthan
 		Hans Iriandul Isaac Ivandis Joakim Jacob John Jordan Joseph Karil Lawrence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip
-		Twiblick Torag Salvador Samuel Sarl Sebastian Simon Stephen Thomas Verac Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+		Twiblick Torag Salvador Samuel Sarl Sebastian Simon Stephen Thomas Theodore Verac Abraham Alexander Daniel Job Joshua Cyrus Luke Leo Zachariah
 	}
 	reserved_female_names = {
-		Anna Acantha Beatrice Benedicta Brigid Catherine Catherina Cecilia Christina Clementia Constance Debora Dorothy Essiandar Elena Elisabeth Elspeth Joan Judith Juliana Erysail Magdalena Margaret Maria Marine Patricia Philippa Rachel Sarah Sophia Stephania
+		Anna Acantha Beatrice Benedicta Brigid Catherine Catherina Cecilia Christina Clementia Constance Deborah Dorothy Eve Essiandar Elena Elisabeth Elspeth Joan Judith Juliana Elora Erysail Mary Margaret Maria Marine Patricia Philippa Rachel Rebecca Sarah Sophia Stephania Teresa
 		
 	}
 
