@@ -23,6 +23,8 @@
  heritage_dwarf_collective_noun:0 "Dwarfs"
  heritage_gnome_name:0 "Gnomish"
  heritage_gnome_collective_noun:0 "Gnomes"
+ heritage_void_name:0 "Void"
+ heritage_void_collective_noun:0 "Void Pests"
  heritage_undead_name:0 "Undead"
  heritage_undead_collective_noun:0 "Undead"
  heritage_various2_name:0 "Various"
