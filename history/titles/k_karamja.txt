@@ -127,12 +127,6 @@ c_voidout = {
 	}
 }
 
-b_voidout = {
-	9160.1.1 = {
-		holder = asgarn024
-	}
-}
-
 c_pestisle = {
 	9149.1.1 = {
 		liege = 0
