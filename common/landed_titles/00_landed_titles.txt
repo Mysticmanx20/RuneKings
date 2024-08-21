@@ -919,13 +919,18 @@ e_zaros = {
 				}
 			}
 
-			c_outerburth = {
+			c_warriors = {
 				color = { 162 51 0}
 
 				b_warrior = {
 					color = {162 51 0}
 					province = 171
 				}
+
+			}
+
+			c_outerburth = {
+				color = { 107 90 107}
 
 				b_sherpa = {
 					color = { 107 90 107}
