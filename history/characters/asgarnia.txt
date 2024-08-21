@@ -1374,3 +1374,57 @@ asgarn028 = {
     }
 
 }
+
+asgarn029 = {
+    name = "Ghommal"
+    religion = saradomin
+    culture = asgarnia
+    trait = brave
+    trait = education_martial_3
+    9136.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	employer = asgarn011
+}
+
+asgarn030 = {
+    name = "Ajjat"
+    religion = saradomin
+    culture = asgarnia
+    trait = just
+    trait = education_martial_3
+    9138.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	employer = asgarn011
+}
+
+asgarn031 = {
+    name = "Sloane"
+    religion = saradomin
+    culture = asgarnia
+    trait = brave
+    trait = education_martial_3
+    9139.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	employer = asgarn011
+}
+
+asgarn032 = {
+    name = "Jade"
+    female = yes
+    religion = saradomin
+    culture = asgarnia
+    trait = diligent
+    trait = content
+    trait = education_stewardship_4
+    9140.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	employer = asgarn011
+}
