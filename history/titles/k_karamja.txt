@@ -132,10 +132,6 @@ c_pestisle = {
 		liege = 0
 		holder = karam027
 		change_development_level = 1
-	}
-	9150.1.1 = {
-		effect = { 
-			add_realm_law = female_only_law
-		}
+		succession_laws = { female_only_law }
 	}
 }
