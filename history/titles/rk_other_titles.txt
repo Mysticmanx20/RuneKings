@@ -133,4 +133,6 @@ d_voidknights = {
 	9098.1.1 = {
 		holder = asgarn028
 	}
+	9160.1.1 = {
+		holder = asgarn019
 }
