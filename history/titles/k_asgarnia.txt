@@ -343,18 +343,24 @@ c_heroes = {
 }
 
 c_outerburth = {
-	9163.1.1 = {
+	9164.1.1 = {
+		liege = 0
+		holder = asgarn012
+		change_development_level = 3
+	}
+}
+
+c_warriors = {
+	9164.1.1 = {
 		liege = d_burthorpe
 		holder = asgarn011
 		change_development_level = 8
-	}
-}
 
 c_deathpla = {
 	9159.1.1 = {
 		holder = troll001
 		liege = 0
-		change_development_level = 6
+		change_development_level = 2
 	}
 }
 
