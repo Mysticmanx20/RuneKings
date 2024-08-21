@@ -125,3 +125,18 @@ k_westardy = {
 		holder = kand018
 	}
 }
+
+d_voidknights = {
+	5000.1.1 = {
+		government = holy_order_government
+	}
+	9015.1.1 = {
+		holder = asgarn027
+	}
+	9098.1.1 = {
+		holder = asgarn028
+	}
+	9160.1.1 = {
+		holder = asgarn024
+	}
+}

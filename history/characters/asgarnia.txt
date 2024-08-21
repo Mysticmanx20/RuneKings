@@ -1345,3 +1345,32 @@ asgarn026 = {
         	employer = 900373
     	}
 }
+
+asgarn027 = {
+    name = "Dracs"
+    religion = guthix
+    culture = asgarnia
+    trait = humble
+    trait = education_diplomacy_4
+    8985.1.1 = {
+        birth = yes
+    }
+    9047.1.1 = {
+        death = yes
+    }
+}
+
+asgarn028 = {
+    name = "Boyce"
+    religion = guthix
+    culture = asgarnia
+    trait = brave
+    trait = education_diplomacy_3
+    9084.1.1 = {
+        birth = yes
+    }
+    9153.1.1 = {
+        death = yes
+    }
+
+}

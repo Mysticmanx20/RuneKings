@@ -101,7 +101,7 @@ wc_holy_order.13 = {
 		scope:leader = {
 			create_historical_holy_order_effect = { SPONSOR = scope:sponsor COUNTY = scope:county ORDER = d_voidknights }
 			#historical_lease_out_effect = { COUNTY = title:c_whispering_gardens ORDER = scope:new_holy_order }
-			
+			scope:new_holy_order.title = { copy_title_history = title:d_voidknights }
 		}
 	}
 }

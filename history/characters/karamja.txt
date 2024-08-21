@@ -339,3 +339,13 @@ karam026 = {
 		employer = karam014
 	}
 }
+
+karam027 = {
+	name = "Pest Queen"
+	female = yes
+	culture = voidpest
+	religion = zamorak
+	9148.1.1 = {
+		birth = yes
+	}
+}

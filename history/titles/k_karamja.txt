@@ -120,10 +120,28 @@ c_crashisle = {
 }
 
 c_voidout = {
-	9146.1.1 = {
+	9149.1.1 = {
 		liege = 0
 		holder = asgarn019
 		change_development_level = 5
 	}
 }
 
+b_voidout = {
+	9160.1.1 = {
+		holder = asgarn024
+	}
+}
+
+c_pestisle = {
+	9149.1.1 = {
+		liege = 0
+		holder = karam027
+		change_development_level = 1
+	}
+	9150.1.1 = {
+		effect = { 
+			add_realm_law = female_only_law
+		}
+	}
+}

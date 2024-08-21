@@ -53,6 +53,7 @@
  language_mwanu_name:0 "Mwanu"
  language_werewolf_name:0 "Werewolf"
  language_scabarite_name:0 "Scabarite"
+ language_pest_name:0 "Pest"
 
  holy_order_temple_knights:0 "Temple Knights"
  holy_order_white_knights:0 "White Knights"
@@ -919,6 +920,9 @@
  dragon:0 "Dragon"
  dragon_prefix:0 "Draconic"
  dragon_collective_noun:0 "Dragons"
+ voidpest:0 "Void Pest"
+ voidpest_prefix:0 "Pest"
+ voidpest_collective_noun:0 "Pests"
  vampyre:0 "Vampyre"
  vampyre_prefix:0 "Vyre"
  vampyre_collective_noun:1 "Vampyres"
