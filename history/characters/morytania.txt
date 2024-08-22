@@ -1002,3 +1002,60 @@ mort033 = {
 		birth = yes
 	}
 }
+
+mort034 = {
+	name = "Aurel"
+	culture = morytania
+	religion = saradomin
+	trait = diligent
+	trait = education_stewardship_2
+	9134.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900504
+	}
+}
+
+mort035 = {
+	name = "Florin"
+	culture = morytania
+	religion = saradomin
+	trait = brave
+	trait = vengeful
+	trait = paranoid
+	trait = education_martial_1
+	9136.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900504
+	}
+}
+
+mort036 = {
+	name = "Razvan"
+	culture = morytania
+	religion = saradomin
+	trait = education_martial_1
+	9129.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900504
+		give_council_position = councillor_steward
+	}
+}
+
+mort037 = {
+	name = "Wiskit"
+	culture = morytania
+	religion = saradomin
+	trait = education_diplomacy_1
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900504
+	}
+}
