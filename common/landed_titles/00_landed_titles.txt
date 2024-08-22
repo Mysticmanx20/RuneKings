@@ -3820,10 +3820,20 @@ e_morytania = {
 					province = 76
 				}
 
+			}
+
+			c_deadfarm = { 
+				color = {202 64 141}
+
 				b_deadfarm = {
 					color = {202 64 141 }
 					province = 107
 				}
+
+			}
+
+			c_hwoods = { 
+				color = {107 0 41}
 
 				b_hwoods = {
 					color = { 107 0 41 }
@@ -3831,6 +3841,7 @@ e_morytania = {
 					definite_form = yes
 				}
 			}
+
 		}
 
 		d_phas = {
