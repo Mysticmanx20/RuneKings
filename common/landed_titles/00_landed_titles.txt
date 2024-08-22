@@ -3834,6 +3834,7 @@ e_morytania = {
 
 			c_hwoods = { 
 				color = {107 0 41}
+				definite_form = yes
 
 				b_hwoods = {
 					color = { 107 0 41 }
