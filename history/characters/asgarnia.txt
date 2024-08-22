@@ -1427,5 +1427,53 @@ asgarn032 = {
     }
     9168.1.1 = {
 	    employer = asgarn011
+	    give_council_position = councillor_steward
+    }
+}
+
+asgarn033 = {
+    name = "Lilly"
+    female = yes
+    religion = saradomin
+    culture = asgarnia
+    trait = calm
+    trait = content
+    trait = hashishiyah
+    trait = education_learning_2
+    9149.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	    employer = asgarn011
+    }
+}
+
+asgarn034 = {
+    name = "Kamfreena"
+    female = yes
+    religion = saradomin
+    culture = asgarnia
+    trait = calm
+    trait = patient
+    trait = education_martial_3
+    9142.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	    employer = asgarn011
+    }
+}
+
+asgarn035 = {
+    name = "Gamfred"
+    religion = guthix
+    culture = dwarf
+    trait = diligent
+    trait = education_learning_2
+    9136.1.1 = {
+        birth = yes
+    }
+    9168.1.1 = {
+	    employer = asgarn011
     }
 }
