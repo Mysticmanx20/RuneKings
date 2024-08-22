@@ -249,9 +249,15 @@ c_fenk = {
 	}
 }
 
-b_deadfarm = {
+c_deadfarm = {
 	9139.1.1 = {
 		holder = 900513
+	}
+}
+
+c_hwoods = {
+	9139.1.1 = {
+		holder = 900500
 	}
 }
 
