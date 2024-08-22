@@ -1382,7 +1382,8 @@ asgarn029 = {
         birth = yes
     }
     9168.1.1 = {
-	employer = asgarn011
+	    employer = asgarn011
+    }
 }
 
 asgarn030 = {
@@ -1395,7 +1396,8 @@ asgarn030 = {
         birth = yes
     }
     9168.1.1 = {
-	employer = asgarn011
+	    employer = asgarn011
+    }
 }
 
 asgarn031 = {
@@ -1408,7 +1410,8 @@ asgarn031 = {
         birth = yes
     }
     9168.1.1 = {
-	employer = asgarn011
+	    employer = asgarn011
+    }
 }
 
 asgarn032 = {
@@ -1423,5 +1426,6 @@ asgarn032 = {
         birth = yes
     }
     9168.1.1 = {
-	employer = asgarn011
+	    employer = asgarn011
+    }
 }

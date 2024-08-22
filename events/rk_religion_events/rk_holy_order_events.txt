@@ -85,10 +85,7 @@ wc_holy_order.13 = {
 			}
 			save_scope_as = leader
 		}
-	}
 	
-	option = {
-		
 		hidden_effect = {
 			if = {
 				limit = { NOT = { title:b_voidout.holder = scope:leader } }
@@ -115,17 +112,16 @@ wc_holy_order.13 = {
 		
 		set_global_variable = {
 			name = voidknight_holy_order_title
-			value = scope:voidknight_holy_order.title
+			value = scope:voidknight_holy_order
 		}
 
 		hidden_effect = {
 			scope:leader = {
+				add_trait = order_member
 				add_gold = 100 #So that they have some money to lend out
 				add_piety_level = 2
 				add_gold = holy_order_starting_gold
-				every_courtier = {
-					add_trait = order_member
-				}
+				every_courtier = { add_trait = order_member }
 			}
 		}
 		global_var:voidknight_holy_order_title = {
@@ -134,4 +130,5 @@ wc_holy_order.13 = {
 
 		create_holy_order_effect = yes
 	}
+	
 }

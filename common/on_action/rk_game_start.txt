@@ -137,6 +137,47 @@ whiteknights = {
 	}
 }
 
+rk_holy_orders = {
+	effect = {
+		character:asgarn024 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = wc_holy_order.13 #VoidKnights Creation
+					days = -1
+				}
+			}
+		}
+	 	# character:223523 = {
+		# 	if = {
+		# 		limit = {
+		# 			is_alive = yes
+		# 			is_landed = yes
+		# 		}
+		# 		trigger_event = {
+		# 			id = KoH_holy_orders.2 #Hospitaller Creation
+		# 			days = -1
+		# 		}
+		# 	}
+		# }
+		# character:207510 = {
+		# 	if = {
+		# 		limit = {
+		# 			is_alive = yes
+		# 		}
+		# 		trigger_event = {
+		# 			id = KoH_holy_orders.5 #Calvatra Creation
+		# 			days = -1
+		# 		}
+		# 	}
+		# }
+		
+	}
+}
+
 ## so that every_living_character only gets called once
 rk_on_game_start_to_elc = {
     effect = {
