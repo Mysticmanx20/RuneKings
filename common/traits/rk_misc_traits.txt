@@ -117,3 +117,31 @@ thief = {
 		}
 	}
 }
+
+trait_tumeken = {
+
+	monthly_prestige_gain_mult = 0.1
+    monthly_piety_gain_mult = 0.15
+
+}
+
+trait_elid ={
+	stewardship = 3
+	fertility = 0.25
+}
+
+trait_itchlarin = {
+    different_faith_opinion = 5
+	levy_reinforcement_rate = 0.15
+}
+
+trait_amascut = {
+    intrigue = medium_skill_bonus
+	monthly_piety_gain_per_dread_add = 0.03
+}
+
+trait_scabaras = {
+    diplomacy = -1
+	stress_gain_mult = -0.15
+	stress_loss_mult = 0.15
+}

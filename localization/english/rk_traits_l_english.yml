@@ -4,6 +4,17 @@
  trait_lifespan_6_desc:1 "This character will not die of old age, but that comes at a cost to both their body and mind."
  trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will not die of old age, but that comes at a cost to both [ROOT.GetCharacter.GetHerHis] body and mind."
 
+ trait_trait_tumeken:0 "Devotee of Tumeken"
+ trait_trait_tumeken_desc:0 "This character's favored god is Tumeken, the god of the sun."
+ trait_trait_elid:0 "Devotee of Elidinis"
+ trait_trait_elid_desc:0 "This character's favored god is Elidinis, a goddess of fertility and growth."
+ trait_trait_itchlarin:0 "Devotee of Itchlarin"
+ trait_trait_itchlarin_desc:0 "This character's favored god is Itchlarin, a god of the dead."
+ trait_trait_amascut:0 "Devotee of Amascut"
+ trait_trait_amascut_desc:0 "This character's favored god is Amascut, a corrupted goddess of destruction."
+ trait_trait_scabaras:0 "Devotee of Scabaras"
+ trait_trait_scabaras_desc:0 "This character's favored god is Scabaras, god of isolation and tranquility."
+
  trait_vampire_character:0 "Vampyre"
  trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that consumes the blood of the living to survive. True-born vampyres are effectively immortal, they are immune to disease and will not die of natural causes such as old age."
 

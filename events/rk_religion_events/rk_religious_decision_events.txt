@@ -15,9 +15,9 @@ religious_decision.0696 = {
 	option = {
 		name = religious_decision.0102.tumeken
 		trigger = {
-			NOT = { has_character_modifier = bhakti_mena_tumeken }
+			NOT = { has_trait = trait_tumeken }
 		}
-		set_bhakti_effect = { BHAKTI = bhakti_mena_tumeken }
+		add_trait = trait_tumeken
 
 		ai_chance = {
 			base = 50
@@ -28,9 +28,9 @@ religious_decision.0696 = {
 	option = {
 		name = religious_decision.0102.elid
 		trigger = {
-			NOT = { has_character_modifier = bhakti_mena_elid }
+			NOT = { has_trait = trait_elid }
 		}
-		set_bhakti_effect = { BHAKTI = bhakti_mena_elid }
+		add_trait = trait_elid
 
 		ai_chance = {
 			base = 50
@@ -41,9 +41,9 @@ religious_decision.0696 = {
 	option = {
 		name = religious_decision.0102.itchlarin
 		trigger = {
-			NOT = { has_character_modifier = bhakti_mena_itchlarin }
+			NOT = { has_trait = trait_itchlarin }
 		}
-		set_bhakti_effect = { BHAKTI = bhakti_mena_itchlarin }
+		add_trait = trait_itchlarin
 
 		ai_chance = {
 			base = 50
@@ -54,9 +54,9 @@ religious_decision.0696 = {
 	option = {
 		name = religious_decision.0102.amascut
 		trigger = {
-			NOT = { has_character_modifier = bhakti_mena_amascut }
+			NOT = { has_trait = trait_amascut }
 		}
-		set_bhakti_effect = { BHAKTI = bhakti_mena_amascut }
+		add_trait = trait_amascut
 
 		ai_chance = {
 			base = 0
@@ -72,9 +72,9 @@ religious_decision.0696 = {
 	option = {
 		name = religious_decision.0102.scabaras
 		trigger = {
-			NOT = { has_character_modifier = bhakti_mena_scabaras }
+			NOT = { has_trait = trait_scabaras }
 		}
-		set_bhakti_effect = { BHAKTI = bhakti_mena_scabaras }
+		add_trait = trait_scabaras
 
 		ai_chance = {
 			base = 0
