@@ -3670,7 +3670,7 @@ desert_religion = {
 
 			doctrine = tenet_megaliths
 			doctrine = tenet_communal_identity
-			doctrine = tenet_bhakti
+			doctrine = tenet_sun_worship
 			
 
 			

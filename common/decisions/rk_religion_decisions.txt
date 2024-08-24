@@ -9,12 +9,19 @@ select_personal_deity_germanic_decision = {
 		# DLC check.
 		has_fp1_dlc_trigger = yes
 		# Following a valid religion & faith.
-		religion = religion:desert_religion
-		faith = { has_doctrine_parameter = select_personal_god_active }
+		OR = {
+			religion = religion:desert_religion
+			religion = religion:karamja_religion
+		}
+		
+		
 	}
 
 	is_valid = {
-		religion = religion:desert_religion
+		OR = {
+			religion = religion:desert_religion
+			religion = religion:karamja_religion
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -25,42 +32,70 @@ select_personal_deity_germanic_decision = {
 	cooldown = { years = 5 }
 
 	effect = {
-		# Show the possible options.
-		show_as_tooltip = {
-			random_list = {
-				desc = select_personal_deity_germanic_decision_tt
-				100 = {
-					show_chance = no
-					desc = select_personal_deity_germanic_decision.select_tumeken
-					add_trait = trait_tumeken
-				}
-				100 = {
-					show_chance = no
-					desc = select_personal_deity_germanic_decision.select_elid
-					add_trait = trait_elid
-				}
-				100 = {
-					show_chance = no
-					desc = select_personal_deity_germanic_decision.select_itchlarin
-					add_trait = trait_itchlarin
-				}
-				100 = {
-					show_chance = no
-					desc = select_personal_deity_germanic_decision.select_amascut
-					add_trait = trait_amascut
-				}
-				100 = {
-					show_chance = no
-					desc = select_personal_deity_germanic_decision.select_scabaras
-					add_trait = trait_scabaras
+		# Show the possible options based on religion
+		if = { 
+			limit = { has_religion = religion:desert_religion }
+
+			show_as_tooltip = {
+				random_list = {
+					desc = select_personal_deity_germanic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_tumeken
+						add_trait = trait_tumeken
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_elid
+						add_trait = trait_elid
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_itchlarin
+						add_trait = trait_itchlarin
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_amascut
+						add_trait = trait_amascut
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_scabaras
+						add_trait = trait_scabaras
+					}
 				}
 			}
+			# And the actual effect.
+			trigger_event = religious_decision.0696
 		}
-		# And the actual effect.
-		trigger_event = religious_decision.0696
+		else_if = {
+			limit = { has_religion = religion:karamja_religion }
+			show_as_tooltip = {
+				random_list = {
+					desc = select_personal_deity_germanic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_kharazi
+						add_trait = patron_kharazi
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_shaika
+						add_trait = patron_shaika
+					}
+					100 = {
+						show_chance = no
+						desc = select_personal_deity_germanic_decision.select_raharni
+						add_trait = patron_raharni
+					}
+				}
+			}
+			# And the actual effect.
+			trigger_event = religious_decision.0697
+		}
+		
 	}
-
-	ai_check_interval = 30
 	
 	ai_potential = {
 		NOR = {

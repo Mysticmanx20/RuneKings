@@ -120,8 +120,8 @@ thief = {
 
 trait_tumeken = {
 
-	monthly_prestige_gain_mult = 0.1
-    monthly_piety_gain_mult = 0.15
+	monthly_prestige = 0.5
+	monthly_piety = 0.1
 
 }
 
@@ -144,4 +144,21 @@ trait_scabaras = {
     diplomacy = -1
 	stress_gain_mult = -0.15
 	stress_loss_mult = 0.15
+}
+
+patron_raharni = {
+	enemy_hard_casualty_modifier = 0.20
+	movement_speed = 0.15
+	learning = 1
+}
+
+patron_kharazi = {
+	diplomacy = 1
+	general_opinion = 10
+	monthly_county_control_growth_add = 0.2
+}
+
+patron_shaika = {
+	prowess = 2
+	health = 0.2
 }

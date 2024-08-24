@@ -62,6 +62,15 @@ religious_decision.0696 = {
 			base = 0
 
 			modifier = {
+				add = 50
+				OR = {
+					has_trait = deceitful
+					has_trait = callous
+					has_trait = sadistic
+				}
+			}
+
+			modifier = {
 				add = 1000
 				has_trait = witch
 			}
@@ -80,9 +89,75 @@ religious_decision.0696 = {
 			base = 0
 
 			modifier = {
+				add = 50
+				has_trait = reclusive
+			}
+
+			modifier = {
 				add = 1000
 				culture = culture:kalphite
 			}
+		}
+	}
+
+
+	# Opt-Out
+	option = {
+		name = religious_decision.0102.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+religious_decision.0697 = {
+	type = character_event
+	title = religious_decision.0102.t
+	desc = religious_decision.0102.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# Kharazi
+	option = {
+		name = religious_decision.0102.kharazi
+		trigger = {
+			NOT = { has_trait = patron_kharazi }
+		}
+		add_trait = patron_kharazi
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	# Ullr
+	option = {
+		name = religious_decision.0102.shaika
+		trigger = {
+			NOT = { has_trait = patron_shaika }
+		}
+		add_trait = patron_shaika
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	# Tyr
+	option = {
+		name = religious_decision.0102.raharni
+		trigger = {
+			NOT = { has_trait = patron_raharni }
+		}
+		add_trait = patron_raharni
+
+		ai_chance = {
+			base = 50
 		}
 	}
 

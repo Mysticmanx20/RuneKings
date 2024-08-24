@@ -37,4 +37,7 @@
   select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"
   select_personal_deity_germanic_decision.select_amascut:0 "Amascut the Devourer"
   select_personal_deity_germanic_decision.select_scabaras:0 "Scabaras, Avatar of Isolation"
+  select_personal_deity_germanic_decision.select_kharazi:0 "Kharazi the Musician"
+  select_personal_deity_germanic_decision.select_shaika:0 "Shaika the Huntress"
+  select_personal_deity_germanic_decision.select_raharni:0 "Raharni the Beastmaster"
 

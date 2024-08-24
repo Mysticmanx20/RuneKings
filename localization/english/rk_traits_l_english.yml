@@ -14,6 +14,12 @@
  trait_trait_amascut_desc:0 "This character's favored god is Amascut, a corrupted goddess of destruction."
  trait_trait_scabaras:0 "Devotee of Scabaras"
  trait_trait_scabaras_desc:0 "This character's favored god is Scabaras, god of isolation and tranquility."
+ trait_patron_kharazi:0 "Devotee of Kharazi"
+ trait_patron_kharazi_desc:0 "This character's favored god is Kharazi the Musician."
+ trait_patron_shaika:0 "Devotee of Shaika"
+ trait_patron_shaika_desc:0 "This character's favored god is Shaika the Huntress."
+ trait_patron_raharni:0 "Devotee of Raharni"
+ trait_patron_raharni_desc:0 "This character's favored god is Raharni the Beastmaster."
 
  trait_vampire_character:0 "Vampyre"
  trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that consumes the blood of the living to survive. True-born vampyres are effectively immortal, they are immune to disease and will not die of natural causes such as old age."
