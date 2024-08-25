@@ -25,6 +25,7 @@ rk_desc.2001 = {
 			culture = culture:misthalin
 			faith = faith:zamorak
 			dynasty = none
+			trait = undead_character
 			trait = diligent
 			trait = deceitful
 			trait = eccentric
