@@ -104,6 +104,9 @@ select_personal_deity_germanic_decision = {
 			has_trait = trait_itchlarin
 			has_trait = trait_amascut
 			has_trait = trait_scabaras
+			has_trait = patron_kharazi
+			has_trait = patron_shaika
+			has_trait = patron_raharni
 		}
 	}
 
