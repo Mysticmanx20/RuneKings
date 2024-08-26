@@ -2,8 +2,16 @@
 c_brim = {
 	9163.1.1 ={
 		liege = 0
-		holder = karam014
+		holder = karam024
 		change_development_level = 10
+	}
+}
+
+c_brimdun = {
+	9160.1.1 = {
+		liege = 0
+		holder = karam028
+		change_development_level = 4
 	}
 }
 
