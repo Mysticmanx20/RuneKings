@@ -172,6 +172,9 @@ karam014 = {
     9122.1.1 = {
         birth = yes
     }
+	9168.1.1 = {
+		employer = karam024
+	}
 }
 
 karam015 = {
@@ -183,7 +186,7 @@ karam015 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = karam014
+		employer = karam024
 	}
 }
 
@@ -306,9 +309,6 @@ karam024 = {
 	9143.1.1 = {
 		birth = yes
 	}
-	9165.1.1 = {
-		employer = karam014
-	}
 
 }
 
@@ -322,7 +322,7 @@ karam025 = {
 		birth = yes
 	}
 	9167.1.1 = {
-		employer = karam014
+		employer = karam024
 	}
 }
 
@@ -336,7 +336,7 @@ karam026 = {
 		birth = yes
 	}
 	9167.1.1 = {
-		employer = karam014
+		employer = karam024
 	}
 }
 
