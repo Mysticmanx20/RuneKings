@@ -3414,13 +3414,22 @@ e_karamja = {
 					province = 159
 				}
 
+			}
+
+			c_brimmine = {
+				color = {  226 218 87 }
+
 				b_brimmine = {
-					color = { 226 218 87}
+					color = {  226 218 87 }
 					province = 161
 				}
+			}
+
+			c_brimdun = {
+				color = {  226 87 80 }
 
 				b_brimdun = {
-					color = {226 87 80}
+					color = {  226 87 80 }
 					province = 160
 				}
 			}
