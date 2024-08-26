@@ -125,12 +125,11 @@ bloodpact_decision = {
 					any_prisoner = { NOT = { has_faith = faith:zamorak } }	
 				}
 			}
-			show_as_tooltip = {
-				execute_prisoner_effect = {
-					VICTIM = random_prisoner
-					EXECUTIONER = root
-				}
+			execute_prisoner_effect = {
+				VICTIM = random_prisoner
+				EXECUTIONER = root
 			}
+			
 		}
 		title:d_lumbridge.holder = {
 			trigger_event = {

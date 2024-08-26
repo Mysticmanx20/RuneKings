@@ -1667,6 +1667,8 @@
 900210 = {
     name = "Reese"
     #peasant leader? witch?
+	learning = 9
+	martial = 9
 	trait = zealous
 	trait = brave
 	trait = humble
