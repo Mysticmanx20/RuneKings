@@ -31,16 +31,16 @@
 }
 
 161 = { #BrimhavenMine 	
-	religion = junglegods
-	culture = karamja
-	holding = none
+	religion = bandos
+	culture = hillgiant
+	holding = tribal_holding
 
 }
 
 160 = { #BrimhavenDungeon
 	religion = junglegods
 	culture = karamja
-	holding = none
+	holding = tribal_holding
 
 }
 
