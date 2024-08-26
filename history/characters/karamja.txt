@@ -349,3 +349,12 @@ karam027 = {
 		birth = yes
 	}
 }
+
+karam028 = {
+	name = "Saniboch"
+	religion = junglegods
+	culture = karamja
+	9148.1.1 = {
+		birth = yes
+	}
+}
