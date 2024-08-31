@@ -318,3 +318,60 @@ gob021 = {
 		birth = yes
 	}
 }
+
+gob022 = {
+	name = "Warttoes"
+	dynasty = 100958
+	culture = goblin
+	religion = bandos
+	trait = education_martial_1
+	8900.1.1 = {
+		birth = yes
+	}
+	8960.1.1 = {
+		death = yes
+	}
+}
+
+gob023 = {
+	name = "Dirtteeth"
+	dynasty = 100951
+	culture = goblin
+	religion = bandos
+	trait = wrathful
+	trait = education_martial_2
+	8900.1.1 = {
+		birth = yes
+	}
+	8960.1.1 = {
+		death = yes
+	}
+}
+
+gob024 = {
+	name = "Wetears"
+	dynasty = 100947
+	culture = goblin
+	religion = bandos
+	trait = education_learning_1
+	8900.1.1 = {
+		birth = yes
+	}
+	8960.1.1 = {
+		death = yes
+	}
+}
+
+gob025 = {
+	name = "Snailbrain"
+	dynasty = 100954
+	culture = goblin
+	religion = bandos
+	trait = education_stewardship_1
+	8900.1.1 = {
+		birth = yes
+	}
+	8960.1.1 = {
+		death = yes
+	}
+}

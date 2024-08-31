@@ -1,4 +1,8 @@
 ﻿
+bm_group_8930 = {
+	default_start_date = 8930.1.1
+}
+
 bm_group_169 = {
 	default_start_date = 9169.1.1
 }

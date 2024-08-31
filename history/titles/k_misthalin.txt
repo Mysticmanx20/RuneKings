@@ -1,6 +1,6 @@
 
 k_misthalin = {
-	8963.1.1 = {
+	8920.1.1 = {
 		holder = 900112
 	}
 	9030.1.1 = {
@@ -35,6 +35,19 @@ d_varrock = {
 c_varrock = {
 	1.1.1 = {
 		liege = k_misthalin
+	}
+	8920.1.1 = {
+		holder = 900112
+		change_development_level = 12
+	}
+	9030.1.1 = {
+		holder = 900110
+	}
+	9052.1.1 = {
+		holder = 900109
+	}
+	9103.1.1 = {
+		holder = 900108
 	}
 	9160.1.1 = {
 		holder = 900106
@@ -196,6 +209,10 @@ c_barbvil = {
 }
 
 c_digsite = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob023
+	}
 	9166.1.1 = {
 		liege = k_misthalin
 	}
@@ -206,8 +223,11 @@ c_digsite = {
 }
 
 c_dighills = {
-	9165.1.1 = {
+	8930.1.1 = {
 		liege = 0
+		holder = gob023
+	}
+	9165.1.1 = {
 		holder = gob011
 		change_development_level = 5
 	}
@@ -269,6 +289,10 @@ d_lumbridge = {
 }
 
 c_lumbridge = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob025
+	}
 	8985.1.1 = {
 		liege = d_lumbridge
 		holder = 900111
@@ -280,8 +304,9 @@ c_lumbridge = {
 }
 
 c_lumswamp = {
-	9001.1.1 = {
+	8930.1.1 = {
 		liege = 0
+		holder = gob024
 	}
 	9168.6.1 = {
 		holder = 900101
@@ -296,6 +321,10 @@ b_lumchapel = {
 }
 
 c_lumcata = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob025
+	}
 	9048.1.1 = {
 		liege = d_lumbridge
 	}
@@ -328,6 +357,10 @@ b_fredfarm = {
 }
 
 c_lumpass = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob025
+	}
 	9163.1.1 = {
 		holder = ham001
 		change_development_level = 8
@@ -343,8 +376,11 @@ c_eastlum = {  #northern lum farms
 
 
 c_goblum = {
-	9168.1.1 = {
+	8930.1.1 = {
 		liege = 0
+		holder = gob025
+	}
+	9168.1.1 = {
 		holder = gob002
 		change_development_level = 6
 	}
@@ -380,6 +416,10 @@ d_tutor = {
 } 
 
 c_tutor = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob022
+	}
 	9162.1.1 = {
 		holder = misth028
 		change_development_level = 13
@@ -387,6 +427,10 @@ c_tutor = {
 }
 
 c_tutormage = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob022
+	}
 	9162.1.1 = {
 		holder = misth034
 		change_development_level = 10
@@ -394,6 +438,10 @@ c_tutormage = {
 }
 
 c_tutorcook = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob022
+	}
 	9162.1.1 = {
 		holder = misth033
 		change_development_level = 10
@@ -401,6 +449,10 @@ c_tutorcook = {
 }
 
 c_tutorbank = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob022
+	}
 	9162.1.1 = {
 		holder = misth028
 		change_development_level = 10
@@ -408,6 +460,10 @@ c_tutorbank = {
 }
 
 c_tutorquest = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob022
+	}
 	9162.1.1 = {
 		holder = misth032
 		change_development_level = 9
@@ -425,6 +481,10 @@ d_wizard = {
 }
 
 c_wizard = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob024
+	}
 	9070.1.1 = {
 		holder = misth006
 	}

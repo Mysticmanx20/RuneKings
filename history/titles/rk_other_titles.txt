@@ -44,6 +44,9 @@ d_khazard2 = {
 }
 
 d_greengob = {
+	8930.1.1 = {
+		holder = gob024
+	}
 	9147.1.1 = {
 		holder = 900302
 	}
@@ -56,14 +59,29 @@ d_redgob = {
 }
 
 d_bluegob = {
+	8930.1.1 = {
+		holder = gob023
+	}
 	9147.1.1 = {
 		holder = gob011
+	}
+}
+
+d_blackgob = {
+	8930.1.1 = {
+		holder = gob025
 	}
 }
 
 d_pinkgob = {
 	9147.1.1 = {
 		holder = gob005
+	}
+}
+
+d_yellowgob = {
+	8930.1.1 = {
+		holder = gob022
 	}
 }
 

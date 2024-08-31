@@ -118,3 +118,29 @@
 
 
 }
+
+
+bm_8930_misth = {
+	start_date = 8930.1.1
+	is_playable = yes
+	group = bm_group_8930
+
+	weight = { value = 0 }
+
+	# Claudius
+	character = {
+		name = "King Claudius"
+		dynasty_splendor_level = 1
+		type = male
+		birth = 8900.1.1
+		title = k_misthalin
+		government = feudal_government
+		culture = misthalin
+		religion = saradomin
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 900112
+		position = { 1250 821 }
+
+		animation = happiness
+	}
+}

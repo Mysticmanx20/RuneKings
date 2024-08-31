@@ -45,6 +45,23 @@ d_greengob = {
 	}
 }
 
+d_blackgob = {
+	color = { 220 20 60}
+	capital = c_lumpass
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100954
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
 d_redgob = {
 	color = { 220 20 60}
 	capital = c_gobvil
@@ -73,6 +90,23 @@ d_bluegob = {
 		if = {
 			limit = {
 				dynasty = dynasty:100951
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+d_yellowgob = {
+	color = { 141 168 50 }
+	capital = c_lumswamp
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = yes
+	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:100958
 			}
 			add = @correct_culture_primary_score
 		}

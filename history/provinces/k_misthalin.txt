@@ -11,10 +11,12 @@
 }
 
 3 = {		#LumSwamp
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
-	9169.1.1 = {
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		religion = saradomin
+		culture = misthalin
 		buildings = {
 			military_camps_01
 		}
@@ -22,23 +24,36 @@
 }
 
 4 = {		#LumChurch
-	religion = saradomin
-	culture = misthalin
-	holding = church_holding
+	religion = bandos
+	culture = goblin
+	holding = none
+	9000.1.1 = {
+		holding = church_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 5 = {		#Bobs
-	religion = saradomin
-	culture = misthalin
-	holding = city_holding
+	religion = bandos
+	culture = goblin
+	holding = none
+	9000.1.1 = {
+		holding = city_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 
 6 = {		#Lumcastle
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
-	9169.1.1 = {
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
 		buildings = {
 			castle_02
 		}
@@ -112,24 +127,38 @@
 }
 
 18 = {    #WizTow
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
 	9000.1.1 = {
+		holding = castle_holding
 		special_building = generic_university
+		religion = saradomin
+		culture = misthalin
 	}
 }
 
 19 = {    #LumPass
-	religion = hamcult
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = hamcult
+		culture = misthalin
+	}
+
 }
 
 20 = {    #Tutorial
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 50 = {    #VFarm
@@ -237,10 +266,15 @@
 
 }
 
-80 = {  #Lumbridge Catacombs 
-	religion = zamorak
-	culture = misthalin
-	holding = castle_holding
+80 = {  #Lumbridge Catacombs 	
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = zamorak
+		culture = misthalin
+	}
 }
 
 218 = {  #LumGate
@@ -283,15 +317,23 @@
 }
 
 271 = { #EastSwap 
-	religion = saradomin
-	culture = misthalin
+	religion = bandos
+	culture = goblin
 	holding = none
+	9000.1.1 = {
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 272 = { #WaterAltar
-	religion = saradomin
-	culture = misthalin
+	religion = bandos
+	culture = goblin
 	holding = none
+	9000.1.1 = {
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 273 = { #DrayCoast
@@ -407,9 +449,14 @@
 }
 
 522 = { 
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 523 = { 
@@ -419,21 +466,36 @@
 }
 
 524 = { 
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 525 = { 
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 526 = { 
-	religion = saradomin
-	culture = misthalin
-	holding = church_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = church_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 527 = { 
@@ -443,9 +505,14 @@
 }
 
 528 = { 
-	religion = saradomin
-	culture = misthalin
-	holding = castle_holding
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+	9000.1.1 = {
+		holding = castle_holding
+		religion = saradomin
+		culture = misthalin
+	}
 }
 
 534 = {
