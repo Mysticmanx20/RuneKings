@@ -18,7 +18,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 20842
-		position = { 1240 815 }
+		position = { 1160 815 }
 
 		animation = happiness
 	}
@@ -53,7 +53,7 @@
 		religion = menaph
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 8000008
-		position = { 1553 989 }
+		position = { 1517 785 }
 
 		animation = worry
 
@@ -82,7 +82,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 8000009
-		position = { 760 1000 }
+		position = { 760 820 }
 
 		animation = personality_zealous
 	}
@@ -99,7 +99,7 @@
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 6000002
-		position = { 1300 158 }
+		position = { 1200 150 }
 
 		animation = personality_rational
 
@@ -139,7 +139,7 @@ bm_8930_misth = {
 		religion = saradomin
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 900112
-		position = { 1200 158 }
+		position = { 1200 150 }
 
 		animation = happiness
 	}
