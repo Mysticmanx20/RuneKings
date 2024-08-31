@@ -78,3 +78,7 @@ ek_human_age_equivalent_minus_25 = {
 	value = ek_human_age_equivalent
 	subtract = 25
 }
+
+age_show_value = {
+	value = 1000
+}

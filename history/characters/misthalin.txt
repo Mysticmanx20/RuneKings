@@ -304,9 +304,11 @@
     trait = craven
     trait = education_intrigue_1
 	trait = disinherited
+	trait = vampire_character
 	disallow_random_traits = yes
-	9140.1.1 = {
+	2006.1.1 = {
 		birth = yes
+		set_immortal_age = 30
 	}
 }
 
@@ -2129,11 +2131,13 @@ misth005 = {
 	religion = zamorak
 	trait = shy
 	trait = loyal
+	trait = vampire_character
 	trait = education_learning_1
-	9141.1.1 = {
+	2010.1.1 = {
 		birth = yes
+		set_immortal_age = 30
 	}
-	9168.1.1 = {
+	3500.1.1 = {
 		employer = 900115
 		give_council_position = councillor_court_chaplain
 	}

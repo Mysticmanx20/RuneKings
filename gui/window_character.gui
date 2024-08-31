@@ -798,11 +798,24 @@ window = {
 								tooltip = "[Character.GetUINameNotMeNoTooltip]"
 							}
 
+							# RuneKings
 							text_single = {
+								visible = "[LessThanOrEqualTo_int32(Character.GetAge, '(int32)1000')]"
 								name = "character_age"
 								raw_text = " [Character.GetAge]"
 								default_format = "#low"
 								tooltip = "[Character.GetDeathOrBirthDateInfo]"
+								fontsize = 20
+								align = nobaseline
+							}
+
+							#RuneKings
+							text_single	 = {
+								visible = "[GreaterThan_int32(Character.GetAge, '(int32)1000')]"
+								name = "character_age_2"
+								raw_text = " ???"
+								default_format = "#low"
+								tooltip = "rk_unknown_birth" #" [Character.GetAge] [Character.GetDeathOrBirthDateInfo]"
 								fontsize = 20
 								align = nobaseline
 							}

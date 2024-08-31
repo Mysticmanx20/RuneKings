@@ -10,9 +10,10 @@
 	trait = diligent
 	trait = lifestyle_hunter
 	trait = faith_warrior
+	trait = vampire_character
 	trait = education_martial_4
 	disallow_random_traits = yes
-	9134.1.1 = {
+	2000.1.1 = {
 		birth = yes
 		set_immortal_age = 30
 	}
@@ -346,10 +347,14 @@ vamp002 = {
 	trait = wrathful
 	trait = deceitful
 	trait = fickle
+	trait = vampire_character
 	trait = education_intrigue_3
 	disallow_random_traits = yes
-	9136.1.1 = {
+	2005.1.1 = {
 		birth = yes
+		set_immortal_age = 30
+	}
+	3200.1.1 = {
 		employer = 900500
 	}
 
@@ -365,13 +370,16 @@ vamp003 = {
 	trait = arrogant
 	trait = sadistic
 	trait = wrathful
+	trait = vampire_character
 	trait = education_martial_2
 	disallow_random_traits = yes
-	9138.1.1 = {
+	2003.1.1 = {
 		birth = yes
+		set_immortal_age = 30
+	}
+	3200.1.1 = {
 		employer = 900500
 	}
-
 }
 
 vamp004 = {

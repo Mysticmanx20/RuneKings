@@ -1,33 +1,33 @@
 ﻿
 k_morytania = {
-	9054.1.1 = {
+	3200.1.1 = {
 	holder = 900500
 	government = clan_government
 	}
 }
 
 d_sang ={
-	9054.1.1 = {
+	3200.1.1 = {
 		holder = 900500
 	}
 }
 
 c_drakan = {
-	9054.1.1 = {
+	3200.1.1 = {
 		holder = 900500
 		change_development_level = 10
 	}
 }
 
 c_blisterwood = {
-	9054.1.1 = {
+	3200.1.1 = {
 		holder = 900500
 		change_development_level = 9
 	}
 }
 
 c_darkmeyer = {
-	9054.1.1 = {
+	3200.1.1 = {
 		holder = 900500
 		change_development_level = 8
 	}
@@ -40,7 +40,7 @@ b_crypt = {
 }
 
 c_lowdark = {
-	9054.1.1 = {
+	3200.1.1 = {
 		holder = 900500
 		change_development_level = 7
 	}
@@ -208,12 +208,13 @@ c_mditch = {
 }
 
 c_vers = {
-	6000.1.1 = {
+	3200.1.1 = {
 		liege = k_morytania
 		government = clan_government
+		holder = 900512
+		change_development_level = 5
 	}
 	9148.1.1 = {
-		holder = 900512
 		change_development_level = 8
 	}
 }
