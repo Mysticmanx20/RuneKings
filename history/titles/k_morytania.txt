@@ -1,12 +1,18 @@
 ﻿
 k_morytania = {
+	2380.1.1 = {
+		holder = mort038
+	}
 	3200.1.1 = {
-	holder = 900500
-	government = clan_government
+		holder = 900500
+		government = clan_government
 	}
 }
 
 d_sang ={
+	2380.1.1 = {
+		holder = mort038
+	}
 	3200.1.1 = {
 		holder = 900500
 	}
@@ -197,7 +203,10 @@ c_slayer = {
 }
 
 c_mditch = {
-	1000.1.1 = {
+	2380.1.1 = {
+		holder = mort038
+	}
+	3200.1.1 = {
 		liege = k_morytania
 	}
 	9160.1.1 = {
@@ -208,6 +217,9 @@ c_mditch = {
 }
 
 c_vers = {
+	2380.1.1 = {
+		holder = mort038
+	}
 	3200.1.1 = {
 		liege = k_morytania
 		government = clan_government

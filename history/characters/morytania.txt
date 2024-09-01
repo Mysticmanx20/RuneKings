@@ -1067,3 +1067,120 @@ mort037 = {
 		employer = 900504
 	}
 }
+
+mort038 = {
+	name = "Efaritay"
+	dynasty = 101010
+	female = yes
+	culture = icyene
+	religion = saradomin
+	trait = icyene_lifespan
+	trait = education_diplomacy_3
+	2360.1.1 = {
+		birth = yes
+	}
+	3186.1.1 = {
+		add_matrilineal_spouse = mort039
+	}
+	3200.1.1 = {
+		death = {
+			death_reason = death_disappearance
+		}
+	}
+}
+
+mort039 = {
+	name = "Ascertes"
+	mother = mort041
+	father = mort040
+	culture = morytania
+	religion = saradomin
+	trait = education_martial_2
+	3166.1.1 = {
+		birth = yes
+	}
+	3200.1.1 = {
+		death = yes
+	}
+}
+
+mort040 = {
+	name = "Dessocles"
+	culture = morytania
+	religion = saradomin
+	3144.1.1 = {
+		birth = yes
+	}
+	3210.1.1 = {
+		death = yes
+	}
+}
+
+mort041 = {
+	name = "Apherna"
+	female = yes
+	culture = morytania
+	religion = saradomin
+	3140.1.1 = {
+		birth = yes
+	}
+	3213.1.1 = {
+		death = yes
+	}
+}
+
+mort042 = {
+	name = "Larina"
+	dynasty = 101010
+	female = yes
+	mother = mort038
+	father = mort039
+	culture = morytania
+	religion = saradomin
+	3187.1.1 = {
+		birth = yes
+	}
+	3200.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = mort044
+		}
+	}
+}
+
+mort043 = {
+	name = "Safalaan"
+	dynasty = 101010
+	mother = mort038
+	father = mort039
+	culture = morytania
+	religion = saradomin
+	trait = education_diplomacy_4
+	trait = peasant_leader
+	trait = icyene_lifespan
+	3188.1.1 = {
+		birth = yes
+		set_immortal_age = 30
+	}
+	9168.1.1 = {
+		employer = 900512
+	}
+
+}
+
+mort044 = {
+	name = "Vanstrom"
+	dynasty = 101011
+	culture = vampyre
+	religion = zamorak
+	trait = vampire_character
+	trait = education_martial_3
+	trait = wrathful
+	trait = callous
+	3200.1.1 = {
+		birth = yes
+		set_immortal_age = 30
+		employer = 900500
+	}
+}
+

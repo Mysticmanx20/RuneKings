@@ -752,5 +752,37 @@ house_drakan={
 
 }
 
+101010={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=orange
+	colored_emblem={
+		color1=rgb { 255 234 0 }
+		texture="ce_pagan_star_04.dds"
+		instance={
+			position={ 0.500000 0.570000 }
+			scale={ 0.660000 0.660000 }
+		}
 
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_wings.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.820000 1.000000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.770000 }
+			scale={ 1.000000 -0.570000 }
+			depth=2.010000
+		}
+
+	}
+
+}
 

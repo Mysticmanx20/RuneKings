@@ -3890,6 +3890,10 @@ e_morytania = {
 		color = { 58 87 49 }
 		capital = c_burgderot
 
+		cultural_names = {
+			name_list_icyene = cn_humble
+		}
+
 		d_mortton = {
 			color = { 160 160 0 }
 			capital = c_mortton
@@ -4172,6 +4176,10 @@ e_morytania = {
 
 			c_vers = {
 				color = { 119 66 115 }
+
+				cultural_names = {
+					name_list_icyene = cn_everlight
+				}
 
 				b_tob = {
 					color = { 139 66 115}

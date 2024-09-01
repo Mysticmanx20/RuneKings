@@ -1,5 +1,21 @@
 ﻿#Triggers to control Coat of Arms weighting
 
+#RK
+coa_switch_to_saradomin_trigger = {
+	holder = {
+		faith.religion = religion:sara_religion
+	}
+}
+
+
+
+
+
+
+
+
+#Vanilla
+
 coa_african_trigger = {
 	OR = {
 		coa_african_culture_trigger = yes

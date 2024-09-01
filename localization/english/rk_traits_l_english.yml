@@ -27,6 +27,9 @@
  trait_elf_lifespan:0 "Elf"
  trait_elf_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an elf, a long-lived race of tall, graceful humanoids with noticably elongated ears. Elves typically live into their mid 500s. Women with this trait will become infertile at around age 345."
 
+ trait_icyene_lifespan:0 "Icyenic Blood"
+ trait_icyene_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an icyene, a long-lived race of tall, powerful winged humanoids originating from another realm. Those with icyenic blood are able to live for thousands of years."
+
  trait_undead_character:0 "Undead"
  trait_undead_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an undead creature, dead but not yet gone. Various creatures such as ghosts and zombies as well as other kinds of reanimated monsters are classified as undead. The undead are immune to disease and will not die of natural causes such as old age."
 

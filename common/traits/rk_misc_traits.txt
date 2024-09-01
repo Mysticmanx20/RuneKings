@@ -83,6 +83,23 @@ elf_lifespan = {
 
 }
 
+icyene_lifespan = {
+	flag = lifespan_6_flag
+
+	life_expectancy = 5000
+	years_of_fertility = 4500 #4545 years old
+	monthly_lifestyle_xp_gain_mult = -0.8
+	monthly_prestige_gain_mult = -0.4
+	monthly_piety_gain_mult = -0.4
+	stress_loss_mult = -0.3
+	stress_gain_mult = -0.3
+	fertility = -0.6
+
+	genetic = yes
+	physical = yes
+
+}
+
 undead_character = {
 	flag = lifespan_6_flag
 	flag = immune_to_disease

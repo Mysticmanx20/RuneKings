@@ -1,1 +1,17 @@
 ﻿# RuneKings
+e_morytania = {
+	item = {
+		trigger = {
+			coa_switch_to_saradomin_trigger = yes
+		}
+		coat_of_arms = e_hallowland
+	}
+}
+k_morytania = {
+	item = {
+		trigger = {
+			coa_switch_to_saradomin_trigger = yes
+		}
+		coat_of_arms = k_hallowvale
+	}
+}

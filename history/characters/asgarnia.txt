@@ -1204,6 +1204,7 @@ asgarn017 = {
     culture = icyene
     trait = education_diplomacy_3
     trait = albino
+    trait = icyene_lifespan
     9133.1.1 = {
         birth = yes
     }

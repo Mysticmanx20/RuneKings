@@ -569,3 +569,13 @@
 	name = "dynn_Cywir"
 	culture = elf
 }
+
+101010 = {
+	name = "dynn_Hallow"
+	culture = icyene
+}
+
+101011 = {
+	name = "dynn_Klause"
+	culture = vampyre
+}

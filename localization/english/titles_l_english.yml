@@ -32,10 +32,12 @@
  cn_khar:0 "Kharyrll"
  cn_forinthry:0 "Forinthry"
  cn_hallow:0 "Hallowvale"
+ cn_hallowland:0 "Hallowland"
  cn_humble:0 "Humblethorn"
  cn_gobvilw:0 "West Goblin Village"
  cn_gobvile:0 "East Goblin Village"
  cn_zulrah:0 "Zul-Andra"
+ cn_everlight:0 "Everlight"
 
 #titular
 e_vamp:0 "Vampyrium"

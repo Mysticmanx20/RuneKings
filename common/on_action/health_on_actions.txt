@@ -177,6 +177,7 @@ disease_outbreak_pulse = {
 			if = { # Lifespan
 				limit = {
 					has_trait = elf_lifespan
+					has_trait = icyene_lifespan
 				}
 				value = 400
 			}
