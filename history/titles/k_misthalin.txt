@@ -273,6 +273,7 @@ c_lucien = {
 	9160.1.1 = {
 		liege = d_edgeville
 		holder = 900175
+		change_development_level = 6
 	}
 }
 

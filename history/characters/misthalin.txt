@@ -1202,7 +1202,7 @@
 	trait = deceitful
 	trait = mah_character
 	trait = education_intrigue_2
-	9119.1.1 = {
+	5000.1.1 = {
 		birth = yes
 	}
 }
@@ -2672,4 +2672,37 @@ misth037 = {
 	}
 }
 
+misth038 = {
+	name = "Movario"
+	culture = misthalin
+	religion = zamorak
+	trait = diligent
+	trait = shy
+	trait = patient
+	trait = shrewd
+	trait = education_learning_3
+	9140.1.1 = {
+		birth = yes
+	}
+	9160.1.1 = {
+		employer = 900175
+	}
+}
 
+misth039 = {
+	name = "Darve"
+	culture = khazard
+	religion = zamorak
+	trait = impatient
+	trait = wrathful
+	trait = humble
+	trait = unyielding_defender
+	trait = lifestyle_traveler
+	trait = education_martial_1
+	9142.1.1 = {
+		birth = yes
+	}
+	9160.1.1 = {
+		employer = 900175
+	}
+}
