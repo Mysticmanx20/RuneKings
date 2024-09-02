@@ -184,6 +184,7 @@ disease_outbreak_pulse = {
 			if = {
 				limit = {
 					has_trait = vampire_character
+					has_trait = mah_character
 				}
 				value = 800
 			}
