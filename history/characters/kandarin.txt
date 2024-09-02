@@ -573,7 +573,7 @@ kand042 = {
 
 kand043 = {
 	name = "Ceril"
-	#Carnillean
+	dynasty = 101013
 	religion = saradomin
 	culture = kandarin
 	trait = arrogant
@@ -588,7 +588,6 @@ kand043 = {
 
 kand044 = {
 	name = "Henryeta"
-	#Carnillean
 	female = yes
 	religion = saradomin
 	culture = kandarin
@@ -603,7 +602,7 @@ kand044 = {
 
 kand045 = {
 	name = "Philipe"
-	#Carnillean
+	dynasty = 101013
 	religion = saradomin
 	culture = kandarin
 	mother = kand044
@@ -860,8 +859,9 @@ kand065 = {
 	trait = deceitful
 	trait = callous
 	trait = education_martial_3
+	trait = mah_character
 	disallow_random_traits = yes
-	9133.1.1 = {
+	5000.1.1 = {
 		birth = yes
 	}
 }
@@ -1363,3 +1363,34 @@ kand105 = {
 	}
 }
 
+kand106 = {
+	name = "Nevan"
+	dynasty = 101013
+	culture = kandarin
+	religion = saradomin
+	trait = ambitious
+	trait = brave
+	trait = humble
+	trait = education_stewardship_2
+	8989.1.1 = {
+		birth = yes
+	}
+	9058.1.1 = {
+		death = yes
+	}
+}
+
+kand107 = {
+	name = "Hazeel"
+	dynasty = 100981
+	culture = mahjarrat
+	religion = zamorak
+	trait = mah_character
+	trait = zealous
+	trait = wrathful
+	trait = education_diplomacy_4
+	5000.1.1 = {
+		birth = yes
+	}
+
+}

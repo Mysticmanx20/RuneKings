@@ -38,7 +38,7 @@ d_ham = {
 }
 
 d_khazard2 = {
-	9163.1.1 = {
+	8930.1.1 = {
 		holder = kand065
 	}
 }

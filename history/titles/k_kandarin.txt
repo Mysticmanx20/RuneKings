@@ -1,5 +1,12 @@
 
 k_kandarin = {
+	8930.1.1 = {
+		holder = kand107
+		government = tribal_government
+	}
+	9050.1.1 = {
+		holder = kand106
+	}
 	9083.1.1 = {
 		holder = kand020
 	}
@@ -105,6 +112,10 @@ c_ardyfarm = {
 }
 
 c_ardy = {
+	8930.1.1 = {
+		holder = kand107
+		government = tribal_government
+	}
 	9136.1.1 = {
 		holder = kand017
 		change_development_level = 20
@@ -112,6 +123,9 @@ c_ardy = {
 }
 
 d_ardy = {
+	8930.1.1 = {
+		holder = kand107
+	}
 	9136.1.1 = {
 		holder = kand017
 	}
@@ -143,6 +157,10 @@ c_combat = {
 }
 
 c_chaostower = {
+	8930.1.1 = {
+		holder = kand107
+		government = tribal_government
+	}
 	9168.1.1 = {
 		liege = 0
 		holder = kand089
@@ -418,6 +436,9 @@ c_witchaven = {
 }
 
 c_legends = {
+	8930.1.1 = {
+		liege = 0
+	}
 	9163.1.1 = {
 		liege = 0
 		holder = kand061
@@ -434,6 +455,10 @@ c_ardymon = {
 }
 
 c_portkhaz = {
+	8930.1.1 = {
+		holder = kand065
+		government = tribal_government
+	}
 	9168.1.1 = {
 		liege = d_khazard2
 		holder = kand064
@@ -449,6 +474,10 @@ c_fortkhaz = {
 }
 
 c_khazard = {
+	8930.1.1 = {
+		holder = kand065
+		government = tribal_government
+	}
 	9163.1.1 = {
 		liege = d_khazard2
 		holder = kand065

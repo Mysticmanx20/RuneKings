@@ -584,3 +584,8 @@
 	name = "dynn_Handelmort"
 	culture = kandarin
 }
+
+101013 = {
+	name = "dynn_Ceril"
+	culture = kandarin
+}
