@@ -36,6 +36,7 @@ sea_zones = LIST { 556 }  #Poison Waste
 ###############
 river_provinces = LIST { 49 }	#Lum
 river_provinces = LIST { 77 }   #Salve
+river_provinces = LIST { 565 }	#Dougne
 river_provinces = LIST { 125 }  #Elid
 river_provinces = LIST { 193 }  #Fremennik
 river_provinces = LIST {263 }  #Elf

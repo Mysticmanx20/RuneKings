@@ -6,6 +6,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 486;90;river_large;77;-1;-1;-1;-1;PolyporeGap
 291;293;sea;313;-1;-1;-1;-1;MythsBridge
 273;18;sea;2;-1;-1;-1;-1;Wizbridge
+208;561;river_large;565;-1;-1;-1;-1;ArdyCrossing
 83;13;river_large;77;-1;-1;-1;-1;SalveCrossing
 108;122;river_large;125;-1;-1;-1;-1;ElidCrossing1
 115;118;river_large;125;-1;-1;-1;-1;ElidCrossing2

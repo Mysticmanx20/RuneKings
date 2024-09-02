@@ -72,6 +72,22 @@ c_sinclair = {
 	}
 }
 
+c_ardymid = {
+	9168.1.1 = {
+		liege = k_eastardy
+		holder = kand105
+		change_development_level = 18
+	}
+}
+
+c_ardymarket = {
+	9136.1.1 = {
+		liege = k_eastardy
+		holder = kand017
+		change_development_level = 16
+	}
+}
+
 c_lefaye = {
 	9132.1.1 = {
 		liege = 0 

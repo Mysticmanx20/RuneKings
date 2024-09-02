@@ -2043,6 +2043,54 @@ e_kandarin = {
 					color = { 255 165 104}
 					province = 208
 				}
+
+				b_biohaz = {
+					color = { 255 125 104}
+					province = 563
+				}
+
+				b_carman = {
+					color = { 255 177 104}
+					province = 564
+				}
+			}
+
+			c_ardymid = {
+				color = { 204 180 104}
+
+				b_ardyman = {
+					color = { 204 180 104}
+					province = 562
+				}
+
+				b_cenardy = {
+					color = {204 153 104}
+					province = 561
+				}
+
+				b_ardyzoo = {
+					color = { 204 180 129}
+					province = 560
+				}
+			}
+
+			c_ardymarket = {
+				color = { 204 155 129}
+
+				b_ardymarket = {
+					color = { 204 155 129}
+					province = 558
+				}
+
+				b_ardynorth = {
+					color = { 204 190 144}
+					province = 557
+				}
+
+				b_ardyport = {
+					color = { 204 155 159}
+					province = 559
+				}
 			}
 
 

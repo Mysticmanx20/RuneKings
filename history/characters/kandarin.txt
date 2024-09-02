@@ -1351,4 +1351,15 @@ kand104 = {
 	}
 }
 
+kand105 = {
+	name = "Francis"
+	dynasty = 101012
+	religion = saradomin
+	culture = kandarin
+	trait = education_stewardship_3
+	trait = greedy
+	9139.1.1 = {
+		birth = yes
+	}
+}
 
