@@ -376,19 +376,49 @@ e_zaros = {
 				name_list_mahjarrat = cn_sent
 			}
 
-			c_digsite = {
-				color = {112 0 0}
-				definite_form = yes
-				
+			c_exam = {
+				color = { 112 25 30}
+
 				b_examcen = {
 					color = { 112 25 30 }
 					province = 309
+				}
+
+				b_examhills = {
+					color = { 187 144 0}
+					province = 566
+				}
+
+				b_examwood = {
+					color = { 168 144 0}
+					province = 567
+				}
+
+			}
+
+			c_digsite = {
+				color = {112 0 0}
+				definite_form = yes
+
+				b_digcamp = {
+					color = { 104 34 14}
+					province = 568
 				}
 	
 				b_digsite = {
 					color = {112 0 0}
 					province = 12
 					definite_form = yes
+				}
+
+				b_digcoast = {
+					color = { 112 0 51}
+					province = 569
+				}
+
+				b_westdig = {
+					color = { 85 34 75 }
+					province = 570
 				}
 			}
 	
@@ -399,10 +429,37 @@ e_zaros = {
 					color = { 75 87 0}
 					province = 308
 				}
+
+				b_dighillwood = {
+					color = { 104 87 0}
+					province = 573
+				}
+
+				b_dighillnth = {
+					color = { 75 100 0}
+					province = 574
+				}
+
+			}
+
+			c_tolna = {
+				color = { 143 58 0}
+
+				b_rift = {
+					color = { 143 58 0}
+					province = 571
+				}
+
 				b_tolna = {
 					color = { 112 58 0}
 					province = 307
 				}
+
+				b_digpath = {
+					color = { 143 90 0}
+					province = 572
+				}
+
 			}
 
 		}

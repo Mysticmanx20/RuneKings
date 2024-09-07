@@ -589,3 +589,8 @@
 	name = "dynn_Ceril"
 	culture = kandarin
 }
+
+101014 = {
+	name = "dynn_Talvoy"
+	culture = misthalin
+}

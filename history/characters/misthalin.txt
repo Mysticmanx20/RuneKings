@@ -2706,3 +2706,17 @@ misth039 = {
 		employer = 900175
 	}
 }
+
+misth040 = {
+	name = "Tolna"
+	dynasty = 101014
+	culture = misthalin
+	religion = saradomin
+	trait = lunatic_1
+	trait = wrathful
+	trait = reclusive
+	trait = education_martial_1
+	9134.1.1 = {
+		birth = yes
+	}
+}

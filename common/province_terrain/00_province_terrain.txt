@@ -566,3 +566,13 @@ default_coastal_sea=coastal_sea
 563=plains
 564=plains
 565=coastal_sea
+566=hills
+567=forest
+568=hills
+569=floodplains
+570=hills
+571=forest
+572=forest
+573=forest
+574=forest
+

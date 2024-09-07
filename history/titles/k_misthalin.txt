@@ -208,7 +208,7 @@ c_barbvil = {
 	}
 }
 
-c_digsite = {
+c_exam = {
 	8930.1.1 = {
 		liege = 0
 		holder = gob023
@@ -222,6 +222,31 @@ c_digsite = {
 	}
 }
 
+c_digsite = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob023
+	}
+	9166.1.1 = {
+		liege = k_misthalin
+	}
+	9168.1.1 = {
+		holder = 900117
+		change_development_level = 3
+	}
+}
+
+c_tolna = {
+	8930.1.1 = {
+		liege = 0
+		holder = gob023
+	}
+	9144.1.1 = {
+		holder = misth040
+		change_development_level = 5
+	}
+}
+
 c_dighills = {
 	8930.1.1 = {
 		liege = 0
@@ -229,7 +254,7 @@ c_dighills = {
 	}
 	9165.1.1 = {
 		holder = gob011
-		change_development_level = 5
+		change_development_level = 4
 	}
 }
 
