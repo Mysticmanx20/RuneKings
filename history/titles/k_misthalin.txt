@@ -336,6 +336,7 @@ c_lumswamp = {
 	}
 	9168.6.1 = {
 		holder = 900101
+		government = feudal_government
 		change_development_level = 5
 	}
 }
