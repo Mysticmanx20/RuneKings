@@ -594,3 +594,23 @@
 	name = "dynn_Talvoy"
 	culture = misthalin
 }
+
+101015 = {
+	name = "dynn_Balando"
+	culture = misthalin
+}
+
+101016 = {
+	name = "dynn_Deeping"
+	culture = misthalin
+}
+
+101017 = {
+	name = "dynn_Minas"
+	culture = misthalin
+}
+
+101018 = {
+	name = "dynn_Lovelace"
+	culture = misthalin
+}

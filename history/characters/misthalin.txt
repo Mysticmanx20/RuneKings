@@ -334,15 +334,14 @@
 
 900117 = {
 	name = "Seth"
+	dynasty = 101017
 	religion = saradomin
 	culture = misthalin
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
-	9120.1.1 = {
+	trait = patient
+	trait = diligent
+	trait = content
+	trait = education_learning_3
+	9135.1.1 = {
 		birth = yes
 	}
 }
@@ -2718,5 +2717,103 @@ misth040 = {
 	trait = education_martial_1
 	9134.1.1 = {
 		birth = yes
+	}
+}
+
+misth041 = {
+	name = "Elissa"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = patient
+	trait = calm
+	trait = education_learning_1
+	9134.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900117
+	}
+}
+
+misth042 = {
+	name = "Varmen"
+	culture = misthalin
+	religion = saradomin
+	trait = ambitious
+	trait = patient
+	trait = diligent
+	trait = education_learning_3
+	9130.1.1 = {
+		birth = yes
+	}
+	9154.1.1 = {
+		add_spouse = misth041
+	}
+	9166.1.1 = {
+		death = yes
+	}
+}
+
+misth043 = {
+	name = "Terrance"
+	dynasty = 101015
+	culture = misthalin
+	religion = saradomin
+	trait = patient
+	trait = education_learning_2
+	9132.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900117
+	}
+}
+
+misth044 = {
+	name = "Douglas"
+	dynasty = 101016
+	culture = misthalin
+	religion = saradomin
+	trait = diligent
+	trait = education_intrigue_1
+	9134.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900117
+	}
+}
+
+misth045 = {
+	name = "Katarina"
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = compassionate
+	trait = patient
+	trait = education_learning_2
+	9149.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900117
+	}
+}
+
+misth046 = {
+	name = "Eva"
+	dynasty = 101018
+	female = yes
+	culture = misthalin
+	religion = saradomin
+	trait = diligent
+	trait = intellect_good_1
+	trait = education_stewardship_3
+	9140.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900117
 	}
 }
