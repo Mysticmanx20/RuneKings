@@ -462,6 +462,7 @@ c_portkhaz = {
 	9168.1.1 = {
 		liege = d_khazard2
 		holder = kand064
+		government = feudal_government
 		change_development_level = 6
 	}
 }

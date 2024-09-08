@@ -271,7 +271,7 @@ roald_dna = {
 	enabled = yes
 }
 
-gabi_dna={
+verona_dna={
 	portrait_info = {
 		genes={ 		
 			hair_color={ 186 131 79 107 }
@@ -390,7 +390,7 @@ gabi_dna={
 }
 
 
-eric_dna ={
+strux_dna ={
 	portrait_info = {
 		genes={ 		
 			hair_color={ 128 158 144 117 }

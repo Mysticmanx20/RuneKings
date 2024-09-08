@@ -231,13 +231,19 @@
 238 = { #FightArena
 	religion = zamorak
 	culture = khazard
-	holding = castle_holding
+	holding = tribal_holding
+	9169.1.1 = {
+		holding = castle_holding
+	}
 }
 
 239 = { #Port Khazard
 	religion = zamorak
 	culture = khazard
-	holding = castle_holding
+	holding = tribal_holding
+	9169.1.1 = {
+		holding = castle_holding
+	}
 }
 
 240 = { #Observe

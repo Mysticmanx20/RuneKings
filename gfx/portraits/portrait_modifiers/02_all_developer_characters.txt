@@ -104,7 +104,7 @@
         }
     }
 
-    gabi = { 
+    verona = { 
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -145,7 +145,7 @@
         }
     }
 
-    eric = { 
+    strux = { 
         dna_modifiers = {
             accessory = {
                 mode = add

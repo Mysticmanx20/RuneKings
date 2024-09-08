@@ -119,8 +119,8 @@
 }
 
 900507 = {
-	name = "Gabrielle"
-	dna = gabi_dna
+	name = "Verona"
+	dna = verona_dna
 	dynasty = 100906
 	female = yes
 	sexuality = bisexual

@@ -344,6 +344,10 @@
 	9135.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		set_primary_title_to = title:c_digsite
+		set_realm_capital = title:c_exam
+	}
 }
 
 900118 = {
@@ -757,9 +761,9 @@
 }
 
 900147 = {
-	name = "Æric"
+	name = "Æthelric"
 	dynasty = 100907
-	dna = eric_dna
+	dna = strux_dna
 	religion = guthix
 	culture = misthalin
 	sexuality = heterosexual
