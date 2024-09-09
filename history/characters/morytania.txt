@@ -991,7 +991,7 @@ mort032 = {
 	9138.1.1 = {
 		birth = yes
 	}
-	9168.1.1 = {
+	9169.1.1 = {
 		employer = 900502
 		give_council_position = councillor_spymaster
 	}

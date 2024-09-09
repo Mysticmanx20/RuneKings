@@ -1,0 +1,77 @@
+﻿namespace = rk_noti
+
+rk_digsite.2001 = {
+	type = character_event
+	title = "Archeological Discovery"
+	desc = rk_digsite.2001.a
+
+	theme = learning
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		has_title = title:c_digsite
+		title:b_digsite.county = {
+			development_level >= 10
+		}
+		title:c_digsite.title_province = {
+			has_holding_type = castle_holding
+		}
+		#Not repeatable.
+		NOT = {
+			has_global_variable = digsite_renamed
+		}
+	}
+
+	immediate = {
+		set_global_variable = {
+			name = digsite_renamed
+			value = yes
+		}
+	}
+
+	option = {
+		name = rk_digsite.2001.b
+
+		custom_tooltip = {
+			text = rk_digsite.2001.c
+			
+			title:c_digsite = {
+				set_title_name = d_saranthium
+			}
+			title:d_digsite = {
+				set_title_name = d_saranthium
+			}
+			title:b_digcamp = {
+				set_title_name = b_southsaran
+			}
+			title:b_digcoast = {
+				set_title_name = b_sarancoast
+			}
+			title:b_westdig = {
+				set_title_name = b_westsaran
+			}
+			title:b_digsite = {
+				set_title_name = d_saranthium
+			}
+
+		}
+		add_piety = minor_piety_gain
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = rk_digsite.2001.d
+
+		add_piety = minor_piety_loss
+
+		ai_chance = {
+			base = 0
+		}
+	}
+}

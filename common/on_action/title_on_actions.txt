@@ -49,15 +49,6 @@ on_title_gain = {
 		#RK Edit
 		if = {
 			limit = {
-				scope:title = title:d_digsite
-				has_faith = faith:saradomin
-			}
-				
-			title:d_digsite = { set_title_name = d_saranthium }
-				
-		}
-		if = {
-			limit = {
 				scope:title = title:k_morytania
 				has_faith = faith:saradomin
 			}

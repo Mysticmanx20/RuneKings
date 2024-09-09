@@ -398,7 +398,6 @@ e_zaros = {
 
 			c_digsite = {
 				color = {112 0 0}
-				definite_form = yes
 
 				b_digcamp = {
 					color = { 104 34 14}
@@ -408,7 +407,6 @@ e_zaros = {
 				b_digsite = {
 					color = {112 0 0}
 					province = 12
-					definite_form = yes
 				}
 
 				b_digcoast = {

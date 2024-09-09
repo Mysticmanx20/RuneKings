@@ -1,0 +1,6 @@
+﻿l_english:
+
+  rk_digsite.2001.a:0 "After much examination over the years, several artifacts excavated from the digsite trace their origins to an ancient Saradominist city established during the Third Age! These historical findings are evidence that this land is rightfully under the jurisdiction of Saradomin. Perhaps the area should be renamed based on this discovery?"
+  rk_digsite.2001.b:0 "We shall restore Saranthium!"
+  rk_digsite.2001.c:0 "[d_digsite.GetDefinitiveName] is renamed to $d_saranthium$"
+  rk_digsite.2001.d:0 "Who cares about some old city?"

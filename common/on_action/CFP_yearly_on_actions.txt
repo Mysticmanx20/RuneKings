@@ -8,6 +8,16 @@ random_yearly_playable_pulse = {
 	}
 }
 
+#RK Edit
+quarterly_playable_pulse = {
+
+	events = {
+		rk_digsite.2001
+	}
+
+}
+
+
 cfp_yearly_random_on_action = {
 	random_on_action = {
 		chance_of_no_event = {
