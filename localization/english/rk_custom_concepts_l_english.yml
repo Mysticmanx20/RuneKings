@@ -2,7 +2,7 @@
 
 
  game_concept_undead_government:0 "Undead"
- game-concept_undead_government_desc:1 "Undead governments consist primarily of undead creatures. These rather unsettling realms tend to terrorize nearby lands."
+ game_concept_undead_government_desc:1 "Undead governments consist primarily of undead creatures. These rather unsettling realms tend to terrorize nearby lands."
 
  game_concept_prayer:0 "Prayer"
  game_concept_prayer_desc:0 "$game_concept_prayer$ is a special [character_interaction|E] in which a ruler can give themselves various [character_modifiers|E] by spending [piety|E].\n\nThe bonuses given from a prayer can be improved by having a higher [piety_level|E]."

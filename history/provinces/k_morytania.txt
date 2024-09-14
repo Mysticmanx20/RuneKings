@@ -73,7 +73,7 @@
 85 = {  
 	culture = vampyre
 	religion = zamorak
-	holding = none
+	holding = tribal_holding
 }
 
 86 = {  

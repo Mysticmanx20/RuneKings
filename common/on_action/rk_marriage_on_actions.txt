@@ -1,5 +1,11 @@
 ﻿
 on_marriage = {
+	on_actions = {
+		rk_marriage_nick 
+	}
+}
+
+rk_marriage_nick = {
     effect = {
 
 		if = {

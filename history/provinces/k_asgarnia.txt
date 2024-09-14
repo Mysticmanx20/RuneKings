@@ -82,7 +82,7 @@
 38 = {  #Body
 	religion = saradomin
 	culture = asgarnia
-	holding = none
+	holding = castle_holding
 }
 
 39 = { #PSarim
@@ -334,5 +334,5 @@
 533 = {
 	religion = saradomin
 	culture = asgarnia
-	holding = none
+	holding = tribal_holding
 }

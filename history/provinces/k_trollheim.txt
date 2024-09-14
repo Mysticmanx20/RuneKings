@@ -91,7 +91,7 @@
 337 = {		#ritual
 	culture = icetroll
 	religion = bandos
-	holding = none
+	holding = castle_holding
 }
 
 338 = {		#icep

@@ -12,7 +12,7 @@ random_yearly_playable_pulse = {
 quarterly_playable_pulse = {
 
 	events = {
-		rk_digsite.2001
+		rk_notifications.2001
 	}
 
 }

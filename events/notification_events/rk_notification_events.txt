@@ -1,6 +1,6 @@
-﻿namespace = rk_noti
+﻿namespace = rk_notifications
 
-rk_digsite.2001 = {
+rk_notifications.2001 = {
 	type = character_event
 	title = "Archeological Discovery"
 	desc = rk_digsite.2001.a
