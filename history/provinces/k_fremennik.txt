@@ -148,13 +148,13 @@
 355 = { #Luanrmine
 	religion = guthix
 	culture = moonclan
-	holding = none
+	holding = tribal_holding
 }
 
 356 = { #LunarAltar
 	religion = guthix
 	culture = moonclan
-	holding = none
+	holding = tribal_holding
 }
 
 357 = { #PirateCove
