@@ -5,6 +5,12 @@ on_birthday = {
 	}
 }
 
+on_birth_mother = {
+	on_actions = {
+		child_arcana
+	}
+}
+
 birthday_wizard = {
 	trigger = { age = 16 }
 
@@ -20,6 +26,15 @@ birthday_wizard = {
 			add_character_flag = {
 				flag = wizard
 			}
+		}
+	}
+}
+
+child_arcana = {
+	effect = {
+		scope:child = {
+			#RK ADDITION: fixing babies not getting arcana after gamestart
+			add_arcana_skill = { VALUE = "{ 0 10 }" }
 		}
 	}
 }
