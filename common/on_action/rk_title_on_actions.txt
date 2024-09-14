@@ -1,104 +1,100 @@
 ﻿
-on_title_gain = {
-	on_actions = {
-		rk_title_gain
-	}
-}
-
 rk_title_gain = {
-	
-	if = {
-		limit = {
-			scope:title = title:k_morytania
-			has_faith = faith:saradomin
-		}
-			
-		title:k_morytania = { set_title_name = cn_hallow }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:k_mortmyre
-			has_faith = faith:saradomin
-		}
-			
-		title:k_mortmyre = { set_title_name = cn_humble }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:d_mortmyre
-			has_faith = faith:saradomin
-		}
-			
-		title:d_mortmyre = { set_title_name = cn_humble }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:e_morytania
-			has_faith = faith:saradomin
-		}
-			
-		title:e_morytania = { set_title_name = cn_hallowland }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:c_vers
-			has_faith = faith:saradomin
-		}
-			
-		title:c_vers = { set_title_name = cn_everlight }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:d_digsite
-			has_faith = faith:zaros
-		}
-			
-		title:d_digsite = { set_title_name = cn_sent }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:c_poison
-			NOT = { has_faith = faith:zulrah }
-		}
-			
-		title:c_poison= { set_title_name = c_poison }
-			
-	}
-	if = {
-		limit = {
-			scope:title = title:k_marim
-		}
-		if = { 
-			limit = { 
-				NOR = {
-					has_faith = faith:marimbo
-					has_culture = culture:monkey
-				}
-			}
-			title:k_marim = { set_title_name = k_southsea }
-		}
-		
-		else = {
-			title:k_marim = { set_title_name = k_marim }
-		}
-			
-	}
+	effect = { 
 
-	if = {
-		limit = {
-			OR = {
-				has_nickname = nick_wizard
-				has_nickname = nick_sir
-				has_nickname = nick_lady
+		if = {
+			limit = {
+				scope:title = title:k_morytania
+				has_faith = faith:saradomin
+			}
+				
+			title:k_morytania = { set_title_name = cn_hallow }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:k_mortmyre
+				has_faith = faith:saradomin
+			}
+				
+			title:k_mortmyre = { set_title_name = cn_humble }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:d_mortmyre
+				has_faith = faith:saradomin
+			}
+				
+			title:d_mortmyre = { set_title_name = cn_humble }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:e_morytania
+				has_faith = faith:saradomin
+			}
+				
+			title:e_morytania = { set_title_name = cn_hallowland }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:c_vers
+				has_faith = faith:saradomin
+			}
+				
+			title:c_vers = { set_title_name = cn_everlight }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:d_digsite
+				has_faith = faith:zaros
+			}
+				
+			title:d_digsite = { set_title_name = cn_sent }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:c_poison
+				NOT = { has_faith = faith:zulrah }
+			}
+				
+			title:c_poison= { set_title_name = c_poison }
+				
+		}
+		if = {
+			limit = {
+				scope:title = title:k_marim
+			}
+			if = { 
+				limit = { 
+					NOR = {
+						has_faith = faith:marimbo
+						has_culture = culture:monkey
+					}
+				}
+				title:k_marim = { set_title_name = k_southsea }
+			}
+			
+			else = {
+				title:k_marim = { set_title_name = k_marim }
 			}
 				
 		}
-		remove_nickname = yes
+
+		if = {
+			limit = {
+				OR = {
+					has_nickname = nick_wizard
+					has_nickname = nick_sir
+					has_nickname = nick_lady
+				}
+					
+			}
+			remove_nickname = yes
+		}
 	}
 }
