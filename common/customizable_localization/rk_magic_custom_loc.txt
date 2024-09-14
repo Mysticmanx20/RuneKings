@@ -1,4 +1,4 @@
-ArcanaLevel = {
+﻿ArcanaLevel = {
 	type = character
 
 	text = {

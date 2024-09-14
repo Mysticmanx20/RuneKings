@@ -94,7 +94,20 @@ d_neitz = {
 	}
 }
 
+c_neitz = {
+	9163.1.1 = {
+		holder = frem017
+
+	}
+}
+
 d_jat = {
+	9163.1.1 = {
+		holder = frem016
+	}
+}
+
+c_jat = {
 	9163.1.1 = {
 		holder = frem016
 	}
@@ -106,13 +119,42 @@ k_misc = {
 	}
 }
 
+c_misc = {
+	9163.1.1 = {
+		holder = frem019
+	}
+}
+
 k_ect = {
 	9163.1.1 = {
 		holder = frem018
 	}
 }
 
+c_ect = {
+	9163.1.1 = {
+		holder = frem018
+	}
+}
+
 d_lunar = {
+	9163.1.1 = {
+		holder = frem020
+	}
+}
+
+c_lunar = {
+	9163.1.1 = {
+		holder = frem020
+	}
+}
+
+c_lunarmine = {
+	9163.1.1 = {
+		holder = frem020
+	}
+}
+c_lunaraltar = {
 	9163.1.1 = {
 		holder = frem020
 	}

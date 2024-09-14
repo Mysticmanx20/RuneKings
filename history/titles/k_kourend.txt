@@ -15,12 +15,24 @@ d_portpisc = {
 	}
 }
 
+c_portpisc = {
+	9155.1.1 = {
+		holder = zeah002
+	}
+}
+
 d_hos = {
 	9155.1.1 = {
 		holder = zeah001
 	}
 	9160.1.1 = {
 		liege = k_kourend
+	}
+}
+
+c_hos = {
+	9155.1.1 = {
+		holder = zeah001
 	}
 }
 
@@ -33,12 +45,24 @@ d_shayzien = {
 	}
 }
 
+c_shayzien = {
+	9155.1.1 = {
+		holder = zeah004
+	}
+}
+
 d_arceus = {
 	9155.1.1 = {
 		holder = zeah003
 	}
 	9160.1.1 = {
 		liege = k_kourend
+	}
+}
+
+c_arceus = {
+	9155.1.1 = {
+		holder = zeah003
 	}
 }
 
@@ -51,9 +75,22 @@ d_lova = {
 	}
 }
 
+c_lova = {
+	9155.1.1 = {
+		holder = zeah005
+	}
+}
+
 c_kourend = {
 	9160.1.1 = {
 		holder = zeah006
 		change_development_level = 10
+	}
+}
+
+c_woodlands = {
+	9160.1.1 = {
+		holder = zeah006
+		change_development_level = 7
 	}
 }

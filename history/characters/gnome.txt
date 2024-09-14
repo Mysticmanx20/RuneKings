@@ -68,7 +68,7 @@ gnome006 = {
 	trait = diligent
 	trait = just
 	trait = education_learning_3
-	11364.1.1 = {
+	8914.1.1 = {
 		birth = yes
 	}
 	8932.1.1 = {
@@ -84,7 +84,7 @@ gnome007 = {
 	female = yes
 	religion = guthix
 	culture = gnome
-	11364.1.1 = {
+	8914.1.1 = {
 		birth = yes
 	}
 	8998.1.1 = {
@@ -100,10 +100,10 @@ gnome008 = {
 	culture = gnome
 	trait = just 
 	trait = education_diplomacy_3
-	11395.1.1 = {
+	8970.1.1 = {
 		birth = yes
 	}
-	11480.1.1 = {
+	9045.1.1 = {
 		death = yes
 	}
 

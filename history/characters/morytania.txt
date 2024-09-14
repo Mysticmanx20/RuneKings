@@ -322,13 +322,14 @@ vamp001 = {
 	trait = greedy
 	trait = arbitrary
 	trait = wrathful
+	trait = vampire_character
 	trait = education_diplomacy_5
 	trait = family_first
 	disallow_random_traits = yes
-	9056.1.1 = {
+	1000.1.1 = {
 		birth = yes
 	}
-	9085.1.1 = {
+	1050.1.1 = {
 		add_spouse = vamp004
 	}
 	9144.1.1 = {
@@ -390,9 +391,10 @@ vamp004 = {
 	trait = sadistic
 	trait = brave
 	trait = diligent
+	trait = vampire_character
 	trait = education_martial_5
 	disallow_random_traits = yes
-	9048.1.1 = {
+	1000.1.1 = {
 		birth = yes
 	}
 	9133.6.6 = {
@@ -1051,7 +1053,6 @@ mort036 = {
 	}
 	9168.1.1 = {
 		employer = 900504
-		give_council_position = councillor_steward
 	}
 }
 

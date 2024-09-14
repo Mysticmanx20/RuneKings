@@ -1012,7 +1012,7 @@ asgarn007 = {
 		birth = yes
 	}
     9142.1.1 = {
-        add_spouse = character:asgarn008
+        add_spouse = asgarn008
     }
     9165.1.1 = {
         employer = asgarn012

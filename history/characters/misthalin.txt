@@ -207,6 +207,8 @@
 	culture = misthalin
 	8910.1.1 = {
 		birth = yes
+	}
+	8920.1.1 = {
 		employer = 900112
 	}
 	9031.1.1 = {
@@ -682,7 +684,7 @@
     trait = wrathful
     9142.1.1 = {
         birth = yes
-		employer = 900121
+		
     }
 	9143.1.1 = {
 		employer = 900113
@@ -709,8 +711,11 @@
     culture = fremennik
     9142.1.1 = {
         birth = yes
-		employer = 900121
+		
     }
+	9143.1.1 = {
+		employer = 900113
+	}
 }
 
 900143 = {
@@ -719,8 +724,11 @@
     culture = fremennik
     9142.1.1 = {
         birth = yes
-		employer = 900121
+		
     }
+	9143.1.1 = {
+		employer = 900113
+	}
 }
 
 900144 = {
@@ -729,8 +737,12 @@
     culture = fremennik
     9142.1.1 = {
         birth = yes
-		employer = 900121
+		
     }
+	9143.1.1 = {
+		employer = 900113
+	}
+
 }
 
 900145 = {
@@ -739,8 +751,11 @@
     culture = fremennik
     9142.1.1 = {
         birth = yes
-		employer = 900121
+		
     }
+	9143.1.1 = {
+		employer = 900113
+	}
 }
 
 900146 = {
@@ -915,8 +930,10 @@
     trait = drunkard
     9128.1.1 = {
         birth = yes
-		employer = 900121
     }
+	9143.1.1 = {
+		employer = 900113
+	}
     9159.1.1 = {
 		add_trait = murderer
 		employer = 900114
@@ -932,8 +949,10 @@
     culture = fremennik
     9128.1.1 = {
         birth = yes
-		employer = 900121
     }
+	9143.1.1 = {
+		employer = 900113
+	}
 
 }
 
@@ -2582,9 +2601,6 @@ misth032 = {
 	9140.1.1 = {
 		birth = yes
 	}
-	9165.1.1 = {
-		employer = misth028
-	}
 }
 
 misth033 = {
@@ -2600,9 +2616,6 @@ misth033 = {
 	9140.1.1 = {
 		birth = yes
 	}
-	9165.1.1 = {
-		employer = misth028
-	}
 }
 
 misth034 = {
@@ -2617,9 +2630,6 @@ misth034 = {
 	disallow_random_traits = yes
 	9140.1.1 = {
 		birth = yes
-	}
-	9165.1.1 = {
-		employer = misth028
 	}
 }
 

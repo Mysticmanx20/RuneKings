@@ -1,4 +1,4 @@
-name_list_voidpest = {
+﻿name_list_voidpest = {
 
 	dynasty_names = {
 		"dynn_Licchavi"

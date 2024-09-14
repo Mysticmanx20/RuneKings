@@ -37,7 +37,7 @@ kand005 = {
 	religion = saradomin
 	culture = kandarin
 	trait = generous
-	9115.1.1 = {
+	9108.1.1 = {
 		birth = yes
 	}
 }
@@ -390,7 +390,7 @@ kand029 = {
 	9131.1.1 = {
 		birth = yes
 	}
-	9136.1.1 = {
+	9166.1.1 = {
 		employer = kand022
 	}
 }
