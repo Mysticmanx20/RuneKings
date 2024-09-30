@@ -341,12 +341,6 @@ mx_cue_banquet = {
 
 }
 
-mx_cue_crusade_starts = {
-	music = "file:/music/rsmusic/Dogs of War.ogg"
-	pause_factor = 25
-	# play every time
-
-}
 
 mx_cue_war_declared = {
 	music = "file:/music/rsmusic/Attack_2.ogg"
