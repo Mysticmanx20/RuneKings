@@ -2,7 +2,7 @@
     usage = game
 	selection_behavior = max
     priority = 9
-    dna_change_example_modifier = {
+    fem_ogres = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -170,12 +170,12 @@
 
     head_monk = {
         dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = special_accessories_necklace
-                template = cfp_religious_catholic_cross
-                range = { 0 1 }
-            }
+            # accessory = {
+            #     mode = add
+            #     gene = special_accessories_necklace
+            #     template = cfp_religious_catholic_cross
+            #     range = { 0 1 }
+            # }
             accessory = {
                 mode = add
                 gene = clothes
@@ -207,7 +207,7 @@
                 add = 110
                 is_landed = yes
                 portrait_has_trait_trigger = { TRAIT = devoted }
-                portrait_religious_catholic_trigger = yes
+                portrait_religious_saradomin_trigger = yes
             }
        }
     }
@@ -246,7 +246,7 @@
                 add = 110
                 is_female = no
                 portrait_has_trait_trigger = { TRAIT = devoted }
-                portrait_religious_catholic_trigger = yes
+                portrait_religious_saradomin_trigger = yes
             }
         }
     }
@@ -286,7 +286,7 @@
                 add = 110
                 is_female = yes
                 portrait_has_trait_trigger = { TRAIT = devoted }
-                portrait_religious_catholic_trigger = yes
+                portrait_religious_saradomin_trigger = yes
             }
         }
     }
@@ -297,6 +297,18 @@
 				mode = add
 				gene = cloaks
 				template = no_cloak
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = headgear
+				template = rk_wizards
+				range = { 0.35 0.40 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
 				range = { 0 1 }
 			}
             accessory = {
@@ -313,7 +325,7 @@
                 add = 110
                 exists = this
                 is_adult = yes
-                portrait_religious_catholic_trigger = yes
+                portrait_religious_saradomin_trigger = yes
                 has_character_flag = wizard
             }
         }
@@ -325,6 +337,18 @@
 				mode = add
 				gene = cloaks
 				template = no_cloak
+				range = { 0 1 }
+			}
+            accessory = {
+				mode = add
+				gene = headgear
+				template = rk_wizards
+				range = { 0.35 0.40 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
 				range = { 0 1 }
 			}
             accessory = {
@@ -341,7 +365,7 @@
                 add = 120
                 exists = this
                 is_adult = yes
-                portrait_religious_catholic_trigger = yes
+                portrait_religious_saradomin_trigger = yes
                 OR = {
                     has_primary_title = title:c_wizard
                     has_primary_title = title:d_wizard
@@ -355,6 +379,56 @@
             }
         }
     }
+
+	rk_darkwiz = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = rk_darkwiz
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 105
+				exists = this
+				portrait_has_trait_trigger = { TRAIT = witch }
+			}
+		}
+	}
+
+	rk_witch = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = rk_witch
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = no_additive
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_character_flag = witch
+			}
+		}
+	}
 
 
 

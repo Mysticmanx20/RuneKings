@@ -1,0 +1,107 @@
+﻿namespace = rk_historical_artifacts
+# Generation of rk historical artifacts #
+
+#Historical artifacts generator at game start
+rk_historical_artifacts.0001 = {
+	scope = none
+	hidden = yes
+	
+	immediate = {
+		#RuneKing Artifacts
+		if = {
+			
+			character:900101 = { #other ways to determine a char are possible - this is just an example to do this by an existing (as checked before) title
+				create_artifact_rk_ghostspeak_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			character:900217 = {
+				create_artifact_rk_silverlight_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			character:900800 = {
+				create_artifact_rk_kharidib_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			character:900506 = {
+				create_artifact_rk_charos_effect = { OWNER = this }
+			}
+		}
+		if = {
+			character:900512 = {
+				create_artifact_rk_sangstafftrue_effect = { OWNER = this }
+				create_artifact_rk_scythetrue_effect = { OWNER = this }
+			}
+		}
+		if = {
+			title:c_southdesert.holder = {
+				create_artifact_rk_elid_statue_effect = { OWNER = this }
+			}
+		}
+		if = {
+			character:900500 = {
+				create_artifact_rk_tasty_book_effect = { OWNER = this }
+			}
+		}
+
+		
+		random_ruler = {
+			limit = {
+				has_dlc_feature = royal_court
+				has_title = title:k_misthalin
+			}
+			create_artifact_vbear_effect = {
+				OWNER = character:900106
+				HUNTER = character:900106
+				LEGENDARY = no
+				ANIMAL = flag:bear
+			}
+
+		}
+
+		if = {
+			limit = { has_dlc_feature = royal_court }
+			# All starting courts will have a dynasty banner
+			every_character_with_royal_court = {
+				
+				limit = { is_lowborn = no }
+				save_scope_as = banner_ruler
+				# House Banner
+				set_variable = banner_from_house
+				set_variable = startup_banner
+				create_artifact_wall_banner_effect = {
+					OWNER = scope:banner_ruler
+					CREATOR = scope:banner_ruler
+					TARGET = scope:banner_ruler.house
+				}
+				# Dynasty Banner
+				If = {
+					limit = {
+						OR = {
+							this = dynasty.dynast # Dynasty Head
+							any_parent = { # Parent landless Dynasty Head
+								employer = prev
+								dynasty = prev.dynasty
+								this = dynasty.dynast
+							}
+						}
+					}
+					set_variable = banner_from_dynasty
+					set_variable = startup_banner
+					create_artifact_wall_banner_effect = {
+						OWNER = scope:banner_ruler
+						CREATOR = scope:banner_ruler
+						TARGET = scope:banner_ruler.dynasty
+					}
+				}
+			}
+		}
+
+		
+	}
+}

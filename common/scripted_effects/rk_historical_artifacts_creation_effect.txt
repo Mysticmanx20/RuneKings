@@ -1,0 +1,637 @@
+﻿
+create_artifact_rk_ghostspeak_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = ghostspeak_name
+		description = ghostspeak_desc
+		template = rk_ghostspeak_template
+		type = miscellaneous
+		visuals = ghost
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_ghostspeak
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
+
+create_artifact_rk_silverlight_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = silverlight_name
+		description = silverlight_desc
+		template = rk_saradomin_template
+		type = sword
+		visuals = silverlight
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_silverlight
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 9019.1.1
+			recipient = character:misth037
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9159.1.1
+			recipient = character:900217 
+		}
+	}
+}
+
+create_artifact_rk_tasty_book_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = tasty_book_name
+		description = tasty_book_desc
+		template = ﻿rk_vamp_item_template
+		type = miscellaneous
+		visuals = book
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			actor = character:900500 #Drakan
+			date = 7000.1.1
+			recipient = character:900500
+			location = province:100 #CastleDrakan
+		}
+		modifier = rk_tasty_book
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
+
+create_artifact_rk_scythe_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = scythe_name
+		description = scythe_desc
+		template = rk_scythe_template
+		type = axe
+		visuals = vitur
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7000.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+create_artifact_rk_scythetrue_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = scythe_name
+		description = scythe_desc
+		template = rk_scythe_template
+		type = axe
+		visuals = vitur
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7000.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+	}
+}
+
+create_artifact_rk_sangstaff_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = sangstaff_name
+		description = sangstaff_desc
+		template = rk_scythe_template
+		type = spear
+		visuals = sangstaff
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			actor = character:900500 #Drakan
+			date = 7500.1.1
+			recipient = character:900512 #Verzik
+			location = province:100 #CastleDrakan
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+create_artifact_rk_sangstafftrue_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = sangstaff_name
+		description = sangstaff_desc
+		template = rk_scythe_template
+		type = spear
+		visuals = sangstaff
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			actor = character:900500 #Drakan
+			date = 7500.1.1
+			recipient = character:900512 #Verzik
+			location = province:100 #CastleDrakan
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+	}
+}
+
+create_artifact_rk_ghrazi_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = ghrazi_name
+		description = ghrazi_desc
+		template = rk_scythe_template
+		type = sword
+		visuals = ghrazi
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 7500.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+
+create_artifact_rk_justicar_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = justicar_name
+		description = justicar_desc
+		template = rk_scythe_template
+		type = helmet
+		visuals = justicar
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_prowess_1_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = stolen
+			date = 7500.1.1
+			recipient = character:900512 #Verzik Vitur
+		}
+		add_artifact_history = {
+			type = stolen
+			actor = character:900512 #stolen from
+			recipient = scope:owner #stealer
+			location = province:496
+		}
+	}
+}
+
+create_artifact_rk_charos_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = charos_name
+		description = charos_desc
+		template = rk_charos_template
+		type = miscellaneous
+		visuals = charos
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 11276.1.1 
+			actor = character:mort006
+			recipient = character:mort006 #Charos
+			location = province:95 #Mditch Ghetto
+		}
+		modifier = rk_charos
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = given
+			date = 11296.1.1
+			actor = character:mort006 # Charos
+			recipient = character:mort002 # Rolobrae
+			location = province:76 #NorthCoast
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 8861.1.1
+			actor = character:mort002 # brae
+			recipient = character:mort003 # Rologray
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9107.1.1
+			actor = character:mort003 # gray
+			recipient = character:mort004 # Rolovanne
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9128.1.1
+			actor = character:mort004 # vanne
+			recipient = character:mort005 # Rolomere
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9148.1.1
+			actor = character:mort004 # mere
+			recipient = character:mort001 # Rologarth
+		}
+		add_artifact_history = {
+			type = stolen
+			date = 9168.6.6
+			actor = character:mort001 # garth
+			recipient = character:900506 # Fenk
+		}
+		
+	}
+}
+
+create_artifact_rk_kharidib_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = kharidib_name
+		description = kharidib_desc
+		template = rk_kharidib_template
+		type = pedestal
+		visuals = kharidib
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = artifact_monthly_piety_3_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_scaled_artifact_modifier_piety_effect = yes
+		add_scaled_artifact_modifier_devotion_effect = yes
+		add_scaled_artifact_modifier_grandeur_small_effect = yes
+		set_variable = {
+			name = relic
+			value = flag:menaphite
+		}
+	}
+}
+
+create_artifact_rk_elid_statue_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = elid_statue_name
+		description = elid_statue_desc
+		template = rk_charos_template
+		type = miscellaneous
+		visuals = elid_statue
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_elid_statue
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			type = inherited
+			date = 6515.1.1
+			recipient = character:900875 
+		}
+		add_artifact_history = {
+			type = inherited
+			date = 9154.1.1
+			recipient = character:900817
+		}
+		
+	}
+}
+
+
+create_artifact_vbear_effect = {
+	# Get the character the artifact is being made for.
+	set_artifact_rarity_common = yes
+	$OWNER$ = { save_scope_as = owner }
+	$HUNTER$ = { save_scope_as = hunter }
+	save_scope_value_as = { name = legendary value = $LEGENDARY$ }
+	scope:owner = {
+		set_variable = { name = animal_type value = $ANIMAL$ days = 5 }
+		if = {
+			limit = {
+				OR = {
+					NOT = { exists = var:animal_type }
+					var:animal_type ?= flag:none
+				}
+			}
+			random_list = {
+				8 = {
+					hunt_activity_standard_game_effect = { PROVINCE = scope:hunter.location HUNTER = scope:hunter }
+				}
+				2 = {
+					hunt_activity_dangerous_game_effect = { PROVINCE = scope:hunter.location }
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = scope:adventurer }
+		scope:adventurer = { save_scope_as = creator }
+	}
+	else = {
+		scope:hunter = { save_scope_as = creator }
+	}
+	hidden_effect_new_object = {
+		# Get artifact quality, wealth, and materials
+		
+		scope:location = { province = province:50 }
+		if = {
+			limit = {
+				OR = {
+					hunt_hide_big_trigger = { VARIABLE = scope:owner.var:animal_type }
+					AND = {
+						exists = scope:animal_hide_size
+						scope:animal_hide_size = flag:big
+					}
+				}
+			}		
+			if = {
+				limit = {
+					NOT = { exists = scope:animal_hide_size }
+				}
+				save_scope_value_as = { name = animal_hide_size value = flag:big }
+			}				
+			create_artifact = {	
+				name = artifact_animal_hide_big_name
+				creator = scope:creator
+				description = rk_vbear_desc
+				visuals = large_animal_hide
+				type = animal_hide_big
+				modifier = artifact_placeholder_modifier
+				wealth = scope:wealth
+				quality = scope:quality
+				save_scope_as = newly_created_artifact
+			}
+			scope:newly_created_artifact = {
+				# Set grandeur
+				add_scaled_artifact_modifier_grandeur_big_effect = yes
+				# Set prestige
+				add_scaled_artifact_modifier_prestige_effect = yes
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOT = { exists = scope:animal_hide_size }
+				}
+				save_scope_value_as = { name = animal_hide_size value = flag:small }
+			}
+			create_artifact = {
+				name = artifact_small_hide_name
+				creator = scope:creator
+				description = placeholder
+				visuals = small_animal_hide
+				type = animal_hide
+				modifier = artifact_placeholder_modifier
+				wealth = scope:wealth
+				quality = scope:quality
+				save_scope_as = newly_created_artifact
+			}
+			scope:newly_created_artifact = {
+				if = {
+					limit = {
+						has_artifact_feature = animal_hide_type_cat
+						exists = scope:owner.var:story_cycle_cat_name
+					}
+					set_variable = {
+						name = pet_name
+						value = scope:owner.var:story_cycle_cat_name
+					}
+				}
+				else_if = {
+					limit = {
+						has_artifact_feature = animal_hide_type_dog
+						exists = scope:owner.var:story_cycle_dog_name
+					}
+					set_variable = {
+						name = pet_name
+						value = scope:owner.var:story_cycle_dog_name
+					}
+				}
+				# Set grandeur
+				add_scaled_artifact_modifier_grandeur_small_effect = yes
+				# Set prestige
+				add_scaled_artifact_modifier_minor_prestige_effect = yes
+			}
+		}
+		scope:newly_created_artifact = {
+			set_max_durability = 60
+			set_variable = {
+				name = adventure_artifact_location
+				value = scope:owner.var:adventure_artifact_location
+			}
+			set_variable = {
+				name = adventure_artifact_hunter
+				value = scope:owner.var:adventure_artifact_hunter
+			}
+			if = {
+				limit = {
+					OR = {
+						rarity = famed
+						rarity = illustrious
+					}
+				}
+				add_scaled_artifact_modifier_dynasty_prestige_effect = yes
+			}
+			remove_artifact_modifier = artifact_placeholder_modifier
+			set_variable = {
+				name = animal_type
+				value = scope:owner.var:animal_type
+			}
+			set_variable = {
+				name = quality
+				value = scope:quality
+			}
+			set_variable = {
+				name = wealth
+				value = scope:wealth
+			}
+			hunt_animal_artifact_modifier_selection_effect = yes
+			if = {
+				limit = { scope:legendary = yes }
+				set_artifact_name = artifact_animal_hide_name_legendary
+				set_variable = { name = legendary }
+				add_scaled_artifact_modifier_majesty_effect = yes
+				add_scaled_artifact_modifier_combat_effect = yes
+			}
+			else_if = {
+				limit = { exists = scope:adventurer }
+				set_artifact_name = artifact_animal_hide_name_adventurer
+			}
+			else_if = {
+				limit = { exists = var:pet_name }
+				if = {
+					limit = { has_artifact_feature = animal_hide_type_cat }
+					set_artifact_name = artifact_animal_hide_name_cat
+				}
+				else_if = {
+					limit = { has_artifact_feature = animal_hide_type_dog }
+					set_artifact_name = artifact_animal_hide_name_dog
+				}
+			}
+			else_if = {
+				limit = { artifact_type = animal_hide_big }
+				set_artifact_name = artifact_animal_hide_big_name
+			}
+			else = { set_artifact_name = artifact_small_hide_name }
+			
+		}
+		scope:owner = {
+			remove_variable = adventure_artifact_location
+			remove_variable = adventure_artifact_hunter
+		}
+	}
+}

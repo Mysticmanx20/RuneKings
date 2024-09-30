@@ -19,6 +19,7 @@ birthday_wizard = {
 			limit = {
 				OR = {
 					root.employer = { has_primary_title = title:c_wizard }
+					root.employer = { has_primary_title = title:c_magetrain }
 					root.employer = { has_primary_title = title:d_wizard }
 				}
 			}

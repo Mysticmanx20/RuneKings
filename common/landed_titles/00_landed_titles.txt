@@ -4873,7 +4873,44 @@ e_fremennik = {
 	}
 }
 
+d_laamp_nier = { # 2B
+	color = { 100 100 100 }
+	capital = c_wwruins
 
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_ksb = { # Aqua
+	color = { 100 100 100 }
+	capital = c_edgemon
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_shrek = { # Shrek
+	color = { 100 100 100 }
+	capital = c_mortmyre
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 
 
 

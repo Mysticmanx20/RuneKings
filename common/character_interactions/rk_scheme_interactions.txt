@@ -1,109 +1,109 @@
-﻿start_theft_interaction = {
-	icon = icon_gold
-	common_interaction = yes
-	interface_priority = 60
-	category = interaction_category_hostile
+﻿# start_theft_interaction = {
+# 	icon = icon_gold
+# 	common_interaction = yes
+# 	interface_priority = 60
+# 	category = interaction_category_hostile
 
-	ignores_pending_interaction_block = yes
+# 	ignores_pending_interaction_block = yes
 
-	scheme = steal_gold
+# 	scheme = steal_gold
 
-	send_name = START_SCHEME
+# 	send_name = START_SCHEME
 
-	is_shown = {
-		NOT = { scope:recipient = scope:actor }
+# 	is_shown = {
+# 		NOT = { scope:recipient = scope:actor }
 
-	}
+# 	}
 
-	is_valid_showing_failures_only = {
-		scope:actor = {
-			can_start_scheme = {
-				type = steal_gold
-				target = scope:recipient
-			}
-		}
+# 	is_valid_showing_failures_only = {
+# 		scope:actor = {
+# 			can_start_scheme = {
+# 				type = steal_gold
+# 				target = scope:recipient
+# 			}
+# 		}
 		
-		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+# 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
 
-		custom_description = {
-			object = scope:recipient
-			text = you_have_been_caught_trying_to_steal_artifact_from_target
-			scope:recipient = {
-				NOT = {
-					has_opinion_modifier = {
-						target = scope:actor
-						modifier = attempted_to_steal_artifact_from_me
-					}
-				}
-			}
-		}
+# 		custom_description = {
+# 			object = scope:recipient
+# 			text = you_have_been_caught_trying_to_steal_artifact_from_target
+# 			scope:recipient = {
+# 				NOT = {
+# 					has_opinion_modifier = {
+# 						target = scope:actor
+# 						modifier = attempted_to_steal_artifact_from_me
+# 					}
+# 				}
+# 			}
+# 		}
 		
-	}
+# 	}
 
-	desc = {
-		triggered_desc = {
-			trigger = {
-				scope:actor = {
-					can_start_scheme = {
-						type = steal_gold
-						target = scope:recipient
-					}
-				}
-			}
-			desc = scheme_interaction_tt_theft_approved
-		}
-	}
+# 	desc = {
+# 		triggered_desc = {
+# 			trigger = {
+# 				scope:actor = {
+# 					can_start_scheme = {
+# 						type = steal_gold
+# 						target = scope:recipient
+# 					}
+# 				}
+# 			}
+# 			desc = scheme_interaction_tt_theft_approved
+# 		}
+# 	}
 
-	on_accept = {
-		scope:actor = {
-			stress_impact = {
-				compassionate = major_stress_impact_gain
-				honest = medium_stress_impact_gain
-				just = medium_stress_impact_gain
-			}
-		}
-		hidden_effect = {
-			scope:actor = {
-				send_interface_toast = {
-					title = start_theft_interaction_notification
+# 	on_accept = {
+# 		scope:actor = {
+# 			stress_impact = {
+# 				compassionate = major_stress_impact_gain
+# 				honest = medium_stress_impact_gain
+# 				just = medium_stress_impact_gain
+# 			}
+# 		}
+# 		hidden_effect = {
+# 			scope:actor = {
+# 				send_interface_toast = {
+# 					title = start_theft_interaction_notification
 
-					left_icon = scope:actor					
-					right_icon = scope:recipient
+# 					left_icon = scope:actor					
+# 					right_icon = scope:recipient
 
-					start_scheme = {
-						type = steal_gold
-						target = scope:recipient
-					}
+# 					start_scheme = {
+# 						type = steal_gold
+# 						target = scope:recipient
+# 					}
 
-					show_as_tooltip = {
-						stress_impact = {
-							compassionate = major_stress_impact_gain
-							honest = medium_stress_impact_gain
-							just = medium_stress_impact_gain
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_trait = education_intrigue_5
-					}
-					random_scheme = {
-						limit = {
-							scheme_type = steal_gold
-							scheme_target = scope:recipient
-						}
-						add_scheme_progress = 3
-					}
-				}
+# 					show_as_tooltip = {
+# 						stress_impact = {
+# 							compassionate = major_stress_impact_gain
+# 							honest = medium_stress_impact_gain
+# 							just = medium_stress_impact_gain
+# 						}
+# 					}
+# 				}
+# 				if = {
+# 					limit = {
+# 						has_trait = education_intrigue_5
+# 					}
+# 					random_scheme = {
+# 						limit = {
+# 							scheme_type = steal_gold
+# 							scheme_target = scope:recipient
+# 						}
+# 						add_scheme_progress = 3
+# 					}
+# 				}
 				
-			}
-		}
-	}
+# 			}
+# 		}
+# 	}
 	
-	auto_accept = yes
+# 	auto_accept = yes
 
 
-	ai_will_do = {
-		base = 0
-	}
-}
+# 	ai_will_do = {
+# 		base = 0
+# 	}
+# }

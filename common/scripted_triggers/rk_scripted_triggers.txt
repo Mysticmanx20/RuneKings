@@ -6,3 +6,19 @@
 		culture = culture:kalphite
 	}
 }
+
+portrait_religious_saradomin_trigger = {
+	religion = religion:sara_religion
+}
+
+portrait_religious_norse_trigger = {
+    OR = {
+        religion = religion:fremennik_religion
+    }
+}
+
+portrait_religious_african_trigger = {
+    OR = {
+        religion = religion:karamja_religion
+    }
+}

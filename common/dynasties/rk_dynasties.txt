@@ -614,3 +614,8 @@
 	name = "dynn_Lovelace"
 	culture = misthalin
 }
+
+101019 = {
+	name = "dynn_Yorha"
+	culture = wild
+}

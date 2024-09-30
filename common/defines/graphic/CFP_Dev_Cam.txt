@@ -1,3 +1,0 @@
-﻿NCamera = {
-	ROYAL_COURT_TOOL_DEV_CAM_FAR_CLIP = 5000.0 			# Far clip distance of developer camera.
-}

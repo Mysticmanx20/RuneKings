@@ -70,13 +70,13 @@ pool_repopulate_prowess = {
 				add = 10
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 5
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 5
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		
 		# Cultural Traditions
@@ -218,13 +218,13 @@ pool_repopulate_diplomacy = {
 				add = 15
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 10
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 10
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 		if = {
@@ -275,26 +275,26 @@ pool_repopulate_martial = {
 	}
 	dynasty = none
 	after_creation = {
-		# if = {
-		# 	limit = {
-		# 		OR = {
-		# 			culture = { has_cultural_pillar = heritage_north_germanic }
-		# 			religion = religion:germanic_religion
-		# 		}
-		# 	}
-		# 	random_list = {
-		# 		65 = {}
-		# 		15 = {
-		# 			add_trait = varangian
-		# 		}
-		# 		15 = {
-		# 			add_trait = berserker
-		# 		}
-		# 		5 = {
-		# 			add_trait = poet
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
+			random_list = {
+				65 = {}
+				15 = {
+					add_trait = varangian
+				}
+				15 = {
+					add_trait = berserker
+				}
+				5 = {
+					add_trait = poet
+				}
+			}
+		}
 		
 		# Cultural Traditions
 		if = {
@@ -434,13 +434,13 @@ pool_repopulate_stewardship = {
 				add = 10
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 5
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 5
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 	}
@@ -487,13 +487,13 @@ pool_repopulate_intrigue = {
 				add = 10
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 5
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 5
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 	}
@@ -555,13 +555,13 @@ pool_repopulate_learning = {
 				add = 10
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 5
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 5
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 		add_random_tiered_trait_xp_effect = {
@@ -686,13 +686,13 @@ pool_repopulate_spouse = {
 				add = 10
 				culture = { has_cultural_parameter = poet_trait_more_common }
 			}
-			# modifier = {
-			# 	add = 5
-			# 	OR = {
-			# 		culture = { has_cultural_pillar = heritage_north_germanic }
-			# 		religion = religion:germanic_religion
-			# 	}
-			# }
+			modifier = {
+				add = 5
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					religion = religion:germanic_religion
+				}
+			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 	}
@@ -704,6 +704,7 @@ pool_repopulate_local_flavor = {
 	random_traits = yes
 	faith = root.faith
 	culture = root.culture
+	
 	
 	learning = {
 		min_guest_template_skill max_guest_template_skill
@@ -739,7 +740,7 @@ pool_repopulate_local_flavor = {
 	dynasty = none
 	
 	after_creation = {
-		
+
 		set_interesting_traits_and_modifiers_effect = yes
 		add_random_tiered_trait_xp_effect = {
 			TRAIT = lifestyle_physician
