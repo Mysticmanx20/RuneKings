@@ -226,6 +226,9 @@ mx_mood_call_mena_01 = {
 	pause_factor = 36
 	mood = yes
 	can_be_interrupted = yes
+	is_valid = {
+		religion = religion:fremennik_religion
+	}
 }
 
 mx_mood_call_mena_04 = {
@@ -233,6 +236,9 @@ mx_mood_call_mena_04 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_valid = {
+		religion = religion:fremennik_religion
+	}
 }
 
 ##### MUSIC CUES
