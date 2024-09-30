@@ -20,6 +20,13 @@
  NEUSTRIA:0 "Neustria"
  NEUSTRIA_adj:0 "Neustrian"
 
+ d_laamp_nier: "YoRHa Military Force"
+ d_laamp_nier_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_ksb: "Axis Order"
+ d_laamp_ksb_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_shrek: "Swamp"
+ d_laamp_shrek_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+
  cn_avarrocka:0 "Avarrocka"
  cn_sent:0 "Senntisten"
  cn_pade:0 "Paddewwa"

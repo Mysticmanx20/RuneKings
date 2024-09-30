@@ -1,0 +1,57 @@
+﻿
+d_laamp_nier = { # 2B
+	9167.1.1 = {
+		liege = 0
+		holder = wild028
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	9169.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 9169.1.1 }
+		}
+	}
+	
+}
+
+d_laamp_ksb = { # Aqua
+	9167.1.1 = {
+		liege = 0
+		holder = ani001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	9169.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 9169.1.1 }
+		}
+	}
+	
+}
+
+d_laamp_shrek = { # Shrek
+	9167.1.1 = {
+		liege = 0
+		holder = ogre020
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	9169.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 9169.1.1 }
+		}
+	}
+	
+}

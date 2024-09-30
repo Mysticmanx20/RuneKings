@@ -1,0 +1,13 @@
+﻿l_english:
+
+ 
+ ## RuneKings
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01:0 "@cfp_icon_fantasy! Blue Wizard Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_01$"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_02:0 "@cfp_icon_fantasy! Wizard Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_02$"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_03:0 "@cfp_icon_fantasy! Witch Hat"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_cfp_wizard_hat_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_cfp_wizard_hat_03$"
+ 

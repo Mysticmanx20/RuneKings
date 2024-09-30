@@ -21,7 +21,8 @@
 	culture = asgarnia
     trait = trusting
     trait = chaste
-    trait = education_diplomacy_1
+    trait = weak
+	health = 2.5
 	9097.1.1 = {
 		birth = yes
 	}

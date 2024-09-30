@@ -305,18 +305,18 @@ wild027 = {
 
 wild028 = {
 	name = "2B"
+	dynasty = 101019
 	female = yes
 	religion = godless
 	culture = wild
 	trait = education_martial_4
 	trait = loyal
-	trait = wrathful
+	trait = calm
 	trait = just
-	9143.1.1 = {
+	trait = diligent
+	trait = flexible_leader
+	9140.7.16 = {
 		birth = yes
-	}
-	9168.1.1 = {
-		employer = wild027
 	}
 }
 
@@ -349,6 +349,22 @@ wild030 = {
 	trait = education_learning_3
 	disallow_random_traits = yes
 	9133.1.1 = {
+		birth = yes
+	}
+
+}
+
+wild031 = {
+	name = "9S"
+	dynasty = 101019
+	religion = godless
+	culture = wild
+	trait = compassionate
+	trait = ambitious
+	trait = gregarious
+	trait = military_engineer
+	trait = education_intrigue_3
+	9150.1.1 = {
 		birth = yes
 	}
 

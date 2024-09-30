@@ -2073,16 +2073,13 @@ ani001 = {
 	trait = lazy
 	trait = arrogant
 	trait = beauty_good_2
-	trait = education_learning_2
+	trait = education_learning_1
 	trait = divine_blood
 	9151.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = no_drunkard_visual
 		}
-	}
-	9168.1.1 = {
-		employer = 900163
 	}
 }
 
