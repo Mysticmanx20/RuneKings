@@ -1,5 +1,6 @@
 ﻿raid_start = {
 	effect = {
+		
 		add_character_flag = raid_character_flag
 		set_variable = {
 			name = raid_scope

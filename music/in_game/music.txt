@@ -358,7 +358,6 @@ mx_cue_war_declared = {
 mx_cue_combat_stinger = {
 	music = "file:/music/rsmusic/Attack_4.ogg"
 	pause_factor = 25
-	can_be_interrupted = yes
 	# Cooldown
 	#years = 1
 }

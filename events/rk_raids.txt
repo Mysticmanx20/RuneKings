@@ -37,7 +37,7 @@ raid_event.0100 = {
 	scope = none
 
 	immediate = {
-		play_music_cue = rk_cue_1sec
+		
 		current_travel_plan ?= {
 			if = {
 				limit = { is_paused = yes }
@@ -48,6 +48,10 @@ raid_event.0100 = {
 		trigger_event = {
 			id = raid_event.0101
 			days = 1
+		}
+		if = {
+			limit = { has_character_flag = raid_character_flag }
+			remove_character_flag = raid_character_flag
 		}
 
 	}
