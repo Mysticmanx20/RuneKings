@@ -356,28 +356,29 @@ mx_cue_war_declared = {
 }
 
 mx_cue_combat_stinger = {
-	music = "event:/MUSIC/Cues/Events/Combat/mx_cue_combat_stinger"
+	music = "file:/music/rsmusic/Attack_4.ogg"
 	pause_factor = 25
+	can_be_interrupted = yes
 	# Cooldown
 	#years = 1
 }
 
 mx_cue_positive_effect = {
-	music = "file:/music/rsmusic/Expanse.ogg"
+	music = "file:/music/rsmusic/Questcomplete1.ogg"
 	pause_factor = 25
 	# Cooldown
 	#months = 3
 }
 
 mx_cue_peace_ensues = {
-	music = "file:/music/rsmusic/Fanfare.ogg"
+	music = "file:/music/rsmusic/Hitpoints.ogg"
 	name = "Fanfare"
 	pause_factor = 25
 	# play every time
 }
 
- mx_cue_faith_conversion = {
-	music = "file:/music/rsmusic/Expanse.ogg"
+mx_cue_faith_conversion = {
+	music = "file:/music/rsmusic/prayer.ogg"
 	pause_factor = 25
 	# Cooldown
 	calls = 2
@@ -1240,4 +1241,17 @@ group_ep3_moodtrack = {
     can_be_interrupted = yes
     trigger_prio_override = yes
     is_valid = { has_ep3_dlc_trigger = yes }
+}
+
+################# RUNEKINGS CUSTOM
+
+rk_cue_vampfight = {
+	music = "file:/music/rsmusic/TasteHope.ogg"
+	name = "A Taste of Hope"
+	pause_factor = 25
+}
+
+rk_cue_1sec = {
+	music = "file:/music/rsmusic/1sec.ogg"
+	pause_factor = 7
 }

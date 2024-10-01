@@ -1,8 +1,9 @@
 ﻿tob_decision = {
 	ai_check_interval = 0
-	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
-	major = no
-	sort_order = 1
+	picture = { 
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	decision_group_type = major
 
 	cost = {
 		gold = 150

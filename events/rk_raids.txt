@@ -6,6 +6,7 @@ raid_event.0001 = {
 	
 
 	immediate = {
+		play_music_cue = rk_cue_vampfight
 		create_character = {
 			location = title:c_vers.holder.capital_province
 			template = accolade_huntsmaster_character
@@ -36,6 +37,7 @@ raid_event.0100 = {
 	scope = none
 
 	immediate = {
+		play_music_cue = rk_cue_1sec
 		current_travel_plan ?= {
 			if = {
 				limit = { is_paused = yes }

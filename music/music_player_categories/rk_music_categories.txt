@@ -26,5 +26,6 @@ category = {
 		"mx_scandinavia"
 		"middleeasterncourt_cue"
 		"mep1_mood_01"
+		"rk_cue_vampfight"
 	}
 }
