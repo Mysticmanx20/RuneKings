@@ -12,6 +12,8 @@ goblin_village_scripted_effect = {
 			change = scope:title_change
 		}
 	}
+	title:k_gobvil = { save_scope_as = new_title } 
+	
 	resolve_title_and_vassal_change = scope:title_change
 	hidden_effect = { set_primary_title_to = title:k_gobvil }
 	
@@ -46,6 +48,8 @@ goblin_village_scripted_effect = {
 	}
 
 	add_legitimacy = minor_legitimacy_gain
+
+	trigger_event = major_decisions.1101
 	
 }
 
