@@ -852,6 +852,16 @@ on_game_start_after_lobby = {
 			
 				}
 			}
+			character:gnome023 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
 			character:ani001 ?= {
 				if = {
 					limit = {

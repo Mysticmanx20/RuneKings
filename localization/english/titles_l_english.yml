@@ -26,6 +26,8 @@
  d_laamp_ksb_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_shrek: "Swamp"
  d_laamp_shrek_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_dalbur: "Kar-Hewo"
+ d_laamp_shrek_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  cn_avarrocka:0 "Avarrocka"
  cn_sent:0 "Senntisten"

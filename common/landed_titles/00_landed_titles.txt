@@ -4912,6 +4912,19 @@ d_laamp_shrek = { # Shrek
 	ai_primary_priority = { add = @never_primary_score }
 }
 
+d_laamp_dalbur = { # Dalbur
+	color = { 100 100 100 }
+	capital = c_alkharid
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
 
 
 # These mock titles cut hundreds of errors from logs. Additional titles could further reduce logs at the cost of tedium and bloat in this file.
