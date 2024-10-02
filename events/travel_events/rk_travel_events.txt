@@ -1,0 +1,156 @@
+﻿namespace = rk_travel_events
+
+rk_travel_events.2000 = {
+	type = character_event
+	title = rk_travel_events.2000.t
+	desc = {
+		desc = rk_travel_events.2000.desc
+
+	}
+	theme = travel
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+	trigger = {
+		static_group_filter = {
+			group = rk_travel_events.2000
+			match = 0.25
+		}
+		is_available_travelling = yes
+		is_playable_character = yes
+		
+	}
+
+	#Search for Zanaris
+	option = { 
+		name = rk_travel_events.2000.a
+		stress_impact = {
+			craven = miniscule_stress_impact_gain
+			lazy = miniscule_stress_impact_gain
+			paranoid = medium_stress_impact_gain
+		}
+
+		custom_tooltip = {
+			text = travel_to_entrana_tt
+			start_travel_plan = { 
+				destination = province:8
+				return_trip = yes
+				on_arrival_event = rk_travel_events.2001
+				on_travel_planner_cancel_event = legend_spread_events.8001
+			}
+		}
+
+		ai_chance = {
+			base = 100
+			modifier = {
+				OR = {
+					has_trait = ambitious
+					has_trait = eccentric
+				}
+				add = 50
+			}
+			
+			ai_value_modifier = {
+				ai_energy = 2
+				ai_boldness = 2
+				ai_compassion = 1	
+				ai_rationality = -1	
+			}
+		}
+	}
+
+	#Don't care about fairies
+	option = { 
+		name = rk_travel_events.2000.b
+		
+		ai_chance = {
+			base = 100
+			modifier = {
+				OR = {
+					has_trait = impatient
+					has_trait = arrogant
+				}
+				add = 25
+			}
+			modifier = {
+				OR = {
+					has_trait = paranoid
+					has_trait = craven
+				}
+				add = 50
+			}
+			
+			ai_value_modifier = {
+				ai_compassion = -1
+			}
+		}
+	}
+}
+
+rk_travel_events.2001 = {
+	hidden = yes
+	scope = none
+	
+	immediate = {
+
+		create_character = {
+			location = title:c_entrana.holder.capital_province
+			template = accolade_huntsmaster_character
+			name = "Dramen Tree Spirit"
+			gender = female
+			culture = culture:ghost
+			dynasty = none
+			faith = faith:guthix
+			trait = undead_character
+			save_scope_as = fighter_mc_fighter_chap
+		}
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:fighter_mc_fighter_chap
+			FATALITY = possible
+			FIXED = no
+			LOCALE = terrain_scope
+			INVALIDATION_EVENT = single_combat.1006
+			OUTPUT_EVENT = rk_travel_events.2002
+		}
+	}
+
+}
+
+rk_travel_events.2002 = {
+	hidden = yes
+	scope = none
+
+	immediate = {
+		
+		current_travel_plan ?= {
+			if = {
+				limit = { is_paused = yes }
+				resume_travel_plan = yes 
+			}
+		}
+
+		trigger_event = {
+			id = rk_travel_events.2003
+			days = 1
+		}
+
+	}
+
+}
+
+rk_travel_events.2003 = {
+	hidden = yes
+
+	immediate = {
+		scope:fighter_mc_fighter_chap = {
+			death = { death_reason = death_vanished }
+		}
+
+		scope:sc_victor = {
+			create_artifact_rk_sangstaff_effect = { OWNER = this }
+		}
+	}
+}

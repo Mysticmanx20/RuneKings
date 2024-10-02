@@ -1,0 +1,7 @@
+﻿l_english:
+
+  rk_travel_events.2000.t: "The Lost City"
+  rk_travel_events.2000.desc: "While travelling we come across a small camp of adventurers. They mention that they are searching for 'Zanaris' - a magical hidden city of great treasures. One of the adventurers recounts how they found a leprechaun that supposedly knew how to reach Zanaris. The leprechaun revealed that by taking a Dramenwood staff through a secluded shed out in [GetTitleByKey( 'c_lumswamp' ).GetName] one will be transported to Zanaris."
+  rk_travel_events.2000.a: "I need to find a Dramen tree!"
+  rk_travel_events.2000.b: "I don't care."
+  travel_to_entrana_tt: "You will [travel|E] to [GetTitleByKey( 'c_entrana' ).GetName] where you may get a Dramen staff"
