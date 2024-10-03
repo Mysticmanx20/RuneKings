@@ -44,3 +44,8 @@ justicar = {
 	support_type = "tall_pillow"
 	asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
 }
+
+dramen = {
+	icon = "artifact_dramen.dds"
+	asset = ep1_steppe_axe_01_a_portrait_entity
+}

@@ -20,13 +20,19 @@ rk_travel_events.2000 = {
 		is_available_travelling = yes
 		is_playable_character = yes
 		is_location_valid_for_travel_event_on_land = yes
-		NOT = { has_character_flag = got_dramen }
+		NOR = {
+			has_character_flag = got_dramen 
+			has_character_flag = no_zanaris 
+			has_character_flag = find_zanaris
+		}
+		
 		
 	}
 
 	#Search for Zanaris
 	option = { 
 		name = rk_travel_events.2000.a
+		add_character_flag = find_zanaris
 		stress_impact = {
 			craven = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
@@ -35,6 +41,7 @@ rk_travel_events.2000 = {
 
 		custom_tooltip = {
 			text = travel_to_entrana_tt
+
 			start_travel_plan = { 
 				destination = province:8
 				return_trip = yes
@@ -65,6 +72,11 @@ rk_travel_events.2000 = {
 	#Don't care about fairies
 	option = { 
 		name = rk_travel_events.2000.b
+
+		add_character_flag = {
+			flag = no_zanaris
+			years = 20
+		}
 		
 		ai_chance = {
 			base = 100
@@ -99,7 +111,7 @@ rk_travel_events.2001 = {
 
 		create_character = {
 			location = title:c_entrana.holder.capital_province
-			template = accolade_huntsmaster_character
+			template = new_warrior_character
 			name = "Dramen Tree Spirit"
 			gender = female
 			culture = culture:ghost
@@ -128,8 +140,14 @@ rk_travel_events.2002 = {
 	scope = none
 
 	immediate = {
+
+		add_character_flag = {
+			flag = no_zanaris
+			years = 3
+		}
 		
 		current_travel_plan ?= {
+			reroute_to_home = yes
 			if = {
 				limit = { is_paused = yes }
 				resume_travel_plan = yes 
@@ -199,6 +217,7 @@ rk_travel_events.2005 = {
 		custom_tooltip = rk_travel_events.2005.tt
 
 		trigger_event = rk_travel_events.2001
+		remove_character_flag = find_zanaris
 
 		ai_chance = {
 			base = 100
