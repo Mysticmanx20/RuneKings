@@ -11,3 +11,7 @@
   rk_travel_events.2005.desc: "Upon arriving on Entrana I began the search for a dramen tree. After some time exploring the island I discovered what appears to be the last remaining dramen tree on the entire island.\n\nUnfortunately, the tree is clearly under the protection of a tree spirit. If I wish to obtain a dramen staff I will need to defeat this spectral guardian first."
   rk_travel_events.2005.a: "I will reach Zanaris!"
   rk_travel_events.2005.tt: "The [single_combat_duel|E] begins!"
+  rk_travel_events.2005.b: "Speak with the spirit"
+  rk_travel_events.2005.b.tt: "Negotiate with the spirit via [diplomacy|E]"
+  rk_travel_events.2005.b.diplo.success: "Successful Negotiation"
+  rk_travel_events.2005.b.diplo.failure: "Failed Negotiation"

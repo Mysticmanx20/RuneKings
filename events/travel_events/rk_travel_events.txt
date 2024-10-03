@@ -21,7 +21,7 @@ rk_travel_events.2000 = {
 		is_playable_character = yes
 		is_location_valid_for_travel_event_on_land = yes
 		NOR = {
-			has_character_flag = got_dramen 
+			any_character_artifact = { has_variable = dramenwood }
 			has_character_flag = no_zanaris 
 			has_character_flag = find_zanaris
 		}
@@ -174,7 +174,6 @@ rk_travel_events.2003 = {
 
 		scope:sc_victor = {
 			create_artifact_rk_dramen_effect = { OWNER = this }
-			add_character_flag = got_dramen
 		}
 	}
 }
@@ -193,6 +192,8 @@ rk_travel_events.2004 = {
 
 	option = { # Dangit
 		name = legend_spread_events.8001.a
+
+		remove_character_flag = find_zanaris
 		ai_chance = {
 			base = 100
 		}
@@ -210,18 +211,105 @@ rk_travel_events.2005 = {
 		character = root
 		animation = personality_rational
 	}
+	right_portrait = {
+		character = scope:fighter_mc_fighter_chap
+		animation = personality_zealous
+	}
+
+	immediate = {
+		remove_character_flag = find_zanaris
+		create_character = {
+			location = title:c_entrana.holder.capital_province
+			template = new_warrior_character
+			name = "Dramen Tree Spirit"
+			gender = female
+			culture = culture:ghost
+			dynasty = none
+			faith = faith:guthix
+			trait = undead_character
+			save_scope_as = fighter_mc_fighter_chap
+		}
+	}
 
 	option = {
 		name = rk_travel_events.2005.a
 
 		custom_tooltip = rk_travel_events.2005.tt
 
-		trigger_event = rk_travel_events.2001
-		remove_character_flag = find_zanaris
+		#trigger_event = rk_travel_events.2001
+
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:fighter_mc_fighter_chap
+			FATALITY = possible
+			FIXED = no
+			LOCALE = terrain_scope
+			INVALIDATION_EVENT = single_combat.1006
+			OUTPUT_EVENT = rk_travel_events.2002
+		}
 
 		ai_chance = {
 			base = 100
 		}
+	}
+
+	option = {
+		name = rk_travel_events.2005.b
+		trigger = {
+			OR = { 
+				culture = culture:ghost
+				culture = { 
+					any_parent_culture = {
+						this = culture:ghost
+					}
+				}
+				any_character_artifact = { has_variable = talk_ghosts }
+			}
+		}
+
+		duel = {
+			skill = diplomacy
+			target = scope:fighter_mc_fighter_chap
+			# Victory!
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				min = 5
+				desc = rk_travel_events.2005.b.diplo.success
+				send_interface_toast = {
+					title = rk_travel_events.2005.b.diplo.success
+					left_icon = root
+					custom_tooltip = rk_travel_events.2005.b.diplo.success
+				}
+			}
+			# Defeat!
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				min = 5
+				desc = rk_travel_events.2005.b.diplo.failure
+				send_interface_toast = {
+					title = rk_travel_events.2005.b.diplo.failure
+					left_icon = root
+					custom_tooltip = rk_travel_events.2005.b.diplo.failure
+				}
+			}
+		}
+
+		trigger_event = rk_travel_events.2002
+
+		ai_chance = {
+			base = 100
+		}
+
+
 	}
 
 }
