@@ -13,12 +13,14 @@ rk_travel_events.2000 = {
 		animation = disbelief
 	}
 	trigger = {
-		static_group_filter = {
-			group = rk_travel_events.2000
-			match = 0.25
-		}
+		# static_group_filter = {
+		# 	group = rk_travel_events.2000
+		# 	match = 0.25
+		# }
 		is_available_travelling = yes
 		is_playable_character = yes
+		is_location_valid_for_travel_event_on_land = yes
+		NOT = { has_character_flag = got_dramen }
 		
 	}
 
@@ -36,8 +38,8 @@ rk_travel_events.2000 = {
 			start_travel_plan = { 
 				destination = province:8
 				return_trip = yes
-				on_arrival_event = rk_travel_events.2001
-				on_travel_planner_cancel_event = legend_spread_events.8001
+				on_arrival_event = rk_travel_events.2005
+				on_travel_planner_cancel_event = rk_travel_events.2004
 			}
 		}
 
@@ -88,6 +90,7 @@ rk_travel_events.2000 = {
 	}
 }
 
+#create tree spirit and start duel
 rk_travel_events.2001 = {
 	hidden = yes
 	scope = none
@@ -119,6 +122,7 @@ rk_travel_events.2001 = {
 
 }
 
+#return home
 rk_travel_events.2002 = {
 	hidden = yes
 	scope = none
@@ -141,6 +145,7 @@ rk_travel_events.2002 = {
 
 }
 
+#Remove tree spirit and give victory reward
 rk_travel_events.2003 = {
 	hidden = yes
 
@@ -150,7 +155,54 @@ rk_travel_events.2003 = {
 		}
 
 		scope:sc_victor = {
-			create_artifact_rk_sangstaff_effect = { OWNER = this }
+			create_artifact_rk_dramen_effect = { OWNER = this }
+			add_character_flag = got_dramen
 		}
 	}
+}
+
+# I foolishly cancelled my travel plan, the search for Zanaris is abandoned
+rk_travel_events.2004 = {
+	type = character_event
+	title = rk_travel_events.2004.t
+	desc = rk_travel_events.2004.desc
+	theme = travel
+	override_background = { reference = wilderness }
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	option = { # Dangit
+		name = legend_spread_events.8001.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#Reached the island of Entrana, found tree (and spirit)
+rk_travel_events.2005 = {
+	type = character_event
+	title = rk_travel_events.2005.t
+	desc = rk_travel_events.2005.desc
+	theme = travel
+
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = rk_travel_events.2005.a
+
+		custom_tooltip = rk_travel_events.2005.tt
+
+		trigger_event = rk_travel_events.2001
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
 }

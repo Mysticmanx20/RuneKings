@@ -5,6 +5,11 @@ rk_ghostspeak = {
 	ghost_opinion = 10
 }
 
+rk_dramen1 = {
+	monthly_piety = 0.1
+	monthly_prestige = 0.03
+}
+
 rk_charos = {
 	monthly_prestige = 0.03
 	general_opinion = 10

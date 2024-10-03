@@ -27,6 +27,32 @@ create_artifact_rk_ghostspeak_effect = {
 	}
 }
 
+create_artifact_rk_dramen_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = dramen_name
+		description = dramen_desc
+		template = rk_charos_template
+		type = miscellaneous
+		visuals = dramen
+		wealth = scope:wealth
+		quality = scope:quality
+		creator = root
+		modifier = rk_dramen1
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		
+	}
+}
+
 create_artifact_rk_silverlight_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
@@ -73,7 +99,7 @@ create_artifact_rk_tasty_book_effect = {
 	create_artifact = {	
 		name = tasty_book_name
 		description = tasty_book_desc
-		template = ﻿rk_vamp_item_template
+		template = rk_vamp_item_template
 		type = miscellaneous
 		visuals = book
 		wealth = scope:wealth
