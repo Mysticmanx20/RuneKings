@@ -713,7 +713,7 @@ travel_events_on_action = {
 		1000 = ep3_story_cycle_violet_poet.1000 #Nature's Bounty
 
 		#RK ADDITIONS
-		1000 = rk_travel_events.2000 #The Lost City
+		100 = rk_travel_events.2000 #The Lost City
 	}
 }
 

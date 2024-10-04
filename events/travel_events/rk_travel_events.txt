@@ -12,14 +12,40 @@ rk_travel_events.2000 = {
 		character = root
 		animation = disbelief
 	}
+	right_portrait = {
+		character = scope:local_character
+		animation = marshal
+	}
 	trigger = {
 		# static_group_filter = {
-		# 	group = rk_travel_events.2000
-		# 	match = 0.25
+		#  	group = rk_travel_events.2000
+		#  	match = 0.25
 		# }
 		is_available_travelling = yes
 		is_playable_character = yes
 		is_location_valid_for_travel_event_on_land = yes
+		any_pool_character = {
+			province = root.location
+			is_available_healthy_ai_adult = yes
+			OR = {
+				AND = {
+					is_landless_adventurer = yes
+					has_trait_xp = {
+						trait = lifestyle_traveler 
+						track = travel 
+						value >= 50
+					}
+				}
+				AND = {
+					has_trait = lifestyle_traveler
+					has_trait = ambitious
+				}
+			}
+			opinion = {
+				value >= 20
+				target = root
+			}
+		}
 		NOR = {
 			any_character_artifact = { has_variable = dramenwood }
 			has_character_flag = no_zanaris 
@@ -27,6 +53,34 @@ rk_travel_events.2000 = {
 		}
 		
 		
+	}
+
+	immediate = {
+		random_pool_character = {
+			province = root.location
+			limit = {
+				is_available_healthy_ai_adult = yes
+				OR = {
+					AND = {
+						is_landless_adventurer = yes
+						has_trait_xp = {
+							trait = lifestyle_traveler 
+							track = travel 
+							value >= 50
+						}
+					}
+					AND = {
+						has_trait = lifestyle_traveler
+						has_trait = ambitious
+					}
+				}
+				opinion = {
+					value >= 20
+					target = root
+				}
+			}
+			save_scope_as = local_character
+		}
 	}
 
 	#Search for Zanaris
@@ -49,6 +103,27 @@ rk_travel_events.2000 = {
 				on_travel_planner_cancel_event = rk_travel_events.2004
 			}
 		}
+
+		#Resets homage/petition timers if you already did them - NEEDS FIXED
+		if = { 
+			limit = {
+				OR = {
+					has_variable = homage_liege_scope
+					has_variable = pay_homage_grace
+					has_character_flag = meditation_character_flag
+					has_character_flag = petition_liege_character_flag
+					has_character_flag = holding_court_character_flag
+					has_character_flag = being_visited_on_tour
+				}
+			}
+			remove_variable = homage_liege_scope
+			remove_variable = pay_homage_grace
+			remove_character_flag = meditation_character_flag
+			remove_character_flag = petition_liege_character_flag
+			remove_character_flag = holding_court_character_flag
+			remove_character_flag = being_visited_on_tour
+		}
+		
 
 		ai_chance = {
 			base = 100
@@ -75,7 +150,7 @@ rk_travel_events.2000 = {
 
 		add_character_flag = {
 			flag = no_zanaris
-			years = 20
+			years = 10
 		}
 		
 		ai_chance = {
@@ -96,42 +171,11 @@ rk_travel_events.2000 = {
 			}
 			
 			ai_value_modifier = {
+				ai_energy = -1
 				ai_compassion = -1
 			}
 		}
 	}
-}
-
-#create tree spirit and start duel
-rk_travel_events.2001 = {
-	hidden = yes
-	scope = none
-	
-	immediate = {
-
-		create_character = {
-			location = title:c_entrana.holder.capital_province
-			template = new_warrior_character
-			name = "Dramen Tree Spirit"
-			gender = female
-			culture = culture:ghost
-			dynasty = none
-			faith = faith:guthix
-			trait = undead_character
-			save_scope_as = fighter_mc_fighter_chap
-		}
-		configure_start_single_combat_effect = {
-			SC_INITIATOR = root
-			SC_ATTACKER = root
-			SC_DEFENDER = scope:fighter_mc_fighter_chap
-			FATALITY = possible
-			FIXED = no
-			LOCALE = terrain_scope
-			INVALIDATION_EVENT = single_combat.1006
-			OUTPUT_EVENT = rk_travel_events.2002
-		}
-	}
-
 }
 
 #return home
@@ -173,7 +217,12 @@ rk_travel_events.2003 = {
 		}
 
 		scope:sc_victor = {
-			create_artifact_rk_dramen_effect = { OWNER = this }
+			send_interface_toast = {
+				title = rk_travel_events.2003.fight.success
+				left_icon = root
+				create_artifact_rk_dramen_effect = { OWNER = this }
+				#custom_tooltip = rk_travel_events.2005.b.diplo.success2
+			}
 		}
 	}
 }
@@ -231,12 +280,10 @@ rk_travel_events.2005 = {
 		}
 	}
 
-	option = {
+	option = {  # Fight the tree spirit
 		name = rk_travel_events.2005.a
 
 		custom_tooltip = rk_travel_events.2005.tt
-
-		#trigger_event = rk_travel_events.2001
 
 		configure_start_single_combat_effect = {
 			SC_INITIATOR = root
@@ -254,7 +301,7 @@ rk_travel_events.2005 = {
 		}
 	}
 
-	option = {
+	option = {  #dipoloacy check vs tree spirit 
 		name = rk_travel_events.2005.b
 		trigger = {
 			OR = { 
@@ -283,7 +330,8 @@ rk_travel_events.2005 = {
 				send_interface_toast = {
 					title = rk_travel_events.2005.b.diplo.success
 					left_icon = root
-					custom_tooltip = rk_travel_events.2005.b.diplo.success
+					create_artifact_rk_dramen_effect = { OWNER = this }
+					#custom_tooltip = rk_travel_events.2005.b.diplo.success2
 				}
 			}
 			# Defeat!
@@ -298,7 +346,7 @@ rk_travel_events.2005 = {
 				send_interface_toast = {
 					title = rk_travel_events.2005.b.diplo.failure
 					left_icon = root
-					custom_tooltip = rk_travel_events.2005.b.diplo.failure
+					custom_tooltip = rk_travel_events.2005.b.diplo.failure2
 				}
 			}
 		}
