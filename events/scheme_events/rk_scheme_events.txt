@@ -2,18 +2,53 @@
 
 namespace = steal_gold_outcome
 
-#################################
-# Positive Outcomes
-# 1000-1999
-#################################
+#	Results event for the steal gold scheme.
+scheme_critical_moments.1212 = {
+	hidden = yes
 
+	immediate = {
+		scope:scheme = {
+			random = {
+				chance = scope:scheme.scheme_success_chance
+
+				save_scope_value_as = {
+					name = scheme_successful
+					value = yes
+				}
+			}
+			scope:owner = {			
+				if = {
+					limit = {
+						exists = scope:scheme_successful
+					}
+					trigger_event = {
+						on_action = steal_gold_success
+					}
+				}
+				else = {
+					trigger_event = {
+						on_action = steal_gold_failure
+					}	
+				}
+			}
+		}
+	}
+}
+
+
+#Outcomes for steal gold scheme
 # Generic successful heist notification event to scheme owner
 steal_gold_outcome.1001 = {
 	type = character_event
+	window = scheme_successful_event
 	title = steal_gold_outcome.1001.t
 	desc = steal_gold_outcome.1001.desc
 	theme = generic_intrigue_scheme
-	left_portrait = scope:target
+	left_portrait = {
+		character = scope:owner
+		animation = happiness
+	}
+	right_portrait = scope:target
 
 
 	widget = {
@@ -41,7 +76,7 @@ steal_gold_outcome.1001 = {
 			send_interface_message = {
 				type = event_intrigue_good
 				title = steal_gold_success_message
-				left_icon = scope:target
+				right_icon = scope:target
 			}
 		}
 	}
@@ -87,11 +122,16 @@ steal_gold_outcome.1002 = {
 #
 steal_gold_outcome.2001 = {
 	type = character_event
+	window = scheme_failed_event
 	title = steal_gold_outcome.2001.t
 	desc = steal_gold_outcome.2001
 	theme = generic_intrigue_scheme
 
-	left_portrait = scope:target
+	left_portrait = {
+		character = scope:owner
+		animation = dismissal
+	}
+	lower_right_portrait = scope:target
 
 	widget = {
 		gui = "event_window_widget_scheme"

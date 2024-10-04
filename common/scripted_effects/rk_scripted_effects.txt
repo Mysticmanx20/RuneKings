@@ -80,6 +80,28 @@ f2p_scripted_effect = {
 ##########################################################################################
 #Scripted effects relating to Stealing Schemes
 
+steal_gold_scheme_prep_effect = {
+	save_scope_as = scheme
+	save_scope_value_as = {
+		name = follow_up_event
+		value = event_id:scheme_critical_moments.1212
+	}
+	
+	if = {
+		limit = {
+			NOT = { exists = scope:suppress_next_event }
+		}
+		scheme_owner = { trigger_event = scheme_critical_moments.0002 }
+	}
+}
+
+
+
+
+
+
+#OLD STUFF
+
 #Used in the immediate of the Scheme Owner's success event
 steal_gold_success_effect = {
 
@@ -109,27 +131,27 @@ steal_gold_success_effect = {
 			}
 			if = {
 				limit = {
-					scope:owner = { NOT = { has_trait = thief } }
+					scope:owner = { NOT = { has_trait = gallowsbait } }
 				}
-				add_trait = thief
+				add_trait = gallowsbait
 			}
 		}
 
-		else = {
-			if = {
-				limit = {
-					scope:owner = {
-						NOT = { any_secret = { secret_type = secret_thief } }
-					}
-				}
-				hidden_effect = {
-					add_secret = {
-						type = secret_thief
-						target = scope:target
-					}
-				}
-			}
-		}
+		# else = {
+		# 	if = {
+		# 		limit = {
+		# 			scope:owner = {
+		# 				NOT = { any_secret = { secret_type = secret_thief } }
+		# 			}
+		# 		}
+		# 		hidden_effect = {
+		# 			add_secret = {
+		# 				type = secret_thief
+		# 				target = scope:target
+		# 			}
+		# 		}
+		# 	}
+		# }
 	}
 
 	scope:target = {
@@ -145,6 +167,7 @@ steal_gold_success_effect = {
 		
 	}
 }
+
 
 steal_gold_failure_effect = {
 

@@ -2068,18 +2068,14 @@ ani001 = {
 	intrigue = 8
 	learning = 10
 	prowess = 5
-	trait = drunkard
 	trait = gluttonous
 	trait = lazy
 	trait = arrogant
-	trait = beauty_good_2
+	trait = beauty_good_1
 	trait = education_learning_1
 	trait = divine_blood
 	9151.1.1 = {
 		birth = yes
-		effect = {
-			add_character_flag = no_drunkard_visual
-		}
 	}
 }
 
