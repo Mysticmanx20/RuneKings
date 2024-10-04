@@ -862,6 +862,66 @@ on_game_start_after_lobby = {
 			
 				}
 			}
+			character:gnome026 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
+			character:gnome021 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
+			character:gnome022 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
+			character:gnome017 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
+			character:gnome025 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
+			character:gnome024 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law = camp_purpose_explorers
+			
+				}
+			}
 			character:ani001 ?= {
 				if = {
 					limit = {

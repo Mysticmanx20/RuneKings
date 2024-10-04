@@ -256,11 +256,6 @@ gnome017 = {
 	9141.1.1 = {
 		birth = yes
 	}
-	9167.1.1 = {
-		effect = {
-			move_to_pool = yes
-		}
-	}
 }
 
 gnome018 = {
@@ -355,11 +350,6 @@ gnome021 = {
 	9141.1.1 = {
 		birth = yes
 	}
-	9168.1.1 = {
-		effect = {
-			move_to_pool = yes
-		}
-	}
 }
 
 gnome022 = {
@@ -374,15 +364,44 @@ gnome022 = {
 	9141.1.1 = {
 		birth = yes
 	}
-	9168.1.1 = {
-		effect = {
-			move_to_pool = yes
-		}
-	}
 }
 
 gnome023 = {
 	name = "Dalbur"
+	culture = gnome
+	religion = guthix
+	trait = lifestyle_traveler
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+}
+
+gnome024 = {
+	name = "Klemfoodle"
+	culture = gnome
+	religion = guthix
+	trait = lifestyle_traveler
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+}
+
+gnome025 = {
+	name = "Errdo"
+	culture = gnome
+	religion = guthix
+	trait = lifestyle_traveler
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+}
+
+gnome026 = {
+	name = "Gnormadium"
+	dynasty = 101020
 	culture = gnome
 	religion = guthix
 	trait = lifestyle_traveler

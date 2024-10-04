@@ -619,3 +619,8 @@
 	name = "dynn_Yorha"
 	culture = wild
 }
+
+101020 = {
+	name = "dynn_Avlafrim"
+	culture = gnome
+}

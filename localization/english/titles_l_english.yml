@@ -27,6 +27,15 @@
  d_laamp_shrek: "Swamp"
  d_laamp_shrek_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_dalbur: "Kar-Hewo"
+ d_laamp_penwie: "Jungle Explorers"
+ d_laamp_penwie_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_wingstone: "Desert Explorers"
+ d_laamp_wingstone_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_bramb: "Mountain Explorers"
+ d_laamp_bramb_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_errdo: "Lemanto Andra"
+ d_laamp_klemf:"Gandius"
+ d_laamp_gnomefeldip: "Lemantolly Undri"
  
 
  cn_avarrocka:0 "Avarrocka"

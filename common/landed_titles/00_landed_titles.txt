@@ -4925,6 +4925,83 @@ d_laamp_dalbur = { # Dalbur
 	ai_primary_priority = { add = @never_primary_score }
 }
 
+d_laamp_klemf = { # Klemfoodle
+	color = { 100 100 100 }
+	capital = c_ahzaroon
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_errdo  = { # Errdo
+	color = { 100 100 100 }
+	capital = c_tolna
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_penwie  = { # Penwie
+	color = { 100 100 100 }
+	capital = c_ahzaroon
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_wingstone  = { # Wingstone
+	color = { 100 100 100 }
+	capital = c_southdesert
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_bramb  = { # Bramb
+	color = { 100 100 100 }
+	capital = c_trollweiss
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_gnomefeldip  = { # G-feldip
+	color = { 100 100 100 }
+	capital = c_westfeldip
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 
 
 # These mock titles cut hundreds of errors from logs. Additional titles could further reduce logs at the cost of tedium and bloat in this file.
