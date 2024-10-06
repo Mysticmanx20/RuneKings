@@ -14,7 +14,7 @@
 	}
 
 	is_shown = {
-		is_landed = yes
+		is_playable_character = yes
 		NOT = { has_culture = culture:vampyre } 
 		title:c_vers.holder = {
 			has_faith = faith:zamorak
