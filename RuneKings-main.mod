@@ -1,4 +1,4 @@
-name="RuneKings"
+name="RuneKings-main"
 version="0.1"
 picture="thumbnail.png"
 tags={
@@ -14,4 +14,4 @@ replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
 supported_version="1.13.0.4"
-path="C:/Users/mysti/OneDrive/Documents/Paradox Interactive/Crusader Kings III/mod/RuneKings"
+path="C:/Users/mysti/OneDrive/Documents/Paradox Interactive/Crusader Kings III/mod/RuneKings-main"

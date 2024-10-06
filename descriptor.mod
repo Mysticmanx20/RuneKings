@@ -1,4 +1,4 @@
-name="RuneKings"
+name="RuneKings-main"
 version="0.1"
 picture="thumbnail.png"
 tags={

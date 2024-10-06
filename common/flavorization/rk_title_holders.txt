@@ -1,0 +1,665 @@
+﻿# Special Titles
+
+
+emir_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { k_alkharid }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_egyptian }
+}
+
+emir_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { k_alkharid }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_egyptian }
+}
+
+sailor_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+sailor_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_duchy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_duchy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_king_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pirate_king_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_pirate }
+}
+
+pestqueen_baron = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_count = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_duchy = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_voidpest }
+}
+
+pestqueen_kingdom = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_voidpest }
+}
+
+lord_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { d_kinshra }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { feudal_government }
+	faiths = { zamorak }
+}
+
+lord_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { d_kinshra }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { feudal_government }
+	faiths = { zamorak }
+}
+
+vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	titles = { e_vamp }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+leader_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { d_ham }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { feudal_government }
+	faiths = { hamcult }
+}
+
+leader_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { d_ham }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	governments = { feudal_government }
+	faiths = { hamcult }
+}
+
+
+archmage_male_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 36
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+archmage_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+archmage_female_count = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 36
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+archmage_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+mageking = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+magequeen = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { c_wizard }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+kcouncil_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { c_kourend }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+kcouncil_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	titles = { c_kourend }
+	governments = { feudal_government }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+pharaoh_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	titles = { k_menaphos }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_egyptian }
+}
+
+pharaoh_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	titles = { k_menaphos }
+	flavourization_rules = { 
+		top_liege = no
+	}
+	name_lists = { name_list_egyptian }
+}
+
+mayor_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_polli c_nardah c_witchaven }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+mayor_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_polli c_nardah c_witchaven }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+
+wiz_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	flavourization_rules = { 
+		top_liege = no
+	}
+	faiths = { saradomin zamorak guthix menaph armadyl }
+	titles = { c_magetrain }
+	governments = { feudal_government }
+}
+
+wiz_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	flavourization_rules = { 
+		top_liege = no
+	}
+	faiths = { saradomin zamorak guthix menaph armadyl }
+	titles = { c_magetrain }
+	governments = { feudal_government }
+}
+
+khazard_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 36
+	flavourization_rules = { 
+		top_liege = no
+	}
+	titles = { d_khazard2 }
+	governments = { feudal_government }
+}
+
+khazard_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 36
+	flavourization_rules = { 
+		top_liege = no
+	}
+	titles = { d_khazard2 }
+	governments = { feudal_government }
+}
+
+abbey_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_edgemon }
+	governments = {
+		theocracy_government
+	}
+	faiths = { saradomin zamorak }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+abbey_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_edgemon }
+	governments = {
+		theocracy_government
+	}
+	faiths = { saradomin zamorak }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+ #Vampire tiers
+baron_clan_male_vamp = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	name_lists = { name_list_vampyre }
+}
+baron_clan_female_vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	name_lists = { name_list_vampyre }
+}
+barony_clan_vamp = {
+	type = title
+	tier = barony
+	priority = 7
+	name_lists = { name_list_vampyre }
+}
+count_clan_male_vamp = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	name_lists = { name_list_vampyre }
+}
+count_clan_female_vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	name_lists = { name_list_vampyre }
+}
+county_clan_vamp = {
+	type = title
+	tier = county
+	priority = 18
+	name_lists = { name_list_vampyre }
+}
+duke_clan_male_vamp = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_vampyre }
+}
+duke_clan_female_vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_vampyre }
+}
+duchy_clan_vamp = {
+	type = title
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_vampyre }
+}
+king_clan_male_vamp = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_vampyre }
+}
+king_clan_female_vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_vampyre }
+}
+kingdom_clan_vamp = {
+	type = title
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_vampyre }
+}
+emperor_clan_male_vamp = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_vampyre }
+}
+emperor_clan_female_vamp = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_vampyre }
+}
+empire_clan_vamp = {
+	type = title
+	tier = empire
+	priority = 102
+	name_lists = { name_list_vampyre }
+}
+duchy_goblin = {
+	type = title
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_goblin }
+}
+king_goblin = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_goblin }
+}
+emperor_goblin = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_goblin }
+}
+duchy_frem_holder_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+duchy_frem_holder_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+empire_frem = {
+	type = title
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+duchy_frem = {
+	type = title
+	tier = duchy
+	priority = 27
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+emperor_frem_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+emperor_frem_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	name_lists = { name_list_norse }
+	governments = { tribal_government }
+}
+
