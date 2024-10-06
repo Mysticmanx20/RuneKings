@@ -1,0 +1,20 @@
+﻿##################################################
+# Landless Adventurer Camp Scripted Effects
+##################################################
+
+
+##################################################
+# Flavourisation Effects
+
+remove_camp_purpose_flavourisation_variables_effect = {
+	remove_variable = flavourise_camp_purpose_mercenaries
+	remove_variable = flavourise_camp_purpose_wanderers
+	remove_variable = flavourise_camp_purpose_scholars
+	remove_variable = flavourise_camp_purpose_explorers
+	remove_variable = flavourise_camp_purpose_brigands
+	remove_variable = flavourise_camp_purpose_legitimists
+	#RK additions
+	remove_variable = flavourise_landless_women_mercs
+	remove_variable = flavourise_landless_women_explore
+	remove_variable = flavourise_landless_women_brig
+}
