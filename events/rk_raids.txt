@@ -6,6 +6,7 @@ raid_event.0001 = {
 	
 
 	immediate = {
+		mp_pause_travel_plan = yes
 		play_music_cue = rk_cue_vampfight
 		create_character = {
 			location = title:c_vers.holder.capital_province
@@ -54,6 +55,10 @@ raid_event.0100 = {
 			remove_character_flag = raid_character_flag
 		}
 
+	}
+
+	after = {
+		mp_resume_travel_plan = yes
 	}
 
 }
