@@ -18,3 +18,9 @@
   rk_travel_events.2005.b.diplo.success2: "You successfully negotiated with the tree spirit"
   rk_travel_events.2005.b.diplo.failure: "Failed Negotiation"
   rk_travel_events.2005.b.diplo.failure2: "You are forced to leave empty-handed"
+
+  #random events  
+  rk_random_events.2000.t: "Random Event: Kiss the frog"
+  rk_random_events.2000.desc: "As I travel through [ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier] I am suddenly approached by a talking frog!\n\n"Please help me. I was transformed into a frog by a well-meaning but sadly frog-obsessed old wizard. Only your kiss can turn me back. Will you help me?" "
+  rk_random_events.2000.a: ""Very well, I'll do it.""
+  rk_random_events.2000.b: ""I'd rather not.""
