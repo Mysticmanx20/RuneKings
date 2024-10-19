@@ -2015,7 +2015,7 @@ sara_religion = {
 	faiths = {
 		saradomin = {      #Saradomin
 			color = { 0.11 0.22 0.73 }
-			religious_head = c_entrana
+			religious_head = d_saradomin
 			icon = saradomin
 			holy_site = entrana
 			holy_site = falador
@@ -2033,7 +2033,7 @@ sara_religion = {
 
 		hamcult = {      #H.A.M. cult
 			color = { 0.74 0.2 0.64 }
-			religious_head = c_entrana
+			religious_head = d_saradomin
 			icon = ham
 			holy_site = entrana
 			holy_site = falador

@@ -1,0 +1,337 @@
+﻿##################################################
+# Restoring Papacy
+##################################################
+
+roman_restoration.0124 = {
+	type = character_event
+	title = roman_restoration.0124.t
+	desc = roman_restoration.0124.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+	right_portrait = {
+		character = scope:new_pope
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_sacredrite"
+		restore_papacy_scripted_effect = yes
+	}
+
+	option = {
+		name = roman_restoration.0124.a
+		add_piety = major_piety_gain
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				faith.religion = faith:saradomin.religion
+			}
+			trigger_event = roman_restoration.0125 # Notification.
+		}
+		if = { # Vassalize if possible/needed.
+			limit = {
+				highest_held_title_tier > scope:new_pope.highest_held_title_tier
+				NOT = { scope:new_pope = { any_liege_or_above = { this = root } } }
+			}
+			create_title_and_vassal_change = {
+				type = returned
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			scope:new_pope = {
+				change_liege = {
+					liege = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+}
+
+# Saradominsts notified.
+roman_restoration.0125 = {
+	type = character_event
+	title = roman_restoration.0124.t
+	desc = {
+		first_valid = {
+			# Saradominist Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith = faith:saradomin
+				}
+				desc = roman_restoration.0125.desc.catholic
+			}
+			# Every other Saradominst
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						root.faith = faith:saradomin
+					}
+
+				}
+				desc = roman_restoration.0125.desc.other
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:reformer
+		animation = personality_vengeful
+	}
+	right_portrait = {
+		character = scope:new_pope
+		animation = personality_zealous
+	}
+
+	immediate = {
+		#Catholics are happy!
+		if = {
+			limit = { faith = faith:saradomin }
+			play_music_cue = "mx_cue_sacredrite"
+		}
+	}
+
+	option = {
+		name = roman_restoration.0125.a
+		trigger = {
+			root.faith = faith:saradomin
+		}
+	}
+	option = {
+		name = roman_restoration.0125.b
+		trigger = {
+			NOT = {
+				root.faith = faith:saradomin
+			}
+		}
+	}
+}
+
+##################################################
+# Destroying the Papacy as a Muslim/Pagan
+##################################################
+
+roman_restoration.0130 = {
+	type = character_event
+	title = roman_restoration.0130.t
+	desc = {
+		first_valid = {
+			# Muslim Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = faith:ashari.religion
+				}
+				desc = roman_restoration.0130.desc.muslim
+			}
+			# Hellenic Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = faith:hellenic_pagan.religion
+				}
+				desc = roman_restoration.0130.desc.hellenic
+			}
+			# And the rest
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						root.faith.religion = faith:ashari.religion
+						root.faith.religion = faith:hellenic_pagan.religion
+					}
+				}
+				desc = roman_restoration.0130.desc.fallback
+			}
+		}
+		first_valid = {
+			# No current Pope
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						exists = scope:scoped_pope
+					}
+				}
+				desc = roman_restoration.0130.desc.no_pope
+			}
+			# Current Pope is crucified
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = faith:hellenic_pagan.religion
+				}
+				desc = roman_restoration.0130.desc.pope.crucifixion
+			}
+			# Current Pope is sacrificed
+			triggered_desc = {
+				trigger = {
+					root.faith = {
+						has_doctrine_parameter = human_sacrifice_active
+					}
+				}
+				desc = roman_restoration.0130.desc.pope.sacrificed
+			}
+			# Current Pope converts
+			desc = roman_restoration.0130.desc.pope.submission
+		}
+	}
+	theme = faith
+	override_background = {
+		trigger = {	
+			root.faith = {
+				OR = {
+					religion = faith:hellenic_pagan.religion
+					has_doctrine_parameter = human_sacrifice_active
+				}
+			}
+		}
+		reference = burning_building
+	}
+	left_portrait = {
+		character = scope:scoped_destroyer
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = scope:scoped_pope
+		animation = fear
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_sacredrite"
+		save_scope_as = scoped_destroyer
+		if = {
+			limit = { exists = title:d_saradomin.holder }
+			title:d_saradomin.holder = { save_scope_as = scoped_pope }
+		}
+		faith:saradomin = { save_scope_as = catholic }
+		destroy_papacy_scripted_effect = yes
+	}
+
+	option = {
+		name = {
+			trigger = {
+				faith.religion = faith:ashari.religion
+			}
+			text = roman_restoration.0130.a.a
+		}
+		name = {
+			trigger = {
+				faith.religion = faith:hellenic_pagan.religion
+			}
+			text = roman_restoration.0130.a.b
+		}
+		name = {
+			trigger = {
+				NOR = {
+					faith.religion = faith:ashari.religion
+					faith.religion = faith:hellenic_pagan.religion
+				}
+			}
+			text = roman_restoration.0130.a.c
+		}
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				OR = {
+					faith.religion = faith:saradomin.religion
+					faith.religion = root.faith.religion
+				}
+			}
+			trigger_event = roman_restoration.0131 # Notification.
+		}
+	}
+}
+
+# Other players notified.
+roman_restoration.0131 = {
+	type = character_event
+	title = roman_restoration.0130.t
+	desc = {
+		first_valid = {
+			# Muslim/Pagan Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = scope:scoped_destroyer.faith.religion
+				}
+				desc = roman_restoration.0131.desc.faithful
+			}
+			# Christian Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = faith:saradomin.religion
+				}
+				desc = roman_restoration.0131.desc.christians
+			}
+			# Fallback
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						root.faith.religion = faith:saradomin.religion
+						root.faith.religion = scope:scoped_destroyer.faith.religion
+					}
+				}
+				desc = roman_restoration.0131.desc.fallback
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		trigger = {	
+			scope:scoped_destroyer.faith = {
+				OR = {
+					religion = faith:hellenic_pagan.religion
+					has_doctrine_parameter = human_sacrifice_active
+				}
+			}
+		}
+		reference = burning_building
+	}
+	left_portrait = {
+		character = scope:scoped_destroyer
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = scope:scoped_pope
+		animation = fear
+	}
+
+	immediate = { play_music_cue = "mx_cue_combat_2" }
+
+	option = {
+		name = {
+			trigger = {
+				faith.religion = scope:scoped_destroyer.faith.religion
+			}
+			text = roman_restoration.0131.a.a
+		}
+		name = {
+			trigger = {
+				faith.religion = faith:saradomin.religion
+			}
+			text = roman_restoration.0131.a.b
+		}
+		name = {
+			trigger = {
+				NOR = {
+					faith.religion = faith:saradomin.religion
+					faith.religion = scope:scoped_destroyer.faith.religion
+				}
+			}
+			text = roman_restoration.0131.a.c
+		}
+		if = {
+			limit = {
+				root.faith = faith:saradomin
+				NOT = { has_trait = cynical }
+			}
+			add_opinion = {
+				target = scope:scoped_destroyer
+				modifier = destroyed_papacy_opinion
+			}
+			stress_impact = {
+				base = minor_stress_impact_gain
+				zealous = minor_stress_impact_gain
+			}
+		}
+	}
+}

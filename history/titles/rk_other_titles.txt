@@ -1,3 +1,9 @@
+d_saradomin = {
+	9150.1.1 = {
+		holder = 900300
+		government = theocracy_government
+	}
+}
 
 d_kinshra = {
 	9004.1.1 = {

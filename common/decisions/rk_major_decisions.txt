@@ -1,0 +1,249 @@
+﻿restore_papacy_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	desc = restore_papacy_decision_desc
+	selection_tooltip = restore_papacy_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 12
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith = faith:saradomin
+		NOT = { faith = { exists = religious_head } }
+		highest_held_title_tier > 3 #Only Kings and Emperors
+	}
+
+	is_valid = {
+		completely_controls = title:c_entrana
+		custom_description = {
+			text = "restore_high_priesthood_holy_sites"
+			faith = {
+				any_holy_site = {
+					OR = {
+						county.holder = root
+						county.holder.top_liege = { this = root }
+					}
+					count >= 2
+				}
+			}
+		}
+		piety_level >= high_piety_level
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		custom_tooltip = restore_papacy_decision_effect_tooltip
+		show_as_tooltip = {
+			restore_papacy_scripted_effect = yes
+		}
+		trigger_event = {
+			id = roman_restoration.0124
+		}
+	}
+	
+	ai_potential = {
+		faith = faith:saradomin
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		NOT = { faith = { exists = religious_head } }
+	}
+
+	ai_will_do = { #Always do it when possible.
+		base = 100
+		ai_value_modifier = {
+			ai_zeal = 1.0
+		}
+		modifier = {
+			factor = 0
+			has_trait = cynical
+		}
+	}
+}
+
+restore_pope_in_rome_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	desc = restore_pope_in_rome_decision_desc
+	selection_tooltip = restore_pope_in_rome_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 12
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith = faith:catholic
+		NOR = {
+			has_title = title:k_papal_state
+			has_title = title:e_roman_empire #Priorities
+		}
+		NOT = { title:c_roma.holder = { has_title = title:k_papal_state } }
+		NOT = { capital_county = { this = title:c_roma } }
+		title:k_papal_state.holder = {
+			NOT = { 	
+				has_opinion_modifier = { #Not accepting it if you conquered it yourself.
+					target = root
+					modifier = declared_war
+				}
+			}
+			NOT = { 	
+				has_opinion_modifier = { #Not accepting it if you conquered it yourself.
+					target = root
+					modifier = revoked_title
+				}
+			}
+		}
+		NOT = { has_character_flag = flag_already_given_rome_once }
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		custom_tooltip = {
+			text = hof_exists_tt
+			faith = { exists = religious_head }
+		}
+		custom_tooltip = {
+			text = rome_held_by_you_or_vassal_tt
+			OR = {
+				title:c_roma.holder = { 	
+					any_liege_or_above = { this = root }
+				}
+				title:c_roma.holder = { this = root }
+			}
+		}
+	}
+
+	effect = {
+		add_piety = 1000
+		add_character_flag = flag_already_given_rome_once
+		create_title_and_vassal_change = {
+			type = returned
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:c_roma = {
+			change_title_holder = {
+				holder = title:k_papal_state.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		title:k_papal_state.holder = {
+			set_realm_capital = title:c_roma
+			add_opinion = {
+				target = prev
+				modifier = restored_papacy_opinion
+			}
+		}
+	}
+	
+	ai_potential = {
+		faith = faith:catholic
+		highest_held_title_tier > 3 #Only Kings and Emperors
+	}
+
+	ai_will_do = { #Do it always, for coherence.
+		base = 100
+		modifier = {
+			factor = 0
+			title:c_roma.holder = {
+				OR = {
+					is_ai = no
+					any_liege_or_above = { is_ai = no }  # AI will never take Rome province away from a player.
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_trait = cynical
+		}
+		modifier = {
+			factor = 0
+			has_title = title:e_italy
+		}
+	}
+}
+
+dismantle_papacy_decision = { #For Muslims and Pagans.
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	desc = dismantle_papacy_decision_desc
+	selection_tooltip = dismantle_papacy_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith:saradomin = {
+			has_doctrine = doctrine_spiritual_head
+		}
+		faith:saradomin = {
+			faith_hostility_level = {
+				target = root.faith
+				value >= faith_hostile_level
+			}
+		}
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = {
+				exists = title:d_saradomin
+			}
+			title:d_saradomin.holder = { is_playable_character = no } #If he fled elsewhere, it cannot be done, the Pope must be landless.
+			title:d_saradomin.holder = { is_at_war = no } #Shouldn't be possible during a Crusade
+		}
+		completely_controls_region = world_asgarnia
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		custom_tooltip = dismantle_papacy_decision_effect_tooltip
+		gain_holy_legend_seed_tooltip_effect = yes
+		hidden_effect = {
+			legend_seed_great_deed_faith_effect = {
+				ANTAGONIST = title:d_saradomin.holder
+				OLD_FAITH = title:d_saradomin.holder.faith
+			}
+		}
+		show_as_tooltip = {
+			destroy_papacy_scripted_effect = yes
+		}
+		trigger_event = {
+			id = roman_restoration.0130
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = { #Do it always.
+		base = 100
+	}
+}
