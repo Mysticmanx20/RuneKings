@@ -1,14 +1,8 @@
 ﻿
-d_entrana = {
-	9001.1.1 = {
-		liege = 0
-	}
-	9150.1.1 = {
-		holder = 900300
-	}
-}
-
 c_entrana = {
+	8000.1.1 = {
+		liege = d_saradomin
+	}
 	9150.1.1 = {
 		holder = 900300
 		change_development_level = 11
