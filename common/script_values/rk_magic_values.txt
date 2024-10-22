@@ -66,6 +66,9 @@ arcana_prayer_1 = 1
 arcana_prayer_2 = 2
 arcana_prayer_3 = 3
 
+#artifacts
+sangstaff_arcana = 3
+
 
 # Arcana Master
 arcana_base = {
@@ -391,6 +394,21 @@ arcana = {
 		add = {
 			value = arcana_prayer_3
 			desc = arcana_prayer_3
+		}
+	}
+	#artifacts
+	if = {
+		limit = { 
+			any_character_artifact = {
+				AND = {
+					is_equipped = yes
+					has_artifact_modifier = rk_sangstaff
+				}
+			}
+		}
+		add = {
+			value = sangstaff_arcana
+			desc = sangstaff_arcana
 		}
 	}
 

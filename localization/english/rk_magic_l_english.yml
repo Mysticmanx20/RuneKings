@@ -58,6 +58,7 @@
   arcana_prayer_1:0 "[GetModifier('prayer_mystic_will').GetName]"
   arcana_prayer_2:0 "[GetModifier('prayer_mystic_lore').GetName]"
   arcana_prayer_3:0 "[GetModifier('prayer_mystic_might').GetName]"
+  sangstaff_arcana:0 "Sanguinesti Staff"
 
 	ADD_ARCANA_SKILL_EFFECT:1 "[arcana|E] is increased by [arcana_i]$VALUE|+0$"
 	REMOVE_ARCANA_SKILL_EFFECT:1 "[arcana|E] is decreased by [arcana_i]$VALUE|-0$"

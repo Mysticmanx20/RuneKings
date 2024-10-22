@@ -29,6 +29,16 @@ rk_tasty_book = {
 	dread_gain_mult = 0.2
 }
 
+rk_vitur = {
+	prowess = 4
+	army_damage_mult = 0.1
+}
+
+rk_sangstaff = {
+	health = major_health_bonus
+	flag = add_arcana_3
+}
+
 rk_silverlight = {
 	martial = 2
 	monthly_piety = 0.5
