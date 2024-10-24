@@ -122,6 +122,7 @@
 
  CHARACTER_FULL_NAME_NICKNAMED_PREFIX:2 "$NICK$ $TIER$ $NAME$ of $TITLE$"
  nick_the_crowd_pleaser:0 "The Crowd Pleaser"
+ nick_drakan:0 "The Dark Lord"
  nick_falador:0 "The Savior of Falador"
  nick_wizard:0 "Wizard"
  nick_wizard_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a known practitioner of magic."
