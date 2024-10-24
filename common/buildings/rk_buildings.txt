@@ -1,5 +1,6 @@
 ﻿
-ananda_temple_01 = {
+
+ananda_temple_01 = {  #tower of voices
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_shwedagon_pagoda.dds"
@@ -56,4 +57,51 @@ ananda_temple_01 = {
 	type = special
 
 	flag = travel_point_of_interest_religious
+}
+
+
+ectofuntus_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.15
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		travel_danger = -20
+	}
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		tax_mult = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
 }

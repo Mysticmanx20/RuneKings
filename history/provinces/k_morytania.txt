@@ -80,6 +80,7 @@
 	culture = ghost
 	religion = saradomin
 	holding = castle_holding
+	special_building = ectofuntus_01
 }
 
 87 = {  

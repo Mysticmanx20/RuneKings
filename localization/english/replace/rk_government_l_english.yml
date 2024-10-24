@@ -1,4 +1,18 @@
 ﻿l_english:
+
+ undead_government:0 "Undead"
+ undead_government_with_icon: "@government_type_tribal! $undead_government$"
+ undead_government_adjective:0 "Undead"
+ undead_government_realm:0 "Tribe"
+ undead_government_desc:0 "\n$game_concept_undead_desc$\n\n#F Undead governments a ruled by undead creatures. These rather unsettling realms tend to terrorize nearby lands.#!"
+
+
+
+
+
+
+
+
  # this here in case it will be deleted in vanilla, because they dont use it anymore
  clan_government_obligations:0 "From [opinion|E]"
  clan_government_tax_contribution_postfix:0 " (max [FixedPointToProgressbarValue(EmptyScope.ScriptValue('clan_government_tax_max_possible'))|1V])"
