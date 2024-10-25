@@ -1,6 +1,8 @@
 ﻿bm_1000_test = {
 	start_date = 9169.1.1
 	is_playable = yes
+	recommended = yes
+	test_default = yes
 	group = bm_group_169
 
 	weight = { value = 100 }
@@ -16,6 +18,7 @@
 		government = feudal_government
 		culture = misthalin
 		religion = saradomin
+		tutorial = yes
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 20842
 		position = { 1160 815 }
