@@ -1709,7 +1709,7 @@
 		effect = {
 			imprison = {
 				target = character:900208
-				type = dungeon
+				type = house_arrest
 			}
 		}
 	}
@@ -1739,6 +1739,10 @@
     9119.1.1 = {
         birth = yes
     }
+	9169.1.1 = {
+		employer = 900100
+		move_to_pool = yes
+	}
 
 }
 
