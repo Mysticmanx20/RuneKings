@@ -36,6 +36,8 @@
  d_laamp_errdo: "Lemanto Andra"
  d_laamp_klemf:"Gandius"
  d_laamp_gnomefeldip: "Lemantolly Undri"
+ d_laamp_bloodpact: "Blood Pact"
+ d_laamp_bloodpact_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  
 
  cn_avarrocka:0 "Avarrocka"

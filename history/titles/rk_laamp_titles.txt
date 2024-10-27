@@ -188,3 +188,22 @@ d_laamp_gnomefeldip = { # G-feldip
 	}
 	
 }
+
+d_laamp_bloodpact= { # Bloodpact
+	9167.1.1 = {
+		liege = 0
+		holder = 900210
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	9169.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 9169.1.1 }
+		}
+	}
+	
+}

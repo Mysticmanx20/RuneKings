@@ -356,7 +356,7 @@ c_lumcata = {
 		liege = d_lumbridge
 	}
 	9168.1.1 = {
-		holder = 900210
+		holder = 900100
 	}
 }
 
