@@ -1641,17 +1641,17 @@ widget = {
 											}
 										}
 
-										# bm_portrait = {
-										# 	parentanchor = bottom|hcenter
-										# 	position = { 0 60 }
-										# 	size = { 300 390 }
+										bm_portrait = {
+											parentanchor = bottom|hcenter
+											position = { 0 60 }
+											size = { 300 390 }
 
-										# 	blockoverride "portrait_button"
-										# 	{
-										# 		portrait_texture = "[BookmarkCharacter.GetAnimatedPortrait( 'environment_bookmarks_selected', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-										# 		mask = "gfx/portraits/portrait_mask_blank.dds"
-										# 	}
-										# }
+											blockoverride "portrait_button"
+											{
+												# portrait_texture = "[BookmarkCharacter.GetAnimatedPortrait( 'environment_bookmarks_selected', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+												mask = "gfx/portraits/portrait_mask_blank.dds"
+											}
+										}
 
 										widget = {
 											visible = "[EqualTo_int32(GetDataModelSize(BookmarkCharacter.GetRelatedCharacters), '(int32)2')]"
@@ -1683,20 +1683,20 @@ widget = {
 															color = { 0.18 0.18 0.18 0.8 }
 														}
 
-														# bm_portrait = {
-														# 	parentanchor = bottom|hcenter
-														# 	size = { 175 175 }
+														bm_portrait = {
+															parentanchor = bottom|hcenter
+															size = { 175 175 }
 
-														# 	blockoverride "portrait_tooltip"
-														# 	{
-														# 		tooltip_visible = yes
-														# 	}
+															blockoverride "portrait_tooltip"
+															{
+																tooltip_visible = yes
+															}
 
-														# 	blockoverride "portrait_button"
-														# 	{
-														# 		portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_selected', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-														# 	}
-														# }
+															blockoverride "portrait_button"
+															{
+																# portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_selected', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+															}
+														}
 
 														text_label_center = {
 															name = "character_name"
@@ -1748,20 +1748,20 @@ widget = {
 													widget = {
 														size = { 145 175 }
 
-														# bm_portrait = {
-														# 	parentanchor = bottom|hcenter
-														# 	size = { 250 175 }
+														bm_portrait = {
+															parentanchor = bottom|hcenter
+															size = { 250 175 }
 
-														# 	blockoverride "portrait_tooltip"
-														# 	{
-														# 		tooltip_visible = yes
-														# 	}
+															blockoverride "portrait_tooltip"
+															{
+																tooltip_visible = yes
+															}
 
-														# 	blockoverride "portrait_button"
-														# 	{
-														# 		portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_selected', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-														# 	}
-														# }
+															blockoverride "portrait_button"
+															{
+																# portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_selected', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+															}
+														}
 
 														text_label_center = {
 															name = "character_name"
@@ -3416,18 +3416,18 @@ types BookmarkPortraits
 					mirror = vertical
 				}
 
-				# bm_portrait = {
-				# 	parentanchor = top|hcenter
-				# 	widgetanchor = bottom|hcenter
-				# 	position = { 0 30 }
-				# 	size = { 250 190 }
-				# 	alwaystransparent = yes
+				bm_portrait = {
+					parentanchor = top|hcenter
+					widgetanchor = bottom|hcenter
+					position = { 0 30 }
+					size = { 250 190 }
+					alwaystransparent = yes
 
-				# 	blockoverride "portrait_button"
-				# 	{
-				# 		portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_map', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-				# 	}
-				# }
+					blockoverride "portrait_button"
+					{
+						# portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_map', 'camera_shoulders', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+					}
+				}
 
 				margin_widget = {
 					parentanchor = center|hcenter
@@ -3670,46 +3670,46 @@ types BookmarkPortraits
 		}
 	}
 
-	# type bm_portrait = widget {
+	type bm_portrait = widget {
 
-	# 	portrait_button = {
-	# 		parentanchor = center
-	# 		size = { 100% 100% }
-	# 		using = portrait_base
-	# 		name = "culture_head_portrait"
-	# 		portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_map', 'camera_head', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-	# 		background_texture = "gfx/portraits/portrait_transparent.dds"
-	# 		texture = "gfx/portraits/portrait_transparent.dds"
-	# 		framesize = { 86 129 }
-	# 		mask = "gfx/portraits/portrait_mask_council.dds"
+		portrait_button = {
+			parentanchor = center
+			size = { 100% 100% }
+			using = portrait_base
+			name = "culture_head_portrait"
+			# portrait_texture = "[BookmarkCharacter.GetPortrait( 'environment_bookmarks_map', 'camera_head', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+			background_texture = "gfx/portraits/portrait_transparent.dds"
+			texture = "gfx/portraits/portrait_transparent.dds"
+			framesize = { 86 129 }
+			mask = "gfx/portraits/portrait_mask_council.dds"
 
-	# 		effectname = "NoHighlight"
-	# 		alwaystransparent = yes
+			effectname = "NoHighlight"
+			alwaystransparent = yes
 
-	# 		block "portrait_tooltip" {
-	# 			tooltip_visible = no
-	# 		}
+			block "portrait_tooltip" {
+				tooltip_visible = no
+			}
 
-	# 		block "portrait_button" {}
+			block "portrait_button" {}
 
-	# 		blockoverride "portrait_button_template_tooltip"
-	# 		{
-	# 			tooltip = "[BookmarkCharacter.GetTooltip]"
-	# 		}
+			blockoverride "portrait_button_template_tooltip"
+			{
+				tooltip = "[BookmarkCharacter.GetTooltip]"
+			}
 
-	# 		blockoverride "portrait_button_template_onclick" {}
-	# 		blockoverride "portrait_button_template_onmouseenter" {}
-	# 		blockoverride "portrait_button_template_onmouseleave" {}
+			blockoverride "portrait_button_template_onclick" {}
+			blockoverride "portrait_button_template_onmouseenter" {}
+			blockoverride "portrait_button_template_onmouseleave" {}
 
-	# 		blockoverride "coa" {}
-	# 		blockoverride "status_icons" {}
-	# 		blockoverride "opinion_box" {}
-	# 		blockoverride "imprisonment" {}
-	# 		blockoverride "player_overlay" {}
-	# 		blockoverride "grayscale"{}
-	# 		blockoverride "TODO_debug_info" {}
-	# 	}
-	# }
+			blockoverride "coa" {}
+			blockoverride "status_icons" {}
+			blockoverride "opinion_box" {}
+			blockoverride "imprisonment" {}
+			blockoverride "player_overlay" {}
+			blockoverride "grayscale"{}
+			blockoverride "TODO_debug_info" {}
+		}
+	}
 }
 
 types GameSetupTypes
@@ -3809,24 +3809,24 @@ types GameSetupTypes
 						widget = {
 							size = { 260 390 }
 
-							# bm_portrait = {
-							# 	parentanchor = bottom|hcenter
-							# 	position = { -10 20 }
-							# 	size = { 290 440 }
-							# 	datacontext = "[GameSetup.GetTutorialCharacter]"
+							bm_portrait = {
+								parentanchor = bottom|hcenter
+								position = { -10 20 }
+								size = { 290 440 }
+								datacontext = "[GameSetup.GetTutorialCharacter]"
 
-							# 	blockoverride "portrait_button"
-							# 	{
-							# 		portrait_texture = "[BookmarkCharacter.GetAnimatedPortrait( 'environment_bookmarks_map', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
-							# 		mask = "gfx/portraits/portrait_mask_body.dds"
-							# 	}
+								blockoverride "portrait_button"
+								{
+									# portrait_texture = "[BookmarkCharacter.GetAnimatedPortrait( 'environment_bookmarks_map', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self) )]"
+									mask = "gfx/portraits/portrait_mask_body.dds"
+								}
 
-							# 	blockoverride "portrait_transformation"
-							# 	{
-							# 		portrait_scale = { -1 1 }
-							# 		portrait_offset = { 1 0 }
-							# 	}
-							# }
+								blockoverride "portrait_transformation"
+								{
+									portrait_scale = { -1 1 }
+									portrait_offset = { 1 0 }
+								}
+							}
 						}
 
 						text_label_center = {
