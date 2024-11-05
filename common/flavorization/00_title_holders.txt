@@ -1339,32 +1339,34 @@ duke_administrative_female_byzantine_group = {
 		spouse_takes_title = no
 	}
 }
-#king_administrative_male = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = kingdom
-#	priority = 74
-#	governments = { administrative_government }
-#
-#	flavourization_rules = {
-#		top_liege = no
-#		spouse_takes_title = no
-#	}
-#}
-#king_administrative_female = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = kingdom
-#	priority = 73
-#	governments = { administrative_government }
-#
-#	flavourization_rules = {
-#		top_liege = no
-#		spouse_takes_title = no
-#	}
-#}
+king_administrative_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 74
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+		only_vassals = yes
+	}
+}
+king_administrative_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 73
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+		only_vassals = yes
+	}
+}
 king_administrative_male_byzantine_group = {
 	type = character
 	gender = male
@@ -1421,30 +1423,30 @@ king_administrative_female_roman = {
 		spouse_takes_title = no
 	}
 }
-#king_administrative_independent_male = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = kingdom
-#	priority = 106
-#	governments = { administrative_government }
-#
-#	flavourization_rules = {
-#		only_independent = yes
-#	}
-#}
-#king_administrative_independent_female = {
-#	type = character
-#	gender = female
-#	special = holder
-#	tier = kingdom
-#	priority = 106
-#	governments = { administrative_government }
-#
-#	flavourization_rules = {
-#		only_independent = yes
-#	}
-#}
+king_administrative_independent_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 106
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		only_independent = yes
+	}
+}
+king_administrative_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 106
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		only_independent = yes
+	}
+}
 king_administrative_independent_male_byzantine_group = {
 	type = character
 	gender = male

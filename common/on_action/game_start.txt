@@ -959,8 +959,8 @@ on_game_start_after_lobby = {
 					}
 					if = {
 						limit = {
-							character:900211 = {
-								NOT = { is_courtier_of = character:900210 }
+							character:castilian0248 = {
+								NOT = { is_courtier_of = character:900211 }
 							}
 						}
 						add_courtier = character:900211
