@@ -82,7 +82,7 @@
 	religion = menaph
 	holding = tribal_holding
 	9000.1.1 = {
-		special_building = ijil_mines_01
+		special_building_slot = ijil_mines_01
 	}
 }
 
