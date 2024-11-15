@@ -324,6 +324,7 @@
 	intrigue = 7
 	stewardship = 8
 	learning = 10
+	health = 4.8
 	trait = humble
     trait = just
     trait = zealous
@@ -2820,5 +2821,42 @@ misth046 = {
 	}
 	9168.1.1 = {
 		employer = 900117
+	}
+}
+
+misth047 = {
+	name = "Fistandantilus"
+	culture = misthalin
+	religion = zamorak
+	trait = deceitful
+	trait = stubborn
+	trait = ambitious
+	trait = education_learning_2
+	9140.1.1 = {
+		birth = yes
+	}
+	9169.1.1 = {
+		effect = {
+			imprison = {
+				target = character:900116
+				type = house_arrest
+			}
+		}
+	}
+}
+
+misth048 = {
+	name = "Zaromark"
+	culture = misthalin
+	religion = zamorak
+	trait = deceitful
+	trait = humble
+	trait = diligent
+	trait = education_martial_2
+	9140.1.1 = {
+		birth = yes
+	}
+	9169.1.1 = {
+		employer = misth047
 	}
 }

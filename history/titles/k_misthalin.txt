@@ -266,6 +266,10 @@ c_silvarea = {
 		holder = 900116
 		change_development_level = 7
 	}
+	9169.1.1 = {
+		liege = 0
+		holder = misth047
+	}
 }
 
 c_limestone = {
