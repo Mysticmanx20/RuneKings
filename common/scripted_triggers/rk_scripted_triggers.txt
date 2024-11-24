@@ -22,3 +22,27 @@ portrait_religious_african_trigger = {
         religion = religion:karamja_religion
     }
 }
+
+
+
+#buildings
+
+building_breweries_requirement = {
+	OR = {
+		AND = {
+			has_building_or_higher = temple_$NUMBER$
+			OR = {
+				culture = { has_same_culture_heritage = culture:misthalin }
+				culture = { has_same_culture_heritage = culture:dwarf }
+			}
+			
+		}
+		AND = {
+			has_building_or_higher = city_$NUMBER$
+			OR = {
+				culture = { has_same_culture_heritage = culture:misthalin }
+				culture = { has_same_culture_heritage = culture:dwarf }
+			}
+		}
+	}
+}
