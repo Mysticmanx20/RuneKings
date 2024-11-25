@@ -35,9 +35,9 @@
 	holding = castle_holding	
 }
 
-454 = {  #Kourend
-	religion = guthix
-	culture = dwarf
+454 = {  #Lovakengj
+	religion = saradomin
+	culture = imcando
 	holding = castle_holding	
 }
 

@@ -1066,3 +1066,13 @@ c_poisonisles:0 "Poison Wastes"
 b_eastwaste:0 "East Wastes"
 b_westwaste:0 "West Wastes"
 
+
+ d_nf_shayzien: "House $dynn_Shayzien$"
+ #d_nf_shayzien_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_lovak: "House $dynn_Lovak$"
+ 
+ d_nf_hosidius: "House $dynn_Hosidius$"
+
+ d_nf_arceuus: "House $dynn_Arceuus$"
+
+ d_nf_pisc: "House $dynn_Pisc$"

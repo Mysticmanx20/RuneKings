@@ -624,3 +624,28 @@
 	name = "dynn_Avlafrim"
 	culture = gnome
 }
+
+101021 = {
+	name = "dynn_Shayzien"
+	culture = asgarnia
+}
+
+101022 = {
+	name = "dynn_Lovak"
+	culture = imcando
+}
+
+101023 = {
+	name = "dynn_Arceuus"
+	culture = asgarnia
+}
+
+101024 = {
+	name = "dynn_Hosidius"
+	culture = asgarnia
+}
+
+101025 = {
+	name = "dynn_Pisca"
+	culture = asgarnia
+}

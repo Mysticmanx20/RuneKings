@@ -1,0 +1,51 @@
+
+d_nf_shayzien = { 
+	9168.1.1 = {
+		liege = k_kourend
+		holder = zeah004 # Shiro
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	
+}
+
+d_nf_lovak = { 
+	9168.1.1 = {
+		liege = k_kourend
+		holder = zeah005 #Vulcana
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	
+}
+
+d_nf_hosidius = { 
+	9168.1.1 = {
+		liege = k_kourend
+		holder = zeah001 #Kandur
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	
+}
+
+d_nf_arceuus = { 
+	9168.1.1 = {
+		liege = k_kourend
+		holder = zeah003 #Trobin
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	
+}
+
+d_nf_pisc = { 
+	9168.1.1 = {
+		liege = k_kourend
+		holder = zeah002 #Shauna
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	
+}
+

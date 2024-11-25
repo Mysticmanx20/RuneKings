@@ -1,18 +1,21 @@
 ﻿
 zeah001 = {
 	name= "Kandur"
-	#dynasty Hosidius
+	dynasty = 101024
 	religion = saradomin
 	culture = asgarnia
 	trait = education_diplomacy_3
-	9135.1.1 = {
+	9131.1.1 = {
 		birth = yes
+	}
+	9149.1.1 = {
+		add_spouse = zeah007
 	}
 }
 
 zeah002 = {
 	name= "Shauna"
-	#dynasty Pisc
+	dynasty = 101025
 	female = yes
 	religion = saradomin
 	culture = asgarnia
@@ -24,7 +27,7 @@ zeah002 = {
 
 zeah003 = {
 	name= "Trobin"
-	#dynasty Arceeus
+	dynasty = 101023
 	religion = saradomin
 	culture = asgarnia
 	trait = education_learning_3
@@ -35,7 +38,7 @@ zeah003 = {
 
 zeah004 = {
 	name= "Shiro"
-	#dynasty Shayzien
+	dynasty = 101021
 	religion = saradomin
 	culture = asgarnia
 	trait = education_martial_3
@@ -46,10 +49,10 @@ zeah004 = {
 
 zeah005 = {
 	name= "Vulcana"
-	#dynasty Lovakengj
+	dynasty = 101022
 	female = yes
-	religion = guthix
-	culture = dwarf
+	religion = saradomin
+	culture = imcando
 	trait = education_stewardship_3
 	9135.1.1 = {
 		birth = yes
@@ -66,5 +69,65 @@ zeah006 = {
 	trait = greedy
 	9135.1.1 = {
 		birth = yes
+	}
+}
+
+zeah007 = {
+	name = "Elena"
+	female = yes
+	dynasty = 101021
+	religion = saradomin
+	culture = asgarnia
+	trait = ambitious
+	trait = brave
+	trait = impatient
+	trait = education_martial_1
+	9132.1.1 = {
+		birth = yes
+	}
+	
+}
+
+zeah008 = {
+	name = "Artur"
+	dynasty = 101024
+	mother = zeah007
+	father = zeah001
+	religion = saradomin
+	culture = asgarnia
+	9149.6.1 = {
+		birth = yes
+	}
+
+}
+
+zeah009 = {
+	name = "Pandur"
+	dynasty = 101024
+	mother = zeah007
+	father = zeah001
+	religion = saradomin
+	culture = asgarnia
+	9149.12.1 = {
+		birth = yes
+	}
+}
+
+zeah010 = {
+	name = "Olivia"
+	female = yes
+	religion = saradomin
+	culture = asgarnia
+	trait = education_learning_2
+	9151.1.1 = {
+		birth = yes
+	}
+	9155.1.1 = {
+		employer = zeah001
+	}
+	9169.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:zeah008 } 	
+		}
 	}
 }
