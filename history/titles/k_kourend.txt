@@ -1,7 +1,20 @@
 ﻿
 
 k_kourend = {
-	9160.1.1 = {
+	8949.1.1 = {
+		holder = zeah014
+		government = feudal_government
+	}
+	8989.1.1 = {
+		holder = zeah013
+	}
+	9059.1.1 = {
+		holder = zeah012
+	}
+	9099.1.1 = {
+		holder = zeah011
+	}
+	9149.1.1 = {
 		holder = zeah006
 	}
 	9168.1.1 = {

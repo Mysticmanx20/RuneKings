@@ -67,8 +67,24 @@ zeah006 = {
 	trait = education_diplomacy_2
 	trait = deceitful
 	trait = greedy
-	9135.1.1 = {
+	9121.1.1 = {
 		birth = yes
+	}
+	9149.1.1 = {
+		effect = {
+            add_secret={
+				type = secret_murder
+				target = character:zeah011		#kills Khardst IV
+			}
+        }
+	}
+	9149.6.1 = {
+		effect = {
+			imprison = {
+				target = character:zeah015
+				type = house_arrest
+			}
+		}
 	}
 }
 
@@ -128,6 +144,96 @@ zeah010 = {
 	9169.1.1 = {
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:zeah008 } 	
+		}
+	}
+}
+
+zeah011 = {
+	name = "Kharedst" #IV
+	religion = saradomin
+	culture = asgarnia
+	trait = compassionate
+	trait = generous
+	trait = humble
+	trait = education_diplomacy_3
+	9079.1.1 = {
+		birth = yes
+	}
+	9133.1.1 = {
+		add_spouse = zeah016
+	}
+	9149.1.1 = {
+		death = yes
+	}
+}
+
+zeah012 = {
+	name = "Kharedst"  #III
+	religion = saradomin
+	culture = asgarnia
+	9029.1.1 = {
+		birth = yes
+	}
+	9099.1.1 = {
+		death = yes
+	}
+}
+
+zeah013 = {
+	name = "Kharedst"  #II
+	religion = saradomin
+	culture = asgarnia
+	8969.1.1 = {
+		birth = yes
+	}
+	9039.1.1 = {
+		death = yes
+	}
+}
+
+zeah014 = {
+	name = "Kharedst"  #I
+	religion = saradomin
+	culture = asgarnia
+	8921.1.1 = {
+		birth = yes
+	}
+	8989.1.1 = {
+		death = yes
+	}
+}
+
+zeah015 = {
+	name = "Rose"
+	female = yes
+	religion = saradomin
+	culture = asgarnia
+	father = zeah011
+	mother = zeah016
+	trait = incapable
+	trait = dull
+	trait = reclusive
+	9138.1.1 = {
+		birth = yes
+	}
+	9149.6.1 = {
+		employer = zeah006
+	}
+
+}
+
+zeah016 = {
+	name = "Daphne"
+	female = yes
+	religion = saradomin
+	culture = asgarnia
+	9097.1.1 = {
+		birth = yes
+		employer = zeah012
+	}
+	9138.1.1 = {
+		death = {
+			death_reason = death_childbirth
 		}
 	}
 }

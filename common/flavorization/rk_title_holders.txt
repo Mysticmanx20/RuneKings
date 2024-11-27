@@ -321,11 +321,12 @@ kcouncil_male = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 47
+	priority = 107
 	titles = { c_kourend }
-	governments = { feudal_government }
+	governments = { administrative_government }
 	flavourization_rules = { 
-		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
 	}
 }
 
@@ -334,11 +335,12 @@ kcouncil_female = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 47
+	priority = 107
 	titles = { c_kourend }
-	governments = { feudal_government }
+	governments = { administrative_government }
 	flavourization_rules = { 
-		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
 	}
 }
 
@@ -703,5 +705,56 @@ duke_landless_adventurer_camp_brigands_female = {
 
 	flavourization_rules = {
 		spouse_takes_title = no
+	}
+}
+
+#Roads to Power - administrative realms
+count_administrative_kourend_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 28
+	governments = { administrative_government }
+	
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+count_administrative_kourend_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 28
+	governments = { administrative_government }
+	
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+duke_administrative_kourend_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+duke_administrative_kourend_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { administrative_government }
+
+	flavourization_rules = {
+		top_liege = no
 	}
 }

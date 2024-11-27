@@ -1,4 +1,4 @@
-﻿name_list_roman = {
+﻿name_list_asgarnian = {
 
 	cadet_dynasty_names = {
 		"dynn_Julio_Claudian"

@@ -70,7 +70,7 @@ asgarnia = {  #asgarnian
 		tradition_martial_admiration
 	}
 	
-	name_list = name_list_roman
+	name_list = name_list_asgarnian
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
