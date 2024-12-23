@@ -32,6 +32,11 @@
   f2p_decision_tooltip:0 "Form an empire over free-to-play lands"
   f2p_decision_confirm:0 "Establish the Free Players Empire"
 
+  eastsea_decision:0 "Establish the Eastern Sea Empire"
+  eastsea_decision_desc:0 "By controlling all of the islands within the Eastern Sea we can create a new realm, uniting the scattered isles into a powerful empire."
+  eastsea_decision_tooltip:0 "Form an empire across the Eastern Sea"
+  eastsea_decision_confirm:0 "Establish the Eastern Sea Empire"
+
   select_personal_deity_germanic_decision.select_tumeken:0 "Tumeken, God of the Sun"
   select_personal_deity_germanic_decision.select_elid:0 "Elidinis, Goddess of Fertility"
   select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"

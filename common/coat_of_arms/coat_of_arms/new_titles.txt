@@ -129,6 +129,46 @@ c_yanille={
 
 }
 
+e_eastsea={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 88 51 18 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_block_05.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			depth=1.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_african_ceremonial_mask.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.730000 0.730000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 194 194 194 }
+		texture="ce_block_05.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 1.000000 0.970000 }
+			depth=2.010000
+			rotation=311
+		}
+
+	}
+
+}
+
 
 
 e_free={

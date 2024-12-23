@@ -127,6 +127,12 @@ world_f2p = {
 	}
 }
 
+world_easternsea = {
+	duchies = {
+		d_harmless d_trouble d_braindeath 
+	}
+}
+
 
 world_europe_west_germania = {}
 world_europe_west_francia = {}

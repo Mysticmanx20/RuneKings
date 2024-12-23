@@ -234,3 +234,12 @@ e_free = {
 	no_automatic_claims = yes
 	can_be_named_after_dynasty = no
 }
+
+e_eastsea = {
+	color = { 64 43 15 }
+	capital = c_harmless
+	definite_form = yes
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+
+}

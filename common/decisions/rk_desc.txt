@@ -354,3 +354,70 @@ f2p_decision = {
 		base = 100
 	}
 }
+
+#Form eastern Sea Empire
+eastsea_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 60
+	desc = eastsea_decision_desc
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		capital_province = { geographical_region = world_easternsea }
+		highest_held_title_tier <= tier_kingdom
+
+		#Not repeatable.
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_eastsea_empire
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		is_independent_ruler = yes
+		
+		completely_controls_region = world_easternsea
+
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		save_scope_as = founder
+		gain_heroic_legend_seed_tooltip_effect = yes
+		hidden_effect = {
+			legend_seed_new_title_effect = yes
+		}
+
+		eastsea_scripted_effect = yes
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_eastsea_empire
+			}
+		}
+
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = {
+			factor = 0
+			NOT = { has_culture = culture:piratecul }
+		}
+	}
+}
