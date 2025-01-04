@@ -502,7 +502,11 @@
 	female = yes
 	culture = misthalin
 	religion = guthix
-	learning = 15
+	learning = 4
+	trait = content
+	trait = humble
+	trait = patient
+	trait = education_learning_4
 	9113.1.1 = {
 		birth = yes
 	}
