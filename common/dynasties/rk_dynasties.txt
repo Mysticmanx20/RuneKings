@@ -498,7 +498,6 @@
 }
 
 100996 = {
-	prefix = "dynnp_of"
 	name = "dynn_Fally"
 	culture = asgarnia
 }
@@ -648,4 +647,10 @@
 101025 = {
 	name = "dynn_Pisca"
 	culture = asgarnia
+}
+
+101026 = {
+	prefix = "dynnp_of"
+	name = "dynn_Lumbridge"
+	culture = misthalin
 }

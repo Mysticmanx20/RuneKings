@@ -11,6 +11,7 @@
 	# Horatio
 	character = {
 		name = "Duke Horatio"
+		dynasty = 101026
 		dynasty_splendor_level = 1
 		type = male
 		birth = 9139.1.1

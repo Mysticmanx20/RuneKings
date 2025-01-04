@@ -1,5 +1,6 @@
 ﻿900100 = {
 	name = "Horatio"
+	dynasty = 101026
 	religion = saradomin	
 	culture = misthalin
 	martial = 10
