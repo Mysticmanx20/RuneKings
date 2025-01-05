@@ -38,7 +38,7 @@
   eastsea_decision_confirm:0 "Establish the Eastern Sea Empire"
 
   elemental_workshop_decision:0 "Construct the Elemental Workshop"
-  elemental_workshop_decision_desc:0 "Old tomes make mention of a underground workshop near the village of the Seers. This workshop once existed to create special weapons and armor from a unique elemental ore. By studying the magical properties around this area it may be possible to reconstruct the Elemental Workshop and unlock it's secrets."
+  elemental_workshop_desc:0 "Old tomes make mention of a underground workshop near the village of the Seers. This workshop once existed to create special weapons and armor from a unique elemental ore. By studying the magical properties around this area it may be possible to reconstruct the Elemental Workshop and unlock it's secrets."
   elemental_workshop_decision_tooltip:0 "Unlock the secrets of the Elemental Workshop"
   elemental_workshop_decision_confirm:0 "Construct the Elemental Workship"
 
