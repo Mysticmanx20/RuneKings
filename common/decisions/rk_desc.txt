@@ -12,7 +12,7 @@
 
 		# Put conditions for the decision to show up here.
 		culture:misthalin = {
-		NOT = { has_cultural_tradition = tradition_gardening }
+			NOT = { has_cultural_tradition = tradition_gardening }
 		}
 
 		is_ruler = yes
@@ -45,7 +45,7 @@
 	}
 
 	cost = {
-		gold = 150
+		gold = 250
 	}
 
 
@@ -58,7 +58,8 @@
 		add_prestige = major_prestige_gain
 
 		province:11 = {
-			add_building = royal_garden_01
+			add_special_building_slot = royal_garden_01
+			add_special_building = royal_garden_01
 		}
 		
 
@@ -419,5 +420,77 @@ eastsea_decision = {
 			factor = 0
 			NOT = { has_culture = culture:piratecul }
 		}
+	}
+}
+
+#Elemental Workshop Quest
+elemental_workshop_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = elemental_workshop_desc
+
+	is_shown = {
+
+		OR = {
+			culture = culture:seer
+			culture = { has_cultural_tradition = tradition_sorcerous_metallurgy }
+		}
+		#not repeatable
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:elemental_workshop_decision
+			}
+		}
+	}
+
+	is_valid = {
+		learning >= 10
+		completely_controls = title:c_seers
+		title:b_seers.county = {
+			development_level >= 15
+		}
+	}
+
+	is_valid_showing_failures_only = {
+        is_available_adult = yes
+        is_at_war = no
+		is_imprisoned = no
+	}
+
+
+	effect = {
+
+		culture:seer = {
+			add_culture_tradition = tradition_sorcerous_metallurgy
+		}
+
+		province:180 = {
+			add_special_building_slot = element_workshop_01
+			add_special_building = element_workshop_01
+		}
+		add_prestige = medium_prestige_gain
+
+		#Events
+		
+		#Event to every player (east_europe.0017) is actually send through east_europe.0016 to make sure the right holy site scope is set
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:elemental_workshop_decision
+		}
+	}
+
+	cost = { gold = { value = 200 } }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
 	}
 }

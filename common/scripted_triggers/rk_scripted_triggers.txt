@@ -46,3 +46,7 @@ building_breweries_requirement = {
 		}
 	}
 }
+
+building_element_requirement = {
+	culture = { has_cultural_tradition = tradition_sorcerous_metallurgy }
+}

@@ -845,7 +845,7 @@ house_drakan={
 
 101026={
 	pattern="pattern_solid.dds"
-	color1=rgb { 14 44 72 }
+	color1=rgb { 0 8 53 }
 	color2=blue
 	color3=yellow
 	colored_emblem={
@@ -853,13 +853,14 @@ house_drakan={
 		color2=yellow
 		texture="ce_ordinary_pile_inverted.dds"
 		instance={
-			position={ 0.500000 0.300000 }
-			scale={ 0.760000 -0.780000 }
+			position={ 0.500000 0.180000 }
+			scale={ 0.790000 -0.790000 }
 		}
 
 	}
 
 }
+
 
 100996={
 	custom=yes

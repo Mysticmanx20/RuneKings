@@ -105,3 +105,34 @@ ectofuntus_01 = {
 
 	flag = travel_point_of_interest_wonder
 }
+
+#Elemental Workshop
+element_workshop_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	is_enabled = {
+		building_element_requirement = yes
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.1
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+	}
+	
+	#next_building = element_workshop_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}

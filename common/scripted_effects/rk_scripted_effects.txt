@@ -216,3 +216,4 @@ steal_gold_failure_effect = {
 	}
 
 }
+

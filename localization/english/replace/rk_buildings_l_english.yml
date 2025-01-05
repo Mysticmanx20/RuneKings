@@ -59,3 +59,7 @@
  building_type_ectofuntus_01_desc:0 "The Ectofuntus is a temple erected above a pool of ectoplasm, and contains a ghastly fountain filled with slime and bones, emitting an unholy magical power."
  building_ectofuntus_01:0 "$building_type_ectofuntus_01$"
  building_ectofuntus_01_desc:0 "$building_type_ectofuntus_01_desc$"
+ building_type_element_workshop_01:1 "Small Elemental Workshop"
+ building_type_element_workshop_01_desc:0 "Hidden away underneath the land, this small workshop is used to forge various kinds of magically-enhanced armor."
+ building_element_workshop_01:0 "$building_type_element_workshop_01$"
+ building_element_workshop_01_desc:0 "$building_type_element_workshop_01_desc$"
