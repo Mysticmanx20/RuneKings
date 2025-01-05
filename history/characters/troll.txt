@@ -201,9 +201,15 @@ troll016 = {
 	name = "Wolfbone"
 	culture = icetroll
 	religion = bandos
-	trait = education_learning_2
+	diplomacy = 9
+	trait = honest
+	trait = education_diplomacy_2
 	9133.1.1 = {
 		birth = yes
+	}
+	9163.1.1 = {
+		employer = troll013
+		give_council_position = councillor_chancellor
 	}
 }
 
@@ -231,7 +237,7 @@ troll018 = {
 troll019 = {
 	name = "Branch"
 	religion = bandos
-	culture = troll
+	culture = icetroll
 	9134.1.1 = {
 		birth = yes
 	}
@@ -239,5 +245,35 @@ troll019 = {
 		effect = {
 			add_visiting_courtier = character:gnome022
 		}
+	}
+}
+
+troll020 = {
+	name = "Odd Mushroom"
+	religion = bandos
+	culture = icetroll
+	trait = education_learning_4
+	trait = compassionate
+	9134.1.1 = {
+		birth = yes
+	}
+	9163.1.1 = {
+		employer = troll013
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+troll021 = {
+	name = "Don't Know What"
+	religion = bandos
+	culture = icetroll
+	martial = 10
+	trait = education_martial_3
+	9149.1.1 = {
+		birth = yes
+	}
+	9163.1.1 = {
+		employer = troll013
+		give_council_position = councillor_marshal
 	}
 }
