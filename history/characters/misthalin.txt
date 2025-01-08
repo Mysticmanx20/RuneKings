@@ -1535,11 +1535,15 @@
     female = yes
     culture = misthalin
     religion = saradomin
+	trait = generous
+	trait = diligent
+	trait = education_martial_2
     9142.1.1 = {
         birth = yes
     }
 	9161.1.1 = {
 		employer = 900118
+		give_council_position = councillor_marshal
 	}
 }
 
@@ -1649,11 +1653,15 @@
     female = yes
     culture = misthalin
     religion = saradomin
+	trait = honest
+	trait = education_diplomacy_3
+	trait = zea
     9137.1.1 = {
         birth = yes
     }
 	9161.1.1 = {
 		employer = 900118
+		give_council_position = councillor_chancellor
 	}
 }
 
