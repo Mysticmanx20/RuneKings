@@ -34,10 +34,19 @@ widget = {
 			alpha = 0
 		}
 
+		#RK
+		video_icon = {
+			name = "main_menu_background"
+			video = "gfx/interface/illustrations/loading_screens/ScapeMain.bk2"
+			size = { 100% 100% }
+			loop = yes
+			restart_on_show = yes
+		}
+
 		icon = {
 			parentanchor = center
 			size = { 100% 100% }
-			texture = "[FrontEndMainView.GetBackground]"
+			#texture = "[FrontEndMainView.GetBackground]"
 
 			modify_texture = {
 				name = "fade"
