@@ -166,3 +166,15 @@ c_piratecove = {
 		change_development_level = 4
 	}
 }
+
+k_iceberg = {
+	9168.1.1 = {
+		holder = frem030
+	}
+}
+
+d_iceberg = {
+	9168.1.1 = {
+		holder = frem030
+	}
+}

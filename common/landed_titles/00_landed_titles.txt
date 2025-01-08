@@ -4914,6 +4914,52 @@ e_fremennik = {
 			}
 		}
 	}
+
+	k_iceberg = {
+		color = { 0 0 70}
+		capital = c_southice
+		definite_form = yes
+
+		d_iceberg = {
+			color = { 0 0 70 }
+			capital = c_southice
+			definite_form = yes
+
+			c_southice = {
+				color = { 0 51 100}
+
+				b_eastice = {
+					color = {0 51 100 }
+					province = 576
+				}
+
+				b_southice = { 
+					color = { 0 0 70}
+					province = 575
+				}
+
+				b_westice = {
+					color= {0 107 102 }
+					province = 577
+				}
+
+			}
+
+			c_northice = {
+				color= { 0 0 255 }
+
+				b_northice = {
+					color= { 0 0 255}
+					province = 578
+				}
+
+				b_farnorth = { 
+					color= { 0 155 255 }
+					province = 579
+				}
+			}
+		}
+	}
 		
 	k_lunar = {
 		color = { 107 170 130 }

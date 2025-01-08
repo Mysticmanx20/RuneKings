@@ -169,7 +169,33 @@
 	holding = tribal_holding
 }
 
+575 = {
+	religion = godless
+	culture = goblin
+	holding = none
+}
 
+576 = {
+	religion = godless
+	culture = goblin
+	holding = castle_holding
+}
 
+577 = {
+	religion = godless
+	culture = goblin
+	holding = none
+}
 
+578 = {
+	religion = godless
+	culture = goblin
+	holding = castle_holding
+}
+
+579 = {
+	religion = godless
+	culture = goblin
+	holding = none
+}
 

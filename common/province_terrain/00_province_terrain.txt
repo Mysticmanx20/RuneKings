@@ -575,4 +575,9 @@ default_coastal_sea=coastal_sea
 572=forest
 573=forest
 574=forest
+575=taiga
+576=mountains
+577=mountains
+578=taiga
+579=hills
 
