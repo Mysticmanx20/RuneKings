@@ -492,6 +492,31 @@ karamja = {   # Karamjan
 	}
 }
 
+penguin = {     # Penguin
+	color = { 0.64 0.64 0.82 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_penguin
+	language = language_penguin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_winter_warriors
+		tradition_seafaring
+		tradition_fishermen
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}
+
 goblin = {     # Goblin
 	color = { 0.26 0.57 0.17 }
 	

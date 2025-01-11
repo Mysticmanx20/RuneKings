@@ -171,31 +171,31 @@
 
 575 = {
 	religion = godless
-	culture = goblin
+	culture = penguin
 	holding = none
 }
 
 576 = {
 	religion = godless
-	culture = goblin
+	culture = penguin
 	holding = castle_holding
 }
 
 577 = {
 	religion = godless
-	culture = goblin
+	culture = penguin
 	holding = none
 }
 
 578 = {
 	religion = godless
-	culture = goblin
+	culture = penguin
 	holding = castle_holding
 }
 
 579 = {
 	religion = godless
-	culture = goblin
+	culture = penguin
 	holding = none
 }
 

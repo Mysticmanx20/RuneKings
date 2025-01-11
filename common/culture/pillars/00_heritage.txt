@@ -18,6 +18,11 @@ heritage_fren = {
 	audio_parameter = european
 }
 
+heritage_penguin = {
+	type = heritage
+	audio_parameter = european
+}
+
 heritage_bandos = {
 	type = heritage
 	audio_parameter = mena

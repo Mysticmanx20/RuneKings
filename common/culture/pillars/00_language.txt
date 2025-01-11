@@ -163,6 +163,24 @@ language_karamja = {
 	color = kru
 }
 
+language_penguin = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_penguin
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_penguin }
+			multiply = 10
+		}
+	}
+	
+	color = russian
+}
+
 language_monkey = {
 	type = language
 	is_shown = {
