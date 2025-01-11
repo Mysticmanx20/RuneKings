@@ -239,6 +239,8 @@ frem018 = {
 	religion = v
 	culture = fremennik
 	trait = education_diplomacy_2
+	trait = arrogant
+	trait = callous
 	9139.1.1 = {
 		birth = yes
 	}
@@ -249,7 +251,8 @@ frem019 = {
 	religion = v
 	culture = fremennik
 	trait = education_stewardship_3
-	9139.1.1 = {
+	trait = brave
+	9134.1.1 = {
 		birth = yes
 	}
 }
@@ -409,6 +412,35 @@ frem030 = {
 	trait = ambitious
 	trait = education_martial_2
 	9149.1.1 = {
+		birth = yes
+	}
+}
+
+frem031 = {
+	name = "Astrid"
+	female = yes
+	father = frem019
+	religion = v
+	culture = fremennik
+	trait = lifestyle_hunter
+	trait = arrogant
+	trait = education_martial_2
+	9153.1.1 = {
+		birth = yes
+	}
+}
+
+frem032 = {
+	name = "Brand"
+	father = frem019
+	religion = v
+	culture = fremennik
+	trait = gregarious
+	trait = poet
+	trait = arrogant
+	trait = gluttonous
+	trait = education_diplomacy_1
+	9153.1.1 = {
 		birth = yes
 	}
 }
