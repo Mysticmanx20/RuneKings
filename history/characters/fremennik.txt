@@ -193,6 +193,8 @@ frem014 = {
 	#Godblessed
 	religion = v
 	culture = fremennik
+	trait = humble
+	trait = diligent
 	trait = education_learning_2
 	9134.1.1 = {
 		birth = yes
@@ -200,11 +202,14 @@ frem014 = {
 }
 
 frem015 = {
-	name = "Connad"
+	name = "Cain"
 	dynasty = 8007
 	religion = v
 	culture = fremennik
-	trait = education_martial_2
+	trait = education_martial_3
+	trait = wrathful
+	trait = callous
+	trait = just
 	9139.1.1 = {
 		birth = yes
 	}
@@ -217,6 +222,9 @@ frem016 = {
 	religion = v
 	culture = fremennik
 	trait = education_stewardship_1
+	trait = arrogant
+	trait = impatient
+	trait = paranoid
 	9139.1.1 = {
 		birth = yes
 	}
@@ -227,6 +235,9 @@ frem017 = {
 	#Burowgar
 	religion = v
 	culture = fremennik
+	trait = humble
+	trait = forgiving
+	trait = just
 	trait = education_diplomacy_1
 	9139.1.1 = {
 		birth = yes
@@ -252,8 +263,12 @@ frem019 = {
 	culture = fremennik
 	trait = education_stewardship_3
 	trait = brave
+	trait = ambitious
 	9134.1.1 = {
 		birth = yes
+	}
+	9168.1.1 = {
+		set_relation_rival = { target = character:frem018 reason = rival_historical }
 	}
 }
 
@@ -263,6 +278,8 @@ frem020 = {
 	female = yes
 	religion = guthix
 	culture = moonclan
+	trait = patient
+	trait = honest
 	trait = education_learning_4
 	9139.1.1 = {
 		birth = yes
@@ -274,6 +291,9 @@ frem021 = {
 	#Bentley
 	religion = godless
 	culture = piratecul
+	trait = greedy
+	trait = ambitious
+	trait = arbitrary
 	trait = education_stewardship_2
 	9139.1.1 = {
 		birth = yes
@@ -458,5 +478,65 @@ frem033 = {
 	9168.1.1 = {
 		employer = frem019
 		give_council_position = councillor_chancellor
+	}
+}
+
+frem034 = {
+	name = "Slug"
+	religion = v
+	culture = fremennik
+	trait = education_intrigue_4
+	trait = deceitful
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = frem016
+		give_council_position = councillor_spymaster
+	}
+}
+
+frem035 = {
+	name = "Thorkel"
+	religion = v
+	culture = fremennik
+	trait = education_diplomacy_4
+	trait = honest
+	9139.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = frem016
+		give_council_position = councillor_chancellor
+	}
+}
+
+frem036 = {
+	name = "Fridleif"
+	religion = v
+	culture = fremennik
+	trait = education_martial_4
+	trait = brave
+	9140.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = frem017
+		give_council_position = councillor_marshal
+	}
+}
+
+frem037 = {
+	name = "Thakkrad"
+	religion = v
+	culture = fremennik
+	trait = education_stewardship_3
+	trait = diligent
+	9138.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = frem017
+		give_council_position = councillor_steward
 	}
 }
