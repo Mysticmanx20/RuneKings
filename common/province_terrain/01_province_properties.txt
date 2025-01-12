@@ -25,6 +25,42 @@
 ##################
 # WINTER VALUES
 ##################
+575 ={
+	winter_severity_bias = 1.0
+}
+576 ={
+	winter_severity_bias = 1.0
+}
+577 ={
+	winter_severity_bias = 1.0
+}
+578 ={
+	winter_severity_bias = 1.0
+}
+579 ={
+	winter_severity_bias = 1.0
+}
+349 ={
+	winter_severity_bias = 0.90
+}
+345 ={
+	winter_severity_bias = 0.95
+}
+354 ={
+	winter_severity_bias = 0.90
+}
+355 ={
+	winter_severity_bias = 0.90
+}
+356 ={
+	winter_severity_bias = 0.90
+}
+357 ={
+	winter_severity_bias = 0.90
+}
+358 ={
+	winter_severity_bias = 0.85
+}
 
 
 ##################

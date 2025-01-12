@@ -444,3 +444,19 @@ frem032 = {
 		birth = yes
 	}
 }
+
+frem033 = {
+	name = "Ghrim"
+	religion = v
+	culture = fremennik
+	trait = education_diplomacy_3
+	trait = content
+	trait = honest
+	9121.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = frem019
+		give_council_position = councillor_chancellor
+	}
+}

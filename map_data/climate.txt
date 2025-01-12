@@ -1,8 +1,14 @@
-#Example: Most of Europe north of med.
-mild_winter = {}
+#Example: Most human kingdoms
+mild_winter = {
 
-#Example: Inland Europe & Scandinavia
-normal_winter = {}
+}
 
-#Example: Russia & Lappland
-severe_winter = {}
+#Example: Mountains & Fremennik
+normal_winter = {
+
+}
+
+#Example: Northern Mountains & Iceberg
+severe_winter = {
+	575 576 577 578 579 345 349 354 355 356 357 358
+}

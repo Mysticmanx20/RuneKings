@@ -43,3 +43,7 @@ rk_silverlight = {
 	martial = 2
 	monthly_piety = 0.5
 }
+
+rk_balmung = {
+	martial = 3
+}
