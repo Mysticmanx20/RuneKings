@@ -96,7 +96,7 @@ health.0001 = {
 			}
 		}
 		send_interface_toast = {
-#			type = event_court_physician_good
+			type = event_court_physician_good
 			title = health.0001.desc
 
 			remove_trait = wounded_1
@@ -306,7 +306,7 @@ health.0100 = {
 		if = {
 			limit = { exists = scope:court_physician }
 			send_interface_toast = {
-	#			type = event_court_physician_good
+				type = event_court_physician_good
 				left_icon = scope:court_physician
 				title = health.wounded_1_success
 
@@ -599,7 +599,7 @@ health.0201 = {
 			}
 			#Notification message if you're already being treated for wounds
 			send_interface_toast = {
-#				type = event_court_physician_bad
+				type = event_court_physician_bad
 				title = health.0201.desc
 				left_icon = scope:physician
 
@@ -793,7 +793,7 @@ health.0203 = {
 			}
 			#Notification message if you're already being treated for wounds
 			send_interface_toast = {
-#				type = event_court_physician_bad
+				type = event_court_physician_bad
 				title = health.0203.desc
 				left_icon = scope:physician
 
@@ -1558,7 +1558,7 @@ health.1003 = {
 		modifier = {
 			has_trait = gluttonous
 			factor = 1.2
-
+		}
 		modifier = {
 			health >= good_health
 			factor = 0.5
@@ -11327,7 +11327,7 @@ health.6203 = {
 				trigger = {
 					any_scheme = {
 						scheme_type = murder
-						scheme_target = scope:incapable_person
+						scheme_target_character = scope:incapable_person
 					}
 				}
 				desc = health.6203.desc_murder
