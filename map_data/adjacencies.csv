@@ -26,4 +26,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 515;364;sea;376;-1;-1;-1;-1;BlueteamBridge
 518;365;sea;376;-1;-1;-1;-1;RedteamBridge
 510;511;sea;386;-1;-1;-1;-1;BraindeathBridge
+348;353;sea;403;-1;-1;-1;-1;MiscEctBridge
+580;575;sea;403;-1;-1;-1;-1;IceStepstones
 -1;-1;;-1;-1;-1;-1;-1;

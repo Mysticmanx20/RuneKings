@@ -48,9 +48,15 @@ island_region_crash = {
 	}
 }
 
-island_region_pest = {
-	duchies = {
-		d_voidknight
+island_region_northpest = {
+	counties = {
+		c_voidout
+	}
+}
+
+island_region_southpest = {
+	counties = {
+		c_pestisle
 	}
 }
 
@@ -88,8 +94,57 @@ island_region_pirate = {
 }
 
 island_region_mos = {
+	counties = {
+		c_harmless 
+		c_westjungle
+		c_moscave
+		c_trouble
+		c_southtrouble
+		c_eastjungle
+	}
+}
+
+island_region_ice = {
 	duchies = {
-		d_harmless
-		d_trouble
+		d_iceberg
+	}
+}
+
+island_region_harmony = {
+	counties = {
+		c_harmony
+	}
+}
+
+island_region_braindeath = {
+	duchies = {
+		d_braindeath
+	}
+}
+
+island_region_tyras = {
+	provinces = { 439 }
+}
+
+island_region_posionwaste = {
+	counties = {
+		c_poisonisles
+	}
+}
+
+island_region_zulrah = {
+	provinces = { 555 }
+}
+
+island_region_zeah = {
+	duchies = {
+		d_kourend
+		d_wintertodt
+		d_portpisc
+		d_shayzien
+		d_woodlands
+		d_hos
+		d_lova
+		d_arceus
 	}
 }
