@@ -178,7 +178,7 @@
 576 = {
 	religion = godless
 	culture = penguin
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 577 = {
@@ -190,7 +190,7 @@
 578 = {
 	religion = godless
 	culture = penguin
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 579 = {
@@ -199,3 +199,20 @@
 	holding = none
 }
 
+580 = {
+	religion = godless
+	culture = penguin
+	holding = none
+}
+
+581 = {
+	religion = godless
+	culture = penguin
+	holding = none
+}
+
+582 = {
+	religion = godless
+	culture = penguin
+	holding = tribal_holding
+}

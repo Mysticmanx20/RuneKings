@@ -1078,6 +1078,10 @@ b_westice:0 "West Glacier"
 b_eastice:0 "East Glacier"
 b_northice:0 "North Iceberg"
 b_farnorth:0 "Upper Ice Sheet"
+c_penghunt:0 "East Iceburg"
+b_eastpengu:0 "East Iceburg"
+b_penghunt:0 "Ice Flat"
+b_westpengu:0 "Ice Shelf"
 
 
  d_nf_shayzien: "House $dynn_Shayzien$"

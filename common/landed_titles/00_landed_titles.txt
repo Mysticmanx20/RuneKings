@@ -4958,6 +4958,26 @@ e_fremennik = {
 					province = 579
 				}
 			}
+
+			c_penghunt = {
+				color = { 27 36 199}
+
+				b_eastpengu = {
+					color = { 27 87 75}
+					province = 582
+				}
+
+				b_penghunt = {
+					color = { 27 36 199}
+					province = 581
+				}
+
+				b_westpengu = {
+					color = { 27 68 75}
+					province = 580
+				}
+
+			}
 		}
 	}
 		
