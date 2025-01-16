@@ -11919,7 +11919,7 @@ steal_gold_scheme_prep_effect = {
 	save_scope_as = scheme
 	save_scope_value_as = {
 		name = follow_up_event
-		value = event_id:scheme_critical_moments.1212
+		value = event_id:steal_gold_crit_moments.1212
 	}
 	
 	if = {
@@ -15938,22 +15938,24 @@ steal_back_artifact_success_effect = {
 			}
 		}
 	}
-	if = {
-		limit = {
-			scope:owner = {
-				any_character_task_contract = {
-					has_task_contract_type = laamp_steal_artifact_contract
-					var:task_contract_target ?= scope:target
+	hidden_effect = {
+		if = {
+			limit = {
+				scope:owner = {
+					any_character_task_contract = {
+						has_task_contract_type = laamp_steal_artifact_contract
+						var:task_contract_target ?= scope:target
+					}
 				}
 			}
-		}
-		scope:owner = {
-			random_character_task_contract = {
-				limit = {
-					has_task_contract_type = laamp_steal_artifact_contract
-					var:task_contract_target ?= scope:target
+			scope:owner = {
+				random_character_task_contract = {
+					limit = {
+						has_task_contract_type = laamp_steal_artifact_contract
+						var:task_contract_target ?= scope:target
+					}
+					complete_task_contract = success_standard
 				}
-				complete_task_contract = success_standard
 			}
 		}
 	}

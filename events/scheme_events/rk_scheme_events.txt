@@ -1,9 +1,9 @@
 ﻿#Events handling Stealing gold outcomes
 
-namespace = steal_gold_outcome
+namespace = steal_gold_crit_moments
 
 #	Results event for the steal gold scheme.
-scheme_critical_moments.1212 = {
+steal_gold_crit_moments.1212 = {
 	hidden = yes
 
 	immediate = {
@@ -36,127 +36,3 @@ scheme_critical_moments.1212 = {
 }
 
 
-#Outcomes for steal gold scheme
-# Generic successful heist notification event to scheme owner
-steal_gold_outcome.1001 = {
-	type = character_event
-	window = scheme_successful_event
-	title = steal_gold_outcome.1001.t
-	desc = steal_gold_outcome.1001.desc
-	theme = generic_intrigue_scheme
-	left_portrait = {
-		character = scope:owner
-		animation = happiness
-	}
-	right_portrait = scope:target
-
-
-	widget = {
-		gui = "event_window_widget_scheme"
-		container = "custom_widgets_container"
-	}
-	
-	immediate = {
-		if = {
-			limit = { exists = scope:target.capital_province }
-			set_local_variable = {
-				name = location
-				value = scope:target.capital_province
-			}
-		}
-		else_if = {
-			limit = { exists = scope:target.location }
-			set_local_variable = {
-				name = location
-				value = scope:target.location
-			}
-		}
-
-		root = { 
-			send_interface_message = {
-				type = event_intrigue_good
-				title = steal_gold_success_message
-				right_icon = scope:target
-			}
-		}
-	}
-
-	option = {
-		name = steal_gold_outcome.1001.a
-		steal_gold_success_effect = yes
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-
-		scope:target = {
-			trigger_event = steal_gold_outcome.1002 #Notify target that stuff's stolen
-		}
-	}
-}
-
-# Generic successful heist notification event to scheme target
-steal_gold_outcome.1002 = {
-	type = character_event
-	title = steal_gold_outcome.1002.t
-	desc = steal_gold_outcome.1002.desc
-	theme = generic_intrigue_scheme
-	left_portrait = scope:target
-
-	option = {
-		name = steal_gold_outcome.1002.a
-
-		show_as_tooltip = { 
-			scope:target = {
-				remove_short_term_gold = medium_treasury_value
-			}
-		}
-	}
-}
-
-#################################
-# Negative Outcomes
-# 2000-2999
-#################################
-
-#
-steal_gold_outcome.2001 = {
-	type = character_event
-	window = scheme_failed_event
-	title = steal_gold_outcome.2001.t
-	desc = steal_gold_outcome.2001
-	theme = generic_intrigue_scheme
-
-	left_portrait = {
-		character = scope:owner
-		animation = dismissal
-	}
-	lower_right_portrait = scope:target
-
-	widget = {
-		gui = "event_window_widget_scheme"
-		container = "custom_widgets_container"
-	}
-
-	trigger = {
-		NOT = {
-			has_character_flag = had_steal_gold_outcome_2001
-		}
-	}
-
-	immediate = {
-		add_character_flag = {
-			flag = had_steal_gold_outcome_2001
-			years = 5
-		}
-	}
-
-	option = {
-		name = steal_gold_outcome.2001.a
-
-		steal_gold_failure_effect = yes
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-}
