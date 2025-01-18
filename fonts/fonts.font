@@ -193,7 +193,7 @@ fontfiles = {
 
 	group = {
 		languages = { "l_english" "l_french" "l_german" "l_spanish" }
-		files = { "fonts/mapfont/RuneScape-Quill-Caps.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
+		files = { "fonts/mapfont/arialbd.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
 	}
 
 	group = {
@@ -211,6 +211,39 @@ fontfiles = {
 		files = { "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/mapfont/Paradox_King_Script.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" }
 	}
 }
+
+#RuneScape font
+fontfiles = {
+	name = "RuneScript"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" }
+		files = { "fonts/mapfont/osrs-chat.otf"  }
+	}
+
+}
+fontfiles = {
+	name = "RuneScript_Bold"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" }
+		files = { "fonts/mapfont/osrs-chat-bold.otf"  }
+	}
+
+}
+fontfiles = {
+	name = "RuneScript_NPC"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" }
+		files = { "fonts/mapfont/osrs-npc-chat.otf"  }
+	}
+
+}
+
 
 #######################################################################
 #######################################################################
@@ -236,16 +269,30 @@ font = {
 		style = regular
 		fontfiles = "Gitan-Regular"
 	}
+	fontstyle = {
+		style = regular
+		fontfiles = "RuneScript_bold"
+	}
 
 	fontstyle = {
 		style = bold
 		fontfiles = "Gitan-Bold"
 	}
+	# fontstyle = {
+	# 	style = bold
+	# 	fontfiles = "RuneScript_Bold"
+	# }
+
 
 	fontstyle = {
 		style = italic
 		fontfiles = "Gitan-Italic"
 	}
+	# fontstyle = {
+	# 	style = italic
+	# 	fontfiles = "RuneScript_NPC"
+	# }
+
 
 	fontstyle = {
 		style = bold|italic
