@@ -1,0 +1,48 @@
+﻿
+583 = { 
+	religion = saradomin
+	culture = ghost
+	holding = tribal_holding
+}
+
+584 = { 
+	religion = saradomin
+	culture = ghost
+	holding = none
+}
+
+585 = { 
+	religion = saradomin
+	culture = misthalin
+	holding = tribal_holding
+}
+
+586 = { 
+	religion = godless
+	culture = ghost
+	holding = tribal_holding
+}
+
+587 = { 
+	religion = godless
+	culture = ghost
+	holding = tribal_holding
+}
+
+588 = { 
+	religion = godless
+	culture = ghost
+	holding = tribal_holding
+}
+
+589 = { 
+	religion = jas
+	culture = dragon
+	holding = tribal_holding
+}
+
+590 = { 
+	religion = jas
+	culture = dragon
+	holding = castle_holding
+}

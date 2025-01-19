@@ -4478,6 +4478,22 @@ e_morytania = {
 		
 	}
 
+}
+
+e_easternsea = {
+	color = { 194 181 0}
+	capital = c_harmless
+	definite_form = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:piratecul
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
 	k_harmless = {
 		color = { 194 181 0}
 		capital = c_harmless
@@ -4655,6 +4671,84 @@ e_morytania = {
 				b_brainvolcano = {
 					color = { 223 211 87 }
 					province = 388
+				}
+			}
+		}
+	}
+
+	k_fossil = {
+		color = { 101 47 0 }
+		capital = c_basecamp
+
+		d_fossil = {
+			color = { 101 47 0}
+			capital = c_basecamp 
+
+			c_basecamp = {
+				color = { 101 47 0}
+
+				b_basecamp = {
+					color = { 101 47 0}
+					province = 585
+				}
+			}
+
+			c_mushfor = {
+				color = { 178 169 102}
+
+				b_mushfor = {
+					color = { 178 169 102}
+					province = 586
+				}
+			}
+
+			c_tarswamp = {
+				color = { 19 66 44}
+
+				b_tarswamp = {
+					color = { 19 66 44}
+					province = 587
+				}
+			}
+
+			c_fossilvol = {
+				color = { 246 207 14 }
+
+				b_fossilvol = {
+					color = { 246 207 14}
+					province = 588
+				}
+			}
+
+			c_hillhouse = {
+				color = { 96 96 88}
+
+				b_hillhouse = {
+					color = { 96 96 88}
+					province = 589
+				}
+			}
+
+			c_lithkren = {
+				color = { 102 0 0}
+
+				b_lithkren = {
+					color = { 102 0 0}
+					province = 590
+				}
+			}
+
+			c_dtooth = {
+				color = { 182 255 141}
+
+				b_dtooth = {
+					color = { 182 255 141}
+					province = 583
+				}
+
+				b_dtoothlow = {
+					color = { 255 255 141}
+					province = 584
 				}
 			}
 		}

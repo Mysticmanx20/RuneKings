@@ -24,6 +24,7 @@ sea_zones = RANGE { 421 428 }
 
 sea_zones = RANGE { 368 381 } #Eastern Sea
 sea_zones = LIST { 386 }
+sea_zones = RANGE { 591 600 }
 
 sea_zones = RANGE { 402 415 } #Lunar Sea
 
