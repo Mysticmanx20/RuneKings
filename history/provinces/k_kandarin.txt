@@ -522,3 +522,27 @@
 	holding = none
 }
 
+601 = { 
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+602 = { 
+	religion = saradomin
+	culture = kandarin
+	holding = castle_holding
+}
+
+603 = { 
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+
+604 = { 
+	religion = saradomin
+	culture = kandarin
+	holding = none
+}
+

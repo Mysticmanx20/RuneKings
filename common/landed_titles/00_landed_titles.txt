@@ -2346,7 +2346,37 @@ e_kandarin = {
 					color ={84 0 104}
 					province = 207
 				}
+
+				b_slugcave = {
+					color= { 80 46 104 }
+					province = 603
+				}
+
+				b_witchforest = {
+					color= { 51 0 104}
+					province = 604
+				}
 			}
+
+			c_platform = {
+				color = { 70 32 12 }
+
+				b_lowplatform = {
+					color= { 70 32 12}
+					province = 602
+				}
+
+				b_upperplatform = {
+					color= { 99 44 16}
+					province = 601
+				}
+			}
+
+		}
+
+		d_legends = {
+			color= { 40 168 215 }
+			capital = c_legends
 
 			c_legends = {
 				color ={40 168 215 }

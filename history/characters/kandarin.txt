@@ -1394,3 +1394,15 @@ kand107 = {
 	}
 
 }
+
+kand108 = {
+	name = "Bailey"
+	culture = kandarin
+	religion = saradomin
+	trait = stubborn
+	trait = temperate
+	trait = education_stewardship_3
+	9136.1.1 = {
+		birth = yes
+	}
+}

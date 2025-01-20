@@ -431,7 +431,7 @@ c_witchaven = {
 	9163.1.1 = {
 		liege = 0
 		holder = kand060
-		change_development_level = 9
+		change_development_level = 5
 	}
 }
 
@@ -563,6 +563,14 @@ c_zmi = {
 		liege = 0
 		holder = kand087
 		change_development_level = 3
+	}
+}
+
+c_platform = {
+	9165.1.1 = {
+		liege = 0
+		holder = kand108
+		change_development_level = 7
 	}
 }
 

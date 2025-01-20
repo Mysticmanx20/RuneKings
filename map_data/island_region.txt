@@ -27,6 +27,12 @@ island_region_tutorial = {
 	}
 }
 
+island_region_fishplatform = {
+	counties = {
+		c_platform
+	}
+}
+
 island_region_karamja = {
 	duchies = {
 		d_brimhaven
