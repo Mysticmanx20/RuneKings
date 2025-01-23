@@ -81,18 +81,18 @@
 		# Countermeasures.
 		apply_calculated_scheme_success_chance_adjustments_modifier = yes
 
-		# # Contract
-		# modifier = {
-		# 	scope:owner = {
-		# 		any_character_task_contract = {
-		# 			has_task_contract_type = laamp_steal_artifact_contract
-		# 			var:task_contract_target ?= scope:target
-		# 		}
-		# 	}
-		# 	desc = CONTRACTED_THIEF_DESC
-		# 	add = 25
-		# }
-		# house_head_request_interaction
+		# Contract
+		modifier = {
+			scope:owner = {
+				any_character_task_contract = {
+					has_task_contract_type = laamp_steal_artifact_contract
+					var:task_contract_target ?= scope:target
+				}
+			}
+			desc = CONTRACTED_THIEF_DESC
+			add = 25
+		}
+		#house_head_request_interaction
 		modifier = {
 			add = hostile_scheme_variable_list_value
 			scope:owner = {
@@ -145,6 +145,18 @@
 		scheme_target_character = { save_scope_as = target }
 
 		hostile_scheme_monthly_discovery_chance_effect = yes
+
+		if = {
+			limit = {
+				NOT = { exists = scope:discovery_event_happening }
+			}			
+			scheme_owner = {
+				trigger_event = {
+					on_action = steal_gold_ongoing
+					days = { 1 15 }
+				}
+			}
+		}
 
 	}
 	on_invalidated = {
