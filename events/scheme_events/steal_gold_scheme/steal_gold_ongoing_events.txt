@@ -114,6 +114,7 @@ steal_gold_ongoing.1001 = {
 	
 	trigger = {
 		exists = scope:scheme 
+		exists = scope:random_beauty
 		scope:scheme = {
 			NOT = { has_variable = had_event_steal_gold_ongoing_1001 }
 		}
@@ -351,6 +352,420 @@ steal_gold_ongoing.1001 = {
 		
 		ai_chance = {
 			base = 10
+		}
+	}
+}
+
+#Map surrounding wilderness
+steal_gold_ongoing.3003 = { #by Mathilda Bjarnehed
+	type = character_event
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:scheme = { scheme_type = murder } }
+				desc = murder_event_title
+			}
+			triggered_desc = {
+				trigger = { scope:scheme = { scheme_type = abduct } }
+				desc = abduct_event_title
+			}
+			triggered_desc = {
+				trigger = { scope:scheme = { scheme_type = elope } }
+				desc = elope_event_title
+			}
+		}
+		desc = intrigue_scheme_ongoing.3003.t
+	}
+	desc = {
+		desc = intrigue_scheme_ongoing.start.3003.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:scheme = {
+						OR = {
+							scheme_type = abduct
+							scheme_type = elope
+						}
+					}
+					scope:target = { is_ruler = no } # or the text gets wonky
+				}
+				desc = intrigue_scheme_ongoing.leave_with_target.3003.desc
+			}
+			desc = intrigue_scheme_ongoing.escape_route.3003.desc
+		}
+		desc = intrigue_scheme_ongoing.end.3003.desc
+	}
+	theme = generic_intrigue_scheme
+	override_background = {
+		reference = terrain_scope
+	}
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = scope:hunter
+		animation = hunting_longbow_rest_arrow_default
+	}
+	lower_right_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	trigger = {
+		exists = scope:target.host
+		exists = scope:target.host.capital_province
+		scope:target.host = { NOT = { this = root } }
+		scope:scheme = {
+			NOT = {
+				has_variable = had_intrigue_scheme_ongoing_3003_event
+			}
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		modifier = {
+			has_trait = lifestyle_hunter
+			add = 0.5
+		}
+	}
+
+
+	immediate = {
+		hidden_effect = {
+			scope:scheme = {
+				set_variable = {
+					name = had_intrigue_scheme_ongoing_3003_event
+					value = yes
+				}
+			}
+			#Save location for image and text
+			scope:target.host = {
+				save_scope_as = defender
+				capital_province = {
+					save_scope_as = scheme_location
+					save_scope_as = background_terrain_scope
+				}
+			}
+
+			# Is there an available Master of the Hunt?
+			if = {
+				limit = {
+					NOT = { has_trait = lifestyle_hunter }
+					has_royal_court = yes
+					employs_court_position = master_of_hunt_court_position
+					any_court_position_holder = {
+						type = master_of_hunt_court_position
+						intrigue_scheme_ongoing_3003_hunter_friend_trigger = yes
+					}
+				}
+				random_court_position_holder = {
+					type = master_of_hunt_court_position
+					limit = { intrigue_scheme_ongoing_3003_hunter_friend_trigger = yes }
+					save_scope_as = hunter
+				}
+			}
+			# Can a friend help?
+			else_if = {
+				limit = {
+					NOT = { has_trait = lifestyle_hunter }
+					any_relation = {
+						type = friend
+						intrigue_scheme_ongoing_3003_hunter_friend_trigger = yes
+					}
+				}
+				random_relation = {
+					type = friend
+					limit = { intrigue_scheme_ongoing_3003_hunter_friend_trigger = yes }
+					save_scope_as = hunter
+				}
+			}
+			# If not, grab a hunter
+			else = {
+				random_pool_character = {
+					province = scope:scheme_location
+					limit = {
+						has_trait = lifestyle_hunter
+						intrigue_scheme_ongoing_3003_hunter_trigger = yes
+					}
+					alternative_limit = {
+						intrigue_scheme_ongoing_3003_hunter_trigger = yes
+					}
+					weight = {
+						base = 10
+						modifier = {
+							add = {
+								value = prowess
+								multiply = 10
+							}
+						}
+					}
+					save_scope_as = hunter
+					if = {
+						limit = {
+							NOT = { has_trait = lifestyle_hunter }
+						}
+						add_trait = lifestyle_hunter
+					}
+				}
+
+				# Create a hunter
+				if = {
+					limit = { NOT = { exists = scope:hunter } }
+					create_character = {
+						location = scope:scheme_location
+						template = hunter_template
+						faith = scope:defender.faith
+						culture = scope:defender.culture
+						save_scope_as = hunter
+					}
+				}
+			}
+		}
+	}
+
+
+	# Bribe a hunter
+	option = {
+		name = intrigue_scheme_ongoing.3003.a
+		trigger = {
+			NOT = {
+				has_relation_friend = scope:hunter
+				scope:hunter = { has_court_position = master_of_hunt_court_position }
+			}
+		}
+
+		pay_short_term_gold = {
+			target = scope:hunter
+			gold = minor_gold_value
+		}
+
+		scope:scheme = {
+			add_scheme_modifier = {
+				type = intrigue_scheme_mapped_surroundings_modifier
+			}
+		}
+
+		# Will hunter spill the beans
+		random_list = {
+			60 = { # Hunter keeps mouth shut
+				desc = intrigue_scheme_ongoing.3003.a.success
+				ai_value_modifier = {
+					ai_rationality = 0.5
+				}
+				opinion_modifier = {
+					who = scope:hunter
+					opinion_target = root
+					multiplier = 0.5
+				}
+				send_interface_toast = {
+					title = intrigue_scheme_ongoing.3003.a.success
+					left_icon = scope:hunter
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							can_set_relation_potential_friend_trigger = { CHARACTER = scope:hunter }
+							scope:hunter.prowess >= decent_skill_rating
+						}
+						set_relation_potential_friend = scope:hunter
+					}
+				}
+			}
+			40 = { # Hunter tells tales
+				desc = intrigue_scheme_ongoing.3003.a.failure
+				modifier = {
+					scope:hunter = {
+						OR = {
+							has_trait = honest
+							has_trait = drunkard
+						}
+					}
+					add = 20
+				}
+				opinion_modifier = {
+					who = scope:hunter
+					opinion_target = scope:target.host #i.e. are they loyal to the local lord/lady
+					multiplier = 0.3
+				}
+				send_interface_toast = {
+					title = intrigue_scheme_ongoing.3003.a.failure
+					left_icon = scope:hunter
+					scope:scheme = {
+					add_scheme_modifier = {
+						type = intrigue_scheme_tattletale_modifier
+					}
+				}
+				}
+				if = { #Player gets a warning
+					limit = {
+						scope:defender = { is_ai = no }
+						scope:scheme = { is_scheme_exposed = no }
+					}
+					scope:defender = { trigger_event = intrigue_scheme_ongoing.3004 }
+				}
+			}
+		}
+
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+			paranoid = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+				base = 100
+				modifier = {
+					short_term_gold < minor_gold_value
+					add = -100
+				}
+				modifier = { #To make the follow up trigger more often
+					scope:defender = { is_ai = no }
+					scope:scheme = { is_scheme_exposed = no }
+					add = 1000
+				}
+		}
+	}
+
+	#Ask your Master of the Hunt
+	option = {
+		trigger = {
+			scope:hunter = { has_court_position = master_of_hunt_court_position }
+		}
+		name = intrigue_scheme_ongoing.3003.e
+		add_internal_flag = special
+
+		scope:scheme = {
+			add_scheme_modifier = {
+				type = intrigue_scheme_mapped_surroundings_modifier
+			}
+		}
+
+		stress_impact = {
+			lazy = medium_stress_impact_gain
+			craven = medium_stress_impact_gain
+			impatient = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	# Ask a friend
+	option = {
+		trigger = {
+			has_relation_friend = scope:hunter
+			NOT = { scope:hunter = { has_court_position = master_of_hunt_court_position } }
+		}
+		name = intrigue_scheme_ongoing.3003.d
+		add_internal_flag = special
+
+		scope:scheme = {
+			add_scheme_modifier = {
+				type = intrigue_scheme_mapped_surroundings_modifier
+			}
+		}
+
+		hidden_effect = {
+			add_opinion = {
+				modifier = grateful_opinion
+				opinion = 15
+				target = scope:hunter
+			}
+		}
+
+		stress_impact = {
+			lazy = medium_stress_impact_gain
+			craven = medium_stress_impact_gain
+			impatient = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	# Do it yourself
+	option = {
+		trigger = { NOT = { has_trait = lifestyle_hunter } }
+		name = intrigue_scheme_ongoing.3003.b
+
+		random_list = {
+			60 = { # Success
+				desc = intrigue_scheme_ongoing.3003.b.success
+				send_interface_toast = {
+					title = intrigue_scheme_ongoing.3003.b.success
+					scope:scheme = {
+						add_scheme_modifier = {
+							type = intrigue_scheme_mapped_surroundings_modifier
+						}
+					}
+				}
+			}
+			30 = { # Failure
+				desc = intrigue_scheme_ongoing.3003.b.soft_failure
+				send_interface_toast = {
+					title = intrigue_scheme_ongoing.3003.b.soft_failure
+					add_stress = minor_stress_gain
+				}
+			}
+			10 = { # Sick
+				desc = intrigue_scheme_ongoing.3003.b.hard_failure
+				send_interface_toast = {
+					title = intrigue_scheme_ongoing.3003.b.hard_failure
+					add_stress = medium_stress_gain
+					contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
+				}
+			}
+		}
+
+		stress_impact = {
+			lazy = medium_stress_impact_gain
+			craven = medium_stress_impact_gain
+			impatient = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+				base = 50
+		}
+	}
+
+	# Do it yourself very well
+	option = {
+		name = intrigue_scheme_ongoing.3003.b
+		trigger = { has_trait = lifestyle_hunter }
+		trait = lifestyle_hunter
+
+		scope:scheme = {
+			add_scheme_modifier = {
+				type = intrigue_scheme_mapped_surroundings_modifier
+			}
+		}
+
+		stress_impact = {
+			lazy = medium_stress_impact_gain
+			craven = medium_stress_impact_gain
+			impatient = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+				base = 100
+		}
+	}
+
+	# Ignore
+	option = {
+		name = intrigue_scheme_ongoing.3003.c
+
+		stress_impact = {
+			diligent = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+				base = 10
 		}
 	}
 }

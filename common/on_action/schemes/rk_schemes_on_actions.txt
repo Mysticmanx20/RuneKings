@@ -20,8 +20,10 @@ steal_gold_ongoing = {
 		
 		# Bribe someone who knows the target to distract them. A lover, friend, or potential person of interest
 
-		2 = steal_gold_ongoing.1001 # Bribing the antiquarian to purposefully lower security
+		2 = steal_gold_ongoing.1001 # Bribing the steward to purposefully lower security
 		#2 = steal_back_artifact_ongoing.1002 # Micro management
+		2 = intrigue_scheme_ongoing.5019 #find secret tunnels
+		2 = steal_gold_ongoing.3003 #map surroundings
 
 		#############
 		# Generic Agent events
