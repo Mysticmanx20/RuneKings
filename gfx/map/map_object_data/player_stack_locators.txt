@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="unit_stack_player_owned"
 	render_pass=Map
 	clamp_to_water_level=yes
@@ -133,7 +133,7 @@ game_object_locator={
 		}
 		{
 			id=21
-			position={ 6054.009277 0.000000 1707.185669 }
+			position={ 6065.710449 0.000000 1807.043945 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
