@@ -1079,21 +1079,6 @@ e_zaros = {
 
 			}
 
-			c_outerburth = {
-				color = { 107 90 107}
-
-				b_sherpa = {
-					color = { 107 90 107}
-					province = 533
-				}
-
-				b_outerburth = {
-					color = { 114 96 94 }
-					province = 532
-				}
-
-			}
-
 			c_heroes = {
 				color = { 105 209 31}
 
@@ -1851,6 +1836,21 @@ e_trollheim = {
 					color = { 138 112 61 }
 					province = 334
 				}
+			}
+
+			c_outerburth = {
+				color = { 107 90 107}
+
+				b_sherpa = {
+					color = { 107 90 107}
+					province = 533
+				}
+
+				b_outerburth = {
+					color = { 114 96 94 }
+					province = 532
+				}
+
 			}
 	
 		}
