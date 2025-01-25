@@ -2307,6 +2307,7 @@ fremennik_religion = {
 			icon = v
 			holy_site = lakespirit
 			holy_site = lunarmine
+			holy_site = security
 			#holy_site = islandofstone
 
 			doctrine = tenet_communal_identity
@@ -2584,6 +2585,7 @@ guthix_religion = {
 			icon = oldfrem
 			holy_site = lakespirit
 			holy_site = lunarmine
+			holy_site = security
 			#holy_site = islandofstone
 
 			doctrine = tenet_communal_identity

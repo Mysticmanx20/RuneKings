@@ -1,0 +1,84 @@
+﻿
+## Other triggers 
+in_diplomatic_range_trigger = {
+	in_diplomatic_range = $target$
+	NOT = { is_isolated_from_trigger = { target = $target$ } }
+}
+is_isolated_from_trigger = {
+	OR = {
+		is_isolated_from_specific_trigger = { target = $target$ REGION = elf VAR = elf_discovered_variable }
+		is_isolated_from_specific_trigger = { target = $target$ REGION = fossil VAR = island_discovered_variable }
+	}
+}
+is_in_isolation_trigger = {
+	OR = {
+		AND = {
+			is_in_elf_trigger = yes
+			OR = {
+				NOT = { has_global_variable = elf_discovered_variable }
+				global_var:elf_discovered_variable = no
+			}
+		}
+		AND = {
+			is_in_fossil_trigger = yes
+			OR = {
+				NOT = { has_global_variable = island_discovered_variable }
+				global_var:island_discovered_variable = no
+			}
+		}
+	}
+}
+is_in_isolated_elf_trigger = {
+	is_in_elf_trigger = yes
+	OR = {
+		NOT = { has_global_variable = elf_discovered_variable }
+		global_var:elf_discovered_variable = no
+	}
+}
+is_isolated_from_specific_trigger = {
+	trigger_if = {
+		limit = {
+			OR = {
+				NOT = { has_global_variable = $VAR$ }
+				global_var:$VAR$ = no
+			}
+			OR = {
+				is_in_$REGION$_trigger = yes
+				$target$ = { is_in_$REGION$_trigger = yes }
+			}
+		}
+		custom_description = {
+			text = is_isolated_in_$REGION$_tooltip
+			subject = this
+			object = $target$
+			trigger_if = {
+				limit = { is_in_$REGION$_trigger = yes }
+				$target$ = { is_in_$REGION$_trigger = no }
+			}
+			trigger_else = {
+				is_in_$REGION$_trigger = no
+			}
+		}
+	}
+	trigger_else = {
+		always = no
+	}
+}
+
+is_in_elf_trigger = {
+	trigger_if = {
+		limit = { exists = capital_province }
+		capital_province = { geographical_region = world_elf }
+	}
+	# trigger_else_if = {
+	# 	limit = { exists = liege.capital_province }
+	# 	liege.capital_province = { geographical_region = world_elf }
+	# }
+	trigger_else_if = {
+		limit = { exists = location }
+		location = { geographical_region = world_elf }
+	}
+	trigger_else = {
+		always = no
+	}
+}

@@ -1,0 +1,9 @@
+﻿
+is_isolated_in_elf_tooltip = {
+	first = is_isolated_in_elf_tooltip_first
+	first_not = is_isolated_in_elf_tooltip_first_not
+}
+is_isolated_in_fossil_tooltip = {
+	first = is_isolated_in_fossil_tooltip_first
+	first_not = is_isolated_in_fossil_tooltip_first_not
+}

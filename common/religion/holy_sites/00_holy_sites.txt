@@ -381,6 +381,16 @@ lunarmine = {
 	}
 }
 
+security = {
+	county = c_barbvil
+
+	character_modifier = {
+		name = holy_site_security_effect_name
+		controlled_province_advantage = 5
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
 
 ################ Armadyl
 

@@ -56,6 +56,12 @@
 
 # world_burma
 
+world_elf = {
+	duchies = {
+		d_gwen d_tyras d_isafdar d_elf
+	}
+}
+
 world_feldip = {
 	counties = {
 		c_jiggig c_castlewarsswamp c_corsair c_ogress c_myths
@@ -111,6 +117,7 @@ world_humankingdoms = {
 		world_misthalin world_asgarnia world_kandarin
 	}
 }
+
 
 world_f2p = {
 	duchies = {

@@ -56,7 +56,9 @@ holy_site_necro_name:0 "Tomb of the Father"
 
 holy_site_lakespirit_name:0 "Fossegrimen's Altar"
 holy_site_lunarmine_name:0 "Rune Essence Cavern"
+holy_site_security_name:0 "Stronghold of Security"
 
+holy_site_security_effect_name:0 "From [holy_site|E] #weak ($holy_site_security_name$)#!"
 
 
 
