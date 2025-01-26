@@ -342,6 +342,16 @@ e_zaros = {
 					color = { 255 119 0 }
 					province = 52
 				}
+
+				b_champmine = {
+					color = { 209 97 0 }
+					province = 613
+				}
+
+				b_champfarm = {
+					color= { 221 146 0}
+					province = 614
+				}
 			}
 
 			c_gower = {
@@ -405,10 +415,16 @@ e_zaros = {
 			c_westgobs = {
 				color = { 87 151 0 }
 
+				b_gilgrove = {
+					color = { 104 151 0 }
+					province = 609
+				}
+
 				b_westgobs = {
 					color = { 87 151 0 }
 					province = 444
 				}
+
 			}
 		}
 
@@ -577,6 +593,16 @@ e_zaros = {
 					province = 14
 				}
 
+				b_edgeruin = {
+					color = { 143 61 0}
+					province = 610
+				}
+
+				b_edgebridge = {
+					color= { 143 61 27}
+					province = 611
+				}
+
 			}
 
 			c_lucien = {
@@ -586,6 +612,11 @@ e_zaros = {
 					color = { 177 189 203 }
 					province = 59
 					definite_form = yes
+				}
+
+				b_edgeforest = {
+					color= { 177 189 180}
+					province = 612
 				}
 			}
 
@@ -604,6 +635,16 @@ e_zaros = {
 					color = { 217 203 81 }
 					province = 15
 					definite_form = yes
+				}
+
+				b_barbnor = {
+					color= { 199 211 81}
+					province = 608
+				}
+
+				b_barbsou = {
+					color= { 199 189 81}
+					province = 607
 				}
 			}
 		}
@@ -789,14 +830,14 @@ e_zaros = {
 					province = 16
 				}
 
-				b_drayforest = {
-					color = { 126 90 19}
-					province = 276
-				}
-
 				b_drayext = {
 					color = {80 97 41}
 					province = 277
+				}
+
+				b_draywest = {
+					color= { 80 97 70}
+					province = 606
 				}
 
 			}
@@ -809,19 +850,29 @@ e_zaros = {
 					province = 17
 				}
 
-				b_draycoast = {
-					color = { 24 58 90}
-					province = 273
+				b_drayfarm = {
+					color ={ 209 255 104}
+					province = 275
 				}
+
+				b_drayforest = {
+					color = { 126 90 19}
+					province = 276
+				}
+
+			}
+
+			c_drayjail = {
+				color = { 255 58 90 }
 
 				b_drayjail = {
 					color = { 255 58 90}
 					province = 274
 				}
 
-				b_drayfarm = {
-					color ={ 209 255 104}
-					province = 275
+				b_draycoast = {
+					color = { 24 58 90}
+					province = 273
 				}
 
 			}

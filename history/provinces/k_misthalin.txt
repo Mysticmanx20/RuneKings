@@ -433,7 +433,7 @@
 444 = { #doogle forest
 	religion = bandos
 	culture = goblin
-	holding = tribal_holding
+	holding = none
 }
 
 520 = { 
@@ -580,3 +580,69 @@
 	culture = goblin
 	holding = none
 }
+
+605 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+606 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+607 = {
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+608 = {
+	religion = v
+	culture = fremennik
+	holding = none
+}
+
+609 = {
+	religion = bandos
+	culture = goblin
+	holding = tribal_holding
+}
+
+610 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+611 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+612 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+613 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+614 = {
+	religion = saradomin
+	culture = misthalin
+	holding = none
+}
+
+
+
+
+
+
+
