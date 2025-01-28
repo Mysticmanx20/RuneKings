@@ -3810,6 +3810,20 @@ e_karamja = {
 				}
 			}
 
+			c_nataltar = {
+				color = { 80 165 69}
+
+				b_tbwmine = {
+					color = { 80 165 69}
+					province = 620
+				}
+
+				b_nataltar = {
+					color = { 0 187 69 }
+					province = 621
+				}
+			}
+
 			c_kharazi = {
 				color = { 143 146 0}
 
@@ -3906,9 +3920,71 @@ e_karamja = {
 					color= {78 67 22}
 					province = 261
 				}
+
+				b_northtbw = {
+					color = { 68 77 25}
+					province = 616
+				}
+
+				b_jungshop = {
+					color = { 90 77 25}
+					province = 615
+				}
+
+				b_westtbw = {
+					color= { 68 77 49}
+					province = 617
+				}
+			}
+
+			c_tbwjung = {
+				color = { 153 165 69}
+
+				b_hardgrove = {
+					color = { 153 165 69 }
+					province = 624
+				}
+
+				b_tbwjung = {
+					color= { 80 107 69 }
+					province = 623
+				}
+
+				b_easttbw = {
+					color= { 107 165 69}
+					province = 622
+				}
+			}
+
+			c_southtbw = {
+				color = { 153 204 176}
+
+				b_southtbw = {
+					color = { 153 204 131}
+					province = 619
+				}
+				
+				b_holylake = {
+					color = { 153 204 176}
+					province = 618
+				}
+
+			}
+
+			c_pothole = {
+				color= { 134 204 49 }
+
+				b_pothole = {
+					color= { 134 204 49}
+					province = 626
+				}
+
+				b_harpie = {
+					color ={ 175 204 49}
+					province = 625
+				}
 			}
 		}
-
 
 	}
 

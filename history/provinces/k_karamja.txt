@@ -224,4 +224,74 @@
 	holding = castle_holding
 }
 
+615 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
 
+616 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+617 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+618 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+619 = {
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+620 = {
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+621 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+622 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+623 = {
+	religion = junglegods
+	culture = karamja
+	holding = none
+}
+
+624 = {
+	religion = junglegods
+	culture = karamja
+	holding = tribal_holding
+}
+
+625 = {
+	religion = bandos
+	culture = jogre
+	holding = none
+}
+
+626 = {
+	religion = bandos
+	culture = jogre
+	holding = tribal_holding
+}

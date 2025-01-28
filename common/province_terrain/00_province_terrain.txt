@@ -615,3 +615,17 @@ default_coastal_sea=coastal_sea
 612=forest
 613=forest
 614=farmlands
+615=floodplains
+616=jungle
+617=jungle
+618=jungle
+619=jungle
+620=jungle
+621=jungle
+622=jungle
+623=jungle
+624=forest
+625=jungle
+626=floodplains
+
+

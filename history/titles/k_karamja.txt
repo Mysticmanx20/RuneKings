@@ -155,3 +155,18 @@ c_pestisle = {
 		succession_laws = { female_only_law }
 	}
 }
+
+c_tbwjung = {
+	9168.1.1 = {
+		holder = karam001
+		change_development_level = 5
+	}
+}
+
+c_nataltar = {
+	9168.1.1 = {
+		liege = 0
+		holder = karam002
+		change_development_level = 2
+	}
+}

@@ -236,7 +236,8 @@ eviltemple = {
 }
 
 raharni = {
-	county = c_taibwo
+	county = c_southtbw
+	barony = b_holylake
 
 	character_modifier = {
 		name = holy_site_dwarka_effect_name
@@ -278,7 +279,8 @@ marim = {
 }
 
 karamja = {
-	county = c_taibwo
+	county = c_jogres
+	barony = b_jogrejun
 
 	character_modifier = {
 		name = holy_site_preslav_effect_name
