@@ -50,6 +50,28 @@ rk_random_events.2000 = {
 	#Kiss the frog
 	option = { 
 		name = rk_random_events.2000.a
+
+		if = {
+			limit = { has_lifestyle = martial_lifestyle }
+			add_martial_lifestyle_xp = medium_lifestyle_xp
+		}
+		else_if = {
+			limit = { has_lifestyle = diplomacy_lifestyle }
+			add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+		}
+		else_if = {
+			limit = { has_lifestyle = intrigue_lifestyle }
+			add_intrigue_lifestyle_xp = medium_lifestyle_xp
+		}
+		else_if = {
+			limit = { has_lifestyle = stewardship_lifestyle }
+			add_stewardship_lifestyle_xp = medium_lifestyle_xp
+		}
+		else_if = {
+			limit = { has_lifestyle = learning_lifestyle }
+			add_learning_lifestyle_xp = medium_lifestyle_xp
+		}
+
 		
 		stress_impact = {
 			chaste = miniscule_stress_impact_gain
@@ -77,6 +99,37 @@ rk_random_events.2000 = {
 			ai_value_modifier = {
 				ai_compassion = -1
 			}
+		}
+	}
+
+	#are you single?
+	option = {
+		name = rk_random_events.2000.c
+
+		trigger = {
+			is_adult = yes
+			can_marry_trigger = yes
+		}
+
+		if = {
+			limit = {
+				is_female = yes
+				scope:frog_royal = { is_male = yes }
+			}
+			marry_matrilineal = scope:frog_royal
+		}
+		else = {
+			marry = scope:frog_royal
+		}
+
+		stress_impact = {
+			lustful = minor_stress_impact_loss
+			rakish = minor_stress_impact_loss
+			chaste = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+			base = 0
 		}
 	}
 
