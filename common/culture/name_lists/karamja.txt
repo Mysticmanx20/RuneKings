@@ -1,0 +1,152 @@
+﻿name_list_karamjan = {
+
+	cadet_dynasty_names = {
+		"dynn_Nri"
+		"dynn_Ibibo"
+		"dynn_Idoma"
+		"dynn_Igala"
+		"dynn_Bassa"
+		"dynn_Gbari"
+		"dynn_Idah"
+		"dynn_Ebira"
+		"dynn_Okene"
+		"dynn_Auchi"
+		"dynn_Ekpoma"
+		"dynn_Esan"
+		"dynn_Aboh"
+		"dynn_Onitsha"
+		"dynn_Oguta"
+		"dynn_Osomari"
+		"dynn_Nsukka"
+		"dynn_Anambra"
+		"dynn_Kamalu"
+		"dynn_Kala"
+		"dynn_Umounoha"
+		"dynn_Agbala"
+		"dynn_Awka"
+		"dynn_Ibini"
+		"dynn_Arochukwu"
+		"dynn_Keita"
+		"dynn_TourE_"
+		"dynn_KonE_"
+		"dynn_KonatE_"
+		"dynn_CondE_"
+		"dynn_KouyatE_"
+		"dynn_TraorE_"
+		"dynn_DarboE_"
+		"dynn_Dagnon"
+		"dynn_SidibE_"
+		"dynn_DiabatE_"
+		"dynn_Tunkara"
+		"dynn_Tarawere"
+		"dynn_Wattara"
+		"dynn_Naba_a"
+		"dynn_SannE_"
+		"dynn_Kamara"
+		"dynn_Kourouma"
+		"dynn_Kinte"
+		"dynn_Kabba"
+		"dynn_Fadika"
+		"dynn_Daramy"
+		"dynn_Tarawaile"
+		"dynn_KuyatE_"
+		"dynn_Diawara"
+		"dynn_MansarE_"
+		"dynn_Jawara"
+		"dynn_Dibba"
+		"dynn_JannE_"
+		"dynn_DiakitE_"
+		"dynn_Sissoko"
+		"dynn_Soro"
+		"dynn_Koita"
+		"dynn_Diao"
+		"dynn_DramE_"
+		"dynn_Dyula"
+	}
+	dynasty_names = {
+		"dynn_Nri"
+		"dynn_Ibibo"
+		"dynn_Idoma"
+		"dynn_Igala"
+		"dynn_Bassa"
+		"dynn_Gbari"
+		"dynn_Idah"
+		"dynn_Ebira"
+		"dynn_Okene"
+		"dynn_Auchi"
+		"dynn_Ekpoma"
+		"dynn_Esan"
+		"dynn_Aboh"
+		"dynn_Onitsha"
+		"dynn_Oguta"
+		"dynn_Osomari"
+		"dynn_Nsukka"
+		"dynn_Anambra"
+		"dynn_Kamalu"
+		"dynn_Kala"
+		"dynn_Umounoha"
+		"dynn_Agbala"
+		"dynn_Awka"
+		"dynn_Ibini"
+		"dynn_Arochukwu"
+		"dynn_Keita"
+		"dynn_TourE_"
+		"dynn_KonE_"
+		"dynn_KonatE_"
+		"dynn_CondE_"
+		"dynn_KouyatE_"
+		"dynn_TraorE_"
+		"dynn_DarboE_"
+		"dynn_Dagnon"
+		"dynn_SidibE_"
+		"dynn_DiabatE_"
+		"dynn_Tunkara"
+		"dynn_Tarawere"
+		"dynn_Wattara"
+		"dynn_Naba_a"
+		"dynn_SannE_"
+		"dynn_Kamara"
+		"dynn_Kourouma"
+		"dynn_Kinte"
+		"dynn_Kabba"
+		"dynn_Fadika"
+		"dynn_Daramy"
+		"dynn_Tarawaile"
+		"dynn_KuyatE_"
+		"dynn_Diawara"
+		"dynn_MansarE_"
+		"dynn_Jawara"
+		"dynn_Dibba"
+		"dynn_JannE_"
+		"dynn_DiakitE_"
+		"dynn_Sissoko"
+		"dynn_Soro"
+		"dynn_Koita"
+		"dynn_Diao"
+		"dynn_DramE_"
+		"dynn_Dyula"
+	}
+	
+	male_names = {
+		Abalihi Abazu Achonye Agu Akunna Alike Amamchukwu Anyamata Apia Azubuike Azuka Buife
+		Chibueze Chibuzo Chidi Chidiebere Chidubem Chiemeka Chike Chima Chinedu Chinualumogu Chinwe Chinwendu Chioma Chizoba Chukwudi Chukwuemeka
+		Ekene Ekenedilichukwu Ekweme Emeka Enweleana Enyinnaya Eri Ewenetem Ezeudu Ezimilo Ezinma Fenenu Ifeanyichukwu Ifikuanim Ikechukwu Ikemefuna
+		Jiofo Maduka Namoke Ndidi Ngozi Nkem Nkemdilim Nnamdi Nwabugwu Nwachukwu Nwakibie Nwankwo Nwokike Nwora Nwoye
+		Obalike Obi Obierika Obinna Ogbuefi Okagbue Okechukwu Okenna Okonkwo Oluchi Omalo Omalonyeso Onyeka Onyekachi Onyekachukwu
+		Uchechukwu Uchendu Udo Unoka Uyanwa Uzochi Uzoma
+	}
+	female_names = {
+		Abalihi Ada Adaeke Adaeze Adanna Adannaya Adaobi Adaoha Adaora Adaugo Adauwa Amadi Amamchukwu
+		Chiamaka Chibueze Chibuzo Chidiebere Chidimma Chielo Chika Chinaza Chinedu Chinwe Chinwendu Chioma Chisom Chizoba
+		Ebele Ekene Ekenedilichukwu Ekwefi Fumnanya Funanya Ndidi Ngozi Nkechinyere Nkem Nkemdilim Nkiruka Nwabugwu Nwando
+		Obiageli Ogechukwukama Ojiugo Oluchi Onyeka Onyekachi Onyekachukwu Uchechukwu Udo Uzoma 
+		Alima Aminata Assita Awa Balkissa Bintou Djeneba Edwige Fatim Fatou
+		Guessrima Haoua Kadi Kenga Kisswendsida Leila Madina Maimouna Mariam
+		Nadege Nafi Nafissatou Ouedraogo Pengdwende Pogbi Poko Pokobila Rasmata Relwende Rikki
+		Salimata Sanpoko Sibiri Solange Tatiana Wamanegdo Wend_Kouni Wenkouni
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}

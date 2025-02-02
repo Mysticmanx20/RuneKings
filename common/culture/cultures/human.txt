@@ -480,7 +480,7 @@ karamja = {   # Karamjan
 		tradition_hunters
 	}
 	
-	name_list = name_list_igbo
+	name_list = name_list_karamjan
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }

@@ -1,0 +1,15 @@
+﻿
+2000 = {
+	name = "dynn_tbwannai"
+	culture=karamja
+}
+
+2001 = {
+    name = "dynn_Shakaya"
+	culture=karamja
+}
+
+2002 = {
+    name = "dynn_Bufetta"
+	culture=karamja
+}

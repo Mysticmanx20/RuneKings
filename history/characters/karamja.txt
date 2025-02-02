@@ -2,8 +2,12 @@
 
 karam001 = {
 	name = "Timfraku"
+	dynasty = 2000
 	religion = junglegods
 	culture = karamja
+	trait = just
+	trait = patient
+	trait = paranoid
 	trait = education_diplomacy_2
 	9126.1.1 = {
 		birth = yes
@@ -12,7 +16,7 @@ karam001 = {
 
 karam002 = {
 	name = "Tamayu"
-	#dynasty taibwowannai
+	dynasty = 2000
 	religion = junglegods
 	culture = karamja
 	father = karam001
@@ -25,7 +29,7 @@ karam002 = {
 
 karam003 = {
 	name = "Tinsay"
-	#dynasty taibwowannai
+	dynasty = 2000
 	religion = junglegods
 	culture = karamja
 	father = karam001
@@ -38,7 +42,7 @@ karam003 = {
 
 karam004 = {
 	name = "Tiadeche"
-	#dynasty taibwowannai
+	dynasty = 2000
 	religion = junglegods
 	culture = karamja
 	father = karam001
@@ -54,6 +58,8 @@ karam005 = {
 	female = yes
 	religion = junglegods
 	culture = karamja
+	trait = compassionate
+	trait = generous
 	trait = education_stewardship_2
 	9139.1.1 = {
 		birth = yes
@@ -66,8 +72,10 @@ karam005 = {
 
 karam006 = {
 	name = "Trufitus"
+	dynasty = 2001
 	religion = junglegods
 	culture = karamja
+	trait = zealous
 	trait = education_learning_3
 	9118.1.1 = {
 		birth = yes
@@ -82,6 +90,8 @@ karam007 = {
 	name = "Gabooty"
 	religion = junglegods
 	culture = karamja
+	trait = shy
+	trait = gluttonous
 	trait = education_stewardship_2
 	9138.1.1 = {
 		birth = yes
@@ -345,6 +355,7 @@ karam027 = {
 	female = yes
 	culture = voidpest
 	religion = zamorak
+	trait = education_martial_4
 	9148.1.1 = {
 		birth = yes
 	}
@@ -354,7 +365,74 @@ karam028 = {
 	name = "Saniboch"
 	religion = junglegods
 	culture = karamja
+	trait = education_stewardship_2
 	9148.1.1 = {
 		birth = yes
+	}
+}
+
+karam029 = {
+	name = "Neiya"
+	female = yes
+	dynasty = 2002
+	religion = junglegods
+	culture = karamja
+	trait = temperate
+	trait = education_learning_2
+	9133.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = karma001
+	}
+}
+
+karam030 = {
+	name = "Sharimika"
+	dynasty = 2002
+	religion = junglegods
+	culture = karamja
+	trait = honest
+	trait = humble
+	trait = education_martial_2
+	9133.1.1 = {
+		birth = yes
+	}
+	9152.1.1 = {
+		add_spouse = karam029
+	}
+	9168.1.1 = {
+		employer = karam001
+	}
+}
+
+karam031 = {
+	name = "Layleen"
+	female = yes
+	dynasty = 2002
+	father = karam030
+	mother = karam029
+	religion = junglegods
+	culture = karamja
+	trait = ambitious
+	trait = fickle
+	trait = education_diplomacy_2
+	9156.1.1 = {
+		birth = yes
+	}
+}
+
+karam032 = {
+	name = "Murcaily"
+	religion = junglegods
+	culture = karamja
+	trait = honest
+	trait = greedy
+	trait = education_stewardship_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = karam001
 	}
 }
