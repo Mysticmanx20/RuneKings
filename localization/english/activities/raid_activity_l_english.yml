@@ -1,0 +1,11 @@
+﻿l_english:
+
+  activity_raid_selection_tooltip:1 "Lauch a daring raid against a powerful foe, for fame and spoils\n\nAnticipated Rewards:\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E] Gain\n$BULLET_WITH_TAB$[stress_loss_i] [stress|E] Loss
+  \n$BULLET_WITH_TAB$May gain rare [artifacts|E]" 
+  raid_tob:1 "Theatre of Blood"
+  raid_tob_desc:1 "Travel through Morytania and survive the blood sports of the vampyres in Ver Sinhaza."
+  raid_xeric:1 "Chambers of Xeric"
+  raid_xeric_desc:1 "Explore a large cave system underneath Mount Quidamortem built by an ancient and powerful mage."
+  raid_tombs:1 "Tombs of Amascut"
+  raid_tombs_desc:1 "Fight your way through Amascut's thralls inside the Jaltevas Pyramid deep in the Kharidian desert."
+

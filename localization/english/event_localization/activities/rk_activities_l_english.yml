@@ -1,0 +1,6 @@
+﻿l_english:
+
+  activity_raid:0 "Raid"
+  activity_raid_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Raid"
+  activity_raid_desc:0 "There are many evil forces dwelling in lairs across Gielinor. Lauching a daring raid against such deadly adversaries is sure to reward some manner of legendary and powerful artifacts."
+  activity_raid_owner:0 "Raid Leader"
