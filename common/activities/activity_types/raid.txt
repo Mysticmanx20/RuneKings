@@ -32,7 +32,7 @@
 	is_location_valid = {
 		trigger_if = {
 			limit = { scope:special_option ?= flag:raid_tob }
-			barony = title:b_vers
+			barony = title:b_tob
 		}
 		trigger_if = {
 			limit = { scope:special_option ?= flag:raid_tombs }
@@ -94,13 +94,106 @@
 
 	ui_predicted_cost = {
 		gold = {
-			# Base Cost
-			value = 150
+			
+			every_barony = {
+				limit = {
+					OR = {
+						this = title:b_tob
+						this = title:b_jaltevas
+					}
+				}
+				#Tier 1
+				if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_small
+						"squared_distance(root.capital_province)" <= squared_distance_medium
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 0.2
+					}
+				}
+				#Tier 2: Praha -> Cologne
+				else_if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_medium
+						"squared_distance(root.capital_province)" <= squared_distance_large
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 0.4
+					}
+				}
+				#Tier 3
+				else_if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_large
+						"squared_distance(root.capital_province)" <= squared_distance_huge
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 0.6
+					}
+				}
+				#Tier 4
+				else_if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_huge
+						"squared_distance(root.capital_province)" <= squared_distance_almost_massive
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 0.8
+					}
+				}
+				#Tier 5
+				else_if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_almost_massive
+						"squared_distance(root.capital_province)" <= squared_distance_massive
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 1
+					}
+				}
+				#Tier 6: Klingenberg -> Jerusalem
+				else_if = {
+					limit = {
+						"squared_distance(root.capital_province)" > squared_distance_massive
+						"squared_distance(root.capital_province)" <= squared_distance_monstrous
+					}
+					add = {
+						value = root.medium_gold_value 
+						multiply = 1.2
+					}
+				}
+				#Tier 7: Klingenberg -> Kanchipuram
+				else_if = {
+					limit = { "squared_distance(root.capital_province)" > squared_distance_monstrous }
+					add = {
+						value = root.medium_gold_value 
+						multiply = 1.5
+					}
+				}
+			}
+
+			# Now that we have added up the costs of traveling to every holy site, we divide by the number of holy sites you have so we come up with an average travel cost value
+			divide = {
+				
+				value = 2
+			}
+
+			add = { # Base cost, scaled by era
+				value = 150
+			}
+			
 			# Make it a multiple of 5 (rounded up)
-			divide = 5 
+			divide = 5
 			ceiling = yes 
 			multiply = 5
 		}
+		
 	}
 
 	cooldown = { years = 10 }
