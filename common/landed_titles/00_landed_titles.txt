@@ -159,6 +159,15 @@ e_zeah = {
 					province = 449
 				}
 			}
+
+			c_lizcanyon = {
+				color = { 53 7 0}
+
+				b_lizcanyon = {
+					color = { 53 7 0}
+					province = 627
+				}
+			}
 		}
 
 		d_woodlands = { 
@@ -216,6 +225,112 @@ e_zeah = {
 				}
 			}
 
+		}
+	}
+
+	k_kebos = {
+		color = { 0 41 0}
+		capital = c_molch
+
+		d_kebos = {
+			color = { 0 41 0}
+			capital = c_molch
+
+			c_molch = { 
+				color = { 0 41 0}
+
+				b_molch = {
+					color = { 0 41 0}
+					province = 633
+				}
+			}
+
+			c_lizshrine = {
+				color = { 61 95 56 }
+
+				b_lizshrine = {
+					color = { 61 95 56 }
+					province = 634
+				}
+			}
+
+			c_kswamp = {
+				color = { 46 66 63}
+
+				b_kswamp = {
+					color = { 46 66 63}
+					province = 632
+				}
+			}
+
+			c_outerkebos = {
+				color = { 197 87 97 }
+
+				b_outerkebos = {
+					color = { 197 87 97}
+					province = 635
+				}
+			}
+		}
+
+		d_northkebos = {
+			color = { 0 129 0}
+			capital = c_farmg
+
+			c_farmg = {
+				color = { 0 129 0}
+
+				b_farmg = {
+					color = { 0 129 0}
+					province = 630
+				}
+			}
+
+			c_eastfarmg = {
+				color = { 59 70 12}
+
+				b_eastfarmg = {
+					color = { 59 70 12}
+					province = 628
+				}
+			}
+
+			c_gordonfarm = {
+				color = { 182 153 97}
+
+				b_gordonfarm = {
+					color = { 182 153 97}
+					province = 631
+				}
+			}
+		}
+
+		d_karluum = {
+			color = { 17 129 160}
+			capital = c_karluum 
+
+			c_karluum = {
+				color = { 17 129 160}
+
+				b_karluum = {
+					color = { 17 129 160}
+					province = 629
+				}
+			}
+		}
+
+		d_cox = {
+			color = { 197 209 97}
+			capital = c_cox
+
+			c_cox = {
+				color = { 197 209 97}
+
+				b_cox = {
+					color = { 197 209 97}
+					province = 636
+				}
+			}
 		}
 	}
 }

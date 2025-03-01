@@ -1,0 +1,61 @@
+﻿
+627 = {  #Lizard Canyon
+	religion = zamorak
+	culture = goblin
+	holding = tribal_holding	
+}
+
+628 = {  #Musa
+	religion = sardomin
+	culture = asgarnia
+	holding = tribal_holding	
+}
+
+629 = {  #Musa
+	religion = bandos
+	culture = hillgiant
+	holding = tribal_holding
+}
+
+630 = {  #Musa
+	religion = sardomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+631 = {  #Musa
+	religion = sardomin
+	culture = asgarnia
+	holding = tribal_holding	
+}
+
+632 = {  #Musa
+	religion = zamorak
+	culture = goblin
+	holding = tribal_holding
+}
+
+633 = {  #Musa
+	religion = zamorak
+	culture = goblin
+	holding = tribal_holding
+}
+
+634 = {  #Musa
+	religion = zamorak
+	culture = goblin
+	holding = tribal_holding
+}
+
+635 = {  #Musa
+	religion = zamorak
+	culture = goblin
+	holding = castle_holding	
+}
+
+636 = {  #Musa
+	religion = zamorak
+	culture = asgarnia
+	holding = tribal_holding
+}
+

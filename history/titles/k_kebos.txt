@@ -1,0 +1,12 @@
+﻿
+d_northkebos = {
+	9160.1.1 = {
+		holder = zeah001
+	}
+}
+
+c_outerkebos = {
+	9160.1.1 = {
+		holder = zeah004
+	}
+}

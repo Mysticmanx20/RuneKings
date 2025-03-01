@@ -627,5 +627,15 @@ default_coastal_sea=coastal_sea
 624=forest
 625=jungle
 626=floodplains
+627=mountains
+628=farmlands
+629=mountains
+630=farmlands
+631=farmlands
+632=wetlands
+633=wetlands
+634=wetlands
+635=wetlands
+636=mountains
 
 
