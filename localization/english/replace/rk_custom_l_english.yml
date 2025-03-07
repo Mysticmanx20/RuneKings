@@ -39,6 +39,9 @@
  heritage_monkey_collective_noun:0 "Simians"
  heritage_fren_name:0 "Freneskae"
  heritage_fren_collective:0 "Mahjarrat"
+ heritage_lizard_name:0 "Lizard"
+ heritage_lizard_collective:0 "Lizards"
+
  language_common_name:0 "Common"
  language_element_name:0 "Elemental"
  language_frem_name:0 "Fremennik"
@@ -57,6 +60,7 @@
  language_scabarite_name:0 "Scabarite"
  language_pest_name:0 "Pest"
  language_penguin_name:0 "Penguin"
+ language_lizard_name:0 "Lizardspeak"
 
  holy_order_temple_knights:0 "Temple Knights"
  holy_order_white_knights:0 "White Knights"
@@ -1007,6 +1011,9 @@
  werewolf:0 "Werewolf"
  werewolf_prefix:0 "Lycan"
  werewolf_collective_noun:0 "Werewolves"
+ lizardmen:0 "Lizardfolk"
+ lizardmen_prefix:0 "Lizardfolk"
+ lizardmen_collective_noun:0 "Lizardfolk"
  dragon:0 "Dragon"
  dragon_prefix:0 "Draconic"
  dragon_collective_noun:0 "Dragons"

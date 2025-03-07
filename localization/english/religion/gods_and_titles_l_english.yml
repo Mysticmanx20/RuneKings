@@ -120,6 +120,15 @@ l_english:
  	ZAROS_AFTERLIFE:0 "Erebus"
   	ZAROS_DIVINE:0 "the Shadow Realm"
 
+###############################
+ # Xeric
+
+ xeric_religion:1 "Xeric"
+ xerician:0 "Cult of Xeric"
+ xerician_adj:0 "Xerician"
+ xerician_adherent:0 "Xerician"
+ xerician_adherent_plural:0 "Xericians"
+
 ################################
 # Xau-Tak
 

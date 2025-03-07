@@ -200,6 +200,7 @@ piratecul = {
 		tradition_maritime_mercantilism
 		tradition_seafaring
 		tradition_practiced_pirates
+		tradition_festivities
 	}
 	
 	name_list = name_list_pirate
@@ -1064,4 +1065,28 @@ mwanu = {
 	}	
 }
 
+lizardmen = {     # Lizardmen
+	color = { 0.64 0.76 0.68 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_lizard
+	language = language_lizard
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_isolationist
+		tradition_fervent_temple_builders
+		tradition_warrior_culture
+	}
+	
+	name_list = name_list_qiang
 
+	coa_gfx = { turkic_group_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}

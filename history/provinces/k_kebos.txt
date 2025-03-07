@@ -30,20 +30,20 @@
 }
 
 632 = {  #Musa
-	religion = zamorak
-	culture = goblin
+	religion = xerician
+	culture = lizardmen
 	holding = tribal_holding
 }
 
 633 = {  #Musa
-	religion = zamorak
-	culture = goblin
+	religion = xerician
+	culture = lizardmen
 	holding = tribal_holding
 }
 
 634 = {  #Musa
-	religion = zamorak
-	culture = goblin
+	religion = xerician
+	culture = lizardmen
 	holding = tribal_holding
 }
 
@@ -54,8 +54,8 @@
 }
 
 636 = {  #Musa
-	religion = zamorak
-	culture = asgarnia
+	religion = xerician
+	culture = lizardmen
 	holding = tribal_holding
 }
 

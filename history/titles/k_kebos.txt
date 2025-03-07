@@ -10,3 +10,17 @@ c_outerkebos = {
 		holder = zeah004
 	}
 }
+
+c_molch = {
+	9160.1.1 = {
+		holder = zeah017
+		change_development_level = 5
+	}
+}
+
+c_kswamp = {
+	9160.1.1 = {
+		holder = zeah018
+		change_development_level = 3
+	}
+}

@@ -237,3 +237,23 @@ zeah016 = {
 		}
 	}
 }
+
+zeah017 = {
+	name = "Ek'ans"
+	#dynasty chan
+	religion = xerician
+	culture = lizardmen
+	9144.1.1 = {
+		birth = yes
+	}
+}
+
+zeah018 = {
+	name = "Ket'sal"
+	#dynasty K'uk
+	religion = xerician
+	culture = lizardmen
+	9140.1.1 = {
+		birth = yes
+	}
+}

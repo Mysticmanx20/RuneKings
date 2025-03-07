@@ -88,6 +88,11 @@ heritage_werewolf = {
 	audio_parameter = european
 }
 
+heritage_lizard = {
+	type = heritage
+	audio_parameter = mena
+}
+
 
 
 
