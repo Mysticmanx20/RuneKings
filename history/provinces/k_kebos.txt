@@ -1,7 +1,7 @@
 ﻿
 627 = {  #Lizard Canyon
-	religion = zamorak
-	culture = goblin
+	religion = xerician
+	culture = lizardmen
 	holding = tribal_holding	
 }
 
@@ -48,8 +48,8 @@
 }
 
 635 = {  #Musa
-	religion = zamorak
-	culture = goblin
+	religion = xerician
+	culture = lizardmen
 	holding = castle_holding	
 }
 

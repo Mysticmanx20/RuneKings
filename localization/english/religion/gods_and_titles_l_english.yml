@@ -124,10 +124,23 @@ l_english:
  # Xeric
 
  xeric_religion:1 "Xeric"
+ xeric_religion_adj:1 "Xerician"
+ xeric_religion_adherent:1 "Xerician"
+ xeric_religion_adherent_plural:1 "Xericians"
+ xeric_religion_desc:0 "Xeric was a powerful mage and former king of Great Kourend, responsible for using the power of the Dark Altar to dominate the land for a hundred years. He was also the creator of the Lizardmen, using them to reinforce his tyrannical reign. Xeric used the citizens of Kourend for many experiments, as well as for his own sadistic pleasures, before being overthrown and exiled. Xericians are the loyal followers of Xeric, seeking to carry out their master's will with ruthless devotion."
+
  xerician:0 "Cult of Xeric"
  xerician_adj:0 "Xerician"
  xerician_adherent:0 "Xerician"
  xerician_adherent_plural:0 "Xericians"
+
+ XERIC_NAME:0 "Xeric"
+ XERIC_POSSESSIVE:0 "Xeric's"
+ XERIC_NAME2:0 "The Master"
+ XERIC_POSSESSIVE2:0 "The Master's"
+
+ XERIC_CREST_NAME:0 "Twisted Symbol"
+ XERIC_SCRIPTURES_NAME:0 "Chronicles of Xeric"
 
 ################################
 # Xau-Tak

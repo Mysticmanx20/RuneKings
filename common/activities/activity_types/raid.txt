@@ -38,6 +38,10 @@
 			limit = { scope:special_option ?= flag:raid_tombs }
 			barony = title:b_jaltevas
 		}
+		trigger_if = {
+			limit = { scope:special_option ?= flag:raid_xeric }
+			barony = title:b_cox
+		}
 		
 		# If you are supposed to be the realm's reserve ruler, then you can't take a foreign trip.
 		trigger_if = {
@@ -1298,13 +1302,18 @@
 				is_valid = {
 					NOT = { has_culture = culture:vampyre } 
 					title:c_vers.holder = {
-					has_faith = faith:zamorak
-					has_culture = culture:vampyre
+						has_faith = faith:zamorak
+						has_culture = culture:vampyre
 					}
 				}
 			}
 			raid_xeric = {
-				
+				is_valid = {
+					NOT = { religion = religion:xeric_religion } 
+					title:c_cox.holder = {
+						has_faith = faith:xerician
+					}
+				}
 			}
 			raid_tombs = {
 				

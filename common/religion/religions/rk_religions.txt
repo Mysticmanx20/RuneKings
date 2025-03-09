@@ -3774,100 +3774,100 @@ xeric_religion = {
 
 	localization = {
 		#HighGod
-		HighGodName = BANDOS_NAME
-		HighGodName2 = BANDOS_NAME2
-		HighGodNamePossessive = BANDOS_POSSESSIVE
+		HighGodName = XERIC_NAME
+		HighGodName2 = XERIC_NAME2
+		HighGodNamePossessive = XERIC_POSSESSIVE
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
-		HighGodNameAlternate = BANDOS_NAME2
-		HighGodNameAlternatePossessive = BANDOS_POSSESSIVE2
+		HighGodNameAlternate = XERIC_NAME2
+		HighGodNameAlternatePossessive = XERIC_POSSESSIVE2
 
 		#Creator
-		CreatorName = BANDOS_NAME
-		CreatorNamePossessive = BANDOS_POSSESSIVE
+		CreatorName = XERIC_NAME
+		CreatorNamePossessive = XERIC_POSSESSIVE
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = BANDOS_NAME
-		HealthGodNamePossessive = BANDOS_POSSESSIVE
+		HealthGodName = XERIC_NAME
+		HealthGodNamePossessive = XERIC_POSSESSIVE
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
-		FertilityGodName = BANDOS_NAME
-		FertilityGodNamePossessive = BANDOS_POSSESSIVE
+		FertilityGodName = XERIC_NAME
+		FertilityGodNamePossessive = XERIC_POSSESSIVE
 		FertilityGodSheHe = CHARACTER_SHEHE_HE
 		FertilityGodHerHis = CHARACTER_HERHIS_HIS
 		FertilityGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WealthGod
-		WealthGodName = BANDOS_NAME
-		WealthGodNamePossessive = BANDOS_POSSESSIVE
+		WealthGodName = XERIC_NAME
+		WealthGodNamePossessive = XERIC_POSSESSIVE
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = BANDOS_NAME
-		HouseholdGodNamePossessive = BANDOS_POSSESSIVE
+		HouseholdGodName = XERIC_NAME
+		HouseholdGodNamePossessive = XERIC_POSSESSIVE
 		HouseholdGodSheHe = CHARACTER_SHEHE_HE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
 		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 
 		#FateGod
-		FateGodName = BANDOS_NAME
-		FateGodNamePossessive = BANDOS_POSSESSIVE
+		FateGodName = XERIC_NAME
+		FateGodNamePossessive = XERIC_POSSESSIVE
 		FateGodSheHe = CHARACTER_SHEHE_HE
 		FateGodHerHis = CHARACTER_HERHIS_HIS
 		FateGodHerHim = CHARACTER_HERHIM_HIM
 
 		#KnowledgeGod
-		KnowledgeGodName = BANDOS_NAME
-		KnowledgeGodNamePossessive = BANDOS_POSSESSIVE
+		KnowledgeGodName = XERIC_NAME
+		KnowledgeGodNamePossessive = XERIC_POSSESSIVE
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = BANDOS_NAME
-		WarGodNamePossessive = BANDOS_POSSESSIVE
+		WarGodName = XERIC_NAME
+		WarGodNamePossessive = XERIC_POSSESSIVE
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = BANDOS_NAME
-		TricksterGodNamePossessive = BANDOS_POSSESSIVE
+		TricksterGodName = XERIC_NAME
+		TricksterGodNamePossessive = XERIC_POSSESSIVE
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
-		NightGodName = BANDOS_NAME
-		NightGodNamePossessive = BANDOS_POSSESSIVE
+		NightGodName = XERIC_NAME
+		NightGodNamePossessive = XERIC_POSSESSIVE
 		NightGodSheHe = CHARACTER_SHEHE_HE
 		NightGodHerHis = CHARACTER_HERHIS_HIS
 		NightGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WaterGod
-		WaterGodName = BANDOS_NAME
-		WaterGodNamePossessive = BANDOS_POSSESSIVE
+		WaterGodName = XERIC_NAME
+		WaterGodNamePossessive = XERIC_POSSESSIVE
 		WaterGodSheHe = CHARACTER_SHEHE_HE
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
 
 
-		PantheonTerm = BANDOS_NAME
-		PantheonTerm2 = BANDOS_NAME2
+		PantheonTerm = XERIC_NAME
+		PantheonTerm2 = XERIC_NAME2
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
-			BANDOS_NAME
-			BANDOS_NAME2
+			XERIC_NAME
+			XERIC_NAME2
 		}
 		DevilName = GUTHIX_NAME
 		DevilNamePossessive = GUTHIX_POSSESSIVE
@@ -3875,20 +3875,20 @@ xeric_religion = {
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
-			BANDOS_EVIL
-			BANDOS_EVIL2
-			BANDOS_EVIL3
+			XERIC_EVIL
+			XERIC_EVIL2
+			XERIC_EVIL3
 		}
 		HouseOfWorship = buddhism_house_of_worship
 		HouseOfWorship2 = buddhism_house_of_worship
 		HouseOfWorship3 = buddhism_house_of_worship
 		HouseOfWorshipPlural = buddhism_house_of_worship_plural
-		ReligiousSymbol = BANDOS_CREST_NAME
-		ReligiousSymbol2 = BANDOS_CREST_NAME
-		ReligiousSymbol3 = BANDOS_CREST_NAME
-		ReligiousText = BANDOS_SCRIPTURES_NAME
-		ReligiousText2 = BANDOS_SCRIPTURES_NAME
-		ReligiousText3 = BANDOS_SCRIPTURES_NAME
+		ReligiousSymbol = XERIC_CREST_NAME
+		ReligiousSymbol2 = XERIC_CREST_NAME
+		ReligiousSymbol3 = XERIC_CREST_NAME
+		ReligiousText = XERIC_SCRIPTURES_NAME
+		ReligiousText2 = XERIC_SCRIPTURES_NAME
+		ReligiousText3 = XERIC_SCRIPTURES_NAME
 		ReligiousHeadName = SARA_Head_Title
 		ReligiousHeadTitleName = BANDOS_TITLE
 		DevoteeMale = islam_devotee
@@ -3939,22 +3939,22 @@ xeric_religion = {
 	piety_icon_group = "islam"
 
 	faiths = {
-		xerician = {  #Bandos
+		xerician = {  # Cult of Xeric
 			color = { 0 0.5 0 }
-			icon = bandos
+			icon = xeric
 
 
 			#Tenet:
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_ancestor_worship
+			doctrine = tenet_communal_identity
 
 
 			#Leadership
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_pluralism_fundamentalist
 			doctrine = doctrine_gender_male_dominated
-			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_theocracy_temporal
 			doctrine = doctrine_concubines
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_bastardry_none
@@ -3963,7 +3963,7 @@ xeric_religion = {
 			doctrine = doctrine_adultery_men_shunned
 			doctrine = doctrine_adultery_women_shunned
 			doctrine = doctrine_kinslaying_accepted
-			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_witchcraft_accepted
 			doctrine = doctrine_clerical_function_recruitment
 			doctrine = doctrine_clerical_marriage_allowed
 
