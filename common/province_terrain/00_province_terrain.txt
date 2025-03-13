@@ -637,5 +637,16 @@ default_coastal_sea=coastal_sea
 634=wetlands
 635=wetlands
 636=mountains
+637=forest
+638=forest
+639=hills
+640=forest
+641=plains
+642=forest
+643=forest
+644=hills
+645=forest
+646=forest
+647=forest
 
 

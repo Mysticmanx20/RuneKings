@@ -257,3 +257,46 @@ zeah018 = {
 		birth = yes
 	}
 }
+
+zeah019 = {
+	name= "Lars"
+	religion = saradomin
+	culture = asgarnia
+	trait = education_martial_2
+	trait = diligent
+	9132.1.1 = {
+		birth = yes
+	}
+}
+
+zeah020 = {
+	name = "Magoro"
+	religion = saradomin
+	culture = asgarnia
+	trait = honest
+	trait = education_diplomacy_2
+	9136.1.1 = {
+		birth = yes
+	}
+}
+
+zeah021 = {
+	name = "Ivar"
+	religion = v
+	culture = fremennik
+	trait = brave
+	trait = education_martial_2
+	9138.1.1 = {
+		birth = yes
+	}
+}
+
+zeah022 = {
+	name = "Dřevo"
+	culture = hillgiant
+	religion = bandos
+	trait = education_martial_1
+	9136.1.1 = {
+		birth = yes
+	}
+}

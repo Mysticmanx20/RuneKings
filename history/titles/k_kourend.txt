@@ -195,7 +195,57 @@ c_kourend = {
 
 c_woodlands = {
 	9160.1.1 = {
-		holder = zeah006
+		liege = k_kourend
+		holder = zeah020
 		change_development_level = 7
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+}
+
+c_wcguild = {
+	9160.1.1 = {
+		liege = d_hos
+		holder = zeah019
+		change_development_level = 6
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+}
+
+c_fremwood = {
+	9168.1.1 = {
+		liege = 0
+		holder = zeah021
+		change_development_level = 4
+	}
+
+}
+
+c_northwland = {
+	9168.1.1 = {
+		liege = 0
+		holder = zeah022
+		change_development_level = 2
 	}
 }

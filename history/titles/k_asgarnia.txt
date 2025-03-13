@@ -351,6 +351,8 @@ c_warriors = {
 		liege = d_burthorpe
 		holder = asgarn011
 		change_development_level = 8
+	}
+}
 
 c_deathpla = {
 	9159.1.1 = {

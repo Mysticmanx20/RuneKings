@@ -181,7 +181,75 @@ e_zeah = {
 					color = { 160 189 151}
 					province = 450
 				}
+
+				b_woodcamp = {
+					color = { 148 109 65}
+					province = 637
+				}
+
+				b_copperwood = {
+					color = { 141 170 136}
+					province = 638
+				}
 			}
+
+			c_fremwood = {
+				color = { 172 163 78 }
+
+				b_fremwood = {
+					color = { 172 163 78}
+					province = 639
+				}
+
+				b_crabwood = {
+					color = { 134 175 136}
+					province = 640
+				}
+
+				b_centerwood = {
+					color = { 141 163 78}
+					province = 641
+				}
+			}
+
+			c_wcguild = {
+				color = { 114 189 78 }
+
+				b_wcguild = {
+					color = { 114 189 78}
+					province = 642
+				}
+
+				b_outerguild = {
+					color = { 160 189 78}
+					province = 643
+				}
+
+				b_redwoods = {
+					color = { 114 141 78}
+					province = 644
+				}
+			}
+
+			c_northwland = {
+				color = { 123 146 75 }
+
+				b_northwland = {
+					color = { 123 146 75}
+					province = 645
+				}
+
+				b_memorial = {
+					color = { 94 168 65}
+					province = 646
+				}
+
+				b_outerwoods = {
+					color = { 112 180 96}
+					province = 647
+				}
+			}
+
 		}
 
 		d_hos = {

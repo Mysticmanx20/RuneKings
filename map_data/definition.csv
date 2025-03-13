@@ -448,7 +448,7 @@
 447;172;205;31;bananas;x
 448;91;202;135;kourend;x
 449;176;39;39;shayzien;x
-450;160;189;151;woodlands;x
+450;160;189;151;landsend;x
 451;146;189;133;hosidius;x
 452;219;202;97;portpisc;x
 453;137;85;161;aceus;x
@@ -635,5 +635,16 @@
 634;61;95;56;southkebos;x;
 635;197;87;97;outerkebos;x;
 636;197;209;97;quidmortem;x;
-637;0;0;0;;x
-638;255;255;255;;x
+637;148;109;65;woodcamp;x;
+638;141;170;136;longtailwood;x;
+639;172;163;78;fremwood;x;
+640;134;175;136;crabwood;x;
+641;141;163;78;centerwood;x;
+642;114;189;78;wcguild;x;
+643;160;189;78;outerguild;x;
+644;114;141;78;redwoods;x;
+645;123;146;75;mosswood;x;
+646;94;168;65;woodlands;x;
+647;112;180;96;westernwoods;x;
+648;0;0;0;;x
+649;255;255;255;;x

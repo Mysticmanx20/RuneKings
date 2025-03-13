@@ -46,3 +46,69 @@
 	culture = asgarnia
 	holding = castle_holding	
 }
+
+637 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none	
+}
+
+638 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+639 = {  #Kourend
+	religion = v
+	culture = fremennik
+	holding = tribal_holding	
+}
+
+640 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+641 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none	
+}
+
+642 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding	
+}
+
+643 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none	
+}
+
+644 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none
+}
+
+645 = {  #Kourend
+	religion = bandos
+	culture = hillgiant
+	holding = tribal_holding
+}
+
+646 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none	
+}
+
+647 = {  #Kourend
+	religion = saradomin
+	culture = asgarnia
+	holding = none	
+}
