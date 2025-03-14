@@ -1477,6 +1477,18 @@ types Lists
 							}
 						}
 						expand = {}
+
+						text_single = {
+							name = "has_guardian"
+							default_format = "#low"
+							align = nobaseline
+							max_width = 370
+							margin_right = 5
+							visible = "[And( Not(Character.IsAdult), Not(Character.HasGuardian) )]"
+
+							text = "COURT_WINDOW_NO_GUARDIAN"
+							tooltip = "COURT_WINDOW_NO_GUARDIAN_TOOLTIP"
+						}
 					}
 				}
 

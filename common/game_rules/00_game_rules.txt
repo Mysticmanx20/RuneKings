@@ -136,6 +136,23 @@ other_epidemic_frequency = {
 	epidemic_frequency_disabled = {}
 }
 
+minor_disease_frequency = {
+	
+	categories = {
+		difficulty health
+	}
+	
+	default = default_minor_disease_frequency
+
+	default_minor_disease_frequency = {
+	
+	}
+	
+	fewer_minor_disease_frequency = {
+		flag = blocks_achievements
+	}
+}
+
 legend_spread_chance = {
 	
 	categories = {
@@ -222,11 +239,28 @@ realm_stability = {
 	
 	default = default_realm_stability
 
+	lesser_realm_stability_ai_only = {
+	}
+
 	lesser_realm_stability = {
+	}
+
+	lesser_realm_stability_regular_factions_ai_only = {
+	}
+
+	lesser_realm_stability_regular_factions = {
 	}
 
 	default_realm_stability = {
 	
+	}
+
+	higher_realm_stability_ai_only = {
+
+	}
+
+	extreme_realm_stability_ai_only = {
+
 	}
 
 	higher_realm_stability = {
@@ -234,6 +268,22 @@ realm_stability = {
 	}
 
 	extreme_realm_stability = {
+
+	}
+
+	higher_realm_stability_regular_factions_ai_only = {
+
+	}
+
+	extreme_realm_stability_regular_factions_ai_only = {
+
+	}
+
+	higher_realm_stability_regular_factions = {
+
+	}
+
+	extreme_realm_stability_regular_factions = {
 
 	}
 }
@@ -585,6 +635,20 @@ empire_obscurity_requirement = {
 	}
 }
 
+custom_duchies = {
+	categories = {
+		historicity titles
+	}
+
+	default = on_custom_duchies
+
+	on_custom_duchies = {}
+
+	on_custom_duchies_player = {}
+
+	off_custom_duchies = {}
+}
+
 custom_kingdoms = {
 	
 	categories = {
@@ -695,7 +759,6 @@ sexuality_distribution = {
 	sexuality_distribution_most_common_bisexuality = { }
 
 	sexuality_distribution_most_common_asexuality = { }
-
 }
 
 faith_acceptance = {
@@ -807,59 +870,71 @@ domain_limit_tweaks = {
 	}
 }
 
-# hungarian_migration = {
+historicity_extra_admin_player_wherever = {
 	
-# 	categories = {
-# 		historicity flavor
-# 	}
+	categories = { historicity game_modes }
 	
-# 	default = launch_immediate
-# 	launch_historical = {}
-# 	launch_immediate = {}
-# 	launch_random = {}
-# 	launch_off = { flag = blocks_achievements }
-# }
+	default = historicity_extra_admin_player_wherever_gameplay_not_administrative
 
-# dlc_fp1_scandinavian_adventurers = {
-	
-# 	categories = {
-# 		difficulty historicity flavor
-# 	}
-	
-# 	default = fp1_scandi_adventurers_frequent
-# 	#dlc = "The Northern Lords"
-# 	fp1_scandi_adventurers_rare = { flag = blocks_achievements }
-# 	fp1_scandi_adventurers_occasional = {}
-# 	fp1_scandi_adventurers_frequent = {}
-# 	fp1_scandi_adventurers_apocalyptic = {}
-# 	fp1_scandi_adventurers_off = { flag = blocks_achievements }
-# }
+	historicity_extra_admin_player_wherever_gameplay_not_administrative = {}
 
-# dissolution_umayyad = {
-	
-# 	categories = {
-# 		historicity flavor
-# 	}
-	
-# 	default = dissolution_unconstrained
-# 	dissolution_unconstrained = {}
-# 	dissolution_after_caliph_death = {}
-# 	dissolution_historical_date = {}
-# }
+	historicity_extra_admin_player_wherever_alt_historic_always = {}
 
-# dlc_fp3_seljuk_invasion = {
+	historicity_extra_admin_player_wherever_alt_historic_with_august_trait = {}
+}
 
-# 	categories = {
-# 		difficulty historicity
-# 	}
+title_creation_imperial_power_projection = {
 	
-# 	default = default_seljuk_invasion
-
-# 	default_seljuk_invasion = {}
+	categories = { titles tweaks }
 	
-# 	never_seljuk_invasion = {
-# 		flag = blocks_achievements
-# 	}
+	default = title_creation_imperial_power_projection_none
 
-# 	random_seljuk_invasion = {}
-# }
+	title_creation_imperial_power_projection_none = {}
+
+	title_creation_imperial_power_projection_any_power_advantage = {}
+
+	title_creation_imperial_power_projection_hard_power_only = {}
+
+	title_creation_imperial_power_projection_soft_power_only = {}
+
+	title_creation_imperial_power_projection_hard_power_only_strict = {}
+
+	title_creation_imperial_power_projection_any_power_strict = {}
+}
+
+title_creation_imperial_power_projection_targeting = {
+
+	categories = { titles tweaks }
+	
+	default = title_creation_imperial_power_projection_targeting_ai_only
+
+	title_creation_imperial_power_projection_targeting_ai_only = {}
+
+	title_creation_imperial_power_projection_targeting_both = {}
+
+	title_creation_imperial_power_projection_targeting_player_only = {}
+}
+
+ai_laamp_numbers = {
+	categories = { tweaks }
+
+	default = ai_laamp_numbers_200
+
+	ai_laamp_numbers_200 = { }
+	ai_laamp_numbers_150 = { }
+	ai_laamp_numbers_100 = { }
+	ai_laamp_numbers_50 = { }
+	ai_laamp_numbers_25 = { }
+}
+
+advantage_damage_effect = {
+	categories = { tweaks }
+	
+	default = advantage_damage_effect_5
+	
+	advantage_damage_effect_1 = { flag = advantage_damage_effect_1 }
+	advantage_damage_effect_2 = { flag = advantage_damage_effect_2 }
+	advantage_damage_effect_5 = { flag = advantage_damage_effect_5 }
+	advantage_damage_effect_7 = { flag = advantage_damage_effect_7 }
+	advantage_damage_effect_10 = { flag = advantage_damage_effect_10 }
+}

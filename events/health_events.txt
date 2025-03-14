@@ -1556,9 +1556,13 @@ health.1003 = {
 			factor = 0.5
 		}
 		modifier = {
-			has_trait = gluttonous
-			factor = 1.2
-		}
+			ek_human_age_equivalent < 50
+			factor = 0.5
+		}			
+		modifier = {
+			ek_human_age_equivalent < 40
+			factor = 0.5
+		}		
 		modifier = {
 			health >= good_health
 			factor = 0.5
@@ -1566,28 +1570,16 @@ health.1003 = {
 		modifier = {
 			has_trait = temperate
 			factor = 0.8
-		}
+		}		
 		modifier = {
 			has_character_modifier = obese_modifier
 			factor = 1.5
-		}
+		}	
 		modifier = {
 			any_parent = {
 				has_trait = gout_ridden
 			}
 			factor = 1.5
-		}
-		modifier = {
-			health <= fine_health
-			factor = 1.1
-		}
-		modifier = {
-			health <= poor_health
-			factor = 1.1
-		}
-		modifier = {
-			is_adult = no
-			factor = 0.2
 		}
 		modifier = {
 			current_weight > 50
@@ -1620,7 +1612,7 @@ health.1003 = {
 				amenity_level = { type = court_food_quality value = 5 }
 			}
 			factor = 1.5
-		}
+		}	
 	}
 
 	immediate = {
@@ -11828,7 +11820,7 @@ health.7000 = {
 			factor = 0
 		}
 		modifier = {
-			health = fine_health
+			health >= fine_health
 			factor = 0.8
 		}
 		modifier = {
@@ -11844,19 +11836,19 @@ health.7000 = {
 			factor = 1.5
 		}
 		modifier = {
-			ek_human_age_equivalent <= 50 # RK EDIT
+			ek_human_age_equivalent < 50 # RK EDIT
 			factor = 0.7
 		}
 		modifier = {
-			ek_human_age_equivalent >= 60 # RK EDIT
+			ek_human_age_equivalent > 60 # RK EDIT
 			factor = 2
 		}
 		modifier = {
-			ek_human_age_equivalent >= 70 # RK EDIT
+			ek_human_age_equivalent > 70 # RK EDIT
 			factor = 2
 		}
 		modifier = {
-			ek_human_age_equivalent >= 80 # RK EDIT
+			ek_human_age_equivalent > 80 # RK EDIT
 			factor = 3
 		}
 		modifier = {
