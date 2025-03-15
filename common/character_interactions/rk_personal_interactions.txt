@@ -161,6 +161,7 @@ activate_prayer_interaction = {
 		
 		scope:actor = {
 			
+			play_sound_effect = "event:/activatepray"
 			switch = {
 				trigger = yes
 				scope:def_prayer = {

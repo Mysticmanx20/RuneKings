@@ -4,3 +4,7 @@
   activity_raid_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Raid"
   activity_raid_desc:0 "There are many evil forces dwelling in lairs across Gielinor. Lauching a daring raid against such deadly adversaries is sure to reward some manner of legendary and powerful artifacts."
   activity_raid_owner:0 "Raid Leader"
+  activity_runecraft:0 "Runecrafting Expedition"
+  activity_runecraft_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Runecrafting Expedition"
+  activity_runecraft_desc:0 "Runes are a valuable magical resource. If we are to cast any sort of magics, our realm must have a healthy supply of runes. Travel to one of the various runic altars and craft additional runes."
+  activity_runecraft_owner:0 "Lead Runecrafter"
