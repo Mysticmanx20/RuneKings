@@ -403,12 +403,9 @@
 900826 = {
 	name = "Lazim"
 	religion = zamorak
-	culture = kharidian
+	culture = menaphite
 	9120.1.2 = {
 		birth = yes
-	}
-	9168.1.1 = {
-		employer = 900822
 	}
 
 }

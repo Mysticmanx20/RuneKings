@@ -646,5 +646,14 @@
 645;123;146;75;mosswood;x;
 646;94;168;65;woodlands;x;
 647;112;180;96;westernwoods;x;
-648;0;0;0;;x
-649;255;255;255;;x
+648;155;170;146;crocbank;x;
+649;155;148;146;smokewell;x;
+650;187;155;146;bandithills;x;
+651;178;146;168;mirrors;x;
+652;153;143;172;banditridge;x;
+653;178;158;172;banditdesert;x;
+654;204;182;100;jalubank;x;
+655;204;155;138;jaludesert;x;
+656;204;187;104;outermena;x;
+657;0;0;0;;x
+658;255;255;255;;x

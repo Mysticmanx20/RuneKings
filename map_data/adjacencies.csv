@@ -9,7 +9,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 208;561;river_large;565;-1;-1;-1;-1;ArdyCrossing
 83;13;river_large;77;-1;-1;-1;-1;SalveCrossing
 108;122;river_large;125;-1;-1;-1;-1;ElidCrossing1
-115;118;river_large;125;-1;-1;-1;-1;ElidCrossing2
+654;118;river_large;125;-1;-1;-1;-1;ElidCrossing2
 116;117;river_large;125;-1;-1;-1;-1;MenaphosBridge
 65;28;river_large;78;-1;-1;-1;-1;FaladorMoat
 182;183;river_large;193;-1;-1;-1;-1;FremennikBridge

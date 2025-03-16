@@ -648,5 +648,13 @@ default_coastal_sea=coastal_sea
 645=forest
 646=forest
 647=forest
-
+648=desert
+649=desert
+650=desert_mountains
+651=desert_mountains
+652=desert
+653=desert
+654=desert
+655=desert
+656=desert
 

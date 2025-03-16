@@ -73,7 +73,7 @@
 
 113 = {  #BanditCamp
 	culture = kharidian
-	religion = menaph
+	religion = zaros
 	holding = tribal_holding
 }
 
@@ -87,7 +87,7 @@
 }
 
 115 = {  #AncientP
-	culture = kharidian
+	culture = menaphite
 	religion = menaph
 	holding = castle_holding
 }
@@ -328,3 +328,58 @@
 	religion = menaph
 	holding = castle_holding
 }
+
+648 = {  
+	culture = kharidian
+	religion = zaros
+	holding = none
+}
+
+649 = {  
+	culture = kharidian
+	religion = zaros
+	holding = tribal_holding
+}
+
+650 = {  
+	culture = kharidian
+	religion = zaros
+	holding = none
+}
+
+651 = {  
+	culture = kharidian
+	religion = zaros
+	holding = none
+}
+
+652 = {  
+	culture = kharidian
+	religion = zaros
+	holding = none
+}
+
+653 = {  
+	culture = kharidian
+	religion = zaros
+	holding = none
+}
+
+654 = {  
+	culture = menaphite
+	religion = menaph
+	holding = none
+}
+
+655 = {  
+	culture = menaphite
+	religion = menaph
+	holding = none
+}
+
+656 = {  
+	culture = menaphite
+	religion = menaph
+	holding = castle_holding
+}
+

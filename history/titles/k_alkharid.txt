@@ -222,16 +222,24 @@ c_bandit = {
 	}
 }
 
+c_middledesert = {
+	9160.1.1 = {
+		holder = 900822
+		change_development_level = 1
+	}
+}
+
 c_quarry = {
 	9168.1.1 = {
-		holder = 900822
+		liege = 0
+		holder = 900826
 		change_development_level = 3
 	}
 }
 
 c_deserttreasure = {
 	9168.1.1 = {
-		holder = 900822
+		holder = 900818
 	}
 }
 
@@ -282,6 +290,13 @@ c_menaphos = {
 	9146.1.1 = {
 		holder = 900818
 		change_development_level = 11
+	}
+}
+
+c_menadesert = {
+	9150.1.1 = {
+		holder = 900818
+		change_development_level = 3
 	}
 }
 
@@ -336,5 +351,6 @@ c_necro = {
 	}
 }
 
+c_
 
 

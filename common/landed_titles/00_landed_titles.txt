@@ -3550,14 +3550,13 @@ e_kharid = {
 
 			}
 
-			c_deserttreasure = {
-				color = { 204 155 100 }
+			c_menadesert = {
+				color = { 204 187 104}
 
-				b_ancientp = {
-					color = { 204 155 100}
-					province = 115
+				b_outermena = {
+					color = { 204 187 104}
+					province = 656
 				}
-
 			}
 
 		}
@@ -3728,7 +3727,60 @@ e_kharid = {
 					province = 113
 				}
 
+				b_banditcoast = {
+					color = {153 143 172}
+					province = 652
+				}
 
+				b_banditdesert = {
+					color = { 178 158 172}
+					province = 653
+				}
+
+				b_mirrors = {
+					color = { 178 146 168 }
+					province = 651
+				}
+
+			}
+
+			c_deserttreasure = {
+				color = { 204 155 100 }
+
+				b_ancientp = {
+					color = { 204 155 100}
+					province = 115
+				}
+
+				b_jalubank = {
+					color = { 204 182 100}
+					province = 654
+				}
+
+				b_jaludesert = {
+					color = { 204 155 138}
+					province = 655
+				}
+
+			}
+
+			c_middledesert = {
+				color = { 187 155 146}
+
+				b_smokewell = {
+					color = { 155 148 146}
+					province = 649
+				}
+
+				b_bandithills = {
+					color = { 187 155 146}
+					province = 650
+				}
+
+				b_crocbank = {
+					color = { 155 170 146}
+					province = 648
+				}
 			}
 
 			c_quarry = {
