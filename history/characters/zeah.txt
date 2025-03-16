@@ -300,3 +300,18 @@ zeah022 = {
 		birth = yes
 	}
 }
+
+zeah023 = {
+	name = "Jane"
+	female = yes
+	culture = asgarnia
+	religion = saradomin
+	trait = content
+	trait = compassionate
+	trait = diligent
+	trait = education_stewardship_3
+	9133.1.1 = {
+		birth = yes
+	}
+	
+}

@@ -404,6 +404,10 @@
 	name = "Lazim"
 	religion = zamorak
 	culture = menaphite
+	trait = impatient
+	trait = ambitious
+	trait = deceitful
+	trait = education_learning_3
 	9120.1.2 = {
 		birth = yes
 	}
@@ -414,11 +418,15 @@
 	name = "Drew"
 	religion = menaph
 	culture = kharidian
+	trait = education_stewardship_1
+	trait = patient
+	trait = diligent
+	trait = just
 	9139.1.1 = {
 		birth = yes
 	}
-	9168.1.2 = {
-		employer = 900822
+	9168.1.1 = {
+		employer = 900826
 	}
 
 }

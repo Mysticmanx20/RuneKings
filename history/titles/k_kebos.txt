@@ -1,7 +1,35 @@
 ﻿
-d_northkebos = {
-	9160.1.1 = {
-		holder = zeah001
+c_farmg = {
+	9168.1.1 = {
+		liege = d_hos
+		holder = zeah023
+		change_development_level = 8
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+}
+
+c_eastfarmg = {
+	9168.1.1 = {
+		holder = zeah023
+		change_development_level = 4
+	}
+}
+
+c_gordonfarm = {
+	9168.1.1 = {
+		holder = zeah023
+		change_development_level = 5
 	}
 }
 
