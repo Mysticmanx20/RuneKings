@@ -156,3 +156,29 @@ on_start_magic = {
 		}
 	}
 }
+
+
+add_quarterly_runes = {
+	effect = {
+		add_quarterly_runes_effect = yes
+		add_character_flag = {
+			flag = gains_magicka
+			months = 3
+		}
+	}
+}
+
+add_monthly_runes = {
+	effect = {
+		add_monthly_runes_effect = yes
+	}
+}
+
+add_yearly_runes = {
+	trigger = {
+		NOT = { has_character_flag = gains_magicka }
+	}
+	effect = {
+		add_yearly_runes_effect = yes
+	}
+}

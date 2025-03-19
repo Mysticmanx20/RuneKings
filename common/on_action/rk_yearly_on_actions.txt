@@ -1,0 +1,9 @@
+
+# Called from code once a quarter for "playable" (count+) characters.
+# Root is the character
+# scope:quarter is which quarter it's for, from 1 to 4. Note that scope:quarter = 1 isn't necessarily in Q1 by calendar time
+rk_quarterly_playable_pulse = {
+	on_actions = {
+		add_quarterly_runes
+	}
+}

@@ -96,7 +96,7 @@
 	TRAIT_FLAG_DESC_subtract_arcana_12:0 "[arcana|E]: [arcana_i]#N -12#!"
 
 
-	MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[Character.MakeScope.ScriptValue('magicka_max')|V0]"
+	MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[Character.MakeScope.ScriptValue('runes_max')|V0]"
 	MAGICKA_GAIN:0 "Generated:"
 	MAGICKA_LOSS:0 "Upkeep:"
 	MAGICKA_CHANGE:0 "Change:"

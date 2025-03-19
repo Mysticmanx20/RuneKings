@@ -111,7 +111,7 @@ types Arcana
 	}
 
 	type magicka_gain_breakdown_widget = widget { #hopefully can be generic for regen and cost. can use blocks that are set to empty to remove parts
-		#datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('magicka_regen')]" #"[Character.MakeScope.ScriptV]"
+		#datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('runes_regen')]" #"[Character.MakeScope.ScriptV]"
 		size = { 50 50 }
 		alwaystransparent = no
 		#using = GeneralTooltipSetup
@@ -153,7 +153,7 @@ types Arcana
 
 					text_single = {
 						name = "gained_value"
-						text = "[Character.MakeScope.ScriptValue('magicka_regen')|+=2]"
+						text = "[Character.MakeScope.ScriptValue('runes_regen')|+=2]"
 					}
 				}
 
@@ -172,7 +172,7 @@ types Arcana
 						layoutpolicy_vertical = expanding
 						margin = { 15 0 }
 						#spacing = 5
-						datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('magicka_flat')]"
+						datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('runes_flat')]"
 						datamodel = "[ValueBreakdown.GetSubValues]"
 						#alwaystransparent = no
 
@@ -306,7 +306,7 @@ types Arcana
 		}
 	}
 	type magicka_loss_breakdown_widget = widget { #hopefully can be generic for regen and cost. can use blocks that are set to empty to remove parts
-		#datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('magicka_regen')]" #"[Character.MakeScope.ScriptV]"
+		#datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('runes_regen')]" #"[Character.MakeScope.ScriptV]"
 		size = { 50 50 }
 		alwaystransparent = no
 		#using = GeneralTooltipSetup
@@ -439,7 +439,7 @@ types Arcana
 					tooltipwidget = {
 						magicka_gain_breakdown_widget = {}
 					}
-					tooltip_visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_regen'), '(CFixedPoint)0')]"
+					tooltip_visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
@@ -447,46 +447,46 @@ types Arcana
 					}
 
 					text_single = {
-						visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_regen'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('magicka_regen')|L+=2]"
+						visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
+						text = "[Character.MakeScope.ScriptValue('runes_regen')|L+=2]"
 						default_format = "#high"
 					}
 
 					text_single = {
-						visible = "[EqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_regen'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('magicka_regen')|+=2]"
-						default_format = "#high"
-					}
-				}
-
-				hbox = {
-					name = "total_label_loss"
-					layoutpolicy_horizontal = expanding
-					margin_bottom = 5
-
-					using = tooltip_es
-					tooltipwidget = {
-						magicka_loss_breakdown_widget = {}
-					}
-					tooltip_visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
-
-					text_single = {
-						layoutpolicy_horizontal = expanding
-						text = "MAGICKA_LOSS"
-					}
-
-					text_single = {
-						visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('magicka_upkeep')|L+=2]"
-						default_format = "#high"
-					}
-
-					text_single = {
-						visible = "[EqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('magicka_upkeep')|+=2]"
+						visible = "[EqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
+						text = "[Character.MakeScope.ScriptValue('runes_regen')|+=2]"
 						default_format = "#high"
 					}
 				}
+
+				# hbox = {
+				# 	name = "total_label_loss"
+				# 	layoutpolicy_horizontal = expanding
+				# 	margin_bottom = 5
+
+				# 	using = tooltip_es
+				# 	tooltipwidget = {
+				# 		magicka_loss_breakdown_widget = {}
+				# 	}
+				# 	tooltip_visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
+
+				# 	text_single = {
+				# 		layoutpolicy_horizontal = expanding
+				# 		text = "MAGICKA_LOSS"
+				# 	}
+
+				# 	text_single = {
+				# 		visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
+				# 		text = "[Character.MakeScope.ScriptValue('magicka_upkeep')|L+=2]"
+				# 		default_format = "#high"
+				# 	}
+
+				# 	text_single = {
+				# 		visible = "[EqualTo_CFixedPoint(Character.MakeScope.ScriptValue('magicka_upkeep'), '(CFixedPoint)0')]"
+				# 		text = "[Character.MakeScope.ScriptValue('magicka_upkeep')|+=2]"
+				# 		default_format = "#high"
+				# 	}
+				# }
 
 				# text_single = {
 				# 	name = "total_label_loss"
@@ -567,7 +567,7 @@ types Arcana
 					}
 
 					text_single = {
-						text = "[Character.MakeScope.ScriptValue('magicka_monthly')|+=2]"
+						text = "[Character.MakeScope.ScriptValue('runes_monthly')|+=2]"
 						default_format = "#high"
 					}
 				}

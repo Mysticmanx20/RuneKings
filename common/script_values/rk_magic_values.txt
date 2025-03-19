@@ -413,3 +413,29 @@ arcana = {
 	}
 
 }
+
+
+############################
+# Runes 
+############################
+runes_max = {
+	value = arcana
+	multiply = 10
+}
+
+runes_flat = {
+	value = {
+		value = arcana
+		multiply = 0.1
+		desc = runes_magic
+	}
+	
+}
+
+runes_regen = {
+	value = runes_flat
+}
+
+runes_monthly = {
+	value = runes_regen
+}

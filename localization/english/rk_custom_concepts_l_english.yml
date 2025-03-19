@@ -10,6 +10,12 @@
  game_concept_magicka:0 "Runes"
  game_concept_magicka_i:0 "@magicka_icon!"
  game_concept_magicka_desc:1 "$game_concept_magicka$ are used to cast [spells|E]. A character's maximum rune capacity and monthly generation are determined by their [arcana|E] - each point adds #high 10#! to max magicka and #high 0.1#! to monthly generation."
+
+ runes_magic:0 "[arcana|E]"
+
+
+
+
  game_concept_arcana:0 "Magic"
  game_concept_arcana_i:0 "@skill_arcana_icon!"
  game_concept_arcana_skill:0 "Magic Skill"

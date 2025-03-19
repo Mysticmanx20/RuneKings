@@ -24,3 +24,102 @@
         }
     }
 }
+
+
+add_runes = {
+    custom_description = {
+        text = add_runes
+        value = $VALUE$
+        if = {            
+            limit = { NOT = { has_variable = magicka } }
+            if = {
+                limit = { NOT = { $VALUE$ = 0 } }
+                set_variable = { name = magicka value = $VALUE$ }
+                if = {
+                    limit = { $VALUE$ > runes_max }
+                    set_variable = { name = magicka value = runes_max }
+                }
+            }
+        }
+        else = {
+            change_variable = { name = magicka add = $VALUE$ }
+            if = {
+                limit = { var:magicka > runes_max }
+                set_variable = { name = magicka value = runes_max }
+            }
+        }
+    }
+}
+add_quarterly_runes_effect = {
+    trigger_event = {
+        on_action = add_monthly_runes
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 1
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 2
+    }
+}
+
+add_monthly_runes_pulse = {
+        trigger_event = {
+        on_action = add_monthly_runes
+    }
+}
+
+add_monthly_runes_effect = {
+    add_runes = { VALUE = runes_monthly }
+}
+
+add_yearly_runes_effect = { 
+    trigger_event = {
+        on_action = add_monthly_runes
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 1
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 2
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 3
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 4
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 5
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 6
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 7
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 8
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 9
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 10
+    }
+    trigger_event = {
+        on_action = add_monthly_runes
+        months = 11
+    }
+}
