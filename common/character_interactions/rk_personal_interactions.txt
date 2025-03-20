@@ -415,3 +415,70 @@ activate_prayer_interaction = {
 		}
 	}
 }
+
+
+# Cast Spell interaction
+cast_spell_interaction = {
+
+	interface_priority = 1
+	category = interaction_category_friendly
+	desc = cast_spell_desc
+	common_interaction = yes
+	icon = magic
+	
+	use_diplomatic_range = yes
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+	
+	}
+
+	can_send = {
+		AND = {
+			scope:actor = { piety > minor_piety_value }
+
+			scope:actor = {
+				NOT = {
+					has_character_modifier = dangerous_mage
+				}
+				
+			}
+			
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = { 
+				NOT = { 
+					has_character_modifier = dangerous_mage
+				} 
+			}
+		}
+		flag = airstrike
+		localization = cast_airstrike
+	}
+
+	auto_accept = yes
+
+	on_accept = {
+		scope:actor = {
+			add_character_modifier = {
+				modifier = dangerous_mage
+				years = 5
+			}
+			add_runes = { VALUE = -50 }
+		}
+		scope:recipient = {
+			increase_wounds_effect = { REASON = fight }
+		}
+		
+	}
+
+
+}
+

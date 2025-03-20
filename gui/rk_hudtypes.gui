@@ -38,23 +38,39 @@
 					layoutpolicy_vertical = expanding
 					layoutstretchfactor_vertical = "[GetProgressBarValueMaxOtherScaled( FixedPointToFloat(GetPlayer.MakeScope.Var('magicka').GetValue), FixedPointToFloat(GetPlayer.MakeScope.ScriptValue('runes_max')), '(int32)66' )]"
 				}
-				#gets the progress bar part
-				widget = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					layoutstretchfactor_vertical = "[GetProgressBarValueMaxScaled( FixedPointToFloat(GetPlayer.MakeScope.Var('magicka').GetValue), FixedPointToFloat(GetPlayer.MakeScope.ScriptValue('runes_max')), '(int32)66' )]"
+				# #gets the progress bar part
+				# widget = {
+				# 	layoutpolicy_horizontal = expanding
+				# 	layoutpolicy_vertical = expanding
+				# 	layoutstretchfactor_vertical = "[GetProgressBarValueMaxScaled( FixedPointToFloat(GetPlayer.MakeScope.Var('magicka').GetValue), FixedPointToFloat(GetPlayer.MakeScope.ScriptValue('runes_max')), '(int32)66' )]"
 
-					progressbar = {
-						#visible = "[GreaterThanOrEqualTo_int32(GetPlayer.GetStressLevel, '(int32)3')]"
-						size = { 100% 100% }
-						progresstexture = "gfx/interface/colors/blue.dds"
-						noprogresstexture = "gfx/interface/colors/light_blue.dds"
-						spriteType = Corneredtiled
-						spriteborder = { 6 6 }
+				# 	progressbar = {
+				# 		#visible = "[GreaterThanOrEqualTo_int32(GetPlayer.GetStressLevel, '(int32)3')]"
+				# 		size = { 100% 100% }
+				# 		progresstexture = "gfx/interface/colors/blue.dds"
+				# 		noprogresstexture = "gfx/interface/colors/light_blue.dds"
+				# 		spriteType = Corneredtiled
+				# 		spriteborder = { 6 6 }
 
-						using = Animation_ShowHide_Standard
+				# 		using = Animation_ShowHide_Standard
+				# 	}
+				# }
+				flowcontainer = {
+					margin_bottom = 7
+					spacing = -6
+					direction = vertical
+					ignoreinvisible = yes	
+					
+					container = {
+						text_single = {
+							name = "balance_positive"
+							text = "MAGICKA_CURRENT"
+							max_width = 50
+							default_format = "#low"
+						}
 					}
 				}
+
 			}
 
 			icon = {

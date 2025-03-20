@@ -98,3 +98,11 @@ prayer_mystic_might = {
 	monthly_piety_gain_mult = -3
 	#flag arcana 3
 }
+
+
+# Spells
+dangerous_mage = { 
+	icon = dread_negative
+	dread_baseline_add = 10
+	general_opinion = -10
+}

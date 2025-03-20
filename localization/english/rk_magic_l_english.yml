@@ -96,8 +96,21 @@
 	TRAIT_FLAG_DESC_subtract_arcana_12:0 "[arcana|E]: [arcana_i]#N -12#!"
 
 
-	MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[Character.MakeScope.ScriptValue('runes_max')|V0]"
+	MAGICKA_CURRENT:0 "[Character.MakeScope.Var('magicka').GetValue|V0]"
 	MAGICKA_GAIN:0 "Generated:"
 	MAGICKA_LOSS:0 "Upkeep:"
 	MAGICKA_CHANGE:0 "Change:"
 	MAGICKA_TOTAL:0 "Total"
+
+	I_GAINED_MAGICKA_EFFECT:1 "You gained [magicka_i]$VALUE|+0$"
+	I_LOST_MAGICKA_EFFECT:2 "You lost [magicka_i]$VALUE|-0$"
+	THEY_GAINED_MAGICKA_EFFECT:0 "[CHARACTER.GetShortUIName|U] gained [magicka_i]$VALUE|+0$"
+	THEY_LOST_MAGICKA_EFFECT:2 "[CHARACTER.GetShortUIName|U] lost [magicka_i]$VALUE|-0$"
+	GAINED_MAGICKA_EFFECT:0 "Gained [magicka_i]$VALUE|+0$"
+	LOST_MAGICKA_EFFECT:1 "Lost [magicka_i]$VALUE|-0$"
+	I_GAIN_MAGICKA_EFFECT:1 "You gain [magicka_i]$VALUE|+0$"
+	I_LOSE_MAGICKA_EFFECT:2 "You lose [magicka_i]$VALUE|-0$"
+	THEY_GAIN_MAGICKA_EFFECT:0 "[CHARACTER.GetShortUIName|U] gains [magicka_i]$VALUE|+0$"
+	THEY_LOSE_MAGICKA_EFFECT:0 "[CHARACTER.GetShortUIName|U] loses [magicka_i]$VALUE|-0$"
+	GAIN_MAGICKA_EFFECT:0 "Gains [magicka_i]$VALUE|+0$"
+	LOSE_MAGICKA_EFFECT:2 "Loses [magicka_i]$VALUE|-0$"
