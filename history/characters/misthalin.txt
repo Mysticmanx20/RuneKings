@@ -10,6 +10,9 @@
 	stewardship = 10
 	learning = 10
 	trait = generous
+	trait = trusting
+	trait = content
+	trait = education_stewardship_2
 	9139.1.1 = {
 		birth = yes
 	}
@@ -22,12 +25,10 @@
 	name = "Urhney"
 	religion = saradomin	
 	culture = misthalin
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	trait = shy
+	trait = patient
+	trait = humble
+	trait = education_learning_2
 	9106.1.1 = {
 		birth = yes
 	}
@@ -49,14 +50,12 @@
 
 900103 = {
 	name = "Aereck"
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
 	religion = saradomin	
 	culture = misthalin
+	trait = honest
+	trait = compassionate
+	trait = humble
+	trait = education_learning_2
 	9141.1.1 = {
 		birth = yes
 	}
@@ -74,13 +73,10 @@
 	female = yes
 	religion = guthix
 	culture = misthalin
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
-	trait = education_martial_1
+	trait = zealous
+	trait = patient
+	trait = diligent
+	trait = education_learning_1
 	9143.1.1 = {
 		birth = yes
 	}
@@ -99,12 +95,9 @@
 	female = yes
 	religion = saradomin
 	culture = misthalin
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	trait = diligent
+	trait = content
+	trait = patient
 	trait = education_stewardship_2
 	9149.1.1 = {
 		birth = yes
@@ -236,17 +229,17 @@
 	dynasty = 100904
 	culture = fremennik
 	religion = v
-	martial = 12
+	martial = 6
 	prowess = 12
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
 	learning = 7
 	trait = brave
-    trait = ambitious
-    trait = fickle
+    	trait = zealous
+    	trait = stubborn
 	trait = viking
-	trait = education_martial_1
+	trait = education_martial_3
 	disallow_random_traits = yes
 	mother = 900121
 	father = 900138
@@ -398,10 +391,10 @@
 	culture = fremennik
 	religion = v
 	learning = 13
-	trait = content
-    trait = compassionate
-    trait = lustful
-	trait = education_diplomacy_1
+	trait = honest
+    	trait = compassionate
+    	trait = brave
+	trait = education_martial_2
 	disallow_random_traits = yes
 	father = 900113
 	mother = 900139
@@ -472,8 +465,9 @@
 	religion = guthix
 	culture = dwarf
 	trait = compassionate
-	trait = lustful
+	trait = shy
 	trait = generous
+	trait = education_diplomacy_2
 	9149.1.1 = {
 		birth = yes
 	}
