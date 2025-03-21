@@ -263,12 +263,10 @@
 	dynasty = 100902
 	religion = saradomin
 	culture = misthalin
-	martial = 10
-	prowess = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	trait = arrogant
+	trait = wrathful
+	trait = cynical	
+	trait = education_martial_1
 	9142.1.1 = {
 		birth = yes
 	}
@@ -292,13 +290,13 @@
 	martial = 9
 	prowess = 11
 	diplomacy = 7
-	intrigue = 10
+	intrigue = 8
 	stewardship = 8
 	learning = 9
 	trait = callous
     trait = gluttonous
     trait = craven
-    trait = education_intrigue_1
+    trait = education_intrigue_2
 	trait = disinherited
 	trait = vampire_character
 	disallow_random_traits = yes
@@ -484,7 +482,10 @@
 	dynasty = 100934
 	culture = misthalin
 	religion = saradomin
-	learning = 13
+	trait = diligent
+	trait = patient
+	trait = education_learning_4
+	learning = 11
 	9126.1.1 = {
 		birth = yes
 	}
@@ -511,7 +512,11 @@
 	dynasty = 100935
 	culture = misthalin
 	religion = saradomin
+	trait = gluttonous
+	trait = brave
+	trait = cynical
 	trait = drunkard
+	trait = education_martial_2
 	martial = 13
 	9140.1.1 = {
 		birth = yes
@@ -554,6 +559,10 @@
 	stewardship = 13
 	culture = misthalin
 	religion = saradomin
+	trait = gregarious	
+	trait = diligent
+	trait = ambitious
+	trait = education_stewardship_4
 	9143.1.1 = {
 		birth = yes
 	}
@@ -595,6 +604,9 @@
 	culture = misthalin
 	religion = saradomin
 	trait = arrogant
+	trait = stubborn
+	trait = wrathful
+	trait = education_stewardship_1
 	9133.1.1 = {
 		birth = yes
 	}
@@ -607,7 +619,10 @@
 	father = 900134
 	culture = misthalin
 	religion = saradomin
-	trait = lustful
+	trait = shy
+	trait = trusting
+	trait = compassionate
+	trait = education_diplomacy_3
 	9153.1.1 = {
 		birth = yes
 	}
