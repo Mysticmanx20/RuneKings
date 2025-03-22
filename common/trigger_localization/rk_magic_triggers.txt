@@ -1,0 +1,41 @@
+magic_greater_or_equal = {
+	global = ARCANA_IS_AT_LEAST
+	first = MY_ARCANA_IS_AT_LEAST
+	third = THEIR_ARCANA_IS_AT_LEAST
+	global_not = ARCANA_IS_NOT_AT_LEAST
+	first_not = MY_ARCANA_IS_NOT_AT_LEAST
+	third_not = THEIR_ARCANA_IS_NOT_AT_LEAST
+}
+
+magic_less_than = {
+	global = ARCANA_IS_LESS_THAN
+	first = MY_ARCANA_IS_LESS_THAN
+	third = THEIR_ARCANA_IS_LESS_THAN
+	global_not = ARCANA_IS_NOT_LESS_THAN
+	first_not = MY_ARCANA_IS_NOT_LESS_THAN
+	third_not = THEIR_ARCANA_IS_NOT_LESS_THAN
+}
+
+runes_greater_or_equal = {
+	global = MAGICKA_TRIGGER_GLOBAL
+	first = MAGICKA_TRIGGER_FIRST
+	third = MAGICKA_TRIGGER_THIRD
+}
+
+runes_less_than = {
+	global = NOT_MAGICKA_TRIGGER_GLOBAL
+	global_not = MAGICKA_TRIGGER_GLOBAL
+	first = NOT_MAGICKA_TRIGGER_FIRST
+	first_not = MAGICKA_TRIGGER_FIRST
+	third = NOT_MAGICKA_TRIGGER_THIRD
+	third_not = MAGICKA_TRIGGER_THIRD
+}
+
+runes_more_than = {
+	global = NOT_MAGICKA_TRIGGER_GLOBAL
+	global_not = MAGICKA_TRIGGER_GLOBAL
+	first = NOT_MAGICKA_TRIGGER_FIRST
+	first_not = MAGICKA_TRIGGER_FIRST
+	third = NOT_MAGICKA_TRIGGER_THIRD
+	third_not = MAGICKA_TRIGGER_THIRD
+}

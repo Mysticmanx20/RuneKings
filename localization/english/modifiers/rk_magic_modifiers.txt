@@ -1,0 +1,7 @@
+﻿l_english:
+
+  enchant_1:0 "Enchanted Jewelry"
+  bind:0 "Bind"
+  confuse:0 "Confuse"
+  spell_weaken:0 "Weaken"
+  curse:0 "Curse"

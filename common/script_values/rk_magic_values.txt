@@ -426,7 +426,7 @@ runes_max = {
 runes_flat = {
 	value = {
 		value = arcana
-		multiply = 0.1
+		multiply = 0.5
 		desc = runes_magic
 	}
 	

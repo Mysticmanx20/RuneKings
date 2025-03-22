@@ -429,6 +429,8 @@ cast_spell_interaction = {
 	use_diplomatic_range = yes
 	ignores_pending_interaction_block = yes
 
+	send_options_exclusive = yes
+
 	is_shown = {
 		
 	}
@@ -438,44 +440,207 @@ cast_spell_interaction = {
 	}
 
 	can_send = {
-		AND = {
-			scope:actor = { piety > minor_piety_value }
-
-			scope:actor = {
-				NOT = {
-					has_character_modifier = dangerous_mage
-				}
-				
-			}
-			
-		}
+		
 	}
 
 	send_option = {
+		is_shown = {
+			NOT = {
+				scope:recipient = scope:actor 
+			}
+		}
 		is_valid = {
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
 				} 
+				has_runes_more_than = { VALUE = 25 }
 			}
 		}
 		flag = airstrike
 		localization = cast_airstrike
 	}
 
+	send_option = {
+		is_valid = {
+			NOT = {
+				scope:recipient = scope:actor 
+			}
+			scope:actor = { 
+				NOT = { 
+					has_character_modifier = dangerous_mage
+				} 
+				has_runes_more_than = { VALUE = 25 }
+			}
+		}
+		flag = bind
+		localization = cast_bind
+	}
+
+	send_option = {
+		is_valid = {
+			NOT = {
+				scope:recipient = scope:actor 
+			}
+			scope:actor = { 
+				NOT = { 
+					has_character_modifier = dangerous_mage
+				} 
+				has_runes_more_than = { VALUE = 25 }
+			}
+		}
+		flag = confuse
+		localization = cast_confuse
+	}
+
+	send_option = {
+		is_valid = {
+			NOT = {
+				scope:recipient = scope:actor 
+			}
+			scope:actor = { 
+				NOT = { 
+					has_character_modifier = dangerous_mage
+				} 
+				has_runes_more_than = { VALUE = 25 }
+			}
+		}
+		flag = spell_weaken
+		localization = cast_spell_weaken
+	}
+
+	send_option = {
+		is_valid = {
+			NOT = {
+				scope:recipient = scope:actor 
+			}
+			scope:actor = { 
+				NOT = { 
+					has_character_modifier = dangerous_mage
+				} 
+				has_runes_more_than = { VALUE = 30 }
+			}
+		}
+		flag = curse
+		localization = cast_curse
+	}
+
+	send_option = {
+		is_shown = {
+			scope:recipient = scope:actor
+		}
+		is_valid = {
+			scope:actor = {
+				has_runes_more_than = { VALUE = 25 }
+			}
+		}
+		flag = enchant
+		localization = cast_enchant
+	}
+
+	send_option = {
+		is_shown = {
+			scope:recipient = scope:actor
+		}
+		is_valid = {
+			scope:actor = {
+				has_magic = { VALUE = 6 }
+				has_runes_more_than = { VALUE = 30 }
+			}
+		}
+		flag = lowalch
+		localization = cast_lowalch
+	}
+
 	auto_accept = yes
 
 	on_accept = {
 		scope:actor = {
-			add_character_modifier = {
-				modifier = dangerous_mage
-				years = 5
+			switch = {
+				trigger = yes
+				scope:airstrike = {
+					add_character_modifier = {
+						modifier = dangerous_mage
+						years = 5
+					}
+					add_runes = { VALUE = -25 }
+					scope:recipient = {
+						increase_wounds_effect = { REASON = fight }
+					}
+				}
+
+				scope:enchant = {
+					add_character_modifier = {
+						modifier = enchant_1
+						years = 5
+					}
+					add_runes = { VALUE = -25 }
+				}
+
+				scope:bind = {
+					add_character_modifier = {
+						modifier = dangerous_mage
+						years = 5
+					}
+					add_runes = { VALUE = -25 }
+					scope:recipient = {
+						add_character_modifier = {
+							modifier = bind
+							years = 5
+						}
+					}
+				}
+
+				scope:confuse = {
+					add_character_modifier = {
+						modifier = dangerous_mage
+						years = 5
+					}
+					add_runes = { VALUE = -25 }
+					scope:recipient = {
+						add_character_modifier = {
+							modifier = confuse
+							years = 5
+						}
+					}
+				}
+
+				scope:spell_weaken = {
+					add_character_modifier = {
+						modifier = dangerous_mage
+						years = 5
+					}
+					add_runes = { VALUE = -25 }
+					scope:recipient = {
+						add_character_modifier = {
+							modifier = spell_weaken
+							years = 5
+						}
+					}
+				}
+
+				scope:curse = {
+					add_character_modifier = {
+						modifier = dangerous_mage
+						years = 5
+					}
+					add_runes = { VALUE = -30 }
+					scope:recipient = {
+						add_character_modifier = {
+							modifier = curse
+							years = 5
+						}
+					}
+				}
+
+				scope:lowalch = {
+					add_gold = 50
+					add_runes = { VALUE = -30 }
+				}
 			}
-			add_runes = { VALUE = -50 }
+			
 		}
-		scope:recipient = {
-			increase_wounds_effect = { REASON = fight }
-		}
+		
 		
 	}
 

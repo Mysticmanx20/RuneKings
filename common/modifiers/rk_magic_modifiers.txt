@@ -1,0 +1,27 @@
+﻿
+enchant_1 = { 
+	icon = social_positive
+	general_opinion = 5
+}
+
+bind = {
+	icon = travel_speed_negative
+	travel_speed = -5
+	movement_speed = -0.05
+}
+
+confuse = {
+	icon = martial_negative
+	prowess = -1
+	knight_effectiveness_mult = -0.05
+}
+
+spell_weaken = {
+	icon = martial_negative
+	army_damage_mult = -0.1
+}
+
+curse = {
+	icon = martial_negative
+	army_toughness_mult = -0.15
+}

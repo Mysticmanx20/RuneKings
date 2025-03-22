@@ -35,18 +35,12 @@ add_runes = {
             if = {
                 limit = { NOT = { $VALUE$ = 0 } }
                 set_variable = { name = magicka value = $VALUE$ }
-                if = {
-                    limit = { $VALUE$ > runes_max }
-                    set_variable = { name = magicka value = runes_max }
-                }
+                
             }
         }
         else = {
             change_variable = { name = magicka add = $VALUE$ }
-            if = {
-                limit = { var:magicka > runes_max }
-                set_variable = { name = magicka value = runes_max }
-            }
+            
         }
     }
 }

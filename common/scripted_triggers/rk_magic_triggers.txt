@@ -1,0 +1,51 @@
+﻿has_magic = {
+	custom_description = {
+		text = magic_greater_or_equal
+		value = $VALUE$
+		arcana >= $VALUE$
+	}
+}
+
+has_magic_less_than = {
+	custom_description = {
+		text = magic_less_than
+		value = $VALUE$
+		arcana < $VALUE$
+	}
+}
+
+has_runes = {
+	custom_description = {
+		text = runes_greater_or_equal
+		value = $VALUE$
+		trigger_if = {
+			limit = { has_variable = magicka }
+			var:magicka >= $VALUE$
+		}
+		trigger_else = { always = no }
+	}
+}
+
+has_runes_less_than = {
+	custom_description = {
+		text = runes_less_than
+		value = $VALUE$
+		trigger_if = {
+			limit = { has_variable = magicka }
+			var:magicka < $VALUE$
+		}
+		trigger_else = { always = yes }
+	}
+}
+
+has_runes_more_than = {
+	custom_description = {
+		text = runes_more_than
+		value = $VALUE$
+		trigger_if = {
+			limit = { has_variable = magicka }
+			var:magicka > $VALUE$
+		}
+		trigger_else = { always = no }
+	}
+}
