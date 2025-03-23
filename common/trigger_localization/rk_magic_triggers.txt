@@ -39,3 +39,11 @@ runes_more_than = {
 	third = NOT_MAGICKA_TRIGGER_THIRD
 	third_not = MAGICKA_TRIGGER_THIRD
 }
+
+spell_hostile_self = {
+	global = spell_hostile_self
+	global_not = spell_hostile_self
+	first = spell_hostile_self
+	first_not = spell_hostile_self
+	third_not = spell_hostile_self
+}

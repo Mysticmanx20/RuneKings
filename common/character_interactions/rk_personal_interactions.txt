@@ -444,12 +444,14 @@ cast_spell_interaction = {
 	}
 
 	send_option = {
-		is_shown = {
-			NOT = {
-				scope:recipient = scope:actor 
-			}
-		}
+		
 		is_valid = {
+			NOT = {
+				custom_description = {
+					text = spell_hostile_self
+					scope:recipient = scope:actor 
+				}
+			}
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -464,7 +466,10 @@ cast_spell_interaction = {
 	send_option = {
 		is_valid = {
 			NOT = {
-				scope:recipient = scope:actor 
+				custom_description = {
+					text = spell_hostile_self
+					scope:recipient = scope:actor 
+				}
 			}
 			scope:actor = { 
 				NOT = { 
@@ -480,7 +485,10 @@ cast_spell_interaction = {
 	send_option = {
 		is_valid = {
 			NOT = {
-				scope:recipient = scope:actor 
+				custom_description = {
+					text = spell_hostile_self
+					scope:recipient = scope:actor 
+				}
 			}
 			scope:actor = { 
 				NOT = { 
@@ -496,7 +504,10 @@ cast_spell_interaction = {
 	send_option = {
 		is_valid = {
 			NOT = {
-				scope:recipient = scope:actor 
+				custom_description = {
+					text = spell_hostile_self
+					scope:recipient = scope:actor 
+				}
 			}
 			scope:actor = { 
 				NOT = { 
@@ -512,7 +523,10 @@ cast_spell_interaction = {
 	send_option = {
 		is_valid = {
 			NOT = {
-				scope:recipient = scope:actor 
+				custom_description = {
+					text = spell_hostile_self
+					scope:recipient = scope:actor 
+				}
 			}
 			scope:actor = { 
 				NOT = { 
@@ -526,9 +540,7 @@ cast_spell_interaction = {
 	}
 
 	send_option = {
-		is_shown = {
-			scope:recipient = scope:actor
-		}
+		
 		is_valid = {
 			scope:actor = {
 				has_runes_more_than = { VALUE = 25 }
@@ -559,6 +571,7 @@ cast_spell_interaction = {
 			switch = {
 				trigger = yes
 				scope:airstrike = {
+					play_sound_effect = "event:/windstrike"
 					add_character_modifier = {
 						modifier = dangerous_mage
 						years = 5

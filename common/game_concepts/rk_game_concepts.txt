@@ -23,3 +23,9 @@ magicka = {
 	alias = { magicka_i }
 	texture = "gfx/interface/icons/icon_magicka.dds"
 }
+
+spell = {
+	alias = { spells }
+	texture = "gfx/interface/icons/icon_arcana.dds"
+	parent = magic
+}

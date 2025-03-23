@@ -147,3 +147,5 @@
 	THEY_LOSE_MAGICKA_EFFECT:0 "[CHARACTER.GetShortUIName|U] loses [magicka_i]$VALUE|-0$"
 	GAIN_MAGICKA_EFFECT:0 "Gains [magicka_i]$VALUE|+0$"
 	LOSE_MAGICKA_EFFECT:2 "Loses [magicka_i]$VALUE|-0$"
+
+  spell_hostile_self:0 "You cannot cast a hostile [spell|E] on yourself"
