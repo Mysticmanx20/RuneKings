@@ -419,7 +419,7 @@ types Arcana
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
-					text = "MAGICKA_CURRENT"
+					text = "MAGICKA_COUNT"
 					default_format = "#high;bold"
 					using = Font_Size_Medium
 					fonttintcolor = "[TooltipInfo.GetTintColor]"
@@ -442,21 +442,11 @@ types Arcana
 					tooltip_visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
 
 					text_single = {
-						layoutpolicy_horizontal = expanding
-						text = "MAGICKA_GAIN"
-					}
-
-					text_single = {
 						visible = "[NotEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('runes_regen')|L+=2]"
+						text = "[Character.MakeScope.ScriptValue('runes_regen')|L+=2]/month"
 						default_format = "#high"
 					}
 
-					text_single = {
-						visible = "[EqualTo_CFixedPoint(Character.MakeScope.ScriptValue('runes_regen'), '(CFixedPoint)0')]"
-						text = "[Character.MakeScope.ScriptValue('runes_regen')|+=2]"
-						default_format = "#high"
-					}
 				}
 
 				# hbox = {

@@ -614,6 +614,7 @@ cast_spell_interaction = {
 
 	on_accept = {
 		scope:actor = {
+			#spell effects
 			switch = {
 				trigger = yes
 				scope:airstrike = {

@@ -1,5 +1,5 @@
 ﻿l_english:
-
+ #religion
  bhakti_mena_tumeken:0 "Devotee of Tumeken"
  bhakti_mena_tumeken_desc:0 "This character's favored god is Tumeken, the god of the sun."
  bhakti_mena_elid:0 "Devotee of Elidinis"
@@ -11,6 +11,7 @@
  bhakti_mena_scabaras:0 "Devotee of Scabaras"
  bhakti_mena_scabaras_desc:0 "This character's favored god is Scabaras, god of isolation and tranquility."
 
+ #prayers
  prayer_thick_skin:0 "Thick Skin"
  prayer_burst_str:0 "Burst of Strength"
  prayer_clarity:0 "Clarity of Thought"
@@ -33,4 +34,11 @@
  prayer_augury:0 "Augury"
  prayer_protect_mage:0 "Protect from Magic"
  prayer_protect_mage_desc:0 "Protection from magical attacks"
+
+ #magic
+ bind:0 "Bind"
+ curse:0 "Curse"
+ confuse:0 "Confuse"
+ spell_weaken:0 "Weaken"
+ enchant_1:0 "Enchanted Sapphire"
  
