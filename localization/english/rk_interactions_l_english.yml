@@ -8,6 +8,7 @@
   activate_sharp_eye:0 "Ranged Prayer"
   activate_mystic_will:0 "Magic Prayer"
   cancel_thick_shin:0 "Cancel Defense Prayer"
+  activate_protect_mage:0 "Protect from Magic"
 
   cast_spell_interaction:0 "Cast Spell"
   cast_spell_desc:0 "Spend runes to cast a magic spell"

@@ -31,4 +31,6 @@
  prayer_mystic_might:0 "Mystic Might"
  prayer_mystic_might_desc:0 "[arcana|E]: [arcana_i]#P +3# "
  prayer_augury:0 "Augury"
+ prayer_protect_mage:0 "Protect from Magic"
+ prayer_protect_mage_desc:0 "Protection from magical attacks"
  

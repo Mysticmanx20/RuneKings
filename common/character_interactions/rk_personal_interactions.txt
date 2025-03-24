@@ -140,19 +140,24 @@ activate_prayer_interaction = {
 		localization = activate_sharp_eye
 	}
 	send_option = {
-		is_valid = {
-			scope:actor = { 
-				NOT = { 
-					OR = {
-						has_character_modifier = prayer_mystic_will
-						has_character_modifier = prayer_mystic_lore
-						has_character_modifier = prayer_mystic_might
-					}
-				} 
-			}
-		}
+		# is_valid = {
+		# 	scope:actor = { 
+		# 		NOT = { 
+		# 			OR = {
+		# 				has_character_modifier = prayer_mystic_will
+		# 				has_character_modifier = prayer_mystic_lore
+		# 				has_character_modifier = prayer_mystic_might
+		# 			}
+		# 		} 
+		# 	}
+		# }
 		flag = magic_prayer
 		localization = activate_mystic_will
+	}
+
+	send_option = {
+		flag = protect_mage
+		localization = activate_protect_mage
 	}
 	
 	auto_accept = yes
@@ -410,6 +415,22 @@ activate_prayer_interaction = {
 					}
 				}
 
+				scope:protect_mage = {
+					add_character_modifier = {
+						modifier = prayer_protect_mage years = 1
+					}
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_protect_mage }
+							}
+						}
+					}
+				}
+
 			}
 			
 		}
@@ -452,6 +473,11 @@ cast_spell_interaction = {
 					scope:recipient = scope:actor 
 				}
 			}
+			scope:recipient = {
+				NOT = {
+					has_character_modifier = prayer_protect_mage
+				}
+			}
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -469,6 +495,11 @@ cast_spell_interaction = {
 				custom_description = {
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
+				}
+			}
+			scope:recipient = {
+				NOT = {
+					has_character_modifier = prayer_protect_mage
 				}
 			}
 			scope:actor = { 
@@ -490,6 +521,11 @@ cast_spell_interaction = {
 					scope:recipient = scope:actor 
 				}
 			}
+			scope:recipient = {
+				NOT = {
+					has_character_modifier = prayer_protect_mage
+				}
+			}
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -509,6 +545,11 @@ cast_spell_interaction = {
 					scope:recipient = scope:actor 
 				}
 			}
+			scope:recipient = {
+				NOT = {
+					has_character_modifier = prayer_protect_mage
+				}
+			}
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -526,6 +567,11 @@ cast_spell_interaction = {
 				custom_description = {
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
+				}
+			}
+			scope:recipient = {
+				NOT = {
+					has_character_modifier = prayer_protect_mage
 				}
 			}
 			scope:actor = { 
