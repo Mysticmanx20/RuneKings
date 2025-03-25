@@ -60,6 +60,9 @@
   arcana_prayer_3:0 "[GetModifier('prayer_mystic_might').GetName]"
   sangstaff_arcana:0 "[GetModifier('prayer_mystic_might').GetName]"
 
+	magic_imbued_heart:0 "[GetTrait('imbued_heart').GetName(ROOT.Char)]"
+	magic_saturated_heart:0 "[GetTrait('saturated_heart').GetName(ROOT.Char)]"
+
 	ADD_ARCANA_SKILL_EFFECT:1 "[arcana|E] is increased by [arcana_i]$VALUE|+0$"
 	REMOVE_ARCANA_SKILL_EFFECT:1 "[arcana|E] is decreased by [arcana_i]$VALUE|-0$"
 	I_ADD_ARCANA_SKILL_EFFECT:2 "You increase your [arcana|E] by [arcana_i]$VALUE|+0$"

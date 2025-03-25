@@ -104,3 +104,67 @@ education_magical_ability_5 = {
 		}
 	}
 }
+
+imbued_heart = {
+	opposites = {
+		saturated_heart
+	}
+	
+	flag = add_arcana_2
+
+	birth = 0.5
+	random_creation = 0.5
+
+	group = arcana_good
+	level = 1
+	
+	ruler_designer_cost = 60
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_imbued_desc
+			}
+			desc = trait_imbued_character_desc
+		}
+	}
+
+	genetic = yes
+	good = yes
+}
+
+saturated_heart = {
+	opposites = {
+		imbued_heart
+	}
+	
+	flag = add_arcana_4
+
+	birth = 0.25
+	random_creation = 0.25
+
+	group = arcana_good
+	level = 2
+	
+	ruler_designer_cost = 120
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_saturated_desc
+			}
+			desc = trait_saturated_character_desc
+		}
+	}
+
+	genetic = yes
+	good = yes
+}

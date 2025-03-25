@@ -116,6 +116,25 @@ arcana = {
 			desc = arcana_education_magical_ability_5
 		}
 	}
+	#genetic
+	if = {
+		limit = { 
+			has_trait = imbued_heart
+		}
+		add = {
+			value = 2
+			desc = magic_imbued_heart
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = saturated_heart
+		}
+		add = {
+			value = 4
+			desc = magic_saturated_heart
+		}
+	}
 	if = {
 		limit = { 
 			has_trait = lifestyle_mystic

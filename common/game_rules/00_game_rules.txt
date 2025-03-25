@@ -672,7 +672,7 @@ generate_families = {
 		tweaks flavor
 	}
 	
-	default = off_generate_families
+	default = on_generate_families
 
 	on_generate_families = {
 	
