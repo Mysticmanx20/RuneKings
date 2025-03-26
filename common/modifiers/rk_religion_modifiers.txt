@@ -2,64 +2,64 @@
 #Prayers
 
 prayer_thick_skin = {
-	icon = thickskin
+	icon = thickskin_postive
 	monthly_piety_gain_mult = -1
 	hard_casualty_modifier = -0.1
 	army_toughness_mult = 0.1
 }
 prayer_rock_skin = {
-	icon = def2
+	icon = def2_postive
 	monthly_piety_gain_mult = -2
 	hard_casualty_modifier = -0.15
 	army_toughness_mult = 0.15
 }
 prayer_steel_skin = {
-	icon = def3
+	icon = def3_postive
 	monthly_piety_gain_mult = -3
 	hard_casualty_modifier = -0.20
 	army_toughness_mult = 0.20
 }
 
 prayer_burst_str = {
-	icon = burststr
+	icon = burststr_postive
 	monthly_piety_gain_mult = -1
 	martial = 1
 	army_damage_mult = 0.1
 }
 prayer_super_str = {
-	icon = str2
+	icon = str2_postive
 	monthly_piety_gain_mult = -2
 	martial = 2
 	army_damage_mult = 0.15
 }
 prayer_ult_str = {
-	icon = str3
+	icon = str3_postive
 	monthly_piety_gain_mult = -3
 	martial = 3
 	army_damage_mult = 0.2
 }
 
 prayer_clarity = {
-	icon = clarity
+	icon = clarity_postive
 	monthly_piety_gain_mult = -1
 	prowess = 1
 	knight_effectiveness_mult = 0.05
 }
 prayer_reflex = {
-	icon = atk2
+	icon = atk2_postive
 	monthly_piety_gain_mult = -2
 	prowess = 2
 	knight_effectiveness_mult = 0.1
 }
 prayer_reflex2 = {
-	icon = atk3
+	icon = atk3_postive
 	monthly_piety_gain_mult = -3
 	prowess = 3
 	knight_effectiveness_mult = 0.15
 }
 
 prayer_sharp_eye = {
-	icon = sharpeye
+	icon = sharpeye_postive
 	monthly_piety_gain_mult = -1
 	hostile_scheme_resistance_add = 3
 	scheme_discovery_chance_mult = 0.08
@@ -67,7 +67,7 @@ prayer_sharp_eye = {
 	archer_cavalry_damage_mult = 0.1
 }
 prayer_hawk_eye = {
-	icon = rng2
+	icon = rng2_postive
 	monthly_piety_gain_mult = -2
 	hostile_scheme_resistance_add = 5
 	scheme_discovery_chance_mult = 0.1
@@ -75,7 +75,7 @@ prayer_hawk_eye = {
 	archer_cavalry_damage_mult = 0.15
 }
 prayer_eagle_eye = {
-	icon = rng3
+	icon = rng3_postive
 	monthly_piety_gain_mult = -3
 	hostile_scheme_resistance_add = 7
 	scheme_discovery_chance_mult = 0.12
@@ -84,23 +84,23 @@ prayer_eagle_eye = {
 }
 
 prayer_mystic_will = {
-	icon = mysticwill
+	icon = mysticwill_postive
 	monthly_piety_gain_mult = -1
 	#flag arcana 1
 }
 prayer_mystic_lore = {
-	icon = mg2
+	icon = mg2_postive
 	monthly_piety_gain_mult = -2
 	#flag arcana 2
 }
 prayer_mystic_might = {
-	icon = mg3
+	icon = mg3_postive
 	monthly_piety_gain_mult = -3
 	#flag arcana 3
 }
 
 prayer_protect_mage = {
-	icon = protectmage
+	icon = protectmage_postive
 }
 
 

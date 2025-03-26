@@ -7,7 +7,7 @@ rc_event.0001 = {
 
 	immediate = {
 		play_sound_effect = "event:/runecraft"
-		add_gold = 100
+		add_runes = { VALUE = 100 }
 		return_home = yes
 	}
 

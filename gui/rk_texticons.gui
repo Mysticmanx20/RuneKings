@@ -1,0 +1,70 @@
+﻿
+texticon = {
+	icon = windstrike_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/windstrike.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = confuse_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/confuse.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = weaken_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/weaken.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = bind_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/bind.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = curse_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/curse.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = lowalch_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/lowalch.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = enchant1_icon
+	iconsize = {
+		texture = "gfx/interface/icons/spells/enchant1.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

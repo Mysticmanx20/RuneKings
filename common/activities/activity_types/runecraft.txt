@@ -188,7 +188,7 @@
 			# Now that we have added up the costs of traveling to every holy site, we divide by the number of holy sites you have so we come up with an average travel cost value
 			divide = {
 				
-				value = 2
+				value = 6
 			}
 
 			add = { # Base cost, scaled by era
@@ -203,7 +203,7 @@
 		
 	}
 
-	cooldown = { years = 10 }
+	cooldown = { years = 2 }
 
 	max_route_deviation_mult = 3.0
 
