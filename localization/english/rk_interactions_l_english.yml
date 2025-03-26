@@ -15,7 +15,7 @@
   cast_airstrike:0 "@windstrike_icon! Wind Strike"
   cast_bind:0 "@bind_icon! Bind"
   cast_enchant:0 "@enchant1_icon! Enchant Jewelry"
-  cast_lowalch:0 "@lowlach_icon! Low Level Alchemy"
+  cast_lowalch:0 "@lowalch_icon! Low Level Alchemy"
   cast_spell_weaken:0 "@weaken_icon! Weaken"
   cast_confuse:0 "@confuse_icon! Confuse"
   cast_curse:0 "@curse_icon! Curse"
