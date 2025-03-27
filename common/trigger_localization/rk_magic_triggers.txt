@@ -47,3 +47,19 @@ spell_hostile_self = {
 	first_not = spell_hostile_self
 	third_not = spell_hostile_self
 }
+
+spell_already_afflicted = {
+	global = spell_already_afflicted
+	global_not = spell_already_afflicted
+	first = spell_already_afflicted
+	first_not = spell_already_afflicted
+	third_not = spell_already_afflicted
+}
+
+spell_hostile_self = {
+	global = spell_hostile_self
+	global_not = spell_hostile_self
+	first = spell_hostile_self
+	first_not = spell_hostile_self
+	third_not = spell_hostile_self
+}

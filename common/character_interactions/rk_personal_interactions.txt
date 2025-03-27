@@ -467,17 +467,29 @@ cast_spell_interaction = {
 	send_option = {
 		
 		is_valid = {
-			NOT = {
-				custom_description = {
+			#hostile spell casting conditions
+			NOR = {
+				trigger_if = { #cant cast on own children
+					limit = {
+						is_parent_of = scope:recipient
+						NOT = {
+							has_trait_with_flag = can_murder_own_children
+						}
+					}
+					NOT = { is_parent_of = scope:recipient }
+				}
+				custom_description = { #cant cast on self
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
 				}
-			}
-			scope:recipient = {
-				NOT = {
-					has_character_modifier = prayer_protect_mage
+				custom_description = { #cant use on those already targeted
+					text = spell_already_afflicted
+					scope:recipient = { has_character_flag = spell_already_afflicted }
 				}
+				#cant use against magic protection prayer
+				scope:recipient = { has_character_modifier = prayer_protect_mage }
 			}
+
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -491,17 +503,29 @@ cast_spell_interaction = {
 
 	send_option = {
 		is_valid = {
-			NOT = {
-				custom_description = {
+			#hostile spell casting conditions
+			NOR = {
+				trigger_if = { #cant cast on own children
+					limit = {
+						is_parent_of = scope:recipient
+						NOT = {
+							has_trait_with_flag = can_murder_own_children
+						}
+					}
+					NOT = { is_parent_of = scope:recipient }
+				}
+				custom_description = { #cant cast on self
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
 				}
-			}
-			scope:recipient = {
-				NOT = {
-					has_character_modifier = prayer_protect_mage
+				custom_description = { #cant use on those already targeted
+					text = spell_already_afflicted
+					scope:recipient = { has_character_flag = spell_already_afflicted }
 				}
+				#cant use against magic protection prayer
+				scope:recipient = { has_character_modifier = prayer_protect_mage }
 			}
+
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -515,17 +539,29 @@ cast_spell_interaction = {
 
 	send_option = {
 		is_valid = {
-			NOT = {
-				custom_description = {
+			#hostile spell casting conditions
+			NOR = {
+				trigger_if = { #cant cast on own children
+					limit = {
+						is_parent_of = scope:recipient
+						NOT = {
+							has_trait_with_flag = can_murder_own_children
+						}
+					}
+					NOT = { is_parent_of = scope:recipient }
+				}
+				custom_description = { #cant cast on self
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
 				}
-			}
-			scope:recipient = {
-				NOT = {
-					has_character_modifier = prayer_protect_mage
+				custom_description = { #cant use on those already targeted
+					text = spell_already_afflicted
+					scope:recipient = { has_character_flag = spell_already_afflicted }
 				}
+				#cant use against magic protection prayer
+				scope:recipient = { has_character_modifier = prayer_protect_mage }
 			}
+
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -539,17 +575,29 @@ cast_spell_interaction = {
 
 	send_option = {
 		is_valid = {
-			NOT = {
-				custom_description = {
+			#hostile spell casting conditions
+			NOR = {
+				trigger_if = { #cant cast on own children
+					limit = {
+						is_parent_of = scope:recipient
+						NOT = {
+							has_trait_with_flag = can_murder_own_children
+						}
+					}
+					NOT = { is_parent_of = scope:recipient }
+				}
+				custom_description = { #cant cast on self
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
 				}
-			}
-			scope:recipient = {
-				NOT = {
-					has_character_modifier = prayer_protect_mage
+				custom_description = { #cant use on those already targeted
+					text = spell_already_afflicted
+					scope:recipient = { has_character_flag = spell_already_afflicted }
 				}
+				#cant use against magic protection prayer
+				scope:recipient = { has_character_modifier = prayer_protect_mage }
 			}
+			
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -563,17 +611,29 @@ cast_spell_interaction = {
 
 	send_option = {
 		is_valid = {
-			NOT = {
-				custom_description = {
+			#hostile spell casting conditions
+			NOR = {
+				trigger_if = { #cant cast on own children
+					limit = {
+						is_parent_of = scope:recipient
+						NOT = {
+							has_trait_with_flag = can_murder_own_children
+						}
+					}
+					NOT = { is_parent_of = scope:recipient }
+				}
+				custom_description = { #cant cast on self
 					text = spell_hostile_self
 					scope:recipient = scope:actor 
 				}
-			}
-			scope:recipient = {
-				NOT = {
-					has_character_modifier = prayer_protect_mage
+				custom_description = { #cant use on those already targeted
+					text = spell_already_afflicted
+					scope:recipient = { has_character_flag = spell_already_afflicted }
 				}
+				#cant use against magic protection prayer
+				scope:recipient = { has_character_modifier = prayer_protect_mage }
 			}
+			
 			scope:actor = { 
 				NOT = { 
 					has_character_modifier = dangerous_mage
@@ -597,9 +657,6 @@ cast_spell_interaction = {
 	}
 
 	send_option = {
-		is_shown = {
-			scope:recipient = scope:actor
-		}
 		is_valid = {
 			scope:actor = {
 				has_magic = { VALUE = 6 }
@@ -626,14 +683,41 @@ cast_spell_interaction = {
 					add_runes = { VALUE = -25 }
 					scope:recipient = {
 						increase_wounds_effect = { REASON = fight }
+						hidden_effect = {
+							add_character_flag = {
+								flag = spell_already_afflicted
+								years = 5
+							}
+						}
 					}
 				}
 
 				scope:enchant = {
-					add_character_modifier = {
-						modifier = enchant_1
-						years = 5
+					trigger_if = {
+						limit = { 
+							scope:recipient = scope:actor 
+						}
+						add_character_modifier = {
+							modifier = enchant_1
+							years = 5
+						}
 					}
+					
+					trigger_if = {
+						limit = { 
+							NOT = {
+								scope:recipient = scope:actor
+							}
+						}
+						scope:recipient = {
+							add_opinion = {
+								modifier = impressed_opinion
+								target = scope:actor
+								opinion = 10
+							}
+						}
+					}
+
 					add_runes = { VALUE = -25 }
 				}
 
@@ -647,6 +731,12 @@ cast_spell_interaction = {
 						add_character_modifier = {
 							modifier = bind
 							years = 5
+						}
+						hidden_effect = {
+							add_character_flag = {
+								flag = spell_already_afflicted
+								years = 5
+							}
 						}
 					}
 				}
@@ -662,6 +752,12 @@ cast_spell_interaction = {
 							modifier = confuse
 							years = 5
 						}
+						hidden_effect = {
+							add_character_flag = {
+								flag = spell_already_afflicted
+								years = 5
+							}
+						}
 					}
 				}
 
@@ -675,6 +771,12 @@ cast_spell_interaction = {
 						add_character_modifier = {
 							modifier = spell_weaken
 							years = 5
+						}
+						hidden_effect = {
+							add_character_flag = {
+								flag = spell_already_afflicted
+								years = 5
+							}
 						}
 					}
 				}
@@ -690,11 +792,19 @@ cast_spell_interaction = {
 							modifier = curse
 							years = 5
 						}
+						hidden_effect = {
+							add_character_flag = {
+								flag = spell_already_afflicted
+								years = 5
+							}
+						}
 					}
 				}
 
 				scope:lowalch = {
-					add_gold = 50
+					scope:recipient = {
+						add_gold = 50
+					}
 					add_runes = { VALUE = -30 }
 				}
 			}

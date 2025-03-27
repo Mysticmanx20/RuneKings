@@ -153,3 +153,4 @@
 	LOSE_MAGICKA_EFFECT:2 "Loses [magicka_i]$VALUE|-0$"
 
   spell_hostile_self:0 "You cannot cast a hostile [spell|E] on yourself"
+	spell_already_afflicted:0 "Target is already afflicted by a hostile [spell|E]"
