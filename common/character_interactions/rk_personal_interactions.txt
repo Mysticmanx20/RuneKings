@@ -647,12 +647,29 @@ cast_spell_interaction = {
 
 	send_option = {
 		
+		is_shown = {
+			NOT = { scope:recipient = scope:actor }
+		}
 		is_valid = {
 			scope:actor = {
 				has_runes_more_than = { VALUE = 25 }
 			}
 		}
-		flag = enchant
+		flag = enchant_other
+		localization = cast_enchant
+	}
+
+	send_option = {
+		
+		is_shown = {
+			scope:recipient = scope:actor
+		}
+		is_valid = {
+			scope:actor = {
+				has_runes_more_than = { VALUE = 25 }
+			}
+		}
+		flag = enchant_personal
 		localization = cast_enchant
 	}
 
@@ -692,30 +709,22 @@ cast_spell_interaction = {
 					}
 				}
 
-				scope:enchant = {
-					trigger_if = {
-						limit = { 
-							scope:recipient = scope:actor 
-						}
-						add_character_modifier = {
-							modifier = enchant_1
-							years = 5
+				scope:enchant_other = {
+					scope:recipient = {
+						add_opinion = {
+							modifier = impressed_opinion
+							target = scope:actor
+							opinion = 10
 						}
 					}
-					
-					trigger_if = {
-						limit = { 
-							NOT = {
-								scope:recipient = scope:actor
-							}
-						}
-						scope:recipient = {
-							add_opinion = {
-								modifier = impressed_opinion
-								target = scope:actor
-								opinion = 10
-							}
-						}
+
+					add_runes = { VALUE = -25 }
+				}
+
+				scope:enchant_personal = {
+					add_character_modifier = {
+						modifier = enchant_1
+						years = 5
 					}
 
 					add_runes = { VALUE = -25 }
