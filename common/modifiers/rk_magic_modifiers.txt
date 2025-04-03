@@ -1,7 +1,7 @@
 ﻿
 enchant_1 = { 
 	icon = enchant1_postive
-	attraction_opinion = 5
+	county_opinion_add = 5
 }
 
 bind = {
