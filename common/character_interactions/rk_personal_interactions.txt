@@ -710,6 +710,7 @@ cast_spell_interaction = {
 				}
 
 				scope:enchant_other = {
+					play_sound_effect = "event:/Lvl-1_Enchant.ogg"
 					scope:recipient = {
 						add_opinion = {
 							modifier = impressed_opinion
@@ -722,6 +723,7 @@ cast_spell_interaction = {
 				}
 
 				scope:enchant_personal = {
+					play_sound_effect = "event:/Lvl-1_Enchant.ogg"
 					add_character_modifier = {
 						modifier = enchant_1
 						years = 5
@@ -731,6 +733,7 @@ cast_spell_interaction = {
 				}
 
 				scope:bind = {
+					play_sound_effect = "event:/bind"
 					add_character_modifier = {
 						modifier = dangerous_mage
 						years = 5
@@ -751,6 +754,7 @@ cast_spell_interaction = {
 				}
 
 				scope:confuse = {
+					play_sound_effect = "event:/confuse"
 					add_character_modifier = {
 						modifier = dangerous_mage
 						years = 5
@@ -771,6 +775,7 @@ cast_spell_interaction = {
 				}
 
 				scope:spell_weaken = {
+					play_sound_effect = "event:/Weaken.ogg"
 					add_character_modifier = {
 						modifier = dangerous_mage
 						years = 5
@@ -791,6 +796,7 @@ cast_spell_interaction = {
 				}
 
 				scope:curse = {
+					play_sound_effect = "event:/curse"
 					add_character_modifier = {
 						modifier = dangerous_mage
 						years = 5
@@ -811,6 +817,7 @@ cast_spell_interaction = {
 				}
 
 				scope:lowalch = {
+					play_sound_effect = "event:/lowalch"
 					scope:recipient = {
 						add_gold = 50
 					}
