@@ -54,3 +54,8 @@ balmung = {
 	icon = "artifact_balmung.dds"
 	asset = ep1_steppe_axe_01_a_portrait_entity
 }
+
+elidthread = {
+	icon = "artifact_elidthread.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}

@@ -28,7 +28,7 @@ raid_event.0001 = {
 			FIXED = no
 			LOCALE = throne_room
 			INVALIDATION_EVENT = single_combat.1006
-			OUTPUT_EVENT = raid_event.0100
+			OUTPUT_EVENT = raid_event.0101
 		}
 	}
 
@@ -61,7 +61,7 @@ raid_event.0002 = {
 			FIXED = no
 			LOCALE = battlefield
 			INVALIDATION_EVENT = single_combat.1006
-			OUTPUT_EVENT = raid_event.0100
+			OUTPUT_EVENT = raid_event.0103
 		}
 	}
 
@@ -94,7 +94,7 @@ raid_event.0003 = {
 			FIXED = no
 			LOCALE = temple
 			INVALIDATION_EVENT = single_combat.1006
-			OUTPUT_EVENT = raid_event.0100
+			OUTPUT_EVENT = raid_event.0102
 		}
 	}
 
@@ -173,6 +173,14 @@ raid_event.0101 = {
 	hidden = yes
 
 	immediate = {
+
+		current_travel_plan ?= {
+			if = {
+				limit = { is_paused = yes }
+				resume_travel_plan = yes 
+			}
+		}
+
 		scope:fighter_mc_fighter_chap = {
 			death = { death_reason = death_vanished }
 		}
@@ -194,6 +202,10 @@ raid_event.0101 = {
 			}
 			
 		}
+	}
+
+	after = {
+		mp_resume_travel_plan = yes
 	}
 }
 
@@ -218,6 +230,10 @@ raid_event.0102 = {
 			
 		}
 	}
+
+	after = {
+		mp_resume_travel_plan = yes
+	}
 }
 
 #COX Rewards
@@ -240,5 +256,9 @@ raid_event.0103 = {
 			}
 			
 		}
+	}
+
+	after = {
+		mp_resume_travel_plan = yes
 	}
 }
