@@ -1,5 +1,6 @@
 ﻿namespace = raid_event
 
+# TOB
 raid_event.0001 = {
 	hidden = yes
 	scope = none
@@ -33,6 +34,72 @@ raid_event.0001 = {
 
 }
 
+#COX
+raid_event.0002 = {
+	hidden = yes
+	scope = none
+	
+
+	immediate = {
+		mp_pause_travel_plan = yes
+		play_music_cue = rk_cue_vampfight
+		create_character = {
+			location = title:c_cox.holder.capital_province
+			template = accolade_huntsmaster_character
+			name = "Great Olm"
+			gender = male
+			culture = culture:dragon
+			dynasty = none
+			faith = faith:jas
+			save_scope_as = fighter_mc_fighter_chap
+		}
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:fighter_mc_fighter_chap
+			FATALITY = possible
+			FIXED = no
+			LOCALE = battlefield
+			INVALIDATION_EVENT = single_combat.1006
+			OUTPUT_EVENT = raid_event.0100
+		}
+	}
+
+}
+
+# TOA
+raid_event.0003 = {
+	hidden = yes
+	scope = none
+	
+
+	immediate = {
+		mp_pause_travel_plan = yes
+		play_music_cue = rk_cue_vampfight
+		create_character = {
+			location = title:c_necro.holder.capital_province
+			template = accolade_huntsmaster_character
+			name = "Tumeken's Warden"
+			gender = male
+			culture = culture:menaphite
+			dynasty = none
+			faith = faith:menaph
+			save_scope_as = fighter_mc_fighter_chap
+		}
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:fighter_mc_fighter_chap
+			FATALITY = possible
+			FIXED = no
+			LOCALE = temple
+			INVALIDATION_EVENT = single_combat.1006
+			OUTPUT_EVENT = raid_event.0100
+		}
+	}
+
+}
+
 raid_event.0100 = {
 	hidden = yes
 	scope = none
@@ -45,11 +112,49 @@ raid_event.0100 = {
 				resume_travel_plan = yes 
 			}
 		}
-
-		trigger_event = {
-			id = raid_event.0101
-			days = 1
+		if = {
+			limit = { 
+				scope:activity = {
+					has_activity_option = { 
+						category = special_type 
+						option = raid_tob
+					}
+				}
+			}
+			trigger_event = { 
+				id = raid_event.0101
+				days = 1
+			}
 		}
+		if = {
+			limit = { 
+				scope:activity = {
+					has_activity_option = { 
+						category = special_type 
+						option = raid_tombs
+					}
+				}
+			}
+			trigger_event = { 
+				id = raid_event.0101
+				days = 1
+			}
+		}
+		if = {
+			limit = { 
+				scope:activity = {
+					has_activity_option = { 
+						category = special_type 
+						option = raid_xeric
+					}
+				}
+			}
+			trigger_event = { 
+				id = raid_event.0101
+				days = 1
+			}
+		}
+		
 		if = {
 			limit = { has_character_flag = raid_character_flag }
 			remove_character_flag = raid_character_flag

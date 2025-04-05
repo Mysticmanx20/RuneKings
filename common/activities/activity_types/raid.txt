@@ -104,6 +104,7 @@
 					OR = {
 						this = title:b_tob
 						this = title:b_jaltevas
+						this = title:b_cox
 					}
 				}
 				#Tier 1
@@ -185,7 +186,7 @@
 			# Now that we have added up the costs of traveling to every holy site, we divide by the number of holy sites you have so we come up with an average travel cost value
 			divide = {
 				
-				value = 2
+				value = 3
 			}
 
 			add = { # Base cost, scaled by era
@@ -287,7 +288,40 @@
 			location_source = pickable
 
 			on_phase_active = {
-				trigger_event = raid_event.0001
+				if = {
+					limit = { 
+						scope:activity = {
+							has_activity_option = { 
+								category = special_type 
+								option = raid_tob
+							}
+						}
+					}
+					trigger_event = raid_event.0001
+				}
+				if = {
+					limit = { 
+						scope:activity = {
+							has_activity_option = { 
+								category = special_type 
+								option = raid_tombs
+							}
+						}
+					}
+					trigger_event = raid_event.0003
+				}
+				if = {
+					limit = { 
+						scope:activity = {
+							has_activity_option = { 
+								category = special_type 
+								option = raid_xeric
+							}
+						}
+					}
+					trigger_event = raid_event.0002
+				}
+				
 			}
 
 			on_end = {
