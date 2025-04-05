@@ -60,6 +60,10 @@
   arcana_prayer_3:0 "[GetModifier('prayer_mystic_might').GetName]"
   sangstaff_arcana:0 "[GetModifier('prayer_mystic_might').GetName]"
 
+ # ARTIFACT INTERFACE #
+ artifact_script_value:0 "[THIS.Artifact.GetName]"
+ artifact_magic_modifier:0 "\n$EFFECT_LIST_BULLET$[arcana|E]: [arcana_i][Artifact.MakeScope.Var('magic_modifier').GetValue|+=0]"
+
 	magic_imbued_heart:0 "[GetTrait('imbued_heart').GetName(ROOT.Char)]"
 	magic_saturated_heart:0 "[GetTrait('saturated_heart').GetName(ROOT.Char)]"
 

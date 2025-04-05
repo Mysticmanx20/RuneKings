@@ -99,7 +99,6 @@ create_artifact_rk_balmung_effect = {
 	create_artifact = {	
 		name = balmung_name
 		description = balmung_desc
-		template = rk_charos_template
 		type = axe
 		visuals = balmung
 		wealth = scope:wealth
@@ -158,7 +157,6 @@ create_artifact_rk_scythe_effect = {
 	create_artifact = {	
 		name = scythe_name
 		description = scythe_desc
-		template = rk_scythe_template
 		type = axe
 		visuals = vitur
 		wealth = scope:wealth
@@ -195,7 +193,6 @@ create_artifact_rk_scythetrue_effect = {
 	create_artifact = {	
 		name = scythe_name
 		description = scythe_desc
-		template = rk_scythe_template
 		type = axe
 		visuals = vitur
 		wealth = scope:wealth
@@ -227,7 +224,6 @@ create_artifact_rk_sangstaff_effect = {
 	create_artifact = {	
 		name = sangstaff_name
 		description = sangstaff_desc
-		template = rk_scythe_template
 		type = spear
 		visuals = sangstaff
 		wealth = scope:wealth
@@ -246,6 +242,7 @@ create_artifact_rk_sangstaff_effect = {
 
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = { name = magic_modifier value = 3 }
 		add_artifact_history = {
 			type = stolen
 			actor = character:900512 #stolen from
@@ -263,7 +260,6 @@ create_artifact_rk_sangstafftrue_effect = {
 	create_artifact = {	
 		name = sangstaff_name
 		description = sangstaff_desc
-		template = rk_scythe_template
 		type = spear
 		visuals = sangstaff
 		wealth = scope:wealth
@@ -282,6 +278,7 @@ create_artifact_rk_sangstafftrue_effect = {
 
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = { name = magic_modifier value = 3 }
 	}
 }
 
@@ -294,7 +291,6 @@ create_artifact_rk_ghrazi_effect = {
 	create_artifact = {	
 		name = ghrazi_name
 		description = ghrazi_desc
-		template = rk_scythe_template
 		type = sword
 		visuals = ghrazi
 		wealth = scope:wealth
@@ -332,7 +328,6 @@ create_artifact_rk_justicar_effect = {
 	create_artifact = {	
 		name = justicar_name
 		description = justicar_desc
-		template = rk_scythe_template
 		type = helmet
 		visuals = justicar
 		wealth = scope:wealth
@@ -370,7 +365,6 @@ create_artifact_rk_charos_effect = {
 	create_artifact = {	
 		name = charos_name
 		description = charos_desc
-		template = rk_charos_template
 		type = miscellaneous
 		visuals = charos
 		wealth = scope:wealth
@@ -440,7 +434,7 @@ create_artifact_rk_kharidib_effect = {
 	create_artifact = {	
 		name = kharidib_name
 		description = kharidib_desc
-		template = rk_kharidib_template
+		template = rk_desertpantheon_template
 		type = pedestal
 		visuals = kharidib
 		wealth = scope:wealth
@@ -474,7 +468,7 @@ create_artifact_rk_elid_statue_effect = {
 	create_artifact = {	
 		name = elid_statue_name
 		description = elid_statue_desc
-		template = rk_charos_template
+		template = rk_desertpantheon_template
 		type = miscellaneous
 		visuals = elid_statue
 		wealth = scope:wealth
@@ -503,6 +497,112 @@ create_artifact_rk_elid_statue_effect = {
 		
 	}
 }
+
+create_artifact_rk_elidthread_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = elidthread_name
+		description = elidthread_desc
+		type = miscellaneous
+		visuals = elidthread
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_elidthread
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+	}
+}
+
+create_artifact_rk_tumshadow_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = tumshadow_name
+		description = tumshadow_desc
+		type = spear
+		visuals = balmung
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_tumshadow
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = { name = magic_modifier value = 4 }
+	}
+}
+
+create_artifact_rk_tbow_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = tbow_name
+		description = tbow_desc
+		type = longbow
+		visuals = balmung
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_tbow
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+	}
+}
+
+create_artifact_rk_tbuckler_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = tbucklet_name
+		description = tbuckler_desc
+		type = regalia_simple
+		visuals = balmung
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created_before_history
+		}
+		modifier = rk_tbuckler
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+	}
+}
+
 
 
 create_artifact_vbear_effect = {

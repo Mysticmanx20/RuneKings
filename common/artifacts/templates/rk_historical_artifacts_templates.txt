@@ -22,7 +22,7 @@ rk_saradomin_template = {
 		faith = faith:saradomin
 	}
 	fallback = {
-		monthly_piety = 0.1
+		monthly_prestige = 0.2
 	}
 }
 
@@ -35,49 +35,20 @@ rk_vamp_item_template = {
 		culture = culture:vampyre
 	}
 	fallback = {
-		monthly_prestige = 0.1
+		monthly_prestige = 0.2
 	}
 }
 
-rk_scythe_template = {
-	can_equip = {
-		always = yes
-	}
-	can_benefit = {
-		always = yes
-	}
-	can_reforge = {
-		always = yes
-	}
-
-	fallback = {
-		monthly_piety = 0.1
-	}
-}
-
-rk_charos_template = {
-	can_equip = {
-		always = yes
-	}
-	can_benefit = {
-		always = yes
-	}
-
-	fallback = {
-		monthly_piety = 0.1
-	}
-}
-
-rk_kharidib_template = {
+rk_desertpantheon_template = {
 	can_equip = {
 		always = yes
 	}
 
 	can_benefit = {
-		culture = culture:kharidian
+		faith = faith:menaph
 	}
 
 	fallback = {
-		monthly_piety = 0.1
+		monthly_prestige = 0.2
 	}
 }

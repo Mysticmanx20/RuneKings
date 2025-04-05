@@ -68,6 +68,14 @@ arcana_prayer_3 = 3
 
 #artifacts
 sangstaff_arcana = 3
+# Artifacts
+magic_artifacts = {
+	value = 0
+	every_equipped_character_artifact = {
+		limit = { exists = var:magic_modifier }
+		add = var:magic_modifier
+	}
+}
 
 
 # Arcana Master
@@ -415,21 +423,26 @@ arcana = {
 			desc = arcana_prayer_3
 		}
 	}
-	#artifacts
-	if = {
-		limit = { 
-			any_character_artifact = {
-				AND = {
-					is_equipped = yes
-					has_artifact_modifier = rk_sangstaff
-				}
-			}
-		}
-		add = {
-			value = sangstaff_arcana
-			desc = sangstaff_arcana
-		}
+	# #artifacts
+	# if = {
+	# 	limit = { 
+	# 		any_equipped_character_artifact = {
+	# 			AND = {
+	# 				has_artifact_modifier = rk_sangstaff
+	# 			}
+	# 		}
+	# 	}
+	# 	add = {
+	# 		value = sangstaff_arcana
+	# 		desc = sangstaff_arcana
+	# 	}
+	# }
+	# Artifacts
+	add = {
+		value = magic_artifacts
+		desc = "artifact_magic" #referenced in gui, do not change. needed to shield value and stop [jomini_scriptvalue.cpp:109]: Building Script Value Description using unsupported features near GetScriptValueDesc for arcana
 	}
+	min = 0
 
 }
 

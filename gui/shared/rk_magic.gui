@@ -42,7 +42,7 @@ types Arcana
 					item = {
 						hbox = {
 							name = "value_breakdown"
-							visible = "[Not(EqualTo_string( ValueBreakdown.GetName, 'artifact_arcana' ))]"
+							visible = "[Not(EqualTo_string( ValueBreakdown.GetName, 'artifact_magic' ))]"
 
 							layoutpolicy_horizontal = expanding
 

@@ -1254,3 +1254,16 @@ rk_cue_1sec = {
 	music = "file:/music/rsmusic/1sec.ogg"
 	pause_factor = 7
 }
+
+rk_cue_tombfight = {
+	music = "file:/music/rsmusic/AmascutsPromise.ogg"
+	name = "A Taste of Hope"
+	pause_factor = 25
+}
+
+rk_cue_coxfight = {
+	music = "file:/music/rsmusic/GreatOlm.ogg"
+	name = "A Taste of Hope"
+	pause_factor = 25
+}
+

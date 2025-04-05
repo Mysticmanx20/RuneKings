@@ -11,6 +11,14 @@ rk_dramen1 = {
 	character_travel_speed = 1000
 }
 
+rk_tbow = {
+	prowess_no_portrait = 5
+}
+
+rk_tbuckler = {
+	enemy_hostile_scheme_success_chance_add = -15
+}
+
 rk_charos = {
 	monthly_prestige = 0.03
 	general_opinion = 10
@@ -21,6 +29,16 @@ rk_elid_statue = {
 	monthly_piety = 0.3
 	clergy_opinion = 10
 	health = medium_health_bonus
+}
+
+rk_elidthread = {
+	court_grandeur_baseline_add = 3
+	# +5% monthly runes
+}
+
+rk_tumshadow = {
+	min_combat_roll = 4
+	#magic = 4
 }
 
 rk_tasty_book = {

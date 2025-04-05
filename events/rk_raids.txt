@@ -42,7 +42,7 @@ raid_event.0002 = {
 
 	immediate = {
 		mp_pause_travel_plan = yes
-		play_music_cue = rk_cue_vampfight
+		play_music_cue = rk_cue_coxfight
 		create_character = {
 			location = title:c_cox.holder.capital_province
 			template = accolade_huntsmaster_character
@@ -75,7 +75,7 @@ raid_event.0003 = {
 
 	immediate = {
 		mp_pause_travel_plan = yes
-		play_music_cue = rk_cue_vampfight
+		play_music_cue = rk_cue_tombfight
 		create_character = {
 			location = title:c_necro.holder.capital_province
 			template = accolade_huntsmaster_character
@@ -136,7 +136,7 @@ raid_event.0100 = {
 				}
 			}
 			trigger_event = { 
-				id = raid_event.0101
+				id = raid_event.0102
 				days = 1
 			}
 		}
@@ -150,7 +150,7 @@ raid_event.0100 = {
 				}
 			}
 			trigger_event = { 
-				id = raid_event.0101
+				id = raid_event.0103
 				days = 1
 			}
 		}
@@ -168,6 +168,7 @@ raid_event.0100 = {
 
 }
 
+# TOB Rewards
 raid_event.0101 = {
 	hidden = yes
 
@@ -189,6 +190,52 @@ raid_event.0101 = {
 				}
 				25 = {
 					create_artifact_rk_justicar_effect = { OWNER = this }
+				}
+			}
+			
+		}
+	}
+}
+
+# ToA rewards
+raid_event.0102 = {
+	hidden = yes
+
+	immediate = {
+		scope:fighter_mc_fighter_chap = {
+			death = { death_reason = death_vanished }
+		}
+
+		scope:sc_victor = {
+			random_list = {
+				50 = {
+					create_artifact_rk_elidthread_effect = { OWNER = this }
+				}
+				50 = {
+					create_artifact_rk_tumshadow_effect = { OWNER = this }
+				}
+			}
+			
+		}
+	}
+}
+
+#COX Rewards
+raid_event.0103 = {
+	hidden = yes
+
+	immediate = {
+		scope:fighter_mc_fighter_chap = {
+			death = { death_reason = death_vanished }
+		}
+
+		scope:sc_victor = {
+			random_list = {
+				50 = {
+					create_artifact_rk_tbow_effect = { OWNER = this }
+				}
+				50 = {
+					create_artifact_rk_tbuckler_effect = { OWNER = this }
 				}
 			}
 			
