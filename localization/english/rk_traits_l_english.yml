@@ -75,6 +75,8 @@
  trait_magic_5:0 "Kodai Mage"
  trait_magic_5_desc:0 "This character is a powerful and knowledgeable wizard and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
  trait_magic_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a powerful and knowledgeable wizard and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
+ trait_track_lifestyle_magic:0 "Magic"
+ trait_track_lifestyle_magic_desc:0 "#help You gain experience in this track by casting spells.#!\n\nWith magic, anything is possible."
 
   trait_imbued_heart:0 "Imbued Heart"
   trait_imbued_heart_desc:0 ""

@@ -183,7 +183,7 @@ lifestyle_magic = {
 				}
 				desc = trait_magic_2
 			}
-			#beginner mage
+			#mage
 			desc = trait_magic_1
 		}
 	}
