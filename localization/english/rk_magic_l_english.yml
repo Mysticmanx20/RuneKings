@@ -9,6 +9,7 @@
 	arcana_education_magical_ability_3:0 "[GetTrait('education_magical_ability_3').GetName(ROOT.Char)]"
 	arcana_education_magical_ability_4:0 "[GetTrait('education_magical_ability_4').GetName(ROOT.Char)]"
 	arcana_education_magical_ability_5:0 "[GetTrait('education_magical_ability_5').GetName(ROOT.Char)]"
+  magic_level:0 "[GetTrait('lifestyle_magic').GetName(ROOT.Char)]"
 	#lifestyle
 	#arcana_mystic:0 "[Character.Custom('arcana_mystic')]"
 	arcana_mystic_1:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"

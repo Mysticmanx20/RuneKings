@@ -9,6 +9,12 @@ arcana_trait_education_magical_ability_3 = 6
 arcana_trait_education_magical_ability_4 = 8
 arcana_trait_education_magical_ability_5 = 10
 
+magic_trait_level_1 = 2
+magic_trait_level_2 = 4
+magic_trait_level_3 = 6
+magic_trait_level_4 = 8
+magic_trait_level_5 = 10
+
 # Lifestyle
 arcana_trait_mystic_1 = 2
 arcana_trait_mystic_2 = 4
@@ -122,6 +128,90 @@ arcana = {
 		add = {
 			value = arcana_trait_education_magical_ability_5
 			desc = arcana_education_magical_ability_5
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_magic 
+			has_trait_xp = {
+				trait = lifestyle_magic
+				value < 25
+			}
+		}
+		add = {
+			value = magic_trait_level_1
+			desc = magic_level
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_magic 
+			AND = {
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value >= 25
+				}
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value < 50
+				}
+			}
+			
+		}
+		add = {
+			value = magic_trait_level_2
+			desc = magic_level
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_magic 
+			AND = {
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value >= 50
+				}
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value < 75
+				}
+			}
+		}
+		add = {
+			value = magic_trait_level_3
+			desc = magic_level
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_magic 
+			AND = {
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value >= 75
+				}
+				has_trait_xp = {
+					trait = lifestyle_magic
+					value < 100
+				}
+			}
+		}
+		add = {
+			value = magic_trait_level_4
+			desc = magic_level
+		}
+	}
+	else_if = {
+		limit = { 
+			has_trait = lifestyle_magic 
+			has_trait_xp = {
+				trait = lifestyle_magic
+				value >= 100
+			}
+		}
+		add = {
+			value = magic_trait_level_5
+			desc = magic_level
 		}
 	}
 	#genetic

@@ -688,6 +688,22 @@ cast_spell_interaction = {
 
 	on_accept = {
 		scope:actor = {
+			#give mage trait xp
+			if = {
+				limit = {
+					has_trait = lifestyle_magic
+				}
+				add_trait_xp = {
+					trait = lifestyle_magic
+					value = 2
+				}
+			}
+			else = {
+				add_trait = lifestyle_magic
+			}
+
+
+
 			#spell effects
 			switch = {
 				trigger = yes

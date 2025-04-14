@@ -105,6 +105,141 @@ education_magical_ability_5 = {
 	}
 }
 
+lifestyle_magic = {
+	category = lifestyle
+	icon = magic.dds
+
+	#modifiers
+	flag = add_arcana_2
+	same_opinion = 10
+
+	track = {
+		25 = {
+			flag = add_arcana_4
+			prowess = 1
+		}
+		50 = {
+			flag = add_arcana_6
+			health = 0.1
+			
+		}
+		75 = {
+			flag = add_arcana_8
+			prowess = 1
+		}
+		100 = {
+			flag = add_arcana_10
+			health = 0.15
+			
+		}
+	}
+
+	ruler_designer_cost = 25
+
+	# Loc
+	name = {
+		first_valid = {
+			#Kodai Mage
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 100
+					}
+				}
+				desc = trait_magic_5
+			}
+			#Master Mage
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 75
+					}
+				}
+				desc = trait_magic_4
+			}
+			#Mage Teacher
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 50
+					}
+				}
+				desc = trait_magic_3
+			}
+			#Apprentice Mage
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 25
+					}
+				}
+				desc = trait_magic_2
+			}
+			#beginner mage
+			desc = trait_magic_1
+		}
+	}
+
+	# Loc
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_magic_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 100
+					}
+				}
+				desc = trait_magic_5_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 75
+					}
+				}
+				desc = trait_magic_4_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 50
+					}
+				}
+				desc = trait_magic_3_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_magic
+						value >= 25
+					}
+				}
+				desc = trait_magic_2_character_desc
+			}
+			desc = trait_magic_1_character_desc
+		}
+	}
+
+}
+
 imbued_heart = {
 	opposites = {
 		saturated_heart
