@@ -10333,6 +10333,7 @@ health.6001 = {
 			trigger = {
 				OR = {
 					government_has_flag = government_is_tribal
+					government_has_flag = government_is_nomadic
 					is_landless_adventurer = yes
 				}
 			}
@@ -10342,9 +10343,10 @@ health.6001 = {
 			trigger = {
 				NOR = {
 					government_has_flag = government_is_tribal
+					government_has_flag = government_is_nomadic
 					is_landless_adventurer = yes
 				}
-			}			
+			}
 			text = health.6001.a
 		}
 		custom_tooltip = health.6001.warning
@@ -10514,8 +10516,8 @@ health.6002 = {
 			is_landless_adventurer = no
 		}
 		reference = corridor_day
-	}	
-	left_portrait = {		
+	}
+	left_portrait = {
 		character = root
 		animation = sick
 	}
@@ -10821,6 +10823,7 @@ health.6004 = {
 		}
 		reference = corridor_day
 	}
+
 	immediate = {
 		committed_suicide_effect = yes
 	}

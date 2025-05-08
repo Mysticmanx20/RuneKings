@@ -290,38 +290,6 @@ gnome019 = {
 	}
 }
 
-gnome023 = {
-	name = "Spanfipple"
-	culture = gnome
-	religion = guthix
-	trait = honest
-	trait = patient
-	trait = content
-	trait = education_diplomacy_2
-	9141.1.1 = {
-		birth = yes
-	}
-	9168.1.1 = {
-		employer = 900301
-	}
-}
-
-gnome024 = {
-	name = "Manglethorp"
-	culture = gnome
-	religion = guthix
-	trait = eccentric
-	trait = patient
-	trait = content
-	trait = education_learning_2
-	9141.1.1 = {
-		birth = yes
-	}
-	9168.1.1 = {
-		employer = dwarf001
-	}
-}
-
 gnome020 = {
 	name = "Imblewyn"
 	culture = gnome
@@ -408,5 +376,37 @@ gnome026 = {
 	trait = education_diplomacy_2
 	9141.1.1 = {
 		birth = yes
+	}
+}
+
+gnome027 = {
+	name = "Spanfipple"
+	culture = gnome
+	religion = guthix
+	trait = honest
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900301
+	}
+}
+
+gnome028 = {
+	name = "Manglethorp"
+	culture = gnome
+	religion = guthix
+	trait = eccentric
+	trait = patient
+	trait = content
+	trait = education_learning_2
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = dwarf001
 	}
 }

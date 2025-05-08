@@ -61,6 +61,29 @@ pool_repopulate_prowess = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -209,6 +232,29 @@ pool_repopulate_diplomacy = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -275,6 +321,29 @@ pool_repopulate_martial = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		if = {
 			limit = {
 				OR = {
@@ -425,6 +494,29 @@ pool_repopulate_stewardship = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -478,6 +570,29 @@ pool_repopulate_intrigue = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -533,6 +648,29 @@ pool_repopulate_learning = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		if = {
 			limit = {
 				faith = {
@@ -677,6 +815,29 @@ pool_repopulate_spouse = {
 	}
 	dynasty = none
 	after_creation = {
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -740,7 +901,29 @@ pool_repopulate_local_flavor = {
 	dynasty = none
 	
 	after_creation = {
-
+		random_list = {
+			200 = {
+				# Character is of average weight, nothing happens	
+			}
+			25 = {
+				change_current_weight = -25
+			}
+			25 = {
+				change_current_weight = -75
+			}
+			25 = {
+				change_current_weight = 25
+			}
+			25 = {
+				change_current_weight = 75
+			}
+			5 = {
+				change_current_weight = 100
+			}
+			5 = {
+				change_current_weight = 200
+			}
+		}		
 		set_interesting_traits_and_modifiers_effect = yes
 		add_random_tiered_trait_xp_effect = {
 			TRAIT = lifestyle_physician

@@ -1058,6 +1058,11 @@ e_zaros = {
 					province = 273
 				}
 
+				b_drayisle = {
+					color = { 96 83 128}
+					province = 605
+				}
+
 			}
 
 
@@ -1196,6 +1201,7 @@ e_zaros = {
 					color = { 173 200 0 }
 					province = 68
 				}
+
 			}
 
 			c_faladornorth = {

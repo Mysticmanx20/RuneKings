@@ -6,7 +6,7 @@
 }
 
 628 = {  #Musa
-	religion = sardomin
+	religion = saradomin
 	culture = asgarnia
 	holding = tribal_holding	
 }
@@ -18,13 +18,13 @@
 }
 
 630 = {  #Musa
-	religion = sardomin
+	religion = saradomin
 	culture = asgarnia
 	holding = castle_holding	
 }
 
 631 = {  #Musa
-	religion = sardomin
+	religion = saradomin
 	culture = asgarnia
 	holding = tribal_holding	
 }

@@ -221,7 +221,7 @@
 487 = {  
 	culture = morytania
 	religion = zamorak
-	holding = none_holding
+	holding = none
 }
 
 488 = {  

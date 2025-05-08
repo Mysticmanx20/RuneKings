@@ -1,10 +1,9 @@
-name="RuneKings-main"
+name="RuneKings-test"
 version="0.1"
 picture="thumbnail.png"
 tags={
 	"Total Conversion"
 }
-
 replace_path="common/bookmark_portraits"
 replace_path="common/bookmarks"
 replace_path="common/landed_titles"
@@ -14,5 +13,5 @@ replace_path="history/cultures"
 replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
-
-supported_version="1.15.0.2"
+supported_version="1.16.1"
+remote_file_id="3413874943"
