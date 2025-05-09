@@ -2,6 +2,10 @@
 
 #Saradominist
 
+holy_site_monastery_name:0 "Edgeville Monastery"
+holy_site_monastery_effect_name:0 "From [holy_site|E] #weak ($holy_site_monastery_name$)#!"
+
+
 holy_site_entrana_name:0 "Entrana"
 holy_site_entrana_effect_name:0 "From [holy_site|E] #weak ($holy_site_entrana_name$)#!"
 holy_site_entrana_effects:0 "Piety: #P +20%#!"
@@ -76,3 +80,14 @@ holy_site_light_name:0 "Temple of Light"
 holy_site_prif_name:0 "Prifddinas"
 holy_site_gorlah_name:0 "Gorlah"
 holy_site_waterfall_name:0 "Baxtorian Falls"
+
+
+#################### Zaros
+
+holy_site_senntisten_name:0 "Senntisten"
+holy_site_ghorrock_name:0 "Ghorrock"
+holy_site_kharidet_name:0 "Kharid-et"
+holy_site_lassar_name:0 "Lassar"
+holy_site_lassar_effect_name:0 "From [holy_site|E] #weak ($holy_site_lassar_name$)#!"
+holy_site_kharyrll_name:0 "Kharyrll"
+holy_site_kharyrll_effect_name:0 "From [holy_site|E] #weak ($holy_site_kharyrll_name$)#!"

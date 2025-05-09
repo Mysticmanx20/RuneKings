@@ -482,7 +482,10 @@ zaros_religion = {    #Zaros
 			icon = zaros
 
 			holy_site = senntisten
-			
+			holy_site = ghorrock
+			holy_site = kharidet
+			holy_site = lassar
+			holy_site = kharyrll
 
 			doctrine = tenet_alexandrian_catechism
 			doctrine = tenet_inner_journey
@@ -2017,6 +2020,7 @@ sara_religion = {
 			color = { 0.11 0.22 0.73 }
 			religious_head = d_saradomin
 			icon = saradomin
+			holy_site = monastery
 			holy_site = entrana
 			holy_site = falador
 			holy_site = citharade

@@ -1,5 +1,14 @@
 ﻿
-### Saradomin 
+##### Saradomin 
+
+monastery = {
+	county = c_edgemon
+
+	character_modifier = {
+		name = holy_site_monastery_effect_name
+		learning_per_piety_level = 1
+	}
+}
 
 entrana = {
 	county = c_entrana
@@ -36,7 +45,7 @@ paterdomus = {
 	}
 }
 
-# H.A.M. Cult
+########### H.A.M. Cult
 ham = {
 	county = c_lumpass
 
@@ -44,7 +53,7 @@ ham = {
 }
 
 
-####
+#########
 #Zammy
 
 drakan = {
@@ -99,7 +108,7 @@ demon = {
 
 
 
-
+###################
 #Guthix
 
 tavcircle = {
@@ -148,7 +157,7 @@ tears = {
 
 
 
-
+#######################
 #BAndos
 
 gobtemple = {
@@ -198,7 +207,7 @@ dorgshun = {
 	}
 }
 
-
+##############################
 #Zaros
 senntisten = {
 	county = c_digsite
@@ -208,6 +217,45 @@ senntisten = {
 		name = holy_site_saranthium_effect_name
 		cultural_head_fascination_mult = 0.05
 		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+ghorrock = {
+	county = c_ghorrock
+
+	character_modifier = {
+		name = holy_site_kufa_effect_name
+		intrigue_per_piety_level = 1
+	}
+}
+
+kharidet = {
+	county = c_giants
+
+	character_modifier = {
+		name = holy_site_semien_effect_name
+		defender_advantage = 5
+		diplomacy = 1
+	}
+}
+
+lassar = {
+	county = c_camdozaal
+
+	character_modifier = {
+		name = holy_site_lassar_effect_name
+		monthly_prestige_gain_mult = 0.05
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+}
+
+kharyrll = {
+	county = c_canifis
+
+	character_modifier = {
+		name = holy_site_kharyrll_effect_name
+		martial = 1
+		prowess = 1
 	}
 }
 
@@ -267,7 +315,7 @@ kharazi = {
 }
 
 
-
+#########################
 # marimbo
 
 marim = {
@@ -307,7 +355,7 @@ mosleharm = {
 	}
 }
 
-
+#########################
 ### Menaphites
 
 magic = {
