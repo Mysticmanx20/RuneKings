@@ -181,7 +181,7 @@ ogre = {
 }
 
 gobvil = {
-	county = c_gobvil
+	county = c_gobvilgreen
 
 	flag = cordoba_conversion_bonus # +20% county conversion speed
 }

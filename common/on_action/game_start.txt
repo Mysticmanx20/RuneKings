@@ -33,6 +33,12 @@ on_game_start = {
 		title:b_wizard.title_province = { add_special_building_slot = generic_university }
 		title:b_varmu.title_province = { add_special_building_slot = generic_university }
 		title:b_mageupper.title_province = { add_special_building_slot = generic_university }
+		title:b_keldagrim.title_province = { add_special_building_slot = generic_university }
+		title:b_menaphos.title_province = { add_special_building_slot = generic_university }
+		title:b_myths.title_province = { add_special_building_slot = generic_university }
+		title:b_arceus.title_province = { add_special_building_slot = generic_university }
+		title:b_crandor.title_province = { add_special_building_slot = generic_university }
+		title:b_outpost.title_province = { add_special_building_slot = generic_university }
 
 		
 		### Every nomad and herder in the Steppe Region becomes tribal if DLC not enabled, pre-lobby history setup ###
@@ -310,7 +316,6 @@ on_game_start = {
 					change_government = tribal_government
 				}
 			}			
-		}
 		}
 
 		### REGENCIES ###
