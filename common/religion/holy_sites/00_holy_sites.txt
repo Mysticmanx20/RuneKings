@@ -14,6 +14,7 @@ entrana = {
 	county = c_entrana
 	
 	character_modifier = {
+		name = holy_site_entrana_effect_name
 		monthly_piety_gain_mult = 0.2
 	}
 	flag = entrana_conversion_bonus # +20% County Conversion

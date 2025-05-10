@@ -1,0 +1,329 @@
+
+become_tributary_interaction = {
+	category = interaction_category_diplomacy
+	common_interaction = no
+	icon = become_tributary_interaction
+
+	desc = become_tributary_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			NOT = { government_has_flag = cannot_be_vassal_or_liege }
+			is_independent_ruler = yes # You have to be independent - This check exists to prevent a lot of edge-cases where you can change liege
+			is_tributary = no
+			highest_held_title_tier >= tier_county
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				current_military_strength < scope:recipient.one_and_a_half_times_current_military_strength
+				primary_title.tier < scope:recipient.primary_title.tier
+			}
+		}
+		scope:recipient = {
+			is_independent_ruler = yes # while it's possible for tributaries to have their own tributaries, it should not be possible to create a tributary relationship with a non-independent ruler
+			NOT = { 
+				this = scope:actor
+				top_suzerain = scope:actor
+			}
+			can_have_tributaries_trigger = yes
+
+			#RK Edit
+			primary_title.tier >= scope:actor.primary_title.tier
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_physically_able = yes
+			is_travelling = no
+			NOT = { exists = involved_activity }
+			is_confederation_member = no
+			is_at_war = no
+		}
+	}
+
+	greeting = positive
+	notification_text = BECOME_TRIBUTARY_INTERACTION_NOTIFICATION
+
+	# Low starting obligations
+	send_option = {
+		flag = low_obligations
+		localization = low_tributary_obligations
+	}
+
+	# Medium starting obligations
+	send_option = {
+		flag = normal_obligations
+		localization = normal_tributary_obligations
+		starts_enabled = { always = yes	}
+
+	}
+
+	# High starting obligations
+	send_option = {
+		flag = high_obligations
+		localization = high_tributary_obligations
+	}
+
+	send_options_exclusive = yes
+
+	on_accept = {
+		start_tributary_interaction_effect = {
+			TRIBUTARY = scope:actor
+			SUZERAIN = scope:recipient
+		}
+		scope:actor = {
+			trigger_event = char_interaction.0360
+		}
+		scope:recipient = {
+			if = {
+				limit = { scope:high_obligations = yes }
+				add_opinion = {
+					modifier = tributary_volunteered_opinion
+					target = scope:actor
+					opinion = 20
+				}
+			}
+			else_if = {
+				limit = { scope:normal_obligations = yes }
+				add_opinion = {
+					modifier = tributary_volunteered_opinion
+					target = scope:actor
+				}
+			}
+
+			consume_all_criminal_reasons_effect = {
+				LIEGE = scope:recipient
+				CRIMINAL = scope:actor
+			}
+		}
+	}
+
+	on_decline = {
+		scope:actor = {
+			trigger_event = char_interaction.0361
+		}
+	}
+	
+	ai_potential = {
+		highest_held_title_tier >= tier_county
+		is_independent_ruler = yes
+	}
+
+	ai_targets = {
+		ai_recipients = neighboring_rulers_including_tributary_borders
+	}
+
+	ai_frequency = 6 # this might appear fairly frequent but is necessary in order to ensure AI can respond to sudden threats on their borders
+
+	force_notification = yes
+
+	ai_will_do = {
+		base = -50
+		ai_military_threat_modifier_with_cbs = { 
+			SENDER = scope:actor 
+			RECEIVER = scope:recipient
+			MULTIPLIER = -1 
+		}
+
+		modifier = {
+			is_obedient_to = scope:recipient
+			add = 40
+			desc = obedient_interaction_reason
+		}	
+
+		modifier = { # Rivalry modifier.
+			desc = offer_vassalization_interaction_aibehavior_rival_tt
+			trigger = {
+				scope:actor = {
+					has_relation_rival = scope:recipient
+					NOT = { has_relation_nemesis = scope:recipient }
+				}
+			}
+			add = -10
+		}
+		modifier = { # Nemesis modifier.
+			desc = offer_vassalization_interaction_aibehavior_nemesis_tt
+			trigger = {
+				scope:actor = {
+					has_relation_nemesis = scope:recipient
+				}
+			}
+			add = -30
+		}
+		modifier = { # Different faith, no pluralism.
+			desc = offer_vassalization_interaction_aibehavior_differentfaith_tt
+			trigger = {
+				scope:actor = {
+					NOR = { # Of two different faiths AND the potential vassal's faith is not pluralistic.
+						faith = scope:recipient.faith
+						faith = { has_doctrine = doctrine_pluralism_pluralistic }
+					}
+				}
+			}
+			add = {
+				value = -25
+				if = {
+					limit = {
+						scope:actor.faith = {
+							faith_hostility_level = {
+								target = scope:recipient.faith
+								value >= faith_hostile_level
+							}
+						}
+					}
+					add = -10
+				}
+				if = {
+					limit = {
+						scope:actor.faith = {
+							faith_hostility_level = {
+								target = scope:recipient.faith
+								value >= faith_evil_level
+							}
+						}
+					}
+					add = -25
+				}
+			}
+		}
+		modifier = { # I am a King!
+			desc = offer_fealty_interaction_aibehavior_amkingtier_tt
+			trigger = {
+				highest_held_title_tier >= tier_kingdom
+			}
+			add = -20
+		}
+
+		modifier = { # Cultural Acceptance
+			add = -5
+			desc = cultural_acceptance_interaction_reason
+			trigger = {
+				scope:actor = {
+					NOT = { has_same_culture_as = scope:recipient }
+					culture = {
+						cultural_acceptance = { target = scope:recipient.culture value < 50 }
+					}
+				}
+			}
+		}
+
+		modifier = { # Same language
+			add = 5
+			desc = speaks_same_language_interaction_reason
+			trigger = {
+				scope:actor = {
+					knows_language_of_culture = scope:recipient.culture
+				}
+			}
+		}
+	}
+
+	ai_min_reply_days = 5
+	ai_max_reply_days = 10
+
+	ai_accept = {
+		base = -50
+
+		modifier = {
+			desc = interaction_is_nomadic
+			scope:recipient = {
+				government_has_flag = government_is_nomadic
+			}
+			add = 100
+		}
+		
+		modifier = { # Wide difference in rank
+			desc = offer_vassalization_interaction_aibehavior_widetitletier_tt
+			trigger = {
+				scope:actor = {
+					tier_difference = {
+						target = scope:recipient
+						value > 1
+					}
+				}
+			}
+			add = 20
+		}
+		modifier = { # Distant Realm.
+			desc = offer_vassalization_interaction_aibehavior_distantrealm_tt
+			trigger = {
+				scope:actor = {
+					NOT = {
+						any_neighboring_top_liege_realm_owner = { this = scope:recipient }
+					}
+				}
+				scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value < 200000 } }
+			}
+			add = -15
+		}
+		modifier = { # Remote Realm.
+			desc = offer_vassalization_interaction_aibehavior_remoterealm_tt
+			trigger = {
+				scope:actor = {
+					NOT = {
+						any_neighboring_top_liege_realm_owner = { this = scope:recipient }
+					}
+				}
+				scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value >= 200000 } }
+			}
+			add = -25
+		}
+
+		# MINOR
+		modifier = { # Rivalry modifier.
+			desc = offer_vassalization_interaction_aibehavior_rival_tt
+			trigger = {
+				scope:recipient = {
+					has_relation_rival = scope:actor
+					NOT = { has_relation_nemesis = scope:actor }
+				}
+			}
+			add = -10
+		}
+		modifier = { # Nemesis modifier.
+			desc = offer_vassalization_interaction_aibehavior_nemesis_tt
+			trigger = {
+				scope:recipient = {
+					has_relation_nemesis = scope:actor
+				}
+			}
+			add = -30
+		}
+		modifier = { # Same Dynasty modifier.
+			desc = offer_vassalization_interaction_aibehavior_dynasty_tt
+			trigger = {
+				scope:recipient = {
+					dynasty = scope:actor.dynasty
+				}
+			}
+			add = 10
+		}
+
+		# PERSONALITY
+		ai_value_modifier = {
+			ai_greed = 0.75
+			min = 0
+		}
+
+		# OPINION INFLUENCE
+		opinion_modifier = { # Compare Opinion modifier.
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 1
+		}
+
+		# CONTRACT OPTIONS
+		modifier = {
+			add = -25
+			scope:low_obligations = yes
+			desc = CONTRACT_LOW_TAXES_REASON
+		}
+		modifier = {
+			add = 25
+			scope:high_obligations = yes
+			desc = CONTRACT_HIGH_TAXES_REASON
+		}
+	}
+}

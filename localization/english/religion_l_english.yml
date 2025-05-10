@@ -22,7 +22,6 @@ holy_site_citharade_effects:0 "County Conversion Speed: #P +20%#!"
 holy_site_paterdomus_name:0 "Paterdomus"
 holy_site_paterdomus_effect_name:0 "From [holy_site|E] #weak ($holy_site_paterdomus_name$)#!"
 
-holy_site_senntisten_name:0 "Senntisten Temple"
 
 holy_site_ham_name:0 "H.A.M. Headquarters"
 holy_site_ham_effect_name:0 "From [holy_site|E] #weak ($holy_site_ham_name$)#!"
