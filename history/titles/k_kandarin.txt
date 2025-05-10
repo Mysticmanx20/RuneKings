@@ -519,9 +519,9 @@ c_feldiphunt = {
 }
 
 c_feldipmine = {
-	9168.1.1 = {
+	9168.1.2 = {
 		liege = 0
-		holder = kand083
+		holder = kand075
 		change_development_level = 4
 	}
 }

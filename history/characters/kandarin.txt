@@ -1077,6 +1077,9 @@ kand083 = {
 	9143.1.1 = {
 		birth = yes
 	}
+	9168.1.1 = {
+		employer = kand075
+	}
 }
 
 kand084 = {
@@ -1095,6 +1098,9 @@ kand085 = {
 	#dynasty Kincade
 	religion = saradomin
 	culture = kandarin
+	trait = honest
+	trait = just
+	trait = patient
 	trait = education_learning_4
 	9137.1.1 = {
 		birth = yes
@@ -1404,5 +1410,36 @@ kand108 = {
 	trait = education_stewardship_3
 	9136.1.1 = {
 		birth = yes
+	}
+}
+
+kand109 = {
+	name = "Erdan"
+	#dyansty Uhld
+	culture = kandarin
+	religion = saradomin
+	trait = diligent
+	trait = education_learning_3
+	9132.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand085
+	}
+}
+
+kand110 = {
+	name = "Freja"
+	culture = fremennik
+	religion = v
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = education_martial_4
+	9141.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = kand085
 	}
 }
