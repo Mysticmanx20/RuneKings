@@ -33,6 +33,9 @@
 	religion = saradomin
 	culture = asgarnia
 	holding = castle_holding	
+	9000.1.1 = {
+		special_building = generic_university
+	}
 }
 
 454 = {  #Lovakengj
@@ -81,6 +84,9 @@
 	religion = saradomin
 	culture = asgarnia
 	holding = castle_holding	
+	9052.1.1 = {
+		special_building = woodcut_guild_01
+	}
 }
 
 643 = {  #Kourend

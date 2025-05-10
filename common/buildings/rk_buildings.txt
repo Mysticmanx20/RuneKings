@@ -136,3 +136,36 @@ element_workshop_01 = {
 
 	flag = travel_point_of_interest_wonder
 }
+
+
+#Woodcut guild
+woodcut_guild_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		barony ?= title:b_wcguild
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		build_speed = -0.2
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}
+	
+	#next_building = element_workshop_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}

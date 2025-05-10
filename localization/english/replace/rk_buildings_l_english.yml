@@ -63,3 +63,9 @@
  building_type_element_workshop_01_desc:0 "Hidden away underneath the land, this small workshop is used to forge various kinds of magically-enhanced armor."
  building_element_workshop_01:0 "$building_type_element_workshop_01$"
  building_element_workshop_01_desc:0 "$building_type_element_workshop_01_desc$"
+
+#### Guilds 
+ building_type_woodcut_guild_01:1 "Woodcutting Guild"
+ building_type_woodcut_guild_01_desc:0 "The Woodcutting Guild is a place to cut trees."
+ building_woodcut_guild_01:0 "$building_type_woodcut_guild_01$"
+ building_woodcut_guild_01_desc:0 "$building_type_woodcut_guild_01_desc$"
