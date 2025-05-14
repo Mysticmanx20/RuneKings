@@ -1430,7 +1430,6 @@ kand109 = {
 
 kand110 = {
 	name = "Freja"
-	female = yes
 	culture = fremennik
 	religion = v
 	trait = brave

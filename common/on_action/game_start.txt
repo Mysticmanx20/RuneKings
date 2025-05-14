@@ -55,14 +55,19 @@ on_game_start = {
 					}
 				}
 				set_holding_type = tribal_holding
-				county.holder ?= {
-					if = {
-						limit = {
-							NOT = {
-								has_government = tribal_government
+				if = {
+					limit = {
+						county.holder.capital_province ?= this
+					}
+					county.holder ?= {
+						if = {
+							limit = {
+								NOT = {
+									has_government = tribal_government
+								}
 							}
+							change_government = tribal_government
 						}
-						change_government = tribal_government
 					}
 				}
 			}
@@ -1561,6 +1566,88 @@ on_game_start_after_lobby = {
 						set_council_task = {
 							task_type = task_kurultai_court_astrologer_4
 							target = liege_or_court_owner.capital_province
+						}
+					}
+				}
+			}
+		}
+
+		every_player = {
+			limit = {
+				is_landed = yes
+			}
+			while = {
+				count = 7
+				limit = {
+					any_courtier = {
+						count < 7
+						is_adult = yes
+					}
+				}
+				save_scope_as = player_scope
+				random_list = {
+					1 = {
+						create_character = {
+							employer = scope:player_scope
+							age = { 20 30 }
+							random_traits = yes
+							gender_female_chance = scope:player_scope.marriage_gender_adjusted_female_chance
+							culture = scope:player_scope.culture
+							faith = scope:player_scope.faith
+							after_creation = {
+								random_list = {
+									200 = {
+										# Character is of average weight, nothing happens	
+									}
+									25 = {
+										change_current_weight = -25
+									}
+									25 = {
+										change_current_weight = -75
+									}
+									25 = {
+										change_current_weight = 25
+									}
+									25 = {
+										change_current_weight = 75
+									}
+									5 = {
+										change_current_weight = 150
+									}
+								}
+							}
+						}
+					}
+					4 = {
+						create_character = {
+							employer = scope:player_scope
+							age = { 20 40 }
+							random_traits = yes
+							gender_female_chance = 15
+							culture = scope:player_scope.culture
+							faith = scope:player_scope.faith
+							after_creation = {
+								random_list = {
+									200 = {
+										# Character is of average weight, nothing happens	
+									}
+									25 = {
+										change_current_weight = -25
+									}
+									25 = {
+										change_current_weight = -75
+									}
+									25 = {
+										change_current_weight = 25
+									}
+									25 = {
+										change_current_weight = 75
+									}
+									5 = {
+										change_current_weight = 150
+									}
+								}
+							}
 						}
 					}
 				}

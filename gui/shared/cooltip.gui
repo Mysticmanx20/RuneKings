@@ -472,6 +472,7 @@ types GameTooltipTypes
 				background = {
 					using = Background_Header_Tall
 					margin = { 15 0 }
+					margin_bottom = 10
 				}
 
 				block "header_tt" {
@@ -510,13 +511,23 @@ types GameTooltipTypes
 							text_single = {
 								layoutpolicy_horizontal = expanding
 								autoresize = yes
-								fontsize_min = 14
-								using = Font_Size_Small
-								block "subtitle_text" {
-									text = ""
+								block "fontsize_min" {
+									fontsize_min = 14
 								}
 								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								max_width = 400
+								using = Font_Size_Small
+
+								block "subtitle_text"
+								{
+									text = ""
+								}
+
+								block "max_width"
+								{
+									max_width = 400
+								}
+
+								block "multiline" {}
 							}
 						}
 					}
@@ -601,6 +612,8 @@ types GameTooltipTypes
 				margin_top = 10
 				fonttintcolor = "[TooltipInfo.GetTintColor]"
 			}
+
+			block "call_to_action" {}
 		}
 	}
 
@@ -1000,6 +1013,8 @@ types GameTooltipTypes
 					visible = "[And( InDebugMode, Not( Character.AccessDenied ) )]"
 					layoutpolicy_horizontal = expanding
 
+					spacing = 5
+
 					text_single = {
 						text = "DNA_MODIFIERS_LINK"
 
@@ -1045,6 +1060,57 @@ types GameTooltipTypes
 							}
 						}
 					}
+
+					divider_light = {
+						layoutpolicy_vertical = expanding
+					}
+
+					text_single = {
+						text = "PORTRAIT_ANIMATION_LINK"
+
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+						tooltipwidget = {
+							container = {
+								name = "PortraitAnimationTooltip"
+								alwaystransparent = no
+
+								object_tooltip_pop_out = {
+									blockoverride "header_additions"
+									{
+										hbox = {
+											margin_right = 10
+											margin_top = 8
+											margin_left = -4
+
+											button_copy = {
+												size = { 52 52 }
+
+												onclick = "[Character.CopyPortraitAnimationToClipboard]"
+												raw_tooltip = "Copy Animation Data"
+											}
+										}
+									}
+
+									blockoverride "title_text"
+									{
+										margin = { 0 8 }
+										text = "PORTRAIT_ANIMATION_TITLE"
+										default_format = "#T"
+									}
+
+									blockoverride "concept_link" {}
+
+									blockoverride "description_text"
+									{
+										max_width = 600
+										text = "[Character.GetPortraitAnimationTooltip( PdxGuiWidget.Self )]"
+									}
+								}
+							}
+						}
+					}
+
 					expand = {}
 				}
 			}
@@ -1146,6 +1212,9 @@ types GameTooltipTypes
 					expand = {}
 				}
 
+				vbox_character_debug_tooltip = {
+					visible = "[And( InDebugMode, Not( Character.AccessDenied ) )]"
+				}
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
@@ -1371,7 +1440,7 @@ template maa_type_container_tooltip
 
 						icon = {
 							name = "icon_soldier"
-							texture = "gfx/interface/icons/icon_soldier.dds"
+							texture = "[MenAtArmsType.GetIcon]"
 							size = { 30 30 }
 						}
 
@@ -1542,7 +1611,7 @@ widget = {
 
 					icon = {
 						name = "icon_soldier"
-						texture = "gfx/interface/icons/icon_soldier.dds"
+						texture = "[MenAtArmsType.GetIcon]"
 						size = { 30 30 }
 					}
 
@@ -2013,68 +2082,71 @@ template unit_icon_item_tooltip {
 			alwaystransparent = no
 		}
 
-		background = {
-			using = Background_Header_Tall
-		}
-
 		vbox = {
 			set_parent_size_to_minimum = yes
-			margin = { 12 8 }
-			margin_bottom = 16
-			spacing = 4
+			margin = { 5 5 }
+			spacing = 5
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				margin = { 0 4 }
+
+				margin = { 5 0 }
+				margin_top = 5
 
 				background = {
 					using = Background_Header_Tall
+					margin_bottom = 10
 				}
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
-					margin_bottom = 4
+					margin_bottom = 5
 
 					widget = {
 						size = { 60 60 }
+
 						coa_realm_small = {
 							datacontext = "[UnitItem.GetOwner]"
-							tintcolor = "[TooltipInfo.GetTintColor]"
 							parentanchor = center
+							position = { 0 5 }
+							tintcolor = "[TooltipInfo.GetTintColor]"
 						}
 					}
 
 					vbox = {
 						layoutpolicy_vertical = expanding
+
 						text_single = {
+							name = "title"
 							layoutpolicy_vertical = expanding
 							layoutpolicy_horizontal = expanding
-							name = "title"
 							align = top|left
-							margin_top = 6
-							margin_right = 20
 							raw_text = "[Army.GetNameNoTooltip] ([UnitItem.GetTooltipHeader])"
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+							margin_top = 5
+							margin_right = 20
 						}
 
 						hbox = {
 							layoutpolicy_horizontal = growing
 
 							hbox_soldiers_and_quality_small_core = {
-								datacontext = [Army.GetComposition]
+								datacontext = "[Army.GetComposition]"
+								spacing = 5
 							}
 
 							expand = {
 								layoutpolicy_horizontal = growing
 							}
-
 						}
 
 						expand = {
 							layoutpolicy_vertical = growing
 						}
 					}
+
 					expand = {
 						layoutpolicy_horizontal = growing
 					}
@@ -2089,7 +2161,8 @@ template unit_icon_item_tooltip {
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
 
-					margin = { 8 8 }
+					margin = { 10 10 }
+					margin_left = 15
 
 					background = {
 						using = Background_Area
@@ -2101,12 +2174,11 @@ template unit_icon_item_tooltip {
 
 						datamodel_wrap = 4
 						flipdirection = yes
-						maxverticalslots = 2
 
 						item = {
 							widget = {
 								hbox = {
-									margin_right = 16
+									margin_right = 15
 									set_parent_size_to_minimum = yes
 									tooltip = "ARMY_VIEW_TROOP_TT"
 									spacing = 4
@@ -2146,20 +2218,34 @@ template unit_icon_item_tooltip {
 									}
 
 								}
+
+								highlight_icon = {
+									name = "levies_icon"
+									visible = "[TroopItem.IsLevies]"
+									size = { 35 35 }
+									texture = "gfx/interface/icons/icon_levies.dds"
+								}
+
+								highlight_icon = {
+									name = "knight_icon"
+									visible = "[TroopItem.IsKnight]"
+									size = { 35 35 }
+									texture = "gfx/interface/icons/icon_knight_small.dds"
+								}
 							}
 						}
 					}
+
 					expand = {
 						layoutpolicy_vertical = expanding
 					}
 				}
 
 				hbox = {
-					name="commander"
-
+					name ="commander"
 					datacontext = "[Army.GetCommander]"
 					layoutpolicy_horizontal = expanding
-					margin = { 12 4 }
+					margin = { 15 10 }
 
 					background = {
 						using = Background_Area
@@ -2207,7 +2293,7 @@ template unit_icon_item_tooltip {
 					visible = "[Army.IsRaidArmy]"
 
 					layoutpolicy_horizontal = expanding
-					margin = { 12 4 }
+					margin = { 10 5 }
 
 					background = {
 						using = Background_Area
@@ -2221,29 +2307,25 @@ template unit_icon_item_tooltip {
 					}
 				}
 
-
-
 				vbox = {
 					name = "statuses"
 					layoutpolicy_horizontal = expanding
 
-					spacing = 4
-
-					margin = { 0 4 }
-
 					hbox = {
 						visible = "[UnitItem.IsRulerCommander]"
-
 						layoutpolicy_horizontal = expanding
+						margin = { 10 0 }
+						margin_bottom = 5
 						spacing = 2
 
 						icon = {
 							texture = "gfx/interface/icons/map_icons/commander_is_leader.dds"
 							size = { 24 24 }
 						}
+
 						text_single = {
-							layoutpolicy_horizontal = expanding
 							datacontext = "[UnitItem.GetUnitPortraitCharacter]"
+							layoutpolicy_horizontal = expanding
 							text = "COMMANDER_IS_LEADER"
 							align = nobaseline
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
@@ -2252,8 +2334,9 @@ template unit_icon_item_tooltip {
 
 					hbox = {
 						visible = "[UnitItem.HasDisembarkPenalty]"
-
 						layoutpolicy_horizontal = expanding
+						margin = { 10 0 }
+						margin_bottom = 5
 						spacing = 2
 
 						icon = {
@@ -2261,6 +2344,7 @@ template unit_icon_item_tooltip {
 							size = { 24 24 }
 							texture = "gfx/interface/icons/map_icons/army_icon_disembarked.dds"
 						}
+
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							text = "[Army.GetEmbarkInfoForTooltip]"
@@ -2271,14 +2355,16 @@ template unit_icon_item_tooltip {
 
 					hbox = {
 						visible = "[UnitItem.IsGathering]"
-
 						layoutpolicy_horizontal = expanding
+						margin = { 10 0 }
+						margin_bottom = 5
 						spacing = 2
 
 						icon = {
 							texture = "gfx/interface/icons/map_icons/army_icon_gathering.dds"
 							size = { 24 24 }
 						}
+
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							text = "ARMY_TOOLTIP_IS_GATHERING"
@@ -2289,8 +2375,9 @@ template unit_icon_item_tooltip {
 
 					hbox = {
 						visible = "[And( Army.IsRaidArmy, Army.IsRaidLootCapped)]"
-
 						layoutpolicy_horizontal = expanding
+						margin = { 10 0 }
+						margin_bottom = 5
 						spacing = 2
 
 						tooltip = ARMY_AT_LOOT_CAP_TOOLTIP
@@ -2299,6 +2386,7 @@ template unit_icon_item_tooltip {
 							texture = "gfx/interface/icons/map_icons/army_icon_at_loot_cap.dds"
 							size = { 24 24 }
 						}
+
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							text = "ARMY_AT_LOOT_CAP"
@@ -2309,14 +2397,16 @@ template unit_icon_item_tooltip {
 
 					hbox = {
 						visible = "[UnitItem.IsRetreating]"
-
 						layoutpolicy_horizontal = expanding
+						margin = { 10 0 }
+						margin_bottom = 5
 						spacing = 2
 
 						icon = {
 							texture = "gfx/interface/icons/map_icons/army_icon_retreating.dds"
 							size = { 24 24 }
 						}
+
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							text = "ARMY_RETREATING"
@@ -2326,12 +2416,9 @@ template unit_icon_item_tooltip {
 					}
 				}
 
-
-				divider_light =
-				{
+				divider_light = {
 					layoutpolicy_horizontal = expanding
 				}
-
 
 				# #--------------------------------------
 				# |  ¤ Attrition: 1%/month
@@ -2344,9 +2431,9 @@ template unit_icon_item_tooltip {
 					name = "involved_army_details"
 					visible = "[Not(Army.IsNeutralToPlayer)]"
 					layoutpolicy_horizontal = expanding
-					spacing = 4
+					spacing = 5
 
-					margin = { 0 4 }
+					margin = { 10 5 }
 
 					hbox = {
 						name = "involved_army_attrition_warning"
@@ -2374,7 +2461,6 @@ template unit_icon_item_tooltip {
 						name = "involved_army_supply_status"
 						layoutpolicy_horizontal = expanding
 
-
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							text = "[Army.GetSupplyInfoForTooltip]"
@@ -2392,7 +2478,6 @@ template unit_icon_item_tooltip {
 							visible = "[Army.IsMoving]"
 							layoutpolicy_horizontal = expanding
 							spacing = 2
-
 
 							icon = {
 								name = "unit_moving"
@@ -2415,8 +2500,6 @@ template unit_icon_item_tooltip {
 							layoutpolicy_horizontal = expanding
 							spacing = 2
 
-							margin_left = 24
-
 							icon = {
 								texture = "gfx/interface/icons/map_icons/movement_locked.dds"
 								size = { 24 24 }
@@ -2430,34 +2513,25 @@ template unit_icon_item_tooltip {
 							}
 						}
 					}
-
-
-				} # vbox "involved_army_details"
-
-
+				}
 
 				block "extra_unit_info" {}
 
-
 				# PLAYER FACING AI INFO
-
 				vbox = {
 					visible = "[Or( Army.IsControlledByCompanionAI, UnitItem.IsUnitItemAlly)]"
 					layoutpolicy_horizontal = expanding
 
-
-					divider_light =
-					{
+					divider_light = {
 						layoutpolicy_horizontal = expanding
 					}
 
 					vbox = {
-						margin = { 0 4 }
+						margin = { 15 5 }
 						layoutpolicy_horizontal = expanding
 
 						hbox = {
 							visible = "[Army.IsControlledByCompanionAI]"
-
 							layoutpolicy_horizontal = expanding
 							spacing = 2
 
@@ -2475,7 +2549,6 @@ template unit_icon_item_tooltip {
 
 						hbox = {
 							visible = "[UnitItem.IsUnitItemAlly]"
-
 							layoutpolicy_horizontal = expanding
 							spacing = 2
 
@@ -2483,6 +2556,7 @@ template unit_icon_item_tooltip {
 								texture = "gfx/interface/icons/message_feed/alliance.dds"
 								size = { 24 24 }
 							}
+
 							text_single = {
 								layoutpolicy_horizontal = expanding
 								text = "ARMY_IS_ALLY"
@@ -2493,9 +2567,8 @@ template unit_icon_item_tooltip {
 
 						hbox = {
 							layoutpolicy_horizontal = expanding
+							margin_top = 5
 							spacing = 2
-							margin_top = 4
-							margin_left = 2
 
 							icon_ai_order = {}
 
@@ -2506,20 +2579,18 @@ template unit_icon_item_tooltip {
 								align = nobaseline
 								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
+
 							expand = {}
 						}
 					}
 				}
 
-
 				# AI DEBUG INFO
-
 				vbox = {
 					visible = "[And( InDebugMode, Not(ReleaseMode) )]"
 					layoutpolicy_horizontal = expanding
 
 					text_single = {
-
 						# Deliberately unlocalized since this is debug functionality
 						layoutpolicy_horizontal = expanding
 						raw_text = "DEBUG:"
@@ -2530,7 +2601,6 @@ template unit_icon_item_tooltip {
 
 
 					text_single = {
-
 						# Deliberately unlocalized since this is debug functionality
 						layoutpolicy_horizontal = expanding
 						raw_text = "Army: [Army.GetArmyId] Unit: [Army.GetUnitId]"
@@ -2543,8 +2613,9 @@ template unit_icon_item_tooltip {
 						layoutpolicy_horizontal = expanding
 						raw_text = "#E AI Coordinator: [Army.GetAiCoordinatorId]#!"
 						align = nobaseline
-						raw_tooltip = "Stack: [Army.GetAiUnitStackId] Sub: [Army.GetAiSubUnitStackId]"
 						fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+						raw_tooltip = "Stack: [Army.GetAiUnitStackId] Sub: [Army.GetAiSubUnitStackId]"
 					}
 
 					text_multi = {
@@ -2555,10 +2626,6 @@ template unit_icon_item_tooltip {
 						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 				}
-
-
-
-
 			}
 		}
 	}
@@ -2586,6 +2653,7 @@ template unit_icon_tooltip {
 			direction = vertical
 			spacing = 5
 			margin = { 20 10 }
+
 			text_single = {
 				text = "ARMY_ICON_HEADER"
 				margin_bottom = 4
@@ -2606,6 +2674,7 @@ template unit_icon_tooltip {
 						min_width = 120
 						parentanchor = vcenter
 					}
+
 					container_hostile_unit_icon_item = {
 						blockoverride "unit_items" {}
 						blockoverride "multi_select" {}
@@ -2628,6 +2697,7 @@ template unit_icon_tooltip {
 				}
 			}
 		}
+
 		container = {
 			visible = "[EqualTo_int32(GetDataModelSize(UnitMapIcon.GetUnitItems), '(int32)1')]"
 			datamodel = "[UnitMapIcon.GetUnitItems]"
@@ -2717,22 +2787,22 @@ types HoldingTooltips
 
 		vbox = {
 			set_parent_size_to_minimum = yes
-			margin = { 12 8 }
-			margin_bottom = 16
-			spacing = 4
+			margin = { 15 10 }
+			margin_bottom = 20
+			spacing = 5
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				margin = { 0 4 }
 
 				background = {
 					using = Background_Header
+					margin = { 10 5 }
 				}
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
-					margin = { 6 4 }
+					margin = { 5 5 }
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
@@ -2754,14 +2824,14 @@ types HoldingTooltips
 			}
 
 			vbox = {
-				spacing = 2
-				margin = { 8 0 }
 				layoutpolicy_horizontal = expanding
+				spacing = 2
+				margin = { 5 0 }
 
 				vbox = {
 					visible = "[Not(Holding.IsEmpty)]"
-					spacing = 4
 					layoutpolicy_horizontal = expanding
+					spacing = 5
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
@@ -2798,13 +2868,13 @@ types HoldingTooltips
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
-					text = [Holding.GetTooltip]
+					text = "[Holding.GetTooltip]"
 					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				hbox = {
 					layoutpolicy_horizontal = growing
-					spacing = 12
+					spacing = 10
 					datacontext = "[Holding.GetProvince.GetTerrain]"
 					tooltipwidget = terrain_tooltip
 					using = tooltip_ws
@@ -2863,22 +2933,23 @@ types FaithTooltips
 
 		vbox = {
 			set_parent_size_to_minimum = yes
-			margin = { 12 8 }
-			margin_bottom = 16
-			spacing = 4
+			margin = { 10 10 }
+			margin_bottom = 15
+			spacing = 5
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				margin = { 0 4 }
+				margin = { 0 5 }
 
 				background = {
 					using = Background_Header_Tall
+					margin = { 0 5 }
 				}
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
-					margin_bottom = 4
+					margin_bottom = 5
 
 					icon = {
 						size = { 60 60 }
@@ -2891,7 +2962,7 @@ types FaithTooltips
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							name = "header"
-							text = "[Faith.GetNameNoTooltip]"
+							text = "FAITH_COOLTIP_GETNAME"
 							align = top
 							using = Font_Type_Flavor
 							using = Font_Size_Big
@@ -2930,8 +3001,9 @@ types FaithTooltips
 			}
 
 			vbox = {
-				spacing = 4
-				margin = { 8 0 }
+				spacing = 5
+				margin = { 10 0 }
+
 				vbox = {
 					layoutpolicy_horizontal = expanding
 
@@ -2985,7 +3057,7 @@ types FaithTooltips
 				}
 
 				spacer = {
-					size = { 0 4 }
+					size = { 0 5 }
 				}
 
 				divider_light = {
@@ -2994,7 +3066,7 @@ types FaithTooltips
 
 				text_multi = {
 					max_width = 400
-					margin = { 0 4 }
+					margin = { 0 5 }
 					text = "[Faith.GetFlavorDesc]"
 					autoresize = yes
 					fonttintcolor = "[TooltipInfo.GetTintColor]"
@@ -3352,8 +3424,12 @@ container = {
 			text = [vassal_contract|E]
 		}
 
-		blockoverride "description_text" {
+		blockoverride "above_description_text" {
 			text = "[ObligationLevel.GetEffectText]"
+		}
+
+		blockoverride "description_text" {
+			text = "[ObligationLevel.GetDesc]"
 		}
 	}
 }
@@ -3489,20 +3565,22 @@ types LawTooltipTypes
 		margin_right = 5
 
 		icon = {
+			datacontext = "[Law.GetLawGroup]"
+			visible = "[Law.HasIcon]"
 			size = { 60 60 }
-			visible = "[And(Law.HasIcon,Not( IsLandlessAdventurer( GetPlayer ) ))]"
-			texture = "[Law.GetIcon]"
 
-			using = Master_Button_Modify_Texture
+			texture = "[Law.GetIcon]"
 			tintcolor = "[TooltipInfo.GetTintColor]"
-		}
 
-		icon = {
-			size = { 60 60 }
-			visible = "[And(Law.HasIcon, IsLandlessAdventurer( GetPlayer ))]"
-			texture = "[Law.GetIcon]"
-		}
+			modify_texture = {
+				visible = "[Not( Or( EqualTo_string( LawGroup.GetKey, 'camp_purpose'), EqualTo_string( LawGroup.GetKey, 'nomadic_authority') ) )]"
 
+				texture = "gfx/interface/colors/colors_textured.dds"
+				blend_mode = add
+				framesize = { 96 96 }
+				spritetype = corneredtiled
+			}
+		}
 	}
 
 	type pass_law_tooltip = container {
@@ -3616,28 +3694,45 @@ template dynasty_house_tooltip {
 
 		blockoverride "header_additions" {
 			margin_right = 10
-			margin_top = 8
-			margin_left = -4
+			margin_top = 5
+			margin_left = -5
 
 			coa_house_small = {
 				blockoverride "coa_tooltip" {}
 			}
 		}
 
-		blockoverride "title_text" {
+		blockoverride "title_text"
+		{
 			text = "HOUSE_TT_NAME"
 		}
 
-		blockoverride "subtitle_text" {
-			margin_top = -4
+		blockoverride "fontsize_min" {
+			fontsize_min = 13
+		}
+
+		blockoverride "subtitle_text"
+		{
 			text = "HOUSE_VIEW_MOTTO"
 			default_format = "#weak"
 		}
 
-		blockoverride "concept_link" {
+		blockoverride "multiline" {
+			multiline = yes
+		}
+
+		blockoverride "max_width"
+		{
+			max_width = 280
+		}
+
+		blockoverride "concept_link"
+		{
 			text = [house|E]
 		}
-		blockoverride "extra_data" {
+
+		blockoverride "extra_data"
+		{
 
 			cooltip_paragraph = {
 				name = "my_house"
@@ -4286,92 +4381,92 @@ types CultureTooltips
 		vbox = {
 			set_parent_size_to_minimum = yes
 			margin = { 15 5 }
-			margin_bottom = 16
+			margin_bottom = 15
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				margin = { 6 4 }
-				margin_bottom = 12
+				margin = { 10 10 }
 
 				background = {
 					using = Background_Header_Tall
+					margin = { 10 0 }
+					margin_bottom = 10
 				}
 
-				hbox = {
+				vbox = {
 					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
 
-					vbox = {
+					hbox = {
 						layoutpolicy_horizontal = expanding
-						layoutpolicy_vertical = expanding
-
-						hbox = {
-							layoutpolicy_horizontal = expanding
-
-							text_single = {
-								layoutpolicy_horizontal = expanding
-								name = "header"
-								text = "CULTURE_COOLTIP_GETNAME"
-								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								align = top
-
-								using = Font_Type_Flavor
-								using = Font_Size_Big
-							}
-
-							expand = {}
-
-							text_single = {
-								layoutpolicy_horizontal = expanding
-								layoutpolicy_vertical = expanding
-								text = "[culture|E]"
-								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								align = vcenter|right
-							}
-						}
 
 						text_single = {
 							layoutpolicy_horizontal = expanding
+							name = "header"
+							text = "CULTURE_COOLTIP_GETNAME"
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
-							text = "[Culture.GetPlayerRelationString]"
+							align = top
+
+							using = Font_Type_Flavor
+							using = Font_Size_Big
 						}
 
-						expand = {
-							layoutpolicy_vertical = growing
-						}
+						expand = {}
 
-						hbox = {
-							margin_top = 1
-							margin_bottom = 3
-							visible = "[Not( ObjectsEqual( Culture.Self, GetPlayer.GetCulture ) )]"
+						text_single = {
 							layoutpolicy_horizontal = expanding
-							spacing = 5
-							tooltip = "CULTURE_ACCEPTANCE_TOOLTIP"
-
-							text_single = {
-								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								text = "CULTURE_VIEW_ACCEPTANCE"
-							}
-
-							text_single = {
-								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								text = "CULTURE_VIEW_ACCEPTANCE_DIFF_BRACKETS"
-							}
-
-							expand = {}
+							layoutpolicy_vertical = expanding
+							text = "[culture|E]"
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+							align = vcenter|right
 						}
+					}
+
+					text_single = {
+						layoutpolicy_horizontal = expanding
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+						text = "[Culture.GetPlayerRelationString]"
+						align = nobaseline
+					}
+
+					expand = {
+						layoutpolicy_vertical = growing
+					}
+
+					hbox = {
+						visible = "[Not( ObjectsEqual( Culture.Self, GetPlayer.GetCulture ) )]"
+						layoutpolicy_horizontal = expanding
+						spacing = 5
+						margin_top = 1
+						margin_bottom = 3
+
+						tooltip = "CULTURE_ACCEPTANCE_TOOLTIP"
+
+						text_single = {
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+							text = "CULTURE_VIEW_ACCEPTANCE"
+						}
+
+						text_single = {
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+							text = "CULTURE_VIEW_ACCEPTANCE_DIFF_BRACKETS"
+						}
+
+						expand = {}
 					}
 				}
 			}
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
-				spacing = 4
-				margin = { 8 0 }
+				spacing = 5
+				margin = { 10 0 }
+				margin_top = 5
 
 				hbox = {
 					layoutpolicy_horizontal = growing
-					spacing = 4
+					spacing = 5
 
 					icon_doctrine = {
 						visible = "[ObjectsEqual( Culture.GetHeritage, GetPlayer.GetCulture.GetHeritage )]"
@@ -4403,12 +4498,12 @@ types CultureTooltips
 
 				hbox = {
 					layoutpolicy_horizontal = growing
-					spacing = 4
+					spacing = 5
 
 					icon_doctrine = {
 						visible = "[ObjectsEqual( Culture.GetLanguage, GetPlayer.GetCulture.GetLanguage )]"
 						size = { 30 30 }
-						texture = "gfx/interface/icons/culture_pillars/language.dds"
+						texture = "gfx/interface/icons/flat_icons/map_modes/court_languages.dds"
 						color = "[TooltipInfo.GetTintColor]"
 					}
 
@@ -4442,7 +4537,7 @@ types CultureTooltips
 				}
 
 				spacer = {
-					size = { 0 4 }
+					size = { 0 5 }
 				}
 
 				divider_light = {
@@ -4466,8 +4561,8 @@ types CultureTooltips
 
 					vbox = {
 						layoutpolicy_horizontal = growing
-						spacing = 8
-						margin_left = 8
+						spacing = 10
+						margin_left = 10
 
 						text_single = {
 							layoutpolicy_horizontal = growing
@@ -4577,17 +4672,18 @@ types CultureTooltips
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 			set_parent_size_to_minimum = yes
-			margin = { 15 5 }
-			margin_bottom = 12
+			margin = { 15 10 }
 
 			vbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				margin = { 6 4 }
-				margin_bottom = 12
+				margin = { 5 0 }
+				margin_bottom = 10
 
 				background = {
 					using = Background_Header_Tall
+					margin = { 10 5 }
+					margin_bottom = 10
 				}
 
 				hbox = {
@@ -4601,11 +4697,10 @@ types CultureTooltips
 							layoutpolicy_horizontal = expanding
 
 							text_single = {
-								layoutpolicy_horizontal = expanding
 								name = "header"
+								layoutpolicy_horizontal = expanding
 								text = "CULTURE_COOLTIP_GETNAME"
 								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								align = top
 								using = Font_Type_Flavor
 								using = Font_Size_Big
 							}
@@ -4617,7 +4712,7 @@ types CultureTooltips
 								layoutpolicy_vertical = expanding
 								text = "[culture|E]"
 								fonttintcolor = "[TooltipInfo.GetTintColor]"
-								align = vcenter|right
+								align = right
 							}
 						}
 					}
@@ -4625,12 +4720,12 @@ types CultureTooltips
 			}
 
 			vbox = {
-				spacing = 0
-				margin = { 8 0 }
 				layoutpolicy_horizontal = expanding
 
+				margin = { 5 0 }
+
 				spacer = {
-					size = { 0 4 }
+					size = { 0 5 }
 				}
 
 				text_single = {
@@ -4638,6 +4733,8 @@ types CultureTooltips
 					text = "CULTURE_RD_TOOLTIP_ETHOS"
 					align = left
 					fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+					margin = { 0 5 }
 				}
 
 				spacer = {
@@ -4759,7 +4856,7 @@ types CultureTooltips
 
 									icon_culture_pillar = {
 										visible = "[ObjectsEqual( Culture.GetLanguage, GetPlayer.GetCulture.GetLanguage )]"
-										texture = "gfx/interface/icons/culture_pillars/language.dds"
+										texture = "gfx/interface/icons/flat_icons/map_modes/court_languages.dds"
 									}
 
 									icon_culture_pillar = {
@@ -5743,7 +5840,7 @@ types CourtPositionTooltips {
 		}
 
 		blockoverride "concept_link" {
-			text = [court_position|E]
+			text = "[SelectLocalization(IsLandlessAdventurer( GetPlayer ) , 'OFFICER', 'COURT_POISTION' )]"
 		}
 
 		blockoverride "header_additions"
@@ -6090,7 +6187,7 @@ types CourtPositionTooltips {
 
 		blockoverride "title_text" {
 			margin = { -6 8 }
-			text = "[CourtPosition.GetNameNoTooltip]"
+			text = "COURT_POSITION_NAME"
 		}
 
 		blockoverride "concept_link" {
@@ -8700,4 +8797,169 @@ container = {
 	name = "TitleTroopsTooltip"
 	visible = "[IsMapMode( 'title_troops' )]"
 	using = title_troops_tooltip
+}
+
+template subject_contract_group_tooltip {
+	container = {
+		alwaystransparent = no
+
+		object_tooltip_pop_out = {
+			blockoverride "title_text" {
+				margin = { 0 8 }
+				text = "[SubjectContractGroup.GetNameNoTooltip]"
+				default_format = "#T"
+			}
+
+			blockoverride "description_text" {
+				text = "[SubjectContractGroup.GetDescription]"
+			}
+
+			blockoverride "concept_link" {
+				text = "[vassal_contract|E]"
+			}
+		}
+	}
+}
+
+container = {
+	alwaystransparent = no
+	name = "SubjectContractGroupTooltip"
+	using = subject_contract_group_tooltip
+}
+
+template widget_obedience_tooltip {
+	container = {
+		alwaystransparent = no
+
+		object_tooltip_pop_out = {
+
+			blockoverride "concept_link" {}
+
+			blockoverride "title_text" {
+				margin = { 0 10 }
+				text = "[obedience|U]"
+				default_format = "#T"
+			}
+
+			blockoverride "header_additions" {
+				icon = {
+					size = { 42 42 }
+					texture = "gfx/interface/icons/icon_obedience.dds"
+				}
+				spacer = {
+					size = { 12 12 }
+				}
+			}
+
+			blockoverride "main_description" {
+				textbox = {
+					name = "main_description"
+					layoutpolicy_horizontal = expanding
+					max_width = 400
+					using = DefaultTooltipText
+					multiline = yes
+					text = "[Character.GetObedienceTooltipDesc]"
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
+					alwaystransparent = no
+				}
+
+				divider_light = {
+					layoutpolicy_horizontal = expanding
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					margin_top = 5
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							spacing = 3
+							alwaystransparent = no
+
+							text_single = {
+								layoutpolicy_horizontal = expanding
+								text = "obedience_value"
+							}
+
+							text_single = {
+								datacontext = "[Character.GetObedienceBreakdown]"
+								text = "[ValueBreakdown.GetFixedPointValue|0]"
+								default_format = "#L"
+
+								margin = { 5 0 }
+								margin_right = 0
+
+								tooltip_visible = "[ValueBreakdown.HasTooltip]"
+
+								tooltipwidget = {
+									widget_value_breakdown_tooltip = {
+										blockoverride "header" {
+											text_label_left = {
+												layoutpolicy_horizontal = expanding
+												raw_text = "[obedience|E]"
+												default_format = "#T"
+											}
+										}
+									}
+								}
+							}
+
+							text_single = {
+								raw_text = "/"
+							}
+
+							text_single = {
+								datacontext = "[Character.GetObedienceThresholdBreakdown]"
+								text = "[ValueBreakdown.GetFixedPointValue|0]"
+								default_format = "#L"
+
+								margin = { 5 0 }
+								margin_left = 0
+
+								tooltip_visible = "[ValueBreakdown.HasTooltip]"
+
+								tooltipwidget = {
+									widget_value_breakdown_tooltip = {
+										blockoverride "header" {
+											text_label_left = {
+												layoutpolicy_horizontal = expanding
+												raw_text = "[obedience_threshold|E]"
+												default_format = "#T"
+											}
+										}
+									}
+								}
+							}
+
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								spacing = 3
+								alwaystransparent = no
+
+								text_single = {
+									layoutpolicy_horizontal = expanding
+									raw_text = "[overlord|E]:"
+								}
+
+								text_single = {
+									text = "[Character.GetObedienceTarget.GetShortUIName|U]"
+									visible  = "[Character.GetObedienceTarget.IsValid]"
+									margin = { 5 0 }
+								}
+
+								text_single = {
+									text = "NONE"
+									visible  = "[Not( Character.GetObedienceTarget.IsValid )]"
+									margin = { 5 0 }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

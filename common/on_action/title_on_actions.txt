@@ -580,10 +580,10 @@ on_title_gain = {
 		if = {
 			limit = {
 				scope:title = {
+					tier = tier_county
 					title_province = {
 						geographical_region = geographical_region:mpo_region_permafrost
 					}
-					tier = tier_county
 				}
 			}
 			if = {
@@ -2381,9 +2381,6 @@ on_title_lost = {
 				every_owned_story = {
 					limit = { story_type = story_greatest_of_khans }
 					end_story = yes
-				}
-				global_var:first_gok.dynasty ?= {
-					remove_dynasty_modifier = gok_house_modifier
 				}
 				remove_character_modifier = the_great_khan_modifier
 			}
