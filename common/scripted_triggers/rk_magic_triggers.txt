@@ -50,3 +50,8 @@ has_runes_more_than = {
 	}
 }
 
+no_magic_ability_trigger = {
+	culture = {
+		has_cultural_parameter = no_magic
+	}
+}

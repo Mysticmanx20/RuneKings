@@ -457,11 +457,15 @@ cast_spell_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
-	
+		scope:actor = {
+			no_magic_ability_trigger = no
+		}
 	}
 
 	can_send = {
-		
+		scope:actor = {
+			no_magic_ability_trigger = no
+		}
 	}
 
 	send_option = {

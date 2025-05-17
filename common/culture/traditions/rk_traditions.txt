@@ -1,0 +1,109 @@
+﻿
+
+tradition_azdaran = {
+	category = realm
+
+	layers = {
+		0 = steward
+		1 = mediterranean
+		4 = tools.dds
+	}
+
+	can_pick = {
+		has_cultural_pillar = heritage_dwarf
+	}
+	
+	parameters = {
+		no_magic = yes
+		better_armory_buildings = yes
+		better_blacksmith_buildings = yes
+		next_level_smiths = yes
+		metalworkers_internal_yurt_unlock = yes
+		nomadic_metal_artifact_unlock = yes
+	}
+	character_modifier = {
+		maa_toughness_mult = 0.1
+		army_maintenance_mult = 0.1
+		levy_toughness = 2
+		nomadic_horde_toughness_mult = 0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_communal_bureaucratic_or_stoic_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							count >= 1
+							any_county_province = {
+								has_any_special_mine_trigger = yes
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = has_a_special_mine_desc
+				}
+			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_metal_craftsmanship }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 0
+		if = {
+			limit = {
+				NOT = {
+					any_culture_county = {
+						count >= 1
+						any_county_province = {
+							has_building_or_higher = blacksmiths_01
+						}
+					}
+				}
+			}
+			multiply = 0.25
+		}
+		else_if = {
+			limit = {
+				any_culture_county = {
+					count >= 8
+					any_county_province = {
+						has_building_or_higher = blacksmiths_01
+					}
+				}
+			}
+			multiply = 2
+		}
+	}
+}

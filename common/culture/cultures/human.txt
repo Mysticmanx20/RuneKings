@@ -712,7 +712,7 @@ dwarf = {     # Dwarven
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountain_homes
-		tradition_metal_craftsmanship
+		tradition_azdaran
 		tradition_hard_working
 	}
 	
