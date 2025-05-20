@@ -13,6 +13,7 @@
 	trait = trusting
 	trait = content
 	trait = education_stewardship_2
+	disallow_random_traits = yes
 	9139.1.1 = {
 		birth = yes
 	}
@@ -28,7 +29,9 @@
 	trait = shy
 	trait = patient
 	trait = humble
+	trait = reclusive
 	trait = education_learning_2
+	disallow_random_traits = yes
 	9106.1.1 = {
 		birth = yes
 	}
@@ -482,10 +485,10 @@
 	dynasty = 100934
 	culture = misthalin
 	religion = saradomin
+	learning = 10
 	trait = diligent
 	trait = patient
-	trait = education_learning_4
-	learning = 11
+	trait = education_stewardship_2
 	9126.1.1 = {
 		birth = yes
 	}
@@ -530,6 +533,7 @@
 	religion = saradomin
 	trait = drunkard
 	trait = humble
+	trait = education_learning_2
 	learning = 13
 	9139.1.1 = {
 		birth = yes
@@ -593,6 +597,7 @@
 	culture = misthalin
 	religion = saradomin
 	trait = compassionate
+	trait = education_diplomacy_3
 	9135.1.1 = {
 		birth = yes
 	}
@@ -649,9 +654,9 @@
 
 900137 = {
     	name = "Fiera"
-	dynasty = 8000
+		dynasty = 8000
     	female = yes
-   	religion = v
+   		religion = v
     	culture = fremennik
     	8996.1.1 = {
         	birth = yes
@@ -1882,6 +1887,17 @@ ham001 = {
     dynasty = 100924
     culture = misthalin
     religion = saradomin
+	learning = 5
+	diplomacy = 9
+	intrigue = 8
+	martial = 5
+	stewardship = 9
+	disallow_random_traits = yes
+	trait = shrewd
+	trait = compassionate
+	trait = content
+	trait = calm
+	trait = education_learning_4
     9141.1.1 = {
         birth = yes
 		employer = 900108
@@ -1990,6 +2006,7 @@ ham001 = {
 	intrigue = 13
     culture = misthalin
     religion = saradomin
+	trait = education_intrigue_2
     9138.1.1 = {
         birth = yes
 		employer = 900108
@@ -2006,6 +2023,8 @@ ham001 = {
     name = "Zaff"
     culture = misthalin
     religion = saradomin
+	trait = just
+	trait = education_martial_1
     9137.1.1 = {
         birth = yes
 		employer = 900108
@@ -2021,6 +2040,7 @@ ham001 = {
     trait = lifestyle_herbalist
     culture = misthalin
     religion = saradomin
+	trait = education_learning_1
     9139.1.1 = {
         birth = yes
 		employer = 900108
@@ -2050,6 +2070,7 @@ ham001 = {
     culture = misthalin
     religion = saradomin
 	trait = zealous
+	trait = education_learning_2
     9138.1.1 = {
         birth = yes
 		employer = 900108

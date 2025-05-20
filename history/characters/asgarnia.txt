@@ -21,8 +21,8 @@
 	culture = asgarnia
     trait = trusting
     trait = chaste
-    trait = weak
-	health = 2.5
+    trait = incapable
+	health = 5
 	9097.1.1 = {
 		birth = yes
 	}
@@ -36,6 +36,7 @@
     trait = humble
     trait = just
     trait = zealous
+    trait = education_martial_3
 	9135.1.1 = {
 		birth = yes
 	}
@@ -52,6 +53,7 @@
     trait = cynical
     trait = paranoid
     trait = wrathful
+    trait = education_intrigue_2
     father = 900301
     9143.1.1 = {
         birth = yes
@@ -67,6 +69,7 @@
     trait = brave
     trait = zealous
     trait = honest
+    trait = education_diplomacy_3
     9144.1.1 = {
         birth = yes
         employer = 900301
@@ -97,6 +100,7 @@
     religion = saradomin
     culture = asgarnia
     trait = devoted
+    trait = education_learning_4
     9143.1.1 = {
         birth = yes
     }
@@ -226,6 +230,7 @@
     trait = content
     trait = gregarious
     trait = compassionate
+    trait = education_diplomacy_1
     9143.1.1 = {
         birth = yes
     }
@@ -240,6 +245,7 @@
     culture = karamja
     religion = junglegods
     trait = content
+    trait = education_diplomacy_1
     9121.1.1 = {
         birth = yes
     }
@@ -253,6 +259,7 @@
     culture = karamja
     religion = junglegods
     trait = content
+    trait = education_stewardship_1
     9143.1.1 = {
         birth = yes
     }
@@ -269,6 +276,9 @@
     name = "Thurgo"
     religion = saradomin
     culture = imcando
+    trait = gluttonous
+    trait = diligent
+    trait = education_martial_2
     9138.1.1 = {
         birth = yes
     }
@@ -299,6 +309,9 @@
     dynasty_house = house_cashien
     religion = saradomin
     culture = asgarnia
+    trait = just
+    trait = honest
+    trait = education_diplomacy_3
     9113.1.1 = {
         birth = yes
     }
@@ -660,6 +673,7 @@
     name = "Rommik"
     religion = saradomin
     culture = asgarnia
+    trait = education_stewardship_1
     9139.1.1 = {
         birth = yes
     }
@@ -703,6 +717,8 @@
     trait = wrathful
     trait = lunatic_1
     trait = reclusive
+    trait = education_martial_1
+    disallow_random_traits = yes
     9127.1.1 = {
         birth = yes
     }
@@ -1174,6 +1190,7 @@ asgarn015 = {
     culture = asgarnia
     trait = education_learning_3
     trait = humble
+    trait = compassionate
     9143.1.1 = {
         birth = yes
         employer = 900301
@@ -1188,6 +1205,8 @@ asgarn016 = {
     dynasty = 100945
     religion = saradomin
     culture = asgarnia
+    trait = ambitious
+    trait = trusting
     trait = education_diplomacy_5
     8970.1.1 = {
         birth = yes
@@ -1220,6 +1239,7 @@ asgarn018 = {
 	trait = education_martial_1
 	trait = drunkard
 	trait = wrathful
+    trait = paranoid
 	9144.1.1 = {
 		birth = yes
 	}

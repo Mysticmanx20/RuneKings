@@ -727,6 +727,33 @@ dwarf = {     # Dwarven
 		1 = dwarven_ethnicity
 	}
 }
+	
+zamdwarf = {     # Chaos Dwarves
+	color = {0.82 0.1 0.26}
+	created = 5000.1.1
+	parents = { dwarf }
+
+	ethos = ethos_bellicose
+	heritage = heritage_dwarf
+	language = language_dwarf
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_eye_for_an_eye
+		tradition_warrior_culture
+		tradition_formation_fighting
+	}
+	
+	name_list = name_list_dwarf 
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = dwarven_ethnicity
+	}
+}	
 
 imcando = {     # Imcando Dwarf
 	color = mongol
