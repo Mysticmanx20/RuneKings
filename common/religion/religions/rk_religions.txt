@@ -2023,7 +2023,7 @@ sara_religion = {
 			holy_site = monastery
 			holy_site = entrana
 			holy_site = falador
-			holy_site = citharade
+			holy_site = everlight
 			holy_site = paterdomus
 			
 
@@ -2041,9 +2041,9 @@ sara_religion = {
 			icon = ham
 			holy_site = entrana
 			holy_site = falador
-			holy_site = citharade
+			holy_site = everlight
 			holy_site = paterdomus
-			holy_site = ham
+			holy_site = monastery
 
 			doctrine = doctrine_theocracy_temporal              #because they occupy monster caves?
 			doctrine = doctrine_clerical_function_recruitment   #recruiting H.A.M. members

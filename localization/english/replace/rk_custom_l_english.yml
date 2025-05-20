@@ -157,7 +157,7 @@
  bp1_yearly.0102.close:0 "\n\nMay the next storm sweep you from the face of Gielinor."
  doctrine_clerical_function_taxation_desc:1 "The [ROOT.Faith.AltPriestTermPlural] derives its authority from [ROOT.Faith.HighGodName] [ROOT.Faith.HighGodHerselfHimself], and that still applies here on Gielinor."
 
- #Hashish-Shimmerweed replacement
+ #Hashish-Potions replacement
  trait_hashishiyah:0 "Potion Addict"
  trait_hashishiyah_desc:0 "This character is dependent on imbibing potions to deal with the stress of everyday life."
  trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on imbibing potions to deal with the stress of everyday life."

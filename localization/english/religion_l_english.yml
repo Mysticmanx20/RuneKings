@@ -14,9 +14,9 @@ holy_site_falador_name:0 "White Knights' Castle"
 holy_site_falador_effect_name:0 "From [holy_site|E] #weak ($holy_site_falador_name$)#!"
 
 
-holy_site_citharade_name:0 "Abbey of St. Elspeth"
-holy_site_citharade_effect_name:0 "From [holy_site|E] #weak ($holy_site_citharade_name$)#!"
-holy_site_citharade_effects:0 "County Conversion Speed: #P +20%#!"
+holy_site_everlight_name:0 "Everlight"
+holy_site_everlight_effect_name:0 "From [holy_site|E] #weak ($holy_site_everlight_name$)#!"
+holy_site_everlight_effects:0 "County Conversion Resistance: #P +50%#!"
 
 
 holy_site_paterdomus_name:0 "Paterdomus"

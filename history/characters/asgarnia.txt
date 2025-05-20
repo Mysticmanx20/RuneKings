@@ -414,12 +414,14 @@
     name = "Nulodion"
     religion = guthix
     culture = dwarf
+    learning = 10
+    trait = diligent
     trait = education_learning_4
     9142.1.1 = {
         birth = yes
     }
 	9168.1.1 = {
-		employer = dwarf001
+		employer = 900306
 	}
 }
 

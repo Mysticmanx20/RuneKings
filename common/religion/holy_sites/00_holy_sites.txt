@@ -31,10 +31,12 @@ falador = {
 	}
 }
 
-citharade = {
-	county = c_citharade
+everlight = {
+	county = c_vers
+	barony = b_verscoast
 
-	flag = cordoba_conversion_bonus # +20% county conversion speed
+	# 50% County Conversion Resistance
+	flag = visoki_conversion_resistance_bonus
 }
 
 paterdomus = {
