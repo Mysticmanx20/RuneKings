@@ -248,17 +248,17 @@ on_game_start = {
 		}
 
 		#historical inspirations
-		# if = {
-		# 	limit = { exists = title:c_keldagrim.holder }
-		# 	title:c_keldagrim.holder = {
-		# 		every_courtier = {
-		# 			limit = {
-		# 				this = character:900344
-		# 			}
-		# 			create_inspiration = weapon_inspiration
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = { exists = title:c_dmine.holder }
+			title:c_dmine.holder = {
+				every_courtier = {
+					limit = {
+						this = character:900344
+					}
+					create_inspiration = rk_cannon_inspiration
+				}
+			}
+		}
 
 		
 		### GRANDEUR ###

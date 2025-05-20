@@ -1,0 +1,70 @@
+﻿
+# Dwarf Cannon
+cannon_inspiration.1011 = {
+	type = character_event
+	title = fund_inspiration.1001.t
+	desc = {
+		desc = fund_inspiration.1011.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:weapon_type = flag:artifact_weapon_type_axe
+				}
+				desc = artifact_axe_description
+			}
+			triggered_desc = {
+				trigger = {
+					scope:weapon_type = flag:artifact_weapon_type_dagger
+				}
+				desc = artifact_dagger_description
+			}
+			triggered_desc = {
+				trigger = {
+					scope:weapon_type = flag:artifact_weapon_type_hammer
+				}
+				desc = artifact_hammer_description
+			}
+			triggered_desc = {
+				trigger = {
+					scope:weapon_type = flag:artifact_weapon_type_mace
+				}
+				desc = artifact_mace_description
+			}
+			triggered_desc = {
+				trigger = {
+					scope:weapon_type = flag:artifact_weapon_type_spear
+				}
+				desc = artifact_spear_description
+			}
+			
+			desc = artifact_sword_description
+		}
+	}
+	theme = inspiration_complete
+	override_background = { reference = armory }
+	left_portrait = {
+		character = scope:inspiration_owner
+		animation = marshal
+	}
+	artifact = { # To display the artifact in the event-window
+		target = scope:newly_created_artifact
+		position = lower_center_portrait
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		remove_character_flag = trigger_weapon_completion_event
+
+		create_artifact_weapon_effect = {
+			OWNER = root
+			CREATOR = scope:inspiration_owner
+			SET_WEAPON_TYPE = flag:artifact_weapon_type_hammer  #dwarven guards use warhammers
+		}
+		
+	}
+
+	option = {
+		name = fund_inspiration.1001.a
+		custom_tooltip = create_artifact_weapon_tooltip
+	}
+}
