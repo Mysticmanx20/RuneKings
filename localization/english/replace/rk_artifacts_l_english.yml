@@ -1,5 +1,9 @@
 ﻿l_english:
 
+  rk_cannon_inspiration:0 "Weapon Inspiration"
+  rk_cannon_inspiration_desc:1 "A character who has a Weapon Inspiration is [inspired|E] to forge a weapon [artifact|E]. This can include anything from swords to spears and it will be carried in hand."
+  rk_cannon_inspiration_description:0 "[ROOT.Char.Custom('InspirationMakePresentFuture')] a great weapon"
+
   ghostspeak_name:0 "Ghostspeak Amulet"
   ghostspeak_desc:0 "This magical amulet allows the wearer to fully understand any spoken words from a ghost."
   silverlight_name:0 "Silverlight"
@@ -33,3 +37,5 @@
   tbow_desc:0 "A mystical bow carved from the twisted remains of the Great Olm."
   tbuckler_name:0 "Twisted Buckler"
   tbuckler_desc:0 "A buckler carved from the twisted remains of the Great Olm."
+  dwarf_cannon_name:0 "Dwarf Multicannon"
+  dwarf_cannon_desc:0 "A powerful ranging device that fires metal balls."

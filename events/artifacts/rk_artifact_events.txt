@@ -60,6 +60,11 @@ cannon_inspiration.1011 = {
 			CREATOR = scope:inspiration_owner
 			SET_WEAPON_TYPE = flag:artifact_weapon_type_hammer  #dwarven guards use warhammers
 		}
+
+		scope:newly_created_artifact = {
+			set_artifact_description = dwarf_cannon_desc
+			set_artifact_name = dwarf_cannon_name
+		}
 		
 	}
 
