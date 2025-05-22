@@ -1,7 +1,7 @@
 ﻿
 rk_cannon_inspiration = {
 	gold = {
-		value = 350
+		value = 325
 
 		# If we have a cultural tradition which makes funding certain types of Inspiration more expensive, add to the cost here.
 		if = {

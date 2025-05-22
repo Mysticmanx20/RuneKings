@@ -10824,12 +10824,12 @@ health.6004 = {
 		reference = corridor_day
 	}
 
-	immediate = {
-		committed_suicide_effect = yes
-	}
-
 	option = {
 		name = health.6004.a
+	}
+
+	after = {
+		committed_suicide_effect = yes
 	}
 }
 
@@ -10917,12 +10917,12 @@ health.6007 = {
 		animation = sick
 	}
 
-	immediate = {
-		committed_suicide_effect = yes
-	}
-
 	option = {
 		name = health.6004.a
+	}
+
+	after = {
+		committed_suicide_effect = yes
 	}
 }
 
@@ -10994,12 +10994,12 @@ health.6010 = {
 		animation = sick
 	}
 
-	immediate = {
-		committed_suicide_effect = yes
-	}
-
 	option = {
 		name = health.6004.a
+	}
+
+	after = {
+		committed_suicide_effect = yes
 	}
 }
 
