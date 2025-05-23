@@ -35,7 +35,8 @@
     religion = zamorak
     trait = humble
     trait = just
-    trait = zealous
+    trait = brave
+    trait = unyielding_defender
     trait = education_martial_3
 	9135.1.1 = {
 		birth = yes

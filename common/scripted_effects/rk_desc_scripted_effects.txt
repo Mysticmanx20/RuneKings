@@ -158,3 +158,9 @@ destroy_papacy_scripted_effect = {
 		}
 	}
 }
+
+integrate_kinshra_decision_scripted_effect = {
+	title:c_tavdun = { set_de_jure_liege_title = title:d_taverley }
+	title:c_blkfort = { set_de_jure_liege_title = title:d_icemount }
+	dynasty = { add_dynasty_prestige = 100 }
+}

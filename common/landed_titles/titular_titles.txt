@@ -139,6 +139,15 @@ d_kinshra = {
 	can_be_named_after_dynasty = no
 	destroy_if_invalid_heir = yes
 
+	c_tavdun = {
+		color = { 90 13 10}
+
+		b_tavdun = {
+			color = {90 13 10 }
+			province = 163
+		}
+	}
+
 	c_blkfort = {
 		color = { 43 36 0 }
 

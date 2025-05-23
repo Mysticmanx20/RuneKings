@@ -755,7 +755,7 @@ custom_duchies = {
 		historicity titles
 	}
 
-	default = on_custom_duchies
+	default = off_custom_duchies
 
 	on_custom_duchies = {}
 
@@ -770,7 +770,7 @@ custom_kingdoms = {
 		historicity titles
 	}
 	
-	default = on_custom_kingdoms
+	default = off_custom_kingdoms
 
 	on_custom_kingdoms = {
 	

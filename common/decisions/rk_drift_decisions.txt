@@ -1,0 +1,72 @@
+﻿
+# Tearmarsh - Morrowind
+integrate_kinshra_asgarnia_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds" }
+
+	desc = integrate_tearmarsh_morrowind_decision_desc
+	selection_tooltip = integrate_tearmarsh_morrowind_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+
+		has_title = title:k_asgarnia
+		has_faith = faith:saradomin
+
+		#Not repeatable.
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_integrate_kinshra
+			}
+		}
+		
+		# Your capital must be in Asgarnia
+		capital_county.title_province = { geographical_region = world_asgarnia }
+		
+		# At least be a duke
+		primary_title = { tier >= tier_kingdom }
+	}
+	
+	is_valid = {
+		is_independent_ruler = yes
+		
+		has_title = title:k_asgarnia
+		completely_controls = title:d_kinshra
+		
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		prestige = 500
+	}
+
+	effect = {
+		show_as_tooltip = { integrate_kinshra_decision_scripted_effect = yes }
+		#trigger_event = south_tamriel.0013
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_integrate_kinshra
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
