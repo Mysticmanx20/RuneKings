@@ -33,7 +33,7 @@ falador = {
 
 everlight = {
 	county = c_vers
-	barony = b_verscoast
+	barony = b_icegrave
 
 	# 50% County Conversion Resistance
 	flag = visoki_conversion_resistance_bonus

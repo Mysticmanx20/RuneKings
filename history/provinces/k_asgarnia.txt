@@ -53,12 +53,14 @@
 	religion = zamorak
 	culture = asgarnia
 	holding = castle_holding
+	special_building = kinshra_fort_01
 }
 
 34 = {  #Monastery
 	religion = saradomin
 	culture = asgarnia
 	holding = church_holding
+	special_building = holy_site_cathedral_01
 }
 
 35 = { #Camdozaal 

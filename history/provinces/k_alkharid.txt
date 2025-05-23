@@ -14,7 +14,7 @@
 	culture = misthalin
 	religion = saradomin
 	holding = church_holding
-	special_building = holy_site_cathedral_01
+	special_building = cith_abbey
 }
 
 24 = {		#Shantay

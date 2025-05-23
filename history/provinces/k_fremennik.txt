@@ -46,7 +46,7 @@
 	culture = fremennik
 	holding = tribal_holding
 	9000.1.1 = { 
-		special_building = tower_of_hercules_01
+		special_building = lighthouse
 	}
 }
 
