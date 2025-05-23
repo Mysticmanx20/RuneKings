@@ -2,3 +2,7 @@
 
   rk_bloodpact.2001.a:0 "Due to the meddling of nefarious Zamorakians, an undead army has been released upon Lumbridge!"
   rk_bloodpact.2001.b:0 "Oh no!"
+
+  asgarn_event.0015.t:0 "Restoration of Asgarnia"
+  asgarn_event.0015.desc:0 "After removing the threat of the Kinshra for good, their territory has been brought back under our control.\n Now our administration must work tirelessly to reintegrate these lands, undoing the damage caused to the hearts and minds of its people."
+  asgarn_event.0015.a:0 "We will restore order!"

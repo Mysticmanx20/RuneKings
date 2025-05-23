@@ -122,3 +122,22 @@ rk_desc.2001 = {
 	}
 
 }
+
+rk_desc.0015 = {
+	type = character_event
+	#content_source = dlc_ek
+	title = asgarn_event.0015.t
+	desc = asgarn_event.0015.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = { integrate_kinshra_decision_scripted_effect = yes }
+
+	option = {
+		name = asgarn_event.0015.a
+	}
+}

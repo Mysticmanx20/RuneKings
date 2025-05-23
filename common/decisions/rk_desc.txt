@@ -234,7 +234,7 @@ iorwerth_prif_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
 	}
-	major = yes
+	decision_group_type = major
 	ai_check_interval = 12
 	desc = iorwerth_prif_decision_desc
 

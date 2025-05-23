@@ -1,10 +1,10 @@
 ﻿
-# Tearmarsh - Morrowind
+# Kinshra provs become de jure
 integrate_kinshra_asgarnia_decision = {
-	picture = { reference = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds" }
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
 
-	desc = integrate_tearmarsh_morrowind_decision_desc
-	selection_tooltip = integrate_tearmarsh_morrowind_decision_tooltip
+	desc = integrate_kinshra_asgarnia_decision_desc
+	selection_tooltip = integrate_kinshra_asgarnia_decision_tooltip
 	decision_group_type = major
 
 	ai_check_interval = 120
@@ -53,7 +53,7 @@ integrate_kinshra_asgarnia_decision = {
 
 	effect = {
 		show_as_tooltip = { integrate_kinshra_decision_scripted_effect = yes }
-		#trigger_event = south_tamriel.0013
+		trigger_event = rk_desc.0015
 		hidden_effect = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions

@@ -42,6 +42,11 @@
   elemental_workshop_decision_tooltip:0 "Unlock the secrets of the Elemental Workshop"
   elemental_workshop_decision_confirm:0 "Construct the Elemental Workship"
 
+  integrate_kinshra_asgarnia_decision:0 "Reintegrate Kinshra lands"
+  integrate_kinshra_asgarnia_decision_desc:0 "The rebellious Black Knights of Zamorak have proven to be a constant threat to all of Asgarnia. If we can defeat them in battle and remove them from their strongholds, we can rightfully restore the lands back into our kingdom."
+  integrate_kinshra_asgarnia_decision_confirm:0 "For Saradomin!"
+  integrate_kinshra_asgarnia_decision_tooltip:0 "Remove the Black Knights from Asgarnia for good"
+
   select_personal_deity_germanic_decision.select_tumeken:0 "Tumeken, God of the Sun"
   select_personal_deity_germanic_decision.select_elid:0 "Elidinis, Goddess of Fertility"
   select_personal_deity_germanic_decision.select_itchlarin:0 "Itchlarin, the Underworld guardian"
