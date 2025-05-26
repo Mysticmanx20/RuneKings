@@ -1289,10 +1289,10 @@
     trait = wrathful
     trait = deceitful 
     trait = zealous
-    disallow_random_traits = yes
+    trait = holy_warrior
     culture = misthalin
     religion = hamcult
-    #set as council member of Lumbridge
+	trait = education_diplomacy_1
 	9140.1.1 = {
 		birth = yes
 	}
@@ -1310,6 +1310,7 @@
     disallow_random_traits = yes
     culture = misthalin
     religion = saradomin
+	trait = education_diplomacy_2
     #council? court position?
 	9147.1.1 = {
 		birth = yes
@@ -1322,6 +1323,7 @@
 900180 = {
     name = "Bob"
     trait = diligent
+	trait = education_stewardship_1
     culture = misthalin
     religion = saradomin
 	9137.1.1 = {
@@ -1362,6 +1364,10 @@
     female = yes
     culture = misthalin
     religion = saradomin
+	trait = temperate
+	trait = patient
+	trait = honest
+	trait = open_terrain_expert
 	9143.1.1 = {
 		birth = yes
 	}
@@ -1374,6 +1380,10 @@
     name = "Gee"
     culture = misthalin
     religion = saradomin
+	trait = temperate
+	trait = patient
+	trait = honest
+	trait = open_terrain_expert
 	9143.1.1 = {
 		birth = yes
 	}
@@ -1545,6 +1555,10 @@
     dynasty = 100929
     culture = misthalin
     religion = saradomin
+	trait = cynical
+	trait = arbitrary
+	trait = ambitious
+	trait = education_intrigue_3
     9121.1.1 = {
         birth = yes
     }
@@ -1706,6 +1720,7 @@
     female = yes
     culture = misthalin
     religion = saradomin
+	trait = humble
     9144.1.1 = {
         birth = yes
     }
@@ -1782,6 +1797,7 @@
     name = "Fred"
     culture = misthalin
     religion = saradomin
+	trait = patient
     9141.1.1 = {
         birth = yes
     }
@@ -1792,6 +1808,7 @@
     dynasty = 100928
     culture = misthalin
     religion = saradomin
+	trait = patient
     9128.1.1 = {
         birth = yes
     }
