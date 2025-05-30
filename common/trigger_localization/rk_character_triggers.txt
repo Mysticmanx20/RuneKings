@@ -7,3 +7,12 @@ is_isolated_in_fossil_tooltip = {
 	first = is_isolated_in_fossil_tooltip_first
 	first_not = is_isolated_in_fossil_tooltip_first_not
 }
+
+is_vampyre = {
+	third = CHARACTER_IS_A_VAMPYRE
+	global = IS_A_VAMPYRE
+}
+
+is_not_a_vampyre = {
+	global = IS_NOT_A_VAMPYRE
+}

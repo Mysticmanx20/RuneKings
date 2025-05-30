@@ -51,9 +51,13 @@ cannon_inspiration.1011 = {
 		position = lower_center_portrait
 	}
 
+	trigger = {
+		has_character_flag = trigger_special_completion_event
+	}
+
 	immediate = {
 		play_music_cue = "mx_cue_epic_sacral_moment"
-		remove_character_flag = trigger_weapon_completion_event
+		remove_character_flag = trigger_special_completion_event
 
 		create_artifact_weapon_effect = {
 			OWNER = root

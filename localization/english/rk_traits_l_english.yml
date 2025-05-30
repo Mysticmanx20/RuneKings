@@ -23,6 +23,8 @@
 
  trait_vampire_character:0 "Vampyre"
  trait_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a vampyre, a fearsome humanoid that consumes the blood of the living to survive. True-born vampyres are effectively immortal, they are immune to disease and will not die of natural causes such as old age."
+ trait_vampyrized:0 "Vampyrized"
+ trait_vampyrized_desc:0 ""[ROOT.GetCharacter.GetFirstNameNoTooltip] has been turned into a vampyre, a fearsome creature that consumes the blood of the living to survive. Vampyrized creatures are effectively immortal, they are immune to disease and will not die of natural causes such as old age.""
 
  trait_elf_lifespan:0 "Elf"
  trait_elf_lifespan_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an elf, a long-lived race of tall, graceful humanoids with noticably elongated ears. Elves typically live into their mid 500s. Women with this trait will become infertile at around age 345."

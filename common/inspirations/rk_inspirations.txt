@@ -96,7 +96,7 @@ rk_cannon_inspiration = {
 		}
 		scope:inspiration_sponsor = { #To give the right flavor for the completion event
 			add_character_flag = {
-				flag = trigger_weapon_completion_event
+				flag = trigger_special_completion_event
 				days = 1 
 			}
 			trigger_event = {

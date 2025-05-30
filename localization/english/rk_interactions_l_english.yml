@@ -19,3 +19,8 @@
   cast_spell_weaken:0 "@weaken_icon! Weaken"
   cast_confuse:0 "@confuse_icon! Confuse"
   cast_curse:0 "@curse_icon! Curse"
+
+
+ CHARACTER_IS_A_VAMPYRE:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ IS_A_VAMPYRE:0 "Is a [GetTrait('vampire_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_VAMPYRE:0 "Is #bold not#! a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"

@@ -50,3 +50,13 @@ building_breweries_requirement = {
 building_element_requirement = {
 	culture = { has_cultural_tradition = tradition_sorcerous_metallurgy }
 }
+
+
+
+is_vampyre = {
+	custom_description = {
+		text = is_vampyre
+		subject = this
+		has_trait = vampire_character
+	}
+}
