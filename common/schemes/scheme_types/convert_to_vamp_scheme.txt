@@ -33,7 +33,13 @@
 			is_travelling = no
 		}
 		scope:target = {
-			is_adult = yes
+			OR = {
+				is_vassal_of = scope:owner
+				is_vassal_or_below_of = scope:owner
+				is_courtier_of = scope:owner
+				is_pool_guest_of = scope:owner
+				is_imprisoned_by = scope:owner
+			}
 			NOT = { has_trait = vampire_character } 
 			NOT = { has_trait = vampyrized }
 			is_imprisoned = no

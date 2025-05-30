@@ -34,7 +34,7 @@
 		scope:actor = {
 			send_interface_toast = {
 				type = event_toast_effect_good
-				title = convert_to_witchcraft_interaction_notification
+				title = convert_to_vamp_interaction_notification
 
 				left_icon = scope:actor					
 				right_icon = scope:recipient
