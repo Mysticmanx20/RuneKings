@@ -132,12 +132,26 @@ c_cromb = {
 c_mortton = {
 	9054.1.1 = {
 		holder = 900503
-		change_development_level = 1
+		change_development_level = 2
+	}
+}
+
+c_crossroads = {
+	9168.1.1 = {
+		holder = mort014
+		change_development_level = 2
 	}
 }
 
 c_mortmyre = {
 	9156.1.1 = {
+		holder = mort045
+		change_development_level = 1
+	}
+}
+
+c_hollows = {
+	9165.1.1 = {
 		holder = 900516
 		change_development_level = 2
 	}
@@ -163,7 +177,7 @@ c_barrows = {
 	9165.1.1 = {
 		liege = 0
 		holder = mort021
-		change_development_level = 2
+		change_development_level = 1
 	}
 }
 
@@ -173,7 +187,7 @@ c_burgderot ={
 	}
 	9054.1.1 = {
 		holder = 900504
-		change_development_level = 3
+		change_development_level = 2
 	}
 }
 
@@ -198,7 +212,7 @@ c_canifis = {
 c_slayer = {
 	9168.1.1 = {
 		holder = 900500
-		change_development_level = 4
+		change_development_level = 3
 	}
 }
 
@@ -212,7 +226,7 @@ c_mditch = {
 	9160.1.1 = {
 		holder = 900512
 		government = clan_government
-		change_development_level = 5
+		change_development_level = 4
 	}
 }
 
@@ -235,7 +249,7 @@ c_deadfields = {
 	9165.1.1 = {
 		liege = k_morytania
 		holder = mort020
-		change_development_level = 2
+		change_development_level = 1
 	}
 }
 
@@ -265,12 +279,14 @@ c_fenk = {
 c_deadfarm = {
 	9139.1.1 = {
 		holder = 900513
+		change_development_level = 2
 	}
 }
 
 c_hwoods = {
 	9139.1.1 = {
 		holder = 900500
+		change_development_level = 1
 	}
 }
 

@@ -307,6 +307,7 @@
 	trait = zealous
 	trait = patient
 	trait = peasant_leader
+	trait = organizer
 	trait = education_intrigue_2
 	disallow_random_traits = yes
 	9140.1.1 = {
@@ -670,7 +671,7 @@ mort013 = {
 		birth = yes
 	}
 	9168.1.1 = {
-		employer = 900116
+		employer = mort014
 		give_council_position = councillor_court_chaplain
 	}
 }
@@ -680,12 +681,11 @@ mort014 = {
 	culture = morytania
 	religion = saradomin
 	trait = craven
+	trait = honest
+	trait = cautious_leader
 	trait = education_martial_1
 	9135.1.1 = {
 		birth = yes
-	}
-	9168.1.1 = {
-		employer = 900116
 	}
 }
 
@@ -1175,14 +1175,27 @@ mort044 = {
 	dynasty = 101011
 	culture = vampyre
 	religion = zamorak
-	trait = vampire_character
+	trait = vampyrized
 	trait = education_martial_3
 	trait = wrathful
 	trait = callous
 	3200.1.1 = {
 		birth = yes
-		set_immortal_age = 30
+		set_immortal_age = 36
 		employer = 900500
 	}
 }
 
+mort045 = {
+	name = "Ghast"
+	culture = ghost
+	religion = zamorak
+	trait = undead_character
+	trait = greedy
+	trait = wrathful
+	trait = education_intrigue_1
+	9144.1.1 = {
+		birth = yes
+	}
+
+}
