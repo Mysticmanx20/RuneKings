@@ -344,4 +344,57 @@
 	holding = none
 }
 
+657= {
+	culture = werewolf
+	religion = zamorak
+	holding = none
+}
+
+658= {
+	culture = werewolf
+	religion = zamorak
+	holding = none
+}
+
+659= {
+	culture = ghost
+	religion = zamorak
+	holding = none
+}
+
+660 = {
+	culture = ghost
+	religion = guthix
+	holding = none
+}
+
+661 = {
+	culture = ghost
+	religion = guthix
+	holding = none
+}
+
+662= {
+	culture = ghost
+	religion = zamorak
+	holding = none
+}
+
+663= {
+	culture = ghost
+	religion = zamorak
+	holding = tribal_holding
+}
+
+664 = {
+	culture = morytania
+	religion = saradomin
+	holding = none
+}
+
+665= {
+	culture = morytania
+	religion = saradomin
+	holding = none
+}
 

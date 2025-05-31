@@ -4385,20 +4385,40 @@ e_morytania = {
 					province = 75
 				}
 
+				b_werewolf = {
+					color = {117 74 0 }
+					province = 84
+				}
+			}
+
+			c_crone = {
+				color = { 68 53 12}
+
 				b_crone = {
 					color = {68 53 12}
 					province = 82
 				}
+
+			}
+
+			c_crossroads = {
+				color = { 92 108 12}
 
 				b_crossroads = {
 					color = {92 108 12}
 					province = 83
 				}
 
-				b_werewolf = {
-					color = {117 74 0 }
-					province = 84
+				b_paterexit = { 
+					color = { 111 131 16}
+					province = 658
 				}
+
+				b_slayerappr = {
+					color = { 111 73 16}
+					province = 657
+				}
+
 			}
 
 			c_slayer = {
@@ -4585,15 +4605,49 @@ e_morytania = {
 					name_list_icyene = cn_humble
 				}
 
+				
+				b_mortmyre = {
+					color = {58 87 49}
+					province = 74
+				}
+
+				b_ghastmyre = {
+					color = { 71 74 60}
+					province = 659
+				}
+			}
+
+			c_hollows = {
+				color = { 255 197 12}
+
 				b_myreque = {
 					color = {255 197 12 }
 					province = 89
 				}
 
-				
-				b_mortmyre = {
-					color = {58 87 49}
-					province = 74
+				b_fishhollow = {
+					color = { 176 244 139}
+					province = 665
+				}
+
+				b_hollowcross = {
+					color = { 176 129 136}
+					province = 664
+				}
+
+			}
+
+			c_deepmyre = {
+				color = { 102 87 49}
+
+				b_upperhollow = {
+					color = { 102 87 49 }
+					province = 663
+				}
+
+				b_lowhollow = {
+					color= { 102 98 49}
+					province = 662
 				}
 			}
 
@@ -4618,6 +4672,16 @@ e_morytania = {
 				b_nature = {
 					color = {0 255 2 }
 					province = 90
+				}
+
+				b_natghast = {
+					color = { 255 233 147}
+					province = 661
+				}
+
+				b_lowghast = {
+					color = { 147 194 233}
+					province = 660
 				}
 
 			}

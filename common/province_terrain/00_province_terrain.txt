@@ -657,4 +657,13 @@ default_coastal_sea=coastal_sea
 654=desert
 655=desert
 656=desert
+657=plains
+658=plains
+659=wetlands
+660=wetlands
+661=wetlands
+662=wetlands
+663=wetlands
+664=wetlands
+665=wetlands
 

@@ -655,5 +655,14 @@
 654;204;182;100;jalubank;x;
 655;204;155;138;jaludesert;x;
 656;204;187;104;outermena;x;
-657;0;0;0;x;x
-658;255;255;255;x;x
+657;111;73;16;slayerappr;x;
+658;111;131;16;paterexit;x;
+659;71;74;60;ghastmyre;x;
+660;147;194;233;lowerghast;x;
+661;255;233;147;natureghast;x;
+662;102;98;49;lowhollows;x;
+663;102;87;49;upperhollows;x;
+664;176;129;139;hollowcross;x;
+665;176;244;139;fishhollow;x;
+666;0;0;0;x;x
+667;255;255;255;x;x

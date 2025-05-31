@@ -40,9 +40,14 @@
 				is_pool_guest_of = scope:owner
 				is_imprisoned_by = scope:owner
 			}
-			NOT = { has_trait = vampire_character } 
-			NOT = { has_trait = vampyrized }
-			is_imprisoned = no
+			NOT = {
+				OR = { 
+					culture = { has_cultural_pillar = heritage_undead }
+					has_trait = vampire_character
+					has_trait = vampyrized
+				}
+			}
+
 			trigger_if = {
 				limit = {
 					scope:owner = {
@@ -85,16 +90,6 @@
 	base_success_chance = {
 		base = 0
 		scheme_type_skill_success_chance_modifier = { SKILL = LEARNING }
-
-		#Coven leader
-		modifier = {
-			scope:owner = {
-				exists = house
-				house = { has_house_modifier = witch_coven }
-			}
-			desc = SCHEME_WITCH_COVEN
-			add = 20
-		}
 
 		#Their zeal
 		ai_value_modifier = {
