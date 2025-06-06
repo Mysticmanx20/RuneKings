@@ -177,6 +177,7 @@ undead_character = {
 	stress_loss_mult = -0.35
 	stress_gain_mult = -0.35
 	can_have_children = no
+	no_prowess_loss_from_age = yes
 }
 
 thief = {

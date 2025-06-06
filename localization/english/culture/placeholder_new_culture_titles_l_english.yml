@@ -77,10 +77,6 @@
   king_goblin:0 "General"
   emperor_goblin:0 "Chosen Commander"
 
-  
-  duke_landless_adventurer_camp_mercenaries_female: "Captain"
-  duke_landless_adventurer_camp_explorers_female: "Leader"
-  duke_landless_adventurer_camp_brigands_female: "Boss"
 
 
   duke_administrative_kourend_female: "Lady"
