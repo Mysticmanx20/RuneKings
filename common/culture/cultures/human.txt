@@ -711,7 +711,7 @@ dwarf = {     # Dwarven
 	language = language_dwarf
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountain_homes
+		tradition_dwarf_homes
 		tradition_metal_craftsmanship
 		tradition_hard_working
 	}
@@ -741,6 +741,7 @@ zamdwarf = {     # Chaos Dwarves
 		tradition_eye_for_an_eye
 		tradition_warrior_culture
 		tradition_formation_fighting
+		tradition_dwarf_homes
 	}
 	
 	name_list = name_list_dwarf 
@@ -763,7 +764,7 @@ imcando = {     # Imcando Dwarf
 	language = language_dwarf
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountain_homes
+		tradition_dwarf_homes
 		tradition_metal_craftsmanship
 		tradition_sorcerous_metallurgy
 	}

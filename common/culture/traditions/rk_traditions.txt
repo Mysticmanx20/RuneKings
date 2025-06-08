@@ -1,33 +1,58 @@
 ﻿
 
-tradition_azdaran = {
+tradition_dwarf_homes = {
 	category = realm
 
 	layers = {
 		0 = steward
-		1 = mediterranean
-		4 = tools.dds
-	}
-
-	can_pick = {
-		has_cultural_pillar = heritage_dwarf
+		1 = mena
+		4 = mountain.dds
 	}
 	
-	parameters = {
-		no_magic = yes
-		better_armory_buildings = yes
-		better_blacksmith_buildings = yes
-		next_level_smiths = yes
-		metalworkers_internal_yurt_unlock = yes
-		nomadic_metal_artifact_unlock = yes
+	is_shown = {
+		has_cultural_pillar = heritage_dwarf
 	}
-	character_modifier = {
-		maa_toughness_mult = 0.1
-		army_maintenance_mult = 0.1
-		levy_toughness = 2
-		nomadic_horde_toughness_mult = 0.1
+	can_pick = {
+		custom_description = {
+			text = culture_in_mountains_desc
+			any_culture_county = {
+				any_county_province = {
+					OR = {
+						terrain = mountains
+						terrain = desert_mountains
+					}
+				}
+			}
+		}
 	}
 
+	parameters = {
+		quarries_building_bonuses = yes
+		prestige_gain_on_building_complete_in_mountains = yes
+		mountains_hunt_success_chance = yes
+	}
+	character_modifier = {
+		mountains_travel_danger = mountains_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
+		underground_travel_danger = -50
+		mountains_fertility_growth_mult = high_culture_county_fertility_value_mult
+		desert_mountains_fertility_growth_mult = high_culture_county_fertility_value_mult
+		underground_fertility_growth_mult = high_culture_county_fertility_value_mult
+	}
+	county_modifier = {
+		mountains_development_growth_factor = 0.2
+		desert_mountains_development_growth_factor = 0.35
+		underground_development_growth_factor = 0.5
+	}
+	province_modifier = {
+		mountains_construction_gold_cost = -0.1
+		desert_mountains_construction_gold_cost = -0.1
+		underground_construction_gold_cost = -0.1
+		mountains_holding_construction_gold_cost = -0.1
+		desert_mountains_holding_construction_gold_cost = -0.1
+		underground_holding_construction_gold_cost = -0.1
+	}
+	
 	cost = {
 		prestige = {
 			add = {
@@ -37,37 +62,36 @@ tradition_azdaran = {
 			}
 			if = {
 				limit = {
-					NOR = {
-						culture_pillar:ethos_communal = { is_in_list = traits }
-						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
-						culture_pillar:ethos_stoic = { is_in_list = traits }
-					}
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
-					desc = not_communal_bureaucratic_or_stoic_desc
+					desc = culture_not_bellicose
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
 						any_culture_county = {
-							count >= 1
+							percent >= 0.3
 							any_county_province = {
-								has_any_special_mine_trigger = yes
+								OR = {
+									terrain = mountains
+									terrain = desert_mountains
+								}
 							}
 						}
 					}
 				}
 				add = {
 					value = tradition_unfulfilled_criteria_penalty
-					desc = has_a_special_mine_desc
+					desc = mountain_percentage_desc
 				}
 			}
 
 			if = {
 				limit = {
-					culture_tradition_reduction_trigger = { TRADITION = tradition_metal_craftsmanship }
+					culture_tradition_reduction_trigger = { TRADITION = tradition_mountain_homes }
 				}
 				multiply = {
 					value = 0.5
@@ -80,30 +104,39 @@ tradition_azdaran = {
 	}
 	
 	ai_will_do = {
-		value = 0
+		value = 100
 		if = {
 			limit = {
 				NOT = {
-					any_culture_county = {
-						count >= 1
-						any_county_province = {
-							has_building_or_higher = blacksmiths_01
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.2
+							culture = scope:character.culture
+							any_county_province = {
+								OR = {
+									terrain = mountains
+									terrain = desert_mountains
+								}
+							}
 						}
 					}
 				}
 			}
-			multiply = 0.25
+			multiply = 0
 		}
 		else_if = {
 			limit = {
 				any_culture_county = {
-					count >= 8
+					percent >= 0.6
 					any_county_province = {
-						has_building_or_higher = blacksmiths_01
+						OR = {
+							terrain = mountains
+							terrain = desert_mountains
+						}
 					}
 				}
 			}
-			multiply = 2
+			multiply = 8
 		}
 	}
 }

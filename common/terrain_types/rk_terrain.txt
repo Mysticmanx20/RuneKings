@@ -2,11 +2,13 @@
 wasteland = {
 	color = { 16 27 40 }
 	travel_danger_color = hsv { 0.16 0.7 0.8 }
-	travel_danger_score = 75
+	travel_danger_score = 70
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 10
 	
 	province_modifier = {
-		supply_limit_mult = -0.3
-		travel_danger = 75
+		supply_limit_mult = -0.2
+		travel_danger = 70
 	}
 
 	county_capital_modifier = {
@@ -17,3 +19,34 @@ wasteland = {
 	
 	audio_parameter = 1.0
 }
+
+underground = {
+	color = { 160 82 45 }
+	travel_danger_color = hsv { 0.16 0.7 0.8 }
+	travel_danger_score = 75
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 10
+
+	province_modifier = {
+		supply_limit_mult = -0.4
+		travel_danger = 75
+	}
+
+
+	county_capital_modifier = {
+		development_growth_factor = -0.6
+	}
+
+	defender_combat_effects = {
+		name = combat_desert_mountains
+		image = defender_desert_mountains
+		advantage = 8
+	}
+
+	movement_speed = 0.25
+	combat_width = 0.6
+	
+	audio_parameter = 1.0
+
+}
+

@@ -3914,6 +3914,226 @@ character_view_bg = {
 		}
 	}
 
+	##### RK Edits
+	#Underground
+	#####
+	texture = {
+		reference = "event_scenes/underground.dds"
+
+		trigger = {
+			exists = location
+			OR = {
+				is_travelling = yes
+				is_in_army = yes
+			}
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				NOT = { location = involved_activity.activity_location }
+			}
+			location = {
+				terrain = underground
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_underground"
+
+		trigger = {
+			exists = location
+			OR = {
+				is_travelling = yes
+				is_in_army = yes
+			}
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				NOT = { location = involved_activity.activity_location }
+			}
+			location = {
+				terrain = underground
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_underground"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = underground
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = underground
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = underground
+							
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}	
+
+	# Wasteland
+	texture = {
+		reference = "event_scenes/wild.dds"
+
+		trigger = {
+			exists = location
+			OR = {
+				is_travelling = yes
+				is_in_army = yes
+			}
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				NOT = { location = involved_activity.activity_location }
+			}
+			location = {
+				terrain = wasteland
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_wasteland"
+
+		trigger = {
+			exists = location
+			OR = {
+				is_travelling = yes
+				is_in_army = yes
+			}
+			trigger_if = {
+				limit = {
+					exists = involved_activity
+				}
+				NOT = { location = involved_activity.activity_location }
+			}
+			location = {
+				terrain = wasteland
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_wasteland"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = wasteland
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = wasteland
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						OR = {
+							is_travelling = yes
+							is_in_army = yes
+						}
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location = {
+							terrain = wasteland
+							
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
 	# Wandering drunk/reveler
 	texture = {
 		reference = "character_view/tavern.dds"
@@ -6771,6 +6991,27 @@ title_holding = {
 	}
 
 	### Baronies without holdings show their terrain type
+	#RK Edit
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				terrain = underground
+			}
+		}
+		reference = "terrain_types/underground.dds"
+	}
+
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				terrain = wasteland
+			}
+		}
+		reference = "terrain_types/wasteland.dds"
+	}
+
 	texture = {
 		trigger = {
 			title_illustration_save_province_temporary = yes
@@ -7085,6 +7326,22 @@ character_private = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
+
+	###RK Edits
+	# Underground ruler
+	texture = {
+		reference = "event_scenes/underground.dds"
+
+		trigger = {
+			exists = primary_title
+			exists = location
+			location = {
+				terrain = underground
+			}
+		}
+	}
+
+	###
 
 	##########################################
 

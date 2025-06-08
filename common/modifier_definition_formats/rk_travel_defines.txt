@@ -1,0 +1,33 @@
+
+undeground_travel_danger = {
+	prefix = MOD_TRAVEL_DANGER_PREFIX
+	decimals = 0
+	color = bad
+}
+
+underground_fertility_growth_mult = {
+	prefix = MOD_COUNTY_FERTILITY_PREFIX
+	percent = yes
+	decimals = 0
+	dlc_feature = khans_of_the_steppe
+}
+
+underground_development_growth_factor = {
+	prefix = MOD_DEVELOPMENT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+underground_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+underground_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
