@@ -4976,49 +4976,49 @@ character_view_bg = {
 
 	#########################################
 
-texture = { # Karamjan
-	reference = "event_scenes/tribal_temple.dds"
+	texture = { # Karamjan
+		reference = "event_scenes/tribal_temple.dds"
 
-	trigger = {
-		should_use_temple_character_background_trigger = yes
-		religion = religion:karamja_religion
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:karamja_religion
+		}
 	}
-}
 
-environment = {
-	reference = "environment_event_fp1_tribal_temple"
+	environment = {
+		reference = "environment_event_fp1_tribal_temple"
 
-	trigger = {
-		should_use_temple_character_background_trigger = yes
-		religion = religion:karamja_religion
-		is_character_window_main_character = yes
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:karamja_religion
+			is_character_window_main_character = yes
+		}
 	}
-}
 
-environment = {
-	reference = "environment_event_fp1_tribal_temple"
+	environment = {
+		reference = "environment_event_fp1_tribal_temple"
 
-	trigger = {
-		OR = {
-			primary_spouse ?= {
-				should_use_temple_character_background_trigger = yes
-				religion = religion:karamja_religion
-			}
-			betrothed ?= {
-				should_use_temple_character_background_trigger = yes
-				religion = religion:karamja_religion
-			}
-			AND = {
-				liege.diarch ?= this
-				liege ?= {
+		trigger = {
+			OR = {
+				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
 					religion = religion:karamja_religion
 				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:karamja_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:karamja_religion
+					}
+				}
 			}
+			is_character_window_main_character = no
 		}
-		is_character_window_main_character = no
 	}
-}
 
 
 	##########################################
@@ -5238,6 +5238,22 @@ environment = {
 
 	##########################################
 	# THRONE ROOMS
+
+	###RK Edits
+	# Underground ruler
+	texture = {
+		reference = "character_view/underground.dds"
+
+		trigger = {
+			exists = primary_title
+			exists = location
+			location = {
+				terrain = underground
+			}
+		}
+	}
+
+	###
 	
 	# 'Feudal'/High-tier Norse, or non-Tribals in Scandinavia
 	texture = { # FP1 Norse
@@ -6082,6 +6098,7 @@ environment = {
 	}
 
 	##########################################
+
 
 	# Western, high rank
 	texture = {
@@ -7326,22 +7343,6 @@ character_private = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
-
-	###RK Edits
-	# Underground ruler
-	texture = {
-		reference = "event_scenes/underground.dds"
-
-		trigger = {
-			exists = primary_title
-			exists = location
-			location = {
-				terrain = underground
-			}
-		}
-	}
-
-	###
 
 	##########################################
 
