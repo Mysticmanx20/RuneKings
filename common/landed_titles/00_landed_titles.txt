@@ -829,6 +829,11 @@ e_zaros = {
 					color= { 199 189 81}
 					province = 607
 				}
+
+				b_strongsecure = {
+					color = { 237 203 81}
+					province = 668
+				}
 			}
 		}
 
@@ -1222,6 +1227,11 @@ e_zaros = {
 					province = 67
 				}
 
+				b_minegunder = {
+					color = { 255 209 119}
+					province = 666
+				}
+
 				b_partyroom = {
 					color = { 0 83 70}
 					province = 66
@@ -1512,7 +1522,7 @@ e_zaros = {
 				}
 			}
 
-			c_asgarnice = {
+			c_asgarncoast = {
 				color = { 141 255 60 }
 				definite_form = yes
 
@@ -1524,6 +1534,15 @@ e_zaros = {
 				b_asgarnice = {
 					color = { 141 255 180 }
 					province = 383
+				}
+			}
+
+			c_asgarnice = {
+				color = { 141 208 180}
+
+				b_asgarnicedun = {
+					color = { 141 208 180}
+					province = 667
 				}
 			}
 

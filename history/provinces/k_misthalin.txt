@@ -640,7 +640,11 @@
 	holding = none
 }
 
-
+668 = {
+	religion = v
+	culture = fremennik
+	holding = church_holding
+}
 
 
 

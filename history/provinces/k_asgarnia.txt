@@ -338,3 +338,15 @@
 	culture = asgarnia
 	holding = tribal_holding
 }
+
+666 = {
+	religion = saradomin
+	culture = asgarnia
+	holding = castle_holding
+}
+
+667 = {
+	religion = godless
+	culture = piratecul
+	holding = tribal_holding
+}

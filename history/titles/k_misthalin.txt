@@ -208,6 +208,12 @@ c_barbvil = {
 	}
 }
 
+b_strongsecure = {
+	9155.1.1 = {
+		holder = 900141
+	}
+}
+
 c_exam = {
 	8930.1.1 = {
 		liege = 0
