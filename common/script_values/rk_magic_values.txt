@@ -71,6 +71,7 @@ arcana_trait_adventurer = 1
 arcana_prayer_1 = 1
 arcana_prayer_2 = 2
 arcana_prayer_3 = 3
+rune_altar_rc_bonus = 0.1
 
 #artifacts
 sangstaff_arcana = 3
@@ -554,8 +555,167 @@ runes_flat = {
 	
 }
 
+runes_mult = {
+	value = 1
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = air_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = air_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = mind_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = mind_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = water_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = water_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = earth_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = earth_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = fire_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = fire_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = body_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = body_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = nature_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = nature_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = astral_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = astral_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = law_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = law_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = death_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = death_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = blood_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = blood_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = chaos_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = chaos_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = wrath_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = wrath_altar_bonus
+		}
+	}
+	if = {
+		limit = {
+			root.top_liege = {
+				any_sub_realm_county = { has_county_modifier = ourania_altar_modifier }
+			}
+		}
+		add = {
+			value = rune_altar_rc_bonus
+			desc = ourania_altar_bonus
+		}
+	}
+}
+
 runes_regen = {
 	value = runes_flat
+	multiply = runes_mult
 }
 
 runes_monthly = {

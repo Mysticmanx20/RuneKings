@@ -240,7 +240,7 @@ types Arcana
 						layoutpolicy_vertical = expanding
 						margin = { 15 0 }
 						#spacing = 5
-						datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('magicka_mult')]"
+						datacontext = "[GuiScope.SetRoot(Character.MakeScope).GetScriptValueBreakdown('runes_mult')]"
 						datamodel = "[ValueBreakdown.GetSubValues]"
 
 						item = {

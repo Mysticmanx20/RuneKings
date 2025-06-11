@@ -3,3 +3,68 @@ crystal_seed_modifier = {
 	icon = county_modifier_development_negative
 	development_growth_factor = -5  # should reasonably negate all growth
 }
+
+air_altar_modifier = {
+	icon = learning_positive
+
+}
+
+mind_altar_modifier = {
+	icon = learning_positive
+
+}
+
+water_altar_modifier = {
+	icon = learning_positive
+
+}
+
+earth_altar_modifier = {
+	icon = learning_positive
+
+}
+
+fire_altar_modifier = {
+	icon = learning_positive
+
+}
+
+body_altar_modifier = {
+	icon = learning_positive
+
+}
+
+nature_altar_modifier = {
+	icon = learning_positive
+
+}
+
+astral_altar_modifier = {
+	icon = learning_positive
+
+}
+
+death_altar_modifier = {
+	icon = learning_positive
+
+}
+
+blood_altar_modifier = {
+	icon = learning_positive
+
+}
+
+wrath_altar_modifier = {
+	icon = learning_positive
+
+}
+
+chaos_altar_modifier = {
+	icon = learning_positive
+
+}
+
+ourania_altar_modifier = {
+	icon = learning_positive
+
+}

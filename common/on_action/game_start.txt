@@ -386,6 +386,23 @@ on_game_start = {
 				}
 			}
 		}
+
+		### Runecraft altars ###
+		title:c_lumswamp = { add_county_modifier = water_altar_modifier }
+		title:c_lumberyard = { add_county_modifier = earth_altar_modifier }
+		title:c_craft = { add_county_modifier = air_altar_modifier }
+		title:c_uppermditch = { add_county_modifier = blood_altar_modifier }
+		title:c_westk = { add_county_modifier = fire_altar_modifier }
+		title:c_bodyaltar = { add_county_modifier = body_altar_modifier }
+		title:c_dwarr = { add_county_modifier = chaos_altar_modifier }
+		title:c_nataltar = { add_county_modifier = nature_altar_modifier }
+		title:c_entrana = { add_county_modifier = law_altar_modifier }
+		title:c_myths = { add_county_modifier = wrath_altar_modifier }
+		title:c_lunaraltar = { add_county_modifier = astral_altar_modifier }
+		title:c_westardy= { add_county_modifier = death_altar_modifier }
+		title:c_miztower = { add_county_modifier = mind_altar_modifier }
+		title:c_zmi = { add_county_modifier = ourania_altar_modifier }
+
 	}
 }
 
@@ -1661,6 +1678,13 @@ on_game_start_after_lobby = {
 					}
 				}
 			}
+		}
+
+		# RK Edit - runecrafting altars
+		every_county_in_region = {
+			region = custom_rune_altars
+			# Every county is in the region, not every province of every county, so we go to county to avoid iterating over every world province _then_ check which ones are in the region.
+			every_county_province = { apply_rune_altar_bonus_effect = yes }
 		}
 	}
 
