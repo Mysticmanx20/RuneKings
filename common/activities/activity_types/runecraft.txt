@@ -1,7 +1,7 @@
 ﻿activity_runecraft = {
 
 	is_shown = {
-		highest_held_title_tier >= tier_county
+		highest_held_title_tier > tier_barony
 		is_adult = yes
 	}
 
@@ -38,6 +38,14 @@
 				barony = title:b_craft
 				barony = title:b_lumber
 				barony = title:b_bodyaltar
+				barony = title:b_entrana
+				barony = title:b_nataltar
+				barony = title:b_m5
+				barony = title:b_lunaraltar
+				barony = title:b_westardy
+				barony = title:b_zmi
+				barony = title:b_mythsbot
+				barony = title:b_dwarr
 			}
 
 		}
@@ -107,6 +115,14 @@
 						this = title:b_craft
 						this = title:b_lumber
 						this = title:b_bodyaltar
+						this = title:b_entrana
+						this = title:b_nataltar
+						this = title:b_m5
+						this = title:b_lunaraltar
+						this = title:b_westardy
+						this = title:b_zmi
+						this = title:b_mythsbot
+						this = title:b_dwarr
 					}
 				}
 				#Tier 1
