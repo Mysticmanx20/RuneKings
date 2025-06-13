@@ -1199,3 +1199,16 @@ mort045 = {
 	}
 
 }
+
+mort046 = {
+	name = "Samael"
+	culture = morytania
+	religion = zamorak
+	trait = diligent
+	trait = sadistic
+	trait = wrathful
+	trait = education_magical_ability_2
+	9144.1.1 = {
+		birth = yes
+	}
+}

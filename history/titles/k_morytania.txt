@@ -193,7 +193,7 @@ c_burgderot ={
 
 c_hmine = {
 	9144.1.1 = {
-		liege = k_morytania
+		liege = 0
 		holder = 900508
 		change_development_level = 1
 	}
@@ -211,7 +211,8 @@ c_canifis = {
 
 c_slayer = {
 	9168.1.1 = {
-		holder = 900500
+		liege = k_morytania
+		holder = mort046
 		change_development_level = 3
 	}
 }
@@ -278,6 +279,7 @@ c_fenk = {
 
 c_deadfarm = {
 	9139.1.1 = {
+		liege = k_morytania
 		holder = 900513
 		change_development_level = 2
 	}
