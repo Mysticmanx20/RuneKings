@@ -846,7 +846,7 @@ werewolf = {    # Werewolf
 	traditions = {
 		tradition_hunters
 		tradition_forest_folk
-		tradition_sacred_hunts
+		tradition_great_hunt
 		tradition_staunch_traditionalists
 	}
 	

@@ -93,6 +93,15 @@
 	name = "Roavar"
 	religion = zamorak
 	culture = werewolf
+	diplomacy = 12
+	martial = 10
+	intrigue = 11
+	stewardship = 9
+	learning = 7
+	trait = education_martial_2
+	trait = gregarious
+	trait = temperate
+	trait = callous
 	9138.1.1 = {
 		birth = yes
 	}
