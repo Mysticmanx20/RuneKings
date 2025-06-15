@@ -170,6 +170,7 @@
 	dynasty = 100977
 	culture = ghost
 	religion = zamorak
+	trait = undead_character
 	trait = zealous
 	trait = stubborn
 	trait = arbitrary 
@@ -206,6 +207,7 @@
 	dynasty = 100975
 	culture = ghost
 	religion = guthix
+	trait = undead_character
 	trait = humble 
 	trait = compassionate
 	trait = patient
@@ -223,6 +225,7 @@
 	female = yes
 	culture = ghost
 	religion = saradomin
+	trait = undead_character
 	trait = stubborn
 	trait = education_diplomacy_1
 	9133.1.1 = {
@@ -280,6 +283,7 @@
 	name = "Malcolm"
 	culture = ghost
 	religion = saradomin
+	trait = undead_character
 	trait = humble
 	trait = just
 	trait = greedy
@@ -832,6 +836,7 @@ mort022 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_learning_3
 	trait = wrathful
 	trait = zealous
@@ -850,6 +855,7 @@ mort023 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_martial_3
 	trait = wrathful
 	trait = zealous
@@ -868,6 +874,7 @@ mort024 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_learning_2
 	trait = wrathful
 	trait = zealous
@@ -886,6 +893,7 @@ mort025 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_martial_2
 	trait = wrathful
 	trait = zealous
@@ -904,6 +912,7 @@ mort026 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_martial_1
 	trait = wrathful
 	trait = zealous
@@ -922,6 +931,7 @@ mort027 = {
 	dynasty = 100980
 	culture = ghost
 	religion = zaros
+	trait = undead_character
 	trait = education_martial_3
 	trait = wrathful
 	trait = zealous
@@ -1210,14 +1220,32 @@ mort045 = {
 }
 
 mort046 = {
-	name = "Samael"
-	culture = morytania
+	name = "Raulyn"
+	culture = ghost
 	religion = zamorak
+	trait = undead_character
 	trait = diligent
-	trait = sadistic
-	trait = wrathful
-	trait = education_magical_ability_2
+	trait = content
+	trait = temperate
+	trait = education_learning_2
 	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+mort047 = {
+	name = "Viggora"
+	culture = ghost
+	religion = zamorak
+	trait = education_martial_3
+	trait = deceitful
+	trait = brave
+	trait = ambitious
+	trait = undead_character
+	9140.1.1 = {
 		birth = yes
 	}
 }

@@ -211,9 +211,10 @@ c_canifis = {
 
 c_slayer = {
 	9168.1.1 = {
-		liege = k_morytania
-		holder = mort046
+		liege = 0
+		holder = mort047
 		change_development_level = 3
+		government = undead_government
 	}
 }
 
