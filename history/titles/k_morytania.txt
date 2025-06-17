@@ -218,6 +218,14 @@ c_slayer = {
 	}
 }
 
+c_crone = {
+	9165.1.1 = {
+		liege = 0
+		holder = mort048
+		change_development_level = 2
+	}
+}
+
 c_mditch = {
 	2380.1.1 = {
 		holder = mort038

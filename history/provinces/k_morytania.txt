@@ -53,13 +53,13 @@
 }
 
 82 = {  
-	culture = vampyre
+	culture = werewolf
 	religion = zamorak
-	holding = none
+	holding = castle_holding
 }
 
 83 = {  
-	culture = vampyre
+	culture = werewolf
 	religion = zamorak
 	holding = none
 }
@@ -96,8 +96,8 @@
 }
 
 89 = {  
-	culture = morytania
-	religion = saradomin
+	culture = ghost
+	religion = zamorak
 	holding = castle_holding
 }
 

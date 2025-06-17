@@ -18,6 +18,7 @@
 		set_immortal_age = 30
 		give_nickname = nick_drakan
 	}
+	
 }
 
 900501 = {
@@ -27,7 +28,7 @@
 	trait = greedy
 	trait = callous
 	trait = deceitful
-	trait = education_learning_2
+	trait = education_learning_1
 	trait = undead_character
 	disallow_random_traits = yes
 	9118.1.1 = {
@@ -316,6 +317,7 @@
 	dynasty = 100974
 	culture = morytania
 	religion = saradomin
+	trait = adventurer_follower
 	trait = ambitious
 	trait = zealous
 	trait = patient
@@ -1228,6 +1230,7 @@ mort046 = {
 	trait = content
 	trait = temperate
 	trait = education_learning_2
+	disallow_random_traits = yes
 	9144.1.1 = {
 		birth = yes
 	}
@@ -1247,5 +1250,159 @@ mort047 = {
 	trait = undead_character
 	9140.1.1 = {
 		birth = yes
+	}
+}
+
+mort048 = {
+	name = "Netty"
+	female = yes
+	culture = morytania
+	religion = saradomin
+	trait = education_learning_3
+	trait = humble
+	trait = cynical
+	trait = eccentric
+	disallow_random_traits = yes
+	9114.1.1 = {
+		birth = yes
+	}
+}
+
+mort049 = {
+	name = "Cyreg"
+	#Paddlehorn
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = lifestyle_traveler
+	trait = rough_terrain_expert
+	trait = humble
+	trait = brave
+	trait = generous
+	trait = education_stewardship_1
+	stewardship = 13
+	learning = 9
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+
+mort050 = {
+	name = "Sani"
+	#Piliu
+	female = yes
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = just
+	trait = vengeful
+	trait = calm
+	trait = education_intrigue_1
+	disallow_random_traits = yes
+	9149.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+
+mort051 = {
+	name = "Curpile"
+	#Fyod
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = just
+	trait = compassionate
+	trait = brave
+	trait = unyielding_defender
+	trait = education_martial_1
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+ 
+mort052 = {
+	name = "Polmafi"
+	#Ferdygris
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = humble
+	trait = content
+	trait = patient
+	trait = education_learning_2
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+ 
+mort053 = {
+	name = "Radigad"
+	#Ponfit
+	culture = asgarnia
+	religion = saradomin
+	trait = adventurer_follower
+	trait = just
+	trait = zealous
+	trait = brave
+	trait = education_martial_1
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+
+mort054 = {
+	name = "Harold"
+	#Evans
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = just
+	trait = patient
+	trait = brave
+	trait = education_martial_1
+	disallow_random_traits = yes
+	9144.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
+	}
+}
+
+mort055 = {
+	name = "Ivan"
+	#Strom
+	culture = morytania
+	religion = saradomin
+	trait = adventurer_follower
+	trait = brave
+	trait = impatient
+	trait = zealous
+	trait = education_learning_2
+	disallow_random_traits = yes
+	9151.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = 900516
 	}
 }
