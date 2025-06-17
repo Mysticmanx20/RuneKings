@@ -34,6 +34,7 @@
  prayer_augury:0 "Augury"
  prayer_protect_mage:0 "Protect from Magic"
  prayer_protect_mage_desc:0 "Protection from magical attacks"
+ prayer_rapid_restore:0 "Rapid Restore"
 
  #magic
  bind:0 "Bind"

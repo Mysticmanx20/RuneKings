@@ -849,7 +849,7 @@ travel_events_on_action = {
 
 		#RK ADDITIONS
 		100 = rk_travel_events.2000 #The Lost City
-		100 = rk_random_events.2000 # Kiss the frog
+		5 = rk_random_events.2000 # Frog random event
 	}
 }
 

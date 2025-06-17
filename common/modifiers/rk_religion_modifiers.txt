@@ -103,6 +103,13 @@ prayer_protect_mage = {
 	icon = protectmage_postive
 }
 
+prayer_rapid_restore = {
+	icon = rapidrestore
+	monthly_piety_gain_mult = -1
+	stress_gain_mult = -0.2
+	stress_loss_mult = 0.2
+}
+
 
 
 

@@ -140,19 +140,24 @@ activate_prayer_interaction = {
 		localization = activate_sharp_eye
 	}
 	send_option = {
-		# is_valid = {
-		# 	scope:actor = { 
-		# 		NOT = { 
-		# 			OR = {
-		# 				has_character_modifier = prayer_mystic_will
-		# 				has_character_modifier = prayer_mystic_lore
-		# 				has_character_modifier = prayer_mystic_might
-		# 			}
-		# 		} 
-		# 	}
-		# }
+		is_valid = {
+			scope:actor = { 
+				NOT = { 
+					OR = {
+						has_character_modifier = prayer_mystic_will
+						has_character_modifier = prayer_mystic_lore
+						has_character_modifier = prayer_mystic_might
+					}
+				} 
+			}
+		}
 		flag = magic_prayer
 		localization = activate_mystic_will
+	}
+
+	send_option = {
+		flag = rapid_restore
+		localization = activate_rapid_restore
 	}
 
 	send_option = {
@@ -429,6 +434,23 @@ activate_prayer_interaction = {
 							}
 						}
 					}
+				}
+
+				scope:rapid_restore = {
+					add_character_modifier = {
+						modifier = prayer_rapid_restore years = 1
+					}
+					hidden_effect = {
+						send_interface_toast = {
+							title = prayer.active
+							left_icon = scope:actor
+			
+							show_as_tooltip = {
+								add_character_modifier = { modifier = prayer_rapid_restore }
+							}
+						}
+					}
+
 				}
 
 			}

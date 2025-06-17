@@ -200,6 +200,15 @@ vampyre.2003 = { #by Mathilda Bjarnehed
 	immediate = {
 		scope:target = {
 			add_trait = vampyrized
+			if = {
+				limit = {
+					NOT = {
+						faith = scope:owner.faith
+					}
+				}
+				set_character_faith = scope:owner.faith
+			}
+			
 			
 		}
 		if = {
