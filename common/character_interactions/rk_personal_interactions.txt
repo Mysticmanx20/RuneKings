@@ -861,7 +861,7 @@ cast_spell_interaction = {
 				scope:lowalch = {
 					play_sound_effect = "event:/lowalch"
 					scope:recipient = {
-						add_gold = 50
+						add_gold = 20
 					}
 					add_runes = { VALUE = -30 }
 				}

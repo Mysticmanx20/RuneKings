@@ -146,10 +146,10 @@
 	female = yes
 	religion = saradomin
 	culture = misthalin
-	trait = education_martial_1
+	trait = education_diplomacy_1
 	trait = arrogant
-	trait = brave
-	trait = ambitious
+	trait = greedy
+	trait = gregarious
 	trait = irritable
 	disallow_random_traits = yes
 	diplomacy = 10

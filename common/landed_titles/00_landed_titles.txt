@@ -3227,6 +3227,33 @@ e_kandarin = {
 
 		}
 
+		d_ugpass = {
+			color = { 220 0 0}
+			capital = c_ugpass
+			definite_form = yes
+
+			c_ugpass = {
+				color = { 220 0 0}
+				definite_form = yes
+
+				b_soulless = {
+					color = { 220 0 0}
+					province = 670 
+				}
+
+				b_undergpass = {
+					color = { 220 136 0}
+					province = 669
+				}
+
+				b_voyage = {
+					color = { 220 187 0}
+					province = 671
+				}
+			}
+
+		}
+
 		d_tyras = {
 			color = { 172 103 49 }
 			capital = c_tyras

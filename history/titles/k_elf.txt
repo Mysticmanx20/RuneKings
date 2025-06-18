@@ -111,5 +111,17 @@ c_catapult = {
 	}
 }
 
+d_ugpass = {
+	9168.1.1 = {
+		liege = 0
+		holder = asgarn036
+	}
+}
 
+c_ugpass = {
+	9168.1.1 = {
+		holder = asgarn036 
+		change_development_level = 1
+	}
+}
 

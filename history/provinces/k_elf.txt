@@ -228,7 +228,23 @@
 	holding = church_holding
 }
 
+669 = {
+	religion = zamorak
+	culture = kandarin
+	holding = none
+}
 
+670 = {
+	religion = zamorak
+	culture = kandarin
+	holding = tribal_holding
+}
+
+671 = {
+	religion = zamorak
+	culture = kandarin
+	holding = none
+}
 
 
 

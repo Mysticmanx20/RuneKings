@@ -1501,3 +1501,18 @@ asgarn035 = {
 	    employer = asgarn011
     }
 }
+
+asgarn036 = {
+    name = "Iban"
+    religion = zamorak
+    culture = kandarin
+    trait = ambitious
+    trait = callous
+    trait = wrathful
+    trait = education_martial_3
+    trait = undead_character
+    9144.1.1 = {
+        birth = yes
+    }
+
+}

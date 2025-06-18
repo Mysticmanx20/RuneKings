@@ -669,3 +669,6 @@ default_coastal_sea=coastal_sea
 666=underground
 667=underground
 668=underground
+669=underground
+670=underground
+671=underground
