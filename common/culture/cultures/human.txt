@@ -1118,3 +1118,28 @@ lizardmen = {     # Lizardmen
 		10 = asian
 	}
 }
+
+demon = {     # Demonic creatures
+	color = { 0.59 0.0 0.09 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_demon
+	language = language_demon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_horse_lords
+		tradition_khadga_puja
+	}
+	
+	name_list = name_list_demon
+
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+	}
+}

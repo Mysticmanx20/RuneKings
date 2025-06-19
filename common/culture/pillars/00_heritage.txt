@@ -93,6 +93,11 @@ heritage_lizard = {
 	audio_parameter = mena
 }
 
+heritage_demon = {
+	type = heritage
+	audio_parameter = european
+}
+
 
 
 

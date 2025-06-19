@@ -1430,6 +1430,7 @@ kand109 = {
 
 kand110 = {
 	name = "Freja"
+	female = yes
 	culture = fremennik
 	religion = v
 	trait = brave
@@ -1441,5 +1442,69 @@ kand110 = {
 	}
 	9168.1.1 = {
 		employer = kand085
+	}
+}
+
+kand111 = {
+	name = "Kardia"
+	female = yes
+	culture = kandarin
+	religion = zamorak
+	trait = witch
+	trait = callous
+	trait = diligent
+	trait = arrogant
+	trait = education_learning_4
+	9135.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = asgarn036
+		give_council_position = councillor_court_chaplain
+	}
+}
+
+kand112 = {
+	name = "Holthion"
+	culture = demon
+	religion = zamorak
+	trait = wrathful
+	trait = education_martial_2
+	9142.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = asgarn036
+		set_knight_status = force
+	}
+}
+
+kand113 = {
+	name = "Doomion"
+	culture = demon
+	religion = zamorak
+	trait = wrathful
+	trait = education_martial_2
+	9142.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = asgarn036
+		set_knight_status = force
+	}
+}
+
+kand114 = {
+	name = "Othainian"
+	culture = demon
+	religion = zamorak
+	trait = wrathful
+	trait = education_martial_2
+	9142.1.1 = {
+		birth = yes
+	}
+	9168.1.1 = {
+		employer = asgarn036
+		set_knight_status = force
 	}
 }

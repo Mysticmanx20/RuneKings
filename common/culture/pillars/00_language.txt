@@ -343,7 +343,23 @@ language_lizard = {
 	color =  welayta
 }
 
-
+language_demon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_demon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_demon }
+			multiply = 10
+		}
+	}
+	
+	color = swabian
+}
 
 
 

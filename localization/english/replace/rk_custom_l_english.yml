@@ -41,6 +41,8 @@
  heritage_fren_collective:0 "Mahjarrat"
  heritage_lizard_name:0 "Lizard"
  heritage_lizard_collective:0 "Lizards"
+ heritage_demon_name:0 "Infernal"
+ heritage_demon_collective:0 "Demons"
 
  language_common_name:0 "Common"
  language_element_name:0 "Elemental"
@@ -61,6 +63,7 @@
  language_pest_name:0 "Pest"
  language_penguin_name:0 "Penguin"
  language_lizard_name:0 "Lizardspeak"
+ language_demon_name:0 "Infernal"
 
  holy_order_temple_knights:0 "Temple Knights"
  holy_order_white_knights:0 "White Knights"
@@ -1125,4 +1128,7 @@
  icetroll:0 "Ice Troll"
  icetroll_prefix:0 "Ice Troll"
  icetroll_collective_noun:0 "Ice Trolls"
+ demon:0 "Demonic"
+ demon_prefix:0 "Infernal"
+ demon_collective_noun:0 "Demons"
 
