@@ -436,6 +436,7 @@ lunarmine = {
 
 security = {
 	county = c_barbvil
+	barony = b_strongsecure
 
 	character_modifier = {
 		name = holy_site_security_effect_name

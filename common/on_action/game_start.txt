@@ -39,6 +39,7 @@ on_game_start = {
 		title:b_arceus.title_province = { add_special_building_slot = generic_university }
 		title:b_crandor.title_province = { add_special_building_slot = generic_university }
 		title:b_outpost.title_province = { add_special_building_slot = generic_university }
+		title:b_barbnor.title_province = { add_special_building_slot = generic_university }
 
 		
 		### Every nomad and herder in the Steppe Region becomes tribal if DLC not enabled, pre-lobby history setup ###
@@ -1284,6 +1285,20 @@ on_game_start_after_lobby = {
 				desc = cultural_acceptance_historical_relations
 			}
 		}
+
+		if = { # Special historical events for Barbarian Village
+			limit = {
+				character:900113 ?= { is_alive = yes }
+			}
+			character:900113 ?= {
+				trigger_event = { # Gunnarsgrunn quest
+					id = rk_bookmark.9169
+					days = { 1 15 }
+				}
+			}
+		}
+
+
 
 		### CE1 LEGITIMACY SETUP ###
 		every_ruler = {

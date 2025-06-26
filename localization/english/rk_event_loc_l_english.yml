@@ -25,3 +25,11 @@
   rk_random_events.2000.a: ""Very well, I'll do it.""
   rk_random_events.2000.b: ""I'd rather not.""
   rk_random_events.2000.c:0 ""Perhaps we can marry?""
+
+
+ #bookmark events
+  rk_bookmark.9169.t: "Gunnar's Ground: Proposal"
+  rk_bookmark.9169.desc: "The smoky fires cast a warm glow over [GetTitleByKey( 'c_barbvil' ).GetNameNoTier] as [dotter.GetFullName] strides forward with purpose. Before her stands [outsider.GetFullName], a dwarven poet, his quill poised above a worn parchment. The gathered barbarians pause their boasts to watch, sensing something momentous.  “Dororan,” Gudrun declares, her voice ringing like a warhorn, “your poems weave tales of love that echo beyond the mountains. I want our story to be more than words. Marry me, and let’s carve a legend across Gielinor!”  Dororan fumbles his quill, his eyes wide. “Gudrun, your spirit outshines the stars, but I’m a dwarf of ink and dreams. Can a poet stand beside a warrior’s daughter in this wild land?”  The crowd’s tension grows, wary of a union that might cause strife in the tribe. As the leader of these lands, what is your counsel?"
+  rk_bookmark.9169.a: "Permit the marriage"
+  rk_bookmark.9169.b: "Banish them both"
+  rk_bookmark.9169.c: "Forbid the union"

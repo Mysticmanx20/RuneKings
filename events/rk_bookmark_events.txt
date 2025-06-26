@@ -1,0 +1,88 @@
+namespace = rk_bookmark
+
+rk_bookmark.9169 = {
+	type = character_event
+	title = rk_bookmark.9169.t
+	desc = rk_bookmark.9169.desc
+	theme = marriage
+	override_background = { reference = ep2_wedding_ceremony }
+	left_portrait = {
+		character = root
+		animation = stress
+	}
+	right_portrait = {
+		character = scope:dotter
+		animation = ecstasy
+	}
+	lower_right_portrait = {
+		character = scope:outsider
+	}
+
+	trigger = {
+
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+		character:900120 = { save_scope_as = dotter }
+		character:900125 = { save_scope_as = outsider }
+	}
+
+	option = {
+		name = rk_bookmark.9169.a
+		
+		scope:dotter = { marry_matrilineal = scope:outsider }
+
+		ai_chance = {
+			base = 100
+		}		
+	}
+
+	option = {
+		name = rk_bookmark.9169.b
+
+		scope:dotter = { 
+			marry = scope:outsider 
+
+			banish = yes
+			add_opinion = {
+				modifier = banished_me
+				target = root
+			}
+
+		}
+
+		scope:outsider = {
+			add_opinion = {
+				modifier = banished_me
+				target = scope:actor
+			}
+		}
+
+		ai_chance = {
+			base = 100
+		}
+
+	}
+
+	option = {
+		name = rk_bookmark.9169.c
+
+		scope:outsider = {
+			add_opinion = {
+				modifier = banished_me
+				target = scope:actor
+			}
+		}
+
+		reverse_add_opinion = {
+			target = scope:dotter
+			modifier = annoyed_opinion
+			opinion = -20
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
