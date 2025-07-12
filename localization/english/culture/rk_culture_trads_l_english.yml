@@ -7,8 +7,11 @@
 
 ### Traditions
 
- tradition_dwarf_homes_name:0 "Subterranean"
- tradition_dwarf_homes_desc:1 "This culture has primarilly been living underground for millenia. Their subterranean lifestyle has granted them the ability to excavate and develop many great works beneath the surface of Gielinor."
+  tradition_dwarf_homes_name:0 "Subterranean"
+  tradition_dwarf_homes_desc:1 "This culture has primarilly been living underground for millenia. Their subterranean lifestyle has granted them the ability to excavate and develop many great works beneath the surface of Gielinor."
 
- tradition_great_hunt_name:0 "The Great Hunt"
- tradition_great_hunt_desc:1 "Hunting is neither a sport nor a pastime, it is nothing less than the purest expression of the werewolf experience, where one may connect with the divine by demonstrating their mastery over nature."
+  tradition_great_hunt_name:0 "The Great Hunt"
+  tradition_great_hunt_desc:1 "Hunting is neither a sport nor a pastime, it is nothing less than the purest expression of the werewolf experience, where one may connect with the divine by demonstrating their mastery over nature."
+
+  tradition_fp1_coastal_frem_name:0 "Coastal Warriors"
+  tradition_fp1_coastal_frem_desc:1 "We have always been drawn to the shoreline. The sting of sea air, the crying gulls, the scent of smoked fish... what warrior would ever opt to live far from the water and its freedoms?"
