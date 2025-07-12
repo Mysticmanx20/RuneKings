@@ -68,3 +68,24 @@ texticon = {
 		fontsize = 16
 	}
 }
+
+#MaA
+texticon = {
+	icon = mage_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/magic.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = vvvvvv_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

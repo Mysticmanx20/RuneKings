@@ -9,6 +9,7 @@ category = {
 		"mx_mood_call_01"
 		"mx_mood_call_02"
 		"mx_mood_call_03"
+		"mx_mood_call_04"
 		"mx_mood_call_10_dusk"
 		"mx_mood_call_17_murkiness"
 		"mx_mood_call_18_mysterious_part1"
@@ -27,5 +28,7 @@ category = {
 		"middleeasterncourt_cue"
 		"mep1_mood_01"
 		"rk_cue_vampfight"
+		"rk_cue_tombfight"
+		"rk_cue_coxfight"
 	}
 }

@@ -3,7 +3,7 @@
  magic:2 "[magic|E]"
  game_concept_magic:0 "Mages"
  game_concept_magic_desc:0 "Mages are [men_at_arms|E] who fight with various combat spells.\n\nWhile each kind of Mage is unique, they generally [counter|E] [heavy_infantry|E] and [spearmen|E], and are in turn Countered by [archers|E] and [skirmishers|E]. They also have an impact on [sieges|E] although they are typically less effective than dedicated [siege_weapons|E]."
-
+  
   
   throwtroll:0 "Thrower Trolls"
   throwtroll_flavor:0 "#F Thrower trolls attack by hurling large boulders. They are rarely encountered alone, preferring to attack together in groups."

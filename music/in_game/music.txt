@@ -47,7 +47,8 @@ mx_mood_call_03 = {
 }
 
 mx_mood_call_04 = {
-	music = "file:/music/rsmusic/Newbie Melody.ogg"
+	music = "file:/music/rsmusic/Attention.ogg"
+	name = "Attention"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
@@ -331,8 +332,8 @@ mx_cue_combat_2 = {
 }
 
 mx_cue_ck3_vocal_maintheme = {
-	music = "file:/music/rsmusic/SeaShanty.ogg"
-	name = "Sea Shanty"
+	music = "file:/music/rsmusic/Sea_Shanty_2.ogg"
+	name = "Sea Shanty 2"
 	pause_factor = 25
 	# play every time
 
@@ -1257,13 +1258,15 @@ rk_cue_1sec = {
 
 rk_cue_tombfight = {
 	music = "file:/music/rsmusic/AmascutsPromise.ogg"
-	name = "A Taste of Hope"
+	name = "Amascut's Promise"
 	pause_factor = 25
 }
 
 rk_cue_coxfight = {
 	music = "file:/music/rsmusic/GreatOlm.ogg"
-	name = "A Taste of Hope"
+	name = "Fire in the Deep"
 	pause_factor = 25
 }
+
+
 
