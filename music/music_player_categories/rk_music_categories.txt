@@ -22,7 +22,6 @@ category = {
 		"mx_cue_ck3_vocal_maintheme"
 		"mx_cue_banquet"
 		"mx_cue_war_declared"
-		"mx_cue_peace_ensues"
 		"mx_cue_secret"
 		"mx_scandinavia"
 		"middleeasterncourt_cue"
