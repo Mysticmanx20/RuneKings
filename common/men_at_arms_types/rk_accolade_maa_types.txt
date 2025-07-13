@@ -29,7 +29,7 @@ accolade_maa_mages = {
 		}
 	}
 	
-	damage = 35
+	damage = 40
 	toughness = 15
 	pursuit = 15
 	screen = 0

@@ -1,7 +1,7 @@
 
 #New MaA types
-@mages_recruitment_cost = 100
-@mages_low_maint_cost = 0.5
+@mages_recruitment_cost = 70
+@mages_low_maint_cost = 0.6
 @mages_high_maint_cost = @[mages_low_maint_cost * high_maint_mult]
 
 mages_recruitment_cost = @[mages_recruitment_cost]
