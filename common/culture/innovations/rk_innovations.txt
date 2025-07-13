@@ -47,3 +47,16 @@ innovation_azdaran = {
 	flag = global_regional
 	flag = tribal_era_regional
 }
+
+innovation_combatspells = {
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @nobility_02
+
+	custom = unlock_maa_battlemage
+
+	custom = eligible_accolade_battlemage_attribute
+
+	flag = global_regular
+	flag = tribal_era_regular
+}

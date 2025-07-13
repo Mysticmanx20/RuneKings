@@ -199,3 +199,35 @@ fremseer = {
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = mage
 }
+
+battlemage = {
+	type = magic
+	
+	damage = 30
+	toughness = 10
+	pursuit = 10
+	screen = 0
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_combatspells
+		}
+	}
+	
+	siege_tier = 1
+	siege_value = 0.1
+	
+	counters = {
+		heavy_infantry = 1
+		pikemen = 1
+	}
+	
+	buy_cost = { gold = mages_recruitment_cost }
+	low_maintenance_cost = { gold = mages_low_maint_cost}
+	high_maintenance_cost = { gold = mages_high_maint_cost }
+	provision_cost = @provisions_cost_special_cheap 
+	
+	stack = 50
+	ai_quality = { value = culture_ai_weight_mages }
+	icon = mage
+}

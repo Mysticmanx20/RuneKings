@@ -3,6 +3,8 @@
   culture_parameter_no_magic:0 "Unable to use [arcana|E]"
   innovation_azdaran:0 "Azdaran's Resolution"
   innovation_azdaran_desc:1 "Due to a curse inflicted by Zamorak during the God Wars, the dwarves chose to lose all ability to work magic. Over time they have refined their skills in mining and smithing to such a degree that their name has become a byword for durable and high quality arms and armor."
+  innovation_combatspells:0 "Combat Spells"
+  innovation_combatspells_desc:0 "By utilizing certain combinations of runes we have unlocked destructive elemental magic. Our mages dominate the battelfield with their mastery of offensive spells."
 
 
 ### Traditions

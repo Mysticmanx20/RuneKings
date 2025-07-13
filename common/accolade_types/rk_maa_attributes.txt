@@ -1,0 +1,158 @@
+##################################################
+# Mages
+battlemage_attribute = {
+	adjective = accolade_battelmage_adj
+	noun = accolade_battlemage
+	accolade_categories = { men_at_arms army_bonus militant subtle aggressive defensive ranged_fighter light_fighter }
+
+	potential = {
+		prowess >= accolade_prowess_requirement_value
+		OR = {
+			# has_trait_xp = {
+			# 	trait = lifestyle_magic
+			# 	value >= 20
+			# }
+			has_magic = { VALUE = 5 }
+			has_trait = imbued_heart
+			has_trait = saturated_heart
+
+		} 
+		culture ?= { 
+			OR = {
+				has_innovation = innovation_war_magic
+				
+			}
+		}
+	}
+
+	weight = {
+		value = accolade_uninteresting_base_value
+		scope:owner ?= {
+			# Should only be interested at all if they have a unit of the type OR if the maa type is exciting and foreign
+			if = {
+				limit = {
+					number_maa_regiments_of_base_type = {
+						type = magic
+						value >= 1
+					}
+				}
+				add = @has_relevant_maa_weight_up_value
+				# Weight up a bit further for more MaA of the same type.
+				## A few.
+				if = {
+					limit = {
+						number_maa_regiments_of_base_type = {
+							type = magic
+							value >= @number_maa_regiments_increment_1
+						}
+					}
+					add = @has_relevant_maa_weight_up_value
+				}
+				## Lots.
+				if = {
+					limit = {
+						number_maa_regiments_of_base_type = {
+							type = magic
+							value >= @number_maa_regiments_increment_2
+						}
+					}
+					add = @has_relevant_maa_weight_up_value
+				}
+				## Many.
+				if = {
+					limit = {
+						number_maa_regiments_of_base_type = {
+							type = magic
+							value >= @number_maa_regiments_increment_3
+						}
+					}
+					add = @has_relevant_maa_weight_up_value
+				}
+				## Many-lots.
+				if = {
+					limit = {
+						number_maa_regiments_of_base_type = {
+							type = magic
+							value >= @number_maa_regiments_increment_4
+						}
+					}
+					add = @has_relevant_maa_weight_up_value
+				}
+				
+				# AI values.
+				add = {
+					value = ai_energy
+					multiply = 1
+				}
+				add = {
+					value = ai_boldness
+					multiply = 1
+				}
+
+				# Finally, weight for opinion.
+				multiply = accolade_opinion_multiplier_value
+			}
+			## Era.
+			### No specific era preference.
+		}
+	}
+
+	ranks = {
+		100 = {
+			liege_modifier = { 
+				mages_max_size_add = @number_maa_regiments_increment_1
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_1
+				mages_toughness_mult = @accolade_maa_toughness_1 
+			}
+		}
+		300 = {
+			liege_modifier = { 
+				mages_max_size_add = @number_maa_regiments_increment_1
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_1 
+				mages_toughness_mult = @accolade_maa_toughness_1
+			}
+		}
+		600 = {
+			liege_modifier = { 
+				mages_max_size_add = @number_maa_regiments_increment_2
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_4
+				mages_toughness_mult = @accolade_maa_toughness_2
+			}
+			men_at_arms = { accolade_maa_mages }
+		}
+		1000 = {
+			liege_modifier = { 
+				mages_max_size_add = @number_maa_regiments_increment_2
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_4
+				mages_toughness_mult = @accolade_maa_toughness_2
+			}
+		}
+		1500 = {
+			liege_modifier = {
+				mages_max_size_add = @number_maa_regiments_increment_3
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_6
+				mages_toughness_mult = @accolade_maa_toughness_3
+			}
+			men_at_arms = { accolade_maa_mages }
+		}
+		2100 = {
+			liege_modifier = { 
+				mages_max_size_add = @number_maa_regiments_increment_3
+			}
+			knight_army_modifier = { 
+				mages_damage_mult = @accolade_maa_damage_6
+				mages_toughness_mult = @accolade_maa_toughness_3
+			}
+		}
+	}
+}

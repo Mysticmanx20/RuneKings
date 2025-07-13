@@ -11,3 +11,7 @@
   fremberserk:0 "Fremennik Berserkers"
   fremwarrior:0 "Fremennik Warriors"
   fremseer:0 "Fremennik Seers"
+  battlemage:0 "Battle Mages"
+
+  accolade_maa_mages:0 "Retinue Mages"
+  accolade_maa_mages_flavor:1 "[retinue_maa|E]\n#F Wielding charged staves and spellbooks, these deadly mages will leave no trace of the enemy.#!"

@@ -2,3 +2,18 @@
 
  dangerous_mage:0 "Dangerous Mage"
  dangerous_mage_desc:0 "This character is known to use magic in harmful and malicious ways."
+
+ 
+  mages_damage_add:1 "[magic|E] [damage|E]"
+  mages_damage_mult:0 "$mages_damage_add$"
+  mages_pursuit_add:1 "[magic|E] [pursuit|E]"
+  mages_pursuit_mult:0 "$mages_pursuit_add$"
+  mages_screen_add:1 "[magic|E] [screen|E]"
+  mages_screen_mult:0 "$mages_screen_add$"
+  mages_toughness_add:1 "[magic|E] [toughness|E]"
+  mages_toughness_mult:0 "$mages_toughness_add$"
+  mages_siege_value_add:1 "[magic|E] [siege_progress|E]"
+  mages_siege_value_mult:0 "$mages_siege_value_add$"
+  mages_max_size_add:0 "Max Size of [magic|E] [regiments|E]"
+  mages_maintenance_add:0 "[magic|E] Maintenance"
+  mages_maintenance_mult:0 "$mages_maintenance_add$"

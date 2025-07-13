@@ -5,6 +5,7 @@
 8500.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_quilted_armor
+	discover_innovation = innovation_combatspells
 	#
 	discover_innovation = innovation_currency_01
 	discover_innovation = innovation_plenary_assemblies
