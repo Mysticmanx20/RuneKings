@@ -8,6 +8,7 @@
 	discover_innovation = innovation_quilted_armor
 	discover_innovation = innovation_currency_01
 	discover_innovation = innovation_plenary_assemblies
+	discover_innovation = innovation_combatspells
 }
 
 8900.1.1 = {

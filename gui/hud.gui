@@ -5859,7 +5859,7 @@ types HUD
 											army_quality_icon = {}
 										}
 
-										progressbar_standard = {
+										progressbar_rk_standard = {
 											name = "soldiers_max"
 											size = { 40 8 }
 											visible = "[NotEqualTo_int32(ArmyComposition.GetMaxNumberOfSoldiers, '(int32)0')]"

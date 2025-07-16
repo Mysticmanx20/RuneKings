@@ -838,6 +838,7 @@ vampyre = {    # Vampyre
 werewolf = {    # Werewolf
 	color = { 0.43 0.21 0.1 }
 	created = 1.1.1
+
 	
 	ethos = ethos_bellicose
 	heritage = heritage_werewolf

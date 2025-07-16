@@ -10,6 +10,7 @@
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_gavelkind
+	discover_innovation = innovation_combatspells
 }
 
 9000.1.1 = {

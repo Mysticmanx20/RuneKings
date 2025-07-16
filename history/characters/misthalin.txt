@@ -138,7 +138,7 @@
 	9158.1.1 = {
 		add_spouse = 900107
 	}
-	9167.1.2 = {
+	9167.1.1 = {
 		effect = {	
 			appoint_court_position = {
 				recipient = character:misth049
@@ -2962,7 +2962,7 @@ misth049 = {
 	9139.1.1 = {
 		birth = yes
 	}
-	9167.1.1 = {
+	9166.1.1 = {
 		employer = 900106
 	}
 
