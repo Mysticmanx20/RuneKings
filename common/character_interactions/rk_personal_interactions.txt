@@ -497,7 +497,7 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						is_parent_of = scope:recipient
+						scope:actor = { is_parent_of = scope:recipient }
 						NOT = {
 							has_trait_with_flag = can_murder_own_children
 						}
@@ -533,7 +533,7 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						is_parent_of = scope:recipient
+						scope:actor = { is_parent_of = scope:recipient }
 						NOT = {
 							has_trait_with_flag = can_murder_own_children
 						}
@@ -569,7 +569,7 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						is_parent_of = scope:recipient
+						scope:actor = { is_parent_of = scope:recipient }
 						NOT = {
 							has_trait_with_flag = can_murder_own_children
 						}
@@ -605,7 +605,7 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						is_parent_of = scope:recipient
+						scope:actor = { is_parent_of = scope:recipient }
 						NOT = {
 							has_trait_with_flag = can_murder_own_children
 						}
@@ -641,7 +641,7 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						is_parent_of = scope:recipient
+						scope:actor = { is_parent_of = scope:recipient }
 						NOT = {
 							has_trait_with_flag = can_murder_own_children
 						}

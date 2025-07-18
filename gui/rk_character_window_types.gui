@@ -1,6 +1,6 @@
 types CharWindow
 {
-	type ek_magicka = icon
+	type rk_runes = icon
 	{
 		
 		size = { 23 23 }

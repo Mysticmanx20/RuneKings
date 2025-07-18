@@ -986,6 +986,9 @@ window = {
 									texture = "gfx/interface/icons/character_status/icon_dead.dds"
 									tooltip = "CHARACTER_DEAD_TOOLTIP"
 								}
+
+								# RK ADDITION: Runes
+								rk_runes = { }
 							}
 
 							expand = {}
@@ -4906,7 +4909,7 @@ types CharacterWindow
 					fontsize_min = 12
 					max_width = 80
 
-					progressbar_standard = {
+					progressbar_rk_standard = {
 						name = "soldiers_max"
 						visible = "[NotEqualTo_int32(CharacterWindow.GetMaxSoldiers, '(int32)0')]"
 						parentanchor = bottom|hcenter
