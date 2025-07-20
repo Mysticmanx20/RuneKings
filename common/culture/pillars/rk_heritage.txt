@@ -1,0 +1,99 @@
+﻿heritage_human = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_element = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_icyene = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_fren = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_penguin = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_bandos = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_scabarite = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_void = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_dwarf = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_vampyre = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_dragonkin = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_undead = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_various2 = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_gnome = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_troll = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_elf = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_monkey = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_werewolf = {
+	type = heritage
+	audio_parameter = european
+}
+
+heritage_lizard = {
+	type = heritage
+	audio_parameter = mena
+}
+
+heritage_demon = {
+	type = heritage
+	audio_parameter = european
+}
