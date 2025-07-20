@@ -1,4 +1,9 @@
-﻿100900 = {
+﻿1 = {
+	name = "dynn_atlas"
+	culture = "greek"
+}
+
+100900 = {
 	name = "dynn_Miller"
 	culture = misthalin
 	motto = "dynn_Miller_motto"
