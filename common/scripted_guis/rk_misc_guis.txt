@@ -1,0 +1,7 @@
+
+### Runes
+can_see_rune_count = {
+	scope = character
+	
+	is_valid = { no_magic_ability_trigger = no }
+}

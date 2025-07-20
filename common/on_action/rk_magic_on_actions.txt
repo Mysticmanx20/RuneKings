@@ -154,6 +154,42 @@ on_start_magic = {
 				remove_trait = base_arcana_12
 			}
 		}
+		if = {
+			limit = { 
+				OR = {
+					is_landed_or_landless_administrative = yes 
+					is_landless_adventurer = yes
+				}
+				NOT = {
+					culture = { has_innovation = innovation_azdaran }
+				}
+			}
+			if = {
+				limit = { highest_held_title_tier = tier_empire }
+				set_variable = { name = magicka value = 150 }
+			}
+			else_if = {
+				limit = { highest_held_title_tier = tier_kingdom }
+				set_variable = { name = magicka value = 100 }
+			}
+			else_if = {
+				limit = { 
+					AND ={
+						is_landless_adventurer = no
+						highest_held_title_tier = tier_duchy 
+					}
+					
+				}
+				set_variable = { name = magicka value = 50 }
+			}	
+			else_if = {
+				limit = { highest_held_title_tier = tier_county }
+				set_variable = { name = magicka value = 25 }
+			}
+			else = {
+				set_variable = { name = magicka value = 0 }
+			}			
+		}
 	}
 }
 

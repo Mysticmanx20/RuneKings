@@ -23,7 +23,7 @@
 	# Core Triggers
 	allow = {
 		is_ai = no
-		age >= 14
+		age >= 12
 		is_imprisoned = no
 
 		scope:target = {

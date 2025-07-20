@@ -497,12 +497,12 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						scope:actor = { is_parent_of = scope:recipient }
+						scope:actor = { is_parent_of = scope:recipient  }
 						NOT = {
-							has_trait_with_flag = can_murder_own_children
+							scope:actor = { has_trait_with_flag = can_murder_own_children }
 						}
 					}
-					NOT = { is_parent_of = scope:recipient }
+					scope:actor = { is_parent_of = scope:recipient } 
 				}
 				custom_description = { #cant cast on self
 					text = spell_hostile_self
@@ -517,10 +517,11 @@ cast_spell_interaction = {
 			}
 
 			scope:actor = { 
-				NOT = { 
+				NOR = { 
 					has_character_modifier = dangerous_mage
+					has_runes_less_than = { VALUE = 25 }
 				} 
-				has_runes_more_than = { VALUE = 25 }
+				
 			}
 		}
 		flag = airstrike
@@ -533,12 +534,12 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						scope:actor = { is_parent_of = scope:recipient }
+						scope:actor = { is_parent_of = scope:recipient  }
 						NOT = {
-							has_trait_with_flag = can_murder_own_children
+							scope:actor = { has_trait_with_flag = can_murder_own_children } 
 						}
 					}
-					NOT = { is_parent_of = scope:recipient }
+					scope:actor = { is_parent_of = scope:recipient } 
 				}
 				custom_description = { #cant cast on self
 					text = spell_hostile_self
@@ -553,10 +554,11 @@ cast_spell_interaction = {
 			}
 
 			scope:actor = { 
-				NOT = { 
+				NOR = { 
 					has_character_modifier = dangerous_mage
+					has_runes_less_than = { VALUE = 25 }
 				} 
-				has_runes_more_than = { VALUE = 25 }
+				
 			}
 		}
 		flag = bind
@@ -569,12 +571,12 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						scope:actor = { is_parent_of = scope:recipient }
+						scope:actor = { is_parent_of = scope:recipient  }
 						NOT = {
-							has_trait_with_flag = can_murder_own_children
+							scope:actor = { has_trait_with_flag = can_murder_own_children } 
 						}
 					}
-					NOT = { is_parent_of = scope:recipient }
+					scope:actor = { is_parent_of = scope:recipient } 
 				}
 				custom_description = { #cant cast on self
 					text = spell_hostile_self
@@ -589,10 +591,10 @@ cast_spell_interaction = {
 			}
 
 			scope:actor = { 
-				NOT = { 
+				NOR = { 
 					has_character_modifier = dangerous_mage
+					has_runes_less_than = { VALUE = 25 }
 				} 
-				has_runes_more_than = { VALUE = 25 }
 			}
 		}
 		flag = confuse
@@ -605,12 +607,12 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						scope:actor = { is_parent_of = scope:recipient }
+						scope:actor = { is_parent_of = scope:recipient  }
 						NOT = {
-							has_trait_with_flag = can_murder_own_children
+							scope:actor = { has_trait_with_flag = can_murder_own_children } 
 						}
 					}
-					NOT = { is_parent_of = scope:recipient }
+					scope:actor = { is_parent_of = scope:recipient } 
 				}
 				custom_description = { #cant cast on self
 					text = spell_hostile_self
@@ -625,10 +627,10 @@ cast_spell_interaction = {
 			}
 			
 			scope:actor = { 
-				NOT = { 
+				NOR = { 
 					has_character_modifier = dangerous_mage
+					has_runes_less_than = { VALUE = 25 }
 				} 
-				has_runes_more_than = { VALUE = 25 }
 			}
 		}
 		flag = spell_weaken
@@ -641,12 +643,12 @@ cast_spell_interaction = {
 			NOR = {
 				trigger_if = { #cant cast on own children
 					limit = {
-						scope:actor = { is_parent_of = scope:recipient }
+						scope:actor = { is_parent_of = scope:recipient  }
 						NOT = {
-							has_trait_with_flag = can_murder_own_children
+							scope:actor = { has_trait_with_flag = can_murder_own_children } 
 						}
 					}
-					NOT = { is_parent_of = scope:recipient }
+					scope:actor = { is_parent_of = scope:recipient } 
 				}
 				custom_description = { #cant cast on self
 					text = spell_hostile_self
@@ -661,10 +663,10 @@ cast_spell_interaction = {
 			}
 			
 			scope:actor = { 
-				NOT = { 
+				NOR = { 
 					has_character_modifier = dangerous_mage
+					has_runes_less_than = { VALUE = 30 }
 				} 
-				has_runes_more_than = { VALUE = 30 }
 			}
 		}
 		flag = curse
@@ -678,7 +680,7 @@ cast_spell_interaction = {
 		}
 		is_valid = {
 			scope:actor = {
-				has_runes_more_than = { VALUE = 25 }
+				NOT = { has_runes_less_than = { VALUE = 25 } }
 			}
 		}
 		flag = enchant_other
@@ -692,7 +694,7 @@ cast_spell_interaction = {
 		}
 		is_valid = {
 			scope:actor = {
-				has_runes_more_than = { VALUE = 25 }
+				NOT = { has_runes_less_than = { VALUE = 25 } }
 			}
 		}
 		flag = enchant_personal
@@ -703,7 +705,7 @@ cast_spell_interaction = {
 		is_valid = {
 			scope:actor = {
 				has_magic = { VALUE = 6 }
-				has_runes_more_than = { VALUE = 30 }
+				NOT = { has_runes_less_than = { VALUE = 30 } }
 			}
 		}
 		flag = lowalch

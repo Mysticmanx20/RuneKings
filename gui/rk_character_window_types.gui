@@ -2,7 +2,7 @@ types CharWindow
 {
 	type rk_runes = icon
 	{
-		
+		visible = "[And( Not( Character.IsDeadAndValid ), Character.MakeScope.Var('magicka').IsSet )]"
 		size = { 23 23 }
 		texture = "gfx/interface/icons/icon_magicka.dds"
 		#tooltip = magicka_value_char_view

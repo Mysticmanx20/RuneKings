@@ -51,7 +51,13 @@ has_runes_more_than = {
 }
 
 no_magic_ability_trigger = {
-	culture = {
-		has_innovation = innovation_azdaran
+	OR = {
+		is_incapable = yes
+		age < 12
+		culture = {
+			has_innovation = innovation_azdaran
+		}
+		is_landed_or_landless_administrative = no
 	}
+
 }

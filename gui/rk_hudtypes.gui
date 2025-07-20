@@ -6,7 +6,7 @@
 		alwaystransparent = no
 		
 		widget = {
-			datacontext = "[GetScriptedGui('can_see_magic_bar')]"
+			datacontext = "[GetScriptedGui('can_see_rune_count')]"
 			visible = "[ScriptedGui.IsValid( GuiScope.SetRoot(GetPlayer.MakeScope).End )]"
 			name = "magicka_widget"
 			size = { 39 113 }

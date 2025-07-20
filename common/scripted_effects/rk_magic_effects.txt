@@ -33,7 +33,12 @@ add_runes = {
         if = {            
             limit = { NOT = { has_variable = magicka } }
             if = {
-                limit = { NOT = { $VALUE$ = 0 } }
+                limit = { 
+                    NOR = { 
+                        $VALUE$ = 0 
+                        culture = { has_innovation = innovation_azdaran }
+                    } 
+                }
                 set_variable = { name = magicka value = $VALUE$ }
                 
             }
