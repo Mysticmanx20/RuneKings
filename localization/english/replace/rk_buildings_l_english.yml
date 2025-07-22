@@ -47,10 +47,10 @@
 
 #Special Holy Buildings
 
- building_type_ananda_temple_01:1 "Tower of Voices"
- building_type_ananda_temple_01_desc:0 "The Tower of Voices is a large tower found in the center of Prifddinas, and is named as such because within the tower, it is said that the elves can speak directly to one of the fragments of their goddess, Seren. The tower, formed from pure crystal, is the most important part of elven society."
- building_ananda_temple_01:0 "$building_type_ananda_temple_01$"
- building_ananda_temple_01_desc:0 "$building_type_ananda_temple_01_desc$"
+ building_type_tower_of_voices:1 "Tower of Voices"
+ building_type_tower_of_voices_desc:0 "The Tower of Voices is a large tower found in the center of Prifddinas, and is named as such because within the tower, it is said that the elves can speak directly to one of the fragments of their goddess, Seren. The tower, formed from pure crystal, is the most important part of elven society."
+ building_tower_of_voices:0 "$building_type_tower_of_voices$"
+ building_tower_of_voices_desc:0 "$building_type_tower_of_voices_desc$"
  NOT_ELF_TOWER_ENABLED:1 "The [holder|E] must be of the $seren_religion$ [religion|E] and the $crystal_seed_modifier$ modifier must not be active."
 
 #Special Historical buildings

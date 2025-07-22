@@ -1,6 +1,6 @@
 ﻿
 
-ananda_temple_01 = {  #tower of voices
+tower_of_voices = {  #tower of voices
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_shwedagon_pagoda.dds"
