@@ -1101,7 +1101,7 @@
 }
 
 900165 = {
-    name = "Evil Dave"
+    name = "Evil_dave"
     dynasty = 100939
     mother = 900166
     culture = misthalin
@@ -1359,7 +1359,7 @@
 }
 
 900182 = {
-    name = "Count Check"
+    name = "Count_check"
     culture = vampyre
     religion = zamorak
 	9129.1.1 = {
@@ -2969,7 +2969,7 @@ misth049 = {
 }
 
 misth050 = {
-	name = "Sir Mitch"
+	name = "Sir_mitch"
 	dynasty = 100907
 	sexuality = heterosexual
 	culture = vampyre

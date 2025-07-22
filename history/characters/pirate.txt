@@ -100,7 +100,7 @@ pirate008 = {
 }
 
 pirate009 = {
-	name = "San Fan"
+	name = "San_fan"
 	female = yes
 	culture = piratecul
 	religion = godless
@@ -121,7 +121,7 @@ pirate010 = {
 }
 
 pirate011 = {
-	name = "Pirate Pete"
+	name = "Pirate_pete"
 	culture = piratecul
 	religion = godless
 	trait = education_intrigue_3

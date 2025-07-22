@@ -408,7 +408,7 @@ frem028 = {
 }
 
 frem029 = {
-	name = "Dagannoth Supreme"
+	name = "Dagannoth_supreme"
 	religion = bandos #serpent?
 	culture = troll #dagannoth
 	trait = education_martial_4

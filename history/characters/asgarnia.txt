@@ -296,7 +296,7 @@
 }
 
 900324 = {
-    name = "Party Pete"
+    name = "Party_pete"
     religion = saradomin
     culture = asgarnia
     trait = education_stewardship_4

@@ -43,7 +43,7 @@ troll004 = {
 }
 
 troll005 = {
-	name = "My Arm"
+	name = "My_arm"
 	culture = troll
 	religion = bandos
 	trait = diligent
@@ -249,7 +249,7 @@ troll019 = {
 }
 
 troll020 = {
-	name = "Odd Mushroom"
+	name = "Odd_mushroom"
 	religion = bandos
 	culture = icetroll
 	trait = education_learning_4
@@ -264,7 +264,7 @@ troll020 = {
 }
 
 troll021 = {
-	name = "Don't Know What"
+	name = "Don't_know_what"
 	religion = bandos
 	culture = icetroll
 	martial = 10

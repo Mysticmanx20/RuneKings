@@ -341,7 +341,7 @@
 }
 
 900821 = {
-	name = "Al Shabim"
+	name = "Al_shabim"
 	religion = menaph
 	culture = bedabin
 	9137.1.1 = {
@@ -1121,7 +1121,7 @@ desert001 = {
 }
 
 desert002 = {
-	name = "Kalphite Queen"
+	name = "Kalphite_queen"
 	female = yes
 	religion = menaph
 	culture = kalphite

@@ -351,7 +351,7 @@ karam026 = {
 }
 
 karam027 = {
-	name = "Pest Queen"
+	name = "Pest_queen"
 	female = yes
 	culture = voidpest
 	religion = zamorak
