@@ -1,0 +1,13 @@
+﻿l_english:
+
+  undead_tribute_cb:0 "Undead Invasion"
+  UNDEAD_TRIBUTE_CB_NAME: "Undead Invasion of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+  # UNDEAD_TRIBUTE_CB_SPECIFIC_NAME: "Vassalize [DEFENDER.GetShortUIName]"
+  UNDEAD_TRIBUTE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix] Undead Invasion of [DEFENDER.GetPrimaryTitle.GetPrefix]"
+  UNDEAD_TRIBUTE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  UNDEAD_TRIBUTE_CB_victory_desc_attacker: "[defender.GetShortUIName|U] changes to [ATTACKER.GetCulture.GetName]and becomes your [tributary|E]."
+  UNDEAD_TRIBUTE_CB_victory_desc_defender: "You change to [ATTACKER.GetCulture.GetName] and become [attacker.GetShortUINamePossessive] [tributary|E]."
+  UNDEAD_TRIBUTE_CB_victory_desc: "[defender.GetShortUIName|U] changes to [ATTACKER.GetCulture.GetName] and becomes [attacker.GetShortUINamePossessive] [tributary|E]."
+  UNDEAD_TRIBUTE_CB_white_peace_desc_defender: "You remain independent."
+  UNDEAD_TRIBUTE_CB_white_peace_desc: "[defender.GetShortUIName|U] remains independent."
+  UNDEAD_TRIBUTE_CB_defeat_desc_attacker: "[defender.GetShortUIName|U] remains independent. All [factions|E] against you increase their [discontent|E]."

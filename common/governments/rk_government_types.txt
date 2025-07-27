@@ -10,6 +10,7 @@ undead_government = {
 	
 	supply_limit_mult_for_others = -0.5
 	primary_holding = tribal_holding
+	primary_heritages = { heritage_undead }
 	required_county_holdings = { tribal_holding }
 
 	dynasty_named_realms = no
@@ -18,6 +19,7 @@ undead_government = {
 
 	always_use_patronym = yes	
 	affected_by_development = no
+	max_dread = 150
 
 	vassal_contract = { clan_government_obligations }
 
@@ -31,10 +33,11 @@ undead_government = {
 	}
 
 	character_modifier = {
-		title_creation_cost_mult = -0.5
+		
 		army_maintenance_mult = -0.5
 
 		feudal_government_vassal_opinion = -20
+		tribal_government_vassal_opinion = -20
 		clan_government_vassal_opinion = -20
 		republic_government_vassal_opinion = -20
 		
@@ -45,6 +48,8 @@ undead_government = {
 	
 	flag = government_can_raid_rule
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
-	flag = government_is_tribal
+	flag = governemnt_is_tribal
+	flag = government_is_undead
+	flag = can_raze_holdings
 	color = hsv{ 0.16 0.7 0.8 }
 }
