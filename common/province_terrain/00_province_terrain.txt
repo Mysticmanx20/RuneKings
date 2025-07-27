@@ -672,3 +672,12 @@ default_coastal_sea=coastal_sea
 669=underground
 670=underground
 671=underground
+672=underground
+673=mountains
+674=forest
+675=underground
+676=wasteland
+677=underground
+678=underground
+679=wasteland
+

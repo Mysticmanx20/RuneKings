@@ -76,5 +76,19 @@ c_wcaltar = {
 	}
 }
 
+c_lavadun = {
+	9158.1.1 = {
+		holder = dragon002
+		liege = 0
+		change_development_level = 1
+	}
+}
 
+c_innerlava = {
+	9158.1.1 = {
+		holder = dragon002
+		liege = 0
+		change_development_level = 1
+	}
+}
 

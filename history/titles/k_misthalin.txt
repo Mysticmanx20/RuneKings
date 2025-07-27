@@ -562,3 +562,18 @@ c_westgobs = {
 	}
 }
 
+c_silvouter = {
+	9168.1.1 = {
+		liege = 0
+		holder = wild029
+		change_development_level = 3
+	}
+}
+
+c_gulvas = {
+	9168.1.1 = {
+		liege = k_misthalin
+		holder = misth051
+		change_development_level = 3
+	}
+}

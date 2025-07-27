@@ -652,12 +652,42 @@ e_zaros = {
 					color = { 169 116 149}
 					province = 305
 				}
+
+				b_patermaso = {
+					color = { 183 147 37}
+					province = 672
+				}
 			}
 
 			c_limestone = {
+				color = { 117 100 108}
+
 				b_limestone = {
 					color = { 117 100 108}
 					province = 306
+				}
+			}
+
+			c_gulvas = {
+				color = { 73 27 123 }
+
+				b_gulvas = {
+					color = { 73 27 123 }
+					province = 673
+				}
+			}
+
+			c_silvouter = {
+				color = { 73 103 123}
+
+				b_zemobase = {
+					color = { 73 103 123 }
+					province = 675
+				}
+
+				b_silvwild = {
+					color = { 137 103 86}
+					province = 674
 				}
 			}
 		}
@@ -1879,7 +1909,35 @@ e_zaros = {
 
 		d_lavamaze = {
 			color = { 255 180 0}
-			capital = c_lmaze
+			capital = c_lavadun
+
+			c_lavadun = {
+				color = { 93 86 0}
+
+				b_lavadun = {
+					color = { 93 86 0}
+					province = 678
+				}
+
+				b_lavatop = {
+					color = { 102 51 0}
+					province = 679
+				}
+			}
+
+			c_innerlava = {
+				color = { 56 51 0}
+
+				b_innerlavadun = {
+					color = { 56 51 0}
+					province = 677
+				}
+
+				b_innerlava = {
+					color = { 102 51 0}
+					province = 676
+				}
+			}
 
 			c_lmaze = {
 				color = { 255 180 0 }

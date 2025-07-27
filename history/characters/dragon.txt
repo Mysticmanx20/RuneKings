@@ -8,6 +8,7 @@
     trait = arbitrary
     trait = sadistic
     trait = education_martial_4
+	disallow_random_traits = yes
     9114.1.1 = {
         birth = yes
     }
@@ -22,7 +23,22 @@ dragon001 = {
 	trait = greedy
 	trait = wrathful
 	trait = education_martial_4
+	disallow_random_traits = yes
 	9135.1.1 = {
+		birth = yes
+	}
+}
+
+dragon002 = {
+	name = "Shakorexis"
+	religion = jas
+	culture = dragon
+	trait = wrathful
+	trait = callous
+	trait = vengeful
+	trait = education_martial_4
+	disallow_random_traits = yes
+	9120.1.1 = {
 		birth = yes
 	}
 }

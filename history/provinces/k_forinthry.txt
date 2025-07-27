@@ -54,8 +54,8 @@
 }
 
 151 = { #lavaIsle
-	religion = zamorak
-	culture = wild
+	religion = jas
+	culture = dragon
 	holding = tribal_holding
 }
 
@@ -101,4 +101,27 @@
 	holding = tribal_holding
 }
 
+676 = {
+	religion = jas
+	culture = dragon
+	holding = none
+}
+
+677 = {
+	religion = jas
+	culture = dragon
+	holding = tribal_holding
+}
+
+678 = {
+	religion = jas
+	culture = dragon
+	holding = tribal_holding
+}
+
+679 = {
+	religion = jas
+	culture = dragon
+	holding = none
+}
 

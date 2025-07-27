@@ -646,6 +646,30 @@
 	holding = church_holding
 }
 
+672 = {
+	religion = saradomin
+	culture = misthalin
+	holding = church_holding
+}
+
+673 = {
+	religion = saradomin
+	culture = misthalin
+	holding = castle_holding
+}
+
+674 = {
+	religion = zamorak
+	culture = ghost #zombies
+	holding = none
+}
+
+675 = {
+	religion = zamorak
+	culture = ghost #zombies
+	holding = castle_holding
+}
+
 
 
 
