@@ -198,10 +198,10 @@ wild019 = {
 	#dynasty Bonde
 	religion = saradomin
 	culture = misthalin
-	1701.1.1 = {
+	8739.1.1 = {
 		birth = yes
 	}
-	1731.1.1 = {
+	8769.1.1 = {
 		death = yes #murdered
 	}
 }
@@ -212,16 +212,14 @@ wild020 = {
 	female = yes
 	religion = saradomin
 	culture = misthalin
-	1700.1.1 = {
+	8739.1.1 = {
 		birth = yes
 	}
-	1720.1.1 = {
+	8759.1.1 = {
 		add_spouse = wild019
 	}
-	1729.12.1 = {
-		add_spouse = wild022
-	}
-	1730.1.1 = {
+
+	8768.1.1 = {
 		death = yes #poisoned
 	}
 }
@@ -234,10 +232,10 @@ wild021 = {
 	culture = misthalin
 	mother = wild020
 	father = wild019
-	1724.1.1 = {
+	8763.1.1 = {
 		birth = yes
 	}
-	1731.1.1 = {
+	8769.1.1 = {
 		death = yes #murdered
 	}
 }
@@ -247,7 +245,8 @@ wild022 = {
 	#dynasty Bonde
 	religion = saradomin
 	culture = ghost
-	9139.1.1 = {
+	trait = education_stewardship_2
+	8769.1.1 = {
 		birth = yes
 	}
 }
@@ -259,8 +258,7 @@ wild023 = {
 	religion = saradomin
 	culture = ghost
 	father = wild022
-	mother = wild020
-	9162.1.1 = {
+	8769.1.1 = {
 		birth = yes
 	}
 }

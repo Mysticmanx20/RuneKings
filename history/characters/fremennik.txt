@@ -180,7 +180,7 @@ frem013 = {
 	trait = ambitious
 	trait = curious
 	disallow_random_traits = yes
-	11606.1.1 = {
+	9156.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {

@@ -1,4 +1,4 @@
-
+﻿
 ### Runes
 can_see_rune_count = {
 	scope = character

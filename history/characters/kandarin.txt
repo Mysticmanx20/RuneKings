@@ -621,7 +621,7 @@ kand046 = {
 	female = yes
 	religion = saradomin
 	culture = kandarin
-	11606.1.1 = {
+	9157.1.1 = {
 		birth = yes
 	}
 	9168.1.1 = {

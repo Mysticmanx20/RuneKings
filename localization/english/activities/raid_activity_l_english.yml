@@ -1,7 +1,6 @@
 ﻿l_english:
 
-  activity_raid_selection_tooltip:1 "Lauch a daring raid against a powerful foe, for fame and spoils\n\nAnticipated Rewards:\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E] Gain\n$BULLET_WITH_TAB$[stress_loss_i] [stress|E] Loss
-  \n$BULLET_WITH_TAB$May gain rare [artifacts|E]" 
+  activity_raid_selection_tooltip:1 "Lauch a daring raid against a powerful foe, for fame and spoils\n\nAnticipated Rewards:\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E] Gain\n$BULLET_WITH_TAB$[stress_loss_i] [stress|E] Loss\n$BULLET_WITH_TAB$May gain rare [artifacts|E]" 
   raid_tob:1 "Theatre of Blood"
   raid_tob_desc:1 "Travel through Morytania and survive the blood sports of the vampyres in Ver Sinhaza."
   raid_xeric:1 "Chambers of Xeric"
